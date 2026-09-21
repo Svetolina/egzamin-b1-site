@@ -10,12 +10,12 @@ B1.register({
   {
    "id": "gram",
    "title": "Poprawność gramatyczna: сборник",
-   "max": 268.5,
+   "max": 372.0,
    "minutes": 0,
-   "meta": "62 упражнений",
+   "meta": "83 упражнений",
    "tasks": [
     {
-     "id": "k01",
+     "id": "k1-1",
      "page": 4,
      "name": "Имена, блок 1, I",
      "kind": "gaps",
@@ -159,7 +159,7 @@ B1.register({
      "max": 4.0
     },
     {
-     "id": "k02",
+     "id": "k1-2",
      "page": 4,
      "name": "Имена, блок 1, II",
      "kind": "gaps",
@@ -217,7 +217,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k03",
+     "id": "k1-3",
      "page": 5,
      "name": "Имена, блок 1, III",
      "kind": "gaps",
@@ -278,7 +278,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k04",
+     "id": "k1-4",
      "page": 5,
      "name": "Имена, блок 1, IV",
      "kind": "gaps",
@@ -336,7 +336,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k05",
+     "id": "k1-5",
      "page": 6,
      "name": "Имена, блок 1, V",
      "kind": "gaps",
@@ -397,7 +397,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k06",
+     "id": "k1-6",
      "page": 6,
      "name": "Имена, блок 1, VI",
      "kind": "gaps",
@@ -455,7 +455,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k07",
+     "id": "k1-7",
      "page": 6,
      "name": "Имена, блок 1, VII",
      "kind": "gaps",
@@ -509,7 +509,126 @@ B1.register({
      "max": 4.5
     },
     {
-     "id": "k08",
+     "id": "k1-8",
+     "page": 7,
+     "name": "Имена, блок 1, VIII",
+     "kind": "gaps",
+     "rn": "1.VIII.",
+     "pts": 1.0,
+     "instr": [
+      "Proszę uzupełnić tekst poprawną formą wyrazów w nawiasach zgodnie z podanym przykładem (odmiana rzeczowników).",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "text": [
+      "Przykład: Maria i Antoni są bardzo {e:towarzyskimi ludźmi|towarzyski człowiek}. Państwo Antoni i Maria Kowalscy mają wielu {1} i często zapraszają ich do {2}, który stoi w lesie nad {3}. Nic dziwnego, że goście lubią odwiedzać {4} w tej pięknej i spokojnej okolicy. Wielu {5} bardzo podobają się nie tylko mazurskie krajobrazy, ale także opowieści {6}, którym przysłuchują się przy {7} zrobionej przez {8}. Antoni i Maria są malarzami, dlatego {9} każdego ze spotkań towarzyskich jest pokaz kilku {10} gospodarzy."
+     ],
+     "gaps": [
+      {
+       "a": "dobrych przyjaciół",
+       "hint": "dobry przyjaciel"
+      },
+      {
+       "a": "swojego domu",
+       "hint": "swój dom"
+      },
+      {
+       "a": "jeziorem mazurskim",
+       "hint": "jezioro mazurskie"
+      },
+      {
+       "a": "państwa Kowalskich",
+       "hint": "państwo Kowalscy"
+      },
+      {
+       "a": "starym znajomym",
+       "hint": "stary znajomy"
+      },
+      {
+       "a": "pana Antoniego",
+       "hint": "pan Antoni"
+      },
+      {
+       "a": "pysznej szarlotce",
+       "hint": "pyszna szarlotka"
+      },
+      {
+       "a": "panią Marię",
+       "hint": "pani Maria"
+      },
+      {
+       "a": "najważniejszą atrakcją",
+       "hint": "najważniejsza atrakcja"
+      },
+      {
+       "a": "ostatnich prac",
+       "hint": "ostatnia praca"
+      }
+     ],
+     "max": 10.0
+    },
+    {
+     "id": "k1-9",
+     "page": 7,
+     "name": "Существительные из рамки, блок 1, IX",
+     "rn": "1.IX.",
+     "pts": 0.5,
+     "max": 5.0,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą wyrazów z ramki zgodnie z podanym przykładem.",
+      "Впишите слова из рамки в нужной форме. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "kind": "gaps",
+     "box": [
+      "monopolowy",
+      "apteka",
+      "delikatesy",
+      "księgarnia",
+      "obuwniczy",
+      "cukiernia",
+      "warsztat",
+      "jubilerski",
+      "kwiaciarnia",
+      "postój",
+      "przystanek"
+     ],
+     "text": [
+      "Moja żona ma jutro urodziny, mam więc do załatwienia parę spraw na mieście, a tu jak na złość musiałem oddać samochód do {e:warsztatu|warsztat} i naprawa potrwa kilka dni. Nie wiem teraz czy pójść na {1} tramwajowy, czy lepiej od razu na {2} taksówek. Muszę załatwić tyle spraw! Obok {3}, do której zaglądam regularnie po nowe książki, jest sklep {4}, gdzie widziałem niedużą złotą broszkę. Bez samochodu będę tam jechał godzinę! Chyba jednak pojadę taksówką. Po drodze mam {5}, więc zamówię na jutro kwiaty, w {6} zamówię tort. Żona przygotowuje przyjęcie i pewnie jak zwykle będzie za dużo jedzenia, więc może poproszę taksówkarza, żeby zatrzymał na chwilę przy {7} i wezmę jakieś krople na żołądek – tak na wszelki wypadek. W {8} kupię dobrą kawę i jakiś koniak..., chociaż może lepiej po alkohole wybrać się do {9}. Odkąd samochód jest w naprawie, zauważyłem, że mam niezbyt wygodne buty, ale nie wiem, czy znajdę czas, żeby wejść do {10} i kupić sobie jakieś wygodniejsze."
+     ],
+     "gaps": [
+      {
+       "a": "przystanek"
+      },
+      {
+       "a": "postój"
+      },
+      {
+       "a": "księgarni"
+      },
+      {
+       "a": "jubilerski"
+      },
+      {
+       "a": "kwiaciarnię"
+      },
+      {
+       "a": "cukierni"
+      },
+      {
+       "a": "aptece"
+      },
+      {
+       "a": "delikatesach"
+      },
+      {
+       "a": "monopolowego"
+      },
+      {
+       "a": "obuwniczego"
+      }
+     ]
+    },
+    {
+     "id": "k2-1",
      "page": 8,
      "name": "Имена, блок 2, I",
      "kind": "gaps",
@@ -547,7 +666,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k09",
+     "id": "k2-2",
      "page": 8,
      "name": "Местоимения, блок 2, II",
      "kind": "gaps",
@@ -595,7 +714,58 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k10",
+     "id": "k2-3",
+     "page": 9,
+     "name": "Местоимения, блок 2, III",
+     "kind": "gaps",
+     "rn": "2.III.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst poprawną formą właściwego zaimka zgodnie z podanym przykładem.",
+      "Впишите слово (форму) в поле. Если ваш вариант верен, нажмите «засчитать»."
+     ],
+     "text": [
+      "Warszawa, 20 lipca 2006 r. Drogi Thomasie! Bardzo dziękuję za Twój długi i ciekawy list. Zadajesz tyle pytań! Nie mam dzisiaj zbyt dużo czasu, spróbuję jednak na niektóre z {e:nich} odpowiedzieć. Chcesz wiedzieć, jak wygląda moje życie w Polsce. Dobrze, zaraz o {1} opowiem, choć trudno {2} opisać w paru słowach. Po pierwsze: zaprzyjaźniłem się z wieloma warszawiakami najczęściej spędzam czas po pracy właśnie z {3} najczęściej z dziewczynami, czuję się wśród {4} zdecydowanie bardziej swojsko niż z mężczyznami. A szczególnie miło jest {5} w towarzystwie pewnej Agnieszki. Zresztą, nie tylko {6} podobają się polskie dziewczyny. Gdy zapytasz innych cudzoziemców, którzy mieszkają w Polsce, co o {7} sądzą, usłyszysz, że Polki wydają {8} się ciepłe, otwarte i bardziej tolerancyjne od mężczyzn. Thomasie, liczę na rewanż, to znaczy na ciekawe opowieści o Twoim stażu w Hiszpanii. Przede wszystkim napisz, jak smakują {9} potrawy hiszpańskie. Są chyba w Twoim guście, uwielbiasz przecież pomidory!!! Według {10} najlepszymi polskimi potrawami są zupy. Najsmaczniejsza, którą jadłem, to „zupa babuni”, czyli niedzielny rosół przygotowany przez babcię Agnieszki. Mniam, mniam! Czekam na Twój kolejny list. Mike, po polsku  Michał PS. Mniam, mniam znaczy, że coś było wyjątkowo smaczne i że chciałbyś jeszcze jedną porcję tego samego!!! Zaimki – różne"
+     ],
+     "gaps": [
+      {
+       "a": "nim"
+      },
+      {
+       "a": "je"
+      },
+      {
+       "a": "nimi"
+      },
+      {
+       "a": "nich"
+      },
+      {
+       "a": "mi"
+      },
+      {
+       "a": [
+        "mnie",
+        "mi"
+       ]
+      },
+      {
+       "a": "nich"
+      },
+      {
+       "a": "im"
+      },
+      {
+       "a": "Ci"
+      },
+      {
+       "a": "mnie"
+      }
+     ],
+     "max": 5.0
+    },
+    {
+     "id": "k3-1",
      "page": 10,
      "name": "Формы слов, блок 3, I",
      "kind": "gaps",
@@ -708,7 +878,7 @@ B1.register({
      "max": 3.0
     },
     {
-     "id": "k11",
+     "id": "k3-2",
      "page": 10,
      "name": "Формы слов, блок 3, II",
      "kind": "gaps",
@@ -789,7 +959,7 @@ B1.register({
      "max": 2.0
     },
     {
-     "id": "k12",
+     "id": "k3-3",
      "page": 11,
      "name": "Формы слов, блок 3, III",
      "kind": "gaps",
@@ -886,7 +1056,94 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k13",
+     "id": "k3-4",
+     "page": 11,
+     "name": "Местоимения, блок 3, IV",
+     "rn": "3.IV.",
+     "pts": 0.5,
+     "max": 5.0,
+     "instr": [
+      "Proszę uzupełnić zdania poprawną formą właściwych zaimków zgodnie z podanym przykładem.",
+      "Впишите форму местоимения. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "kind": "gaps",
+     "text": [
+      "Przykład: Jan jest wspaniałym ojcem. Bardzo troszczy się o {e:swoje} dzieci. Kiedy patrzę na {e:jego} dzieci wierzę, że mężczyzna jest w stanie wychowywać je bez kobiety.",
+      "1. Wpłaciliśmy wszystkie pieniądze na konto, gdy mamy zaufanie do {1} banku.",
+      "2. Zofia spędza każdą wolną chwilę w ogrodzie. Nie zaniedbuje {2} roślin.",
+      "3. Jesteśmy dobrymi sąsiadami. Możecie iść dzisiaj do kina, zaopiekujemy się {3} dziećmi.",
+      "4. Barbara często odwiedza wnuczęta i przy każdej okazji robi zdjęcia {4} najmłodszej wnuczce.",
+      "5. Wiem, że uczysz w szkole, ale nie sądziłem, że co roku jeździsz ze {5} uczniami w góry.",
+      "6. Maria i Piotr zbierają znaczki, ale nikomu nie pokazują {6} kolekcji.",
+      "7. Cieszę się, że bierzecie ślub. Z radością zatańczę na {7} weselu.",
+      "8. Andrzej buduje dom. Przeznaczył go dla {8} synów.",
+      "9. Po latach odważyłam się pokazać, co maluję. Za tydzień otwieram wystawę {9} obrazów.",
+      "10. Musimy zmienić opiekunkę, zupełnie nie rozumie problemów {10} dzieci."
+     ],
+     "gaps": [
+      {
+       "a": [
+        "naszego",
+        "swojego",
+        "swego"
+       ]
+      },
+      {
+       "a": [
+        "swoich",
+        "swych"
+       ]
+      },
+      {
+       "a": "waszymi"
+      },
+      {
+       "a": [
+        "swojej",
+        "swej"
+       ]
+      },
+      {
+       "a": [
+        "swoimi",
+        "swymi",
+        "twoimi",
+        "twymi",
+        "ze swoimi",
+        "ze swymi",
+        "z twoimi",
+        "z twymi"
+       ]
+      },
+      {
+       "a": [
+        "swojej",
+        "swej"
+       ]
+      },
+      {
+       "a": "waszym"
+      },
+      {
+       "a": [
+        "swoich",
+        "swych"
+       ]
+      },
+      {
+       "a": [
+        "swoich",
+        "swych",
+        "moich"
+       ]
+      },
+      {
+       "a": "naszych"
+      }
+     ]
+    },
+    {
+     "id": "k3-5",
      "page": 12,
      "name": "Преобразование предложений, блок 3, V",
      "kind": "rewrite",
@@ -966,7 +1223,7 @@ B1.register({
      }
     },
     {
-     "id": "k14",
+     "id": "k3-6",
      "page": 12,
      "name": "Формы слов, блок 3, VI",
      "kind": "gaps",
@@ -1143,7 +1400,114 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k15",
+     "id": "k4-1",
+     "page": 13,
+     "name": "Степени сравнения, блок 4, I",
+     "rn": "4.I.",
+     "pts": 0.25,
+     "max": 2.5,
+     "instr": [
+      "Proszę podkreślić poprawną formę wyrazu zgodnie z podanym przykładem."
+     ],
+     "kind": "gaps",
+     "text": [
+      "Przykład: Po każdym praniu ten sweter robi się {e:dłuższy}.",
+      "1. Kto jest {1} w rodzinie - ty czy Adam?",
+      "2. To był {2} film, jaki w życiu widziałam.",
+      "3. Jarek jest {3} po balu niż po pracy.",
+      "4. Przesyłam Ci {4} pozdrowienia i uściski.",
+      "5. Jej ojciec z miesiąca na miesiąc staje się {5}.",
+      "6. Z całej rodziny {6} jest Piotrek.",
+      "7. Po każdym następnym kieliszku wina Jurek stawał się {7}.",
+      "8. Wydaje mi się, że twój pies jest {8} niż mój.",
+      "9. Poprzedni test był nadzwyczaj {9}.",
+      "10. Adam jest bez wątpienia {10} studentem na roku."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "starszy",
+        "coraz starszy",
+        "najstarszy"
+       ],
+       "a": "najstarszy"
+      },
+      {
+       "opts": [
+        "najnudniejszy",
+        "coraz bardziej nudny",
+        "mniej nudny"
+       ],
+       "a": "najnudniejszy"
+      },
+      {
+       "opts": [
+        "zmęczony",
+        "bardziej zmęczony",
+        "najmniej zmęczony"
+       ],
+       "a": "bardziej zmęczony"
+      },
+      {
+       "opts": [
+        "bardziej gorące",
+        "gorętsze",
+        "najgorętsze"
+       ],
+       "a": "najgorętsze"
+      },
+      {
+       "opts": [
+        "coraz bardziej siwy",
+        "najmniej siwy",
+        "najbardziej siwy"
+       ],
+       "a": "coraz bardziej siwy"
+      },
+      {
+       "opts": [
+        "bardziej opalony",
+        "opalony",
+        "najmniej opalony"
+       ],
+       "a": "najmniej opalony"
+      },
+      {
+       "opts": [
+        "wesoły",
+        "coraz weselszy",
+        "najweselszy"
+       ],
+       "a": "coraz weselszy"
+      },
+      {
+       "opts": [
+        "bardziej posłuszny",
+        "coraz mniej posłuszny",
+        "najmniej posłuszny"
+       ],
+       "a": "bardziej posłuszny"
+      },
+      {
+       "opts": [
+        "łatwiejszy",
+        "łatwy",
+        "mniej łatwy"
+       ],
+       "a": "łatwy"
+      },
+      {
+       "opts": [
+        "bardziej zdolnym",
+        "zdolniejszym",
+        "najzdolniejszym"
+       ],
+       "a": "najzdolniejszym"
+      }
+     ]
+    },
+    {
+     "id": "k4-2",
      "page": 14,
      "name": "Имена, блок 4, II",
      "kind": "gaps",
@@ -1181,7 +1545,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k16",
+     "id": "k4-3",
      "page": 14,
      "name": "Имена, блок 4, III",
      "kind": "gaps",
@@ -1219,7 +1583,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k17",
+     "id": "k4-4",
      "page": 15,
      "name": "Имена, блок 4, IV",
      "kind": "gaps",
@@ -1257,7 +1621,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k18",
+     "id": "k4-5",
      "page": 15,
      "name": "Имена, блок 4, V",
      "kind": "gaps",
@@ -1295,7 +1659,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k19",
+     "id": "k4-6",
      "page": 15,
      "name": "Имена, блок 4, VI",
      "kind": "gaps",
@@ -1362,7 +1726,7 @@ B1.register({
      "max": 7.5
     },
     {
-     "id": "k20",
+     "id": "k4-7",
      "page": 16,
      "name": "Имена, блок 4, VII",
      "kind": "gaps",
@@ -1400,7 +1764,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k21",
+     "id": "k5-1",
      "page": 17,
      "name": "Глаголы, настоящее время, блок 5, I",
      "kind": "gaps",
@@ -1458,7 +1822,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k22",
+     "id": "k5-2",
      "page": 17,
      "name": "Глаголы, настоящее время, блок 5, II",
      "kind": "gaps",
@@ -1522,7 +1886,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k23",
+     "id": "k5-3",
      "page": 18,
      "name": "Глаголы, настоящее время, блок 5, III",
      "kind": "gaps",
@@ -1620,7 +1984,7 @@ B1.register({
      "max": 10.0
     },
     {
-     "id": "k24",
+     "id": "k5-4",
      "page": 19,
      "name": "Глаголы, настоящее время, блок 5, IV",
      "kind": "gaps",
@@ -1681,7 +2045,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k25",
+     "id": "k6-1",
      "page": 19,
      "name": "Глаголы, прошедшее время, блок 6, I",
      "kind": "gaps",
@@ -1739,7 +2103,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k26",
+     "id": "k6-2",
      "page": 20,
      "name": "Глаголы, прошедшее время, блок 6, II",
      "kind": "gaps",
@@ -1800,7 +2164,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k27",
+     "id": "k6-3",
      "page": 20,
      "name": "Глаголы, прошедшее время, блок 6, III",
      "kind": "gaps",
@@ -1874,7 +2238,110 @@ B1.register({
      "max": 7.0
     },
     {
-     "id": "k28",
+     "id": "k6-4",
+     "page": 21,
+     "name": "Преобразование предложений, блок 6, IV",
+     "kind": "rewrite",
+     "rn": "6.IV.",
+     "pts": 1.0,
+     "instr": [
+      "Proszę przekształcić zdania zgodnie z podanym przykładem.",
+      "Проверка приблизительная: ищутся ключевые формы, баллы даются по частям. Если ваш вариант верен, нажмите «засчитать»."
+     ],
+     "items": [
+      {
+       "src": "Drodzy koledzy, mieliście wyjść z przyjęcia o ósmej, więc dlaczego wyszliście o północy?",
+       "hint": "Drogie koleżanki",
+       "model": "Drogie koleżanki, miałyście wyjść z przyjęcia o ósmej, więc dlaczego wyszłyście o północy?",
+       "parts": [
+        {
+         "re": /(^| )miałyście( |$)/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )wyszłyście( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Dlaczego mi panowie nie powiedzieli, że nie zanieśli panowie tych dokumentów do sekretariatu?",
+       "hint": "pan",
+       "model": "Dlaczego mi pan nie powiedział, że nie zaniósł tych dokumentów do sekretariatu?",
+       "parts": [
+        {
+         "re": /(^| )powiedział( |$)/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )zaniósł( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Proszę pani, najpierw pani wysiadła na złym przystanku, a potem przeszła ulicę na czerwonym świetle!",
+       "hint": "Moi panowie",
+       "model": "Moi panowie, najpierw panowie wysiedli na złym przystanku, a potem przeszli ulicę na czerwonym świetle!",
+       "parts": [
+        {
+         "re": /(^| )wysiedli( |$)/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )przeszli( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Nie mogłyście, czy nie chciałyście powiedzieć prawdy?",
+       "hint": "państwo",
+       "model": "Nie mogli państwo czy nie chcieli powiedzieć prawdy?",
+       "parts": [
+        {
+         "re": /(^| )mogli( |$)/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )chcieli( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Koledzy, dlaczego nie zajęliście nam miejsc? Musiałyśmy stać w czasie koncertu.",
+       "hint": "Tomku /ja",
+       "model": "Tomku, dlaczego nie zająłeś mi miejsca? Musiałem/Musiałam stać w czasie koncertu.",
+       "parts": [
+        {
+         "re": /(^| )zająłeś( |$)/,
+         "pts": 0.25
+        },
+        {
+         "re": /(^| )mi( |$)/,
+         "pts": 0.25
+        },
+        {
+         "re": /(^| )miejsca( |$)/,
+         "pts": 0.25
+        },
+        {
+         "re": /(^| )(musiałem|musiałam)( |$)/,
+         "pts": 0.25
+        }
+       ],
+       "approx": true
+      }
+     ],
+     "max": 5.0
+    },
+    {
+     "id": "k6-5",
      "page": 22,
      "name": "Глаголы, прошедшее время, блок 6, V",
      "kind": "gaps",
@@ -1934,7 +2401,7 @@ B1.register({
      "max": 7.0
     },
     {
-     "id": "k29",
+     "id": "k7-1",
      "page": 22,
      "name": "Глаголы, блок 7, I",
      "kind": "gaps",
@@ -1975,7 +2442,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k30",
+     "id": "k7-2",
      "page": 23,
      "name": "Глаголы, блок 7, II",
      "kind": "gaps",
@@ -2033,7 +2500,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k31",
+     "id": "k7-3",
      "page": 23,
      "name": "Глаголы, блок 7, III",
      "kind": "gaps",
@@ -2083,7 +2550,7 @@ B1.register({
      "max": 4.0
     },
     {
-     "id": "k32",
+     "id": "k7-4",
      "page": 24,
      "name": "Глаголы, блок 7, IV",
      "kind": "gaps",
@@ -2187,7 +2654,331 @@ B1.register({
      "max": 10.0
     },
     {
-     "id": "k33",
+     "id": "k7-5",
+     "page": 25,
+     "name": "Совершенный вид, блок 7, V",
+     "rn": "7.V.",
+     "pts": 0.5,
+     "max": 5.0,
+     "instr": [
+      "Proszę uzupełnić tabelę czasownikami w czasie przeszłym dokonanym zgodnie z podanym przykładem.",
+      "Beata spędzała czas na wakacjach bardzo monotonnie. Wczoraj napisała do Magdy list, w którym opisała to, co wczoraj zrobiła.",
+      "В таблице слева: что Беата делала вчера вечером. Впишите то, что вы сделали вчера вечером, от первого лица, глаголом в прошедшем времени совершенного вида (как в примере: pisała list → Napisałam list)."
+     ],
+     "kind": "rewrite",
+     "example": {
+      "src": "pisała list",
+      "hint": "",
+      "model": "Napisałam list."
+     },
+     "items": [
+      {
+       "src": "oglądała film",
+       "hint": "",
+       "model": "obejrzałam film",
+       "parts": [
+        {
+         "re": /(^| )obejrzałam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "opowiadała bajkę córce",
+       "hint": "",
+       "model": "opowiedziałam bajkę córce",
+       "parts": [
+        {
+         "re": /(^| )opowiedziałam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "kładła dziecko spać",
+       "hint": "",
+       "model": "położyłam dziecko spać",
+       "parts": [
+        {
+         "re": /(^| )położyłam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "prała bieliznę",
+       "hint": "",
+       "model": "wyprałam/uprałam/przeprałam bieliznę",
+       "parts": [
+        {
+         "re": /(^| )(wyprałam|uprałam)( |$)/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )przeprałam( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "czytała listy od przyjaciółki",
+       "hint": "",
+       "model": "przeczytałam listy od przyjaciółki",
+       "parts": [
+        {
+         "re": /(^| )przeczytałam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "dzwoniła do matki",
+       "hint": "",
+       "model": "zadzwoniłam do matki",
+       "parts": [
+        {
+         "re": /(^| )zadzwoniłam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "robiła kolację",
+       "hint": "",
+       "model": "zrobiłam kolację",
+       "parts": [
+        {
+         "re": /(^| )zrobiłam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "piła mleko z miodem",
+       "hint": "",
+       "model": "wypiłam mleko z miodem",
+       "parts": [
+        {
+         "re": /(^| )wypiłam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "podlewała kwiaty",
+       "hint": "",
+       "model": "podlałam kwiaty",
+       "parts": [
+        {
+         "re": /(^| )podlałam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "brała prysznic",
+       "hint": "",
+       "model": "wzięłam prysznic",
+       "parts": [
+        {
+         "re": /(^| )wzięłam( |$)/,
+         "pts": 1.0
+        }
+       ],
+       "approx": true
+      }
+     ]
+    },
+    {
+     "id": "k7-6",
+     "page": 25,
+     "name": "Глаголы, будущее время, блок 7, VI",
+     "kind": "gaps",
+     "rn": "7.VI.",
+     "pts": 0.75,
+     "instr": [
+      "Proszę uzupełnić tekst formami czasu przyszłego odpowiednich czasowników z ramki zgodnie z podanym przykładem. Uwaga! Każdy wyraz może być użyty tylko raz."
+     ],
+     "text": [
+      "jeździć/jechać/pojechać kupować/kupić robić/zrobić grać/zagrać latać/lecieć/polecieć zaczynać/zacząć kończyć/skończyć pracować/  zdawać/zdać wracać/wrócić studiować/  Tomek: Jak sądzisz, jak zmieni się nasze życie, gdy {e:skończymy} szkołę średnią? Anka: Nietrudno przewidzieć, że Agnieszka i Mateusz, świetnie {1} maturę i wkrótce {2} wymarzone studia. Agnieszka przez pięć lat {3} matematykę i filozofię w którymś z europejskich uniwersytetów i trzy lata później, albo jeszcze wcześniej, {4} doktorat. A Mateusz... Tomek: Mówił mi, że najpierw {5} do Anglii, żeby zarobić na nową gitarę. Anka: A jak chce to zrobić? Tomek: Od czerwca do września {6} w londyńskich klubach bluesowych. Zaprosili go ci Brytyjczycy, których poznał na konkursie „Kocham bluesa”. Ale po wakacjach {7} do Polski, żeby zacząć studia w szkole muzycznej w Katowicach. Jako laureat konkursu miejsce ma tam już zapewnione. Anka: A my, jako klasowi średniacy i dzieci niebogatych rodziców, przez całe lata {8} wieczorami w jakichś pubach lub barach, żeby zarobić na pieniądze na studia w prywatnej uczelni. Anka: Ale w każde wakacje {9} do Londynu, oczywiście tanimi liniami, i słuchać gry Mateusza na tej gitarze, którą {10} sobie w te wakacje. Tomek: Spotkania naszej klasy w Londynie! To brzmi nieźle. Anka: Też tak myślę. Tryb rozkazujący"
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "zdadzą"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "zaczną"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "będzie studiowała"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "zrobi"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "pojedzie"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "będzie grał"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "wróci"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "będziemy pracowali"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "będziemy latali"
+      },
+      {
+       "opts": [
+        "będzie grał",
+        "będzie studiowała",
+        "będziemy latali",
+        "będziemy pracowali",
+        "kupi",
+        "pojedzie",
+        "wróci",
+        "zaczną",
+        "zdadzą",
+        "zrobi"
+       ],
+       "a": "kupi"
+      }
+     ],
+     "max": 7.5,
+     "box": [
+      "będzie grał",
+      "będzie studiowała",
+      "będziemy latali",
+      "będziemy pracowali",
+      "kupi",
+      "pojedzie",
+      "wróci",
+      "zaczną",
+      "zdadzą",
+      "zrobi"
+     ]
+    },
+    {
+     "id": "k8-1",
      "page": 26,
      "name": "Глаголы, блок 8, I",
      "kind": "gaps",
@@ -2225,7 +3016,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k34",
+     "id": "k8-2",
      "page": 27,
      "name": "Глаголы, блок 8, II",
      "kind": "gaps",
@@ -2263,7 +3054,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k35",
+     "id": "k8-3",
      "page": 27,
      "name": "Глаголы, блок 8, III",
      "kind": "gaps",
@@ -2321,7 +3112,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k36",
+     "id": "k8-4",
      "page": 28,
      "name": "Глаголы, блок 8, IV",
      "kind": "gaps",
@@ -2379,7 +3170,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k37",
+     "id": "k8-5",
      "page": 28,
      "name": "Глаголы, блок 8, V",
      "kind": "gaps",
@@ -2437,7 +3228,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k38",
+     "id": "k8-6",
      "page": 29,
      "name": "Глаголы, блок 8, VI",
      "kind": "gaps",
@@ -2495,7 +3286,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k39",
+     "id": "k8-7",
      "page": 29,
      "name": "Глаголы, блок 8, VII",
      "kind": "gaps",
@@ -2533,7 +3324,321 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k40",
+     "id": "k8-8",
+     "page": 30,
+     "name": "Глаголы, блок 8, VIII",
+     "kind": "gaps",
+     "rn": "8.VIII.",
+     "pts": 0.75,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą czasowników w nawiasach zgodnie z podanym przykładem.",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "text": [
+      "Barbara musiała wyjechać na tydzień. Swoje obowiązki domowe rozdzieliła między męża i dzieci. Oto list, który im zostawiła: Jacku, we wtorek {e:umów się|umawiać się/umówić się} na wizytę u dentysty, a ty, Aniu, codziennie {e:zażywaj|zażywać/zażyć} leki przeciwalergiczne! Kochani, {1} o codziennym sprzątaniu swoich pokoi! Aniu, co dwa dni {2} kwiaty! Jacku, {3} psa co rano! Marku, {4} zakupy w piątek i koniecznie {5} prezent dla cioci! Dzieci, {6} we wtorek babcię i {7} jej ten niebieski garnek! Drogi Mężu, {8} rachunek za telefon! Córeczko, w sobotę rano {9} psa! Kochani, {10} do mnie codziennie! Kocham Was Mama"
+     ],
+     "gaps": [
+      {
+       "a": "pamiętajcie",
+       "hint": "pamiętać/zapamiętać"
+      },
+      {
+       "a": "podlewaj",
+       "hint": "podlewać/podlać"
+      },
+      {
+       "a": "wyprowadzaj",
+       "hint": "wyprowadzać/wyprowadzić"
+      },
+      {
+       "a": "zrób",
+       "hint": "robić/zrobić"
+      },
+      {
+       "a": "kup",
+       "hint": "kupować/kupić"
+      },
+      {
+       "a": "odwiedźcie",
+       "hint": "odwiedzać/odwiedzić"
+      },
+      {
+       "a": "oddajcie",
+       "hint": "oddawać/oddać"
+      },
+      {
+       "a": "zapłać",
+       "hint": "płacić/zapłacić"
+      },
+      {
+       "a": "wykąp",
+       "hint": "kąpać/wykąpać"
+      },
+      {
+       "a": "dzwońcie",
+       "hint": "dzwonić/zadzwonić"
+      }
+     ],
+     "max": 7.5
+    },
+    {
+     "id": "k8-9",
+     "page": 30,
+     "name": "Повелительное наклонение, блок 8, XI",
+     "rn": "8.XI.",
+     "pts": 0.5,
+     "max": 5.0,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą czasowników zgodnie z podanym przykładem.",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "kind": "gaps",
+     "text": [
+      "Porady dla turysty wybierającego się za granicę. Turysto, gdy wybierasz się za granicę:",
+      "0. {e:Dowiedz się|dowiedzieć się} jak najwięcej o kraju, do którego jedziesz;",
+      "1. {1} adresy i telefony polskich konsulatów i ambasad;",
+      "2. {2} ubezpieczenie;",
+      "3. {3} ze sobą adresy i numery telefonów bliskich w Polsce;",
+      "4. {4} usługę roamingu i Poland Direct;",
+      "5. {5} karty płatnicze, czeki podróżne i gotówkę;",
+      "6. {6} numery kart płatniczych i czeków podróżnych;",
+      "7. {7} kserokopie dokumentów, które zabierasz ze sobą;",
+      "8. {8} datę ważności paszportu;",
+      "9. {9} ze sobą kilka zdjęć paszportowych;",
+      "10. {10} na lotnisku dwie godziny przed odlotem."
+     ],
+     "gaps": [
+      {
+       "a": "przygotuj",
+       "hint": "przygotować"
+      },
+      {
+       "a": "wykup",
+       "hint": "wykupić"
+      },
+      {
+       "a": "weź",
+       "hint": "wziąć"
+      },
+      {
+       "a": "aktywuj",
+       "hint": "aktywować"
+      },
+      {
+       "a": "zabierz",
+       "hint": "zabrać"
+      },
+      {
+       "a": "zanotuj",
+       "hint": "zanotować"
+      },
+      {
+       "a": "zrób",
+       "hint": "zrobić"
+      },
+      {
+       "a": "sprawdź",
+       "hint": "sprawdzić"
+      },
+      {
+       "a": "miej",
+       "hint": "mieć"
+      },
+      {
+       "a": "bądź",
+       "hint": "być"
+      }
+     ]
+    },
+    {
+     "id": "k8-10",
+     "page": 31,
+     "name": "Глаголы, блок 8, X",
+     "kind": "gaps",
+     "rn": "8.X.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą czasowników zgodnie z podanym przykładem.",
+      "Впишите слово (форму) в поле. Если ваш вариант верен, нажмите «засчитать»."
+     ],
+     "text": [
+      "Przykład: Pomidory _zalać 0 wrzątkiem. Pomidory {e:zalej} wrzątkiem. 3/4 kg zielonej fasolki szparagowej 5 średnich pomidorów bez skóry ząbek czosnku olej, sól, pieprz Na patelni rozgrzać 1 olej, dodać 2 drobno pokrojony czosnek. Dodać drobno pokrojone w kostkę pomidory, oraz sól, pieprz. Smażyć 3 i mieszać 4 ok. 8 min. Zmniejszyć 5 ogień, wrzucić fasolę, wymieszać i danie gotowe. Można dodać świeże zioła: bazylię, oregano. Sos najlepiej smakuje z plackami ziemniaczanymi. Na patelni {1} olej, {2} drobno pokrojony czosnek. Dodać drobno pokrojone w kostkę pomidory, oraz sól, pieprz. {3} i {4} ok. 8 min. {5} ogień, wrzucić fasolę, wymieszać i danie gotowe. Można dodać świeże zioła: bazylię, oregano. Sos najlepiej smakuje z plackami ziemniaczanymi."
+     ],
+     "gaps": [
+      {
+       "a": "rozgrzej"
+      },
+      {
+       "a": "dodaj"
+      },
+      {
+       "a": "Smaż"
+      },
+      {
+       "a": "mieszaj"
+      },
+      {
+       "a": "zmniejsz"
+      }
+     ],
+     "max": 2.5
+    },
+    {
+     "id": "k8-11",
+     "page": 32,
+     "name": "Глаголы, блок 8, XI",
+     "kind": "gaps",
+     "rn": "8.XI.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą czasowników w nawiasach zgodnie z podanym przykładem.",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "text": [
+      "– Przepraszam, {e:powiedz|powiedzieć} mi, jak skorzystać z tego automatu. – Najpierw {1} monetę do tego otworu. Potem {2} napój, na który masz ochotę. Następnie {3} guzik obok nazwy tego napoju. {4} chwilkę i {5} puszkę z automatu. Powodzenia! – Dziękuję bardzo!"
+     ],
+     "gaps": [
+      {
+       "a": "wrzuć",
+       "hint": "wrzucić"
+      },
+      {
+       "a": "wybierz",
+       "hint": "wybrać"
+      },
+      {
+       "a": "przyciśnij",
+       "hint": "przycisnąć"
+      },
+      {
+       "a": "Poczekaj",
+       "hint": "Poczekać"
+      },
+      {
+       "a": "wyjmij",
+       "hint": "wyjąć"
+      }
+     ],
+     "max": 2.5
+    },
+    {
+     "id": "k8-12",
+     "page": 32,
+     "name": "Глаголы, повелительное наклонение, блок 8, XII",
+     "kind": "gaps",
+     "rn": "8.XII.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę zamienić czasowniki w nawiasach na formy trybu rozkazującego zgodnie z podanym przykładem.",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "text": [
+      "Jeśli czujesz, że za dużo czasu spędzasz przed telewizorem, {e:skorzystaj|skorzystać} z naszych rad:  {1} przez kilka dni wszystkie oglądane programy,  {2}, czy oglądasz tylko to, co uważasz za wartościowe,  {3} listę rzeczy, które mógłbyś robić zamiast oglądania telewizji,  {4} chodzić na basen,  {5} ze znajomymi,  gdy jakiś program wydaje ci się mało interesujący, {6} telewizor,  nie {7} na inny kanał,  {8} sobie limit czasowy na oglądanie telewizji,  {9} tylko jeden telewizor w domu,  {10} go w miejscu, które nie jest wygodne do oglądania."
+     ],
+     "gaps": [
+      {
+       "a": "zapisuj",
+       "hint": "zapisywać"
+      },
+      {
+       "a": "sprawdź",
+       "hint": "sprawdzić"
+      },
+      {
+       "a": "sporządź",
+       "hint": "sporządzić"
+      },
+      {
+       "a": "zacznij",
+       "hint": "zacząć"
+      },
+      {
+       "a": "umawiaj się",
+       "hint": "umawiać się"
+      },
+      {
+       "a": "wyłącz",
+       "hint": "wyłączyć"
+      },
+      {
+       "a": "przełączaj",
+       "hint": "przełączać"
+      },
+      {
+       "a": "wyznacz",
+       "hint": "wyznaczyć"
+      },
+      {
+       "a": "miej",
+       "hint": "mieć"
+      },
+      {
+       "a": "umieść",
+       "hint": "umieścić"
+      }
+     ],
+     "max": 5.0
+    },
+    {
+     "id": "k8-13",
+     "page": 33,
+     "name": "Глаголы, повелительное наклонение, блок 8, XIII",
+     "kind": "gaps",
+     "rn": "8.XIII.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę zamienić czasowniki w nawiasach na formy trybu rozkazującego zgodnie z podanym przykładem.",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "text": [
+      "{e:Poczuj|Poczuć} atmosferę japońskiego minimalizmu! Osiągniesz to prostymi metodami:  {1} poziom podłogi i {2} ją matami.  {3} bieli ścian, brązowi i czerni prostych drewnianych mebli.  Zamiast łóżka {4} materac, zamiast żyrandola {5} papierowy lampion, a okno {6} bambusową zasłoną lub lnianą roletą.  {7} w sklepie z porcelaną kilka prostych, szklanych naczyń.  {8} wszystkie niepotrzebne ozdoby.  {9} o bonsai i {10} nowym wystrojem swojego mieszkania! Tryb przypuszczający"
+     ],
+     "gaps": [
+      {
+       "a": "Podnieś",
+       "hint": "Podnieść"
+      },
+      {
+       "a": "przykryj",
+       "hint": "przykryć"
+      },
+      {
+       "a": "Zaufaj",
+       "hint": "Zaufać"
+      },
+      {
+       "a": "połóż",
+       "hint": "położyć"
+      },
+      {
+       "a": "powieś",
+       "hint": "powiesić"
+      },
+      {
+       "a": "zasłoń",
+       "hint": "zasłonić"
+      },
+      {
+       "a": "Znajdź",
+       "hint": "Znaleźć"
+      },
+      {
+       "a": "Wyrzuć",
+       "hint": "Wyrzucić"
+      },
+      {
+       "a": "postaraj się",
+       "hint": "Postarać się"
+      },
+      {
+       "a": "ciesz się",
+       "hint": "cieszyć się"
+      }
+     ],
+     "max": 5.0
+    },
+    {
+     "id": "k9-1",
      "page": 33,
      "name": "Глаголы, условное наклонение, блок 9, I",
      "kind": "gaps",
@@ -2586,7 +3691,7 @@ B1.register({
      "max": 4.0
     },
     {
-     "id": "k41",
+     "id": "k9-2",
      "page": 34,
      "name": "Глаголы, условное наклонение, блок 9, II",
      "kind": "gaps",
@@ -2624,7 +3729,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k42",
+     "id": "k9-3",
      "page": 34,
      "name": "Глаголы, условное наклонение, блок 9, III",
      "kind": "gaps",
@@ -2682,7 +3787,107 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k43",
+     "id": "k9-4",
+     "page": 35,
+     "name": "Условное наклонение, блок 9, IV",
+     "rn": "9.IV.",
+     "pts": 1,
+     "max": 5,
+     "instr": [
+      "Proszę przekształcić zdania zgodnie z podanym przykładem (tryb przypuszczający).",
+      "Ключ даёт только начало ответа (после многоточия предложение продолжайте сами). Проверка идёт по этому началу: 0,5 балла за условную часть и 0,5 за форму глагола. Остальное оцените сами, при необходимости нажмите «засчитать»."
+     ],
+     "kind": "rewrite",
+     "example": {
+      "src": "Wygram na loterii i kupię sobie wielki dom.",
+      "hint": "",
+      "model": "Gdybym wygrał na loterii, kupiłbym sobie wielki dom."
+     },
+     "items": [
+      {
+       "src": "Będę mieć wielki dom i zaproszę do niego wszystkich przyjaciół.",
+       "hint": "",
+       "model": "Gdybym miał wielki dom, zaprosiłbym...",
+       "parts": [
+        {
+         "re": /^gdybym miał wielki dom/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )zaprosiłbym( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Moi przyjaciele przyjdą i urządzę dla nich wielkie przyjęcie.",
+       "hint": "",
+       "model": "Gdyby przyszli moi przyjaciele, urządziłbym...",
+       "parts": [
+        {
+         "re": /^gdyby przyszli moi przyjaciele/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )urządziłbym( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Przyjęcie będzie udane i powtórzę je kilka razy.",
+       "hint": "",
+       "model": "Gdyby przyjęcie było udane, powtórzyłbym...",
+       "parts": [
+        {
+         "re": /^gdyby przyjęcie było udane/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )powtórzyłbym( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Kupię autobus i zabiorę przyjaciół w podróż po Europie.",
+       "hint": "",
+       "model": "Gdybym kupił autobus, zabrałbym…",
+       "parts": [
+        {
+         "re": /^gdybym kupił autobus/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )zabrałbym( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      },
+      {
+       "src": "Podróż spodoba się wszystkim i pojedziemy w podróż dookoła świata.",
+       "hint": "",
+       "model": "Gdyby podróż spodobała się..., pojechalibyśmy... .",
+       "parts": [
+        {
+         "re": /^gdyby podróż spodobała się/,
+         "pts": 0.5
+        },
+        {
+         "re": /(^| )pojechalibyśmy( |$)/,
+         "pts": 0.5
+        }
+       ],
+       "approx": true
+      }
+     ]
+    },
+    {
+     "id": "k9-5",
      "page": 36,
      "name": "Глаголы, условное наклонение, блок 9, V",
      "kind": "rewrite",
@@ -2817,7 +4022,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k44",
+     "id": "k10-1",
      "page": 36,
      "name": "Формы слов, блок 10, I",
      "kind": "gaps",
@@ -2914,7 +4119,175 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k45",
+     "id": "k10-2",
+     "page": 37,
+     "name": "Формы слов, блок 10, II",
+     "kind": "gaps",
+     "rn": "10.II.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem. Uwaga! Niektóre wyrazy mogą być użyte więcej niż jeden raz."
+     ],
+     "text": [
+      "{e:Do} Warszawy przyjechałam {1} Wejherowa, niedużego miasta {2} Pomorzu. Moje siostry były tu już wcześniej, mieszkały {3} kuzynki, której córki wyjechały {4} granicę. Starsza siostra zaczęła studiować {5} uniwersytecie, a średnia {6} Szkole Teatralnej. Nie mogłam {7} nimi zamieszkać, bo mieszkanie nie było dość duże. {8} pomocy szkolnej koleżanki mogłam {9} kilka miesięcy pomieszkać {10} ładnej i wygodnej kawalerce jej brata."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "z"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "na"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "u"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "za"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "na"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "w"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "z"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "dzięki"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "przez"
+      },
+      {
+       "opts": [
+        "do",
+        "dzięki",
+        "na",
+        "przez",
+        "u",
+        "w",
+        "wszystko",
+        "z",
+        "za"
+       ],
+       "a": "w"
+      }
+     ],
+     "max": 5.0,
+     "box": [
+      "do",
+      "dzięki",
+      "na",
+      "przez",
+      "u",
+      "w",
+      "wszystko",
+      "z",
+      "za"
+     ]
+    },
+    {
+     "id": "k10-3",
      "page": 37,
      "name": "Предлоги, блок 10, III",
      "kind": "gaps",
@@ -2956,7 +4329,208 @@ B1.register({
      "max": 2.0
     },
     {
-     "id": "k46",
+     "id": "k10-4",
+     "page": 38,
+     "name": "Формы слов, блок 10, IV",
+     "kind": "gaps",
+     "rn": "10.IV.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem. Uwaga! Każdego słowa można użyć tylko raz. Jeden z nich jest niepotrzebny!"
+     ],
+     "text": [
+      "Damian postanowił odpocząć {e:od} swych ciężkich obowiązków i wraz {1} znajomymi wyjechał {2} jezioro. Gdy {3} dwóch godzinach znalazł się {4} celu podróży, zaczął przygotowywać ognisko. Zresztą {5} samą porę, bo już robiło się coraz ciemniej i chłodniej. {6} ognisku i dźwiękach gitary mógłby bawić się {7} końca, ale dość szybko poszedł spać, gdyż obiecał sobie, że wstanie {8} wschodzie słońca, weźmie wędkę i pójdzie {9} ryby, a następnie przygotuje śniadanie {10} swoich znajomych."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "ze"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "nad"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "po"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "u"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "w"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "przy"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "bez"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "o"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "na"
+      },
+      {
+       "opts": [
+        "bez",
+        "dla",
+        "na",
+        "nad",
+        "o",
+        "od",
+        "po",
+        "przy",
+        "u",
+        "w",
+        "z",
+        "ze"
+       ],
+       "a": "dla"
+      }
+     ],
+     "max": 5.0,
+     "box": [
+      "bez",
+      "dla",
+      "na",
+      "nad",
+      "o",
+      "od",
+      "po",
+      "przy",
+      "u",
+      "w",
+      "z",
+      "ze"
+     ]
+    },
+    {
+     "id": "k10-5",
      "page": 38,
      "name": "Предлоги, блок 10, V",
      "kind": "gaps",
@@ -3004,7 +4578,7 @@ B1.register({
      "max": 7.5
     },
     {
-     "id": "k47",
+     "id": "k10-6",
      "page": 39,
      "name": "Предлоги, блок 10, VI",
      "kind": "gaps",
@@ -3040,7 +4614,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k48",
+     "id": "k11-1",
      "page": 39,
      "name": "Формы слов, блок 11, I",
      "kind": "gaps",
@@ -3136,7 +4710,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k49",
+     "id": "k11-2",
      "page": 39,
      "name": "Формы слов, блок 11, II",
      "kind": "gaps",
@@ -3193,7 +4767,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k50",
+     "id": "k11-3",
      "page": 40,
      "name": "Числительные, блок 11, III",
      "kind": "gaps",
@@ -3227,7 +4801,7 @@ B1.register({
      "max": 2.0
     },
     {
-     "id": "k51",
+     "id": "k11-4",
      "page": 40,
      "name": "Имена, блок 11, IV",
      "kind": "gaps",
@@ -3265,7 +4839,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k52",
+     "id": "k11-5",
      "page": 40,
      "name": "Имена, блок 11, V",
      "kind": "gaps",
@@ -3303,7 +4877,7 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k53",
+     "id": "k11-6",
      "page": 41,
      "name": "Формы слов, блок 11, VI",
      "kind": "gaps",
@@ -3367,7 +4941,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k54",
+     "id": "k11-7",
      "page": 41,
      "name": "Глаголы, блок 11, VII",
      "kind": "gaps",
@@ -3464,7 +5038,175 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k55",
+     "id": "k11-8",
+     "page": 42,
+     "name": "Формы слов, блок 11, VIII",
+     "kind": "gaps",
+     "rn": "11.VIII.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem. Uwaga! Niektóre wyrazy mogą być użyte dwa razy."
+     ],
+     "text": [
+      "Ania jest moją siostrą {e:i} Marta jest moją siostrą. Ania jest starsza, {1} Marta młodsza. {2} są siostrami, to wcale nie są do siebie podobne. Wszyscy myślą, {3} to Marta jest starsza, {4} jest bardzo poważna. Chciałbym, {5} obie były tak wesołe jak Ania, {6} Marta nie umie się niestety śmiać. Nie wiem, {7} to się kiedyś zmieni. Teraz Marta kończy szkołę {8} chce zdawać na studia. Zamierza studiować informatykę – na uniwersytecie {9} na politechnice. Mam nadzieję, {10} życie studenckie poprawi jej humor."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "a"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "chociaż"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "że"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "bo"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "żeby"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "ale"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "czy"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "i"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "albo"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "ale",
+        "bo",
+        "chociaż",
+        "czy",
+        "i",
+        "że",
+        "żeby"
+       ],
+       "a": "że"
+      }
+     ],
+     "max": 5.0,
+     "box": [
+      "a",
+      "albo",
+      "ale",
+      "bo",
+      "chociaż",
+      "czy",
+      "i",
+      "że",
+      "żeby"
+     ]
+    },
+    {
+     "id": "k11-9",
      "page": 42,
      "name": "Преобразование предложений, блок 11, IX",
      "kind": "rewrite",
@@ -3584,7 +5326,7 @@ B1.register({
      }
     },
     {
-     "id": "k56",
+     "id": "k11-10",
      "page": 43,
      "name": "Преобразование предложений, блок 11, X",
      "kind": "rewrite",
@@ -3712,7 +5454,7 @@ B1.register({
      }
     },
     {
-     "id": "k57",
+     "id": "k12-1",
      "page": 46,
      "name": "Имена, блок 12, I",
      "kind": "gaps",
@@ -3770,7 +5512,7 @@ B1.register({
      "max": 5.0
     },
     {
-     "id": "k58",
+     "id": "k12-2",
      "page": 46,
      "name": "Формы слов, блок 12, II",
      "kind": "gaps",
@@ -3875,7 +5617,7 @@ B1.register({
      "max": 2.75
     },
     {
-     "id": "k59",
+     "id": "k12-3",
      "page": 47,
      "name": "настоящее время, блок 12, III",
      "kind": "gaps",
@@ -3916,7 +5658,7 @@ B1.register({
      "max": 2.5
     },
     {
-     "id": "k60",
+     "id": "k12-4",
      "page": 47,
      "name": "Глаголы, блок 12, IV",
      "kind": "gaps",
@@ -3974,7 +5716,7 @@ B1.register({
      "max": 7.5
     },
     {
-     "id": "k61",
+     "id": "k12-5",
      "page": 48,
      "name": "Имена, блок 12, V",
      "kind": "gaps",
@@ -4012,7 +5754,274 @@ B1.register({
      "max": 3.75
     },
     {
-     "id": "k62",
+     "id": "k12-6",
+     "page": 48,
+     "name": "Формы слов, блок 12, VI",
+     "kind": "gaps",
+     "rn": "12.VI.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem. Uwaga! Niektóre spójniki mogą być użyte dwa razy."
+     ],
+     "text": [
+      "Przykład: A: Po co Karol poszedł na targ? B: {e:Żeby} kupić wiśnie do ciasta. A: Co wolisz – kawę {1} herbatę? B: Wszystko mi jedno. Może być to {2} to. A: W takim razie dostaniesz herbatę, {3} jest już gotowa. Masz ochotę na ciasto z wiśniami? B: {4} uwielbiam twoje ciasto, muszę powiedzieć „nie”. Wiesz przecież, {5} się odchudzam. A: Naprawdę? B: Naprawdę, nie wiem tylko, {6} będę długo konsekwentna. A: Zastanów się jeszcze. To ciasto nie ma dużo kalorii, {7} wiśnie w tym roku już się kończą. To ostatnia okazja!"
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "czy"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "albo"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "bo"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "chociaż"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "że"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "czy"
+      },
+      {
+       "opts": [
+        "a",
+        "albo",
+        "bo",
+        "chociaż",
+        "czy",
+        "że",
+        "żeby"
+       ],
+       "a": "a"
+      }
+     ],
+     "max": 3.5,
+     "box": [
+      "a",
+      "albo",
+      "bo",
+      "chociaż",
+      "czy",
+      "że",
+      "żeby"
+     ]
+    },
+    {
+     "id": "k12-7",
+     "page": 49,
+     "name": "Предлоги, блок 12, VII",
+     "kind": "gaps",
+     "rn": "12.VII.",
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem. Uwaga! Niektóre przyimki mogą się powtarzać."
+     ],
+     "text": [
+      "Wczoraj był {e:w} naszej szkole koncert z okazji świąt. {1} tego koncertu przygotowywaliśmy się {2} panią Dianą bardzo długo. Ja i Magda wyszliśmy {3} środek sali i śpiewaliśmy {4} wszystkich dzieci. {5} moją głową wisiał duży mikrofon i {6} cały czas bałem się, że spadnie i uderzy mnie {7} głowę. Śpiewaliśmy nie tylko po polsku, były też teksty angielskie i francuskie. {8} występie dostaliśmy brawa i kwiaty. Podszedł też {9} nas dyrektor i bardzo serdecznie nam pogratulował. W domu czekał {10} nas wspaniały tort."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "do"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "z"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "na"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "dla"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "nad"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "przez"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "w"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "po"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "do"
+      },
+      {
+       "opts": [
+        "dla",
+        "do",
+        "na",
+        "nad",
+        "po",
+        "przez",
+        "w",
+        "z"
+       ],
+       "a": "na"
+      }
+     ],
+     "max": 5.0,
+     "box": [
+      "dla",
+      "do",
+      "na",
+      "nad",
+      "po",
+      "przez",
+      "w",
+      "z"
+     ]
+    },
+    {
+     "id": "k12-8",
      "page": 49,
      "name": "Глаголы, повелительное наклонение, блок 12, VIII",
      "kind": "gaps",
@@ -4043,6 +6052,1524 @@ B1.register({
       }
      ],
      "max": 2.5
+    },
+    {
+     "id": "k12-9",
+     "page": 49,
+     "name": "Условное наклонение, блок 12, IX",
+     "rn": "12.IX.",
+     "pts": 0.5,
+     "max": 2.5,
+     "instr": [
+      "Proszę uzupełnić tekst właściwą formą czasowników w nawiasach zgodnie z podanym przykładem (tryb przypuszczający).",
+      "Формы вписываются вручную. Если ваш вариант верен, но помечен неверным, нажмите «засчитать»."
+     ],
+     "kind": "gaps",
+     "text": [
+      "Cześć, Anka! Mam do Ciebie ogromną prośbę. Czy {e:pożyczyłabyś|pożyczyć} mi tę książkę o Adamie Mickiewiczu? Chętnie {1} ją od Ciebie na kilka dni, gdyż niedługo mam egzamin z literatury, który {2} właściwie zdać później. Profesor nawet pytał mnie i Kasię, czy nie {3} go zdawać w innym terminie, ale {4} tego nie robić, bo przed nami jeszcze 4 trudne egzaminy. Paweł, mój brat, {5} Ci podręcznik w następną środę. Dobrze? Ewa"
+     ],
+     "gaps": [
+      {
+       "a": "wzięłabym",
+       "hint": "wziąć"
+      },
+      {
+       "a": "mogłabym",
+       "hint": "móc"
+      },
+      {
+       "a": "chciałybyśmy",
+       "hint": "chcieć"
+      },
+      {
+       "a": "wolałybyśmy",
+       "hint": "woleć"
+      },
+      {
+       "a": "oddałby",
+       "hint": "oddać"
+      }
+     ]
+    }
+   ],
+   "page": 4
+  },
+  {
+   "id": "czyt",
+   "title": "Rozumienie tekstów pisanych: сборник",
+   "max": 42.0,
+   "minutes": 0,
+   "meta": "6 упражнений",
+   "tasks": [
+    {
+     "id": "r01",
+     "page": 4,
+     "name": "Надписи и вывески, I",
+     "kind": "choice",
+     "rn": "1.I.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "Ten napis informuje:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "o promocji w sklepie odzieżowym",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "o obniżce w sklepie obuwniczym",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "o ulgowych cenach biletów do kina",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Dwie sztuki w cenie jednej"
+      },
+      {
+       "q": "Ten napis oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "szkołę średnią",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "muzeum techniki",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "wyższą uczelnię",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Politechnika"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na dworcu kolejowym",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w księgarni",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Książka życzeń i zażaleń znajduje się u dyżurnego ruchu"
+      },
+      {
+       "q": "Ten napis oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "do pokoju mogą wejść 2 osoby",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "do pokoju może wejść tylko 1 osoba",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "do pokoju mogą wejść wszyscy",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Proszę wchodzić pojedynczo"
+      },
+      {
+       "q": "Taki napis można zobaczyć na:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "rachunku",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "liście",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "czeku bankowym",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Prosimy o zwrot do nadawcy"
+      },
+      {
+       "q": "To napis na:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "lekarstwie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "mleku",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "winie",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Przed otwarciem wstrząsnąć"
+      },
+      {
+       "q": "To ogłoszenie informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "ktoś chce gdzieś lecieć",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "ktoś chce dać pracę",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "ktoś umie szyć i szuka pracy",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Zlecę szycie"
+      },
+      {
+       "q": "Jest to:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zaproszenie do pracy",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "zaproszenie na górę",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "ostrzeżenie",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Uwaga! Na górze pracują!"
+      },
+      {
+       "q": "Ten napis można zobaczyć na:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "stacji kolejowej",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "stacji benzynowej",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "dworcu autobusowym",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Przechodzenie przez tory wzbronione"
+      },
+      {
+       "q": "To reklama:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zdrowej żywności",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "karmy dla kotów",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "zdrowego stylu życia",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Zdrowe jedzenie wprawia w mruczenie"
+      }
+     ],
+     "example": {
+      "q": "Ten napis można zobaczyć:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "w teatrze",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "w sklepie",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "na drodze",
+        "label": "c)"
+       }
+      ],
+      "a": "b",
+      "text": "Inwentaryzacja"
+     }
+    },
+    {
+     "id": "r02",
+     "page": 5,
+     "name": "Надписи и вывески, II",
+     "kind": "choice",
+     "rn": "1.II.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "Ten napis można przeczytać na opakowaniu:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "lekarstwa",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "gumy do żucia",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "makaronu",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Przed zastosowaniem przeczytać ulotkę"
+      },
+      {
+       "q": "Ten napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "u fryzjera",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w banku",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Dwa w cenie jednego"
+      },
+      {
+       "q": "Ten napis informuje o tym, że sklep:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jest chwilowo nieczynny",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "jest czynny",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "został zlikwidowany",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Przepraszamy – remont"
+      },
+      {
+       "q": "Taki napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w parku",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w lesie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w ogrodzie",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Nie deptać trawników"
+      },
+      {
+       "q": "Ten napis oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "można wchodzić bez zezwolenia",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "wstęp jest bezpłatny",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "należy mieć zgodę na wejście. na peronie 3 zobaczyć: do parku",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Nieupoważnionym wstęp wzbroniony"
+      },
+      {
+       "q": "Ten napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w dowodzie osobistym",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na bilecie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na pieniądzach",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Narodowy Bank Polski"
+      },
+      {
+       "q": "Taki napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w taksówce",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w pociągu",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Nie wychylać się"
+      },
+      {
+       "q": "Taką informację można znaleźć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w gazecie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w książce",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na opakowaniu lekarstwa",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Wydanie II, uzupełnione, poprawione"
+      },
+      {
+       "q": "Taki napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na bilecie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w rachunku",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w paszporcie",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Proszę zachować do kontroli"
+      },
+      {
+       "q": "Ten napis można przeczytać w:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "biurze podróży",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w restauracji",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w aptece",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Dania na zimno"
+      }
+     ],
+     "example": {
+      "q": "Tę informację można",
+      "opts": [
+       {
+        "v": "a",
+        "t": "na dworcu kolejowym",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "na drzwiach sklepu",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "przed wejściem",
+        "label": "c)"
+       }
+      ],
+      "a": "a",
+      "text": "Przechowalnia bagażu"
+     }
+    },
+    {
+     "id": "r03",
+     "page": 6,
+     "name": "Надписи и вывески, III",
+     "kind": "choice",
+     "rn": "1.III.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w gazecie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na tablicy ogłoszeń",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w książce telefonicznej",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Zakaz umieszczania reklam bez zgody administracji"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w lesie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w górach",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w muzeum",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Zwiedzanie tylko z przewodnikiem"
+      },
+      {
+       "q": "Ten napis można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w kasie teatralnej",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w tramwaju",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na chodniku",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Proszę się trzymać uchwytów"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na poczcie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w restauracji",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Szatnia obowiązkowa"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w warsztacie samochodowym",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w aptece",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w szpitalu. zobaczyć:",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Dzisiaj nie ma odwiedzin"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na stacji benzynowej",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w aptece",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w recepcji hotelowej",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Proszę zachować odstęp"
+      },
+      {
+       "q": "Tę informację można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w restauracji",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na granicy",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na parkingu",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Opłata za pierwszą godzinę 5 złotych"
+      },
+      {
+       "q": "Tę informację można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w taksówce",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w garażu",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w autobusie",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Zakaz rozmowy z kierowcą"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w aptece",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na budowie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w szpitalu",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Wejście tylko w obuwiu ochronnym"
+      },
+      {
+       "q": "Taką informację można przeczytać:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na artykułach spożywczych",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w paszporcie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na opakowaniu leków",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Nie stosować po upływie terminu ważności"
+      }
+     ],
+     "example": {
+      "q": "Ten napis można",
+      "opts": [
+       {
+        "v": "a",
+        "t": "w parku",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "na parkingu",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "na chodniku",
+        "label": "c)"
+       }
+      ],
+      "a": "c",
+      "text": "Zakaz parkowania"
+     }
+    },
+    {
+     "id": "r04",
+     "page": 7,
+     "name": "Короткие тексты, IV",
+     "kind": "choice",
+     "rn": "1.IV.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "każdy żołnierz dostanie 2,5 tysiąca złotych",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "tylko żołnierze znający języki obce dostaną premię",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "wojskowi będą dostawać premię co miesiąc",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Wojskowi, którzy znają język, będą dostawać premię – zapowiedział minister obrony. Od jesieni podniesienie umiejętności językowych ma być premiowane jednorazową kwotą 2,5 tysiąca złotych. Podobną premię żołnierz będzie mógł uzyskać za potwierdzenie znajomości języka lub opanowanie kolejnego poziomu."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "respondenci uważają, że każdy Europejczyk zna jeden język obcy",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "ponad połowa badanych uważa, że dzieci powinny uczyć się dwu języków obcych",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "respondenci sądzą, że nauka pierwszego języka obcego powinna trwać 6 lat",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Zdaniem połowy respondentów każdy mieszkaniec Unii Europejskiej powinien znać języki obce, przy czym 55% osób uważa, że dzieci powinny uczyć się pierwszego języka obcego od szóstego roku życia. Jeszcze więcej badanych (64%) wyraża opinię, że w tym wieku dzieci powinny zacząć naukę dwu języków obcych."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "osoby lubiące niebieski kolor nie lubią ekstrawaganckiego zachowania",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "osoby, które lubią niebieski kolor lubią być inne",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "wielbicielom niebieskiego koloru trudno przystosować się do nowego środowiska",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Niebieski jest kolorem osób konwencjonalnych. Nie lubią się wyróżniać i nie uznają ekstrawagancji w żadnej formie. Najchętniej trzymają się wszelkich reguł i zasad. Są raczej pokojowo nastawione do świata i życzliwe. Łatwo się aklimatyzują w nowym środowisku."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "bezpłatne zajęcia warsztatowe są organizowane dla dzieci, które skończyły 5 lat",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "warsztaty będą prowadzić opiekunowie dzieci",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w każdą niedzielę w Muzeum Państwowym są organizowane zajęcia plastyczne dla dzieci",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Niedzielne warsztaty plastyczne dla dzieci od piątego do dwunastego roku życia poprowadzą znani plastycy. Zajęcia odbywać się będą w Gmachu Głównym Muzeum Państwowego w niedzielę o godzinie 12.00. Koszt warsztatów wynosi 5 złotych od uczestnika i pokrywa materiały. Dla opiekunów wstęp wolny."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jutro w całej Polsce będzie deszczowo",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "pojutrze na północy Polski już od rana będzie słonecznie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "jutro w Polsce przestanie padać deszcz",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Jutro w całej Polsce będzie na ogół pogodnie. Całkowicie ustąpią opady deszczu. Czasem ostrożnie wyjrzy słońce. Stopniowo będzie się robić coraz cieplej. Pojutrze wyraźna poprawa pogody na północy Polski. Rano jeszcze mglisto i wietrznie, ale już po południu – słonecznie i sucho."
+      },
+      {
+       "q": "Z tego tekstu wynika, że Anna:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jest stanu wolnego",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "źle czuje się z powodu choroby",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "straciła pracę",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Anna W. dowiedziała się, że znalazła się w grupie ośmiu osób, które jej firma postanowiła zwolnić. Zupełnie się tego nie spodziewała. Przepracowała w tej firmie 7 lat i nigdy nie brała zwolnień lekarskich. Teraz jest na przymusowym urlopie. Czuje się pokrzywdzona i szuka pomocy."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "Janina i Jan są małżeństwem",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Janina mieszka sama",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "Jan pracuje bez przerwy w laboratorium",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Państwo Janina i Jan Nowakowie od urodzenia mieszkają w Polsce. Interesują się problemami współczesnego świata. Janina jest z wykształcenia ekologiem, a Jan cybernetykiem. Janina pracuje 24 godziny na dobę i nigdy jej nie ma w domu. Jan ma pracownię w ogromnym laboratorium. Janina mówi, że jej mąż myśli tylko o matematyce."
+      },
+      {
+       "q": "Z tego tekstu wynika, że „Kwartalnik”:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "ukazywał się do tej pory tylko w kioskach",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "jest nowym czasopismem na rynku wydawniczym",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "to gazeta tworzona przez czytelników",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "„Kwartalnik”, który trafia właśnie do kiosków i sklepów, ma szansę stać się publikacją, na którą wielu będzie czekać z niecierpliwością. Jesteśmy bardzo ciekawi pierwszych wrażeń, dlatego oczekujemy opinii i uwag naszych Czytelników."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w parafii ewangelickiej w Cieszynie można oglądać wystawę prezentująca dzieje protestantyzmu",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "muzeum i archiwum będzie mieścić się w tym samym budynku",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "eksponaty muzealne będzie można oglądać w archiwum",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Bogate zbiory dokumentujące dzieje protestantyzmu na Śląsku leżą teraz na strychach. Jednak potrwa to już niedługo. – Tworzymy Muzeum Protestantyzmu – mówi proboszcz parafii w Cieszynie. Muzeum powstaje w pięknych wnętrzach drugiego piętra świątyni, a powyżej będzie działać archiwum."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w tej rodzinie jest czworo dzieci",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Kacperek jest trzecim dzieckiem w rodzinie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "Kacperek waży ponad 7 kilogramów i ma pół roku",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Kacperek ma troje rodzeństwa. Urodził się tydzień temu w Szczecinie i jest wyjątkowym dzieckiem, bo ważył ponad 7 kilogramów. Taką wagę mają dzieci dopiero w drugim półroczu."
+      }
+     ],
+     "example": {
+      "q": "Z tego tekstu wynika, że:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "J. Duda-Gracz jest żyjącym polskim malarzem",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "w Ratuszu można oglądać dwa obrazy Dudy-Gracza",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "J. Duda-Gracz namalował bardzo dużo obrazów",
+        "label": "c)"
+       }
+      ],
+      "a": "c",
+      "text": "We wrocławskim Ratuszu można oglądać pierwszą pośmiertną wystawę Jerzego Dudy- Gracza. J. Duda-Gracz to jeden z najpłodniejszych polskich artystów. Potrafił namalować nawet dwa obrazy dziennie."
+     }
+    },
+    {
+     "id": "r05",
+     "page": 10,
+     "name": "Короткие тексты, V",
+     "kind": "choice",
+     "rn": "1.V.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "To ogłoszenie informuje, że „Gazeta Wyborcza”:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "poszukuje wykwalifikowanych dziennikarzy",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "przyjmuje do pracy absolwentów studiów dziennikarskich",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "da pracę ambitnym absolwentom i studentom ostatnich lat studiów",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "„Gazeta Wyborcza” w Łodzi ogłasza nabór na dziennikarzy. Jesteś młody? Skończyłeś lub kończysz studia? Chcesz pisać w największej i najlepszej gazecie w Polsce? Nie boisz się trudnych wyzwań? Przynieś (nie przysyłaj pocztą) swoją ofertę do redakcji. Łódź, ul. Sienkiewicza 72. Czekamy do soboty 14 października."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "ślub Amerykanów żydowskiego pochodzenia odbył się w synagodze we Wrocławiu",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Ellen i Kurt przyjechali do Polski, żeby robić film o synagogach",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "Ellen i Kurt pobrali się 36 lat temu w synagodze, o której teraz robią film",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Pierwszy raz od 36 lat we wrocławskiej synagodze Pod Białym Bocianem pod ślubnym baldachimem stanęli państwo młodzi. Ostatni żydowski ślub był tu w 1964 roku. Para młoda – Ellen Friedland i Kurt Fissel są Amerykanami z New Jersey. Do Wrocławia trafili, kręcąc filmy dokumentalne o Żydach w Polsce. – Zakochaliśmy się najpierw w synagodze, później w sobie – opowiadają."
+      },
+      {
+       "q": "Ten tekst informuje, że sztuka „Amerykańska papieżyca”:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "została najpierw pokazana w Teatrze Jaracza",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "została najpierw pokazana w Teatrze Studio w Warszawie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "29 września zostanie pokazana w Teatrze Studio w Warszawie",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Z gościnnym występem. Teatr Jaracza zaprasza 29 września na sztukę „Amerykańska papieżyca” E. Vilar. Występuje w niej Joanna Trzepiecińska. Spektakl, będący przeniesieniem z Teatru Studio w Warszawie, zostanie pokazany dwukrotnie – o g. 18 i 20. Sprzedaż biletów prowadzi CIK (ul. Zamenhofa 1/3, tel. 633 92 21)."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zdaniem działaczy sportowcy zdobyli mało medali",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "kibice uważają, że Polacy nie odnieśli wielkiego sukcesu w Sydney",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "kibice i działacze są tego samego zdania",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Według działaczy sportowych zdobyliśmy na igrzyskach w Sydney aż 14 medali. Według kibiców zaledwie 14. Jak to więc jest – mamy sukces czy porażkę?"
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w „Rzeczpospolitej” można dokształcać się zawodowo",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "„Rzeczpospolita” zaprasza do udziału w kursach",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "„Rzeczpospolita” przyjmuje ogłoszenia o kursach szkoleniowych",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "„RZECZPOSPOLITA”. W rubryce NAUKA przedstaw ofertę: usług szkoleniowych, kursów, dokształcania zawodowego, szkoleń w firmach. Zapraszamy do zamieszczania informacji."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jedynie w Holandii rodzenie dzieci w domu jest jeszcze na porządku dziennym",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "od początku lat 60. w Europie Zachodniej kobiety rodzą dzieci w szpitalu",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "każda Holenderka rodzi dziecko w domu",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Holandia jest ostatnim krajem europejskim, w którym rodzenie w domu jest zjawiskiem powszechnym i najzupełniej normalnym. Na przełomie lat 60. i 70. w większości krajów zachodnich kobieta ciężarna stała się pacjentką, a poród – zabiegiem szpitalnym. Holendrzy przyjęli zasadę, że kobieta ma swobodny wybór między rodzeniem w domu a rodzeniem w szpitalu."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jest tylko jeden zwycięzca konkursu",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "wszyscy zwycięzcy pojadą na biwak do Lubawy",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "tylko jeden ze zwycięzców konkursu wygrał wycieczkę do Tunezji",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Firma LUBAWA SA informuje, że w losowaniu głównej nagrody – wycieczki do Tunezji – szczęśliwy los przypadł Panu Ignacemu Zawadzkiemu z Warszawy. Hasło podane przez uczestnika konkursu brzmiało: „JEŚLI SPRZĘT TWÓJ JEST Z LUBAWY, JEDŹ NA BIWAK BEZ OBAWY”. Zwycięzcom serdecznie gratulujemy. Dziękujemy za udział w konkursie. Ze zwycięzcami skontaktujemy się osobiście."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "poszukiwany jest pokój lub pokój z kuchnią",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "poszukiwany jest cały domek",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "poszukiwane jest mieszkanie dwupokojowe",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "SZUKAM. Studiujące, pracujące, kulturalne i niepalące narzeczeństwo poszukuje M2, Widzew lub okolice do 500 zł (razem z opłatami) lub pokoju w domku z osobnym wejściem do 350 zł."
+      },
+      {
+       "q": "Z tego tekstu wynika, że Halina:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jest dyrektorem własnej firmy",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "pracuje w szkole i zarabia mało",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "pracuje mniej niż 10 godzin dziennie",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "W tydzień zarabiam teraz na reklamach więcej niż w szkole przez miesiąc – zdradza z nutką dumy. – Poza tym robię to, co lubię i nie mam nad sobą żadnych szefów. W dodatku mogę dowolnie ustalać swój czas pracy, który rzadko wynosi mniej niż 10 godzin dziennie. Oprócz większych dochodów i samodzielności Halina zyskała wielu nowych znajomych. Poznała wiele wybitnych kobiet z całego świata. Jej strona internetowa znana jest w USA, Szwecji, Islandii i Australii."
+      },
+      {
+       "q": "Ten tekst informuje o tym, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "Andrzej Wajda otworzy XXV Festiwal filmów w Gdyni",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w Gdyni po raz pierwszy od wielu lat widzowie obejrzą „Ziemię obiecaną”",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "„Ziemia obiecana” w nowej wersji nie była pokazywana przed 19 września",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Już wkrótce, 19 września, rozpocznie się XXV Festiwal Polskich Filmów Fabularnych w Gdyni. Pierwszy raz od wielu lat impreza odbędzie się pod koniec lata, a nie w październiku. Festiwal otworzy uroczysty pokaz przemontowanej przez laureata Oskara Andrzeja Wajdę, reżyserskiej wersji „Ziemi obiecanej”. W filmie znajdą się sceny nigdy wcześniej nie pokazywane publicznie."
+      }
+     ],
+     "example": {
+      "q": "Z tego tekstu wynika, że mając ten kupon:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "otrzymasz zniżkę na usługi bankowe",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "otrzymasz zniżkę 1 zł przy wejściu na targi",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "wejście na targi będzie cię kosztowało złotówkę",
+        "label": "c)"
+       }
+      ],
+      "a": "c",
+      "text": "Kupon umożliwiający wstęp na teren V ŁÓDZKICH TARGÓW BANKOWOŚCI, FINANSÓW I UBEZPIECZEŃ za 1 zł"
+     }
+    },
+    {
+     "id": "r06",
+     "page": 13,
+     "name": "Фрагменты текстов, VI",
+     "kind": "choice",
+     "rn": "1.VI.",
+     "max": 7.0,
+     "pts": 1.0,
+     "instr": [
+      "Po przeczytaniu fragmentów tekstu proszę zaznaczyć właściwą odpowiedź."
+     ],
+     "items": [
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na Przeglądzie Piosenki Kabaretowej nagrodzono tylko mieszkanki Leszna",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Joanna Chryniak otrzymała dyplom „Błazna szpilkowego”",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "konkurs piosenki był częścią spotkań teatralnych",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "W konkursowym Przeglądzie Piosenki Kabaretowej, który odbył się w ramach VI Leszczyńskich Spotkań Teatralnych, pierwsze miejsce i statuetkę „Błazna szpilkowego” zdobyła Joanna Chryniak z Leszna za interpretację piosenki „Ja się boję sama spać”. Dwa kolejne miejsca zajęły Agnieszka Cybal z Leszna i Paulina Kubelec z Ostrowa Wielkopolskiego. Jury przyznało także wyróżnienia. Otrzymali je Agata Kaczmarek, Paweł Raszpla i Krzysztof Ogórkiewicz."
+      },
+      {
+       "q": "Ten tekst informuje, że nowa strona internetowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "pozwala łatwiej znaleźć osoby bezrobotne",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "zawiera więcej informacji dla poszukujących pracy niż stara strona",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "lepiej służy osobom, które poszukują pracowników",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Wojewódzki Urząd Pracy w Poznaniu ma nową stronę internetową. Witryna wygląda znacznie lepiej niż poprzednia, a przede wszystkim znalazło się na niej więcej informacji dla osób bezrobotnych i co istotne – łatwo je znaleźć. Pochwała należy się też twórcy strony za wyszukiwarkę ofert pracy. Jeśli tylko będą one na bieżąco uaktualniane, to poszukiwanie pracy będzie łatwiejsze."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w 125 rocznicę powstania MPK organizuje zawody dla kierowców komunikacji miejskiej",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "dziesięciu kierowców będzie brało udział w zawodach na najlepszego kierowcę roku 2004",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "uczestnicy zawodów dostaną po 5000 złotych",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "W sobotę w godzinach od 12 do 15 można zobaczyć w akcji najlepszych kierowców miejskiej komunikacji z całej Polski. Dziesięciu finalistów będzie rywalizować na placu manewrowym Wojewódzkiego Ośrodka Ruchu Drogowego o Puchar Prezesa i 5 000 złotych. W poznańskiej drużynie jest między innymi Andrzej Jankowiak, najlepszy kierowca MPK w 2004 roku. Kto przyjdzie na te zawody, będzie mógł kupić pamiątki z okazji 125-lecia MPK."
+      },
+      {
+       "q": "Ten tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na Targach można kupić nowe maszyny piekarskie",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na ubiegłorocznych Targach było mniej wystawców niż obecnie",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na Targach będą bite rekordy ilości i różnorodności produktów piekarskich",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Tegoroczne Międzynarodowe Targi Przemysłu Spożywczego Polagra-Food będą rekordowe pod względem liczby wystawców, poinformował Przemysław Trawa, wiceprezes Targów. Weźmie w nich udział 1300 wystawców z 36 krajów. O jedną trzecią więcej niż przed rokiem. Silnie reprezentowana będzie branża maszyn i urządzeń technologicznych dla przemysłu piekarskiego. Na zwiedzających będzie czekało 19 pawilonów narodowych. Targi będą trwały od 20 do 23 września."
+      },
+      {
+       "q": "Z tego tekstu dowiadujemy się, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w sobotę w parku obok szpitala organizowany jest piknik",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w soboty od 10 do 14 szpital prowadzi badania profilaktyczne za darmo",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "podczas pikniku lekarze będą instruować, jak podawać chorym tlen",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Lekarze Kliniki Pneumonologii Szpitala nr 1 w Białymstoku zapraszają w sobotę na Piknik Tlenowy. Impreza odbędzie się w parku przyszpitalnym przy ulicy Wróblewskiego, w godzinach od 10 do 14. Podczas Pikniku wykonywane będą darmowe badania diagnostyczne."
+      },
+      {
+       "q": "Ten tekst informuje, że w Muzeum Pierwszych Piastów:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "można przygotowywać się do przetrwania zimy",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "gospodynie uczą, jak robić przetwory na zimę",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "można dowiedzieć się, co ludzie robili, kiedy zbliżała się zima",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Na „Pożegnanie lata” zaprasza w niedzielę Muzeum Pierwszych Piastów w Lednicy. Na terenie Wielkopolskiego Parku Etnograficznego w Dziekanowicach, od godziny 10 do 17.30, poprzez prezentacje dawnych wiejskich zajęć, będzie można przyjrzeć się, jak niegdyś przygotowywano się do przetrwania zimy. Będzie więc można zobaczyć, jak dawniej wyglądała orka, strzyżenie owiec, pranie, przędzenie wełny, obróbka lnu i konopi, a także jak gospodynie przygotowywały zapasy na zimę."
+      },
+      {
+       "q": "Z tego tekstu dowiadujemy się, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na inicjatywę sprzątania odpowiedziały tylko szkoły",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w akcję sprzątania zaangażowały się również organizacje ekologiczne, firmy i władze miasta",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sobotę uczestnicy akcji będą sprzątać tereny zielone przy szkołach",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Do sprzątania miasta przystąpią w sobotę uczniowie z ponad 120 podstawówek, gimnazjów i liceów. Dołączą do nich przedstawiciele Polskiego Towarzystwa Ochrony Przyrody „Salamandra” oraz członkowie Miejskiej Grupy Ekologicznej. Miasto zapewni im 30 tys. worków na śmieci i tyle samo jednorazowych rękawic ochronnych. Zebrane odpady zostaną wywiezione nieodpłatnie przez 23 firmy. Do uprzątania wyznaczono tereny o łącznej powierzchni ok. 480 ha. Są wśród nich lasy komunalne, pobocza dróg i tereny zielone wokół szkół. Te ostatnie nauczyciele i uczniowie posprzątają już dziś."
+      }
+     ],
+     "example": {
+      "q": "Ten tekst informuje, że:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "będzie to wykład z historii Polski",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "będzie to pierwszy wykład z całej serii",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "Paweł Piotrowski jest pracownikiem uniwersytetu",
+        "label": "c)"
+       }
+      ],
+      "a": "a",
+      "text": "O godz. 17 w Klubie Muzyki i Literatury przy ul. Kościuszki 9 we Wrocławiu wykład pt. „Wojsko Polskie a konflikty społeczne w PRL” wygłosi Paweł Piotrowski. Będzie to kolejne spotkanie z cyklu „Spotkania z historią” organizowanego przez Instytut Pamięci Narodowej."
+     }
     }
    ],
    "page": 4

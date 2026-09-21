@@ -348,6 +348,7 @@ B1.engine=function(test){
   }
 
   /* --- грамматика VI: перефразирование --- */
+  function sn(v){return norm(v).replace(/[,.!?;:…]+/g,' ').replace(/\s*\/\s*/g,' ').replace(/\s+/g,' ').trim();}
   function buildRewrite(def){
     var t=shell(def);
     if(def.example){var ex=el('div','rw');ex.append(el('p','ex-note','Przykład'),el('p','src2',def.example.src));
@@ -359,8 +360,8 @@ B1.engine=function(test){
       var ctrl=el('input','gap wide');ctrl.type='text';ctrl.autocomplete='off';ctrl.spellcheck=false;
       ctrl.setAttribute('aria-label','Zdanie '+(i+1));
       var f=fieldCell(t,def.id+'-r'+(i+1),ctrl,{pts:def.pts,canForce:true,
-        partial:it.parts?function(v){var s=norm(v).replace(/,/g,'').replace(/\s*\/\s*/g,' ');if(it.req&&!it.req.test(s))return 0;var e=0;it.parts.forEach(function(p){if(p.re.test(s))e+=p.pts;});return e;}:null,
-        judge:function(v){var s=norm(v).replace(/,/g,'').replace(/\s*\/\s*/g,' ');return s!==''&&it.tests.every(function(r){return r.test(s);});},
+        partial:it.parts?function(v){var s=sn(v);if(it.req&&!it.req.test(s))return 0;var e=0;it.parts.forEach(function(p){if(p.re.test(s))e+=p.pts;});return e;}:null,
+        judge:function(v){var s=sn(v);return s!==''&&it.tests.every(function(r){return r.test(s);});},
         display:function(){return it.model;}});
       f.style.display='block';box.append(f);
       t.body.append(box);

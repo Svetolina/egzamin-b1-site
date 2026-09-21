@@ -9,7 +9,7 @@ var PAGE_SM='https://certyfikatpolski.pl/o-egzaminie/przykladowe-testy-zbiory-za
 function ex(id,year,name,o){return {id:id,kind:'exam',group:String(year),name:name,note:o.note||'',page:PAGE_EX,official:{sheet:o.sheet||null,audio:o.audio||null,key:o.key||null}};}
 function sm(id,name,note,o){return {id:id,kind:'sample',group:'Образцы',name:name,note:note,page:PAGE_SM,official:{sheet:o.sheet||null,audio:o.audio||null,key:o.key||null}};}
 B1.catalog=[
- {id:'b1-sbornik',kind:'book',group:'Сборник',name:'Сборник заданий 2017',note:'Грамматика',page:PAGE_SM,official:{sheet:null,audio:null,key:null}},
+ {id:'b1-sbornik',kind:'book',group:'Сборник',name:'Сборник заданий 2017',note:'Грамматика и чтение',page:PAGE_SM,official:{sheet:null,audio:null,key:null}},
  sm('b1-2020-03','Образец 2020','Тест-образец комиссии, март 2020',{}),
  sm('b1-2019','Образец 2019','Тест-образец комиссии, 2019',{audio:U+'2019/09/B1_audio.mp3',key:U+'2019/09/B1_klucz.pdf'}),
  sm('b1-2017','Образец 2017','Тест-образец комиссии, 2017',{audio:U+'2017/03/Egzamin-Przykładowy-B1-gru2016.mp3',key:U+'2017/03/5_B1_tr-klucz.pdf'}),
