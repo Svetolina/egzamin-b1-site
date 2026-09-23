@@ -24,9 +24,19 @@ function romanOf(t){return (t.rn||t.id).replace(/\.$/,'');}
 function srcText(c){return c.kind==='sample'?c.name:(c.kind==='book'?c.name:'Прошлый экзамен, '+c.name);}
 function badge(c){return el('span','badge '+(c.kind==='sample'?'b-sample':(c.kind==='book'?'b-book':'b-exam')),c.kind==='sample'?'Образец':(c.kind==='book'?'Сборник':'Экзамен'));}
 function typeLabel(d){
-  if(d.kind==='choice')return (d.items&&d.items[0]&&d.items[0].inline)?'TAK / NIE':'Выбор ответа';
+  if(d.kind==='choice'){
+    var it0=d.items&&d.items[0];
+    if(it0&&it0.inline){
+      var vs=(it0.opts||[]).map(function(o){return o.v;}).join('/');
+      if(vs==='tak/nie')return 'TAK / NIE';
+      if(vs==='p/f/bi')return 'P / F / BI';
+      if(vs==='p/f')return 'P / F';
+      return 'TAK / NIE';
+    }
+    return 'Выбор ответа';
+  }
   if(d.kind==='gaps'){if(d.legend)return 'Фрагменты в тексте';if(d.box)return 'Слова из рамки';return (d.gaps&&d.gaps[0]&&d.gaps[0].opts)?'Выбор формы':'Пропуски';}
-  return {match:'Сопоставление',slots:'Сопоставление',qa:'Вопросы',rewrite:'Перефразирование'}[d.kind]||'Задание';
+  return {match:'Сопоставление',order:'Порядок фрагментов',slots:'Сопоставление',qa:'Вопросы',rewrite:'Перефразирование'}[d.kind]||'Задание';
 }
 function countText(d){
   var n=(d.items&&d.items.length)||(d.gaps&&d.gaps.length)||(d.rows&&d.rows.length)||0;

@@ -6097,9 +6097,9 @@ B1.register({
   {
    "id": "czyt",
    "title": "Rozumienie tekstów pisanych: сборник",
-   "max": 42.0,
+   "max": 236.0,
    "minutes": 0,
-   "meta": "6 упражнений",
+   "meta": "30 упражнений",
    "tasks": [
     {
      "id": "r01",
@@ -7570,6 +7570,3341 @@ B1.register({
       "a": "a",
       "text": "O godz. 17 w Klubie Muzyki i Literatury przy ul. Kościuszki 9 we Wrocławiu wykład pt. „Wojsko Polskie a konflikty społeczne w PRL” wygłosi Paweł Piotrowski. Będzie to kolejne spotkanie z cyklu „Spotkania z historią” organizowanego przez Instytut Pamięci Narodowej."
      }
+    },
+    {
+     "id": "r07",
+     "page": 15,
+     "name": "Объявления по рубрикам, VII",
+     "kind": "match",
+     "rn": "1.VII.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Po przeczytaniu podanych napisów proszę dopasować tekst do nagłówka."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Szkółka drzew i krzewów ozdobnych. Hurt – detal. Tel. 604-297-534."
+      },
+      {
+       "k": "B",
+       "t": "Tyjesz? Przyjdź! Tel. 741-45."
+      },
+      {
+       "k": "C",
+       "t": "Wypożyczalnia strojów karnawałowych. Tanio. Tel. 526-13-42.",
+       "ex": true
+      },
+      {
+       "k": "D",
+       "t": "Wodzirej – wesela, bankiety, studniówki. Tel. 608-074-862."
+      },
+      {
+       "k": "E",
+       "t": "Szczenięta: foksteriery, trzymiesięczne, brązowe. Tel. (015) 873-84-33."
+      },
+      {
+       "k": "F",
+       "t": "Ekran plazmowy, nowy. Tel. 0504-220-790"
+      },
+      {
+       "k": "G",
+       "t": "Garsoniera, wysoki standard. Tel. 533-24-14."
+      },
+      {
+       "k": "H",
+       "t": "Policealne: masaż, kosmetyka, fryzjerstwo i inne. Tel. 565-18-29."
+      },
+      {
+       "k": "I",
+       "t": "Małżeństwo do prowadzenia domu, bez nałogów – na stałe. Tel. (081) 746-71-02."
+      },
+      {
+       "k": "J",
+       "t": "Przeprowadzki tanio! Tel. 0502-097-264."
+      },
+      {
+       "k": "K",
+       "t": "Prawnik. Konsultacje: wtorek, czwartek, 15-19. Tel. 532-78-50."
+      }
+     ],
+     "example": {
+      "t": "USŁUGI",
+      "a": "C"
+     },
+     "rows": [
+      {
+       "t": "PRACA",
+       "a": "I"
+      },
+      {
+       "t": "ZDROWIE",
+       "a": "B"
+      },
+      {
+       "t": "OGRÓD",
+       "a": "A"
+      },
+      {
+       "t": "MIESZKANIA",
+       "a": "G"
+      },
+      {
+       "t": "IMPREZY",
+       "a": "D"
+      },
+      {
+       "t": "KOMPUTERY",
+       "a": "F"
+      },
+      {
+       "t": "HODOWLA",
+       "a": "E"
+      },
+      {
+       "t": "PORADY",
+       "a": "K"
+      },
+      {
+       "t": "TRANSPORT",
+       "a": "J"
+      },
+      {
+       "t": "NAUKA",
+       "a": "H"
+      }
+     ]
+    },
+    {
+     "id": "r08",
+     "page": 16,
+     "name": "Части интервью: Михал Жебровский, VIII",
+     "kind": "match",
+     "rn": "1.VIII.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Aktor Michał Żebrowski udzielił wywiadu. Proszę połączyć fragmenty wywiadu z części I i II zadania tak, by stanowiły logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Bolesny. Przekonałem się, że chłopcy ze starszych klas są silniejsi."
+      },
+      {
+       "k": "B",
+       "t": "W przedszkolu. Biliśmy się o to, kto ma zostać Jankiem z „Czterech pancernych”."
+      },
+      {
+       "k": "C",
+       "t": "„Zew krwi”. Modliłem się, by Pan Bóg przeniósł mnie w tamte czasy."
+      },
+      {
+       "k": "D",
+       "t": "Bruce Lee."
+      },
+      {
+       "k": "E",
+       "t": "Wróbelek. Przylatywał codziennie na mój parapet."
+      },
+      {
+       "k": "F",
+       "t": "Byłem bardzo onieśmielony. Ze wstydu cały czas trzymałem ręce w kieszeni."
+      },
+      {
+       "k": "G",
+       "t": "… w myjni samochodowej. Zarobiłem na podróż do ukochanej nad morzem."
+      },
+      {
+       "k": "H",
+       "t": "Wygrałem konkurs recytatorski i zdobyłem uznanie matematyka."
+      },
+      {
+       "k": "I",
+       "t": "Moja ukochana wybrała chłopaka, który mógł zostać na podwórku nawet po 22.00."
+      },
+      {
+       "k": "J",
+       "t": "Mały, ciasny, ale własny...",
+       "ex": true
+      },
+      {
+       "k": "K",
+       "t": "Jako dziecko często płakałem z wściekłości. Dużo mówiłem, ale nikt mnie nie rozumiał."
+      }
+     ],
+     "example": {
+      "t": "Pierwszy własny dom.",
+      "a": "J"
+     },
+     "rows": [
+      {
+       "t": "Pierwsza łza.",
+       "a": "K"
+      },
+      {
+       "t": "Pierwsza porażka.",
+       "a": "I"
+      },
+      {
+       "t": "Pierwsza randka.",
+       "a": "F"
+      },
+      {
+       "t": "Pierwsza walka na pięści.",
+       "a": "B"
+      },
+      {
+       "t": "Pierwsza ważna książka.",
+       "a": "C"
+      },
+      {
+       "t": "Pierwsze pieniądze.",
+       "a": "G"
+      },
+      {
+       "t": "Pierwszy dzień w szkole.",
+       "a": "A"
+      },
+      {
+       "t": "Pierwszy bohater.",
+       "a": "D"
+      },
+      {
+       "t": "Pierwszy przyjaciel.",
+       "a": "E"
+      },
+      {
+       "t": "Pierwszy sukces.",
+       "a": "H"
+      }
+     ]
+    },
+    {
+     "id": "r09",
+     "page": 17,
+     "name": "Части интервью: Мачей Орлось, IX",
+     "kind": "match",
+     "rn": "1.IX.",
+     "max": 4.0,
+     "pts": 0.5,
+     "instr": [
+      "Redaktor I. Orlicz-Rabiga rozmawiała z Maciejem Orłosiem, znanym prezenterem telewizyjnym. Proszę połączyć fragmenty wywiadu z części I i II zadania tak, by stanowiły logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Nie jestem i czasem żałuję. Może gdybym spróbował coś ugotować, to złapałbym kulinarnego bakcyla. Ja nawet nie wiem, czy mam do tego talent.",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "Lubię kuchnię śródziemnomorską. Z włoskiej – pizze, makarony, ale tylko doskonale przyrządzone."
+      },
+      {
+       "k": "C",
+       "t": "Jestem kawoszem, choć w restauracjach i kafeteriach rzadko podają ten napój dobrze zaparzony."
+      },
+      {
+       "k": "D",
+       "t": "Tak, radzę zawsze siadać do posiłku w dobrym nastroju."
+      },
+      {
+       "k": "E",
+       "t": "Może i coś tam podpatrywałem, ale do głowy mi nie przyszło naśladować mamę, która doskonale gotuje. Może to wynika z tradycji rodzinnych. Zawsze w domu gotowały kobiety: babcia, mama…"
+      },
+      {
+       "k": "F",
+       "t": "Najczęściej czerwone wino. Niekiedy drinki… Mieszam na przykład whisky z colą, co dla smakoszy jest pewnie wielkim skandalem."
+      },
+      {
+       "k": "G",
+       "t": "Tak, moja połowa na szczęście gotuje bardzo dobrze. Ma prawdziwy talent i sprawia jej to przyjemność. Potrafi przyrządzić dania z różnych części świata, niestandardowe. Takie, które cieszą i oko, i podniebienie."
+      },
+      {
+       "k": "H",
+       "t": "Kanapki dla dzieci, jajecznicę. Oczywiście umiem kupić mięso, usmażyć je na patelni. Do tego ugotować ziemniaki, ale przyzna pani, że to potrawa jedynie na przetrwanie."
+      },
+      {
+       "k": "I",
+       "t": "Moje menu jest… fatalne. Nieregularny i nerwowy tryb życia sprawia, że często jem rzeczy przypadkowe. Dbam jednak o siebie bardziej niż kilka lat temu."
+      }
+     ],
+     "example": {
+      "t": "Jest pan mężczyzną gotującym?",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "Coś jednak pan chyba potrafi?",
+       "a": "H"
+      },
+      {
+       "t": "W dzieciństwie nie zaglądał pan do kuchni?",
+       "a": "E"
+      },
+      {
+       "t": "A teraz żona?",
+       "a": "G"
+      },
+      {
+       "t": "Ma pan jakieś ulubione potrawy?",
+       "a": "B"
+      },
+      {
+       "t": "Do picia wybiera pan najczęściej…",
+       "a": "C"
+      },
+      {
+       "t": "A napojów wyskokowych?",
+       "a": "F"
+      },
+      {
+       "t": "Z pana szczupłej sylwetki wnioskuję, że odżywia się pan racjonalnie?",
+       "a": "I"
+      },
+      {
+       "t": "Czy ma pan jakieś sugestie żywieniowe dla naszych czytelników?",
+       "a": "D"
+      }
+     ]
+    },
+    {
+     "id": "r10",
+     "page": 19,
+     "name": "Книги для читателей, X",
+     "kind": "match",
+     "rn": "1.X.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Poniżej znajdują się informacje o osobach, które szukają książek oraz oferta wydawnicza. Proszę dopasować opisy książek do poszczególnych osób zgodnie z podanym przykładem."
+     ],
+     "fragments": [
+      {
+       "k": "1",
+       "t": "K. Siesicka „Zapałka na zakręcie”. Czy wakacje to nie jest najlepszy czas na poznanie kogoś nowego i zakochanie się? K. Siesicka udowadnia, że tak, a w dodatku pokazuje, iż wakacyjna miłość może przetrwać bardzo długo. „Zapałka na zakręcie” nie jest żadnym romansidłem, bo opowiada również o sprawach istotnych w życiu każdego z nas, np. o zaufaniu czy błędach, za które trzeba zapłacić."
+      },
+      {
+       "k": "2",
+       "t": "Z. Nienacki „Pan Samochodzik i ...”. Seria sensacyjnych powieści, zawsze z tytułowym Panem Samochodzikiem w roli głównej. Bardzo lubiłem te książki; myślę, że Pan Samochodzik zawsze budzi zaciekawienie, przecież w każdym z nas tkwi żyłka detektywa."
+      },
+      {
+       "k": "3",
+       "t": "A. Domańska „Historia żółtej ciżemki”. Znana powieść historyczno-przygodowa o chłopcu z podkrakowskiej wsi obdarzonym talentem rzeźbiarskim, który po ucieczce z domu i licznych perypetiach trafia na naukę do warsztatu Wita Stwosza, biorąc udział w pracach nad słynnym ołtarzem. Znakomicie ukazany ówczesny Kraków, wiele wiadomości historycznych; dodatkową atrakcją jest wątek sensacyjny."
+      },
+      {
+       "k": "4",
+       "t": "A. Onichmowska „Najwyższa góra świata”. Wznowienie znakomitych opowiadań wpisanych w 1998 roku na Listę Honorową Hansa Christiana Andersena. Bohaterami opowiadań są dzieci przeżywające różne ważne i trudne chwile, takie jak choroba czy śmierć w rodzinie, rozwód rodziców, odrzucenie przez grupę rówieśniczą. Doskonałe obserwacje, znajomość psychiki dziecka sprawiają, że jest to lektura dla dorosłych i dla dzieci."
+      },
+      {
+       "k": "5",
+       "t": "D. Wawiłow „Kałużyści”. Zbiór wierszyków znanych już z poprzednich zbiorów „Moja tajemnica” i „Strasznie ważna rzecz”. Wiersze nadają się zarówno do prowadzenia zajęć teatralnych dla dzieci, jak i samodzielnego czytania.",
+       "ex": true
+      },
+      {
+       "k": "6",
+       "t": "Z. Szanter „Duszek ze starego zamczyska”. Dzieje przyjaźni duszka Ektoplazmusa i starego diabła Pazurkiewicza. Bez duchów i czarownic trudno dziś sobie wyobrazić książkę dla dzieci. Tę możemy czytać spokojnie najbardziej znerwicowanemu dziecku; może właśnie takiemu. Jest w niej świat przyjazny i piękny, któremu można zaufać, w którym nasze niezręczności będą nam życzliwie wybaczone, a inni troszczą się o nas tak, jak my troszczymy się o nich."
+      }
+     ],
+     "example": {
+      "t": "Jacek pracuje z małymi dziećmi. Szuka czegoś, co można by wykorzystać jako materiał do pracy w grupie.",
+      "a": "5"
+     },
+     "rows": [
+      {
+       "t": "Basia ma sześcioletniego siostrzeńca, który wszystkiego się boi. Szuka książki opowiadającej o strachach, ale pokazującej też, że nie ma się czego bać.",
+       "a": "6"
+      },
+      {
+       "t": "Jan jest psychologiem dziecięcym. Pracuje z dziećmi, które mają bardzo trudne dzieciństwo. Szuka książki, w której dzieci mogłyby odnaleźć swoje własne problemy.",
+       "a": "4"
+      },
+      {
+       "t": "Anna ma bratanka, który pasjonuje się książkami przygodowymi. Anna szuka książki, która łączyłaby element przygody z wątkiem historycznym. Najlepiej, gdyby bohaterem był ktoś w wieku jej bratanka.",
+       "a": "3"
+      },
+      {
+       "t": "Halina ma trzynastoletnią córkę, którą interesują tylko chłopcy. Halina szuka książki, która zainteresowałaby jej córkę i jednocześnie pokazała, że w życiu są też inne ważne sprawy.",
+       "a": "1"
+      },
+      {
+       "t": "Grzegorz ma dwóch synów, którzy grają tylko w gry komputerowe. Grzegorz chciałby jednak, żeby chłopcy zaczęli czytać. Szuka książek przygodowych, najlepiej kilku, które miałyby jednego bohatera. Myśli, że gdyby chłopcy polubili tego bohatera, na pewno przeczytaliby wszystkie książki o nim.",
+       "a": "2"
+      }
+     ]
+    },
+    {
+     "id": "r11",
+     "page": 20,
+     "name": "Как сестра Кулечка в Италию собирается, XI",
+     "kind": "choice",
+     "rn": "1.XI.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać tekst, a następnie zaznaczyć: P – gdy zdanie jest prawdziwe; F – gdy jest fałszywe; BI – gdy w tekście brakuje informacji na dany temat."
+     ],
+     "passage": [
+      "Gdyby Barbara Kuleczka wiedziała, że w marcu tego roku będzie zdawać przed komisją egzamin do pracy we Włoszech, byłaby może przestraszona, bardziej skupiona. Ale pojechała z Gdańska do Warszawy tylko po to, żeby dowiedzieć się, jakie szanse na pracę za granicą mają jej koleżanki. Siostra Kuleczka – przewodnicząca Związków Zawodowych Pielęgniarek i Położnych w Szpitalu Kolejowym w Gdańsku – uważała to za swój obowiązek.",
+      "Kartkę o wyjeździe znalazła na tablicy ogłoszeń w Izbie Pielęgniarskiej. Szukali sióstr do pracy we włoskich klinikach i prywatnych szpitalach. Zadzwoniła. Przedstawiła się: skończyła liceum pielęgniarskie w Grójcu, od 21 lat pracuje w tym samym szpitalu, ma dwóch dorosłych synów i męża. Zapytali o zainteresowania. Powiedziała: lubi haftować, uwielbia robótki ręczne, od lat haftuje obrazy ściegiem krzyżykowym. Kazali przyjechać do Warszawy. Przywieźć papiery. Myślała, że jedzie na spotkanie organizacyjne, a znalazła się na egzaminie. Jak już pokazała, że umie robić zastrzyki, cewnikować, Włosi (lekarze i profesorowie) zapytali ją, czemu chce wyjechać. Wzruszyła ramionami: nie wie na pewno, czy chciałaby wyjechać, bo lubi swoją pracę w Gdańsku. Ale, przyznaje, zarabia tysiąc złotych na rękę, jeden syn studiuje, drugi jest w liceum, praca męża jest niepewna, mają długi. Chciałaby je spłacić. Podziękowali. Za kilka dni powiadomili, że im się spodobała. Zafundowali 50 godzin kursu języka włoskiego i kazali przygotować dokumenty. Siostra Kuleczka nadal nie była przekonana do wyjazdu, ale na wszelki wypadek zdobyła potwierdzenie prawa wykonywania zawodu; potwierdziła dyplom u ministra zdrowia. Zawiozła dokumenty do Ministerstwa Spraw Zagranicznych; potwierdziła ich autentyczność i dała przetłumaczyć; zapłaciła za wszystko z własnej kieszeni i wysłała do Włoch. Uf! W czerwcu Włosi przysłali jej nostryfikowany dyplom. Poinformowali też, że może wybrać sobie szpital, że dostanie etat i zarobi 1150 euro, zapłacą za jej mieszkanie. Musi tylko jeszcze we Włoszech zdać egzamin z języka.",
+      "W tym czasie siostra Barbara Kuleczka umiała już odmienić po włosku słowo „serce” – „il cuore”. Jest grudzień, a ona nadal nie wie, czy jechać. Przychodzi codziennie do pracy, potem uczy się włoskiego. Kilkadziesiąt koleżanek, które razem z nią startowały, przysyła już kartki z Rzymu, Neapolu czy Wenecji. Dwie oblały egzaminy językowe i czekają na poprawki. Ale jest im dobrze, są cenione. Na początku nie rozumiały, co do nich mówią pacjenci i lekarze, ale idzie im coraz lepiej.",
+      "A ona siedzi na wersalce w pokoju pielęgniarek i nie wie, czy zniesie tęsknotę za rodziną. Tak mówi. Ale na wszelki wypadek wybrała sobie szpital w Mediolanie lub Florencji. Na południu jest dla niej za gorąco. Kolejne siostry jadą jeszcze w tym miesiącu."
+     ],
+     "example": {
+      "q": "Barbara Kuleczka wyjechała już do Włoch.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       },
+       {
+        "v": "bi",
+        "t": "BI"
+       }
+      ],
+      "a": "f",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "W czasie egzaminu Barbara była bardzo zdenerwowana.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Siostra Kuleczka jest doświadczoną pielęgniarką.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Barbara musiała zdać ważny egzamin, żeby zostać przewodniczącą Związku Pielęgniarek i Położnych w swoim szpitalu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "W czasie egzaminu Włosi byli zainteresowani różnymi umiejętnościami pani Barbary.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Mąż Barbary jest bezrobotny.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Barbara wielokrotnie zmieniała pracę.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Najbliższa rodzina zachęca Barbarę do wyjazdu do Włoch.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "Kurs języka włoskiego był dla Barbary dużym wydatkiem.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Większość koleżanek, które wyjechały do Włoch, musi zdać ponownie egzamin z włoskiego.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Barbara wyjedzie do Włoch jeszcze w grudniu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      }
+     ]
+    },
+    {
+     "id": "r12",
+     "page": 21,
+     "name": "Не могу найти работу, XII",
+     "kind": "choice",
+     "rn": "1.XII.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać tekst, a następnie zaznaczyć: P – gdy zdanie jest prawdziwe; F – gdy jest fałszywe."
+     ],
+     "passage": [
+      "Codziennie przeglądam ogłoszenia o pracy. Przeważają te: o akwizycji, ubezpieczeniach i nieruchomościach, gdzie trzeba założyć własną firmę i samemu opłacać ubezpieczenie socjalne, o różnego rodzaju agencjach, w tym towarzyskich. Niewiele jest ogłoszeń o pracy stałej z ubezpieczeniem i zapleczem socjalnym. Jeśli już takie się znajdzie, potrzebne jest wykształcenie wyższe lub specjalistyczne i co najmniej dwuletnie doświadczenie. Atutem jest też młody wiek.",
+      "Co ma zrobić kobieta taka jak ja – po czterdziestce, która nie pracowała (bo nie musiała), ale dziś chce pracować, wszystko jedno gdzie, po 18 godzin na dobę, aby zarobić ok. 2000 zł miesięcznie na opłaty i dom? Urząd pracy ogranicza się do wypłacania zasiłku i zarejestrowania. Jeśli oferuje pracę, to za 300 zł miesięcznie. Samych opłat mam ok. 1000 zł, a gdzie jedzenie? Jestem sama z córką, nie mam nikogo, kto mógłby mi pomóc.",
+      "W urzędzie gminy powiedziano mi wprost, „że nie są instytucją charytatywną”, a przecież nie prosiłam o pomoc socjalną, tylko o pracę.",
+      "Odpisałam na kilkadziesiąt ofert – bez odpowiedzi. Nie chce mi się wierzyć, że nadaję się tylko do zamiatania ulic. Wiele rzeczy potrafię, wielu jeszcze mogę się nauczyć. Powoli przestaję wierzyć w ludzi. Tyle spotkałam ostatnio obojętności.",
+      "Czytelniczka"
+     ],
+     "example": {
+      "q": "Autorem tekstu jest kobieta.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "Czytelniczka intensywnie poszukuje pracy.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Największe szanse na znalezienie pracy mają te osoby, które gotowe są płacić ubezpieczenie socjalne indywidualnie.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Czytelniczka jest gotowa przyjąć każdą pracę za ok. 1000 zł miesięcznie.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Czytelniczka nie pracowała wcześniej, ponieważ miała dobrą sytuację finansową.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Według czytelniczki urząd pracy pomaga aktywnie w poszukiwaniach pracy.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Oferty pracy z urzędu pracy pozwalają czytelniczce zarobić tylko na mieszkanie.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Czytelniczce pomaga finansowo rodzina.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Czytelniczka odpowiedziała na bardzo wiele ofert.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Czytelniczka uważa, że także zamiatanie ulic jest dla niej odpowiednią pracą.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Wiele osób chciało ostatnio pomóc czytelniczce.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      }
+     ]
+    },
+    {
+     "id": "r13",
+     "page": 22,
+     "name": "Продолжительность жизни в Польше, XIII",
+     "kind": "choice",
+     "rn": "1.XIII.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać tekst, a następnie zaznaczyć: P – gdy zdanie jest prawdziwe; F – gdy jest fałszywe, BI – gdy w tekście brakuje informacji na dany temat."
+     ],
+     "passage": [
+      "Średnią długość życia kobiet i mężczyzn w Polsce wyliczyli specjaliści z Głównego Urzędu Statystycznego. Jak się okazuje, największe szanse, by dożyć stu lat, mają mieszkańcy Małopolski, Podlasia i Podkarpacia. Czemu to zawdzięczają?",
+      "– Według Światowej Organizacji Zdrowia, największy wpływ na długość życia ma styl, w jakim je prowadzimy. Dopiero w dalszej kolejności są środowisko, genetyka i służba zdrowia – mówi Longina Rutkowska z GUS, która zajmuje się obliczaniem średniej długości życia.",
+      "W podlaskim, gdzie średnia długość życia mężczyzny wynosi 71 lat, a kobiet aż 80,4 (najwyższa w Polsce), twierdzą, że to dzięki wyższemu poziomowi edukacji. Bo jak wiadomo, im mieszkańcy lepiej wykształceni, tym dłużej żyją.",
+      "– Jeszcze w 1997 roku długość życia w naszym regionie była taka jak na Śląsku. Zastanawiałem się, dlaczego i doszedłem do wniosku, że ważniejsze od środowiska są higieniczny tryb życia i poziom wykształcenia. W ciągu paru lat przybyło na Podlasiu wyższych uczelni i od razu widać tego efekty – twierdzi Krzysztof Teodoruk, dyrektor szpitala w Białymstoku.",
+      "Wysoki poziom edukacji jako ważny powód długowieczności mieszkańców podają też w Małopolsce. Panie dożywają tu średnio 80,2 lat, a panowie – 72,3 (rekord ogólnopolski). – Możemy pochwalić się najlepszymi wynikami matur i egzaminów gimnazjalnych. Do tego dochodzą jeszcze opieka medyczna na wysokim poziomie i doskonały górski klimat – mówi Jacek Bartlewicz, rzecznik wojewody małopolskiego.",
+      "Powodów do radości nie mają za to mieszkańcy Łódzkiego. Tam żyje się najkrócej w Polsce. W województwie łódzkim wciąż więcej ludzi umiera, niż się rodzi, a odsetek osób z wyższym i średnim wykształceniem należy do najniższych w kraju. – Jest źle. – przyznaje Sławomir Przybyłowicz, rzecznik wojewody łódzkiego. Jako główne przyczyny podaje przemysł, który zrujnował środowisko i zdrowie mieszkańców.",
+      "Dla tych, którzy nie mają szczęścia mieszkać w regionach, gdzie żyje się najdłużej, mamy jednak dobrą wiadomość. Od 1991 roku przeciętna długość życia wszystkich Polaków wydłużyła się. – Dzieci, które urodziły się w tym roku, mogą żyć o kilka lat dłużej niż ich rodzice i dziadkowie."
+     ],
+     "example": {
+      "q": "Według GUS najdłużej będą żyć mieszkańcy Małopolski, Podkarpacia i Podlasia.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       },
+       {
+        "v": "bi",
+        "t": "BI"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "Mężczyźni najdłużej żyją w Małopolsce, a kobiety na Podlasiu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Najkrócej w Polsce żyją mieszkańcy Śląska.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "Długość życia rośnie wraz ze wzrostem poziomu wykształcenia mieszkańców.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Najlepiej zdają egzaminy maturalne uczniowie Łódzkiego.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "W ciągu ostatnich lat na Podlasiu powstało wiele szkół wyższych.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Najniższa liczba osób z wyższym wykształceniem jest w Łódzkiem.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Najmniej dzieci rodzi się na Śląsku.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "Na długość życia największy wpływ, według Światowej Organizacji Zdrowia, ma środowisko naturalne.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Przeciętna długość życia Polaków jest coraz dłuższa.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Mieszkańcy Łódzkiego mają kłopoty zdrowotne.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      }
+     ]
+    },
+    {
+     "id": "r14",
+     "page": 24,
+     "name": "Как улучшить память, XIV",
+     "kind": "order",
+     "rn": "1.XIV.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "na podstawie badania internetowego, w którym udział wzięło niemal 30 tys. osób. Przeprowadzono je w ramach"
+      },
+      {
+       "k": "B",
+       "t": "osoby, które uzyskały najlepsze wyniki. Testowanie pamięci polegało na sprawdzeniu wykonywania przez internautów konkretnych czynności. Było to"
+      },
+      {
+       "k": "C",
+       "t": "do spędzania przed nim mniej niż godzinę dziennie, lepiej radzili sobie ze wszystkimi zadaniami. Na gorsze wyniki testu pamięci, oprócz nadmiernego oglądania telewizji, wpływało również"
+      },
+      {
+       "k": "D",
+       "t": "tygodnia nauki. Co z niego wynika? Żeby mieć dobrą pamięć należy: po pierwsze, unikać"
+      },
+      {
+       "k": "E",
+       "t": "Dzięki odpowiedniemu stylowi życia można uchronić się przed utratą pamięci – wynika z przeprowadzonego niedawno testu. Recepta na dobrą pamięć została wystawiona",
+       "ex": true
+      },
+      {
+       "k": "F",
+       "t": "poproszono też o wypełnienie kwestionariusza na temat różnych nawyków, np. picia alkoholu, oglądania telewizji i czytania. Wyniki testów wypadły zdecydowanie"
+      },
+      {
+       "k": "G",
+       "t": "które rozwiązywały krzyżówki. Wiele z nich jada przynajmniej raz w tygodniu ryby. Na tej „pozytywnej liście” znalazło się także czytanie powieści."
+      },
+      {
+       "k": "H",
+       "t": "oglądania telewizji, po drugie rozwiązywać dużo krzyżówek, po trzecie jeść ryby – to łączyło"
+      },
+      {
+       "k": "I",
+       "t": "między innymi zapamiętywanie listy zakupów, przypominanie sobie imion, twarzy, znajdowanie różnicy między zdjęciami. Uczestników badania"
+      },
+      {
+       "k": "J",
+       "t": "na niekorzyść telewizji. Okazało się, że to właśnie wpatrywanie się w telewizyjny ekran w największym stopniu wpływa na stan pamięci. Ci, którzy przyznali się"
+      },
+      {
+       "k": "K",
+       "t": "codzienne picie większych ilości alkoholu. Niekorzystne są również takie czynniki, jak: otyłość, depresja, brak snu czy stres. Najlepsze rezultaty – jeśli chodzi o zapamiętywanie listy zakupów i przypominanie sobie imion – miały w badaniu osoby,"
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "E"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "A"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "F"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "G"
+      }
+     ]
+    },
+    {
+     "id": "r15",
+     "page": 25,
+     "name": "Похищенная награда MTV, XV",
+     "kind": "order",
+     "rn": "1.XV.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Istnieje powiedzenie o szczęściu w nieszczęściu, ale nikt nie mówi o pechu, który może się przydarzyć przy okazji szczęśliwego zdarzenia. Tego",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "przyznania jej nagrody MTV i opowiadała na warszawskim lotnisku,"
+      },
+      {
+       "k": "C",
+       "t": "przez tajemniczych złodziei. Prawdopodobnie organizatorzy konkursu MTV będą zmuszeni wykonać repliki zaginionych nagród. Tylko czy czasem nie będą to już zwykłe falsyfikaty?"
+      },
+      {
+       "k": "D",
+       "t": "że kiedy już nacieszy się nagrodą, przekaże ją na licytację na jakiś zbożny cel. Okazuje się,"
+      },
+      {
+       "k": "E",
+       "t": "jak wygląda statuetka, która tymczasem została wysłana do Londynu w celu"
+      },
+      {
+       "k": "F",
+       "t": "Jeszcze kilka dni temu cieszyła się z"
+      },
+      {
+       "k": "G",
+       "t": "Została skradziona w Londynie wraz z pozostałymi statuetkami. Wokalistka planowała,"
+      },
+      {
+       "k": "H",
+       "t": "wygrawerowania stosownego napisu. A teraz okazało się,"
+      },
+      {
+       "k": "I",
+       "t": "że plany Kasi Kowalskiej zostały pokrzyżowane"
+      },
+      {
+       "k": "J",
+       "t": "że cenna nagroda... zniknęła."
+      },
+      {
+       "k": "K",
+       "t": "doświadczyła wokalistka Kasia Kowalska."
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "F"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "E"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "C"
+      }
+     ]
+    },
+    {
+     "id": "r16",
+     "page": 25,
+     "name": "Сэндвичи «Trześniewski», XVI",
+     "kind": "order",
+     "rn": "1.XVI.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Krakowianin, Franciszek Trześniewski, który przyjechał do Wiednia na przełomie XIX i XX wieku i w 1902 roku",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "ozdobiona plasterkiem jajka na twardo. Smaczne"
+      },
+      {
+       "k": "C",
+       "t": "rozmiary i kształt: 8 cm na 4,5 cm. A co sprawia, że kanapka jest idealna? Musi być po prostu pożywna, smaczna i szybko podana. Najlepsza jest z ciemnego chleba, bo"
+      },
+      {
+       "k": "D",
+       "t": "w nocy. Jajka pochodzą z Dolnej Austrii. Rocznie przerabia się ich 1,5 miliona sztuk. Wczesnym rankiem samochód transportowy zabiera zapakowane pojemniki z pastami i"
+      },
+      {
+       "k": "E",
+       "t": "ma ciekawszy smak. I jeszcze bardzo ważny szczegół: ostrożnie z majonezem i innymi tłustymi składnikami. Dewiza firmy „Trześniewski” to: najważniejsza jest jakość produktu."
+      },
+      {
+       "k": "F",
+       "t": "otworzył bar z kanapkami. Miał, krótko mówiąc, dobry pomysł: zaspokoić szybko i tanio głód klientów. Ciekawe, że"
+      },
+      {
+       "k": "G",
+       "t": "i miesza średnio 700 kilogramów różnych składników na kilkanaście rodzajów past. Pracę zaczynają zwykle o 1.00"
+      },
+      {
+       "k": "H",
+       "t": "marchewkowo-twarożkowa i tuńczykowa, a na stuletni jubileusz firmy również kanapki z łososiem. Wprowadzono też kanapki zwane „jajko z jajkiem”, czyli słynna pasta jajeczna"
+      },
+      {
+       "k": "I",
+       "t": "rozwozi je do 8 barów firmy „Trześniewski”. Samo smarowanie kanapek kolorowymi pastami o różnych smakach odbywa się już w poszczególnych barach. Chleb, którego zużywa się 600 kg dziennie, pieczony jest na zamówienie. Jest to specjalny, ciemny chleb w prostokątnych formach, tak żeby wszystkie kanapki miały takie same"
+      },
+      {
+       "k": "J",
+       "t": "przez lata upodobania wiedeńczyków niemal się nie zmieniły. Od założenia firmy w 1902 roku produkuje się stale te same 18 rodzajów past kanapkowych według niezmienionych przepisów. Po 1978 roku doszły pasty"
+      },
+      {
+       "k": "K",
+       "t": "pasty są produkowane w pomieszczeniach bezpośrednio pod biurem. Tutaj co noc pięciu pracowników firmy gotuje jajka"
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "F"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "E"
+      }
+     ]
+    },
+    {
+     "id": "r17",
+     "page": 26,
+     "name": "Спектакль «Kontrabasista», XVII",
+     "kind": "order",
+     "rn": "1.XVII.",
+     "max": 9.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "przedstawień nie tylko w Polsce, ale i m.in. we Włoszech, w Kanadzie, USA,"
+      },
+      {
+       "k": "B",
+       "t": "„Kurtyna”. Jest to opowieść o nieszczęśliwym, sfrustrowanym muzyku,"
+      },
+      {
+       "k": "C",
+       "t": "odbędzie się spotkanie z aktorem, a następnie"
+      },
+      {
+       "k": "D",
+       "t": "tym instrumencie. Publiczność od wielu lat bardzo kocha to przedstawienie. Po przedstawieniu zapraszamy na"
+      },
+      {
+       "k": "E",
+       "t": "licytacja portretu artysty, który zostanie namalowany podczas przedstawienia „Kontrabasisty”."
+      },
+      {
+       "k": "F",
+       "t": "Jerzy Stuhr już od 19 lat wykonuje „Kontrabasistę” Particka Suskinda. Zagrał ponad 600",
+       "ex": true
+      },
+      {
+       "k": "G",
+       "t": "projekcję filmu „Pogoda na jutro” w reżyserii i z udziałem Jerzego Stuhra, po którym"
+      },
+      {
+       "k": "H",
+       "t": "który zakochał się w młodej dziewczynie. Realizm przedstawienia wzmaga gra Jerzego Stuhra"
+      },
+      {
+       "k": "I",
+       "t": "Niemczech i Australii. Tym razem „Kontrabasista” będzie wystawiany w teatrze"
+      },
+      {
+       "k": "J",
+       "t": "na kontrabasie. Specjalnie do tego spektaklu nauczył się grać na"
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "F"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "A"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "E"
+      }
+     ]
+    },
+    {
+     "id": "r18",
+     "page": 27,
+     "name": "История моды, XVIII",
+     "kind": "order",
+     "rn": "1.XVIII.",
+     "max": 11.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość.",
+      "В официальном ключе для этого текста указано два равноценных варианта порядка на отрезке 4–7 и 10; сверка идёт по одному из них, для другого верного варианта используйте кнопку «засчитать»."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Już Adam i Ewa zmieniali dwa razy swoje ubranie – piszą Ela i Adam Banachowie w wydanym prawie",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "to nie tylko sposób ubierania się, także sposób bycia, który znowu zaczyna odzwierciedlać pozycję społeczną."
+      },
+      {
+       "k": "C",
+       "t": "W Polsce ubranie stało się symbolem"
+      },
+      {
+       "k": "D",
+       "t": "zostali wygnani z ciepłego raju, Pan Bóg „uczynił im ubrania ze skóry”. Moda"
+      },
+      {
+       "k": "E",
+       "t": "Co to jest moda? To worek, w który wkłada się nowe rzeczy, by po pewnym czasie wysypać go i zachwycić się tym, co leżało na dnie – mówiła moja babcia mojej mamie w pierwszej połowie zeszłego już stulecia. Moda"
+      },
+      {
+       "k": "F",
+       "t": "– jeśli to słowo jest tu na miejscu – zawsze jakoś usiłuje wyrazić swój czas i jego potrzeby."
+      },
+      {
+       "k": "G",
+       "t": "bo najwdzięczniejszymi jej odbiorcami są ludzie młodzi, którzy jej poprzednich wersji nie znają."
+      },
+      {
+       "k": "H",
+       "t": "statusu i moje bogate znajome nie mogą już kupować byle czego, byle gdzie, choćby było najładniejsze. Moda"
+      },
+      {
+       "k": "I",
+       "t": "zawsze kręciła się w kółko. Kusi nowością i przeważnie zwycięża,"
+      },
+      {
+       "k": "J",
+       "t": "Na szczęście przez ostatnie czterdzieści lat moda niesłychanie się zdemokratyzowała. Pokazy wielkich krawców to nadal wydarzenie"
+      },
+      {
+       "k": "K",
+       "t": "czterdzieści lat temu Słowniku mody. Najpierw byli niewinni i nadzy. Potem zasłonili się liśćmi figowymi. A kiedy już"
+      },
+      {
+       "k": "L",
+       "t": "towarzyskie, rytuał, show – ale przede wszystkim jednak sztuka dla sztuki... i dla reklamy."
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "F"
+      },
+      {
+       "t": "",
+       "a": "E"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "L"
+      }
+     ]
+    },
+    {
+     "id": "r19",
+     "page": 28,
+     "name": "Ученик художника Бексиньского, XIX",
+     "kind": "order",
+     "rn": "1.XIX.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Zdzisław Beksiński nigdy nie wyjaśnił,",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "ma 24 lata i mieszka we Wrocławiu. Spotkanie ze Zdzisławem Beksińskim było wielkim przypadkiem – takim,"
+      },
+      {
+       "k": "C",
+       "t": "z życzliwością. Wreszcie zaczepił go nieznajomy mężczyzna, który przyglądał się wystawianym pracom. Zaproponował, że będzie go uczył."
+      },
+      {
+       "k": "D",
+       "t": "Pewnego dnia chłopiec wybrał się na wrocławski rynek, gdzie uliczni artyści sprzedawali swoje prace."
+      },
+      {
+       "k": "E",
+       "t": "10 lat Adrian regularnie jeździł do Warszawy. Beksiński uczył go malarstwa i rysunku. Adrian nie należał do bogatej rodziny i gdyby"
+      },
+      {
+       "k": "F",
+       "t": "Po trzech latach zainterweniowali rodzice. Zmusili go, żeby zaczął żyć jak normalny nastolatek."
+      },
+      {
+       "k": "G",
+       "t": "dlaczego nie chciał mieć uczniów. Poza jednym, Adrianem Kędzią. Adrian"
+      },
+      {
+       "k": "H",
+       "t": "nie pomoc nauczyciela, nie byłby w stanie rozwijać swej pasji. Lata nauki to dla Adriana zupełna izolacja od świata. Zamykał się w swoim pokoju i malował."
+      },
+      {
+       "k": "I",
+       "t": "który jak większość z nich właściwie nie miał prawa się zdarzyć. Adrian miał wtedy 6, może 7 lat i bardzo chciał się nauczyć malować."
+      },
+      {
+       "k": "J",
+       "t": "To był Beksiński. Chłopak przez długi czas nie miał pojęcia, że jest uczniem jednego z najbardziej znanych polskich malarzy. Przez ponad"
+      },
+      {
+       "k": "K",
+       "t": "Chodził od jednego do drugiego i prosił o naukę, ale ani razu nie spotkał się"
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "J"
+      },
+      {
+       "t": "",
+       "a": "E"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "F"
+      }
+     ]
+    },
+    {
+     "id": "r20",
+     "page": 29,
+     "name": "Фильм «Dekalog I», XX",
+     "kind": "gaps",
+     "rn": "1.XX.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst słowami z ramki zgodnie z podanym przykładem."
+     ],
+     "box": [
+      "chłopiec",
+      "wyliczył",
+      "tragedii",
+      "przede",
+      "nieszczęśliwych",
+      "cyklu",
+      "ukochany",
+      "istnienia",
+      "bożkiem",
+      "opowiada",
+      "zaufał"
+     ],
+     "text": [
+      "Pierwsza część {e:cyklu} filmów Krzysztofa Kieślowskiego „Dekalog” odpowiada pierwszemu z dziesięciu przykazań – „Nie będziesz miał bogów cudzych {1} mną”. W scenariuszu ujęte zostało ono w sposób podstawowy – jest to problem {2} Boga w ogóle, a także kreowania przez współczesnego człowieka fałszywych bożków. Twórcy filmu chyba nieprzypadkowo tym {3} uczynili komputer. „Dekalog I” {4} historię pewnego naukowca.",
+      "Jego tragedia wzięła początek z tego, że zbyt {5} komputerowi, możliwościom współczesnej nauki. Z wielką precyzją {6} on wytrzymałość lodu na zamarzniętym osiedlowym jeziorku, gdzie jego {7} syn chciał wypróbować nowe łyżwy. Niestety, splot przypadków i {8} okoliczności doprowadził do {9}. Lód nie wytrzymuje ciężaru młodego łyżwiarza i {10} się topi."
+     ],
+     "gaps": [
+      {
+       "a": "przede"
+      },
+      {
+       "a": "istnienia"
+      },
+      {
+       "a": "bożkiem"
+      },
+      {
+       "a": "opowiada"
+      },
+      {
+       "a": "zaufał"
+      },
+      {
+       "a": "wyliczył"
+      },
+      {
+       "a": "ukochany"
+      },
+      {
+       "a": "nieszczęśliwych"
+      },
+      {
+       "a": "tragedii"
+      },
+      {
+       "a": "chłopiec"
+      }
+     ]
+    },
+    {
+     "id": "r21",
+     "page": 29,
+     "name": "Обычай целовать руку, XXI",
+     "kind": "gaps",
+     "rn": "1.XXI.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst słowami z ramki zgodnie z podanym przykładem.",
+      "Uwaga! W ramce znajduje się więcej wyrazów niż luk w tekście!"
+     ],
+     "box": [
+      "całowania",
+      "ludzie",
+      "nogi",
+      "gest",
+      "drugiej",
+      "mówi",
+      "Włosi",
+      "zwyczaj",
+      "stanowiska",
+      "ramiona",
+      "opinie",
+      "polską",
+      "uważają",
+      "osoby"
+     ],
+     "text": [
+      "Zwyczaj {e:całowania} kobiety w rękę ma długą historię. Już Homer {1} o nim w Iliadzie. Kiedyś był to {2}, który wyrażał uległość wobec królów. Poddani obejmowali królów za {3} i całowali w ręce. W Hiszpanii w okresie średniowiecza pojawił się {4} całowania kobiet w rękę; robili to też Francuzi i {5} z wyższych sfer. Nawet listy kończyły się zwrotami: „padam do nóżek”, „całuję rączki”.",
+      "Dzisiaj na świecie zwyczaj całowania kobiety w rękę jest uważany za {6} osobliwość. Możemy zaobserwować trzy {7}. Jedni {8}, że jest to zwyczaj rycerski, który zasługuje na pielęgnowanie. Zwolennicy tego poglądu całują w rękę na ulicy, w pociągu, w sali gimnastycznej. Do {9} grupy należą mężczyźni, którzy nie całują w rękę w ogóle. Uważają, że podanie ręki wystarczy. Istnieje trzecia grupa mężczyzn, którzy uważają, że całuje się w rękę jedynie najdroższe {10} w życiu – matkę i żonę oraz inne panie, przy okazji podziękowań i składania życzeń."
+     ],
+     "gaps": [
+      {
+       "a": "mówi"
+      },
+      {
+       "a": "gest"
+      },
+      {
+       "a": "nogi"
+      },
+      {
+       "a": "zwyczaj"
+      },
+      {
+       "a": "Włosi"
+      },
+      {
+       "a": "polską"
+      },
+      {
+       "a": "stanowiska"
+      },
+      {
+       "a": "uważają"
+      },
+      {
+       "a": "drugiej"
+      },
+      {
+       "a": "osoby"
+      }
+     ]
+    },
+    {
+     "id": "r22",
+     "page": 30,
+     "name": "Жизнь на расстоянии, XXII",
+     "kind": "gaps",
+     "rn": "1.XXII.",
+     "max": 10.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst słowami z ramki zgodnie z podanym przykładem.",
+      "Uwaga! W ramce znajduje się więcej wyrazów niż luk w tekście!"
+     ],
+     "box": [
+      "propozycje",
+      "sygnał",
+      "studiowała",
+      "miłości",
+      "ze sobą",
+      "zamieszkać",
+      "zostały",
+      "pracują",
+      "zostaje",
+      "wydawało się",
+      "wyjątkowym",
+      "podjęli",
+      "bezpieczniej",
+      "wsiadła",
+      "kontynencie",
+      "kontrakcie",
+      "ramieniu",
+      "najbliższych",
+      "pieniędzy",
+      "opieka",
+      "spokojniej",
+      "osobno",
+      "weszła",
+      "zrobił",
+      "kraju"
+     ],
+     "text": [
+      "Życie {e:osobno}",
+      "Coraz więcej Polaków szuka {1} za granicą. Tam zarabiają dużo więcej niż w kraju, dostają coraz lepsze {2} pracy, ale tutaj zostawiają swoich {3}. Związki na odległość to ciężki orzech do zgryzienia. Nie przytulisz się do słuchawki telefonu, nie wypłaczesz się na {4} kogoś, kto jest setki kilometrów stąd. Żeby przetrwać, potrzeba wiele {5}, zaufania i wytrwałości.",
+      "Basia i Tomek Lewonowscy jak nikt wiedzą, co to życie z dala od siebie. Przez wiele miesięcy, każdego dnia czekali na {6} telefonu, a nuż ta ukochana osoba zadzwoni...",
+      "Kiedy poznali się, Basia {7} w Toruniu, Tomek mieszkał w rodzinnym Ełku. Odwiedzali się przez kilka miesięcy. Spędzali po osiem godzin w pociągu, jadąc w jedną stronę, żeby być {8} przez dwa weekendowe dni. W momencie, w którym {9}, że w końcu będą mogli {10} razem, Basia – jak setki młodych Polaków – wyjechała do pracy w Londynie. Znowu {11} tylko telefony, maile i SMS-y.",
+      "Kasia i Krzysztof Makowscy od siedmiu lat są małżeństwem. {12} w jednej firmie. Na rozłąkę byli skazani w {13} momencie swojego życia. Kiedy Kasia zaszła w ciążę, oboje byli na {14} w Indiach. Gdy była w trzecim miesiącu, {15} decyzję, że ona wróci do Polski, gdzie będzie czuła się {16}, gdzie jest o wiele lepsza {17} medyczna. W styczniu ubiegłego roku {18} do samolotu do Polski. Zamieszkała w Toruniu. Krzysztof został na innym {19}, tysiące kilometrów od swojej ukochanej i od domu. „Ciąża to szczególny okres. Ciężko było mi samej. Jednak o tym, że Krzysztof {20} w Indiach zdecydowaliśmy razem”."
+     ],
+     "gaps": [
+      {
+       "a": "pieniędzy"
+      },
+      {
+       "a": "propozycje"
+      },
+      {
+       "a": "najbliższych"
+      },
+      {
+       "a": "ramieniu"
+      },
+      {
+       "a": "miłości"
+      },
+      {
+       "a": "sygnał"
+      },
+      {
+       "a": "studiowała"
+      },
+      {
+       "a": "ze sobą"
+      },
+      {
+       "a": "wydawało się"
+      },
+      {
+       "a": "zamieszkać"
+      },
+      {
+       "a": "zostały"
+      },
+      {
+       "a": "pracują"
+      },
+      {
+       "a": "wyjątkowym"
+      },
+      {
+       "a": "kontrakcie"
+      },
+      {
+       "a": "podjęli"
+      },
+      {
+       "a": "bezpieczniej"
+      },
+      {
+       "a": "opieka"
+      },
+      {
+       "a": "wsiadła"
+      },
+      {
+       "a": "kontynencie"
+      },
+      {
+       "a": "zostaje"
+      }
+     ]
+    },
+    {
+     "id": "r23",
+     "page": 32,
+     "name": "Безопасные каникулы, XXIII",
+     "kind": "gaps",
+     "rn": "1.XXIII.",
+     "max": 8.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać podany poniżej tekst i dopasować usunięte z niego fragmenty zgodnie z podanym przykładem."
+     ],
+     "legend": [
+      {
+       "k": "A",
+       "t": "Dla dzieci to okres beztroski,",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "zapytajmy, na przykład znajomych, o referencje."
+      },
+      {
+       "k": "C",
+       "t": "Zanim wyślemy dziecko na obóz czy kolonię,"
+      },
+      {
+       "k": "D",
+       "t": "W ramach kursów dla wychowawców kolonijnych uczestnicy zapoznają się z zasadami pierwszej pomocy,"
+      },
+      {
+       "k": "E",
+       "t": "Jeśli chcemy, by nasze dziecko w sposób atrakcyjny spędziło letni czas,"
+      },
+      {
+       "k": "F",
+       "t": "jak wygląda opieka medyczna oraz o kadrę wychowawców."
+      },
+      {
+       "k": "G",
+       "t": "dla podopiecznych. Wychowawcy są również przygotowywani na wypadek problemów z narkomanią i alkoholizmem."
+      },
+      {
+       "k": "H",
+       "t": "Działa całą dobę"
+      },
+      {
+       "k": "I",
+       "t": "Mogą również samodzielnie zgłaszać swoje wątpliwości"
+      }
+     ],
+     "text": [
+      "Wakacje. {e:A} dla rodziców – problem, jak zapewnić najmłodszym właściwą opiekę w tym czasie. Jedną z możliwości są wakacyjne wyjazdy. {1} powinniśmy sprawdzić warunki letniego wypoczynku.",
+      "Wakacyjne wyjazdy dzieci i młodzieży mogą mieć różną formę: są to obozy stacjonarne i wędrowne, kolonie krajowe i zagraniczne. {2} zadbajmy, by te wakacje były również bezpieczne.",
+      "Trzeba znać organizatora wyjazdu. Jeśli decydujemy się na wyjazd organizowany przez biuro podróży, {3} Jeśli nie znamy nikogo, kto był na wakacjach z biurem X, nie powinniśmy ryzykować: tu chodzi o bezpieczeństwo naszego dziecka.",
+      "Przed wyjazdem rodzice powinni także pytać o to, {4} Wychowawcą lub kierownikiem kolonii może być osoba, która ukończyła kurs dla wychowawców kolonii, co powinno być udokumentowane stosownym zaświadczeniem. {5} z zasadami ruchu drogowego (np. dotyczącymi bezpiecznego poruszania się grupy), z regulaminem kąpieli na basenach, sposobami organizowania zajęć {6}",
+      "Rodzice powinni pytać organizatorów o stan techniczny pojazdu, jakim ma podróżować dziecko. {7} i uwagi bezpośrednio policji. Zgłoszenia przyjmuje Sekcja Ruchu Drogowego (Policja – Sekcja Ruchu Drogowego, oficer dyżurny tel. (012) 61 52 905, {8} i dysponuje załogami, które mogą kontrolować stan techniczny pojazdów."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "C"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "E"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "B"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "F"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "D"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "G"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "I"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+       ],
+       "a": "H"
+      }
+     ]
+    },
+    {
+     "id": "r24",
+     "page": 33,
+     "name": "Комиссар полиции Агата, XXIV",
+     "kind": "gaps",
+     "rn": "1.XXIV.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać podany poniżej tekst i dopasować usunięte z niego fragmenty zgodnie z podanym przykładem."
+     ],
+     "legend": [
+      {
+       "k": "A",
+       "t": "ale szybko zrezygnowała."
+      },
+      {
+       "k": "B",
+       "t": "jest policjantką od lat",
+       "ex": true
+      },
+      {
+       "k": "C",
+       "t": "każde z nas czuło się kochane i bezpieczne."
+      },
+      {
+       "k": "D",
+       "t": "kiedy ukradziono jej wymarzone adidasy."
+      },
+      {
+       "k": "E",
+       "t": "że bardzo mocno wierzyła w zasady i ideały,"
+      },
+      {
+       "k": "F",
+       "t": "że jej rodzina była szczęśliwa i kochająca."
+      },
+      {
+       "k": "G",
+       "t": "że koleżanki i koledzy kłamią."
+      },
+      {
+       "k": "H",
+       "t": "że najgorszym sposobem radzenia sobie ze złością"
+      },
+      {
+       "k": "I",
+       "t": "że nie można kłamać i kraść"
+      },
+      {
+       "k": "J",
+       "t": "że otoczenie nie lubi gniewnych dziewczynek."
+      },
+      {
+       "k": "K",
+       "t": "że wszystkie rodziny są takie same."
+      }
+     ],
+     "text": [
+      "Nadkomisarz Agata Tonder-Nowak – {e:B}. Pytania zadaje wprost, nawet jeśli są kłopotliwe. Nie boi się własnego gniewu i nie boi się gniewu innych. Tylko skąd tyle gniewu w Agacie, która mówi, {1}",
+      "– Nikt mnie nie karał, nie wiem, co to klaps – mówi Agata. – Mam dwóch braci, ale nigdy nie rywalizowałam o pozycję w rodzinie, {2} Gniew i frustracja pojawiały się poza rodziną. Wtedy myślała, {3} Dziś wie, że to rzadkość.",
+      "– Rodzice nauczyli mnie, {4} – uśmiecha się. – Mogli mnie uprzedzić, że tak niewiele osób respektuje te reguły.",
+      "Pierwsze frustracje Agaty wzięły się stąd, {5} które wyznawano w jej domu, natomiast świat zewnętrzny ich nie przestrzegał. Już w szkole oburzała się, {6} Pierwszy raz wpadła w gniew, {7}",
+      "Agata ma duży temperament, który w jej rodzinie był jak najbardziej akceptowany. Bardzo szybko przekonała się jednak, {8} Próbowała się przystosować do społecznych oczekiwań, {9}",
+      "Ciągle gniewa ją to samo: nieprzestrzeganie prawa, także w drobiazgach. Codziennie w pracy obserwuje, {10} jest jej ukrywanie. Jednak w pracy Agata zachowuje spokój."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "F"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "C"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "K"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "I"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "E"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "G"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "D"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "J"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "A"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+       ],
+       "a": "H"
+      }
+     ]
+    },
+    {
+     "id": "r25",
+     "page": 33,
+     "name": "Читают ли поляки книги, XXV",
+     "kind": "gaps",
+     "rn": "1.XXV.",
+     "max": 7.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać podany poniżej tekst i dopasować usunięte z niego fragmenty zgodnie z podanym przykładem."
+     ],
+     "legend": [
+      {
+       "k": "A",
+       "t": "wskaźnik czytelnictwa był niższy i wyniósł zaledwie 54 proc"
+      },
+      {
+       "k": "B",
+       "t": "w 2002 roku odnotowano o 2 proc. więcej czytelników"
+      },
+      {
+       "k": "C",
+       "t": "Co dziesiąty Polak w 2002 r. w ogóle nie czytał gazet, czasopism ani książek",
+       "ex": true
+      },
+      {
+       "k": "D",
+       "t": "systematycznie zbierając informacje z bibliotek publicznych"
+      },
+      {
+       "k": "E",
+       "t": "Pod względem czytelnictwa plasujemy się więc wyżej od Greków i Portugalczyków."
+      },
+      {
+       "k": "F",
+       "t": "królują podręczniki, encyklopedie, literatura fachowa"
+      },
+      {
+       "k": "G",
+       "t": "Na samym końcu tej listy plasują się wydawnictwa"
+      },
+      {
+       "k": "H",
+       "t": "W następnej kolejności czytelnicy bibliotek sięgają po literaturę dziecięco-młodzieżową"
+      }
+     ],
+     "text": [
+      "Tylko połowa Polaków czyta książki",
+      "56 proc. Polaków powyżej 15 roku życia czyta książki. {e:C} – wynika z badań czytelnictwa Polaków. Takie badania prowadzi Biblioteka Narodowa {1}. Dane zostały zebrane przez Instytut Książki i Czytelnictwa Biblioteki Narodowej i przedstawione na konferencji podczas Krajowych Targów Książki.",
+      "W 2001 roku {2}. Większość z tych, których zakwalifikowano jako czytających książki, to osoby, które po lekturę sięgają bardzo rzadko i czytają mniej niż 6 książek w ciągu roku. {3} W 2002 r. statystyczna biblioteka kupiła 5,2 książki na 100 mieszkańców. Jednocześnie Polacy coraz chętniej korzystają z bibliotek, {4}. Spada wskaźnik wypożyczeń do domu, natomiast więcej osób czyta w bibliotece. Jest to wynik zmian w rodzaju czytanych przez Polaków książek – {5}.",
+      "Najwięcej kupuje się i czyta książek szkolnych (lektury szkolne, podręczniki). {6} i książki sensacyjno-kryminalne. Kupujący, po podręcznikach, w drugiej kolejności zaopatrywali się w literaturę encyklopedyczno-poradnikową (26 proc.), następnie w literaturę fachową (13 proc), dziecięco-młodzieżową (11 proc), powieści obyczajowo-romansowe. {7} ezoteryczno-ufologiczne oraz eseistyka, którymi interesowało się mniej niż 1 proc. nabywców."
+     ],
+     "gaps": [
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "D"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "A"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "B"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "H"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "E"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "F"
+      },
+      {
+       "opts": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+       ],
+       "a": "G"
+      }
+     ]
+    },
+    {
+     "id": "r26",
+     "page": 36,
+     "name": "Надписи и вывески, зестав 2.I",
+     "kind": "choice",
+     "rn": "2.I.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę zaznaczyć właściwą odpowiedź zgodnie z podanym przykładem."
+     ],
+     "example": {
+      "q": "Ten napis można zobaczyć:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "w teatrze.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "w sklepie.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "na drodze.",
+        "label": "c)"
+       }
+      ],
+      "a": "b",
+      "text": "Inwentaryzacja"
+     },
+     "items": [
+      {
+       "q": "Na ten numer dzwonimy kiedy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "coś się pali.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "ktoś się źle czuje.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "ktoś kogoś zaatakował.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Straż pożarna – 997"
+      },
+      {
+       "q": "Ten napis oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "nie wolno tu parkować.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "nie wolno się tu zatrzymywać.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nie wolno tu wchodzić.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Wstęp wzbroniony!"
+      },
+      {
+       "q": "Ten napis oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "biletów brak.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "można jeszcze kupić bilety.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "bilety będą następnego dnia.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Bilety wyprzedane"
+      },
+      {
+       "q": "Ten napis oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "musimy tu zostawić płaszcz.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "możemy tu zostawić płaszcz.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nie możemy tu zostawiać płaszcza.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Szatnia obowiązkowa"
+      },
+      {
+       "q": "Ten napis możemy zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w biurze.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w teatrze.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w barze kawowym.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Samoobsługa"
+      },
+      {
+       "q": "Ten napis oznacza, że nie możemy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "pojechać tą ulicą.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "chodzić tą ulicą.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "zatrzymywać się na tej ulicy.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Objazd"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w sklepie spożywczym.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "u fotografa.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na basenie.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Odbitka – 50 gr."
+      },
+      {
+       "q": "Ten napis oznacza, że wykład:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "odbędzie się później.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "odbędzie się w innym miejscu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nie odbędzie się.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Wykład odwołany"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na parkingu.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie spożywczym.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w kościele.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Msze św. codziennie o godz. 18.00"
+      },
+      {
+       "q": "Ten napis można zobaczyć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na autobusie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na pociągu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na stacji benzynowej.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Zjazd do zajezdni"
+      }
+     ]
+    },
+    {
+     "id": "r27",
+     "page": 37,
+     "name": "Короткие тексты, зестав 2.II",
+     "kind": "choice",
+     "rn": "2.II.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać fragmenty tekstów i zaznaczyć właściwą odpowiedź zgodnie z podanym przykładem."
+     ],
+     "example": {
+      "q": "Z tego tekstu wynika, że:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "wydanie sobotnie można zamówić tylko z dodatkiem.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "do tej pory nie było prenumeraty wydania sobotniego.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "gazeta jest dostępna tylko w prenumeracie.",
+        "label": "c)"
+       }
+      ],
+      "a": "b",
+      "text": "Prenumerata gazety to najlepszy prezent. Teraz możesz już w prenumeracie otrzymywać również wydania sobotnie. Każdą edycję można zamówić z dodatkiem lub bez."
+     },
+     "items": [
+      {
+       "q": "Z tego tekstu wynika, iż:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "każdy uczestnik konkursu otrzyma 10 tysięcy złotych.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "wszyscy uczestnicy mają szansę ubiegania się o płatny staż.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "konkurs ogłosili autorzy prac magisterskich.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Firma Eurofaktor S A ogłosiła konkurs na najlepszą pracę magisterską z zakresu finansów, bankowości, inwestycji lub rachunkowości. Każdy uczestnik konkursu ma możliwość ubiegania się o płatny staż w firmie, a zwycięzca otrzyma 10 tysięcy złotych."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w niektórych firmach wynagrodzenie za pracę stanowią talony.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "pracownicy mogą kupować produkty tylko w pobliskich sklepach.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "pracownicy wykonują pracę bez wynagrodzenia.",
+         "label": "c)"
+        }
+       ],
+       "a": "a",
+       "text": "Sąsiedzki Rynek Pracy, którego pomysłodawczynią jest pani Iwona, skupia pracodawców i pracowników, którzy są kojarzeni na podstawie bazy danych. Ci pierwsi wpłacają pieniądze na rzecz SRP. Pracownicy, po wykonaniu pracy, otrzymują talony, za które mogą zrobić zakupy w okolicznych sklepach. Cennik usług ustala SRP."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "ubezpieczenie autocasco jest lepsze niż assistance.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "między ubezpieczeniami nie ma różnicy.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "ubezpieczenie assistance jest lepsze niż autocasco.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Ubezpieczenie autocasco to ochrona samochodu przed uszkodzeniem lub kradzieżą. Ale towarzystwo ubezpieczeniowe nie pokrywa kosztów naprawy pojazdu, gdy przytrafi się zwykła awaria. Bezstresową podróż zapewni dopiero ubezpieczenie assistance. Wówczas ubezpieczyciel pokrywa nie tylko koszty napraw, ale także organizuje pomoc, w tym medyczną, oraz opiekę nad kierowcą i pasażerami."
+      },
+      {
+       "q": "Te opinie dotyczą:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "Włodzimierza Korcza.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Ewy Bem.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "Zbigniewa Wodeckiego.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Włodzimierz Korcz twierdzi, że jego popularność nie dorównuje talentowi. Ewa Bem uważa go za „absolutny talent muzyczny”. Podziwia go nie tylko za głos, ale także za łatwość grania na wszelkich instrumentach i talent kompozytorski. Według niej Zbigniew Wodecki to artysta pełen wdzięku."
+      },
+      {
+       "q": "Tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "jeśli zrezygnujesz z systemu po tygodniu, nic nie tracisz.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "musisz zrezygnować z systemu w ciągu tygodnia.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nie ma możliwości zrezygnowania z tego systemu.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Z systemu niełatwo się wycofać. Jeśli zdecydujesz się na to w ciągu tygodnia od podpisania umowy, firma musi ci zwrócić wpłacone pieniądze. Gdy jednak taką decyzję podejmiesz później, wówczas albo stracisz wszystko, co wpłaciłaś, albo będziesz musiała czekać na zwrot części pieniędzy do chwili rozwiązania grupy, co może potrwać nawet kilka lat."
+      },
+      {
+       "q": "Tekst mówi, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "afgańskie dziewczęta nie mogą się uczyć.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Katarzyna Pszczoła jest Afganką.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "Katarzyna Pszczoła jest dłużej niż rok w Afganistanie.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Dla afgańskich dziewczyn buduje się szkołę artystyczną. Do tej pory nie mogły nawet uczyć się pisać. Teraz będą grać Mozarta, rzeźbić, tworzyć grafiki komputerowe. Katarzyna Pszczoła, wolontariuszka Polskiej Akcji Humanitarnej, w Kabulu jest już od ponad roku."
+      },
+      {
+       "q": "Tekst informuje, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "przedszkolaki w ogóle nie powinny oglądać telewizji.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "dzieci do drugiego roku życia nie powinny oglądać telewizji.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "dzieci mające 3 lata mogą oglądać telewizję dłużej niż godzinę.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Oglądanie telewizji jest szczególnie niewskazane dla małych dzieci. Najlepiej gdyby nasza pociecha nie znała „tego zajęcia” do ukończenia 2 roku życia. Trzylatkowi można zaproponować dziesięciominutowe seanse. Przedszkolaki potrafią się skupić trochę dłużej, ale nie powinny spędzać przed telewizorem więcej niż pół godziny."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "skarby wyrzucane przez morze są na sprzedaż.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "z tego, co wyrzuca morze, da się zrobić coś dla siebie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "to, co wyrzuca morze jest nieprzydatne.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Morze wyrzuca na brzeg różne skarby: muszle, kawałki drewna, sznurki. Można z nich zrobić efektowny naszyjnik lub coś innego."
+      },
+      {
+       "q": "Z tego tekstu wynika, że nauczyciele brytyjscy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "są raczej zadowoleni z pracy.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "narzekają.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "strajkują.",
+         "label": "c)"
+        }
+       ],
+       "a": "b",
+       "text": "Pedagodzy brytyjscy skarżą się na nadmiar pracy i wciąż zmieniające się programy. Aby cudzoziemcy nie opanowali tamtejszych szkół, władze muszą spełnić wiele postulatów miejscowych nauczycieli."
+      },
+      {
+       "q": "Z tego tekstu wynika, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "szef nie rozumie potrzeb Adama.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Adam po dwóch latach wraca do pracy.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "dla Adama opieka nad Anią jest obecnie najważniejsza.",
+         "label": "c)"
+        }
+       ],
+       "a": "c",
+       "text": "Adam będzie opiekować się Anią przez dwa lata. Potem prawdopodobnie wróci do pracy. – Na szczęście mam wyrozumiałego szefa, który obiecał, że praca będzie na mnie czekać – mówi Adam. Na razie robię wszystko dla Ani."
+      }
+     ]
+    },
+    {
+     "id": "r28",
+     "page": 40,
+     "name": "Малгожата Пеньковска, зестав 2.III",
+     "kind": "choice",
+     "rn": "2.III.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę przeczytać tekst, a następnie zaznaczyć: P – gdy zdanie jest prawdziwe, F – gdy jest fałszywe, BI – gdy w tekście brakuje informacji na dany temat."
+     ],
+     "passage": [
+      "Jako dziecko pisała wiersze, płakała nad każdym umarłym ptaszkiem, pomagała osobom starszym.\n– Chciałam być weterynarzem, lekarzem, nauczycielką. Pragnęłam pomagać ludziom.\nTaka delikatna i wrażliwa, a uprawiała koszykówkę. Została nawet powołana do reprezentacji Polski juniorek. Sport zabierał jej mnóstwo czasu, bardzo często wyjeżdżała z zespołem na obozy, zawody.",
+      "Do dzisiaj Małgorzata Pieńkowska jest wdzięczna trenerowi, że nie zabronił jej uczestniczyć w konkursach recytatorskich, a mógł przecież powiedzieć „nie”.\nBardzo ładnie mówiła wierszyki już w przedszkolu. Potem z łatwością przechodziła kolejne etapy eliminacji w konkursach. Grała też w teatrze amatorskim w Olsztynie. Do szkoły teatralnej dostała się za pierwszym razem.",
+      "– Mimo że to mama nauczyła mnie miłości do teatru, rodzice byli kompletnie zaskoczeni moją decyzją. W domu rozmawiało się o teatrze, o spektaklach, ciekawiło nas, kto jak zagrał, a nie że jest znany. Ja też postrzegałam aktorstwo jedynie jako zawód. Co więcej, od początku widziałam jego ciemne, ciężkie strony, a nie popularność i pieniądze. Dopiero potem bardzo się zdziwiłam, że ten zawód ludziom imponuje.",
+      "W teatrze uwielbiała swojego dyrektora, Kazimierza Dejmka.\n– Czułam, że traktuje mnie jak ojciec. Często pożyczał mi pieniądze na chleb. W teatrze nie zarabia się dużo, znał więc moją kondycję finansową.",
+      "Gdy zaproponowano jej zagranie w reklamie telewizyjnej, zapytała Kazimierza Dejmka, czy może. „Za te pieniądze mogłabym mieć kawalerkę” – tłumaczyła.\n– A ten mądry, wrażliwy człowiek popatrzył tylko na mnie i zażądał, bym wyszła. Nie chciałam, dopóki mi nie wytłumaczy, dlaczego tak uważa, nie powie, co mam zrobić. Godzinna rozmowa skończyła się jasnym komunikatem, że mam prawo wyboru. Nie zrobiłam tej reklamówki. Dziś uważam, że o kondycji aktora świadczy to, co robi w teatrze, telewizji, filmie, a reklamówka jest czymś w rodzaju wisienki na torcie."
+     ],
+     "example": {
+      "q": "Ten tekst opowiada o Małgorzacie Pieńkowskiej.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       },
+       {
+        "v": "bi",
+        "t": "BI"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "W dzieciństwie Małgorzata marzyła o leczeniu zwierząt.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Małgorzata była reprezentantką Polski na mistrzostwach świata juniorek.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "Trener Małgorzaty pozwolił jej na udział w konkursach recytatorskich.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Rodzice Małgorzaty byli zdziwieni jej wyborem kierunku studiów.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Małgorzata została aktorką, gdyż pociągała ją popularność.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Kazimierz Dejmek był dyrektorem pierwszego teatru, w którym pracowała Małgorzata.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "bi",
+       "inline": true
+      },
+      {
+       "q": "Małgorzata dobrze zarabiała będąc aktorką.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Małgorzata chciała zagrać w filmie reklamowym.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Kazimierz Dejmek doradził jej występ w telewizji.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Zdaniem Małgorzaty udział w reklamie jest ważny dla kariery aktora.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        },
+        {
+         "v": "bi",
+         "t": "BI"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      }
+     ]
+    },
+    {
+     "id": "r29",
+     "page": 41,
+     "name": "«Маска», зестав 2.IV",
+     "kind": "order",
+     "rn": "2.IV.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę poukładać podane fragmenty tekstu w logiczną całość."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "Czy jest bardziej romantyczny kraj niż Włochy? I bardziej romantyczne miasto niż Werona?",
+       "ex": true
+      },
+      {
+       "k": "B",
+       "t": "z pamiątkami. Od razu wpadła mi w oko maska – taką samą, tylko większą, nosiła dziewczyna z balu. Kupiłem ją od razu. Teraz wisi na ścianie"
+      },
+      {
+       "k": "C",
+       "t": "sami Włosi. Oprócz nas wszyscy byli w maskach i wyglądali niemal identycznie."
+      },
+      {
+       "k": "D",
+       "t": "gdzie William Szekspir umieścił akcję Romea i Julii. Na balkonie stała „etatowa Julia”,"
+      },
+      {
+       "k": "E",
+       "t": "Spędziłem w nim kilka dni zeszłorocznego karnawału. Jeden wieczór zapamiętam na zawsze. Razem"
+      },
+      {
+       "k": "F",
+       "t": "Jednak maska pewnej dziewczyny była inna, wyróżniała ją z tłumu. By dodać sobie odwagi, wypiłem jeszcze jeden kieliszek szampana"
+      },
+      {
+       "k": "G",
+       "t": "z którą można było zrobić sobie zdjęcie, a pod balkonem Romeo. Wokół targowisko"
+      },
+      {
+       "k": "H",
+       "t": "z przyjacielem zostaliśmy zaproszeni na bal karnawałowy. Duża impreza, około 150 osób,"
+      },
+      {
+       "k": "I",
+       "t": "i poprosiłem ją do tańca. Walce, tanga… Ciągle ona i ja. Przetańczyliśmy całą noc! Po południu wybrałem się"
+      },
+      {
+       "k": "J",
+       "t": "w pokoju, przypominając Weronę i dziewczynę. Szkoda, że nie mogę pójść w niej na bal."
+      },
+      {
+       "k": "K",
+       "t": "na ostatni spacer po Weronie. Trafiłem w miejsce,"
+      }
+     ],
+     "example": {
+      "t": "",
+      "a": "A"
+     },
+     "rows": [
+      {
+       "t": "",
+       "a": "E"
+      },
+      {
+       "t": "",
+       "a": "H"
+      },
+      {
+       "t": "",
+       "a": "C"
+      },
+      {
+       "t": "",
+       "a": "F"
+      },
+      {
+       "t": "",
+       "a": "I"
+      },
+      {
+       "t": "",
+       "a": "K"
+      },
+      {
+       "t": "",
+       "a": "D"
+      },
+      {
+       "t": "",
+       "a": "G"
+      },
+      {
+       "t": "",
+       "a": "B"
+      },
+      {
+       "t": "",
+       "a": "J"
+      }
+     ]
+    },
+    {
+     "id": "r30",
+     "page": 42,
+     "name": "«Почитай мне, мама», зестав 2.V",
+     "kind": "gaps",
+     "rn": "2.V.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uzupełnić tekst słowami z ramki zgodnie z podanym przykładem."
+     ],
+     "box": [
+      "książek",
+      "zmieniania",
+      "wyrazach",
+      "uwagę",
+      "historie",
+      "książki",
+      "obrazki",
+      "wzrok",
+      "literki",
+      "informacje",
+      "wieku",
+      "czytania",
+      "bajek"
+     ],
+     "text": [
+      "Głośne czytanie dziecku pomaga rozwinąć wyobraźnię i odpocząć od telewizora czy {e:komputera}. Trzeba jednak czytać tak, by zrozumiało tekst. Codziennie przed snem przeczytaj dziecku coś ciekawego. Spędzisz miło czas z maluchem i rozbudzisz w nim miłość do {1} – a przecież każda minuta lektury to jednocześnie minuta mniej gry na komputerze czy bezmyślnego {2} telewizyjnych programów.",
+      "Ale samo czytanie nie wystarczy. Okazuje się bowiem, że na tekście dziecko koncentruje {3} jedynie przez 5 sekund. Aż na 3 minuty jego {4} przyciąga za to każdy obrazek. Wykorzystaj więc to i czytaj maluchowi {5} bogato ilustrowane, pełne kolorowych fotografii i rysunków. Dziecko będzie oglądało {6} i jednocześnie wysłucha całej historii.",
+      "W trakcie {7}, zwłaszcza dzieciom w wieku 4–5 lat, warto też pokazywać poszczególne literki, a potem te same literki w różnych {8}. Nie jest tak, że dziecku te {9} wlecą jednym uchem, a wylecą drugim. Zapamięta je, a potem łatwiej i szybciej nauczy się samo czytać. Nie wiesz, jak dobrać lekturę odpowiednio do {10}? Zajrzyj na stronę: www.calapolskaczytadzieciom.pl."
+     ],
+     "gaps": [
+      {
+       "a": "książek"
+      },
+      {
+       "a": "zmieniania"
+      },
+      {
+       "a": "uwagę"
+      },
+      {
+       "a": "wzrok"
+      },
+      {
+       "a": "książki"
+      },
+      {
+       "a": "obrazki"
+      },
+      {
+       "a": "czytania"
+      },
+      {
+       "a": "wyrazach"
+      },
+      {
+       "a": "informacje"
+      },
+      {
+       "a": "wieku"
+      }
+     ]
     }
    ],
    "page": 4

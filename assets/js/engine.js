@@ -280,7 +280,7 @@ B1.engine=function(test){
       var ctrl=el('select','gap');ctrl.append(new Option('…',''));
       def.fragments.forEach(function(f){ctrl.append(new Option(f.k,f.k));});
       ctrl.setAttribute('aria-label',pic?'Numer tekstu do ilustracji '+row.l:'Odpowiedź '+(i+1));
-      r.append(fieldCell(t,def.id+'-m'+(i+1),ctrl,{pts:def.pts,
+      r.append(fieldCell(t,def.id+'-m'+(i+1),ctrl,{pts:def.pts,canForce:true,
         expected:function(){return [norm(row.a)];},
         display:function(){return row.a;}}));
       rows.append(r);
@@ -368,7 +368,7 @@ B1.engine=function(test){
     });
     return t;
   }
-  var builders={choice:buildChoice,gaps:buildGaps,match:buildMatch,slots:buildSlots,qa:buildQA,rewrite:buildRewrite};
+  var builders={choice:buildChoice,gaps:buildGaps,match:buildMatch,order:buildMatch,slots:buildSlots,qa:buildQA,rewrite:buildRewrite};
 
   /* --- таймер --- */
   function timer(minutes){
