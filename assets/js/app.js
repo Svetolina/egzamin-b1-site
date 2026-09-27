@@ -5,6 +5,7 @@ var B1=window.B1,U=B1.util,el=U.el,fmt=U.fmt;
 var app=document.getElementById('app'),nav=document.getElementById('nav');
 var SEC=B1.sections;
 var SITE='Egzamin B1';
+var ASSET_VER='20260923'; /* бампать при каждом обновлении файлов — иначе браузер/CDN может отдавать старый кеш tests/<id>.js */
 var AUTO=['sluch','czyt','gram'];
 var flt={src:'all',type:'all',todo:false};
 
@@ -21,8 +22,8 @@ function hasSection(test,sid){
 function plural(n,a,b,c){var m=n%100,d=n%10;if(m>10&&m<15)return c;if(d===1)return a;if(d>1&&d<5)return b;return c;}
 function link(href,cls,text){var a=el('a',cls,text);a.href=href;return a;}
 function romanOf(t){return (t.rn||t.id).replace(/\.$/,'');}
-function srcText(c){return c.kind==='sample'?c.name:(c.kind==='book'?c.name:'Прошлый экзамен, '+c.name);}
-function badge(c){return el('span','badge '+(c.kind==='sample'?'b-sample':(c.kind==='book'?'b-book':'b-exam')),c.kind==='sample'?'Образец':(c.kind==='book'?'Сборник':'Экзамен'));}
+function srcText(c){return c.kind==='sample'?c.name:(c.kind==='book'?c.name:c.kind==='other'?c.name:'Прошлый экзамен, '+c.name);}
+function badge(c){return el('span','badge '+(c.kind==='sample'?'b-sample':(c.kind==='book'?'b-book':c.kind==='other'?'b-other':'b-exam')),c.kind==='sample'?'Образец':(c.kind==='book'?'Сборник':c.kind==='other'?'Другой источник':'Экзамен'));}
 function typeLabel(d){
   if(d.kind==='choice'){
     var it0=d.items&&d.items[0];
@@ -44,15 +45,20 @@ function countText(d){
 }
 function taskName(d){return d.name||typeLabel(d);}
 function taskUrl(tid,sid,k){return '#/task/'+tid+'/'+sid+'/'+k.id;}
-function officialFile(c,which){var u=c.official&&c.official[which];return u?{url:u,exact:true}:{url:c.page,exact:false};}
+function officialFile(c,which){var u=c.official&&c.official[which];return u?{url:u,exact:true}:{url:c.page||null,exact:false};}
 function sheetPageUrl(c,page){
   var f=officialFile(c,'sheet');
   return (f.exact&&page)?f.url+'#page='+page:f.url;
 }
 function officialLinks(c){
   var s=officialFile(c,'sheet'),a=officialFile(c,'audio'),k=officialFile(c,'key');
-  function lab(t,f){return f.exact?t:t+': на странице комиссии';}
-  return [{t:lab('Лист заданий (PDF)',s),u:s.url},{t:lab('Запись (mp3)',a),u:a.url},{t:lab('Транскрипция и ключ (PDF)',k),u:k.url},{t:'Страница на сайте комиссии',u:c.page}];
+  function lab(t,f){return f.exact?t:t+': на странице источника';}
+  var out=[];
+  if(s.url)out.push({t:lab('Лист заданий (PDF)',s),u:s.url});
+  if(a.url)out.push({t:lab('Запись (mp3)',a),u:a.url});
+  if(k.url)out.push({t:lab('Транскрипция и ключ (PDF)',k),u:k.url});
+  if(c.page)out.push({t:'Страница источника',u:c.page});
+  return out;
 }
 function autoStat(t){
   var res=B1.results(t.id),e=0,n=0,total=0,max=0;
@@ -74,6 +80,10 @@ function typeRows(sid){
     var t=dataById(c.id);if(!t)return;
     if(sid==='pis'){
       (t.writing||[]).forEach(function(w){rows.push({c:c,t:t,sid:sid,w:w,set:true});});
+      return;
+    }
+    if(sid==='mow'){
+      (t.speaking||[]).forEach(function(sp){rows.push({c:c,t:t,sid:sid,sp:sp,set:true});});
       return;
     }
     var m=findMod(t,sid);if(!m||!m.tasks)return;
@@ -141,12 +151,12 @@ function home(){
   var cat=B1.catalog||[];
   var s1=el('section','block');
   var h1=el('div','block-h');h1.append(el('h2',null,'Тесты целиком'),link('#/tests',null,'Все тесты'));s1.append(h1);
-  var grid=el('div','tiles t2');
-  [['sample','Образцы','Образцы комиссии для взрослых: 2017, 2019 и 2020 годов.','#/samples'],['exam','Прошлые экзамены','Настоящие экзамены 2021–2024 годов: лист заданий, запись и ключ к каждому.','#/exams']].forEach(function(g){
+  var grid=el('div','tiles t3');
+  [['sample','Образцы','Образцы комиссии для взрослых: 2017, 2019 и 2020 годов.','#/samples'],['exam','Прошлые экзамены','Настоящие экзамены 2021–2024 годов: лист заданий, запись и ключ к каждому.','#/exams'],['other','Другие источники','Тесты не от комиссии — из других пособий.','#/others']].forEach(function(g){
     var list=cat.filter(function(c){return c.kind===g[0];});
     var avail=list.filter(function(c){return dataById(c.id);});
     var done=avail.filter(function(c){return isDone(dataById(c.id));}).length;
-    grid.append(tile(g[3],g[1],g[2],done,list.length,'Пройдено '+done+' из '+list.length+'. В тренажёре: '+avail.length));
+    grid.append(tile(g[3],g[1],g[2],done,list.length,list.length?'Пройдено '+done+' из '+list.length+'. В тренажёре: '+avail.length:'Пока пусто — можно добавить тест'));
   });
   s1.append(grid);app.append(s1);
 
@@ -157,10 +167,9 @@ function home(){
   SEC.forEach(function(s){
     var st=typeStat(s.id),cap,pct=st.total?st.done:0;
     var d=s.id==='mow'?'Говорение. Только сборник 2017.':s.ru+'. Из 18 тестов и сборника.';
-    if(s.id==='mow')cap='Раздел появится позже';
-    else if(s.id==='pis')cap='Наборов в тренажёре: '+st.total;
+    if(s.id==='pis'||s.id==='mow')cap='Наборов в тренажёре: '+st.total;
     else cap='Решено '+st.done+' из '+st.total;
-    var a=tile('#/type/'+s.id,s.pl,d,s.id==='pis'?0:pct,s.id==='pis'?0:st.total,cap);
+    var a=tile('#/type/'+s.id,s.pl,d,s.id==='pis'||s.id==='mow'?0:pct,s.id==='pis'||s.id==='mow'?0:st.total,cap);
     a.classList.add(s.id==='pis'||s.id==='mow'?'span3':'span2');
     g2.append(a);
   });
@@ -170,7 +179,8 @@ function home(){
 /* ---------- тесты целиком ---------- */
 var LISTS={
   sample:{ttl:'Образцы',href:'#/samples',sub:'Три образца комиссии для взрослых: 2017, 2019 и 2020 годов. У каждого подписан источник, файлы комиссии лежат под кнопкой с тремя точками.'},
-  exam:{ttl:'Прошлые экзамены',href:'#/exams',sub:'Настоящие экзамены комиссии 2021–2024 годов. Тест открывается целиком: четыре письменные части с таймером и общим счётом. Файлы комиссии лежат под кнопкой с тремя точками.'}
+  exam:{ttl:'Прошлые экзамены',href:'#/exams',sub:'Настоящие экзамены комиссии 2021–2024 годов. Тест открывается целиком: четыре письменные части с таймером и общим счётом. Файлы комиссии лежат под кнопкой с тремя точками.'},
+  other:{ttl:'Другие источники',href:'#/others',sub:'Тесты не от комиссии — из других пособий и сборников. У каждого свой источник, указан отдельно.'}
 };
 function testsPage(kind){
   var L=kind?LISTS[kind]:null;
@@ -207,10 +217,10 @@ function testsPage(kind){
 function testPage(tid){
   var c=entryById(tid),t=dataById(tid);
   if(!c)return home();
-  if(c.kind==='book'){location.hash='#/type/gram';return;}
   document.title=srcText(c)+' | '+SITE;setActive('tests');wide(true);
-  app.append(crumbs([{t:SITE,href:'#/'},{t:'Тесты целиком',href:'#/tests'},{t:LISTS[c.kind].ttl,href:LISTS[c.kind].href},{t:c.name}]));
-  var h=el('header','page-h');h.append(el('h1',null,c.name),el('p','sub',(c.kind==='sample'?'Образец комиссии':'Прошлый экзамен')+', B1 для взрослых'+(c.note?'. '+c.note:'')));
+  var crumbMid=LISTS[c.kind]?[{t:LISTS[c.kind].ttl,href:LISTS[c.kind].href}]:[];
+  app.append(crumbs([{t:SITE,href:'#/'},{t:'Тесты целиком',href:'#/tests'}].concat(crumbMid,[{t:c.name}])));
+  var h=el('header','page-h');h.append(el('h1',null,c.name),el('p','sub',(c.kind==='sample'?'Образец комиссии':c.kind==='book'?'Сборник заданий':c.kind==='other'?(c.source||'Другой источник'):'Прошлый экзамен')+', B1 для взрослых'+(c.note?'. '+c.note:'')));
   app.append(h);
   var wrap=el('div','two');
   var left=el('div','two-l');
@@ -228,7 +238,7 @@ function testPage(tid){
       }else{
         var a=link('#/test/'+t.id+'/'+s.id,'toc-row');var m=findMod(t,s.id);var p=modProgress(t,s.id);
         a.append(el('span','pl',s.pl),el('span','ru',s.ru));
-        var cnt=el('span','cnt',s.id==='pis'?'разбор в чате':(p&&p.n?fmt(p.e)+' / '+fmt(p.max):'не начато'));
+        var cnt=el('span','cnt',s.id==='pis'||s.id==='mow'?'разбор в чате':(p&&p.n?fmt(p.e)+' / '+fmt(p.max):'не начато'));
         a.append(cnt);
         a.append(el('span','tmeta',m?m.meta:''));
         li.append(a);
@@ -246,7 +256,7 @@ function testPage(tid){
   }
   var right=el('aside','two-r');
   var src=el('section','card');
-  src.append(el('h2','h-s','Источник'),el('p','meta','Państwowa Komisja ds. Poświadczania Znajomości Języka Polskiego jako Obcego'));
+  src.append(el('h2','h-s','Источник'),el('p','meta',c.source||'Państwowa Komisja ds. Poświadczania Znajomości Języka Polskiego jako Obcego'));
   var ls=el('div','flist');
   officialLinks(c).forEach(function(l){var a=link(l.u,'flink');a.target='_blank';a.rel='noopener';a.append(el('span',null,l.t));ls.append(a);});
   src.append(ls);right.append(src);
@@ -272,12 +282,6 @@ function genresBlock(){
   });
   return b;
 }
-function speakingBox(){
-  var b=el('div','note big');
-  b.append(el('p',null,'Раздел «Говорение» появится позже: сначала нужны материалы устной части (карточки заданий из сборника, критерии оценки).'),
-           el('p',null,'Автоматически оценивать речь я не смогу, поэтому здесь будут карточки, таймер подготовки и ответа, запись вашего голоса в браузере и самооценка по критериям.'));
-  return b;
-}
 function chipRow(label,opts,cur,onPick){
   var row=el('div','frow');row.append(el('span','fl',label));
   opts.forEach(function(o){
@@ -292,10 +296,9 @@ function typePage(sid){
   document.title=s.ru+' | '+SITE;setActive(sid);wide(true);
   app.append(crumbs([{t:SITE,href:'#/'},{t:'Задания по типам'},{t:s.ru}]));
   var h=el('header','page-h');h.append(el('h1',null,s.pl),el('p','sub',s.ru));app.append(h);
-  if(sid==='mow'){app.append(speakingBox());return;}
   var all=typeRows(sid);
   if(!all.length){app.append(el('p','meta','Заданий этого типа в тренажёре пока нет.'));return;}
-  app.append(el('p','lead',sid==='pis'?'Наборы заданий из тестов. Выберите один набор и выполните оба задания, как на экзамене.':'Задания из тестов, что уже добавлены в тренажёр. Слева название, справа источник и ссылка на лист комиссии.'));
+  app.append(el('p','lead',sid==='pis'?'Наборы заданий из тестов. Выберите один набор и выполните оба задания, как на экзамене.':sid==='mow'?'Наборы заданий из сборника. Выберите один набор и по очереди ответьте на все три задания — запись голоса делается прямо в браузере.':'Задания из тестов, что уже добавлены в тренажёр. Слева название, справа источник и ссылка на лист комиссии.'));
   var box=el('div','filters');var listHost=el('div','rows');
   function render(){
     box.replaceChildren();listHost.replaceChildren();
@@ -303,15 +306,16 @@ function typePage(sid){
     if(all.some(function(r){return r.c.kind==='sample';}))srcOpts.push({v:'sample',t:'Образцы'});
     if(all.some(function(r){return r.c.kind==='exam';}))srcOpts.push({v:'exam',t:'Прошлые экзамены'});
     if(all.some(function(r){return r.c.kind==='book';}))srcOpts.push({v:'book',t:'Сборник'});
+    if(all.some(function(r){return r.c.kind==='other';}))srcOpts.push({v:'other',t:'Другие источники'});
     box.append(chipRow('Источник',srcOpts,flt.src,function(v){flt.src=v;render();}));
-    if(sid!=='pis'){
+    if(sid!=='pis'&&sid!=='mow'){
       var types=[];all.forEach(function(r){var l=typeLabel(r.k);if(types.indexOf(l)<0)types.push(l);});
       box.append(chipRow('Тип задания',[{v:'all',t:'Все'}].concat(types.map(function(x){return {v:x,t:x};})),flt.type,function(v){flt.type=v;render();}));
       box.append(chipRow('Показывать',[{v:false,t:'Все'},{v:true,t:'Нерешённые'}],flt.todo,function(v){flt.todo=v;render();}));
     }
     var rows=all.filter(function(r){
       if(flt.src!=='all'&&r.c.kind!==flt.src)return false;
-      if(sid!=='pis'){if(flt.type!=='all'&&typeLabel(r.k)!==flt.type)return false;if(flt.todo&&r.res!=null)return false;}
+      if(sid!=='pis'&&sid!=='mow'){if(flt.type!=='all'&&typeLabel(r.k)!==flt.type)return false;if(flt.todo&&r.res!=null)return false;}
       return true;
     });
     if(!rows.length){listHost.append(el('p','meta','По этим фильтрам ничего нет.'));return;}
@@ -322,9 +326,17 @@ function typePage(sid){
       var n=el('div','c-n');
       var pg;
       if(r.set){
-        n.append(link('#/test/'+r.t.id+'/pis','trow2-a','Zestaw '+r.w.id+': '+r.w.a.genre+' + '+r.w.b.genre),el('span','meta','Два задания: a ('+r.w.a.words+' слов) и b ('+r.w.b.words+' слов)'));
-        row.append(n,el('span',null,'Письмо'),el('span','pts','30'));
-        pg=(findMod(r.t,'pis')||{}).page;
+        if(sid==='pis'){
+          var pmod=findMod(r.t,'pis')||{};
+          n.append(link('#/test/'+r.t.id+'/pis','trow2-a','Zestaw '+r.w.id+': '+r.w.a.genre+' + '+r.w.b.genre),el('span','meta','Два задания: a ('+r.w.a.words+' слов) и b ('+r.w.b.words+' слов)'));
+          row.append(n,el('span',null,'Письмо'),el('span','pts',fmt(pmod.max)));
+          pg=pmod.page;
+        }else{
+          var mmod=findMod(r.t,'mow')||{};
+          n.append(link('#/test/'+r.t.id+'/mow','trow2-a','Zestaw '+r.sp.id+': opis, monolog, sytuacja'),el('span','meta','Три задания устной части'));
+          row.append(n,el('span',null,'Говорение'),el('span','pts',fmt(mmod.max)));
+          pg=mmod.page;
+        }
       }else{
         n.append(link(taskUrl(r.t.id,sid,r.k),'trow2-a',r.c.kind==='book'?taskName(r.k):romanOf(r.k)+'. '+taskName(r.k)),el('span','meta',countText(r.k)));
         row.append(n,el('span',null,typeLabel(r.k)),el('span','pts',fmt(r.k.max)));
@@ -394,6 +406,7 @@ function route(){
   if(p==='tests')testsPage();
   else if(p==='samples')testsPage('sample');
   else if(p==='exams')testsPage('exam');
+  else if(p==='others')testsPage('other');
   else if(p==='type')typePage(parts[1]);
   else if(p==='section')typePage(parts[1]);
   else if(p==='task')taskPage(parts[1],parts[2],parts[3]);
@@ -401,6 +414,35 @@ function route(){
   else home();
   if(!(p==='test'&&parts[3]))window.scrollTo(0,0);
   app.focus({preventScroll:true});
+  updateStickyOffsets();
+  setupAudioAutopause();
+}
+
+/* --- закреплённые при прокрутке шапка раздела и плееры: смежные .mod-h/.taudio
+   занимают одну и ту же полосу сверху и сменяют друг друга по мере прокрутки;
+   когда плеер уходит вверх за пределы экрана, его звук останавливается --- */
+function updateStickyOffsets(){
+  var site=document.querySelector('.site');
+  document.documentElement.style.setProperty('--hdr-h',(site?site.offsetHeight:72)+'px');
+  var modh=document.querySelector('.mod-h');
+  document.documentElement.style.setProperty('--modh-h',(modh?modh.offsetHeight:0)+'px');
+}
+window.addEventListener('resize',updateStickyOffsets);
+
+var audioObserver=null;
+function setupAudioAutopause(){
+  if(audioObserver){audioObserver.disconnect();audioObserver=null;}
+  var boxes=document.querySelectorAll('.taudio');
+  if(!boxes.length||typeof IntersectionObserver==='undefined')return;
+  var hdrPx=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--hdr-h'))||72;
+  audioObserver=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting||en.boundingClientRect.top>=0)return;
+      var au=en.target.querySelector('audio');
+      if(au&&!au.paused)au.pause();
+    });
+  },{rootMargin:'-'+hdrPx+'px 0px 0px 0px',threshold:0});
+  boxes.forEach(function(box){audioObserver.observe(box);});
 }
 
 function loadScript(src){
@@ -411,7 +453,7 @@ function loadScript(src){
   });
 }
 var manifest=window.B1_MANIFEST||[];
-manifest.reduce(function(p,id){return p.then(function(){return loadScript('tests/'+id+'.js');});},Promise.resolve()).then(function(){
+manifest.reduce(function(p,id){return p.then(function(){return loadScript('tests/'+id+'.js?v='+ASSET_VER);});},Promise.resolve()).then(function(){
   buildNav();
   window.addEventListener('hashchange',route);
   route();

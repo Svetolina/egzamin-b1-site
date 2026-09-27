@@ -480,6 +480,134 @@ B1.engine=function(test){
     if(sets.length)pick(saved.a['w-set']&&holders[saved.a['w-set']]?saved.a['w-set']:sets[0].id);
   }
 
+  /* --- говорение --- */
+  function speakTypeLabel(type){return {opis:'Zadanie 1: Opis ilustracji',monolog:'Zadanie 2: Monolog',sytuacja:'Zadanie 3: Sytuacja komunikacyjna'}[type]||type;}
+  function fmtClock(s){var m=Math.floor(s/60),r=s%60;return m+':'+(r<10?'0':'')+r;}
+  function prepTimer(seconds){
+    var box=el('div','prep');
+    var txt=el('span',null,'Время на подготовку: '+fmtClock(seconds));
+    var skip=el('button','btn small','Готов(а) отвечать');skip.type='button';
+    var left=seconds;
+    var tmr=setInterval(function(){
+      left--;
+      if(left<=0){clearInterval(tmr);box.hidden=true;return;}
+      txt.textContent='Время на подготовку: '+fmtClock(left);
+    },1000);
+    skip.addEventListener('click',function(){clearInterval(tmr);box.hidden=true;});
+    box.append(txt,skip);return box;
+  }
+  function speakingRecorder(id){
+    var box=el('div');
+    var supported=!!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia&&window.MediaRecorder);
+    if(!supported){
+      box.append(el('p','hint','Запись голоса не поддерживается в этом браузере (нужен современный браузер и доступ по https или localhost). Опишите, что вы сказали, в поле ниже — разбор по тексту всё равно можно получить.'));
+      return {box:box,hasAudio:function(){return false;}};
+    }
+    var state='idle',stream=null,rec=null,chunks=[],blobUrl=null;
+    var btnRec=el('button','btn primary','Записать ответ');btnRec.type='button';
+    var btnStop=el('button','btn','Стоп');btnStop.type='button';btnStop.hidden=true;
+    var btnAgain=el('button','btn small','Записать заново');btnAgain.type='button';btnAgain.hidden=true;
+    var dl=el('a','btn small','Скачать запись');dl.hidden=true;
+    var clock=el('span','count');
+    var audioEl=el('audio');audioEl.controls=true;audioEl.hidden=true;
+    var msg=el('p','hint');
+    var t0=null,tmr=null;
+    function tick(){clock.textContent=fmtClock(Math.round((Date.now()-t0)/1000));}
+    btnRec.addEventListener('click',function(){
+      msg.textContent='';
+      navigator.mediaDevices.getUserMedia({audio:true}).then(function(s){
+        stream=s;chunks=[];
+        var cands=['audio/mp4','audio/webm','audio/ogg'];
+        var mime=cands.filter(function(m){return window.MediaRecorder.isTypeSupported&&window.MediaRecorder.isTypeSupported(m);})[0];
+        try{rec=mime?new MediaRecorder(stream,{mimeType:mime}):new MediaRecorder(stream);}catch(e){rec=new MediaRecorder(stream);}
+        rec.ondataavailable=function(e){if(e.data&&e.data.size)chunks.push(e.data);};
+        rec.onstop=function(){
+          stream.getTracks().forEach(function(tr){tr.stop();});
+          var blob=new Blob(chunks,{type:(rec&&rec.mimeType)||'audio/webm'});
+          if(blobUrl)URL.revokeObjectURL(blobUrl);
+          blobUrl=URL.createObjectURL(blob);
+          audioEl.src=blobUrl;audioEl.hidden=false;
+          var ext=blob.type.indexOf('mp4')>-1?'m4a':(blob.type.indexOf('ogg')>-1?'ogg':'webm');
+          dl.href=blobUrl;dl.download=id+'.'+ext;dl.hidden=false;
+          btnAgain.hidden=false;btnStop.hidden=true;btnRec.hidden=true;
+          clearInterval(tmr);state='done';
+        };
+        rec.start();t0=Date.now();tick();tmr=setInterval(tick,500);
+        state='recording';btnRec.hidden=true;btnStop.hidden=false;
+      }).catch(function(err){
+        msg.textContent='Не получилось включить микрофон: '+(err&&err.message?err.message:err)+'. Проверьте разрешение на микрофон для этой страницы в браузере.';
+      });
+    });
+    btnStop.addEventListener('click',function(){if(rec&&rec.state==='recording')rec.stop();});
+    btnAgain.addEventListener('click',function(){
+      audioEl.hidden=true;dl.hidden=true;btnAgain.hidden=true;btnStop.hidden=true;btnRec.hidden=false;clock.textContent='';state='idle';
+    });
+    var row=el('div','task-f');row.style.padding='0';row.style.border='0';
+    row.append(btnRec,btnStop,btnAgain,dl,clock);
+    box.append(row,audioEl,msg);
+    return {box:box,hasAudio:function(){return state==='done';}};
+  }
+  function speakReviewPrompt(d,note,hasAudio){
+    var rub=(B1.rubrics&&B1.rubrics.speaking)||{lines:[]};
+    var lines=['Оцени устный ответ как экзаменатор государственного экзамена по польскому как иностранному, уровень B1. Будь строгим и не завышай оценки.','',
+      'Задание ('+speakTypeLabel(d.type)+'): '+d.prompt+(d.img?'\n(К заданию есть фотография — '+(d.imgAlt||'фотография к заданию')+'; приложите её тоже, если можете.)':'')];
+    lines.push('');lines=lines.concat(rub.lines||[]);
+    lines.push('',hasAudio?'Я приложу аудиозапись ответа отдельным файлом к этому сообщению.':'Аудиозаписи нет, вот примерно что я сказал(а) — оцени по этому пересказу, но отметь, что оценка произношения и беглости в таком случае ненадёжна:','',note||'(текста нет)');
+    return lines.join('\n');
+  }
+  function speakingTask(setId,idx,d){
+    var id='m-'+setId+'-'+idx;
+    var sec=el('section','task wtask');sec.id='t-'+id;
+    var head=el('header','task-h');var ttl=el('div','task-t');ttl.append(el('span','rn',speakTypeLabel(d.type)));head.append(ttl);
+    var body=el('div','task-b');
+    body.append(el('p','prompt',d.prompt));
+    if(d.img){
+      var fg=el('figure','wfig');var im=el('img');im.src=d.img;im.alt=d.imgAlt||'Fotografia do zadania';fg.append(im);
+      if(d.credit)fg.append(el('figcaption',null,'Źródło: '+d.credit));
+      body.append(fg);
+    }
+    body.append(prepTimer(60));
+    var rec=speakingRecorder(id);body.append(rec.box);
+    var ta=el('textarea','wr');ta.rows=3;
+    ta.placeholder='Необязательно: коротко запишите, что вы сказали — пригодится для разбора текстом, если не сможете приложить запись.';
+    ta.setAttribute('aria-label','Заметки к заданию');ta.value=saved.a[id]||'';
+    ta.addEventListener('input',function(){store(id,ta.value);});
+    var row=el('div','task-f');row.style.padding='0';row.style.border='0';
+    var out=el('span','msg');
+    var cp=el('button','btn small','Копировать текст задания');cp.type='button';
+    var cr=el('button','btn small primary','Копировать для проверки');cr.type='button';
+    cp.addEventListener('click',function(){copyStr(d.prompt,out);});
+    cr.addEventListener('click',function(){copyStr(speakReviewPrompt(d,ta.value,rec.hasAudio()),out);});
+    row.append(cr,cp,out);body.append(ta,row);
+    sec.append(head,body);return sec;
+  }
+  function buildSpeaking(panel){
+    var note=el('div','note');
+    note.append(
+      el('p',null,'Выберите один набор и по очереди ответьте на все три задания. Запись голоса делается прямо в браузере и не сохраняется на перезагрузке страницы — скачайте её, если хотите сохранить или приложить к сообщению в чате.'),
+      el('p',null,'Кнопка «Копировать для проверки» собирает задание и черновые критерии оценки в один запрос. Приложите к сообщению файл записи, если он у вас есть, или впишите заранее в поле выше, что вы сказали, — тогда разбор будет по тексту, без оценки произношения.'));
+    panel.append(note);
+    var rb=(B1.rubrics&&B1.rubrics.speaking)||{crit:[]};
+    var crit=el('ul','crit');rb.crit.forEach(function(c){crit.append(el('li',null,c));});
+    panel.append(crit);
+    var sets=test.speaking||[];
+    var tabs=el('div','tabs');tabs.setAttribute('role','tablist');
+    var holders={},btns={};
+    function pick(id){
+      Object.keys(holders).forEach(function(k){holders[k].hidden=k!==id;btns[k].setAttribute('aria-selected',String(k===id));});
+      store('m-set',id);
+    }
+    sets.forEach(function(s){
+      var b=el('button','tab','Zestaw '+s.id);b.type='button';b.setAttribute('role','tab');
+      b.addEventListener('click',function(){pick(s.id);});btns[s.id]=b;tabs.append(b);
+    });
+    panel.append(tabs);
+    sets.forEach(function(s){
+      var h=el('div');(s.tasks||[]).forEach(function(d,i){h.append(speakingTask(s.id,i+1,d));});holders[s.id]=h;panel.append(h);
+    });
+    if(sets.length)pick(saved.a['m-set']&&holders[saved.a['m-set']]?saved.a['m-set']:sets[0].id);
+  }
+
   /* --- раздел целиком --- */
   function renderModule(m){
     var panel=el('section','panel');
@@ -488,7 +616,7 @@ B1.engine=function(test){
     if(m.note){var n=el('div','note');m.note.forEach(function(x){n.append(el('p',null,x));});panel.append(n);}
     var stat=el('span','prog');
     cur={stat:stat,max:m.max};
-    if(m.id!=='pis'){
+    if(m.id!=='pis'&&m.id!=='mow'){
       var act=el('div','actions');
       var bAll=el('button','btn','Проверить все задания');bAll.type='button';
       var bRes=el('button','btn','Сбросить раздел');bRes.type='button';
@@ -503,8 +631,10 @@ B1.engine=function(test){
       m.tasks.forEach(function(d){panel.append(builders[d.kind](d).sec);});
       allTasks.forEach(function(t){if(saved.r[t.def.id]!=null)t.check();});
       refresh();
-    }else{
+    }else if(m.id==='pis'){
       buildWriting(panel);
+    }else{
+      buildSpeaking(panel);
     }
     return panel;
   }

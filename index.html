@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Egzamin B1: тренажёр к экзамену по польскому</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&family=Onest:wght@400..700&display=swap">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=20260923">
 </head>
 <body>
 <header class="site">
@@ -15,10 +15,11 @@
 <main id="app" tabindex="-1"></main>
 <p class="foot">Материалы тестов: © Państwowa Komisja ds. Poświadczania Znajomości Języka Polskiego jako Obcego. Сайт сделан для личной подготовки, результаты хранятся только в вашем браузере.</p>
 <noscript><p class="foot">Для работы сайта нужен JavaScript.</p></noscript>
-<script src="tests/manifest.js"></script>
-<script src="assets/js/genres.js"></script>
-<script src="assets/js/engine.js"></script>
-<script src="tests/catalog.js"></script>
-<script src="assets/js/app.js"></script>
+<!-- ?v=... бампается при каждом обновлении сайта, чтобы браузер/CDN не отдавал закешированную старую версию файлов -->
+<script src="tests/manifest.js?v=20260923"></script>
+<script src="assets/js/genres.js?v=20260923"></script>
+<script src="assets/js/engine.js?v=20260923"></script>
+<script src="tests/catalog.js?v=20260923"></script>
+<script src="assets/js/app.js?v=20260923"></script>
 </body>
 </html>

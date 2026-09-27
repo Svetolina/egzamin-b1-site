@@ -8,6 +8,2775 @@ B1.register({
  "title": "Сборник заданий 2017",
  "modules": [
   {
+   "id": "sluch",
+   "title": "Rozumienie ze słuchu: сборник",
+   "max": 122.0,
+   "minutes": 0,
+   "meta": "19 упражнений",
+   "note": [
+    "В этом разделе пока нет звука — только текст заданий, транскрипция и ключ. Плеер появится, когда будут нарезаны официальные записи."
+   ],
+   "tasks": [
+    {
+     "id": "s01",
+     "page": 5,
+     "name": "Odosobnione wypowiedzi",
+     "kind": "choice",
+     "rn": "1.I.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone tylko jeden raz!",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "Ta wypowiedź jest typowa:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "na dworcu autobusowym.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "na dworcu kolejowym.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "na lotnisku.",
+        "label": "c)"
+       }
+      ],
+      "a": "b"
+     },
+     "items": [
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w restauracji.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w cukierni.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie spożywczym.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "po egzaminie dyplomowym.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "po ceremonii ślubnej.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "po otrzymaniu awansu.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w barze.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w domu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w kawiarni.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź znaczy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "proszę o spokój.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "jesteś niespokojny.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "skończ, proszę!",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź to:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "reklama sklepu rybnego.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "horoskop.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "oferta restauracji w tym tygodniu.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w szpitalu.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "kiedy zrobimy porządki w domu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie z obuwiem.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na spacerze.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w perfumerii.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "u lekarza.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w sklepie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w ZOO.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w lesie.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "oburzenie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "pytanie o podobieństwo.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "pytanie o skojarzenia.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w kiosku.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w aptece.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w urzędzie.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      }
+     ],
+     "transcript": [
+      "Przykład: O której odchodzi Inter City do Warszawy?",
+      "1. Czy jest jeszcze świeży chleb?",
+      "2. Wszystkiego najlepszego na nowej drodze życia!",
+      "3. Obiady wydajemy od trzynastej do piętnastej.",
+      "4. Dałbyś już spokój!",
+      "5. W tym tygodniu Ryby mają szansę na awans.",
+      "6. Proszę nie wchodzić bez obuwia ochronnego!",
+      "7. Proszę głęboko oddychać. Nie oddychać.",
+      "8. Proszę nie karmić zwierząt!",
+      "9. Do czego to podobne!",
+      "10. Ulgowy proszę!"
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s01.m4a",
+      "plays": 1,
+      "skip": 29.7,
+      "pass2": null
+     }
+    },
+    {
+     "id": "s02",
+     "page": 6,
+     "name": "Matura we Francji",
+     "kind": "gaps",
+     "rn": "1.II.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy uzupełnić luki w tekście. (Liczebniki można napisać cyframi.)"
+     ],
+     "text": [
+      "Polskich maturzystów może pocieszyć jedynie system zdawania {e:matur} we Francji, zdaje się bowiem, że nowy przepis z obowiązkową maturą z {1} to u nas bułka z masłem. Z Paryża Tomasz Siemieński:",
+      "– Na maturze we Francji zdaje się od {2} do {3} przedmiotów obowiązkowych i dwa przedmioty fakultatywne. {4} przedmiotów obowiązkowych nie jest ta sama dla wszystkich, są one narzucane w zależności od {5} matury, którą uczeń wybrał. Na przykład matura o profilu {6} obejmuje obowiązkowo matematykę, natomiast matura literacka przewiduje ten przedmiot tylko jako {7} z dziedzin fakultatywnych. Język francuski jest obowiązkowy dla wszystkich {8}. Na maturze we Francji można też zdawać egzamin z języka polskiego. Język ten należy do długiej listy przedmiotów, które uczniowie mogą {9} jako przedmiot fakultatywny. Uzyskanie świadectwa maturalnego jest niezbędne do dostania się na wyższe {10}."
+     ],
+     "gaps": [
+      {
+       "a": "matematyki"
+      },
+      {
+       "a": "ośmiu"
+      },
+      {
+       "a": "dziesięciu"
+      },
+      {
+       "a": "Lista"
+      },
+      {
+       "a": "typu"
+      },
+      {
+       "a": "naukowym"
+      },
+      {
+       "a": "jedną"
+      },
+      {
+       "a": "maturzystów"
+      },
+      {
+       "a": "wybrać"
+      },
+      {
+       "a": "uczelnie"
+      }
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s02.m4a",
+      "plays": 2,
+      "skip": 28.0,
+      "pass2": 114.3
+     }
+    },
+    {
+     "id": "s03",
+     "page": 6,
+     "name": "„Willa wśród róż”",
+     "kind": "choice",
+     "rn": "1.III.",
+     "max": 4.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć wypowiedź prawdziwą lub fałszywą."
+     ],
+     "example": {
+      "q": "Kobieta, która opowiada, stoi na Alei Wielkopolskiej.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "W tym domu mieszkała rodzina kobiety.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Dom zaprojektował znany architekt.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Dziadek w 1929 roku przeprowadził się do Krakowa.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Nowowiejscy mieszkali przed wojną na Alei Wielkopolskiej 10 lat.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Dziadek zmarł w 1945 roku.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Instrumenty dziadka stoją przed wejściem do domu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Dziadek lubił widok z okna saloniku.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "„Willa wśród róż” znajduje się w Poznaniu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      }
+     ],
+     "transcript": [
+      "Znajdujemy się na Alei Wielkopolskiej, przy której stoi mój rodzinny dom, w którym mój dziadek spędził, no…! można by powiedzieć, najpiękniejsze lata swojego życia. Według jego pomysłu został ten dom wybudowany w 1929 roku, a w 39 roku rodzina Nowowiejskich musiała opuścić ten dom, przenieść się do Krakowa i spędzić tam lata okupacji. Powrócili do Poznania na Aleję Wielkopolską w roku 1945, gdzie dziadek Nowowiejski spędził jeszcze rok swojego życia i tutaj zmarł w tym domu właśnie.",
+      "Na wprost wejścia frontowego znajduje się salonik, ulubione instrumenty mojego dziadka, a z okien saloniku – ulubiony widok. W tym ogrodzie hodowane były róże, które uwielbiała moja babcia, dlatego willę nazywano „willą wśród róż”."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s03.m4a",
+      "plays": 2,
+      "skip": 28.2,
+      "pass2": 116.2
+     }
+    },
+    {
+     "id": "s04",
+     "page": 7,
+     "name": "Muzeum Kultury Łemkowskiej",
+     "kind": "choice",
+     "rn": "1.IV.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "Barwinek to:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "przyjście.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "podejście.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "przejście.",
+        "label": "c)"
+       }
+      ],
+      "a": "c"
+     },
+     "items": [
+      {
+       "q": "Muzeum znajduje się pod numerem:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "pierwszym.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "piętnastym.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "piątym.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Jest to muzeum:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "literatury łemkowskiej.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "muzyki łemkowskiej.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "kultury łemkowskiej.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Muzeum istnieje:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "46 lat.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "36 lat.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "6 lat.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Rodzina kobiety mieszkała:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w skansenie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w bloku.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w budynkach, gdzie dziś jest muzeum.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Dzisiaj rodzina kobiety mieszka:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w muzeum.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w domu blisko muzeum.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w małym skansenie.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      }
+     ],
+     "transcript": [
+      "Jedzie się w kierunku Barwinka – to jest przejście graniczne i w Tylawie na lewo skręca się do Zyndranowej; to jest 3 kilometry i od razu na samym początku pod numerem pierwszym znajduje się Muzeum Kultury Łemkowskiej. Muzeum już istnieje 36 lat. Jest to taki zestaw budynków łemkowskich; budynek mieszkalny, koniusznia i taki mniejszy jeszcze gospodarczy budynek, jest jeszcze przeniesiona taka świetlica, urządzona z budynku, który został przeniesiony z Tylawy. No, myśmy na początku, jeszcze kiedy nie było tego muzeum mieszkali w tych budynkach, a obok budowaliśmy nowy dom. Kiedy zamieszkaliśmy w nowym domu, no wtedy powstał pomysł, że co z tym zrobić; no trzeba stworzyć muzeum, no i obecnie można by to nazwać takim małym skansenem."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s04.m4a",
+      "plays": 2,
+      "skip": 28.4,
+      "pass2": 111.2
+     }
+    },
+    {
+     "id": "s05",
+     "page": 8,
+     "name": "Zdjęcia, które tworzą pary",
+     "kind": "match",
+     "rn": "1.V.",
+     "max": 5.0,
+     "pts": 1.0,
+     "pictures": true,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy połączyć zdjęcia osób, które tworzą pary."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": ""
+      },
+      {
+       "k": "B",
+       "t": ""
+      },
+      {
+       "k": "C",
+       "t": ""
+      },
+      {
+       "k": "D",
+       "t": ""
+      },
+      {
+       "k": "E",
+       "t": ""
+      },
+      {
+       "k": "F",
+       "t": ""
+      }
+     ],
+     "example": {
+      "l": "0",
+      "img": "assets/img/b1-sbornik-s05-0.jpg",
+      "a": "D"
+     },
+     "rows": [
+      {
+       "l": "1",
+       "img": "assets/img/b1-sbornik-s05-1.jpg",
+       "a": "F"
+      },
+      {
+       "l": "2",
+       "img": "assets/img/b1-sbornik-s05-2.jpg",
+       "a": "E"
+      },
+      {
+       "l": "3",
+       "img": "assets/img/b1-sbornik-s05-3.jpg",
+       "a": "C"
+      },
+      {
+       "l": "4",
+       "img": "assets/img/b1-sbornik-s05-4.jpg",
+       "a": "B"
+      },
+      {
+       "l": "5",
+       "img": "assets/img/b1-sbornik-s05-5.jpg",
+       "a": "A"
+      }
+     ],
+     "transcript": [
+      "Irenko,",
+      "dostaliśmy przed chwilą list od naszego syna. Zaraz ci go przeczytam:",
+      "Gdynia, 10 czerwca 2006 r.",
+      "Kochani Rodzice!",
+      "Piszę po dłuższej przerwie, ale za to mam dla Was dobre wiadomości: zdecydowałem się wreszcie ożenić. Moja przyszła żona ma na imię Maria. Jest szefową biura podróży. Jej firma działa doskonale, chociaż zarządza nią głównie przez telefon. Maria chyba naprawdę mnie kocha, ponieważ bez problemu pogodziła się z myślą, że ze względu na mój niecodzienny zawód bardzo często nie będzie mnie w domu. To jeszcze nie wszystkie niespodzianki.",
+      "Wyobraźcie sobie, że czterech moich przyjaciół także postanowiło ożenić się w tym samym czasie, co ja.",
+      "Pamiętacie Mateusza? Jego obrazy wiszą w moim pokoju nad kanapą. Zaręczył się z Beatą, którą poznał podczas ostatniej wyprawy w góry.",
+      "Następny mój przyjaciel – Robert, który lubi opiekować się dziećmi, zaproponował małżeństwo samotnej matce – Dorocie.",
+      "Krzysztof też postanowił założyć rodzinę. Między jedną a drugą trasą koncertową ustalił datę ślubu z Halinką, która jest wegetarianką.",
+      "Nawet Tomasz znalazł kandydatkę na żonę. Ma na imię Marta. To właśnie dla niej Tomek całkowicie zmienił przyzwyczajenia. Rzadko można go już spotkać w klubie szachowym, za to coraz częściej na korcie tenisowym.",
+      "Nasz zbiorowy ślub odbędzie się w samo południe 16 września na statku „Polonia”.",
+      "Wasz syn, Leszek",
+      "Ps. Jeszcze jedna para miała do nas dołączyć. Niestety, nie będzie ich w tym czasie w kraju. Barbara jedzie do Afryki fotografować zwierzęta, a Kamil będzie od września piłkarzem w Argentynie."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s05.m4a",
+      "plays": 2,
+      "skip": 28.9,
+      "pass2": 181.7
+     }
+    },
+    {
+     "id": "s06",
+     "page": 9,
+     "name": "Dzień otwarty w radiu",
+     "kind": "gaps",
+     "rn": "1.VI.",
+     "max": 12.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy uzupełnić luki w tekście."
+     ],
+     "text": [
+      "Na naszych radiowych korytarzach robi się coraz bardziej {e:tłoczno}, a to dzięki sympatii naszych {1}, którzy tłumnie ściągają na kolejny dzień otwarty. Wiele atrakcji czeka na {2} w studiach, jak i na naszym radiowym parkingu, gdzie są teraz nasi {3}.",
+      "Przed budynkiem Polskiego Radia utworzyła się już {4} słuchaczy, którzy chcą zobaczyć, jak tworzy się radio. Dla niektórych jest to już {5} wizyta w Polskim Radiu; podkreślają oni, że za każdym razem poznają nowe oblicze Radia. A na parkingu na {6} czeka mnóstwo atrakcji, między innymi dzieci mogą spróbować swoich sił wokalnych.",
+      "– Madziu, jaką piosenkę {7} nam zaśpiewać? „Wlazł kotek na płotek”. Madzia, czy chciałabyś dostać {8} płytę? Tak. No to, Madzia, słuchamy. „Wlazł kotek na płotek i mruga, ładna to {9} niedługa. Niedługa, niekrótka, jak w sam raz, zaśpiewaj koteczku jeszcze raz.”",
+      "Śpiewom przysłuchują się {10} muzyczni Jedynki. Pojawiają się {11}, że być może właśnie dziś i tutaj ma swój debiut przyszła gwiazda polskiej muzyki {12}.",
+      "Sprzed budynku Polskiego Radia – Tomasz Majka."
+     ],
+     "gaps": [
+      {
+       "a": "słuchaczy"
+      },
+      {
+       "a": "Państwa"
+      },
+      {
+       "a": "reporterzy"
+      },
+      {
+       "a": "kolejka"
+      },
+      {
+       "a": "szósta"
+      },
+      {
+       "a": "najmłodszych"
+      },
+      {
+       "a": "chciałabyś"
+      },
+      {
+       "a": "pamiątkową"
+      },
+      {
+       "a": "piosenka"
+      },
+      {
+       "a": "dziennikarze"
+      },
+      {
+       "a": "głosy"
+      },
+      {
+       "a": "rozrywkowej"
+      }
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s06.m4a",
+      "plays": 2,
+      "skip": 27.0,
+      "pass2": 136.8
+     }
+    },
+    {
+     "id": "s07",
+     "page": 10,
+     "name": "„Listy dzieci do Ojca Świętego”",
+     "kind": "choice",
+     "rn": "1.VII.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "„Listy dzieci do Ojca Świętego” to:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "autentyczne listy dzieci.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "listy rodziców do dzieci.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "listy dzieci i ich rodziców.",
+        "label": "c)"
+       }
+      ],
+      "a": "a"
+     },
+     "items": [
+      {
+       "q": "Dzieci wręczyły książkę Ojcu Świętemu:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w czerwcu 1999 roku w Polsce.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w czerwcu 1990 roku w Watykanie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w czerwcu 1999 roku w Watykanie.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Powstanie książki „Listy dzieci do Ojca Świętego” wiąże się:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "z napisaniem książki „Listy dzieci do Boga”.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "z tłumaczeniem książki „Listy dzieci do Boga” na język polski.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "z wydaniem książki „Listy dzieci do Boga” w USA.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Akcję pisania listów przez dzieci rozgłosiła:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zakonnica prowadząca program „Ziarno”.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Magda Koziej – tłumaczka.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "młoda nieznana kobieta.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Dzieci polskie pisały:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "tylko radosne listy.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w większości wesołe listy.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w większości smutne listy.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "„Listy dzieci do Ojca Świętego” są:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "naiwnym obrazem świata dzieci.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "ciekawym dokumentem czasu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nudnym obrazem życia dzieci.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      }
+     ],
+     "transcript": [
+      "– Mianowicie do „Listów dzieci do Ojca Świętego”. To jest zbiór, jak sama nazwa wskazuje, listów właśnie; fragmentów autentycznych listów polskich dzieci tylko i wyłącznie, do Ojca Świętego. Dziewięćdziesiąty dziewiąty rok i w czerwcu tego roku podczas pielgrzymki Jana Pawła II do Polski delegacja dzieci wręczyła książkę Ojcu Świętemu.",
+      "– Tak było.",
+      "– Skąd pomysł w ogóle powstał na napisanie, zebranie?",
+      "– Pomysł był listów prosty. Moja przyjaciółka Magda Koziej była tłumaczem amerykańskiej książki „Listy dzieci do Boga”. To była urocza książka i gdzieś około pracy nad tą książką wpadłyśmy na pomysł, dlaczego nie spróbować zebrać listów do Ojca Świętego. Udało się zainteresować wówczas tym pomysłem sobotnio-niedzielny – nie pamiętam – program dla dzieci pt. „Ziarno”, który prowadziła taka hoża wspaniała młoda kobieta – zakonnica. Ona się do tego bardzo zapaliła i właściwie z jej pomocą udało się rozgłosić akcję pisania listów. I wtedy okazało się, że nie jest to może takie wesołe, jak nam się tylko wydawało, bo okazało się, że w przeciwieństwie do dzieci amerykańskich, dzieci polskie piszą w większości listy smutne. One nie są wcale aż tak naiwne; one nie są wcale aż tak dziecinne i dają taki zaskakujący dosyć obraz. Nie mniej udało nam się wybrać z tego taki zbiór, który pokazuje różne nastroje, różne odcienie dziecięctwa, dziecięcości, dziecięcych pytań i wydaje mi się, że to do dzisiaj jest taki dokument czasu ciekawy."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s07.m4a",
+      "plays": 2,
+      "skip": 26.9,
+      "pass2": 183.0
+     }
+    },
+    {
+     "id": "s08",
+     "page": 11,
+     "name": "Miejsce w rodzinie",
+     "kind": "match",
+     "rn": "1.VIII.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy dopasować numer tekstu do jego tytułu."
+     ],
+     "fragments": [
+      {
+       "k": "A",
+       "t": "„Najstarszy z braci”"
+      },
+      {
+       "k": "B",
+       "t": "„Bliźniak lub bliźniaczka”"
+      },
+      {
+       "k": "C",
+       "t": "„Jedynak lub jedynaczka”"
+      },
+      {
+       "k": "D",
+       "t": "„Starszy brat sióstr”",
+       "ex": true
+      },
+      {
+       "k": "E",
+       "t": "„Najmłodszy brat sióstr i braci”"
+      },
+      {
+       "k": "F",
+       "t": "„Środkowe dziecko w rodzinie”"
+      }
+     ],
+     "example": {
+      "t": "Tekst — Przykład",
+      "a": "D"
+     },
+     "rows": [
+      {
+       "t": "Tekst nr 1",
+       "a": "C"
+      },
+      {
+       "t": "Tekst nr 2",
+       "a": "B"
+      },
+      {
+       "t": "Tekst nr 3",
+       "a": "E"
+      },
+      {
+       "t": "Tekst nr 4",
+       "a": "F"
+      },
+      {
+       "t": "Tekst nr 5",
+       "a": "A"
+      }
+     ],
+     "transcript": [
+      "Przykład",
+      "Jest typem, który lubi wygodne życie. Po urodzeniu Zosi i Marysi nie przestał czuć się ważny w rodzinie. W dorosłym życiu do pracy zawsze zachęca go podziw ze strony kobiet, tak jak w dzieciństwie dobrze na niego wpływa pozytywna ocena sióstr i ich koleżanek.",
+      "Tekst nr 1",
+      "To nieprawda, że jest egoistą. Czuje się winny, że wychowywał się bez rodzeństwa i miał dzięki temu lepsze warunki życia. Zawsze mógł liczyć tylko na siebie, dlatego potrafi dbać o własne interesy.",
+      "Tekst nr 2",
+      "Ponieważ spędza od urodzenia z bratem lub siostrą 24 godziny na dobę, ich związek jest bardzo silny. Rozumieją się bez słów. Ma problemy ze znalezieniem żony lub męża, nie umie się zakochać, bo relacja z innym człowiekiem jest dla niego tylko imitacją jego związku z bratem lub siostrą.",
+      "Tekst nr 3",
+      "Ponieważ wszyscy w rodzinie byli od niego starsi, nie musiał być odpowiedzialny. W dorosłym życiu woli pracę pod okiem autorytetu w postaci szefa, gdyż jest przyzwyczajony, że ktoś go „pilnuje”.",
+      "Tekst nr 4",
+      "Takie dziecko ma żal do rodziców, że się nim za mało interesowali. Obecność zarówno starszego, jak i młodszego rodzeństwa w domu, powoduje, że umie znaleźć wspólny język z osobami w rożnym wieku.",
+      "Tekst nr 5",
+      "Jest odpowiedzialny i obowiązkowy a wysoka samoocena to jego znak szczególny. Dlatego często kieruje pracą innych, a ludzie chętnie go słuchają. W dzieciństwie opiekował się młodszym rodzeństwem: Markiem i Tomkiem."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s08.m4a",
+      "plays": 2,
+      "skip": 27.8,
+      "pass2": 206.0
+     }
+    },
+    {
+     "id": "s09",
+     "page": 11,
+     "name": "Zakaz palenia we Francji",
+     "kind": "gaps",
+     "rn": "1.IX.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy uzupełnić luki w tekście."
+     ],
+     "text": [
+      "Sondaże wskazują, że {e:poparcie} dla projektu zabronienia palaczom dymienia we wszelkich {1} publicznych kształtuje się już na poziomie siedemdziesięciu procent. Od trzech lat {2} władze przestały tylko w tej sprawie mówić, a {3} także dużo robić. Obowiązująca wcześniej ustawa nakazująca gwarantowanie w każdym lokalu gastronomicznym {4} wydzielonej części dla niepalących była w dużej mierze {5} albo obracana w żart – poprzez na przykład przesunięcie na bok trzech stolików otoczonych zewsząd palaczami i {6}. Uderzono więc w kieszeń. Horrendalne {7} cen papierosów spowodowały spadek sprzedaży o blisko trzydzieści procent i zamknięcie {8} tysiąca punktów ich sprzedaży. Francuzi zaś zaczęli się {9} do mniej zadymionej atmosfery i coraz bardziej im się to podoba. Petycja sprzedawców może się więc okazać {10} tyleż patetycznym, co nieskutecznym."
+     ],
+     "gaps": [
+      {
+       "a": "miejscach"
+      },
+      {
+       "a": "francuskie"
+      },
+      {
+       "a": "zaczęły"
+      },
+      {
+       "a": "wyraźnie"
+      },
+      {
+       "a": "ignorowana"
+      },
+      {
+       "a": "dymem"
+      },
+      {
+       "a": "podwyżki"
+      },
+      {
+       "a": "półtora"
+      },
+      {
+       "a": "przyzwyczajać"
+      },
+      {
+       "a": "gestem"
+      }
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s09.m4a",
+      "plays": 2,
+      "skip": 26.9,
+      "pass2": 115.8
+     }
+    },
+    {
+     "id": "s10",
+     "page": 12,
+     "name": "Zgorzelec i Görlitz",
+     "kind": "choice",
+     "rn": "1.X.",
+     "max": 8.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć wypowiedź prawdziwą (P) lub fałszywą (F)."
+     ],
+     "example": {
+      "q": "Zgorzelec liczy ponad trzydzieści tysięcy mieszkańców.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "Miasto Görlitz jest rywalem Zgorzelca w walce o tytuł europejskiej stolicy.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Zgorzelec leży nad rzeką.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Muzeum Jakuba Böhme znajduje się w odnowionym budynku.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Jakub Böhme mieszkał w centrum Zgorzelca.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Wspólny projekt dotyczy budowy uniwersytetu.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Axel Kröger zajmuje się handlem.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Pan Sławomir nie chodzi do teatru.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Władze obu miast otrzymały już specjalne fundusze z Unii Europejskiej.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      }
+     ],
+     "transcript": [
+      "Jeden dom kultury, jedno kino, kilka zabytkowych kościołów, szare ulice. Spacerując po Zgorzelcu, aż trudno uwierzyć, że za cztery lata to niespełna czterdziestotysięczne miasto może być europejską stolicą kultury. Szanse według burmistrza są duże, bo to wspólny projekt z niemieckim Görlitz. Miasta dzieli jedynie most na Nysie. To właśnie Niemcy zaproponowali władzom Zgorzelca, by pod hasłem: „Jedno miasto dwóch narodów” wystartować w konkursie. Prace ruszyły już dziś. W jednej z odrestaurowanych kamieniczek otwarto ostatnio muzeum niemieckiego filozofa – Jakuba Böhme, który mieszkał blisko Zgorzelca, w Starym Zawidowie. Ale to nie wszystko. Wspólne, polsko-niemieckie plany rozwoju kulturalnego są o wiele większe.",
+      "– Jednym z najważniejszych punktów projektu jest budowa parku mostów. Po obu stronach Nysy powstałoby szereg galerii, muzeów czy muzycznych kawiarni.",
+      "Mieszkańcom obu miast pomysł się spodobał. Axel Kröger na co dzień prowadzi sklep z winami. Liczy, że przyznanie takiego tytułu rozkręci mu interes.",
+      "– Tytuł europejskiej stolicy kultury to więcej turystów i szansa na rozwój.",
+      "Także Polacy popierają ten pomysł. Pan Sławomir ma nadzieję, że w Zgorzelcu powstanie prawdziwy teatr, bo na razie na operę musi wybierać się do niemieckich sąsiadów.",
+      "– Niemcy wystawiają opery dość często, operetki, o tyle to jest to ciekawe, że jest wyświetlane są napisy, tytuły, napisy po..., w języku polskim.",
+      "Władze obu miast liczą na miliony turystów i miliony euro z unijnej kasy."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s10.m4a",
+      "plays": 2,
+      "skip": 27.4,
+      "pass2": 157.1
+     }
+    },
+    {
+     "id": "s11",
+     "page": 12,
+     "name": "Aktor, filolog, zoolog",
+     "kind": "match",
+     "rn": "1.XI.",
+     "max": 3.0,
+     "pts": 1.0,
+     "pictures": true,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonywać zadanie.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy dopasować poszczególne teksty do mówiących je osób."
+     ],
+     "fragments": [
+      {
+       "k": "1",
+       "t": ""
+      },
+      {
+       "k": "2",
+       "t": ""
+      },
+      {
+       "k": "3",
+       "t": ""
+      },
+      {
+       "k": "4",
+       "t": ""
+      }
+     ],
+     "rows": [
+      {
+       "l": "aktor",
+       "img": "assets/img/b1-sbornik-s11-aktor.jpg",
+       "a": "4"
+      },
+      {
+       "l": "filolog",
+       "img": "assets/img/b1-sbornik-s11-filolog.jpg",
+       "a": "1"
+      },
+      {
+       "l": "zoolog",
+       "img": "assets/img/b1-sbornik-s11-zoolog.jpg",
+       "a": "2"
+      }
+     ],
+     "transcript": [
+      "Tekst nr 1",
+      "Nie dalej jak wczoraj zadzwoniła do mnie pewna pani, no mogę powiedzieć – z mojej branży – zajmująca się zawodowo kulturą języka i głosy są negatywne. Ja w Słowie Polskim zamieściłem recenzję tego słownika bardzo pozytywną.",
+      "Tekst nr 2",
+      "Jak zwierzęta się porozumiewają – to nas przede wszystkim interesuje. Proszę sobie wyobrazić naszą pracę bez znajomości tego zagadnienia.",
+      "Tekst nr 3",
+      "Ta choinka jest to jeden z elementów mojej filozofii życiowej, znaczy może filozofii to jest za duże słowo. Mojego sposobu na życie.",
+      "Tekst nr 4",
+      "Moim drugim domem, jeżeli nie pierwszym, jest teatr, czy się komuś podoba, czy nie."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s11.m4a",
+      "plays": 2,
+      "skip": 25.6,
+      "pass2": 123.8
+     }
+    },
+    {
+     "id": "s12",
+     "page": 13,
+     "name": "Rzeźbiarze rzeźbią piosenkę",
+     "kind": "choice",
+     "rn": "1.XII.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć wypowiedź prawdziwą (P) lub fałszywą (F)."
+     ],
+     "example": {
+      "q": "Rzeźbiarze rzeźbią piosenkę.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "Powstanie osiem rzeźb.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Mieszkańcy zdecydują, gdzie staną pomniki.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Na rynku będzie urna do głosowania.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Marmur został kupiony przez mieszkańców.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Koszt projektu jest mniejszy niż ćwierć miliona złotych.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      }
+     ],
+     "transcript": [
+      "– Mamy ośmiu rzeźbiarzy: z Litwy, Gruzji, USA, Polski. Wszyscy rzeźbią piosenkę.",
+      "– Powstanie osiem pomników i co z nimi?",
+      "– Chcielibyśmy, aby mieszkańcy miasta zdecydowali, gdzie będą postawione te rzeźby, ponieważ na obecną chwilę one wszystkie znajdują się tutaj na placu przed Staropolem. Później będą przewiezione do rynku, gdzie będzie postawiona urna i mieszkańcy będą mogli zgłaszać swoje propozycje ustawienia tych rzeźb.",
+      "– Chciałbym zapytać jeszcze o koszty, bo przecież taki marmur jest chyba bardzo drogi?",
+      "– Jest to dosyć duży koszt, z tym że marmur dostaliśmy od naszego miasta partnerskiego.",
+      "– W prezencie?",
+      "– Gratis, tak, w prezencie. Natomiast sam koszt to jest, no, ponad ćwierć miliona złotych. Także można powiedzieć, że to jest gest bardzo wielki w naszą stronę."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s12.m4a",
+      "plays": 2,
+      "skip": 27.5,
+      "pass2": 113.2
+     }
+    },
+    {
+     "id": "s13",
+     "page": 13,
+     "name": "Imię i zdjęcie",
+     "kind": "match",
+     "rn": "1.XIII.",
+     "max": 5.0,
+     "pts": 1.0,
+     "pictures": true,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy połączyć zdjęcie osoby z jej imieniem."
+     ],
+     "fragments": [
+      {
+       "k": "Joanna",
+       "t": ""
+      },
+      {
+       "k": "Ela",
+       "t": ""
+      },
+      {
+       "k": "Teresa",
+       "t": ""
+      },
+      {
+       "k": "Krystyna",
+       "t": ""
+      },
+      {
+       "k": "Beata",
+       "t": ""
+      }
+     ],
+     "example": {
+      "l": "D",
+      "img": "assets/img/b1-sbornik-s13-d.jpg",
+      "a": "Ewa"
+     },
+     "rows": [
+      {
+       "l": "A",
+       "img": "assets/img/b1-sbornik-s13-a.jpg",
+       "a": "Krystyna"
+      },
+      {
+       "l": "B",
+       "img": "assets/img/b1-sbornik-s13-b.jpg",
+       "a": "Beata"
+      },
+      {
+       "l": "C",
+       "img": "assets/img/b1-sbornik-s13-c.jpg",
+       "a": "Teresa"
+      },
+      {
+       "l": "E",
+       "img": "assets/img/b1-sbornik-s13-e.jpg",
+       "a": "Ela"
+      },
+      {
+       "l": "F",
+       "img": "assets/img/b1-sbornik-s13-f.jpg",
+       "a": "Joanna"
+      }
+     ],
+     "transcript": [
+      "Dziękuję Ewo, że odwiozłaś mnie do domu. Byłam bardzo zmęczona po podróży. Czy wiesz, że za granicą spotkałam Joannę? Pamiętasz ją? Nic się nie zmieniła od matury. A to już chyba z 15 lat minęło. Mówi, że swoją kondycję zawdzięcza intensywnym treningom w klubie fitness. Dowiedziałam się od niej, że Ela założyła znaną firmę ogrodniczą, a Teresa prowadzi schronisko dla zwierząt. Najbardziej zaskoczyła mnie historia Krystyny, która wyszła za mąż za Włocha i od tego czasu uwielbia włoską kuchnię. Beata, aby poprawić sobie humor, ciągle pije zieloną herbatę. Ja ciebie też teraz zapraszam na herbatę albo kawę i tort orzechowy, który sama upiekłam. Nie możesz mi odmówić. Wczoraj były moje urodziny."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s13.m4a",
+      "plays": 2,
+      "skip": 28.0,
+      "pass2": 127.9
+     }
+    },
+    {
+     "id": "s14",
+     "page": 14,
+     "name": "Odosobnione wypowiedzi",
+     "kind": "choice",
+     "rn": "1.XIV.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone tylko jeden raz.",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "Ta wypowiedź jest typowa:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "w kawiarni.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "w cukierni.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "w piekarni.",
+        "label": "c)"
+       }
+      ],
+      "a": "c"
+     },
+     "items": [
+      {
+       "q": "Tak powie:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "kolega do koleżanki.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "kelner w kawiarni do gościa.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "student do profesora.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź oznacza, że:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "nie ma żadnych problemów w ruchu drogowym.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "można to zaakceptować.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "jest zła widoczność.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "u lekarza.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w aptece.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w pracy lub w szkole.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Tę wypowiedź możemy zwykle usłyszeć od:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "policjanta na drodze.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "konduktora w pociągu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "kontrolera w tramwaju.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Tę wypowiedź możemy usłyszeć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w kinie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w tramwaju.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w parku.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Taką wypowiedź możemy usłyszeć:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w sklepie z butami.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w aptece.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "przez telefon.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w restauracji.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie z meblami.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie z antykami.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Jest to pytanie o:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "miejsce, gdzie staje autobus.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "miejsce, gdzie staje tramwaj.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "miejsce, gdzie staje taksówka.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "wszystko jest możliwe.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "oni nigdy nic nie wiedzą.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "to trudna sprawa.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "skończyłem gotować.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "skończyłem mówić na ten temat.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "skończyłem liczyć.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      }
+     ],
+     "transcript": [
+      "0. Proszę jeszcze dwa bochenki!",
+      "1. Czy masz ochotę na kawę?",
+      "2. Nie widzę przeszkód.",
+      "3. Proszę przynieść zwolnienie lekarskie za ubiegły tydzień.",
+      "4. Proszę pokazać prawo jazdy!",
+      "5. Proszę ustąpić miejsca tej pani!",
+      "6. Niestety, wybrany numer jest za krótki.",
+      "7. Czy jest wolny stolik?",
+      "8. Przepraszam, gdzie jest najbliższy postój?",
+      "9. Nigdy nic nie wiadomo.",
+      "10. Nie mam już nic do dodania."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s14.m4a",
+      "plays": 1,
+      "skip": 28.2,
+      "pass2": null
+     }
+    },
+    {
+     "id": "s15",
+     "page": 18,
+     "name": "Odosobnione wypowiedzi",
+     "kind": "choice",
+     "rn": "2.I.",
+     "max": 10.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone tylko jeden raz.",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "Tę wypowiedź najczęściej słyszymy:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "w restauracji.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "w autobusie.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "na przystanku.",
+        "label": "c)"
+       }
+      ],
+      "a": "b"
+     },
+     "items": [
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "przy malowaniu.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "przy zmywaniu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "przy rysowaniu.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w hotelu.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w księgarni.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie obuwniczym.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na poczcie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w sklepie z pamiątkami.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w zakładzie fotograficznym.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź to:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "rada.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "zaproszenie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "prośba.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "przy robieniu naleśników.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "przy liczeniu pieniędzy.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "przy robieniu herbaty.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na lekcji geografii.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w programie kulinarnym.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w prognozie pogody.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w taksówce.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w pociągu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "radość.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "zdziwienie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "sympatię.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "obojętność.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "żal.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "wzruszenie.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Tę wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w samochodzie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w przymierzalni.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na placu zabaw.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź to:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zakaz.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "protest.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "ostrzeżenie.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "na parkingu.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w restauracji.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w sklepie z meblami.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w aptece.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w księgarni.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w salonie masażu.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź to:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "powitanie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "pożegnanie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "podziękowanie.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w kinie.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na meczu piłkarskim.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na dworcu kolejowym.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Taką wypowiedź najczęściej słyszymy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w łazience.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "na basenie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "na lodowisku.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w czytelni.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w szkole.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w poczekalni.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Ta wypowiedź znaczy:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "nie zgadzam się z tobą.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "nie mam zdania na ten temat.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "myślę podobnie jak ty.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Ta wypowiedź jest typowa:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "podczas seansu filmowego.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "podczas zakupów.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "podczas podróży.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Ta wypowiedź oznacza:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "zmieniłem pracę.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "nie mam wolnego czasu.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "mam urlop.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      }
+     ],
+     "transcript": [
+      "0. Przepraszam, czy była już dziewiątka?",
+      "1. Czy zostało ci jeszcze trochę farby?",
+      "2. Prosiłabym jednak o większy numer.",
+      "3. Zdjęcia będą gotowe na jutro.",
+      "4. A może przyjdziecie do nas na obiad?",
+      "5. Tyle mąki wystarczy?",
+      "6. Na południu Polski będzie padać.",
+      "7. Jesteśmy na miejscu. Płaci pani dwadzieścia złotych.",
+      "8. Chyba pan żartuje!",
+      "9. Nic mnie to nie obchodzi.",
+      "10. Zapnij pasy!",
+      "11. Uważaj na drogę. Jest bardzo ślisko.",
+      "12. Przepraszamy, ale nie mamy już wolnych stolików.",
+      "13. Poproszę jakiś środek na ból głowy.",
+      "14. Miło znów cię widzieć!",
+      "15. Proszę odsunąć się od toru!",
+      "16. Uważaj! Tu jest bardzo głęboko.",
+      "17. Proszę o ciszę. Jeszcze nie było dzwonka na przerwę.",
+      "18. Uważam, że nie masz racji.",
+      "19. Daleko jeszcze?",
+      "20. Ostatnio jestem bardzo zajęta."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s15.m4a",
+      "plays": 1,
+      "skip": 28.5,
+      "pass2": null
+     }
+    },
+    {
+     "id": "s16",
+     "page": 19,
+     "name": "Wakacje Europejczyków",
+     "kind": "gaps",
+     "rn": "2.II.",
+     "max": 5.0,
+     "pts": 0.5,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy uzupełnić luki w tekście."
+     ],
+     "text": [
+      "Wszędzie dobrze {e:0}, ale w domu najlepiej – tak {1} z danych Unijnego Biura Statystycznego, a dotyczących wakacji. Według Eurostatu większość Europejczyków w 2004 roku {2} wakacje w swoim kraju. Z tych danych wynika, że większość Polaków została w kraju {3} wakacji i zaledwie jedna piąta {4} na wyjazdy zagraniczne. Podobnie było w Grecji, Hiszpanii i Francji.",
+      "Podróże po Europie wybrali natomiast {5} Luksemburga – aż dziewięćdziesiąt dziewięć procent – i Belgii – prawie osiemdziesiąt procent. Eurostat podaje też, że samochód to {6} środek transportu podczas wyjazdów turystycznych. Jedynie w Irlandii i Wielkiej Brytanii bardziej {7} było podróżowanie samolotem.",
+      "W Polsce ponad połowa mieszkańców {8} na wakacje samochodem, nieco ponad {9} procent samolotem, a prawie jedna piąta {10} i tyle samo autokarami.",
+      "Beata Płomecka. Polskie Radio. Bruksela."
+     ],
+     "gaps": [
+      {
+       "a": "wynika"
+      },
+      {
+       "a": "wybrała"
+      },
+      {
+       "a": "podczas"
+      },
+      {
+       "a": "zdecydowała się"
+      },
+      {
+       "a": "mieszkańcy"
+      },
+      {
+       "a": "najczęstszy"
+      },
+      {
+       "a": "popularne"
+      },
+      {
+       "a": "jeździła"
+      },
+      {
+       "a": "trzy"
+      },
+      {
+       "a": "pociągami"
+      }
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s16.m4a",
+      "plays": 2,
+      "skip": 27.1,
+      "pass2": 129.8
+     }
+    },
+    {
+     "id": "s17",
+     "page": 20,
+     "name": "Pogoda i utrudnienia na drogach",
+     "kind": "choice",
+     "rn": "2.III.",
+     "max": 10.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć wypowiedź prawdziwą lub fałszywą."
+     ],
+     "example": {
+      "q": "Tropikalne powietrze opuszcza Polskę.",
+      "opts": [
+       {
+        "v": "p",
+        "t": "P"
+       },
+       {
+        "v": "f",
+        "t": "F"
+       }
+      ],
+      "a": "p",
+      "inline": true
+     },
+     "items": [
+      {
+       "q": "W Polsce będzie powyżej 30 stopni.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "W Warszawie jest teraz 16 stopni.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Najcieplej jest na Mazurach.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Na Podlasiu jest pogodnie.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Nad Terespolem jest burza.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Niebo jest bezchmurne.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      },
+      {
+       "q": "Kierowcy jadący do Poznania mogą mieć problemy.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Za Wrześnią był wypadek.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Część autostrady jest zablokowana.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "p",
+       "inline": true
+      },
+      {
+       "q": "Utrudnienia na drodze będą do godziny dziesiątej.",
+       "opts": [
+        {
+         "v": "p",
+         "t": "P"
+        },
+        {
+         "v": "f",
+         "t": "F"
+        }
+       ],
+       "a": "f",
+       "inline": true
+      }
+     ],
+     "transcript": [
+      "Przede wszystkim kilka stopni mniej i już jest lepiej. Tropikalne gorące powietrze opuszcza Polskę. Wypycha je bardziej świeże powietrze znad oceanu, czyli będzie poniżej 30 stopni. Teraz najcieplej jest w Warszawie – 24 stopnie, najchłodniej na Mazurach – 16 stopni.",
+      "No, nie za pogodnie jest wzdłuż naszej wschodniej granicy oraz na północy kraju. Przeważają chmury, gdzieniegdzie na Mazurach i na Podlasiu pada deszcz, a nad Terespolem przechodzi burza. Poza tym w kraju słońca jest dużo, ale to dzisiejsze słońce ma wyraźną ochotę na zabawę z nami w chowanego; co pewien czas ucieka za chmury.",
+      "I doniesienia z dróg. Kłopoty mogą mieć osoby zmierzające do Poznania, za Wrześnią jeden pas autostrady A 2 jest zablokowany przez przewróconą ciężarówkę. Utrudnienia mogą potrwać co najmniej do godziny jedenastej."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s17.m4a",
+      "plays": 2,
+      "skip": 28.9,
+      "pass2": 128.6
+     }
+    },
+    {
+     "id": "s18",
+     "page": 21,
+     "name": "Feliks Nowowiejski",
+     "kind": "choice",
+     "rn": "2.IV.",
+     "max": 5.0,
+     "pts": 1.0,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy zaznaczyć właściwą odpowiedź."
+     ],
+     "example": {
+      "q": "Feliks Nowowiejski napisał „Rotę”:",
+      "opts": [
+       {
+        "v": "a",
+        "t": "jako student.",
+        "label": "a)"
+       },
+       {
+        "v": "b",
+        "t": "jako genialne dziecko.",
+        "label": "b)"
+       },
+       {
+        "v": "c",
+        "t": "jako dorosły mężczyzna.",
+        "label": "c)"
+       }
+      ],
+      "a": "c"
+     },
+     "items": [
+      {
+       "q": "Kiedy Nowowiejski napisał „Rotę”:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "utwór przyniósł mu sukces.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "miał 33 lata.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "nie był jeszcze znanym kompozytorem.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Feliks Nowowiejski wrócił do kraju:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w 1910 roku.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w 1906 roku.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "w 1916 roku.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      },
+      {
+       "q": "Kompozytor w Filharmonii Warszawskiej:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "dał koncert muzyki kościelnej.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "grał utwory szkoły niemieckiej.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "dał pierwszy koncert.",
+         "label": "c)"
+        }
+       ],
+       "a": "c"
+      },
+      {
+       "q": "Feliks Nowowiejski studiował muzykę:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "w Niemczech.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "w Warszawie.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "we Włoszech.",
+         "label": "c)"
+        }
+       ],
+       "a": "a"
+      },
+      {
+       "q": "Nagrody muzyczne zdobył:",
+       "opts": [
+        {
+         "v": "a",
+         "t": "uczeń Feliksa Nowowiejskiego.",
+         "label": "a)"
+        },
+        {
+         "v": "b",
+         "t": "Feliks Nowowiejski jako uczeń Maxa Brucha.",
+         "label": "b)"
+        },
+        {
+         "v": "c",
+         "t": "uczeń Meyerbeera.",
+         "label": "c)"
+        }
+       ],
+       "a": "b"
+      }
+     ],
+     "transcript": [
+      "Gdy w 1910 roku Feliks Nowowiejski podarował narodowi „Rotę”, był już 33-letnim kompozytorem odnoszącym światowe sukcesy. Jego twórczość tylko częściowo wyrastała z panujących na początku XX wieku młodopolskich idei. Bo praktycznie do kraju powrócił w 1906 roku. Wtedy wystąpił z pierwszym koncertem symfonicznym w Filharmonii Warszawskiej. Po ukończeniu niemieckiej szkoły muzycznej w Świętej Lipce na Warmii wiedzę o wykonaniu muzyki kościelnej zdobywał w Ratyzbonie. Potem trafił do Królewskiej Akademii w Berlinie pod opiekę mistrza Maxa Brucha, który podkreślał talent dwóch swoich uczniów spoza Niemiec: Włocha, Ottorina Respighiego i Feliksa Nowowiejskiego. Pedagog miał prawo do dumy, bowiem uczeń dwukrotnie zdobył prestiżową nagrodę rzymską imienia Meyerbeera oraz beethovenowską w Bonn.",
+      "Podczas dwuletniej podróży artystycznej po świecie zyskał Nowowiejski także aprobatę Antonina Dworaka i wprowadził swoje oratoria na najważniejsze estrady koncertowe."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s18.m4a",
+      "plays": 2,
+      "skip": 27.3,
+      "pass2": 140.9
+     }
+    },
+    {
+     "id": "s19",
+     "page": 21,
+     "name": "Lokatorzy kamienicy",
+     "kind": "match",
+     "rn": "2.V.",
+     "max": 5.0,
+     "pts": 1.0,
+     "pictures": true,
+     "instr": [
+      "Proszę uważnie wysłuchać tego nagrania i wykonać zadanie zgodnie z podanym przykładem.",
+      "Uwaga! Nagranie zostanie odtworzone dwa razy.",
+      "Należy dopasować zdjęcie lokatora do numeru piętra."
+     ],
+     "fragments": [
+      {
+       "k": "I piętro — Edward",
+       "t": ""
+      },
+      {
+       "k": "II piętro — Czarek",
+       "t": ""
+      },
+      {
+       "k": "III piętro — Bartek",
+       "t": ""
+      },
+      {
+       "k": "IV piętro — Mariusz",
+       "t": ""
+      },
+      {
+       "k": "V piętro — Włodzimierz",
+       "t": ""
+      }
+     ],
+     "example": {
+      "l": "E",
+      "img": "assets/img/b1-sbornik-s19-e.jpg",
+      "a": "Parter — pan Jarosław"
+     },
+     "rows": [
+      {
+       "l": "A",
+       "img": "assets/img/b1-sbornik-s19-a.jpg",
+       "a": "III piętro — Bartek"
+      },
+      {
+       "l": "B",
+       "img": "assets/img/b1-sbornik-s19-b.jpg",
+       "a": "V piętro — Włodzimierz"
+      },
+      {
+       "l": "C",
+       "img": "assets/img/b1-sbornik-s19-c.jpg",
+       "a": "IV piętro — Mariusz"
+      },
+      {
+       "l": "D",
+       "img": "assets/img/b1-sbornik-s19-d.jpg",
+       "a": "I piętro — Edward"
+      },
+      {
+       "l": "F",
+       "img": "assets/img/b1-sbornik-s19-f.jpg",
+       "a": "II piętro — Czarek"
+      }
+     ],
+     "transcript": [
+      "Pan Jarosław, nauczyciel geografii, od wielu lat mieszka na parterze starej kamienicy w centrum Warszawy. Doskonale zna swoich sąsiadów i tak o nich opowiada swojemu bratu, który ma się do niego wprowadzić na czas remontu swojego mieszkania:",
+      "– Sąsiada z drugiego piętra – Czarka nigdy nie ma w domu, ponieważ każdą wolną chwilę spędza nad wodą.",
+      "– Jeżeli chciałbyś się czegoś dowiedzieć o kimś z naszej kamienicy, to zgłoś się do pana Mariusza z czwartego piętra. To jest najlepiej poinformowana osoba w całym domu. Wie wszystko o wszystkich.",
+      "– Bardzo mi żal Bartka, który mieszka na trzecim piętrze. Jego żona od roku pracuje za granicą, więc wszystkie prace domowe musi wykonywać sam.",
+      "– Na pierwszym piętrze mieszka Edward. Bardzo go nie lubię, ponieważ ciągle ćwiczy nocami i wszyscy mieszkańcy nie mogą przez niego spać.",
+      "– Włodzimierz z piątego piętra to mój serdeczny przyjaciel. Musisz go koniecznie jutro poznać. Jest niezwykle odważny i ciągle szuka w życiu nowych wrażeń."
+     ],
+     "audio": {
+      "src": "audio/b1-sbornik/s19.m4a",
+      "plays": 2,
+      "skip": 28.9,
+      "pass2": 135.6
+     }
+    }
+   ]
+  },
+  {
    "id": "gram",
    "title": "Poprawność gramatyczna: сборник",
    "max": 372.0,
@@ -7574,7 +10343,7 @@ B1.register({
     {
      "id": "r07",
      "page": 15,
-     "name": "Объявления по рубрикам, VII",
+     "name": "Ogłoszenia drobne",
      "kind": "match",
      "rn": "1.VII.",
      "max": 5.0,
@@ -7679,7 +10448,7 @@ B1.register({
     {
      "id": "r08",
      "page": 16,
-     "name": "Части интервью: Михал Жебровский, VIII",
+     "name": "Интервью: Michał Żebrowski",
      "kind": "match",
      "rn": "1.VIII.",
      "max": 5.0,
@@ -7784,7 +10553,7 @@ B1.register({
     {
      "id": "r09",
      "page": 17,
-     "name": "Части интервью: Мачей Орлось, IX",
+     "name": "Интервью: Maciej Orłoś",
      "kind": "match",
      "rn": "1.IX.",
      "max": 4.0,
@@ -7873,7 +10642,7 @@ B1.register({
     {
      "id": "r10",
      "page": 19,
-     "name": "Книги для читателей, X",
+     "name": "Książki dla czytelników",
      "kind": "match",
      "rn": "1.X.",
      "max": 5.0,
@@ -7938,7 +10707,7 @@ B1.register({
     {
      "id": "r11",
      "page": 20,
-     "name": "Как сестра Кулечка в Италию собирается, XI",
+     "name": "Jak siostra Kuleczka do Włoch się wybiera",
      "kind": "choice",
      "rn": "1.XI.",
      "max": 10.0,
@@ -8167,7 +10936,7 @@ B1.register({
     {
      "id": "r12",
      "page": 21,
-     "name": "Не могу найти работу, XII",
+     "name": "Nie mogę znaleźć pracy",
      "kind": "choice",
      "rn": "1.XII.",
      "max": 10.0,
@@ -8353,7 +11122,7 @@ B1.register({
     {
      "id": "r13",
      "page": 22,
-     "name": "Продолжительность жизни в Польше, XIII",
+     "name": "Średnia długość życia Polaków",
      "kind": "choice",
      "rn": "1.XIII.",
      "max": 10.0,
@@ -8585,7 +11354,7 @@ B1.register({
     {
      "id": "r14",
      "page": 24,
-     "name": "Как улучшить память, XIV",
+     "name": "Jak mieć dobrą pamięć",
      "kind": "order",
      "rn": "1.XIV.",
      "max": 10.0,
@@ -8690,7 +11459,7 @@ B1.register({
     {
      "id": "r15",
      "page": 25,
-     "name": "Похищенная награда MTV, XV",
+     "name": "Nagroda Kasi Kowalskiej",
      "kind": "order",
      "rn": "1.XV.",
      "max": 10.0,
@@ -8795,7 +11564,7 @@ B1.register({
     {
      "id": "r16",
      "page": 25,
-     "name": "Сэндвичи «Trześniewski», XVI",
+     "name": "Kanapki „Trześniewski”",
      "kind": "order",
      "rn": "1.XVI.",
      "max": 10.0,
@@ -8900,7 +11669,7 @@ B1.register({
     {
      "id": "r17",
      "page": 26,
-     "name": "Спектакль «Kontrabasista», XVII",
+     "name": "„Kontrabasista”",
      "kind": "order",
      "rn": "1.XVII.",
      "max": 9.0,
@@ -8997,7 +11766,7 @@ B1.register({
     {
      "id": "r18",
      "page": 27,
-     "name": "История моды, XVIII",
+     "name": "Historia mody",
      "kind": "order",
      "rn": "1.XVIII.",
      "max": 11.0,
@@ -9111,7 +11880,7 @@ B1.register({
     {
      "id": "r19",
      "page": 28,
-     "name": "Ученик художника Бексиньского, XIX",
+     "name": "Uczeń Beksińskiego",
      "kind": "order",
      "rn": "1.XIX.",
      "max": 10.0,
@@ -9216,7 +11985,7 @@ B1.register({
     {
      "id": "r20",
      "page": 29,
-     "name": "Фильм «Dekalog I», XX",
+     "name": "„Dekalog I”",
      "kind": "gaps",
      "rn": "1.XX.",
      "max": 5.0,
@@ -9277,7 +12046,7 @@ B1.register({
     {
      "id": "r21",
      "page": 29,
-     "name": "Обычай целовать руку, XXI",
+     "name": "Zwyczaj całowania w rękę",
      "kind": "gaps",
      "rn": "1.XXI.",
      "max": 5.0,
@@ -9342,7 +12111,7 @@ B1.register({
     {
      "id": "r22",
      "page": 30,
-     "name": "Жизнь на расстоянии, XXII",
+     "name": "Życie osobno",
      "kind": "gaps",
      "rn": "1.XXII.",
      "max": 10.0,
@@ -9451,7 +12220,7 @@ B1.register({
     {
      "id": "r23",
      "page": 32,
-     "name": "Безопасные каникулы, XXIII",
+     "name": "Bezpieczne wakacje",
      "kind": "gaps",
      "rn": "1.XXIII.",
      "max": 8.0,
@@ -9623,7 +12392,7 @@ B1.register({
     {
      "id": "r24",
      "page": 33,
-     "name": "Комиссар полиции Агата, XXIV",
+     "name": "Nadkomisarz Agata Tonder-Nowak",
      "kind": "gaps",
      "rn": "1.XXIV.",
      "max": 10.0,
@@ -9852,7 +12621,7 @@ B1.register({
     {
      "id": "r25",
      "page": 33,
-     "name": "Читают ли поляки книги, XXV",
+     "name": "Tylko połowa Polaków czyta książki",
      "kind": "gaps",
      "rn": "1.XXV.",
      "max": 7.0,
@@ -9998,7 +12767,7 @@ B1.register({
     {
      "id": "r26",
      "page": 36,
-     "name": "Надписи и вывески, зестав 2.I",
+     "name": "Napisy i wywieszki",
      "kind": "choice",
      "rn": "2.I.",
      "max": 5.0,
@@ -10254,7 +13023,7 @@ B1.register({
     {
      "id": "r27",
      "page": 37,
-     "name": "Короткие тексты, зестав 2.II",
+     "name": "Krótkie teksty",
      "kind": "choice",
      "rn": "2.II.",
      "max": 10.0,
@@ -10510,7 +13279,7 @@ B1.register({
     {
      "id": "r28",
      "page": 40,
-     "name": "Малгожата Пеньковска, зестав 2.III",
+     "name": "Małgorzata Pieńkowska",
      "kind": "choice",
      "rn": "2.III.",
      "max": 10.0,
@@ -10740,7 +13509,7 @@ B1.register({
     {
      "id": "r29",
      "page": 41,
-     "name": "«Маска», зестав 2.IV",
+     "name": "Maska",
      "kind": "order",
      "rn": "2.IV.",
      "max": 10.0,
@@ -10845,7 +13614,7 @@ B1.register({
     {
      "id": "r30",
      "page": 42,
-     "name": "«Почитай мне, мама», зестав 2.V",
+     "name": "Poczytaj mi, mamo",
      "kind": "gaps",
      "rn": "2.V.",
      "max": 5.0,
@@ -10908,8 +13677,129 @@ B1.register({
     }
    ],
    "page": 4
+  },
+  {
+   "id": "pis",
+   "title": "Pisanie: сборник",
+   "max": 40.0,
+   "minutes": 0,
+   "page": 24,
+   "meta": "3 набора на выбор, 40 баллов"
+  },
+  {
+   "id": "mow",
+   "title": "Mówienie: сборник",
+   "max": 40.0,
+   "minutes": 0,
+   "page": 22,
+   "meta": "3 набора на выбор, 40 баллов (черновая шкала)"
   }
  ],
- "writing": []
+ "writing": [
+  {
+   "id": "I",
+   "a": {
+    "genre": "zaproszenie",
+    "words": 30,
+    "prompt": "Proszę napisać zaproszenie dla kolegi na swoje urodziny.",
+    "gid": "zaproszenie"
+   },
+   "b": {
+    "genre": "charakterystyka",
+    "words": 170,
+    "prompt": "Proszę opisać i scharakteryzować swojego ulubionego nauczyciela.",
+    "gid": "charakterystyka"
+   }
+  },
+  {
+   "id": "II",
+   "a": {
+    "genre": "ogłoszenie",
+    "words": 30,
+    "prompt": "Szuka Pan/i sublokatora (współmieszkańca) do dużego mieszkania w centrum miasta. Proszę napisać ogłoszenie do rozwieszenia w okolicy.",
+    "gid": "ogloszenie"
+   },
+   "b": {
+    "genre": "list",
+    "words": 170,
+    "prompt": "Proszę napisać list do przyjaciół, w którym zachęci ich Pan/i do wspólnego spędzenia wakacji w miejscowości, która bardzo się Panu/Pani spodobała w zeszłym roku.",
+    "gid": "list"
+   }
+  },
+  {
+   "id": "III",
+   "a": {
+    "genre": "list",
+    "words": 30,
+    "prompt": "W krótkim liście proszę podziękować starszej sąsiadce za opiekę nad Pani/Pana mieszkaniem podczas Pani/Pana tygodniowej nieobecności.",
+    "gid": "list"
+   },
+   "b": {
+    "genre": "opowiadanie",
+    "words": 170,
+    "prompt": "Proszę opowiedzieć ciekawą historię ze swojego dzieciństwa.",
+    "gid": "opowiadanie"
+   }
+  }
+ ],
+ "speaking": [
+  {
+   "id": "I",
+   "tasks": [
+    {
+     "type": "opis",
+     "prompt": "Proszę opisać fotografię i przedstawioną na niej sytuację.",
+     "img": "assets/img/b1-sbornik-mow-I-1.jpg",
+     "imgAlt": "Rodzina w górach: kobieta z lornetką i dziewczynka odpoczywają na ławce, obok mężczyzna i chłopiec patrzą na mapę"
+    },
+    {
+     "type": "monolog",
+     "prompt": "Proszę opowiedzieć o filmie, który Pani/Pan najlepiej pamięta."
+    },
+    {
+     "type": "sytuacja",
+     "prompt": "Znalazł Pan/Pani ogłoszenie: „Polski dla obcokrajowców” (0 503 482 302). Chce Pan/Pani zdawać egzamin z języka polskiego. Proszę zadzwonić i umówić się na lekcję."
+    }
+   ]
+  },
+  {
+   "id": "II",
+   "tasks": [
+    {
+     "type": "opis",
+     "prompt": "Proszę opisać fotografię i przedstawioną na niej sytuację.",
+     "img": "assets/img/b1-sbornik-mow-II-1.jpg",
+     "imgAlt": "Rodzina przy grillu w ogrodzie: mężczyzna podaje jedzenie, przy stole siedzą dziadkowie, mama i dzieci"
+    },
+    {
+     "type": "monolog",
+     "prompt": "Proszę opowiedzieć o miejscowości, którą warto zobaczyć w Pana/i kraju."
+    },
+    {
+     "type": "sytuacja",
+     "prompt": "Mieszka Pan/i z koleżanką/kolegą w jednym pokoju. Chce Pan/i inaczej ustawić w nim meble. Koleżanka/kolega nie chce żadnych zmian."
+    }
+   ]
+  },
+  {
+   "id": "III",
+   "tasks": [
+    {
+     "type": "opis",
+     "prompt": "Proszę opisać fotografię i przedstawioną na niej sytuację.",
+     "img": "assets/img/b1-sbornik-mow-III-1.jpg",
+     "imgAlt": "Czworo kolegów z pracy je lunch przy biurku w biurze"
+    },
+    {
+     "type": "monolog",
+     "prompt": "Czy zgadza się Pan/i z opinią, że nauka języków obcych daje nowe możliwości w życiu? Proszę uzasadnić swoją odpowiedź."
+    },
+    {
+     "type": "sytuacja",
+     "prompt": "Chce Pan/i spędzić miło wieczór. Kolega/koleżanka proponuje wspólne wyjście do kina na komedię, ale Pani/Pan ma ochotę wybrać się na koncert muzyki poważnej."
+    }
+   ]
+  }
+ ]
 });
 })();

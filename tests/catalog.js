@@ -8,8 +8,14 @@ var PAGE_EX='https://certyfikatpolski.pl/o-egzaminie/testy-egzaminacyjne-z-poprz
 var PAGE_SM='https://certyfikatpolski.pl/o-egzaminie/przykladowe-testy-zbiory-zadan/';
 function ex(id,year,name,o){return {id:id,kind:'exam',group:String(year),name:name,note:o.note||'',page:PAGE_EX,official:{sheet:o.sheet||null,audio:o.audio||null,key:o.key||null}};}
 function sm(id,name,note,o){return {id:id,kind:'sample',group:'Образцы',name:name,note:note,page:PAGE_SM,official:{sheet:o.sheet||null,audio:o.audio||null,key:o.key||null}};}
+/* other(...) — тест не от комиссии (другой учебник, другой сборник и т.п.).
+   group — под каким заголовком группировать на странице «Другие источники» (например, название пособия);
+   source — как подписать источник на странице теста (если не задать, ссылку не покажем, только имя ниже);
+   o.page — ссылка на источник (сайт издательства и т.п.), можно опустить (null), если ссылки нет.
+   Пример: other('podrecznik-xyz-1','Podręcznik XYZ','Rozdział 1','Аудирование и чтение',{source:'Podręcznik XYZ, wyd. ABC',page:'https://example.com'}) */
+function other(id,group,name,note,o){o=o||{};return {id:id,kind:'other',group:group,name:name,note:note||'',page:o.page||null,source:o.source||null,official:{sheet:o.sheet||null,audio:o.audio||null,key:o.key||null}};}
 B1.catalog=[
- {id:'b1-sbornik',kind:'book',group:'Сборник',name:'Сборник заданий 2017',note:'Грамматика и чтение',page:PAGE_SM,official:{sheet:null,audio:null,key:null}},
+ {id:'b1-sbornik',kind:'book',group:'Сборник',name:'Сборник заданий 2017',note:'Все пять частей: аудирование, чтение, грамматика, письмо, говорение',page:PAGE_SM,official:{sheet:null,audio:null,key:null}},
  sm('b1-2020-03','Образец 2020','Тест-образец комиссии, март 2020',{}),
  sm('b1-2019','Образец 2019','Тест-образец комиссии, 2019',{audio:U+'2019/09/B1_audio.mp3',key:U+'2019/09/B1_klucz.pdf'}),
  sm('b1-2017','Образец 2017','Тест-образец комиссии, 2017',{audio:U+'2017/03/Egzamin-Przykładowy-B1-gru2016.mp3',key:U+'2017/03/5_B1_tr-klucz.pdf'}),
