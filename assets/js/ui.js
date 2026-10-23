@@ -115,6 +115,83 @@ function labelFor(scopeEl){
   return {src:(document.title||'').split(' | ')[0],href:location.hash||'#/'};
 }
 
+/* ---------- варианты перевода и быстрые ссылки ----------
+   Варианты берутся из бесплатного сервиса MyMemory (переводческая память + машинный перевод),
+   запрос идёт прямо из браузера. Нажатие на вариант вписывает его в поле «Перевод»
+   (если там уже что-то есть — добавляет через запятую), поле можно править как угодно. */
+var trCache={};
+function fetchVariants(q){
+  if(trCache[q])return Promise.resolve(trCache[q]);
+  var url='https://api.mymemory.translated.net/get?langpair='+encodeURIComponent('pl|ru')+'&q='+encodeURIComponent(q);
+  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(j){
+    var seen={},out=[];
+    function add(t){
+      t=String(t||'').replace(/\s+/g,' ').trim().replace(/[.!;:]+$/,'');
+      if(!t||t.length>80)return;
+      if(/[ąćęłńóśźż]/i.test(t)&&!/[а-яё]/i.test(t))return;
+      if(q===q.toLowerCase()&&!/[.!?]/.test(q))t=t.charAt(0).toLowerCase()+t.slice(1);
+      var k=t.toLowerCase();if(seen[k]||k===q.toLowerCase())return;seen[k]=1;out.push(t);
+    }
+    if(j&&j.responseData)add(j.responseData.translatedText);
+    ((j&&j.matches)||[]).slice().sort(function(a,b){return (+b.match||0)-(+a.match||0);}).forEach(function(m){add(m.translation);});
+    out=out.slice(0,6);trCache[q]=out;return out;
+  });
+}
+function quickLinks(q){
+  var row=el('div','qlinks');
+  var e=encodeURIComponent(q);
+  [['Google Переводчик','https://translate.google.com/?sl=pl&tl=ru&op=translate&text='+e],
+   ['Google','https://www.google.com/search?q='+e+'+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4'],
+   ['Wikisłownik: формы','https://pl.wiktionary.org/wiki/'+encodeURIComponent(q.replace(/\s+/g,'_'))]].forEach(function(x){
+    var a=el('a','qlink',x[0]);a.href=x[1];a.target='_blank';a.rel='noopener';row.append(a);
+  });
+  return row;
+}
+function suggestBox(plIn,trIn){
+  var box=el('div','sugg');
+  var head=el('span','flabel','Варианты перевода');
+  var list=el('div','sugg-l');list.setAttribute('role','group');list.setAttribute('aria-label','Варианты перевода');
+  var note=el('p','fhint');
+  var links=el('div');
+  box.append(head,list,note,links);
+  var T=null,cur='';
+  function parts(){return trIn.value.split(',').map(function(x){return x.trim().toLowerCase();}).filter(Boolean);}
+  function mark(){
+    var p=parts();
+    list.querySelectorAll('.chip2').forEach(function(c){var on=p.indexOf(c.dataset.v.toLowerCase())>-1;c.classList.toggle('on',on);c.setAttribute('aria-pressed',String(on));});
+  }
+  function pick(v){
+    var p=trIn.value.split(',').map(function(x){return x.trim();}).filter(Boolean);
+    var i=p.map(function(x){return x.toLowerCase();}).indexOf(v.toLowerCase());
+    if(i>-1)p.splice(i,1);else p.push(v);
+    trIn.value=p.join(', ');
+    trIn.dispatchEvent(new Event('input'));
+  }
+  function load(){
+    var q=plIn.value.trim();
+    links.replaceChildren();if(q)links.append(quickLinks(q));
+    if(q===cur)return;cur=q;
+    list.replaceChildren();note.textContent='';
+    if(!q){box.hidden=true;return;}
+    box.hidden=false;
+    if(q.length>200){note.textContent='Слишком длинный текст для подсказок. Откройте Google Переводчик.';return;}
+    note.textContent='Ищу варианты…';
+    fetchVariants(q).then(function(vs){
+      if(q!==cur)return;
+      list.replaceChildren();
+      if(!vs.length){note.textContent='Вариантов не нашлось. Впишите свой или посмотрите в Google.';return;}
+      vs.forEach(function(v){var c=btn('chip2 small',v,function(){pick(v);});c.dataset.v=v;list.append(c);});
+      note.textContent='Варианты машинные, проверьте их. Можно выбрать несколько или вписать свой.';
+      mark();
+    }).catch(function(){
+      if(q!==cur)return;
+      note.textContent='Варианты не загрузились (нет сети или сервис занят). Впишите свой или откройте Google.';
+    });
+  }
+  function later(){clearTimeout(T);T=setTimeout(load,600);}
+  return {el:box,load:load,later:later,mark:mark};
+}
+
 /* ---------- форма слова ---------- */
 var DEF_TOPICS=['Семья','Работа','Город','Здоровье','Общение'];
 function wordForm(o){
@@ -125,9 +202,11 @@ function wordForm(o){
   var dup=el('div','warn');dup.hidden=true;b.append(dup);
   var fPl=field('По-польски','wf-pl',w?w.pl:pre.pl,{pl:true});
   var fForms=field('Формы','wf-forms',w?w.forms:'',{pl:true,hint:'Впишите сами, например: odzywam się, odzywasz się'});
-  var fTr=field('Перевод','wf-tr',w?w.tr:'',{hint:'Тоже печатаете сами: так слово запоминается лучше'});
+  var fTr=field('Перевод','wf-tr',w?w.tr:'',{hint:'Нажмите на вариант ниже или впишите свой'});
   var fEx=field(pre.ex&&!w?'Пример из текста':'Пример','wf-ex',w?w.ex:pre.ex,{area:true,pl:true,placeholder:'Необязательно'});
   fEx.ctrl.rows=2;
+  var sg=suggestBox(fPl.ctrl,fTr.ctrl);
+  fTr.wrap.append(sg.el);
   b.append(fPl.wrap,fForms.wrap,fTr.wrap,fEx.wrap);
   var topics=DEF_TOPICS.slice();
   S.words.all().forEach(function(x){if(x.topic&&topics.indexOf(x.topic)<0)topics.push(x.topic);});
@@ -152,8 +231,9 @@ function wordForm(o){
     dup.replaceChildren();dup.hidden=!same;
     if(same){dup.append(el('span',null,'Слово «'+same.pl+'» уже есть в словаре. '));var a=el('a',null,'Открыть');a.href='#/dict/words?w='+encodeURIComponent(same.id);a.addEventListener('click',function(){sh.close();});dup.append(a);}
   }
-  fPl.ctrl.addEventListener('input',function(){fPl.err('');checkDup();});
-  fTr.ctrl.addEventListener('input',function(){fTr.err('');});
+  fPl.ctrl.addEventListener('input',function(){fPl.err('');checkDup();sg.later();});
+  fTr.ctrl.addEventListener('input',function(){fTr.err('');sg.mark();});
+  sg.load();
   checkDup();
   var save=btn('btn2 primary',w?'Сохранить изменения':'Добавить в словарь',function(){
     var pl=fPl.ctrl.value.trim(),tr=fTr.ctrl.value.trim(),bad=false;

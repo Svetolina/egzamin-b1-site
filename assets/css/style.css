@@ -592,3 +592,9 @@ body.exam-run .cbtn,body.exam-run .fab,body.exam-run .fab-m,body.exam-run .ctogg
 }
 main:focus,main:focus-visible{outline:none}
 .card>.thr,.card>.flist,.card>.big-r,.card>.meta{align-self:stretch}
+.sugg{display:flex;flex-direction:column;gap:8px;margin-top:4px}
+.sugg-l{display:flex;flex-wrap:wrap;gap:6px}
+.sugg-l:empty{display:none}
+.sugg .chip2.on{background:var(--okbg);border-color:var(--ok);color:var(--okt)}
+.qlinks{display:flex;flex-wrap:wrap;gap:6px 16px}
+.qlink{display:inline-flex;align-items:center;min-height:36px;font-size:14px;font-weight:700;color:var(--cm)}
