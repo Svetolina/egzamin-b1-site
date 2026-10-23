@@ -37,6 +37,7 @@ function loadSaved(tid){
   return s;
 }
 B1.results=function(tid){return loadSaved(tid).r;};
+B1.answers=function(tid){return loadSaved(tid).a;};
 
 function countWords(s){var m=s.trim().match(/\S+/g);return m?m.length:0;}
 function copyStr(str,out){
@@ -64,7 +65,8 @@ B1.engine=function(test){
     if(!cur)return;
     var done=allTasks.filter(function(t){return t.checked;});
     var e=done.reduce(function(s,t){return s+t.earned;},0);
-    cur.stat.textContent=done.length?('Проверено заданий: '+done.length+' из '+allTasks.length+', баллы: '+fmt(e)+' / '+fmt(cur.max)):'';
+    var txt=done.length?('Проверено заданий: '+done.length+' из '+allTasks.length+', баллы: '+fmt(e)+' / '+fmt(cur.max)):'';
+    [].concat(cur.stat).forEach(function(x){x.textContent=txt;});
   }
 
   /* --- аудио к заданию --- */
@@ -86,7 +88,7 @@ B1.engine=function(test){
   /* --- оболочка задания --- */
   function shell(def){
     var t={id:def.id,max:def.max,cells:[],checked:false,earned:0,def:def};
-    var sec=el('section','task');sec.id='t-'+def.id;
+    var sec=el('section','task');sec.id='t-'+def.id;sec.dataset.cscope=test.id+'/'+def.id;
     var head=el('header','task-h');
     var ttl=el('div','task-t');ttl.append(el('span','rn',def.rn));
     var iw=el('div');(def.instr||[]).forEach(function(s,i){iw.append(el('p',i?'instr sub':'instr',s));});
@@ -370,25 +372,55 @@ B1.engine=function(test){
   }
   var builders={choice:buildChoice,gaps:buildGaps,match:buildMatch,order:buildMatch,slots:buildSlots,qa:buildQA,rewrite:buildRewrite};
 
-  /* --- таймер --- */
-  function timer(minutes){
-    var left=minutes*60,iv=null;
+  /* --- таймер ---
+     Состояние таймера сообщается всему сайту событием b1:exam:
+     run — время идёт (выделение, комментарии и словарь выключены), pause — всё можно. */
+  var EXAM_TXT={
+    run:['Таймер идёт: ','комментарии скрыты, добавлять нельзя. Нажмите «Пауза», тогда можно всё.'],
+    pause:['Пауза. ','Комментарии и словарь доступны. Время не идёт.'],
+    over:['Время вышло. ','Можно проверить ответы, комментарии снова доступны.']
+  };
+  function timer(minutes,banner){
+    var full=minutes*60,left=full,iv=null,state='idle';
     var w=el('div','timer');var time=el('span','time');
     var go=el('button','btn small','Старт');go.type='button';
-    var rs=el('button','btn small','Сброс');rs.type='button';
     var over=el('span','overmsg','время вышло');over.hidden=true;
     w.setAttribute('role','timer');w.setAttribute('aria-label','Таймер раздела');
     function draw(){time.textContent=fmtTime(left);w.classList.toggle('over',left===0);over.hidden=left>0;}
-    function stop(){clearInterval(iv);iv=null;go.textContent='Старт';}
+    function setState(st){
+      state=st;w.dataset.state=st;
+      if(banner){
+        var t=EXAM_TXT[st];banner.hidden=!t;banner.replaceChildren();
+        if(t){banner.append(el('b',null,t[0]),document.createTextNode(t[1]));banner.className='exam-note '+st;}
+      }
+      document.dispatchEvent(new CustomEvent('b1:exam',{detail:st}));
+    }
+    function stop(){clearInterval(iv);iv=null;}
     go.addEventListener('click',function(){
-      if(iv){stop();return;}
-      if(left===0)left=minutes*60;
+      if(iv){stop();go.textContent='Продолжить';setState('pause');return;}
+      if(left===0)left=full;
       go.textContent='Пауза';
-      iv=setInterval(function(){if(!document.body.contains(w)){clearInterval(iv);return;}left--;if(left<=0){left=0;stop();}draw();},1000);
-      draw();
+      iv=setInterval(function(){
+        if(!document.body.contains(w)){stop();return;}
+        left--;
+        if(left<=0){left=0;stop();go.textContent='Старт';setState('over');}
+        draw();
+      },1000);
+      draw();setState('run');
     });
-    rs.addEventListener('click',function(){stop();left=minutes*60;draw();});
-    w.append(time,go,rs,over);draw();return w;
+    function reset(){stop();left=full;go.textContent='Старт';draw();setState('idle');}
+    w.append(time,go,over);draw();
+    return {el:w,reset:reset};
+  }
+
+  /* кнопка с подтверждением вторым нажатием */
+  function confirmBtn(label,ask,fn){
+    var b=el('button','btn',label);b.type='button';var armed=null;
+    b.addEventListener('click',function(){
+      if(!armed){b.textContent=ask;b.classList.add('armed');armed=setTimeout(function(){armed=null;b.textContent=label;b.classList.remove('armed');},3500);return;}
+      clearTimeout(armed);armed=null;b.textContent=label;b.classList.remove('armed');fn();
+    });
+    return b;
   }
 
   /* --- письмо --- */
@@ -418,7 +450,7 @@ B1.engine=function(test){
   }
   function writingTask(setId,letter,d){
     var id='w-'+setId+'-'+letter;
-    var sec=el('section','task wtask');sec.id='t-'+id;
+    var sec=el('section','task wtask');sec.id='t-'+id;sec.dataset.cscope=test.id+'/'+id;
     var head=el('header','task-h');var ttl=el('div','task-t');ttl.append(el('span','rn',letter+'.'));
     var iw=el('div');iw.append(el('p','instr','Gatunek: '+d.genre+', około '+d.words+' słów'));ttl.append(iw);head.append(ttl);
     var body=el('div','task-b');
@@ -557,7 +589,7 @@ B1.engine=function(test){
   }
   function speakingTask(setId,idx,d){
     var id='m-'+setId+'-'+idx;
-    var sec=el('section','task wtask');sec.id='t-'+id;
+    var sec=el('section','task wtask');sec.id='t-'+id;sec.dataset.cscope=test.id+'/'+id;
     var head=el('header','task-h');var ttl=el('div','task-t');ttl.append(el('span','rn',speakTypeLabel(d.type)));head.append(ttl);
     var body=el('div','task-b');
     body.append(el('p','prompt',d.prompt));
@@ -608,34 +640,46 @@ B1.engine=function(test){
     if(sets.length)pick(saved.a['m-set']&&holders[saved.a['m-set']]?saved.a['m-set']:sets[0].id);
   }
 
-  /* --- раздел целиком --- */
+  /* --- раздел целиком ---
+     Сверху закреплённая шапка: название, таймер с «Пауза» и короткая «Проверить».
+     Внизу большая «Проверить все задания», под ней «Начать заново» со сбросами. */
   function renderModule(m){
     var panel=el('section','panel');
-    var hd=el('div','mod-h');var left=el('div');left.append(el('h2',null,m.title),el('p','meta',m.meta));
-    hd.append(left,timer(m.minutes));panel.append(hd);
+    var auto=m.id!=='pis'&&m.id!=='mow';
+    var hd=el('div','mod-h');var left=el('div','mod-hl');
+    var statTop=el('span','prog');
+    left.append(el('h2',null,m.title),el('p','meta',m.meta));
+    if(auto)left.append(statTop);
+    var banner=el('p','exam-note');banner.hidden=true;banner.setAttribute('role','status');
+    var tm=m.minutes?timer(m.minutes,banner):null;
+    var ctl=el('div','mod-ctl');if(tm)ctl.append(tm.el);
+    function checkAll(){allTasks.forEach(function(t){t.check();});}
+    if(auto){var bq=el('button','btn small primary','Проверить');bq.type='button';bq.title='Проверить все задания раздела';bq.addEventListener('click',checkAll);ctl.append(bq);}
+    hd.append(left,ctl);panel.append(hd,banner);
     if(m.note){var n=el('div','note');m.note.forEach(function(x){n.append(el('p',null,x));});panel.append(n);}
-    var stat=el('span','prog');
-    cur={stat:stat,max:m.max};
-    if(m.id!=='pis'&&m.id!=='mow'){
-      var act=el('div','actions');
-      var bAll=el('button','btn','Проверить все задания');bAll.type='button';
-      var bRes=el('button','btn','Сбросить раздел');bRes.type='button';
-      bAll.addEventListener('click',function(){allTasks.forEach(function(t){t.check();});});
-      var armed=null;
-      bRes.addEventListener('click',function(){
-        if(!armed){bRes.textContent='Точно сбросить?';armed=setTimeout(function(){armed=null;bRes.textContent='Сбросить раздел';},3000);return;}
-        clearTimeout(armed);armed=null;bRes.textContent='Сбросить раздел';
-        allTasks.forEach(function(t){t.reset();});
-      });
-      act.append(bAll,bRes,stat);panel.append(act);
+    var statBot=el('span','prog');
+    cur={stat:[statTop,statBot],max:m.max};
+    if(auto){
       m.tasks.forEach(function(d){panel.append(builders[d.kind](d).sec);});
       allTasks.forEach(function(t){if(saved.r[t.def.id]!=null)t.check();});
-      refresh();
     }else if(m.id==='pis'){
       buildWriting(panel);
     }else{
       buildSpeaking(panel);
     }
+    var end=el('div','mod-end');
+    if(auto){
+      var bAll=el('button','btn primary big','Проверить все задания');bAll.type='button';bAll.addEventListener('click',checkAll);
+      end.append(bAll,statBot);
+    }
+    var again=el('div','again');again.append(el('h3',null,'Начать заново'));
+    var row=el('div','again-b');
+    if(tm)row.append(confirmBtn('Сбросить таймер','Точно сбросить таймер?',tm.reset));
+    if(auto)row.append(confirmBtn('Сбросить раздел','Точно стереть все ответы?',function(){allTasks.forEach(function(t){t.reset();});}));
+    again.append(row,el('p','meta',auto?'«Сбросить раздел» стирает ответы и баллы всех заданий этого раздела. Нажмите кнопку ещё раз, чтобы подтвердить.':'Нажмите кнопку ещё раз, чтобы подтвердить.'));
+    if(row.children.length)end.append(again);
+    panel.append(end);
+    refresh();
     return panel;
   }
 

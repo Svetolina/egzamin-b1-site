@@ -1,0 +1,1292 @@
+{
+  "topic": "czas-terazniejszy",
+  "level": "B1",
+  "group": "Глагол",
+  "title_pl": "Czas teraźniejszy",
+  "title_ru": "Настоящее время",
+  "lead": "Что я делаю сейчас и что делаю обычно. Четыре типа спряжения и несколько глаголов, у которых основа меняется.",
+  "facts_file": "extract.json",
+  "stage": "теория и упражнения всех четырёх ступеней",
+  "markup": "[[…]] — польский текст",
+  "theory": [
+    {
+      "id": "t1",
+      "title": "Главное за полминуты",
+      "facts": [
+        "P1"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Тип спряжения видно по двум формам: «я» и «ты». Узнали тип — знаете все шесть форм."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Тип",
+            "я / ты",
+            "Пример"
+          ],
+          "rows": [
+            [
+              "I",
+              "[[-ę / -esz]]",
+              "[[piję, pijesz]]"
+            ],
+            [
+              "II",
+              "[[-ę / -isz (-ysz)]]",
+              "[[mówię, mówisz]]"
+            ],
+            [
+              "III",
+              "[[-am / -asz]]",
+              "[[czekam, czekasz]]"
+            ],
+            [
+              "IV",
+              "[[-em / -esz]]",
+              "[[rozumiem, rozumiesz]]"
+            ]
+          ],
+          "pl_cols": []
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Некоторые учебники объединяют III и IV тип: в «я» и «ты» у них одинаково [[-m, -sz]]."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Окончания",
+      "facts": [
+        "P2"
+      ],
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "",
+            "I [[pić]]",
+            "II [[mówić]]",
+            "III [[czekać]]",
+            "IV [[rozumieć]]"
+          ],
+          "rows": [
+            [
+              "ja",
+              "piję",
+              "mówię",
+              "czekam",
+              "rozumiem"
+            ],
+            [
+              "ty",
+              "pijesz",
+              "mówisz",
+              "czekasz",
+              "rozumiesz"
+            ],
+            [
+              "on, ona",
+              "pije",
+              "mówi",
+              "czeka",
+              "rozumie"
+            ],
+            [
+              "my",
+              "pijemy",
+              "mówimy",
+              "czekamy",
+              "rozumiemy"
+            ],
+            [
+              "wy",
+              "pijecie",
+              "mówicie",
+              "czekacie",
+              "rozumiecie"
+            ],
+            [
+              "oni, one",
+              "piją",
+              "mówią",
+              "czekają",
+              "rozumieją"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Форма «они» в IV типе бывает двух видов: [[rozumieją, umieją]], но [[jedzą, wiedzą]]."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "-ować, -ywać, -iwać → -uj-",
+      "facts": [
+        "P3"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Перед окончаниями суффикс меняется на [[-uj-]], дальше всё как в I типе."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja",
+            "oni"
+          ],
+          "rows": [
+            [
+              "pracować",
+              "pracuję",
+              "pracują"
+            ],
+            [
+              "kupować",
+              "kupuję",
+              "kupują"
+            ],
+            [
+              "podróżować",
+              "podróżuję",
+              "podróżują"
+            ],
+            [
+              "obiecywać",
+              "obiecuję",
+              "obiecują"
+            ],
+            [
+              "oczekiwać",
+              "oczekuję",
+              "oczekują"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "W weekendy pracuję w kawiarni.",
+              "ru": "По выходным я работаю в кафе."
+            },
+            {
+              "pl": "Kupujemy owoce na targu.",
+              "ru": "Мы покупаем фрукты на рынке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "-awać → -aj-",
+      "facts": [
+        "P4"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "У глаголов на [[-awać]] слог [[-wa-]] выпадает."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja",
+            "oni"
+          ],
+          "rows": [
+            [
+              "dawać",
+              "daję",
+              "dają"
+            ],
+            [
+              "wstawać",
+              "wstaję",
+              "wstają"
+            ],
+            [
+              "sprzedawać",
+              "sprzedaję",
+              "sprzedają"
+            ],
+            [
+              "dostawać",
+              "dostaję",
+              "dostają"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Wstaję o siódmej.",
+              "ru": "Я встаю в семь."
+            },
+            {
+              "pl": "Kto tu sprzedaje bilety?",
+              "ru": "Кто здесь продаёт билеты?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "title": "I тип: две основы",
+      "facts": [
+        "P5"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Во многих глаголах I типа «я» и «они» звучат с одной основой, а «ты, он, мы, вы» — с другой. Выучите «я», «ты» и «они» — остальное по образцу."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja",
+            "ty",
+            "oni"
+          ],
+          "rows": [
+            [
+              "pisać",
+              "piszę",
+              "piszesz",
+              "piszą"
+            ],
+            [
+              "brać",
+              "biorę",
+              "bierzesz",
+              "biorą"
+            ],
+            [
+              "nieść",
+              "niosę",
+              "niesiesz",
+              "niosą"
+            ],
+            [
+              "jechać",
+              "jadę",
+              "jedziesz",
+              "jadą"
+            ],
+            [
+              "móc",
+              "mogę",
+              "możesz",
+              "mogą"
+            ],
+            [
+              "piec",
+              "piekę",
+              "pieczesz",
+              "pieką"
+            ],
+            [
+              "płakać",
+              "płaczę",
+              "płaczesz",
+              "płaczą"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Teraz jadę do pracy.",
+              "ru": "Сейчас я еду на работу."
+            },
+            {
+              "pl": "Co bierzesz na wycieczkę?",
+              "ru": "Что ты берёшь на экскурсию?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "II тип: другая согласная в «я» и «они»",
+      "facts": [
+        "P6",
+        "P7"
+      ],
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja",
+            "ty",
+            "oni"
+          ],
+          "rows": [
+            [
+              "chodzić",
+              "chodzę",
+              "chodzisz",
+              "chodzą"
+            ],
+            [
+              "nosić",
+              "noszę",
+              "nosisz",
+              "noszą"
+            ],
+            [
+              "wozić",
+              "wożę",
+              "wozisz",
+              "wożą"
+            ],
+            [
+              "jeździć",
+              "jeżdżę",
+              "jeździsz",
+              "jeżdżą"
+            ],
+            [
+              "stać",
+              "stoję",
+              "stoisz",
+              "stoją"
+            ],
+            [
+              "spać",
+              "śpię",
+              "śpisz",
+              "śpią"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "После [[cz, sz, rz, ż]] пишется [[y]], а не [[i]]: [[tańczę — tańczysz, słyszę — słyszysz, leżę — leżysz, uczę się — uczysz się]]."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "W środy chodzę na basen.",
+              "ru": "По средам я хожу в бассейн."
+            },
+            {
+              "pl": "Śpisz już?",
+              "ru": "Ты уже спишь?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "title": "IV тип: wiem, jem, umiem, rozumiem",
+      "facts": [
+        "P8"
+      ],
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja",
+            "ty",
+            "oni"
+          ],
+          "rows": [
+            [
+              "wiedzieć",
+              "wiem",
+              "wiesz",
+              "wiedzą"
+            ],
+            [
+              "jeść",
+              "jem",
+              "jesz",
+              "jedzą"
+            ],
+            [
+              "umieć",
+              "umiem",
+              "umiesz",
+              "umieją"
+            ],
+            [
+              "rozumieć",
+              "rozumiem",
+              "rozumiesz",
+              "rozumieją"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Глаголов этого типа мало, но все они очень частые — и все четыре есть в списке требований B1."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Nie wiem, co powiedzieć.",
+              "ru": "Я не знаю, что сказать."
+            },
+            {
+              "pl": "Jemy obiad o drugiej.",
+              "ru": "Мы обедаем в два."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "title": "Być и mieć",
+      "facts": [
+        "P10"
+      ],
+      "blocks": [
+        {
+          "type": "chips",
+          "items": [
+            "jestem",
+            "jesteś",
+            "jest",
+            "jesteśmy",
+            "jesteście",
+            "są"
+          ]
+        },
+        {
+          "type": "chips",
+          "items": [
+            "mam",
+            "masz",
+            "ma",
+            "mamy",
+            "macie",
+            "mają"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "[[Być]] — неправильный глагол, его формы надо запомнить. [[Mieć]] спрягается по III типу."
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "title": "Не путать: je, jest, jedzie",
+      "facts": [
+        "P9"
+      ],
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Форма",
+            "Глагол",
+            "Значение"
+          ],
+          "rows": [
+            [
+              "je / jedzą",
+              "jeść",
+              "ест / едят"
+            ],
+            [
+              "jest / są",
+              "być",
+              "есть, находится / находятся"
+            ],
+            [
+              "jedzie / jadą",
+              "jechać",
+              "едет / едут"
+            ]
+          ],
+          "pl_cols": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Marek je obiad.",
+              "ru": "Марек обедает."
+            },
+            {
+              "pl": "Marek jest w pracy.",
+              "ru": "Марек на работе."
+            },
+            {
+              "pl": "Marek jedzie do domu.",
+              "ru": "Марек едет домой."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "title": "Те же окончания — у будущего",
+      "facts": [
+        "P11"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "У совершенных глаголов настоящего времени нет: с этими же окончаниями они означают будущее. [[Robię]] — делаю, [[zrobię]] — сделаю. Подробнее — в теме «Будущее время»."
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "title": "На экзамене",
+      "facts": [
+        "EXAM"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "В задании «czas teraźniejszy i przyszły» нужно решить, что происходит сейчас или обычно, а что — потом."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Слова [[teraz, zwykle, codziennie, często, zawsze]] — обычно настоящее время.",
+            "Слова [[jutro, za tydzień, w przyszłym roku]] — будущее.",
+            "В скобках бывает лицо: ([[oni – szukać]]) → [[szukają]]."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam_ref": {
+    "id": "EXAM",
+    "refs": [
+      "Arkusz B1, 4–5.02.2024, Gramatyka, zad. IV, s. 3–4",
+      "то же задание в экзаменах сайта: 2020-03, 2021-01, 2021-05, 2021-06, 2022-11, 2023-11, 2024-02"
+    ]
+  },
+  "forms": [],
+  "exercises": [
+    {
+      "id": "e1",
+      "level": 1,
+      "kind": "choice",
+      "title": "Выберите форму",
+      "items": [
+        {
+          "q": "Codziennie ___ do pracy rowerem.",
+          "opts": [
+            "jeżdżę",
+            "jeździę",
+            "jeżdzę"
+          ],
+          "a": [
+            "jeżdżę"
+          ],
+          "expl": "Jeździć: в «я» zd → żdż — jeżdżę.",
+          "t": "t6"
+        },
+        {
+          "q": "Moi rodzice ___ w Szczecinie.",
+          "opts": [
+            "mieszkają",
+            "mieszka",
+            "mieszkamy"
+          ],
+          "a": [
+            "mieszkają"
+          ],
+          "expl": "Rodzice — они: III тип, -ają.",
+          "t": "t2"
+        },
+        {
+          "q": "Czy ___, gdzie jest dworzec?",
+          "opts": [
+            "wiesz",
+            "wiedzisz",
+            "wiedziesz"
+          ],
+          "a": [
+            "wiesz"
+          ],
+          "expl": "Wiedzieć — IV тип: wiem, wiesz.",
+          "t": "t7"
+        },
+        {
+          "q": "Dzieci ___ obiad w szkole.",
+          "opts": [
+            "jedzą",
+            "jadą",
+            "jedą"
+          ],
+          "a": [
+            "jedzą"
+          ],
+          "expl": "Jeść: oni jedzą. Jadą — это «едут».",
+          "t": "t9"
+        },
+        {
+          "q": "Codziennie ___ o szóstej. (ja)",
+          "opts": [
+            "wstaję",
+            "wstawam",
+            "wstawuję"
+          ],
+          "a": [
+            "wstaję"
+          ],
+          "expl": "Wstawać: -wa- выпадает — wstaję.",
+          "t": "t4"
+        },
+        {
+          "q": "W weekendy ___ w restauracji. (ja)",
+          "opts": [
+            "pracuję",
+            "pracowam",
+            "pracuje"
+          ],
+          "a": [
+            "pracuję"
+          ],
+          "expl": "Pracować: -ow- → -uj-, ja pracuję. Pracuje — это «он».",
+          "t": "t3"
+        },
+        {
+          "q": "Ten tramwaj ___ do centrum?",
+          "opts": [
+            "jedzie",
+            "je",
+            "jest"
+          ],
+          "a": [
+            "jedzie"
+          ],
+          "expl": "Трамвай едет — jechać: jedzie.",
+          "t": "t9"
+        },
+        {
+          "q": "Anna świetnie ___.",
+          "opts": [
+            "tańczy",
+            "tańczi",
+            "tańcze"
+          ],
+          "a": [
+            "tańczy"
+          ],
+          "expl": "После cz — y: tańczy.",
+          "t": "t6"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "level": 1,
+      "kind": "type",
+      "title": "Исправьте ошибку",
+      "instr": "В каждом предложении выделена неверная форма. Впишите правильную.",
+      "items": [
+        {
+          "q": "Codziennie **pracowam** do piątej.",
+          "a": [
+            "pracuję"
+          ],
+          "expl": "Pracować: -ow- → -uj-: pracuję.",
+          "t": "t3"
+        },
+        {
+          "q": "Oni nie **rozumią** tego tekstu.",
+          "a": [
+            "rozumieją"
+          ],
+          "expl": "Rozumieć: oni rozumieją.",
+          "t": "t7"
+        },
+        {
+          "q": "Zawsze **biorem** parasol.",
+          "a": [
+            "biorę"
+          ],
+          "expl": "Brać — I тип: biorę.",
+          "t": "t5"
+        },
+        {
+          "q": "Moja córka **chodzę** do przedszkola.",
+          "a": [
+            "chodzi"
+          ],
+          "expl": "Córka — она: chodzi.",
+          "t": "t6"
+        },
+        {
+          "q": "Czy **mogesz** przyjść jutro?",
+          "a": [
+            "możesz"
+          ],
+          "expl": "Móc: mogę, но możesz — в «ты» g → ż.",
+          "t": "t5"
+        },
+        {
+          "q": "Kto **słyszi** ten hałas?",
+          "a": [
+            "słyszy"
+          ],
+          "expl": "После sz — y: słyszy.",
+          "t": "t6"
+        }
+      ],
+      "expect": "present"
+    },
+    {
+      "id": "e3",
+      "level": 2,
+      "kind": "type",
+      "title": "-ować и -awać",
+      "instr": "Поставьте глагол в настоящее время.",
+      "items": [
+        {
+          "q": "W soboty ___ w sklepie. (pracować, ja)",
+          "a": [
+            "pracuję"
+          ],
+          "expl": "-ow- → -uj-: pracuję.",
+          "t": "t3"
+        },
+        {
+          "q": "Jak często ___ za granicę? (podróżować, wy)",
+          "a": [
+            "podróżujecie"
+          ],
+          "expl": "Podróżować: podróżujecie.",
+          "t": "t3"
+        },
+        {
+          "q": "Co zwykle ___ na urodziny? (kupować, ty)",
+          "a": [
+            "kupujesz"
+          ],
+          "expl": "Kupować: kupujesz.",
+          "t": "t3"
+        },
+        {
+          "q": "Moi znajomi ___ mieszkanie w Gdańsku. (wynajmować)",
+          "a": [
+            "wynajmują"
+          ],
+          "expl": "Wynajmować: wynajmują.",
+          "t": "t3"
+        },
+        {
+          "q": "Ten program ___ wszystkie pliki. (kopiować)",
+          "a": [
+            "kopiuje"
+          ],
+          "expl": "Kopiować: kopiuje.",
+          "t": "t3"
+        },
+        {
+          "q": "Babcia zawsze ___ nam dobre rady. (dawać)",
+          "a": [
+            "daje"
+          ],
+          "expl": "Dawać: -wa- выпадает — daje.",
+          "t": "t4"
+        },
+        {
+          "q": "O której ___ w weekend? (wstawać, wy)",
+          "a": [
+            "wstajecie"
+          ],
+          "expl": "Wstawać: wstajecie.",
+          "t": "t4"
+        },
+        {
+          "q": "Ten sklep ___ tanie owoce. (sprzedawać)",
+          "a": [
+            "sprzedaje"
+          ],
+          "expl": "Sprzedawać: sprzedaje.",
+          "t": "t4"
+        },
+        {
+          "q": "Co roku ___ premię. (dostawać, my)",
+          "a": [
+            "dostajemy"
+          ],
+          "expl": "Dostawać: dostajemy.",
+          "t": "t4"
+        },
+        {
+          "q": "Dziękuję, ale ___ herbatę. (woleć, ja)",
+          "a": [
+            "wolę"
+          ],
+          "expl": "Woleć — II тип: wolę, wolisz.",
+          "t": "t2"
+        }
+      ],
+      "expect": "present"
+    },
+    {
+      "id": "e4",
+      "level": 2,
+      "kind": "type",
+      "title": "Две основы",
+      "instr": "Поставьте глагол в настоящее время.",
+      "items": [
+        {
+          "q": "Codziennie ___ maile do klientów. (pisać, ja)",
+          "a": [
+            "piszę"
+          ],
+          "expl": "Pisać: piszę.",
+          "t": "t5"
+        },
+        {
+          "q": "Co ___ na drogę? (brać, ty)",
+          "a": [
+            "bierzesz"
+          ],
+          "expl": "Brać: biorę, но bierzesz.",
+          "t": "t5"
+        },
+        {
+          "q": "Teraz ___ tramwajem do pracy. (jechać, oni)",
+          "a": [
+            "jadą"
+          ],
+          "expl": "Jechać: jadą — с a, как в «я».",
+          "t": "t5"
+        },
+        {
+          "q": "Co ___ w tej torbie? (nieść, ty)",
+          "a": [
+            "niesiesz"
+          ],
+          "expl": "Nieść: niosę, но niesiesz.",
+          "t": "t5"
+        },
+        {
+          "q": "Niestety dziś nie ___ przyjść. (móc, ja)",
+          "a": [
+            "mogę"
+          ],
+          "expl": "Móc: mogę.",
+          "t": "t5"
+        },
+        {
+          "q": "W niedzielę babcia ___ sernik. (piec)",
+          "a": [
+            "piecze"
+          ],
+          "expl": "Piec: piekę, но piecze.",
+          "t": "t5"
+        },
+        {
+          "q": "Często ___ do kina? (chodzić, wy)",
+          "a": [
+            "chodzicie"
+          ],
+          "expl": "Chodzić: в «вы» основа без изменений — chodzicie.",
+          "t": "t6"
+        },
+        {
+          "q": "Zawsze ___ ze sobą parasol. (nosić, ja)",
+          "a": [
+            "noszę"
+          ],
+          "expl": "Nosić: s → sz в «я» — noszę.",
+          "t": "t6"
+        },
+        {
+          "q": "Dzieci już ___. (spać)",
+          "a": [
+            "śpią"
+          ],
+          "expl": "Spać: śpię, śpią.",
+          "t": "t6"
+        },
+        {
+          "q": "Do pracy ___ samochodem. (jeździć, ja)",
+          "a": [
+            "jeżdżę"
+          ],
+          "expl": "Jeździć: jeżdżę.",
+          "t": "t6"
+        }
+      ],
+      "expect": "present"
+    },
+    {
+      "id": "e5",
+      "level": 2,
+      "kind": "type",
+      "title": "Wiem, jem, jestem, mam",
+      "instr": "Поставьте глагол в настоящее время.",
+      "items": [
+        {
+          "q": "Nie ___, gdzie są klucze. (wiedzieć, ja)",
+          "a": [
+            "wiem"
+          ],
+          "expl": "Wiedzieć: wiem.",
+          "t": "t7"
+        },
+        {
+          "q": "Czy oni ___, o której jest pociąg? (wiedzieć)",
+          "a": [
+            "wiedzą"
+          ],
+          "expl": "Wiedzieć: oni wiedzą.",
+          "t": "t7"
+        },
+        {
+          "q": "Co zwykle ___ na śniadanie? (jeść, wy)",
+          "a": [
+            "jecie"
+          ],
+          "expl": "Jeść: jecie.",
+          "t": "t7"
+        },
+        {
+          "q": "Moje dzieci już ___ pływać. (umieć)",
+          "a": [
+            "umieją"
+          ],
+          "expl": "Umieć: umieją.",
+          "t": "t7"
+        },
+        {
+          "q": "Przepraszam, nie ___ pytania. (rozumieć, ja)",
+          "a": [
+            "rozumiem"
+          ],
+          "expl": "Rozumieć: rozumiem.",
+          "t": "t7"
+        },
+        {
+          "q": "Gdzie ___ moje okulary? (być)",
+          "a": [
+            "są"
+          ],
+          "expl": "Okulary — множественное число: są.",
+          "t": "t8"
+        },
+        {
+          "q": "___ chwilę? (mieć, ty)",
+          "a": [
+            "masz"
+          ],
+          "expl": "Mieć: masz.",
+          "t": "t8"
+        },
+        {
+          "q": "Oni ___ dwa samochody. (mieć)",
+          "a": [
+            "mają"
+          ],
+          "expl": "Mieć: mają.",
+          "t": "t8"
+        }
+      ],
+      "expect": "present"
+    },
+    {
+      "id": "e6",
+      "level": 3,
+      "kind": "text",
+      "format": "exam",
+      "title": "Mój tydzień",
+      "instr": "Как на экзамене: поставьте глаголы в настоящее или будущее время.",
+      "passage": "Od roku {1} w biurze w centrum. Codziennie {2} o szóstej, bo autobus {3} prawie godzinę. W pracy {4} maile i {5} z klientami. Koledzy {6} obiad w kawiarni na dole, ale ja zwykle {7} kanapki z domu. W przyszłym tygodniu szef {8} nam wolny piątek, więc {9} nad jezioro. Na pewno tam {10}.",
+      "items": [
+        {
+          "q": "pracować, ja",
+          "a": [
+            "pracuję"
+          ],
+          "expl": "«Od roku» — до сих пор работаю: настоящее время, -uj-.",
+          "t": "t3"
+        },
+        {
+          "q": "wstawać, ja",
+          "a": [
+            "wstaję"
+          ],
+          "expl": "Codziennie — настоящее; wstawać → wstaję.",
+          "t": "t4"
+        },
+        {
+          "q": "jechać",
+          "a": [
+            "jedzie"
+          ],
+          "expl": "Autobus — он: jedzie.",
+          "t": "t5"
+        },
+        {
+          "q": "pisać, ja",
+          "a": [
+            "piszę"
+          ],
+          "expl": "Pisać: piszę.",
+          "t": "t5"
+        },
+        {
+          "q": "rozmawiać, ja",
+          "a": [
+            "rozmawiam"
+          ],
+          "expl": "III тип: rozmawiam.",
+          "t": "t2"
+        },
+        {
+          "q": "jeść",
+          "a": [
+            "jedzą"
+          ],
+          "expl": "Koledzy — они: jedzą (не jadą).",
+          "t": "t9"
+        },
+        {
+          "q": "brać",
+          "a": [
+            "biorę"
+          ],
+          "expl": "Ja zwykle — настоящее: biorę.",
+          "t": "t5"
+        },
+        {
+          "q": "dać",
+          "a": [
+            "da"
+          ],
+          "expl": "«W przyszłym tygodniu» — будущее; dać совершенный: da.",
+          "t": "t10"
+        },
+        {
+          "q": "my – pojechać",
+          "a": [
+            "pojedziemy"
+          ],
+          "expl": "Будущее, pojechać совершенный: pojedziemy.",
+          "t": "t10"
+        },
+        {
+          "q": "odpocząć, ja",
+          "a": [
+            "odpocznę"
+          ],
+          "expl": "«Na pewno tam» — о будущей поездке; odpocząć совершенный: odpocznę.",
+          "t": "t10"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "level": 3,
+      "kind": "choice",
+      "title": "Je, jest или jedzie?",
+      "items": [
+        {
+          "q": "Kot ___ na kanapie.",
+          "opts": [
+            "jest",
+            "je",
+            "jedzie"
+          ],
+          "a": [
+            "jest"
+          ],
+          "expl": "Кот находится на диване — być: jest.",
+          "t": "t9"
+        },
+        {
+          "q": "Mój brat zawsze ___ śniadanie w pracy.",
+          "opts": [
+            "je",
+            "jest",
+            "jedzie"
+          ],
+          "a": [
+            "je"
+          ],
+          "expl": "Завтракает — jeść: je.",
+          "t": "t9"
+        },
+        {
+          "q": "Ten autobus ___ przez centrum.",
+          "opts": [
+            "jedzie",
+            "je",
+            "jest"
+          ],
+          "a": [
+            "jedzie"
+          ],
+          "expl": "Автобус едет — jechać: jedzie.",
+          "t": "t9"
+        },
+        {
+          "q": "Dzieci ___ lody w parku.",
+          "opts": [
+            "jedzą",
+            "jadą",
+            "są"
+          ],
+          "a": [
+            "jedzą"
+          ],
+          "expl": "Едят мороженое — jeść: jedzą.",
+          "t": "t9"
+        },
+        {
+          "q": "Rodzice jutro ___ do Krakowa.",
+          "opts": [
+            "jadą",
+            "jedzą",
+            "są"
+          ],
+          "a": [
+            "jadą"
+          ],
+          "expl": "Едут в Краков — jechać: jadą.",
+          "t": "t9"
+        },
+        {
+          "q": "Gdzie ___ moja torba?",
+          "opts": [
+            "jest",
+            "je",
+            "jedzie"
+          ],
+          "a": [
+            "jest"
+          ],
+          "expl": "Где находится — być: jest.",
+          "t": "t9"
+        },
+        {
+          "q": "Wy ___ mięso?",
+          "opts": [
+            "jecie",
+            "jedziecie",
+            "jesteście"
+          ],
+          "a": [
+            "jecie"
+          ],
+          "expl": "Едите мясо — jeść: jecie.",
+          "t": "t9"
+        },
+        {
+          "q": "Czy ___ głodni?",
+          "opts": [
+            "jesteście",
+            "jecie",
+            "jedziecie"
+          ],
+          "a": [
+            "jesteście"
+          ],
+          "expl": "Вы голодны — być: jesteście.",
+          "t": "t9"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "level": 4,
+      "kind": "write",
+      "title": "Mój zwykły dzień",
+      "instr": "Напишите подруге, как выглядит ваш обычный рабочий день: когда встаёте, как добираетесь, что делаете на работе и вечером.",
+      "words": [
+        40,
+        50
+      ],
+      "need": "Не меньше 8 глаголов в настоящем времени: хотя бы два с другой основой (jadę, piszę, chodzę…) и один на -ować (pracuję, kupuję…).",
+      "model": "Cześć Magda! Mój zwykły dzień wygląda tak. Wstaję o szóstej i piję kawę. Do pracy jeżdżę autobusem, jadę prawie godzinę. W biurze piszę raporty i dużo rozmawiam przez telefon. Wieczorem gotuję kolację, czasem chodzę na basen. Pracuję dużo, ale lubię to. Pa!",
+      "model_future": [
+        "wstaję",
+        "piję",
+        "jeżdżę",
+        "jadę",
+        "piszę",
+        "rozmawiam",
+        "gotuję",
+        "chodzę",
+        "pracuję"
+      ],
+      "checklist": [
+        "Есть обращение и прощание",
+        "Сказано, когда встаёте и как едете на работу",
+        "Не меньше 8 глаголов в настоящем времени",
+        "Хотя бы два глагола с другой основой (jadę, piszę, chodzę…)",
+        "Хотя бы один глагол на -ować → -uję",
+        "Je / jest / jedzie не перепутаны",
+        "40–50 слов"
+      ],
+      "t": "t1"
+    }
+  ]
+}

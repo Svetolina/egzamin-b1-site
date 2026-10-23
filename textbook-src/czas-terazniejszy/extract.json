@@ -1,0 +1,178 @@
+{
+  "topic": "czas-terazniejszy",
+  "title": "Czas teraźniejszy — настоящее время",
+  "stage": "выписка и сверка (шаги 1–3), ждёт проверки пользователем",
+  "updated": "2026-10-23",
+
+  "passport": {
+    "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1), 2.2.1 Fleksja, pkt 2 lit. a: «czas teraźniejszy (np.: umiem, rozumiem, wiem, jem, znam, chodzę, jadę, liczę, myję się)» — s. 77 Dz.U.",
+    "level": "B1. Тема есть и на A1/A2 (другие примеры); на B1 упор на чередования основ и глаголы IV типа (wiem, jem, umiem, rozumiem), перечисленные в стандарте.",
+    "katalog_b": ["7.3.1 typowe zajęcia / czynności dnia codziennego", "7.1.4 zawód, zajęcie", "7.4.5 hobby i zainteresowania"],
+    "katalog_a": ["4 informowanie (udzielanie informacji)", "6.1.6.e wyrażanie upodobania"],
+    "exam": "Грамматика, задание «czas teraźniejszy i przyszły» (10 × 0,5 б.) — 7 из 15 экзаменов на сайте; аркуш 02.2024 зад. IV.",
+    "depends_on": [],
+    "feeds": ["czas przyszły prosty: те же окончания (см. тему czas-przyszly, F2)"]
+  },
+
+  "sources": {
+    "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+    "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023, rozdział I «Już jest czas teraźniejszy!»",
+    "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020, lekcja 3; klucz s. 193",
+    "KEY": "Официальные ключи комиссии, внесённые в tests/b1-*.js сайта",
+    "MORF": "Morfeusz 2 (SGJP), версия 1.99.15 — проверка форм скриптом tools/morfeusz_check.py",
+    "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): явного правила о настоящем времени нет, только упражнения (лекция 1D, с. 21–24)"
+  },
+
+  "facts": [
+    {
+      "id": "P1",
+      "ru": "Тип спряжения узнают по окончаниям «я» и «ты». В PO четыре типа: I -ę, -esz; II -ę, -isz (-ysz); III -am, -asz; IV -em, -esz. В JPBG три: III и IV объединены как -m, -sz.",
+      "pl": ["piszę, piszesz", "robię, robisz", "czytam, czytasz", "jem, jesz"],
+      "refs": ["PO s. 9, 21, 33, 44 (заголовки разделов «Koniugacja …»)", "JPBG s. 65 (таблица «Koniugacje»)"],
+      "status": "ok",
+      "note": "Разница только в классификации, окончания одинаковые. Предлагаю 4 типа, как в PO, с пометкой, что у III и IV в «я» и «ты» одинаково -m, -sz."
+    },
+    {
+      "id": "P2",
+      "ru": "Окончания по лицам. I: -ę, -esz, -e, -emy, -ecie, -ą. II: -ę, -isz, -i, -imy, -icie, -ą. III: -am, -asz, -a, -amy, -acie, -ają. IV: -em, -esz, -e, -emy, -ecie, «они» — -dzą (jedzą, wiedzą) или -eją (umieją, rozumieją).",
+      "pl": ["piszę, piszesz, pisze, piszemy, piszecie, piszą", "robię, robisz, robi, robimy, robicie, robią", "czytam, czytasz, czyta, czytamy, czytacie, czytają", "rozumiem, rozumiesz, rozumie, rozumiemy, rozumiecie, rozumieją"],
+      "refs": ["PO s. 12, 24, 36, 45 (таблицы 8a / 3)", "JPBG s. 65", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P3",
+      "ru": "Глаголы на -ować, -ywać, -iwać: суффикс меняется на -uj-, дальше окончания I типа.",
+      "pl": ["pracować – pracuję, pracujesz", "dziękować – dziękuję", "obiecywać – obiecuję", "oczekiwać – oczekuję"],
+      "refs": ["PO s. 12 (пометка «+ uj»)", "JPBG s. 65 (pracować – pracuję)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P4",
+      "ru": "Глаголы на -awać (dawać, wstawać, sprzedawać и т. п.): -wa- выпадает, основа -aj-.",
+      "pl": ["dawać – daję, dajesz", "wstawać – wstaję", "sprzedawać – sprzedaję", "dostawać – dostaję"],
+      "refs": ["PO s. 12 (пометка «+ j»)", "JPBG ключ s. 193 (daje)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P5",
+      "ru": "I тип с чередованием: в «я» и «они» одна основа, в «ты, он, мы, вы» — другая.",
+      "pl": ["pisać – piszę, piszesz, piszą", "brać – biorę, bierzesz, biorą", "nieść – niosę, niesiesz, niosą", "jechać – jadę, jedziesz, jadą", "móc – mogę, możesz, mogą", "piec – piekę, pieczesz, pieką", "płakać – płaczę, płaczesz"],
+      "refs": ["PO s. 12 (таблица 8a)", "JPBG s. 65 (pisać), ключ s. 193 (strzyże / strzygą, jadę / jedziecie)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P6",
+      "ru": "II тип: в «я» и «они» согласная основы часто меняется (d → dz, s → sz, z → ż, zd → żdż), в остальных лицах — нет.",
+      "pl": ["chodzić – chodzę, chodzisz, chodzą", "nosić – noszę, nosisz", "wozić – wożę, wozisz", "jeździć – jeżdżę, jeździsz", "stać – stoję, stoisz", "spać – śpię, śpisz"],
+      "refs": ["PO s. 24 (таблица 8a)", "JPBG ключ s. 193 (stoją / stoi, chodzi)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P7",
+      "ru": "После cz, sz, rz, ż во II типе пишется -y-, а не -i-: -ysz, -y, -ymy, -ycie.",
+      "pl": ["tańczyć – tańczę, tańczysz", "słyszeć – słyszę, słyszysz", "leżeć – leżę, leżysz", "uczyć się – uczę się, uczysz się"],
+      "refs": ["PO s. 24 (подзаголовок «po -cz, -sz, -rz, -ż (-ę, -ysz)»)", "JPBG s. 65 (tańczyć – tańczysz)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P8",
+      "ru": "IV тип — несколько частых глаголов: wiedzieć (wiem, wiedzą), jeść (jem, jedzą), umieć, rozumieć, śmieć (umiem, umieją). Все они есть в примерах стандарта B1.",
+      "pl": ["wiem, wiesz, wie, wiemy, wiecie, wiedzą", "jem, jesz, je, jemy, jecie, jedzą", "umiem, umiesz, umieją", "rozumiem, rozumieją"],
+      "refs": ["PO s. 44–45", "JPBG s. 65 (jeść)", "STD (umiem, rozumiem, wiem, jem)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P9",
+      "ru": "Не путать: je (ест, jeść) — jest (есть / находится, być) — jedzie (едет, jechać); jedzą (едят) — jadą (едут).",
+      "pl": ["On je obiad.", "On jest w domu.", "On jedzie do pracy.", "Oni jedzą. / Oni jadą."],
+      "refs": ["PO s. 44 (текст о Диме: «zamiast powiedzieć, że on jeszcze je, to mówię, że on jeszcze jest albo… jedzie»)", "JPBG s. 65 (упр. II: jedzą … jadą), ключ s. 193", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P10",
+      "ru": "Być и mieć — самые частые неправильные глаголы: jestem, jesteś, jest, jesteśmy, jesteście, są; mam, masz, ma, mamy, macie, mają (III тип).",
+      "pl": ["jestem, jesteś, jest, jesteśmy, jesteście, są", "mam, masz, ma, mamy, macie, mają"],
+      "refs": ["PO s. 7 («Czasownik być»)", "JPBG ключ s. 193 (mają, ma)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "P11",
+      "ru": "У совершенных глаголов те же окончания означают будущее: robię — делаю, zrobię — сделаю. Настоящего времени у совершенных глаголов нет.",
+      "pl": ["robię – zrobię", "piszę – napiszę"],
+      "refs": ["PO s. 122", "JPBG s. 143", "тема czas-przyszly, F2"],
+      "status": "ok"
+    }
+  ],
+
+  "noticed": [
+    "ZJP, Poradnik metodyczny, ключ (около с. 2410 текста): «Świętuje – 1 osoba» — на самом деле 3-е лицо; «Planowałeś – 2 osoba, liczba mnoga» — на самом деле единственное число. В выписку не берём."
+  ],
+
+  "forms": [
+    {"form": "piszę", "kind": "teraz", "lemma": "pisać", "p": 1, "n": "sg"},
+    {"form": "piszesz", "kind": "teraz", "lemma": "pisać", "p": 2, "n": "sg"},
+    {"form": "piszą", "kind": "teraz", "lemma": "pisać", "p": 3, "n": "pl"},
+    {"form": "robię", "kind": "teraz", "lemma": "robić", "p": 1, "n": "sg"},
+    {"form": "robisz", "kind": "teraz", "lemma": "robić", "p": 2, "n": "sg"},
+    {"form": "czytam", "kind": "teraz", "lemma": "czytać", "p": 1, "n": "sg"},
+    {"form": "czytają", "kind": "teraz", "lemma": "czytać", "p": 3, "n": "pl"},
+    {"form": "rozumiem", "kind": "teraz", "lemma": "rozumieć", "p": 1, "n": "sg"},
+    {"form": "rozumieją", "kind": "teraz", "lemma": "rozumieć", "p": 3, "n": "pl"},
+    {"form": "pracuję", "kind": "teraz", "lemma": "pracować", "p": 1, "n": "sg"},
+    {"form": "dziękuję", "kind": "teraz", "lemma": "dziękować", "p": 1, "n": "sg"},
+    {"form": "obiecuję", "kind": "teraz", "lemma": "obiecywać", "p": 1, "n": "sg"},
+    {"form": "oczekuję", "kind": "teraz", "lemma": "oczekiwać", "p": 1, "n": "sg"},
+    {"form": "daję", "kind": "teraz", "lemma": "dawać", "p": 1, "n": "sg"},
+    {"form": "wstaję", "kind": "teraz", "lemma": "wstawać", "p": 1, "n": "sg"},
+    {"form": "sprzedaję", "kind": "teraz", "lemma": "sprzedawać", "p": 1, "n": "sg"},
+    {"form": "dostaję", "kind": "teraz", "lemma": "dostawać", "p": 1, "n": "sg"},
+    {"form": "biorę", "kind": "teraz", "lemma": "brać", "p": 1, "n": "sg"},
+    {"form": "bierzesz", "kind": "teraz", "lemma": "brać", "p": 2, "n": "sg"},
+    {"form": "biorą", "kind": "teraz", "lemma": "brać", "p": 3, "n": "pl"},
+    {"form": "niosę", "kind": "teraz", "lemma": "nieść", "p": 1, "n": "sg"},
+    {"form": "niesiesz", "kind": "teraz", "lemma": "nieść", "p": 2, "n": "sg"},
+    {"form": "jadę", "kind": "teraz", "lemma": "jechać", "p": 1, "n": "sg"},
+    {"form": "jedziesz", "kind": "teraz", "lemma": "jechać", "p": 2, "n": "sg"},
+    {"form": "jedzie", "kind": "teraz", "lemma": "jechać", "p": 3, "n": "sg"},
+    {"form": "jadą", "kind": "teraz", "lemma": "jechać", "p": 3, "n": "pl"},
+    {"form": "mogę", "kind": "teraz", "lemma": "móc", "p": 1, "n": "sg"},
+    {"form": "możesz", "kind": "teraz", "lemma": "móc", "p": 2, "n": "sg"},
+    {"form": "mogą", "kind": "teraz", "lemma": "móc", "p": 3, "n": "pl"},
+    {"form": "piekę", "kind": "teraz", "lemma": "piec", "p": 1, "n": "sg"},
+    {"form": "pieczesz", "kind": "teraz", "lemma": "piec", "p": 2, "n": "sg"},
+    {"form": "pieką", "kind": "teraz", "lemma": "piec", "p": 3, "n": "pl"},
+    {"form": "płaczę", "kind": "teraz", "lemma": "płakać", "p": 1, "n": "sg"},
+    {"form": "chodzę", "kind": "teraz", "lemma": "chodzić", "p": 1, "n": "sg"},
+    {"form": "chodzisz", "kind": "teraz", "lemma": "chodzić", "p": 2, "n": "sg"},
+    {"form": "chodzą", "kind": "teraz", "lemma": "chodzić", "p": 3, "n": "pl"},
+    {"form": "noszę", "kind": "teraz", "lemma": "nosić", "p": 1, "n": "sg"},
+    {"form": "wożę", "kind": "teraz", "lemma": "wozić", "p": 1, "n": "sg"},
+    {"form": "jeżdżę", "kind": "teraz", "lemma": "jeździć", "p": 1, "n": "sg"},
+    {"form": "jeździsz", "kind": "teraz", "lemma": "jeździć", "p": 2, "n": "sg"},
+    {"form": "stoję", "kind": "teraz", "lemma": "stać", "p": 1, "n": "sg"},
+    {"form": "stoisz", "kind": "teraz", "lemma": "stać", "p": 2, "n": "sg"},
+    {"form": "śpię", "kind": "teraz", "lemma": "spać", "p": 1, "n": "sg"},
+    {"form": "śpisz", "kind": "teraz", "lemma": "spać", "p": 2, "n": "sg"},
+    {"form": "tańczysz", "kind": "teraz", "lemma": "tańczyć", "p": 2, "n": "sg"},
+    {"form": "słyszysz", "kind": "teraz", "lemma": "słyszeć", "p": 2, "n": "sg"},
+    {"form": "leżysz", "kind": "teraz", "lemma": "leżeć", "p": 2, "n": "sg"},
+    {"form": "uczysz", "kind": "teraz", "lemma": "uczyć", "p": 2, "n": "sg"},
+    {"form": "wiem", "kind": "teraz", "lemma": "wiedzieć", "p": 1, "n": "sg"},
+    {"form": "wie", "kind": "teraz", "lemma": "wiedzieć", "p": 3, "n": "sg"},
+    {"form": "wiedzą", "kind": "teraz", "lemma": "wiedzieć", "p": 3, "n": "pl"},
+    {"form": "jem", "kind": "teraz", "lemma": "jeść", "p": 1, "n": "sg"},
+    {"form": "je", "kind": "teraz", "lemma": "jeść", "p": 3, "n": "sg"},
+    {"form": "jecie", "kind": "teraz", "lemma": "jeść", "p": 2, "n": "pl"},
+    {"form": "jedzą", "kind": "teraz", "lemma": "jeść", "p": 3, "n": "pl"},
+    {"form": "umiem", "kind": "teraz", "lemma": "umieć", "p": 1, "n": "sg"},
+    {"form": "umieją", "kind": "teraz", "lemma": "umieć", "p": 3, "n": "pl"},
+    {"form": "jestem", "kind": "teraz", "lemma": "być", "p": 1, "n": "sg"},
+    {"form": "jest", "kind": "teraz", "lemma": "być", "p": 3, "n": "sg"},
+    {"form": "są", "kind": "teraz", "lemma": "być", "p": 3, "n": "pl"},
+    {"form": "mam", "kind": "teraz", "lemma": "mieć", "p": 1, "n": "sg"},
+    {"form": "mają", "kind": "teraz", "lemma": "mieć", "p": 3, "n": "pl"},
+    {"form": "znam", "kind": "teraz", "lemma": "znać", "p": 1, "n": "sg"},
+    {"form": "liczę", "kind": "teraz", "lemma": "liczyć", "p": 1, "n": "sg"},
+    {"form": "myję", "kind": "teraz", "lemma": "myć", "p": 1, "n": "sg"}
+  ]
+}

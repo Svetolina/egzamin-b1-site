@@ -1,0 +1,595 @@
+{
+  "topic": "czas-przyszly",
+  "title": "Czas przyszły — будущее время",
+  "stage": "выписка и сверка (шаги 1–3) проверены пользователем 22.10.2026; следующий шаг — своё изложение (шаг 4)",
+  "updated": "2026-10-22",
+  "passport": {
+    "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II (dorośli), E (B1), 2.2.1 Fleksja, pkt 2 lit. a: «czas przyszły prosty i złożony, forma bezokolicznikowa i rodzajowa (np.: pójdę, kupię, będziemy spacerować, będziecie chciały)» — s. 77 Dz.U.",
+    "related_standard": [
+      "там же, pkt 2 lit. b: aspekt (образование и употребление видов)"
+    ],
+    "level": "B1. Та же строка с теми же примерами уже есть на A2 (Część II, D); на B2 примеры труднее: zawiozę, polecimy, będziemy piec / będziecie piekły, urośnie. На B1 тема — закрепление A2 плюс нерегулярные основы и модальные глаголы.",
+    "katalog_b": [
+      "7.5.7 wakacje i wypoczynek",
+      "7.4.1 sposoby spędzania wolnego czasu",
+      "7.1.4 zawód, zajęcie (планы на работу)"
+    ],
+    "katalog_a": [
+      "6.1.7.e obiecywanie, zapewnianie",
+      "6.1.7.d proponowanie, przyjmowanie i odrzucanie propozycji",
+      "6.2.8 wyrażanie warunku i konsekwencji",
+      "6.2.4 wyrażanie relacji czasowych"
+    ],
+    "exam": "Грамматика, задание «czas teraźniejszy i przyszły» (10 × 0,5 б.): аркуш 4–5.02.2024 зад. IV, с. 3–4; то же задание в 7 из 15 экзаменов на сайте (2020-03, 2021-01, 2021-05, 2021-06, 2022-11, 2023-11, 2024-02). Косвенно: трансформации (VI) и вид в диалоге.",
+    "depends_on": [
+      "настоящее время и спряжения (окончания простого будущего = окончания настоящего)",
+      "прошедшее время (форма на -ł)",
+      "вид глагола (выбор prosty / złożony)"
+    ]
+  },
+  "sources": {
+    "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+    "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023",
+    "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020, lekcja 7",
+    "ZJP": "Z językiem polskim każdego dnia – B1, podręcznik, UDSC 2023",
+    "PWN": "Poradnia Językowa PWN, A. Wolański, «Czas przyszły złożony w polszczyźnie», 29.05.2023 — https://sjp.pwn.pl/poradnia/haslo/Czas-przyszly-zlozony-w-polszczyznie;22758.html",
+    "UL": "Poradnia Językowa Uniwersytetu Łódzkiego, «Dwie formy czasu przyszłego analitycznego» (ссылается на A. Nagórko, Podręczna gramatyka języka polskiego) — https://www.poradnia-jezykowa.uni.lodz.pl/szczegoly/dwie-formy-czasu-przyszlego-analitycznego",
+    "PROLOG": "M. Rittner, блог Prolog: «Czas przyszły złożony» (29.06.2022) — https://prologpublishing.com/blog/czas-przyszly-zlozony ; «Czasowniki móc, chcieć, musieć» (08.08.2023) — https://prologpublishing.com/blog/czasowniki-moc-chciec-musiec",
+    "US": "J. Tambor, «Czasowniki – czasy», Szkoła Języka i Kultury Polskiej UŚ — https://www.sjikp.us.edu.pl/wp-content/uploads/2020/10/CZASOWNIKI-czasy.pdf",
+    "KEY": "Официальные ключи комиссии к заданию «czas teraźniejszy i przyszły», как они внесены в tests/b1-*.js сайта",
+    "MORF": "Morfeusz 2 (SGJP), версия 1.99.15 — проверка форм скриптом tools/morfeusz_check.py"
+  },
+  "facts": [
+    {
+      "id": "F1",
+      "ru": "В польском два будущих времени: простое (czas przyszły prosty) — только у глаголов совершенного вида; составное (czas przyszły złożony) — только у несовершенного.",
+      "pl": [
+        "przeczytam",
+        "zrobię",
+        "będę czytać",
+        "będę czytał"
+      ],
+      "refs": [
+        "PO s. 116 («tylko czasowniki niedokonane»), s. 122 («tylko czasowniki dokonane»)",
+        "JPBG s. 142",
+        "ZJP s. 44, s. 66",
+        "PWN"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F2",
+      "ru": "Простое будущее — это спряжение совершенного глагола с окончаниями настоящего времени. Настоящего времени у совершенных глаголов нет, поэтому их «настоящие» формы и означают будущее.",
+      "pl": [
+        "przeczytam, przeczytasz",
+        "zrobię, zrobisz",
+        "napiszę, napiszesz",
+        "zjem, zjesz, zjedzą"
+      ],
+      "refs": [
+        "PO s. 122 (правило), s. 123 (таблицы по спряжениям)",
+        "JPBG s. 143",
+        "US (раздел «Czasy nieprzeszłe»)",
+        "PWN (пример napiszę)"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F3",
+      "ru": "У части совершенных глаголов основа в будущем меняется — эти формы надо запомнить.",
+      "pl": [
+        "wziąć – wezmę, weźmiesz, wezmą",
+        "pójść – pójdę, pójdziesz",
+        "wejść – wejdę",
+        "zacząć – zacznę, zaczniesz",
+        "dać – dam, dasz, dadzą",
+        "powiedzieć – powiem, powiesz, powiedzą",
+        "pojechać – pojadę, pojedziesz, pojadą",
+        "pomóc – pomogę, pomożesz",
+        "upiec – upiekę, upieczesz, upieką",
+        "zrozumieć – zrozumiem, zrozumieją"
+      ],
+      "refs": [
+        "JPBG s. 143 (dać, pojechać, wejść, wziąć, zacząć, powiedzieć)",
+        "PO s. 122–123 (zjeść, powiedzieć, wejść, pomóc, upiec, zrozumieć)",
+        "MORF (каждая форма)"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F4",
+      "ru": "Будущее время глагола być — одно слово: będę, będziesz, będzie, będziemy, będziecie, będą. Оно же служит вспомогательным глаголом составного будущего.",
+      "pl": [
+        "będę",
+        "będziesz",
+        "będzie",
+        "będziemy",
+        "będziecie",
+        "będą"
+      ],
+      "refs": [
+        "PO s. 111",
+        "ZJP s. 44 («będę» среди примеров простого будущего)",
+        "MORF (отдельный класс «bedzie»)"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F5",
+      "ru": "Составное будущее, форма 1 (в стандарте — «forma bezokolicznikowa»): będę + инфинитив несовершенного глагола. Инфинитив не меняется.",
+      "pl": [
+        "będę czytać",
+        "będziesz pracować",
+        "będą czytać"
+      ],
+      "refs": [
+        "STD (термин)",
+        "PO s. 116",
+        "JPBG s. 142",
+        "ZJP s. 44, s. 66",
+        "PWN"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F6",
+      "ru": "Составное будущее, форма 2 («forma rodzajowa»): będę + форма на -ł, как в 3-м лице прошедшего времени. Она согласуется с подлежащим в роде и числе; во множественном числе — мужско-личная (-li) или не мужско-личная (-ły).",
+      "pl": [
+        "(ja) będę czytał / będę czytała",
+        "(ono) będzie czytało",
+        "(my) będziemy czytali / będziemy czytały",
+        "(oni) będą czytali, (one) będą czytały"
+      ],
+      "refs": [
+        "STD (термин)",
+        "PO s. 116",
+        "JPBG s. 142",
+        "ZJP s. 44 («imiesłów czasu przeszłego na -ł»), s. 66",
+        "PWN"
+      ],
+      "status": "ok",
+      "note": "ZJP s. 66 содержит опечатку: «3 osoba czasu przyszłego» вместо «czasu przeszłego». JPBG, PO, PROLOG и PWN — «czasu przeszłego»."
+    },
+    {
+      "id": "F7",
+      "ru": "Обе формы составного будущего правильны и равноправны. Форма на -ł точнее (показывает род), инфинитивная короче, особенно в женском роде и во множественном числе.",
+      "pl": [
+        "będę pisać = będę pisał / pisała",
+        "będą się zdarzały = będą się zdarzać"
+      ],
+      "refs": [
+        "JPBG s. 142 («obie formy … są równorzędne»)",
+        "PO s. 116, сноска 1",
+        "PWN",
+        "UL",
+        "KEY: обе формы приняты — 2020-03 (będziemy pracować/pracowali, będziemy mieć/mieli), 2021-01 (będą radzić/radzili), 2021-06 (będziemy wykonywać/wykonywali, będą potrzebować/potrzebowali), 2023-11 (będą się zdarzały/zdarzać), 2024-02 (пример: będzie zależało / będzie zależeć)"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F8",
+      "ru": "Модальные глаголы (musieć, móc, chcieć; JPBG добавляет woleć): какую форму составного будущего использовать.",
+      "pl": [
+        "będę musiał / będę musiała",
+        "będziemy mogli",
+        "będziecie chciały",
+        "(?) będę musieć"
+      ],
+      "refs": [
+        "JPBG s. 142: только форма на -ł («w czasownikach typu musieć, chcieć, woleć używa się tylko formy II»)",
+        "PROLOG 2023: móc, chcieć, musieć «nie dopuszczają» формы с инфинитивом",
+        "PO s. 117: даёт обе (będę móc / będę mógł, będę chcieć, będę musieć)",
+        "UL: обе формы допустимы, в том числе będę musieć, chcieć, woleć",
+        "STD: пример «będziecie chciały» (форма на -ł)",
+        "KEY: во всех 7 случаях в ключах — только -ł: będziemy chcieli (2021-01), będziemy musieli (2022-11, 2023-11), będziecie mogli (2024-02), będzie musiał (2024-02), będą mogli / będziemy mogli / będą mogły (2020-03), mogą / będą mogli (2021-05); в текстах всех 18 тестов инфинитивная форма у модальных не встречается ни разу"
+      ],
+      "status": "marked",
+      "decision": "2026-10-22, пользователь: учим и принимаем в ключах форму на -ł; «będę musieć» показываем с пометкой «нормативно допустима (PO, UŁ), но в JPBG/Prolog и ключах комиссии её нет — на экзамене пишите форму на -ł»; в упражнениях на образование формы — только -ł, «będę musieć» только в заданиях на узнавание."
+    },
+    {
+      "id": "F9",
+      "ru": "Составное будущее нельзя образовать от совершенного глагола: *będę przeczytać, *będę zrobił — ошибка; нужно przeczytam, zrobię.",
+      "pl": [
+        "przeczytam (не *będę przeczytać)",
+        "zrobię (не *będę zrobił)"
+      ],
+      "refs": [
+        "PO s. 116, s. 122",
+        "JPBG s. 142",
+        "ZJP s. 66",
+        "PWN",
+        "MORF (скрипт отмечает совершенный глагол после będę)"
+      ],
+      "status": "ok"
+    },
+    {
+      "id": "F10",
+      "ru": "Выбор между простым и составным будущим — это выбор вида. Несовершенное будущее — процесс, длительность, повторение (codziennie, przez cały dzień); совершенное — одно законченное действие с результатом, конкретный момент (jutro, w ten weekend). Одно и то же событие можно описать обоими видами, меняется точка зрения.",
+      "pl": [
+        "Jutro przeczytam ten artykuł.",
+        "W wakacje będę codziennie czytać.",
+        "Jutro pojadę do Warszawy. / Jutro będę jechać do Warszawy cały dzień."
+      ],
+      "refs": [
+        "PO s. 73 («Konteksty i kontrasty»)",
+        "ZJP s. 56",
+        "US (пример jutro pojadę / będę jechać)"
+      ],
+      "status": "ok",
+      "note": "Подробно — в теме «вид»; здесь только применительно к будущему."
+    },
+    {
+      "id": "F11",
+      "ru": "После kiedy, gdy, jeśli, jeżeli о будущем говорят будущим временем (не настоящим, как в английском).",
+      "pl": [
+        "Jeżeli śmieci będą posegregowane, to dzieci dostaną nagrodę.",
+        "Kiedy będzie świecić słońce, pójdziesz na spacer.",
+        "Gdy zaplanujecie naukę, to będziecie mogli dobrze się przygotować."
+      ],
+      "refs": [
+        "ZJP s. 93 (явное правило для jeśli/jeżeli/gdy/kiedy)",
+        "PO s. 120 (только примеры в упражнении)",
+        "JPBG s. 144 (только пример в упражнении III)",
+        "аркуш 02.2024, зад. IV, с. 3 (текст)"
+      ],
+      "status": "marked",
+      "decision": "2026-10-22, пользователь: даём одной строкой с пометкой «правило по одному учебнику (ZJP s. 93), подтверждено примерами из PO, JPBG и экзаменационного текста»."
+    },
+    {
+      "id": "F12",
+      "ru": "Się и nie в составном будущем: nie стоит перед będę; się во всех примерах источников стоит сразу после będę.",
+      "pl": [
+        "nie będę jadł",
+        "będę się uczyć",
+        "będą się kładli",
+        "będą się zdarzały / zdarzać"
+      ],
+      "refs": [
+        "PO s. 116 (będę się uczyć, nie będziemy się nudzić)",
+        "JPBG s. 143–144 (będą się kładli — ключ s. 200; nie będziesz jadł)",
+        "KEY 2023-11 (będą się zdarzały/zdarzać)"
+      ],
+      "status": "ok"
+    }
+  ],
+  "terms": {
+    "STD": "forma bezokolicznikowa / forma rodzajowa",
+    "ZJP": "bezokolicznik / imiesłów czasu przeszłego na -ł",
+    "JPBG, PROLOG": "bezokolicznik / 3 os. czasu przeszłego",
+    "site_proposal": "на сайте: «форма с инфинитивом» и «форма на -ł (как в прошедшем)», в скобках — термины стандарта"
+  },
+  "forms": [
+    {
+      "form": "przeczytam",
+      "kind": "prosty",
+      "lemma": "przeczytać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zrobię",
+      "kind": "prosty",
+      "lemma": "zrobić",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "napiszę",
+      "kind": "prosty",
+      "lemma": "napisać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zjem",
+      "kind": "prosty",
+      "lemma": "zjeść",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zjedzą",
+      "kind": "prosty",
+      "lemma": "zjeść",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "wezmę",
+      "kind": "prosty",
+      "lemma": "wziąć",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "weźmiesz",
+      "kind": "prosty",
+      "lemma": "wziąć",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "wezmą",
+      "kind": "prosty",
+      "lemma": "wziąć",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "pójdę",
+      "kind": "prosty",
+      "lemma": "pójść",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "pójdziesz",
+      "kind": "prosty",
+      "lemma": "pójść",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "wejdę",
+      "kind": "prosty",
+      "lemma": "wejść",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zacznę",
+      "kind": "prosty",
+      "lemma": "zacząć",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zaczniesz",
+      "kind": "prosty",
+      "lemma": "zacząć",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "dam",
+      "kind": "prosty",
+      "lemma": "dać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "dadzą",
+      "kind": "prosty",
+      "lemma": "dać",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "powiem",
+      "kind": "prosty",
+      "lemma": "powiedzieć",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "powiedzą",
+      "kind": "prosty",
+      "lemma": "powiedzieć",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "pojadę",
+      "kind": "prosty",
+      "lemma": "pojechać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "pojedziesz",
+      "kind": "prosty",
+      "lemma": "pojechać",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "pojadą",
+      "kind": "prosty",
+      "lemma": "pojechać",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "pomogę",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "pomożesz",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "upiekę",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "upieczesz",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "upieką",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "zrozumiem",
+      "kind": "prosty",
+      "lemma": "zrozumieć",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zrozumieją",
+      "kind": "prosty",
+      "lemma": "zrozumieć",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "dostaną",
+      "kind": "prosty",
+      "lemma": "dostać",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "będę",
+      "kind": "byc",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "będziesz",
+      "kind": "byc",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "będzie",
+      "kind": "byc",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "będziemy",
+      "kind": "byc",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "będziecie",
+      "kind": "byc",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "będą",
+      "kind": "byc",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "będę czytać",
+      "kind": "zlozony",
+      "lemma": "czytać"
+    },
+    {
+      "form": "będziesz pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będę czytał",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "m"
+    },
+    {
+      "form": "będę czytała",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "f"
+    },
+    {
+      "form": "będzie czytało",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "n"
+    },
+    {
+      "form": "będziemy czytali",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "mo"
+    },
+    {
+      "form": "będziemy czytały",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "nmo"
+    },
+    {
+      "form": "będą czytały",
+      "kind": "zlozony",
+      "lemma": "czytać",
+      "g": "nmo"
+    },
+    {
+      "form": "będę musiał",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "m"
+    },
+    {
+      "form": "będę musiała",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "f"
+    },
+    {
+      "form": "będziemy mogli",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "mo"
+    },
+    {
+      "form": "będziecie chciały",
+      "kind": "zlozony",
+      "lemma": "chcieć",
+      "g": "nmo"
+    },
+    {
+      "form": "będę musieć",
+      "kind": "zlozony",
+      "lemma": "musieć"
+    },
+    {
+      "form": "będą się zdarzały",
+      "kind": "zlozony",
+      "lemma": "zdarzać",
+      "g": "nmo"
+    },
+    {
+      "form": "będą się kładli",
+      "kind": "zlozony",
+      "lemma": "kłaść",
+      "g": "mo"
+    },
+    {
+      "form": "będę przeczytać",
+      "kind": "zlozony",
+      "lemma": "przeczytać",
+      "expect_error": true
+    },
+    {
+      "form": "będę zrobił",
+      "kind": "zlozony",
+      "lemma": "zrobić",
+      "g": "m",
+      "expect_error": true
+    }
+  ]
+}

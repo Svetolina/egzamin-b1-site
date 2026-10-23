@@ -1,0 +1,1831 @@
+{
+  "topic": "czas-przyszly",
+  "level": "B1",
+  "group": "Глагол",
+  "title_pl": "Czas przyszły",
+  "title_ru": "Будущее время",
+  "lead": "Что я сделаю, что я буду делать. Два будущих времени — и выбирать между ними помогает вид глагола.",
+  "facts_file": "extract.json",
+  "stage": "теория и упражнения всех четырёх ступеней",
+  "markup": "[[…]] — польский текст; **…** — выделение; ✗ — неверно",
+  "theory": [
+    {
+      "id": "t1",
+      "title": "Главное за полминуты",
+      "facts": [
+        "F1",
+        "F10"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Какое будущее нужно, решает вид глагола — как в русском «куплю» и «буду покупать»."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Вид глагола",
+            "Будущее",
+            "Пример"
+          ],
+          "pl_cols": [
+            2
+          ],
+          "rows": [
+            [
+              "совершенный: что сделаю?",
+              "одно слово",
+              "[[kupię]]"
+            ],
+            [
+              "несовершенный: что буду делать?",
+              "[[będę]] + глагол",
+              "[[będę kupować]]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Какое будущее выбрать",
+      "facts": [
+        "F10"
+      ],
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Несовершенный → [[będę]] + глагол",
+            "Совершенный → одно слово"
+          ],
+          "rows": [
+            [
+              "процесс, длительность, повторение",
+              "одно действие с результатом: сделаю — и готово"
+            ],
+            [
+              "часто рядом: [[codziennie, często, długo, przez cały dzień, od rana do wieczora]]",
+              "часто рядом: конкретный момент — [[w sobotę, za godzinę, jutro rano]]"
+            ]
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "W wakacje będę codziennie pływać.",
+              "ru": "Летом я буду плавать каждый день."
+            },
+            {
+              "pl": "Jutro rano kupię bilety na pociąg.",
+              "ru": "Завтра утром я куплю билеты на поезд."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Одно и то же событие можно описать обоими видами — меняется взгляд. [[Jutro napiszę raport]] — завтра отчёт будет готов. [[Jutro będę pisać raport]] — завтра я буду этим занят."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Простое будущее: окончания как в настоящем",
+      "facts": [
+        "F2"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "У совершенного глагола нет настоящего времени. Его спрягают с теми же окончаниями, что и в настоящем, — и получается будущее. Умеете спрягать в настоящем — умеете и это."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "[[kupić]]",
+            "[[wysłać]]",
+            "[[posprzątać]]"
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "ja",
+              "kupię",
+              "wyślę",
+              "posprzątam"
+            ],
+            [
+              "ty",
+              "kupisz",
+              "wyślesz",
+              "posprzątasz"
+            ],
+            [
+              "on, ona, ono",
+              "kupi",
+              "wyśle",
+              "posprząta"
+            ],
+            [
+              "my",
+              "kupimy",
+              "wyślemy",
+              "posprzątamy"
+            ],
+            [
+              "wy",
+              "kupicie",
+              "wyślecie",
+              "posprzątacie"
+            ],
+            [
+              "oni, one",
+              "kupią",
+              "wyślą",
+              "posprzątają"
+            ]
+          ]
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Wieczorem wyślę ci zdjęcia z wycieczki.",
+              "ru": "Вечером я пришлю тебе фото с экскурсии."
+            },
+            {
+              "pl": "W sobotę posprzątamy garaż i piwnicę.",
+              "ru": "В субботу мы разберём гараж и подвал."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "Формы, которые надо запомнить",
+      "facts": [
+        "F3"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "У части частых глаголов основа в будущем меняется. Достаточно знать три формы: «я», «ты» и «они» — остальные строятся по ним."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Глагол",
+            "ja",
+            "ty",
+            "oni"
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "pójść",
+              "pójdę",
+              "pójdziesz",
+              "pójdą"
+            ],
+            [
+              "pojechać",
+              "pojadę",
+              "pojedziesz",
+              "pojadą"
+            ],
+            [
+              "wejść",
+              "wejdę",
+              "wejdziesz",
+              "wejdą"
+            ],
+            [
+              "wziąć",
+              "wezmę",
+              "weźmiesz",
+              "wezmą"
+            ],
+            [
+              "dać",
+              "dam",
+              "dasz",
+              "dadzą"
+            ],
+            [
+              "zjeść",
+              "zjem",
+              "zjesz",
+              "zjedzą"
+            ],
+            [
+              "powiedzieć",
+              "powiem",
+              "powiesz",
+              "powiedzą"
+            ],
+            [
+              "zrozumieć",
+              "zrozumiem",
+              "zrozumiesz",
+              "zrozumieją"
+            ],
+            [
+              "zacząć",
+              "zacznę",
+              "zaczniesz",
+              "zaczną"
+            ],
+            [
+              "pomóc",
+              "pomogę",
+              "pomożesz",
+              "pomogą"
+            ],
+            [
+              "upiec",
+              "upiekę",
+              "upieczesz",
+              "upieką"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Обратите внимание на [[pomogę → pomożesz]] и [[upiekę → upieczesz]]: в формах «ты», «он», «мы», «вы» согласная меняется, в «я» и «они» — нет."
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "title": "Być: будущее одним словом",
+      "facts": [
+        "F4"
+      ],
+      "blocks": [
+        {
+          "type": "chips",
+          "items": [
+            "ja będę",
+            "ty będziesz",
+            "on, ona będzie",
+            "my będziemy",
+            "wy będziecie",
+            "oni będą"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Это польское «буду, будешь…». Оно работает и само по себе, и как первая часть составного будущего."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Jutro będę w pracy do szóstej.",
+              "ru": "Завтра я буду на работе до шести."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "Составное будущее: две формы",
+      "facts": [
+        "F5",
+        "F6"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Только для несовершенных глаголов. После [[będę]] можно поставить инфинитив — он не меняется. А можно форму на -ł, как в прошедшем времени: она меняется по роду и числу."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "с инфинитивом",
+            "с формой на -ł"
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "ja",
+              "będę pracować",
+              "będę pracował / pracowała"
+            ],
+            [
+              "ty",
+              "będziesz pracować",
+              "będziesz pracował / pracowała"
+            ],
+            [
+              "on, ona, ono",
+              "będzie pracować",
+              "będzie pracował / pracowała / pracowało"
+            ],
+            [
+              "my",
+              "będziemy pracować",
+              "będziemy pracowali / pracowały"
+            ],
+            [
+              "wy",
+              "będziecie pracować",
+              "będziecie pracowali / pracowały"
+            ],
+            [
+              "oni, one",
+              "będą pracować",
+              "będą pracowali / pracowały"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Во множественном числе [[-li]] — мужско-личная форма, [[-ły]] — все остальные. Правило то же, что в прошедшем времени."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Przez cały lipiec będziemy pracować w ogrodzie.",
+              "ru": "Весь июль мы будем работать в саду."
+            },
+            {
+              "pl": "Siostra będzie mieszkała u nas do końca roku.",
+              "ru": "Сестра будет жить у нас до конца года."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "title": "Какую из двух форм выбрать",
+      "facts": [
+        "F7"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Обе формы правильные, на экзамене засчитываются обе. Форма на -ł показывает род: [[będę pracowała]] говорит женщина. Форма с инфинитивом короче, и о роде думать не нужно."
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Для обычных глаголов выберите одну форму и пишите её уверенно. Исключение — модальные глаголы, о них ниже."
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "title": "Musieć, móc, chcieć: только форма на -ł",
+      "facts": [
+        "F8"
+      ],
+      "marked": true,
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "",
+            "ja (м. / ж.)",
+            "oni / one"
+          ],
+          "pl_cols": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "musieć",
+              "będę musiał / musiała",
+              "będą musieli / musiały"
+            ],
+            [
+              "móc",
+              "będę mógł / mogła",
+              "będą mogli / mogły"
+            ],
+            [
+              "chcieć",
+              "będę chciał / chciała",
+              "będą chcieli / chciały"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "tip",
+          "text": "Следите за основой: [[mógł]], но [[mogła, mogli]]; [[chciał]], но [[chcieli]]."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "W przyszłym tygodniu będę musiała wcześnie wstawać.",
+              "ru": "На следующей неделе мне придётся рано вставать."
+            },
+            {
+              "pl": "Jeśli skończymy wcześniej, będziemy mogli zostać dłużej nad morzem.",
+              "ru": "Если закончим раньше, сможем подольше остаться у моря."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "mark",
+          "text": "Форма [[będę musieć]] тоже встречается, и некоторые справочники считают её правильной (Przez osoby, Poradnia UŁ). Но в других учебниках её нет, а в ключах экзамена у модальных глаголов принимается только форма на -ł. На экзамене пишите [[będę musiał / musiała]]."
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "title": "Частая ошибка: będę + совершенный глагол",
+      "facts": [
+        "F9"
+      ],
+      "blocks": [
+        {
+          "type": "fix",
+          "items": [
+            {
+              "bad": "będę kupić",
+              "good": "kupię"
+            },
+            {
+              "bad": "będę napisał",
+              "good": "napiszę"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "[[Będę]] ставится только с несовершенными глаголами — так же, как в русском нельзя сказать «буду купить»."
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "title": "Nie и się",
+      "facts": [
+        "F12"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "[[Nie]] стоит перед глаголом, в составном будущем — перед [[będę]]. [[Się]] обычно идёт сразу после [[będę]]."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Dziś nie będę gotować.",
+              "ru": "Сегодня я не буду готовить."
+            },
+            {
+              "pl": "Jutro będę się uczyć cały dzień.",
+              "ru": "Завтра я буду учиться весь день."
+            },
+            {
+              "pl": "Nie spóźnię się.",
+              "ru": "Я не опоздаю."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "title": "После kiedy, jeśli — тоже будущее",
+      "facts": [
+        "F11"
+      ],
+      "marked": true,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Если речь о будущем, после [[kiedy, gdy, jeśli, jeżeli]] тоже ставят будущее время — как в русском."
+        },
+        {
+          "type": "ex",
+          "items": [
+            {
+              "pl": "Jeśli będzie padać, zostaniemy w hotelu.",
+              "ru": "Если будет дождь, останемся в гостинице."
+            },
+            {
+              "pl": "Zadzwonię, kiedy dojadę na miejsce.",
+              "ru": "Позвоню, когда доеду."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "kind": "mark",
+          "text": "Правило сформулировано в одном учебнике (ZJP) и подтверждено примерами из других источников."
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "title": "На экзамене",
+      "facts": [
+        "EXAM"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "В части «Gramatyka» часто есть задание: связный текст, глаголы в скобках, нужно поставить настоящее или будущее время. Обычно 10 пропусков по 0,5 балла."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "По смыслу: сейчас или обычно — настоящее; потом — будущее.",
+            "Глагол совершенный — одно слово ([[zapewni]]); несовершенный — [[będę]] + глагол.",
+            "Musieć, móc, chcieć — только форма на -ł ([[będziecie mogli]]).",
+            "Подсказка в скобках вроде ([[wy – móc]]) говорит, какое лицо нужно."
+          ]
+        }
+      ]
+    }
+  ],
+  "exam_ref": {
+    "id": "EXAM",
+    "refs": [
+      "Arkusz B1, 4–5.02.2024, Gramatyka, zad. IV, s. 3–4",
+      "то же задание в экзаменах сайта: 2020-03, 2021-01, 2021-05, 2021-06, 2022-11, 2023-11, 2024-02"
+    ]
+  },
+  "forms": [
+    {
+      "form": "kupię",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "kupisz",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "kupi",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "kupimy",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "kupicie",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "kupią",
+      "kind": "prosty",
+      "lemma": "kupić",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "wyślę",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "wyślesz",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "wyśle",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "wyślemy",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "wyślecie",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "wyślą",
+      "kind": "prosty",
+      "lemma": "wysłać",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "posprzątam",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "posprzątasz",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "posprząta",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "posprzątamy",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "posprzątacie",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "posprzątają",
+      "kind": "prosty",
+      "lemma": "posprzątać",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "pójdą",
+      "kind": "prosty",
+      "lemma": "pójść",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "wejdziesz",
+      "kind": "prosty",
+      "lemma": "wejść",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "wejdą",
+      "kind": "prosty",
+      "lemma": "wejść",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "dasz",
+      "kind": "prosty",
+      "lemma": "dać",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "zjesz",
+      "kind": "prosty",
+      "lemma": "zjeść",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "powiesz",
+      "kind": "prosty",
+      "lemma": "powiedzieć",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "zrozumiesz",
+      "kind": "prosty",
+      "lemma": "zrozumieć",
+      "p": 2,
+      "n": "sg"
+    },
+    {
+      "form": "zaczną",
+      "kind": "prosty",
+      "lemma": "zacząć",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "pomogą",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 3,
+      "n": "pl"
+    },
+    {
+      "form": "upieczecie",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "upieczemy",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "upiecze",
+      "kind": "prosty",
+      "lemma": "upiec",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "pomożecie",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 2,
+      "n": "pl"
+    },
+    {
+      "form": "pomożemy",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "pomoże",
+      "kind": "prosty",
+      "lemma": "pomóc",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "napiszę",
+      "kind": "prosty",
+      "lemma": "napisać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zostaniemy",
+      "kind": "prosty",
+      "lemma": "zostać",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "zadzwonię",
+      "kind": "prosty",
+      "lemma": "zadzwonić",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "dojadę",
+      "kind": "prosty",
+      "lemma": "dojechać",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "skończymy",
+      "kind": "prosty",
+      "lemma": "skończyć",
+      "p": 1,
+      "n": "pl"
+    },
+    {
+      "form": "spóźnię",
+      "kind": "prosty",
+      "lemma": "spóźnić",
+      "p": 1,
+      "n": "sg"
+    },
+    {
+      "form": "zapewni",
+      "kind": "prosty",
+      "lemma": "zapewnić",
+      "p": 3,
+      "n": "sg"
+    },
+    {
+      "form": "będę kupować",
+      "kind": "zlozony",
+      "lemma": "kupować"
+    },
+    {
+      "form": "będę pływać",
+      "kind": "zlozony",
+      "lemma": "pływać"
+    },
+    {
+      "form": "będę pisać",
+      "kind": "zlozony",
+      "lemma": "pisać"
+    },
+    {
+      "form": "będę pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będziesz pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będzie pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będziemy pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będziecie pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będą pracować",
+      "kind": "zlozony",
+      "lemma": "pracować"
+    },
+    {
+      "form": "będę pracował",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "m"
+    },
+    {
+      "form": "będę pracowała",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "f"
+    },
+    {
+      "form": "będziesz pracował",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "m"
+    },
+    {
+      "form": "będziesz pracowała",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "f"
+    },
+    {
+      "form": "będzie pracował",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "m"
+    },
+    {
+      "form": "będzie pracowała",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "f"
+    },
+    {
+      "form": "będzie pracowało",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "n"
+    },
+    {
+      "form": "będziemy pracowali",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "mo"
+    },
+    {
+      "form": "będziemy pracowały",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "nmo"
+    },
+    {
+      "form": "będziecie pracowali",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "mo"
+    },
+    {
+      "form": "będziecie pracowały",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "nmo"
+    },
+    {
+      "form": "będą pracowali",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "mo"
+    },
+    {
+      "form": "będą pracowały",
+      "kind": "zlozony",
+      "lemma": "pracować",
+      "g": "nmo"
+    },
+    {
+      "form": "będzie mieszkała",
+      "kind": "zlozony",
+      "lemma": "mieszkać",
+      "g": "f"
+    },
+    {
+      "form": "będę musiał",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "m"
+    },
+    {
+      "form": "będę musiała",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "f"
+    },
+    {
+      "form": "będą musieli",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "mo"
+    },
+    {
+      "form": "będą musiały",
+      "kind": "zlozony",
+      "lemma": "musieć",
+      "g": "nmo"
+    },
+    {
+      "form": "będę mógł",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "m"
+    },
+    {
+      "form": "będę mogła",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "f"
+    },
+    {
+      "form": "będą mogli",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "mo"
+    },
+    {
+      "form": "będą mogły",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "nmo"
+    },
+    {
+      "form": "będziemy mogli",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "mo"
+    },
+    {
+      "form": "będziecie mogli",
+      "kind": "zlozony",
+      "lemma": "móc",
+      "g": "mo"
+    },
+    {
+      "form": "będę chciał",
+      "kind": "zlozony",
+      "lemma": "chcieć",
+      "g": "m"
+    },
+    {
+      "form": "będę chciała",
+      "kind": "zlozony",
+      "lemma": "chcieć",
+      "g": "f"
+    },
+    {
+      "form": "będą chcieli",
+      "kind": "zlozony",
+      "lemma": "chcieć",
+      "g": "mo"
+    },
+    {
+      "form": "będą chciały",
+      "kind": "zlozony",
+      "lemma": "chcieć",
+      "g": "nmo"
+    },
+    {
+      "form": "będę musieć",
+      "kind": "zlozony",
+      "lemma": "musieć"
+    },
+    {
+      "form": "będę gotować",
+      "kind": "zlozony",
+      "lemma": "gotować"
+    },
+    {
+      "form": "będę się uczyć",
+      "kind": "zlozony",
+      "lemma": "uczyć"
+    },
+    {
+      "form": "będzie padać",
+      "kind": "zlozony",
+      "lemma": "padać"
+    },
+    {
+      "form": "będę kupić",
+      "kind": "zlozony",
+      "lemma": "kupić",
+      "expect_error": true
+    },
+    {
+      "form": "będę napisał",
+      "kind": "zlozony",
+      "lemma": "napisać",
+      "g": "m",
+      "expect_error": true
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "level": 1,
+      "kind": "choice",
+      "title": "Выберите форму",
+      "items": [
+        {
+          "q": "Wieczorem ___ ci zdjęcia z plaży.",
+          "opts": [
+            "wyślę",
+            "będę wysłać",
+            "będę wysłał"
+          ],
+          "a": [
+            "wyślę"
+          ],
+          "expl": "Wysłać — совершенный глагол: будущее одним словом. Będę с ним не ставят.",
+          "t": "t9"
+        },
+        {
+          "q": "Ania w wakacje ___ codziennie biegać.",
+          "opts": [
+            "będzie",
+            "będą",
+            "będziesz"
+          ],
+          "a": [
+            "będzie"
+          ],
+          "expl": "Ania — она, значит będzie.",
+          "t": "t5"
+        },
+        {
+          "q": "Moi rodzice ___ u nas do niedzieli.",
+          "opts": [
+            "będą",
+            "będzie",
+            "będziemy"
+          ],
+          "a": [
+            "będą"
+          ],
+          "expl": "Rodzice — они: będą.",
+          "t": "t5"
+        },
+        {
+          "q": "Cały wieczór Marek ___ na gitarze.",
+          "opts": [
+            "będzie grał",
+            "zagra",
+            "będzie zagrał"
+          ],
+          "a": [
+            "będzie grał"
+          ],
+          "expl": "«Cały wieczór» — процесс, нужен несовершенный глагол: będzie grał (или będzie grać).",
+          "t": "t2"
+        },
+        {
+          "q": "Ty kup bilety, a ja ___ walizki.",
+          "opts": [
+            "spakuję",
+            "będę spakować",
+            "będę spakował"
+          ],
+          "a": [
+            "spakuję"
+          ],
+          "expl": "Spakować — совершенный: spakuję. Będę с совершенным глаголом не ставят. (Несовершенное będę pakować тоже возможно, но его среди вариантов нет.)",
+          "t": "t9"
+        },
+        {
+          "q": "W przyszłym miesiącu moje siostry ___ w hotelu nad morzem.",
+          "opts": [
+            "będą pracowały",
+            "będą pracowali",
+            "będzie pracowała"
+          ],
+          "a": [
+            "będą pracowały"
+          ],
+          "expl": "Siostry — только женщины, не мужско-личная форма: -ły.",
+          "t": "t6"
+        },
+        {
+          "q": "Jutro ja i Piotr ___ wcześnie wstać.",
+          "opts": [
+            "będziemy musieli",
+            "będziemy musiały",
+            "będzie musiał"
+          ],
+          "a": [
+            "będziemy musieli"
+          ],
+          "expl": "Ja i Piotr — my, в группе есть мужчина: мужско-личная форма musieli.",
+          "t": "t8"
+        },
+        {
+          "q": "Какая форма встречается в речи, но на экзамене её лучше не писать?",
+          "opts": [
+            "będę musieć",
+            "będę musiał",
+            "będę musiała"
+          ],
+          "a": [
+            "będę musieć"
+          ],
+          "expl": "Będę musieć допустима по части справочников, но в ключах экзамена у модальных глаголов только форма на -ł.",
+          "t": "t8"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "level": 1,
+      "kind": "type",
+      "title": "Исправьте ошибку",
+      "instr": "В каждом предложении выделена неверная форма. Впишите правильную.",
+      "items": [
+        {
+          "q": "Za chwilę **będę zadzwonić** do mamy.",
+          "a": [
+            "zadzwonię",
+            "będę dzwonić",
+            "będę dzwonił",
+            "będę dzwoniła"
+          ],
+          "expl": "Zadzwonić — совершенный: zadzwonię. Będę + совершенный — ошибка. Можно и несовершенное будę dzwonić, но смысл другой: «буду звонить».",
+          "t": "t9"
+        },
+        {
+          "q": "Moje koleżanki **będą pracowali** w sklepie.",
+          "a": [
+            "będą pracowały",
+            "będą pracować"
+          ],
+          "expl": "Koleżanki — женщины: не мужско-личная форма pracowały (или форма с инфинитивом).",
+          "t": "t6"
+        },
+        {
+          "q": "Czy **weźmięsz** parasol?",
+          "a": [
+            "weźmiesz"
+          ],
+          "expl": "Wziąć: wezmę, но weźmiesz — в «ты» мягкое ź и окончание -iesz.",
+          "t": "t4"
+        },
+        {
+          "q": "Jutro oni **dają** ci odpowiedź.",
+          "a": [
+            "dadzą"
+          ],
+          "expl": "Dają — настоящее время от dawać. Для будущего нужен совершенный dać: dadzą.",
+          "t": "t4"
+        },
+        {
+          "q": "Jutro **będę się nauczyć** nowych słów.",
+          "a": [
+            "nauczę się",
+            "będę się uczyć",
+            "będę się uczył",
+            "będę się uczyła"
+          ],
+          "expl": "Nauczyć się — совершенный: nauczę się. Или несовершенный uczyć się с będę.",
+          "t": "t9"
+        },
+        {
+          "q": "Ewa **będzie mógł** przyjść później.",
+          "a": [
+            "będzie mogła"
+          ],
+          "expl": "Ewa — женщина: mogła. Обратите внимание на основу: mógł, но mogła.",
+          "t": "t8"
+        },
+        {
+          "q": "W sierpniu **pojedę** nad morze.",
+          "a": [
+            "pojadę"
+          ],
+          "expl": "Pojechać: pojadę, pojadą — с a; pojedziesz, pojedzie — с e.",
+          "t": "t4"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "level": 2,
+      "kind": "type",
+      "title": "Простое будущее",
+      "instr": "Поставьте глагол в простое будущее время.",
+      "items": [
+        {
+          "q": "Jutro ___ chleb i mleko. (kupić, ja)",
+          "a": [
+            "kupię"
+          ],
+          "expl": "Kupić — совершенный, окончание как в настоящем: kupię.",
+          "t": "t3"
+        },
+        {
+          "q": "W sobotę ___ garaż? (posprzątać, wy)",
+          "a": [
+            "posprzątacie"
+          ],
+          "expl": "Posprzątać спрягается как -am, -asz: posprzątacie.",
+          "t": "t3"
+        },
+        {
+          "q": "Wieczorem ___ ci mapę. (wysłać, ja)",
+          "a": [
+            "wyślę"
+          ],
+          "expl": "Wysłać: wyślę, wyślesz — основа меняется на wyśl-.",
+          "t": "t3"
+        },
+        {
+          "q": "Za tydzień ___ remont kuchni. (skończyć, oni)",
+          "a": [
+            "skończą"
+          ],
+          "expl": "Skończyć: skończę, skończysz, skończą.",
+          "t": "t3"
+        },
+        {
+          "q": "Na pewno ___ ten egzamin! (zdać, ty)",
+          "a": [
+            "zdasz"
+          ],
+          "expl": "Zdać спрягается как dać: zdam, zdasz.",
+          "t": "t3"
+        },
+        {
+          "q": "Po obiedzie ___ dziadkom. (pomóc, my)",
+          "a": [
+            "pomożemy"
+          ],
+          "expl": "Pomóc: pomogę, но pomożemy — в «мы» g меняется на ż.",
+          "t": "t4"
+        },
+        {
+          "q": "___ do mnie, kiedy dojedziesz? (zadzwonić, ty)",
+          "a": [
+            "zadzwonisz"
+          ],
+          "expl": "Zadzwonić: zadzwonię, zadzwonisz.",
+          "t": "t3"
+        },
+        {
+          "q": "Jutro ___ nowe mieszkanie. (obejrzeć, my)",
+          "a": [
+            "obejrzymy"
+          ],
+          "expl": "Obejrzeć: obejrzę, obejrzysz, obejrzymy.",
+          "t": "t3"
+        },
+        {
+          "q": "Kto ___ ten list? (napisać)",
+          "a": [
+            "napisze"
+          ],
+          "expl": "Kto — как «он»: napisze.",
+          "t": "t3"
+        },
+        {
+          "q": "Mam nadzieję, że ___ się dobrze w nowym mieście. (poczuć, ty)",
+          "a": [
+            "poczujesz"
+          ],
+          "expl": "Poczuć: poczuję, poczujesz.",
+          "t": "t3"
+        }
+      ],
+      "expect": "future"
+    },
+    {
+      "id": "e4",
+      "level": 2,
+      "kind": "type",
+      "title": "Формы, которые надо запомнить",
+      "instr": "Поставьте глагол в простое будущее время.",
+      "items": [
+        {
+          "q": "Wieczorem ___ do kina. (pójść, my)",
+          "a": [
+            "pójdziemy"
+          ],
+          "expl": "Pójść: pójdę, pójdziemy.",
+          "t": "t4"
+        },
+        {
+          "q": "Czy ___ ze mną na lotnisko? (pojechać, ty)",
+          "a": [
+            "pojedziesz"
+          ],
+          "expl": "Pojechać: pojadę, но pojedziesz.",
+          "t": "t4"
+        },
+        {
+          "q": "Jutro ___ parasol, bo ma padać. (wziąć, ja)",
+          "a": [
+            "wezmę"
+          ],
+          "expl": "Wziąć: wezmę, weźmiesz, wezmą.",
+          "t": "t4"
+        },
+        {
+          "q": "Rodzice ___ nam klucze do domku. (dać, oni)",
+          "a": [
+            "dadzą"
+          ],
+          "expl": "Dać: dam, dasz, но dadzą.",
+          "t": "t4"
+        },
+        {
+          "q": "Dzieci szybko ___ wszystkie ciastka. (zjeść, one)",
+          "a": [
+            "zjedzą"
+          ],
+          "expl": "Zjeść: zjem, zjesz, zjedzą.",
+          "t": "t4"
+        },
+        {
+          "q": "Co ___ szefowi? (powiedzieć, wy)",
+          "a": [
+            "powiecie"
+          ],
+          "expl": "Powiedzieć: powiem, powiecie, powiedzą.",
+          "t": "t4"
+        },
+        {
+          "q": "Lekcja ___ się o dziewiątej. (zacząć)",
+          "a": [
+            "zacznie"
+          ],
+          "expl": "Zacząć: zacznę, zacznie.",
+          "t": "t4"
+        },
+        {
+          "q": "Czy ___ mi z walizką? (pomóc, ty)",
+          "a": [
+            "pomożesz"
+          ],
+          "expl": "Pomóc: pomogę, pomożesz.",
+          "t": "t4"
+        },
+        {
+          "q": "Na pewno ___ to zadanie. (zrozumieć, oni)",
+          "a": [
+            "zrozumieją"
+          ],
+          "expl": "Zrozumieć: zrozumiem, но zrozumieją.",
+          "t": "t4"
+        },
+        {
+          "q": "Na urodziny mamy ___ tort. (upiec, my)",
+          "a": [
+            "upieczemy"
+          ],
+          "expl": "Upiec: upiekę, upieczemy, upieką.",
+          "t": "t4"
+        }
+      ],
+      "expect": "future"
+    },
+    {
+      "id": "e5",
+      "level": 2,
+      "kind": "type",
+      "title": "Составное будущее",
+      "instr": "Поставьте глагол в составное будущее. Подходят обе формы: с инфинитивом и на -ł.",
+      "items": [
+        {
+          "q": "Przez całe lato ___ w kawiarni. (pracować, ja, ж.)",
+          "a": [
+            "będę pracować",
+            "będę pracowała"
+          ],
+          "expl": "Będę + pracować или pracowała (говорит женщина).",
+          "t": "t6"
+        },
+        {
+          "q": "Jutro cały dzień ___ deszcz. (padać)",
+          "a": [
+            "będzie padać",
+            "będzie padał"
+          ],
+          "expl": "Deszcz — он: będzie padać / padał.",
+          "t": "t6"
+        },
+        {
+          "q": "W przyszłym roku ___ w Gdańsku. (mieszkać, my, м.)",
+          "a": [
+            "będziemy mieszkać",
+            "będziemy mieszkali"
+          ],
+          "expl": "My с мужчиной: mieszkali.",
+          "t": "t6"
+        },
+        {
+          "q": "Dziewczyny ___ do egzaminu przez tydzień. (uczyć się)",
+          "a": [
+            "będą się uczyć",
+            "będą się uczyły"
+          ],
+          "expl": "Się сразу после będą; dziewczyny — -ły.",
+          "t": "t10"
+        },
+        {
+          "q": "Od września syn ___ do nowej szkoły. (chodzić)",
+          "a": [
+            "będzie chodzić",
+            "będzie chodził"
+          ],
+          "expl": "Syn — он: będzie chodzić / chodził.",
+          "t": "t6"
+        },
+        {
+          "q": "Dziś nie ___. (gotować, ja, м.)",
+          "a": [
+            "będę gotować",
+            "będę gotował"
+          ],
+          "expl": "Nie стоит перед będę.",
+          "t": "t10"
+        },
+        {
+          "q": "W hotelu ___ śniadanie od siódmej. (podawać, oni)",
+          "a": [
+            "będą podawać",
+            "będą podawali"
+          ],
+          "expl": "Oni: będą podawać / podawali.",
+          "t": "t6"
+        },
+        {
+          "q": "Wieczorem ___ film. (oglądać, my, ж.)",
+          "a": [
+            "będziemy oglądać",
+            "będziemy oglądały"
+          ],
+          "expl": "My — только женщины: oglądały.",
+          "t": "t6"
+        },
+        {
+          "q": "Ile czasu ___ na autobus? (czekać, wy, м.)",
+          "a": [
+            "będziecie czekać",
+            "będziecie czekali"
+          ],
+          "expl": "Wy с мужчиной: czekali.",
+          "t": "t6"
+        },
+        {
+          "q": "Babcia ___ o was. (martwić się)",
+          "a": [
+            "będzie się martwić",
+            "będzie się martwiła"
+          ],
+          "expl": "Babcia — она: martwiła; się после będzie.",
+          "t": "t10"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "level": 2,
+      "kind": "type",
+      "title": "Musieć, móc, chcieć",
+      "instr": "Поставьте глагол в будущее время. У этих глаголов пишем форму на -ł.",
+      "items": [
+        {
+          "q": "Jutro ___ wcześnie wstać. (musieć, ja, ж.)",
+          "a": [
+            "będę musiała"
+          ],
+          "expl": "Musieć — форма на -ł: będę musiała.",
+          "t": "t8"
+        },
+        {
+          "q": "W hotelu ___ korzystać z basenu. (móc, wy, м.)",
+          "a": [
+            "będziecie mogli"
+          ],
+          "expl": "Móc: mógł, но mogli.",
+          "t": "t8"
+        },
+        {
+          "q": "Dzieci na pewno ___ iść na plażę. (chcieć, one)",
+          "a": [
+            "będą chciały"
+          ],
+          "expl": "Dzieci — не мужско-личная: chciały.",
+          "t": "t8"
+        },
+        {
+          "q": "Szef ___ zostać dłużej w pracy. (musieć, on)",
+          "a": [
+            "będzie musiał"
+          ],
+          "expl": "On: będzie musiał.",
+          "t": "t8"
+        },
+        {
+          "q": "Po kursie ___ rozmawiać po polsku bez stresu. (móc, ja, м.)",
+          "a": [
+            "będę mógł"
+          ],
+          "expl": "Ja (м.): będę mógł — с ó.",
+          "t": "t8"
+        },
+        {
+          "q": "Moi koledzy nie ___ pracować w sobotę. (chcieć, oni)",
+          "a": [
+            "będą chcieli"
+          ],
+          "expl": "Koledzy: chcieli — в мужско-личной форме a меняется на e.",
+          "t": "t8"
+        },
+        {
+          "q": "Czy ___ mi pomóc w piątek? (móc, ty, ж.)",
+          "a": [
+            "będziesz mogła"
+          ],
+          "expl": "Ty (ж.): będziesz mogła.",
+          "t": "t8"
+        },
+        {
+          "q": "Wszyscy ___ pokazać paszport na lotnisku. (musieć, oni)",
+          "a": [
+            "będą musieli"
+          ],
+          "expl": "Wszyscy — мужско-личная форма: musieli.",
+          "t": "t8"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "level": 3,
+      "kind": "text",
+      "format": "exam",
+      "title": "Plany na lato",
+      "instr": "Как на экзамене: поставьте глаголы в настоящее или будущее время.",
+      "passage": "Zwykle latem moja rodzina {1} nad morze. Ale w przyszłe wakacje wszystko {2} inaczej. W lipcu mój brat {3} ślub, więc najpierw {4} na wesele do Krakowa. Teraz mama codziennie {5} w internecie taniego hotelu, a tata {6}, że to niepotrzebne, bo możemy spać u cioci. Po weselu ja i siostra {7} zostać w Krakowie jeszcze tydzień. Codziennie {8} miasto i chodzić do muzeów. Siostra już teraz {9} każdy dzień, a ja {10} dopiero w sierpniu, kiedy wrócimy do domu.",
+      "items": [
+        {
+          "q": "jeździć",
+          "a": [
+            "jeździ"
+          ],
+          "expl": "«Zwykle latem» — то, что бывает регулярно: настоящее время.",
+          "t": "t12"
+        },
+        {
+          "q": "być",
+          "a": [
+            "będzie"
+          ],
+          "expl": "«W przyszłe wakacje» — будущее; być: będzie.",
+          "t": "t5"
+        },
+        {
+          "q": "wziąć",
+          "a": [
+            "weźmie"
+          ],
+          "expl": "Wziąć — совершенный, простое будущее: weźmie.",
+          "t": "t4"
+        },
+        {
+          "q": "my – pojechać",
+          "a": [
+            "pojedziemy"
+          ],
+          "expl": "My + совершенный pojechać: pojedziemy.",
+          "t": "t4"
+        },
+        {
+          "q": "szukać",
+          "a": [
+            "szuka"
+          ],
+          "expl": "«Teraz codziennie» — настоящее время.",
+          "t": "t12"
+        },
+        {
+          "q": "mówić",
+          "a": [
+            "mówi"
+          ],
+          "expl": "Tata сейчас так говорит — настоящее время.",
+          "t": "t12"
+        },
+        {
+          "q": "móc",
+          "a": [
+            "będziemy mogły"
+          ],
+          "expl": "Ja i siostra — две женщины: będziemy mogły. У móc только форма на -ł.",
+          "t": "t8"
+        },
+        {
+          "q": "my – zwiedzać",
+          "a": [
+            "będziemy zwiedzać",
+            "będziemy zwiedzały"
+          ],
+          "expl": "Процесс, codziennie — несовершенный: będziemy zwiedzać / zwiedzały.",
+          "t": "t6"
+        },
+        {
+          "q": "planować",
+          "a": [
+            "planuje"
+          ],
+          "expl": "«Już teraz» — настоящее время.",
+          "t": "t12"
+        },
+        {
+          "q": "odpocząć",
+          "a": [
+            "odpocznę"
+          ],
+          "expl": "Odpocząć — совершенный: odpocznę.",
+          "t": "t3"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "level": 3,
+      "kind": "type",
+      "title": "Сейчас → потом",
+      "instr": "Перескажите о будущем. Впишите глагол (или będę + глагол).",
+      "items": [
+        {
+          "q": "Codziennie pływam. → W wakacje też ___ codziennie. (ja, м.)",
+          "a": [
+            "będę pływać",
+            "będę pływał"
+          ],
+          "expl": "Codziennie — повторение, несовершенный: będę pływać / pływał.",
+          "t": "t2"
+        },
+        {
+          "q": "Właśnie kończę raport. → Jutro rano ___ raport.",
+          "a": [
+            "skończę"
+          ],
+          "expl": "Jutro rano — один результат: совершенный skończę.",
+          "t": "t2"
+        },
+        {
+          "q": "Mieszkamy w Szczecinie. → Od września ___ w Poznaniu. (my, м.)",
+          "a": [
+            "będziemy mieszkać",
+            "będziemy mieszkali"
+          ],
+          "expl": "Mieszkać — несовершенный: będziemy mieszkać / mieszkali.",
+          "t": "t6"
+        },
+        {
+          "q": "Mama piecze ciasto. → W niedzielę mama ___ tort.",
+          "a": [
+            "upiecze",
+            "będzie piec",
+            "będzie piekła"
+          ],
+          "expl": "Upiecze — торт будет готов. Będzie piec / piekła тоже верно, но это процесс.",
+          "t": "t2"
+        },
+        {
+          "q": "Muszę pracować w sobotę. → W przyszłą sobotę też ___ pracować. (ja, ж.)",
+          "a": [
+            "będę musiała"
+          ],
+          "expl": "Musieć — только форма на -ł: będę musiała.",
+          "t": "t8"
+        },
+        {
+          "q": "Idę do lekarza. → Jutro ___ do lekarza.",
+          "a": [
+            "pójdę"
+          ],
+          "expl": "Pójść — совершенный: pójdę.",
+          "t": "t4"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "level": 4,
+      "kind": "write",
+      "title": "Pozdrowienia z wakacji",
+      "instr": "Вы отдыхаете у моря. Напишите подруге короткие pozdrowienia: где вы, что будете делать в ближайшие дни, когда вернётесь.",
+      "words": [
+        30,
+        35
+      ],
+      "need": "Не меньше 5 форм будущего времени: хотя бы одна составная (będę + глагол) и одна с musieć, móc или chcieć.",
+      "model": "Cześć Kasiu! Pozdrowienia znad morza! Jutro pojedziemy statkiem na Wolin, a potem będziemy leżeć na plaży. W piątek będę musiała się spakować. Wrócę w sobotę i wszystko Ci opowiem. Ściskam, Ola",
+      "model_future": [
+        "pojedziemy",
+        "będziemy leżeć",
+        "będę musiała",
+        "wrócę",
+        "opowiem"
+      ],
+      "checklist": [
+        "Есть обращение и приветствие (Cześć…!)",
+        "Сказано, где вы",
+        "Не меньше 5 форм будущего, среди них составная и модальная на -ł",
+        "Совершенные глаголы — одним словом, без będę",
+        "Сказано, когда вернётесь",
+        "Есть прощание и подпись (Ściskam, Pozdrawiam…)",
+        "30–35 слов"
+      ],
+      "t": "t1"
+    }
+  ]
+}
