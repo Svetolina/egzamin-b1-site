@@ -210,8 +210,8 @@ function fromWikt(q){
     return dictFor(lq);
   }).then(function(d){
     var lemma=d.lemmas.filter(function(w){return w.toLowerCase()!==lq;})[0]||null;
-    if(d.tr.length||!lemma)return {tr:d.tr,lemma:null};
-    return dictFor(lemma).then(function(d2){return {tr:d2.tr,lemma:lemma};});
+    if(!lemma)return {tr:d.tr,lemma:null};
+    return dictFor(lemma).then(function(d2){return {tr:d.tr.concat(d2.tr),lemma:lemma};});
   }).catch(function(){return {tr:[],lemma:null};});
 }
 /* 2) MyMemory: переводческая память + машинный перевод; мусор из памяти отсекаем */
