@@ -120,21 +120,70 @@ function labelFor(scopeEl){
    запрос идёт прямо из браузера. Нажатие на вариант вписывает его в поле «Перевод»
    (если там уже что-то есть — добавляет через запятую), поле можно править как угодно. */
 var trCache={};
+function words(t){return (String(t).trim().match(/\S+/g)||[]).length;}
+/* 1) Wikisłownik: настоящий словарь, строка «rosyjski:» в разделе tłumaczenia */
+function wiktPage(title){
+  var url='https://pl.wiktionary.org/w/api.php?action=parse&prop=wikitext&format=json&formatversion=2&redirects=1&origin=*&page='+encodeURIComponent(title);
+  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(j){
+    var wt=j&&j.parse&&j.parse.wikitext;if(typeof wt!=='string')wt=wt&&wt['*'];
+    if(!wt)return [];
+    var out=[];
+    wt.split('\n').forEach(function(line){
+      var m=/^\*\s*rosyjski\s*:\s*(.*)$/.exec(line);if(!m)return;
+      var body=m[1].replace(/\{\{[^{}]*\}\}/g,' ');
+      var re=/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/g,x;
+      /* соседние ссылки без запятой/точки с запятой между ними — одно выражение: [[давать]] [[о]] [[себе]] */
+      var chunks=body.split(/[;,]|\(\d+\.\d+(?:[-–,]\d+(?:\.\d+)?)*\)/);
+      chunks.forEach(function(ch){
+        var ws=[];re.lastIndex=0;
+        while((x=re.exec(ch)))ws.push((x[2]||x[1]).trim());
+        if(ws.length)out.push(ws.join(' '));
+      });
+    });
+    return out;
+  });
+}
+function fromWikt(q){
+  return wiktPage(q).then(function(r){
+    if(r.length||q===q.toLowerCase())return r;
+    return wiktPage(q.toLowerCase());
+  }).catch(function(){return [];});
+}
+/* 2) MyMemory: переводческая память + машинный перевод; мусор из памяти отсекаем */
+function fromMM(q){
+  var url='https://api.mymemory.translated.net/get?langpair='+encodeURIComponent('pl|ru')+'&q='+encodeURIComponent(q);
+  var nq=words(q),maxW=Math.max(3,nq*2),maxL=Math.max(40,q.length*2.5);
+  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(j){
+    var out=[];
+    function ok(t){
+      if(!t||t.length>maxL||words(t)>maxW)return false;
+      if(!/[а-яё]/i.test(t))return false;
+      if(/[«»"“”„0-9:()\[\]]/.test(t))return false;
+      if(/[.!?]/.test(t.replace(/[.!?]+$/,'')))return false;
+      if(nq<=3&&/[.!?]$/.test(t)&&!/[.!?]$/.test(q))return false;
+      return true;
+    }
+    if(j&&j.responseData&&ok(j.responseData.translatedText))out.push(j.responseData.translatedText);
+    ((j&&j.matches)||[]).filter(function(m){return (+m.match||0)>=0.5;}).sort(function(a,b){return (+b.match||0)-(+a.match||0);})
+      .forEach(function(m){if(ok(String(m.translation||'').trim()))out.push(m.translation);});
+    return out;
+  }).catch(function(){return null;});
+}
 function fetchVariants(q){
   if(trCache[q])return Promise.resolve(trCache[q]);
-  var url='https://api.mymemory.translated.net/get?langpair='+encodeURIComponent('pl|ru')+'&q='+encodeURIComponent(q);
-  return fetch(url).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(j){
-    var seen={},out=[];
-    function add(t){
+  return Promise.all([fromWikt(q),fromMM(q)]).then(function(r){
+    var seen={},res={dict:[],mt:[],failed:r[1]===null&&!r[0].length};
+    function clean(t){
       t=String(t||'').replace(/\s+/g,' ').trim().replace(/[.!;:]+$/,'');
-      if(!t||t.length>80)return;
-      if(/[ąćęłńóśźż]/i.test(t)&&!/[а-яё]/i.test(t))return;
-      if(q===q.toLowerCase()&&!/[.!?]/.test(q))t=t.charAt(0).toLowerCase()+t.slice(1);
-      var k=t.toLowerCase();if(seen[k]||k===q.toLowerCase())return;seen[k]=1;out.push(t);
+      if(words(q)<=3&&!/[.!?]/.test(q))t=t.charAt(0).toLowerCase()+t.slice(1);
+      return t;
     }
-    if(j&&j.responseData)add(j.responseData.translatedText);
-    ((j&&j.matches)||[]).slice().sort(function(a,b){return (+b.match||0)-(+a.match||0);}).forEach(function(m){add(m.translation);});
-    out=out.slice(0,6);trCache[q]=out;return out;
+    function add(list,t){t=clean(t);var k=t.toLowerCase();if(!t||seen[k]||k===q.toLowerCase())return;seen[k]=1;list.push(t);}
+    r[0].forEach(function(t){add(res.dict,t);});
+    (r[1]||[]).forEach(function(t){add(res.mt,t);});
+    res.dict=res.dict.slice(0,8);res.mt=res.mt.slice(0,res.dict.length?3:5);
+    if(!res.failed)trCache[q]=res;
+    return res;
   });
 }
 function quickLinks(q){
@@ -179,13 +228,13 @@ function suggestBox(plIn,trIn){
     fetchVariants(q).then(function(vs){
       if(q!==cur)return;
       list.replaceChildren();
-      if(!vs.length){note.textContent='Вариантов не нашлось. Впишите свой или посмотрите в Google.';return;}
-      vs.forEach(function(v){var c=btn('chip2 small',v,function(){pick(v);});c.dataset.v=v;list.append(c);});
-      note.textContent='Варианты машинные, проверьте их. Можно выбрать несколько или вписать свой.';
+      if(vs.failed){note.textContent='Варианты не загрузились (нет сети или сервис занят). Впишите свой или откройте Google.';return;}
+      if(!vs.dict.length&&!vs.mt.length){note.textContent='Вариантов не нашлось. Впишите свой или посмотрите в Google. Если это форма слова (mamie, robię), попробуйте начальную: mama, robić.';return;}
+      function chip(v,cls){var c=btn('chip2 small'+cls,v,function(){pick(v);});c.dataset.v=v;list.append(c);}
+      vs.dict.forEach(function(v){chip(v,'');});
+      vs.mt.forEach(function(v){chip(v,' mt');});
+      note.textContent=vs.dict.length?(vs.mt.length?'Сплошные — из Wikisłownika, пунктирные — машинные. ':'Из Wikisłownika. ')+'Можно выбрать несколько или вписать свой.':'Варианты машинные, проверьте их. Можно выбрать несколько или вписать свой.';
       mark();
-    }).catch(function(){
-      if(q!==cur)return;
-      note.textContent='Варианты не загрузились (нет сети или сервис занят). Впишите свой или откройте Google.';
     });
   }
   function later(){clearTimeout(T);T=setTimeout(load,600);}

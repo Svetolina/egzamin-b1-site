@@ -598,3 +598,4 @@ main:focus,main:focus-visible{outline:none}
 .sugg .chip2.on{background:var(--okbg);border-color:var(--ok);color:var(--okt)}
 .qlinks{display:flex;flex-wrap:wrap;gap:6px 16px}
 .qlink{display:inline-flex;align-items:center;min-height:36px;font-size:14px;font-weight:700;color:var(--cm)}
+.sugg .chip2.mt{border-style:dashed}
