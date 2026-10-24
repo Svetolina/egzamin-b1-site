@@ -133,11 +133,17 @@ function getWT(host,title){
 }
 var LINK=/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/g;
 function stripTpl(t){var prev;do{prev=t;t=t.replace(/\{\{[^{}]*\}\}/g,' ');}while(t!==prev);return t;}
-function linkGroups(body){
+/* ссылки из строки словаря: русские слова склеиваются в варианты перевода,
+   польские (латиница) — это ссылки на начальную форму, их складываем отдельно */
+function linkGroups(body,latin){
   var out=[];
   body.split(/[;,]|\(\d+\.\d+(?:[-–,]\d+(?:\.\d+)?)*\)/).forEach(function(ch){
     var ws=[],x;LINK.lastIndex=0;
-    while((x=LINK.exec(ch)))ws.push((x[2]||x[1]).trim());
+    while((x=LINK.exec(ch))){
+      var w=(x[2]||x[1]).trim();
+      if(/[а-яё]/i.test(w))ws.push(w);
+      else if(latin&&/^[a-ząćęłńóśźż]+$/i.test(w)&&latin.indexOf(w)<0)latin.push(w);
+    }
     if(ws.length)out.push(ws.join(' '));
   });
   return out;
@@ -182,7 +188,7 @@ function ruLemmas(wt){
   var out=[];if(/форм/i.test(pl))addLemmas(out,pl.split('\n').filter(function(l){return /форм/i.test(l);}).join('\n'));
   return out;
 }
-function ruParse(wt){
+function ruParse(wt,latin){
   if(!wt)return [];
   var pl=section(wt,/^=\s*\{\{-pl-\}\}\s*=\s*$/,/^=\s*\{\{-[a-z-]+-\}\}\s*=\s*$/);
   var out=[],on=false;
@@ -191,7 +197,7 @@ function ruParse(wt){
     if(/^=+/.test(line)){on=false;return;}
     if(on&&/^#(?![:*#])/.test(line)){
       var body=stripTpl(line.replace(/^#\s*/,''));
-      out=out.concat(linkGroups(body));
+      out=out.concat(linkGroups(body,latin));
     }
   });
   return out;
@@ -199,8 +205,10 @@ function ruParse(wt){
 function dictFor(word){
   return Promise.all([getWT('pl.wiktionary.org',word),getWT('ru.wiktionary.org',word)]).then(function(r){
     var p=plParse(r[0]);
-    var ru=ruParse(r[1]);
-    return {tr:p.tr.concat(ru),lemmas:p.lemmas.concat(ruLemmas(r[1]).filter(function(w){return p.lemmas.indexOf(w)<0;})),found:!!(r[0]||r[1])};
+    var lat=[];var ru=ruParse(r[1],lat);
+    var lem=p.lemmas.slice();
+    ruLemmas(r[1]).concat(lat).forEach(function(w){if(lem.indexOf(w)<0)lem.push(w);});
+    return {tr:p.tr.concat(ru),lemmas:lem,found:!!(r[0]||r[1])};
   });
 }
 function fromWikt(q){
@@ -234,20 +242,52 @@ function fromMM(q){
     return out;
   }).catch(function(){return null;});
 }
-function fetchVariants(q){
-  if(trCache[q])return Promise.resolve(trCache[q]);
-  return Promise.all([fromWikt(q),fromMM(q)]).then(function(r){
-    var seen={},res={dict:[],mt:[],lemma:r[0].lemma,failed:r[1]===null&&!r[0].tr.length};
+/* начальная форма: сначала таблица lemmas.js (все слова из текстов сайта, собрана Morfeusz 2),
+   для остальных слов — польский Wikisłownik (страница формы ссылается на начальную) */
+var lemmaLoad=null;
+function loadLemmas(){
+  if(B1.lemmas)return Promise.resolve();
+  if(!lemmaLoad)lemmaLoad=new Promise(function(res){
+    var sc=document.createElement('script');sc.src='assets/js/lemmas.js?v='+(B1.ASSET_VER||'1');
+    sc.onload=res;sc.onerror=function(){lemmaLoad=null;res();};document.head.appendChild(sc);
+  });
+  return lemmaLoad;
+}
+var lemCache={};
+function resolveLemma(q){
+  var lq=q.trim().toLowerCase();
+  if(!lq||words(lq)>1)return Promise.resolve(null);
+  if(lq in lemCache)return Promise.resolve(lemCache[lq]);
+  return loadLemmas().then(function(){
+    var v=B1.lemmas&&B1.lemmas[lq];
+    if(v){var p=v.split('|');return {lemma:p[0],verb:p[1]||null};}
+    if(B1.lemmas)return getWT('pl.wiktionary.org',lq).then(function(wt){
+      var l=plParse(wt).lemmas.filter(function(w){return w!==lq;})[0];
+      return l?{lemma:l,verb:null}:null;
+    });
+    return null;
+  }).then(function(r){lemCache[lq]=r;return r;}).catch(function(){return null;});
+}
+function fetchVariants(q,verb){
+  var key=q+'|'+(verb||'');
+  if(trCache[key])return Promise.resolve(trCache[key]);
+  var lq=q.toLowerCase();
+  var jobs=[dictFor(q).then(function(d){return d.found||q===lq?d:dictFor(lq);}).catch(function(){return {tr:[]};}),
+            verb?dictFor(verb).catch(function(){return {tr:[]};}):Promise.resolve({tr:[]}),
+            fromMM(q)];
+  return Promise.all(jobs).then(function(r){
+    var seen={},res={dict:[],mt:[],failed:r[2]===null&&!r[0].tr.length&&!r[1].tr.length};
     function clean(t){
       t=String(t||'').replace(/\s+/g,' ').trim().replace(/[.!;:,]+$/,'');
       if(words(q)<=3&&!/[.!?]/.test(q))t=t.charAt(0).toLowerCase()+t.slice(1);
       return t;
     }
-    function add(list,t){t=clean(t);var k=t.toLowerCase();if(!t||seen[k]||k===q.toLowerCase())return;seen[k]=1;list.push(t);}
+    function add(list,t){t=clean(t);var k=t.toLowerCase();if(!t||seen[k]||k===lq)return;seen[k]=1;list.push(t);}
     r[0].tr.forEach(function(t){add(res.dict,t);});
-    (r[1]||[]).forEach(function(t){add(res.mt,t);});
-    res.dict=res.dict.slice(0,8);res.mt=res.mt.slice(0,res.dict.length?3:5);
-    if(!res.failed)trCache[q]=res;
+    r[1].tr.forEach(function(t){add(res.dict,t);});
+    (r[2]||[]).forEach(function(t){add(res.mt,t);});
+    res.dict=res.dict.slice(0,8);res.mt=res.mt.slice(0,res.dict.length?2:5);
+    if(!res.failed)trCache[key]=res;
     return res;
   });
 }
@@ -267,9 +307,9 @@ function suggestBox(plIn,trIn,formsIn){
   var list=el('div','sugg-l');list.setAttribute('role','group');list.setAttribute('aria-label','Варианты перевода');
   var note=el('p','fhint');
   var links=el('div');
-  var lem=el('p','lemma');lem.hidden=true;
-  box.append(head,lem,list,note,links);
-  var T=null,cur='';
+  box.append(head,list,note,links);
+  var lem=el('div','lemma');lem.hidden=true;
+  var T=null,cur='',applied=null,run=0;
   function parts(){return trIn.value.split(',').map(function(x){return x.trim().toLowerCase();}).filter(Boolean);}
   function mark(){
     var p=parts();
@@ -282,41 +322,66 @@ function suggestBox(plIn,trIn,formsIn){
     trIn.value=p.join(', ');
     trIn.dispatchEvent(new Event('input'));
   }
-  function load(){
-    var q=plIn.value.trim();
-    links.replaceChildren();if(q)links.append(quickLinks(q));
-    if(q===cur)return;cur=q;
-    list.replaceChildren();note.textContent='';lem.hidden=true;
-    if(!q){box.hidden=true;return;}
-    box.hidden=false;
-    if(q.length>200){note.textContent='Слишком длинный текст для подсказок. Откройте Google Переводчик.';return;}
-    note.textContent='Ищу варианты…';
-    fetchVariants(q).then(function(vs){
-      if(q!==cur)return;
+  function addForm(f){if(formsIn&&f&&(', '+formsIn.value.toLowerCase()+',').indexOf(', '+f.toLowerCase()+',')<0)formsIn.value=(formsIn.value.trim()?f+', '+formsIn.value.trim():f);}
+  function dropForm(f){if(!formsIn)return;formsIn.value=formsIn.value.split(',').map(function(x){return x.trim();}).filter(function(x){return x&&x.toLowerCase()!==f.toLowerCase();}).join(', ');}
+  function setPl(v){plIn.value=v;plIn.dispatchEvent(new Event('input'));clearTimeout(T);}
+  function apply(form,r){
+    applied={form:form,lemma:r.lemma,verb:r.verb};
+    setPl(r.lemma);addForm(form);
+  }
+  function lemmaNote(){
+    lem.replaceChildren();
+    if(!applied){lem.hidden=true;return;}
+    lem.hidden=false;
+    var t=el('p');
+    t.append(el('b','pl',applied.form),document.createTextNode(' — форма слова '),el('b','pl',applied.lemma));
+    if(applied.verb)t.append(document.createTextNode(' (от '),el('b','pl',applied.verb),document.createTextNode(')'));
+    t.append(document.createTextNode('. В словарь записана начальная форма, «'+applied.form+'» — в «Формах».'));
+    lem.append(t,btn('lnk','Оставить «'+applied.form+'»',function(){
+      var f=applied.form;dropForm(f);applied=null;lemmaNote();setPl(f);cur='';load(false,true);
+    }));
+  }
+  function offer(form,r){
+    lem.replaceChildren();lem.hidden=false;
+    var t=el('p');t.append(el('b','pl',form),document.createTextNode(' — форма слова '),el('b','pl',r.lemma),document.createTextNode('. '));
+    lem.append(t,btn('lnk','Записать начальную форму',function(){apply(form,r);lemmaNote();cur='';showTr(r.lemma,r.verb);}));
+  }
+  function showTr(q,verb){
+    cur=q;var my=++run;
+    links.replaceChildren();links.append(quickLinks(q));
+    list.replaceChildren();note.textContent='Ищу варианты…';box.hidden=false;
+    fetchVariants(q,verb).then(function(vs){
+      if(my!==run)return;
       list.replaceChildren();
       if(vs.failed){note.textContent='Варианты не загрузились (нет сети или сервис занят). Впишите свой или откройте Google.';return;}
-      if(vs.lemma&&!vs.dict.length&&!vs.mt.length)showLemma(vs.lemma);
-      if(!vs.dict.length&&!vs.mt.length){note.textContent='Вариантов не нашлось. Впишите свой или посмотрите в Google. Если это форма слова (mamie, robię), попробуйте начальную: mama, robić.';return;}
-      if(vs.lemma)showLemma(vs.lemma);
+      if(!vs.dict.length&&!vs.mt.length){note.textContent='Вариантов не нашлось. Впишите свой или посмотрите в Google.';return;}
       function chip(v,cls){var c=btn('chip2 small'+cls,v,function(){pick(v);});c.dataset.v=v;list.append(c);}
       vs.dict.forEach(function(v){chip(v,'');});
       vs.mt.forEach(function(v){chip(v,' mt');});
-      note.textContent=vs.dict.length?(vs.mt.length?'Сплошные — из словаря (Wikisłownik, Викисловарь), пунктирные — машинные. ':'Из словаря (Wikisłownik, Викисловарь). ')+'Можно выбрать несколько или вписать свой.':'Варианты машинные, проверьте их. Можно выбрать несколько или вписать свой.';
+      note.textContent=(vs.dict.length?(vs.mt.length?'Сплошные — из словаря, пунктирные — машинные. ':'Из словаря. '):'Варианты машинные, проверьте их. ')+'Перевод для «'+q+'». Можно выбрать несколько или вписать свой.';
       mark();
     });
   }
-  function showLemma(lm){
-    lem.replaceChildren();lem.hidden=false;
-    lem.append(el('span',null,'Это форма слова '),el('b','pl',lm),document.createTextNode('. '));
-    lem.append(btn('lnk','Записать начальную форму',function(){
-      var form=plIn.value.trim();
-      plIn.value=lm;plIn.dispatchEvent(new Event('input'));
-      if(formsIn&&form&&formsIn.value.toLowerCase().indexOf(form.toLowerCase())<0)formsIn.value=(formsIn.value.trim()?formsIn.value.trim()+', ':'')+form;
-      load();
-    }));
+  /* auto=true — при открытии формы из выделения: форма сразу заменяется начальной */
+  function load(auto,keep){
+    var q=plIn.value.trim();
+    if(!q){box.hidden=true;lem.hidden=true;cur='';return;}
+    if(q===cur)return;
+    if(applied&&q.toLowerCase()===applied.lemma.toLowerCase()){lemmaNote();showTr(applied.lemma,applied.verb);return;}
+    if(!keep){applied=null;lem.hidden=true;}
+    if(q.length>200){box.hidden=false;list.replaceChildren();links.replaceChildren();links.append(quickLinks(q));note.textContent='Слишком длинный текст для подсказок. Откройте Google Переводчик.';cur=q;return;}
+    cur=q;var my=++run;
+    note.textContent='Ищу варианты…';box.hidden=false;list.replaceChildren();
+    resolveLemma(q).then(function(r){
+      if(my!==run)return;
+      if(r&&!keep){
+        if(auto){apply(q,r);lemmaNote();}else offer(q,r);
+        showTr(r.lemma,r.verb);
+      }else showTr(q,null);
+    });
   }
-  function later(){clearTimeout(T);T=setTimeout(load,600);}
-  return {el:box,load:load,later:later,mark:mark};
+  function later(){clearTimeout(T);T=setTimeout(function(){load(false);},600);}
+  return {el:box,lemEl:lem,load:load,later:later,mark:mark};
 }
 
 /* ---------- форма слова ---------- */
@@ -334,6 +399,7 @@ function wordForm(o){
   fEx.ctrl.rows=2;
   var sg=suggestBox(fPl.ctrl,fTr.ctrl,fForms.ctrl);
   fTr.wrap.append(sg.el);
+  fPl.wrap.append(sg.lemEl);
   b.append(fPl.wrap,fForms.wrap,fTr.wrap,fEx.wrap);
   var topics=DEF_TOPICS.slice();
   S.words.all().forEach(function(x){if(x.topic&&topics.indexOf(x.topic)<0)topics.push(x.topic);});
@@ -360,7 +426,7 @@ function wordForm(o){
   }
   fPl.ctrl.addEventListener('input',function(){fPl.err('');checkDup();sg.later();});
   fTr.ctrl.addEventListener('input',function(){fTr.err('');sg.mark();});
-  sg.load();
+  sg.load(!w&&!!pre.pl);
   checkDup();
   var save=btn('btn2 primary',w?'Сохранить изменения':'Добавить в словарь',function(){
     var pl=fPl.ctrl.value.trim(),tr=fTr.ctrl.value.trim(),bad=false;

@@ -1,0 +1,176 @@
+{
+ "topic": "imieslowy-przyslowkowe",
+ "title": "Imiesłowy przysłówkowe — деепричастия на -ąc и -wszy",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "По стандарту это тема B2: Dz.U. 2025 poz. 217, Zał. 1, Część II, F (B2): 2.2.1 Fleksja, pkt 2 lit. f «imiesłowy przysłówkowe (w ograniczonym zakresie): tworzenie i użycie imiesłowów współczesnych (np.: słuchając, pisząc), rozpoznawanie imiesłowów uprzednich (np.: wysłuchawszy, zjadłszy)», s. 89. В списке B1 (s. 75–78) деепричастий нет. На B2 формы на -wszy нужно только узнавать.",
+  "level": "B2 (слой поверх B1) — образовать и употребить -ąc, узнать -wszy / -łszy; одно подлежащее, запятые, nie раздельно, отличие от -ący.",
+  "katalog_b": [
+   "7.3.1 typowe zajęcia dnia codziennego (s. 84)",
+   "7.5.2 środki transportu (s. 85)"
+  ],
+  "katalog_a": [
+   "6.2.4 wyrażanie relacji czasowych (jednoczesność, następstwo) (s. 84)",
+   "6.2.5 wyrażanie sposobu (s. 84)"
+  ],
+  "exam": "На экзамене B1 деепричастия не проверяются: поиск по сборнику 2017 и всем 18 экзаменам на сайте не нашёл таких заданий. Их стоит узнавать в текстах для чтения; на B2 образование форм на -ąc входит в список грамматики.",
+  "depends_on": [
+   "czas-terazniejszy",
+   "czas-przeszly",
+   "aspekt"
+  ],
+  "feeds": [
+   "imiesłowy przymiotnikowe (B2)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "ZPA": "ZPE (MEN) — «Imiesłów przysłówkowy»: https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+  "ZPB": "ZPE (MEN) — «Imiesłowy i ich rodzaje»: https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+  "ELA": "elon.io — «The Contemporary Verbal Adverb (-ąc)»: https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+  "WEA": "Wikipedia (en) — «Polish grammar»: https://en.wikipedia.org/wiki/Polish_grammar",
+  "ELB": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»: https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+  "XXA": "K. Strycharz, «Imiesłowy mniej kłopotliwe», Gazeta Uniwersytecka (Uniwersytet Rzeszowski) nr 1/32, 2005: https://wydawnictwo.ur.edu.pl/wp-content/uploads/2020/10/Imieslowy_mniej_klopotliwe.pdf",
+  "ELC": "elon.io — «The Active Adjectival Participle (-ący)»: https://elon.io/grammar/polish/verbs/participles/active-adjectival",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "JPBG XI": "Język polski bez granic, kl. XI (B2) (файлы проекта kl.-XI-*.pdf)",
+  "ZJP Por": "Z językiem polskim każdego dnia – B1, poradnik metodyczny (файл проекта Poradnik_…B1.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие, одновременное с главным: Czytając gazetę, pił kawę.",
+   "pl": [],
+   "refs": [
+    "ZPA (раздел о imiesłowie współczesnym)",
+    "ZPB (раздел imiesłów przysłówkowy współczesny)",
+    "ELA (разделы Formation, Imperfective only)",
+    "WEA (Participles: present adverbial participle — imperfective only, śpiewając)",
+    "JPBG XI s. 62 (współczesny «wskazuje na dwie czynności wykonywane w tym samym czasie; tworzy się go tylko od czasowników niedokonanych»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "Образование -ąc: 3-е л. мн. ч. настоящего времени + -c: czytają → czytając, robią → robiąc, idą → idąc, piszą → pisząc.",
+   "pl": [],
+   "refs": [
+    "ZPA («czytają → czytając»)",
+    "ELA (раздел Formation: robią → robiąc, idą → idąc)",
+    "JPBG XI s. 62 («do tematu 3. osoby liczby mnogiej czasu teraźniejszego dodajemy końcówkę -ąc: czytaj-ą – czytaj-ąc, pisz-ą – pisz-ąc»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "być → będąc (от основы будущего будę): Będąc w Krakowie, odwiedź Wawel.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Formation: «Być is irregular: będąc»)",
+    "ZJP Por s. 55 (пример употребления: «Anna, będąc odpowiedzialną przyjaciółką, zauważyła…»)"
+   ],
+   "status": "ok",
+   "decision": "подтверждено учебником проекта при сверке 24.10.2026"
+  },
+  {
+   "id": "R4",
+   "ru": "Imiesłów przysłówkowy uprzedni на -wszy / -łszy образуется только от глаголов совершенного вида и обозначает действие, завершившееся до главного: Przeczytawszy list, zadzwoniła do matki.",
+   "pl": [],
+   "refs": [
+    "ZPA (раздел о imiesłowie uprzednim)",
+    "ZPB («od czasowników dokonanych … wyłącznie imiesłowy uprzednie»)",
+    "ELB (разделы Formation, Meaning)",
+    "WEA (past active participle: zabiwszy, perfective only)",
+    "JPBG XI s. 62 (uprzedni «wskazuje czynność wcześniejszą niż inna; tworzy się go tylko od czasowników dokonanych»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "Образование: прош. вр. м. р. без -ł; после гласной + -wszy (zrobił → zrobiwszy, przeczytał → przeczytawszy, napisał → napisawszy), после согласной + -łszy (zjadł → zjadłszy, przyszedł → przyszedłszy, przyniósł → przyniósłszy).",
+   "pl": [],
+   "refs": [
+    "ELB (раздел Formation)",
+    "ZPA (примеры przeczytawszy, przyniósłszy)",
+    "ZPB (примеры napisawszy, zmókłszy)",
+    "JPBG XI s. 62 («-wszy, gdy temat czasownika kończy się na samogłoskę: przeczyta-ł – przeczyta-wszy … -łszy, gdy … na spółgłoskę: zjad-ł – zjad-łszy»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "Imiesłowy przysłówkowe не изменяются (как наречия): skończywszy, czytając — для любого рода и числа.",
+   "pl": [],
+   "refs": [
+    "ZPA («Imiesłowy przysłówkowe tak jak przysłówek nie podlegają odmianie»)",
+    "ELB («The form is indeclinable»)",
+    "WEA («this form is invariant»)",
+    "JPBG XI s. 62 («Imiesłów przysłówkowy to nieodmienna i nieosobowa forma czasownika»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "Общее подлежащее: действие причастия выполняет подлежащее главного предложения. Ошибка: *Idąc do szkoły, padał deszcz*. Правильно: Idąc do szkoły, zmokłem.",
+   "pl": [],
+   "refs": [
+    "ZPA (раздел «Wspólny podmiot», пример с rzeką)",
+    "ELA (раздел Same-subject rule)",
+    "ELB (раздел Same subject)",
+    "JPBG XI s. 62 («może być tylko jeden podmiot…»; «Kiedy jadł obiad, zaczęła się burza — użycie imiesłowu nie jest możliwe»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "Оборот с imiesłowem przysłówkowym (imiesłowowy równoważnik zdania) выделяется запятыми.",
+   "pl": [],
+   "refs": [
+    "ZPA (раздел «Przecinek»: «Anna, czekając na tramwaj, …»)",
+    "ZPB («A comma always…» — przecinek przy imiesłowach przysłówkowych)",
+    "JPBG XI s. 62–63 (примеры с запятыми: «Czytając książkę, jadłam kanapkę»; «Kasia, pisząc wypracowanie, jadła jabłko»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "nie с imiesłowem przysłówkowym пишется раздельно: nie wiedząc, nie czytając, nie przeczytawszy.",
+   "pl": [],
+   "refs": [
+    "ZPA (раздел «Pisownia nie»)",
+    "XXA («z imiesłowami przysłówkowymi … obowiązuje pisownia rozdzielna»)",
+    "JPBG XI s. 62 («Imiesłowy przysłówkowe z „nie” pisze się oddzielnie: nie jedząc, nie zjadłszy»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "Стиль: -ąc — книжная/официальная форма (в разговоре чаще kiedy/gdy + глагол), но устойчивые обороты (mówiąc szczerze) обычны и в речи; -wszy — очень книжная, в разговоре почти не употребляется.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Register)",
+    "ELB (раздел Register)"
+   ],
+   "status": "ok",
+   "note": "Оба источника — разные страницы одного сайта (elon.io); стилистическое правило, не грамматическое."
+  },
+  {
+   "id": "R11",
+   "ru": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное и заменяет придаточное с który: kobieta czytająca książkę = kobieta, która czyta książkę. В отличие от -ąc он относится к существительному.",
+   "pl": [],
+   "refs": [
+    "ELC (разделы Formation, Declension, Difference from -ąc)",
+    "ZPB (раздел imiesłów przymiotnikowy czynny)",
+    "WEA (present adjectival participle śpiewający)",
+    "JPBG XI s. 19 («Imiesłowy przymiotnikowe czynne tworzy się tylko od czasowników niedokonanych przez dodanie do tematu 3. osoby l.mn. czasu teraźniejszego przyrostków -ący, -ąca, -ące»)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "forms": []
+}

@@ -1,0 +1,412 @@
+{
+ "topic": "tryb-przypuszczajacy",
+ "title": "Tryb przypuszczający — условное наклонение",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "ELF",
+   "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+   "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by"
+  },
+  {
+   "id": "ELT",
+   "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+   "url": "https://elon.io/grammar/polish/complex/conditional-types"
+  },
+  {
+   "id": "ZPE",
+   "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», разделы «Tryb przypuszczający», «Pisownia cząstki „by”»",
+   "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p"
+  },
+  {
+   "id": "GJ6",
+   "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы «A verb in Polish distinguishes 3 modes…», «Forms of the conditional mode…»",
+   "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html"
+  },
+  {
+   "id": "WEN",
+   "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+   "url": "https://en.wikipedia.org/wiki/Polish_grammar"
+  },
+  {
+   "id": "PD7",
+   "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+   "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/"
+  },
+  {
+   "id": "PD68",
+   "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+   "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf"
+  },
+  {
+   "id": "PDW",
+   "title": "Polski Daily: «Tryb warunkowy — realne i nierealne sytuacje» (PDF, podsumowanie)",
+   "url": "https://www.polskidaily.eu/wp-content/uploads/2020/05/B-Tryb-warunkowy-realne-i-nierealne-sytuacje.pdf"
+  },
+  {
+   "id": "PDT",
+   "title": "Polski Daily: «Tryb przypuszczający 1» (PDF, ćwiczenia 1–2 z kluczem)",
+   "url": "https://www.polskidaily.eu/wp-content/uploads/2019/05/Tryb-przypuszczaj%C4%85cy-1.pdf"
+  },
+  {
+   "id": "VT",
+   "title": "Varsity Tutors, Conversational Polish: «Making polite requests»",
+   "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/making-polite-requests"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "Tryb przypuszczający (условное наклонение, «бы») выражает возможное, воображаемое, желаемое: то, что могло бы случиться при каких-то условиях.",
+   "sources": [
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», разделы «Tryb przypuszczający», «Pisownia cząstki „by”»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Tryb przypuszczający»: «wyraża przypuszczenie, opowiada o zdarzeniach, które mogłyby się zdarzyć»"
+    },
+    {
+     "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+     "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/",
+     "id": "PD7",
+     "where": "«hypothetical situations»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "раздел «Uses»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "Образование: форма прошедшего времени 3 лица (robił, robiła, robiło, robili, robiły) + by + личное окончание -m, -ś, —, -śmy, -ście: robiłbym, robiłabyś, robiłby, robilibyśmy, robiłybyście.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Formation»"
+    },
+    {
+     "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+     "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/",
+     "id": "PD7",
+     "where": "«Formation»: 3 л. прош. времени + by"
+    },
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«Past tense, third person» + «Particle by»"
+    },
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "«formed from the past tense, by, and the personal ending»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы «A verb in Polish distinguishes 3 modes…», «Forms of the conditional mode…»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«3rd-person past form + by + personal endings»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Род различается, как в прошедшем: ja ♂ czytałbym / ja ♀ czytałabym; мн. ч.: мужско-личный czytalibyśmy, czytalibyście, czytaliby — немужско-личный czytałybyśmy, czytałybyście, czytałyby.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Full paradigm»"
+    },
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "примеры byłbym/byłabym … byliby/byłyby"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Основа — именно 3 лицо: не *robiłemby, *robiliśmyby. Личное окончание стоит после by.",
+   "sources": [
+    {
+     "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+     "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/",
+     "id": "PD7",
+     "where": "замечание: окончание не присоединяется к 1/2 лицу прошедшего"
+    },
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«Past tense, third person: on miał, ona miała…»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Частица by с окончанием подвижна: может стоять при глаголе или перед ним, на выделенном слове: Zrobiłbym to chętnie = Chętnie bym to zrobił; Ja bym poszedł. Предложение с by начинать нельзя.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Movable by»"
+    },
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "«Movable personal ending»: kiedy byście przyszli"
+    },
+    {
+     "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+     "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/",
+     "id": "PD7",
+     "where": "«A clause cannot begin with the particle by»"
+    },
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«Placement: miałbym или bym miał»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы «A verb in Polish distinguishes 3 modes…», «Forms of the conditional mode…»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«the endings can move to other words»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "Правописание: by пишется слитно с личной формой глагола (zrobiłbym), с союзами gdyby, żeby, aby и частицей oby; раздельно — если by «переехало» на другое слово (chętnie bym, czy byś).",
+   "sources": [
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», разделы «Tryb przypuszczający», «Pisownia cząstki „by”»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Pisownia cząstki „by”»: razem z osobowymi formami, z oby, gdyby, żeby"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Spelling: together vs. separately»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Раздельно by пишется и после безличных слов и инфинитива: trzeba by, można by, warto by, wolno by; powinien by.",
+   "sources": [
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», разделы «Tryb przypuszczający», «Pisownia cząstki „by”»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Pisownia cząstki „by”»: osobno z nieosobowymi formami, można, trzeba, warto, wolno; z winien, powinien"
+    }
+   ],
+   "note": "Подтверждено только ZPE; дано одной строкой с пометкой."
+  },
+  {
+   "id": "R8",
+   "text": "Вежливость: chciałbym/chciałabym вместо chcę; mógłbyś…? / mogłabyś…? вместо możesz…?; официально: Czy mógłby pan…? Czy mogłaby pani…? Mógłbym prosić rachunek? С отрицанием ещё вежливее: Czy nie mógłby pan…?",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Uses»: Mógłbyś otworzyć okno?, Chciałbym…"
+    },
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«Polite requests»: Chciałbym, Mógłbym prosić rachunek?"
+    },
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Making polite requests»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/making-polite-requests",
+     "id": "VT",
+     "where": "«Conditional Forms of móc», «Stacking Softeners»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Нереальное условие: gdyby + форма на -ł (с личным окончанием на gdyby: gdybym, gdybyś, gdybyśmy) + в главной части условное наклонение: Gdybym miał czas, poszedłbym na spacer.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Conjunctions gdyby and żeby», «Unreal conditions»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+     "url": "https://elon.io/grammar/polish/complex/conditional-types",
+     "id": "ELT",
+     "where": "«Unreal condition (Type 2)»"
+    },
+    {
+     "title": "Polski Daily: «Tryb warunkowy — realne i nierealne sytuacje» (PDF, podsumowanie)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/05/B-Tryb-warunkowy-realne-i-nierealne-sytuacje.pdf",
+     "id": "PDW",
+     "where": "«Zdania warunkowe nierealne»"
+    },
+    {
+     "title": "Polski Daily: «Tryb przypuszczający 1» (PDF, ćwiczenia 1–2 z kluczem)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2019/05/Tryb-przypuszczaj%C4%85cy-1.pdf",
+     "id": "PDT",
+     "where": "примеры ćw. 1–2"
+    },
+    {
+     "title": "Polski Daily, kurs A2.1, lekcja 7 (tryb przypuszczający)",
+     "url": "https://polskidaily.eu/kurs-a2-1-lekcja-7/",
+     "id": "PD7",
+     "where": "«If clauses: gdybym, gdybyś…»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "text": "Одно by на часть предложения: не *gdybym miałbym, *gdyby on miałby. После gdyby не ставят будущее: не *gdyby będę miał.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«One by per clause»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+     "url": "https://elon.io/grammar/polish/complex/conditional-types",
+     "id": "ELT",
+     "where": "«Common errors»"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "text": "Реальное условие: jeśli / jeżeli + будущее (или настоящее), в главной части — будущее: Jeśli zdasz egzamin, pójdziemy to uczcić. Переход реальное ↔ нереальное: jeśli ↔ gdyby, будущее ↔ условное.",
+   "sources": [
+    {
+     "title": "Polski Daily: «Tryb warunkowy — realne i nierealne sytuacje» (PDF, podsumowanie)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/05/B-Tryb-warunkowy-realne-i-nierealne-sytuacje.pdf",
+     "id": "PDW",
+     "where": "«Zdania warunkowe realne», «Zamiana»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+     "url": "https://elon.io/grammar/polish/complex/conditional-types",
+     "id": "ELT",
+     "where": "«Real condition (Type 1)»"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "text": "Gdy без by значит «когда», поэтому в gdyby частица обязательна. Jeśli/jeżeli + by в разговорной речи встречается (Jeśli bym miał…), но для нереального условия нормой учим gdyby.",
+   "sources": [
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«With gdy/jeśli/jeżeli»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+     "url": "https://elon.io/grammar/polish/complex/conditional-types",
+     "id": "ELT",
+     "where": "«Jeśli for unreal conditions» — ошибка"
+    }
+   ],
+   "note": "Источники расходятся: PD68 допускает jeśli by, elon.io считает ошибкой. Решение: учим и принимаем только gdyby."
+  },
+  {
+   "id": "R13",
+   "text": "Gdyby для прошлого: форма та же, время показывают слова wtedy, wczoraj: Gdybym wtedy wiedział, nie przyszedłbym.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Three Conditional Types in Depth»",
+     "url": "https://elon.io/grammar/polish/complex/conditional-types",
+     "id": "ELT",
+     "where": "«Past unreal (Type 3)»"
+    }
+   ],
+   "note": "Только один источник; дано одной строкой. Архаичную форму byłbym zrobił на B1 не даём."
+  },
+  {
+   "id": "R14",
+   "text": "Żeby (aby) + форма на -ł с личным окончанием на żeby — когда хотим/просим, чтобы ДРУГОЙ человек что-то сделал: Chcę, żebyś przyszedł. Mama prosi, żebyśmy wrócili wcześnie.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "«Conjunctions gdyby and żeby»: Chcę, żebyś przyszedł"
+    },
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "«chce, żeby(m) śpiewał»"
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "text": "Условное наклонение образуют оба вида: zrobiłbym (dk) / robiłbym (ndk) — выбор вида по обычным правилам (результат / процесс, повтор).",
+   "sources": [
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Conditional",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "«Both types also have imperative and conditional forms»"
+    },
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "примеры nauczyłbym się (dk) / martwiłbym się (ndk)"
+    }
+   ]
+  },
+  {
+   "id": "R16",
+   "text": "В главной части после gdyby можно поставить необязательное to: Gdybym miał psa, to bym musiał wcześnie wstawać.",
+   "sources": [
+    {
+     "title": "Polski Daily, PDS068: «Tryb przypuszczający: grzeczne prośby i budowa» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/01/PDS068.pdf",
+     "id": "PD68",
+     "where": "«Filler to»"
+    }
+   ],
+   "note": "Только один источник; дано как заметка."
+  },
+  {
+   "id": "R17",
+   "text": "Совет: Na twoim miejscu + условное наклонение: Na twoim miejscu nie martwiłbym się tym.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «The Conditional: -by and the Movable Particle»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/formation-by",
+     "id": "ELF",
+     "where": "пример в «Uses»"
+    }
+   ],
+   "note": "Только один источник; дано как заметка."
+  }
+ ]
+}

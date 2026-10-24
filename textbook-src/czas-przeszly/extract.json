@@ -1,0 +1,181 @@
+{
+  "topic": "czas-przeszly",
+  "title": "Czas przeszły — прошедшее время",
+  "stage": "выписка и сверка (шаги 1–3), ждёт проверки пользователем",
+  "updated": "2026-10-23",
+
+  "passport": {
+    "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1), 2.2.1 Fleksja, pkt 2 lit. a: «czas przeszły czasowników niedokonanych i dokonanych (np.: leżały, kupowali, poszłam, zjadłeś, umyło się)» — s. 77 Dz.U. Та же строка с теми же примерами уже на A2; на A1 — słuchałem, napisałaś, zrobiliśmy, umyłyśmy; на B2 добавляются zaczęły, ciął, urósł.",
+    "level": "B1. Окончания знакомы с A1–A2; на B1 упор на трудные основы (-eć, -ąć, iść и приставки, nieść / wieźć / jeść / znaleźć, móc / piec), на различие -li / -ły и на вид глагола в прошлом.",
+    "katalog_b": ["7.3.1 typowe zajęcia / czynności dnia codziennego", "7.10 podróżowanie i turystyka", "7.4.5 hobby i zainteresowania"],
+    "katalog_a": ["4 informowanie (relacjonowanie wydarzeń)", "opowiadanie o przeszłości"],
+    "exam": "На реальных экзаменах сайта отдельного задания на прошедшее время нет (есть «czas teraźniejszy i przyszły»), но формы прошедшего нужны в перефразировании и в письме (opowiadanie, list). В сборнике комиссии 2017 года прошедшему времени посвящён целый блок 6 (зад. I–V) и задание 7.V.",
+    "depends_on": ["czas-terazniejszy", "aspekt (вид глагола — следующая тема)"],
+    "feeds": ["czas przyszły złożony: форма будущего на -ł (będę robił) — это та же форма на -ł, см. тему czas-przyszly, F4"]
+  },
+
+  "sources": {
+    "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+    "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023, rozdział III «Tu byłem! — czas przeszły (niedokonany i dokonany)», s. 75–110; klucz s. 233–234",
+    "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0 (s. 15, вид глагола), lekcja 5 «Grunt to rodzinka» (s. 99–102, czas przeszły i oboczności); klucz s. 196–197",
+    "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka, blok 6 zad. I–V (s. 19–22) и blok 7 zad. V (s. 25) — ключ внесён в tests/b1-sbornik.js сайта (k6-1 … k6-5, k7-5)",
+    "MORF": "Morfeusz 2 (SGJP), версия 1.99.15 — проверка форм скриптом tools/morfeusz_check.py",
+    "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): отдельного правила о прошедшем времени нет, только употребление (лекция 7B, 7D, 8C)"
+  },
+
+  "facts": [
+    {
+      "id": "R1",
+      "ru": "Прошедшее время строится от инфинитива: отбрасываем -ć, добавляем -ł- и окончание по лицу и роду.",
+      "pl": ["by-ć → był", "czyta-ć → czytał", "mie-ć → miał", "kupowa-ć → kupował"],
+      "refs": ["JPBG s. 99 («tworzymy przez dodanie odpowiedniego zakończenia do tematu bezokolicznika… po odcięciu końcówki -ć»)", "PO s. 83–84 (таблицы BY-Ć → BY-Ł, (Z)ROBI-Ć → (Z)ROBI-Ł)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R2",
+      "ru": "Окончания. Ед. ч.: муж. -łem, -łeś, -ł; жен. -łam, -łaś, -ła; ср. -ło. Мн. ч.: мужско-личный -liśmy, -liście, -li; немужско-личный -łyśmy, -łyście, -ły. Лицо видно по окончанию, местоимение не нужно.",
+      "pl": ["byłem, byłeś, był", "byłam, byłaś, była", "było", "byliśmy, byliście, byli", "byłyśmy, byłyście, były"],
+      "refs": ["PO s. 83 (таблица być: był+em, był+am, byli+śmy, były+śmy)", "JPBG s. 99 (таблица: byłem, czytałem, oglądałem…)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R3",
+      "ru": "Во множественном числе два рода. Мужско-личный (-li): группа мужчин или смешанная группа, где есть хотя бы один мужчина (в т. ч. państwo). Немужско-личный (-ły): женщины, дети, животные, предметы.",
+      "pl": ["Gdzie państwo byli?", "Państwo Kowalscy podwieźli mnie do domu.", "Siostry czuły się źle.", "Dzieci przeszły na drugą stronę ulicy."],
+      "refs": ["PO s. 83 (rodzaj męskoosobowy / niemęskoosobowy; «Gdzie państwo byli?», klucz s. 233)", "JPBG s. 99 (таблица родов), s. 102 упр. VII + klucz s. 197 (Państwo Kowalscy podwieźli), s. 143 (Dzieci przeszły)", "KEY k6-1 (siostry … czuły się)", "STD (leżały, kupowali)"],
+      "status": "ok"
+    },
+    {
+      "id": "R4",
+      "ru": "Глаголы на -eć: в единственном числе и в немужско-личном роде -ał-, -ała, -ały; в мужско-личном — -eli.",
+      "pl": ["mieć – miał, miała, mieli, miały", "musieć – musiał, musieli", "chcieć – chciał, chcieli", "wiedzieć – wiedział, wiedzieli", "myśleć – myślał, myśleli", "rozumieć – rozumiał, rozumieli"],
+      "refs": ["PO s. 88 («Uwaga na …-eć!», MI-AŁ / MI-ELI), klucz s. 233 (chciały, wiedziały, musieli, chcieliśmy)", "JPBG s. 100 (B: «tylko w rodzaju męskoosobowym jest e… alternacja a : e»)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R5",
+      "ru": "Глаголы на -ąć: -ą- только в мужском роде ед. ч. (wziąłem, wziąłeś, wziął), во всех остальных формах -ę- (wzięłam, wzięło, wzięli, wzięły). Перед ł ą читается как [o], ę — как [e]: [wziołem], [wziełam].",
+      "pl": ["wziąć – wziąłem, wziął, wzięła, wzięli", "zacząć – zaczął, zaczęła", "zamknąć – zamknął, zamknęła", "płynąć – płynął, płynęła"],
+      "refs": ["PO s. 90 (WZI-ĄŁ / WZI-ĘŁO; «zamiast ą czytamy o, a zamiast ę — e»), klucz s. 233 (zajęła, wzięła, zaczęła)", "JPBG s. 101 (C: «Tylko w rodzaju męskim jest ą… alternacja ą : ę»; «ę, ą przed ł wymawiamy jak e, o»)", "KEY k6-1 (wzięłaś, krzyknęła), k6-3 (zginął, zająłem się)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R6",
+      "ru": "Iść: szedłem, szedłeś, szedł; szłam, szła, szło; szliśmy, szli; szłyśmy, szły. Так же все приставочные: pójść – poszedł, poszła; przyjść – przyszedł; wyjść – wyszedł; wejść – wszedł, weszła.",
+      "pl": ["iść – szedł, szła, szli, szły", "pójść – poszedłem, poszłam", "przyjść – przyszedł, przyszła", "wyjść – wyszedł, wyszły", "wejść – wszedł, weszła, weszli"],
+      "refs": ["PO s. 92 (iść и rodzina, cz. I), s. 94 (wejść, zejść, odejść…)", "JPBG s. 100 (A: czasownik iść; «Tak samo odmieniają się pójść, wyjść, przyjść, odejść»)", "KEY k6-3 (poszedłeś, przyszła, poszła, przyszli), k6-5 (wyszły, wyszedł, doszedł)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R7",
+      "ru": "Nieść, wieźć, jeść, znaleźć: в мужско-личном роде -e- (nieśli, wieźli, jedli, znaleźli), в остальных формах -o- / -a- (niosła, wiozła, jadła, znalazła); в «он» у nieść, wieźć — ó: niósł, wiózł.",
+      "pl": ["nieść – niósł, niosła, nieśli", "wieźć – wiózł, wiozła, wieźli", "jeść – jadł, jadła, jedli", "znaleźć – znalazł, znalazła, znaleźli"],
+      "refs": ["PO s. 98 (NIEŚĆ, WIEŹĆ, ZNALEŹĆ, JEŚĆ)", "JPBG s. 100 (jeść: jadłem, jedliśmy), s. 102 (D: nieść, wieźć; «alternacja e : o : ó»)", "KEY k6-2 (zaniósł, znaleźliśmy), k6-3 (zjadłem, znaleźli)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R8",
+      "ru": "Móc, piec, biec: в прошедшем появляется -g- / -k-: mógł, mogła, mogli; piekł, piekła; biegł, biegła. В «он» у móc — ó.",
+      "pl": ["móc – mógł, mogła, mogli", "pomóc – pomogłem", "piec – piekł, piekła, piekli", "biec – biegł, biegła"],
+      "refs": ["PO s. 96 (MÓC, BIEC, PIEC, UCIEC)", "JPBG klucz s. 197 (Pomogłem), s. 143 + klucz s. 200 (będziecie piekły)", "KEY k6-2 (piekła), k6-3 (mogliśmy), k6-5 (mogła)", "MORF"],
+      "status": "ok"
+    },
+    {
+      "id": "R9",
+      "ru": "Вид в прошедшем: несовершенный (robiłem) — процесс, повторение, «чем занимался»; совершенный (zrobiłem) — один законченный результат.",
+      "pl": ["Czy w zeszłym roku często piłeś zieloną herbatę? / Czy w zeszłym miesiącu wypiłeś zieloną herbatę?", "Co wtedy robiłeś? / Co wtedy zrobiłeś?", "pisała list → napisałam list"],
+      "refs": ["PO s. 84 (упр. 5: czas przeszły niedokonany «często…» / dokonany «w zeszłym miesiącu…»), s. 85 (6a «Co wtedy robiłeś?» / 6b «Co wtedy zrobiłeś?»)", "JPBG s. 15 (niedokonane: «czynność trwała… robiłem»; dokonane: «czynność została zakończona… zrobiłem»)", "KEY k7-5 (pisała → napisałam, oglądała → obejrzałam)"],
+      "status": "ok"
+    },
+    {
+      "id": "R10",
+      "ru": "Слова-сигналы прошлого: wczoraj, przedwczoraj, w zeszłym tygodniu / roku, przed chwilą; «назад» — temu после выражения времени: godzinę temu, tydzień temu, dwa lata temu.",
+      "pl": ["Wczoraj przeczytałam całą książkę.", "tydzień temu", "w zeszłym roku", "Kilka lat temu moja mama postanowiła…"],
+      "refs": ["PO s. 85 («Kiedy to było?»: przed chwilą, wczoraj, tydzień temu, w zeszłym roku…)", "JPBG s. 99 (Wczoraj przeczytałam całą książkę), s. 135 (Kilka lat temu…)", "KEY k6-1 (wczoraj)"],
+      "status": "ok"
+    },
+    {
+      "id": "R11",
+      "ru": "В вежливом обращении глагол ставится в 3-м лице: pan był, pani była, panowie byli, panie były, państwo byli.",
+      "pl": ["Gdzie pan był?", "Gdzie pani była?", "Gdzie panie były?", "Dokąd państwo poszli?"],
+      "refs": ["PO s. 83 упр. 3, s. 92 упр. 16, klucz s. 233 (Gdzie pan był? Gdzie panowie byli? Gdzie państwo byli?…)", "JPBG s. 102 упр. VII + klucz s. 197 (Pan Profesor Nowak przyniósł)", "KEY k6-4 (Dlaczego mi pan nie powiedział…; Nie mogli państwo…)"],
+      "status": "ok"
+    },
+    {
+      "id": "R12",
+      "ru": "Nie ma → nie było: отрицание наличия в прошлом всегда в форме było (ср. род), а то, чего не было, — в родительном падеже.",
+      "pl": ["W lodówce nic nie ma. → W lodówce nie było nic.", "W piwnicy nie było zasięgu."],
+      "refs": ["KEY k6-5 (nic nie ma → nie było)", "JPBG s. 73 упр. II + klucz s. 194 (nie … zasięgu → było)", "STD B1 2.2.2 (Koleżanki nie było w szkole — пример из раздела składnia)"],
+      "status": "ok"
+    }
+  ],
+
+  "noticed": [
+    "PO s. 98: заголовок «WYNALEŹC» напечатан без диакритики над c (должно быть wynaleźć).",
+    "ZJP B1: правила о прошедшем времени нет; в выписку не берём.",
+    "Сборник 2017, k6-1: в ключе «spóźniły» без się, потому что się стоит в тексте до пропуска. На сайте это уже так."
+  ],
+
+  "forms": [
+    {"form": "byłem", "kind": "przesz", "lemma": "być", "p": 1, "n": "sg", "g": "m"},
+    {"form": "byłaś", "kind": "przesz", "lemma": "być", "p": 2, "n": "sg", "g": "f"},
+    {"form": "było", "kind": "przesz", "lemma": "być", "p": 3, "n": "sg", "g": "n"},
+    {"form": "byliśmy", "kind": "przesz", "lemma": "być", "p": 1, "n": "pl", "g": "mo"},
+    {"form": "byłyście", "kind": "przesz", "lemma": "być", "p": 2, "n": "pl", "g": "nmo"},
+    {"form": "czytałem", "kind": "przesz", "lemma": "czytać", "p": 1, "n": "sg", "g": "m"},
+    {"form": "czytały", "kind": "przesz", "lemma": "czytać", "p": 3, "n": "pl", "g": "nmo"},
+    {"form": "kupowali", "kind": "przesz", "lemma": "kupować", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "leżały", "kind": "przesz", "lemma": "leżeć", "p": 3, "n": "pl", "g": "nmo"},
+    {"form": "miał", "kind": "przesz", "lemma": "mieć", "p": 3, "n": "sg", "g": "m"},
+    {"form": "mieli", "kind": "przesz", "lemma": "mieć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "miały", "kind": "przesz", "lemma": "mieć", "p": 3, "n": "pl", "g": "nmo"},
+    {"form": "musieli", "kind": "przesz", "lemma": "musieć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "chciałam", "kind": "przesz", "lemma": "chcieć", "p": 1, "n": "sg", "g": "f"},
+    {"form": "chcieliśmy", "kind": "przesz", "lemma": "chcieć", "p": 1, "n": "pl", "g": "mo"},
+    {"form": "wiedzieli", "kind": "przesz", "lemma": "wiedzieć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "myślałam", "kind": "przesz", "lemma": "myśleć", "p": 1, "n": "sg", "g": "f"},
+    {"form": "rozumieli", "kind": "przesz", "lemma": "rozumieć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "wziąłem", "kind": "przesz", "lemma": "wziąć", "p": 1, "n": "sg", "g": "m"},
+    {"form": "wzięłam", "kind": "przesz", "lemma": "wziąć", "p": 1, "n": "sg", "g": "f"},
+    {"form": "wzięli", "kind": "przesz", "lemma": "wziąć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "zaczął", "kind": "przesz", "lemma": "zacząć", "p": 3, "n": "sg", "g": "m"},
+    {"form": "zaczęła", "kind": "przesz", "lemma": "zacząć", "p": 3, "n": "sg", "g": "f"},
+    {"form": "zamknęła", "kind": "przesz", "lemma": "zamknąć", "p": 3, "n": "sg", "g": "f"},
+    {"form": "płynął", "kind": "przesz", "lemma": "płynąć", "p": 3, "n": "sg", "g": "m"},
+    {"form": "szedłem", "kind": "przesz", "lemma": "iść", "p": 1, "n": "sg", "g": "m"},
+    {"form": "szła", "kind": "przesz", "lemma": "iść", "p": 3, "n": "sg", "g": "f"},
+    {"form": "szli", "kind": "przesz", "lemma": "iść", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "szły", "kind": "przesz", "lemma": "iść", "p": 3, "n": "pl", "g": "nmo"},
+    {"form": "poszedłem", "kind": "przesz", "lemma": "pójść", "p": 1, "n": "sg", "g": "m"},
+    {"form": "poszłam", "kind": "przesz", "lemma": "pójść", "p": 1, "n": "sg", "g": "f"},
+    {"form": "przyszedł", "kind": "przesz", "lemma": "przyjść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "przyszła", "kind": "przesz", "lemma": "przyjść", "p": 3, "n": "sg", "g": "f"},
+    {"form": "wyszedł", "kind": "przesz", "lemma": "wyjść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "wszedł", "kind": "przesz", "lemma": "wejść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "weszła", "kind": "przesz", "lemma": "wejść", "p": 3, "n": "sg", "g": "f"},
+    {"form": "niósł", "kind": "przesz", "lemma": "nieść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "niosła", "kind": "przesz", "lemma": "nieść", "p": 3, "n": "sg", "g": "f"},
+    {"form": "nieśli", "kind": "przesz", "lemma": "nieść", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "wiózł", "kind": "przesz", "lemma": "wieźć", "p": 3, "n": "sg", "g": "m"},
+    {"form": "wieźli", "kind": "przesz", "lemma": "wieźć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "jadł", "kind": "przesz", "lemma": "jeść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "jedli", "kind": "przesz", "lemma": "jeść", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "zjadłeś", "kind": "przesz", "lemma": "zjeść", "p": 2, "n": "sg", "g": "m"},
+    {"form": "znalazła", "kind": "przesz", "lemma": "znaleźć", "p": 3, "n": "sg", "g": "f"},
+    {"form": "znaleźli", "kind": "przesz", "lemma": "znaleźć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "mógł", "kind": "przesz", "lemma": "móc", "p": 3, "n": "sg", "g": "m"},
+    {"form": "mogła", "kind": "przesz", "lemma": "móc", "p": 3, "n": "sg", "g": "f"},
+    {"form": "mogli", "kind": "przesz", "lemma": "móc", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "pomogłem", "kind": "przesz", "lemma": "pomóc", "p": 1, "n": "sg", "g": "m"},
+    {"form": "piekła", "kind": "przesz", "lemma": "piec", "p": 3, "n": "sg", "g": "f"},
+    {"form": "biegł", "kind": "przesz", "lemma": "biec", "p": 3, "n": "sg", "g": "m"},
+    {"form": "napisałam", "kind": "przesz", "lemma": "napisać", "p": 1, "n": "sg", "g": "f", "aspect": "perf"},
+    {"form": "pisała", "kind": "przesz", "lemma": "pisać", "p": 3, "n": "sg", "g": "f", "aspect": "imperf"},
+    {"form": "wypiłeś", "kind": "przesz", "lemma": "wypić", "p": 2, "n": "sg", "g": "m", "aspect": "perf"},
+    {"form": "przyniósł", "kind": "przesz", "lemma": "przynieść", "p": 3, "n": "sg", "g": "m"},
+    {"form": "podwieźli", "kind": "przesz", "lemma": "podwieźć", "p": 3, "n": "pl", "g": "mo"},
+    {"form": "wziąłam", "kind": "przesz", "lemma": "wziąć", "p": 1, "n": "sg", "g": "f", "expect_error": true},
+    {"form": "mięli", "kind": "przesz", "lemma": "mieć", "p": 3, "n": "pl", "g": "mo", "expect_error": true},
+    {"form": "poszli", "kind": "przesz", "lemma": "pójść", "p": 3, "n": "pl", "g": "nmo", "expect_error": true}
+  ]
+}

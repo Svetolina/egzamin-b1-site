@@ -1,0 +1,221 @@
+{
+ "topic": "strona-bierna",
+ "title": "Strona bierna — страдательный залог",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "По стандарту это тема B2, не B1: Dz.U. 2025 poz. 217, Zał. 1, Część II, F (B2): 2.2.1 Fleksja, pkt 2 lit. d «strona bierna – w ograniczonym zakresie (np.: Dziecko jest myte przez matkę. Pokój zostanie uporządkowany przez Pawła.)», s. 89; 2.2.3 Składnia, lit. g «synonimia syntaktyczna (… Rachunek, który został zapłacony przez ojca…)», s. 92. В списке B1 (s. 75–78) страдательного залога нет.",
+  "level": "B2 (слой поверх B1) — być / zostać + причастие на -any, -ony, -ty, przez + винительный, безличные -no / -to.",
+  "katalog_b": [
+   "7.13.3 zabytki (zbudowany w…) (s. 86)",
+   "7.6.2 prawo i porządek (s. 85)",
+   "7.4.3 prasa, radio i telewizja (wiadomości) (s. 84)"
+  ],
+  "katalog_a": [
+   "6.1.4.a identyfikowanie (kto/co zostało zrobione) (s. 83)",
+   "6.2.1 wyrażanie stanu w odniesieniu do rzeczy, procesów, faktów (s. 84)"
+  ],
+  "exam": "На экзамене B1 страдательный залог не проверяется: поиск по сборнику 2017 и всем 18 экзаменам на сайте не нашёл ни одного такого задания. Его полезно узнавать в текстах для чтения (новости, объявления), а на B2 он входит в список грамматики.",
+  "depends_on": [
+   "czas-przeszly",
+   "aspekt",
+   "biernik"
+  ],
+  "feeds": [
+   "imiesłowy przymiotnikowe (B2)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "ZPA": "ZPE (MEN) — «Strona czynna i bierna»: https://zpe.gov.pl/a/strona-czynna-i-bierna/Dbi8lrKg0",
+  "PDA": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025): https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+  "ELA": "elon.io — «The Passive Voice: być and zostać + Participle»: https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+  "GJA": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2): https://grzegorj.smallhost.pl/gram/en/gram07.html",
+  "ZPB": "ZPE (MEN) — «Imiesłowy i ich rodzaje»: https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+  "ZPC": "ZPE (MEN) — «Rodzaje imiesłowów. Imiesłów przymiotnikowy»: https://zpe.gov.pl/watek/LPCgxyBw7p/255/a/rodzaje-imieslowow-imieslow-przymiotnikowy/DgfX2F5qy",
+  "WEA": "Wikipedia (en) — «Polish grammar»: https://en.wikipedia.org/wiki/Polish_grammar",
+  "ELB": "elon.io — «The Passive Participle (-ny / -ty)»: https://elon.io/grammar/polish/verbs/participles/passive-participle",
+  "ELC": "elon.io — «The Full Impersonal/Passive System Compared»: https://elon.io/grammar/polish/complex/se-passive-vs-no-to-vs-zostac",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "JPBG XI": "Język polski bez granic, kl. XI (B2) (файлы проекта kl.-XI-*.pdf)",
+  "PO": "Gramatyka z kulturą. Przez osoby (файлы проекта Gramatyka-z-kultura.-Przez-osoby.-Logo-*.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "Strona bierna: подлежащее — тот, над кем совершается действие. Образуется: być / zostać + imiesłów przymiotnikowy bierny. Wiersz został napisany przez poetę.",
+   "pl": [],
+   "refs": [
+    "ZPA (разделы «Strona czynna / bierna», «Budowa»)",
+    "PDA (раздел «Czym jest strona bierna?»: «Ten pałac został zbudowany przez króla…»)",
+    "ELA (вводная часть)",
+    "JPBG XI s. 39 («strona bierna: podmiot jest odbiorcą czynności… W jej skład wchodzą formy osobowe czasowników być lub zostać oraz imiesłów przymiotnikowy bierny»)",
+    "PO s. 204 («W stronie biernej używamy imiesłowów przymiotnikowych biernych…»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "Пассив образуют только переходные глаголы (czasowniki przechodnie); подлежащим становится прямое дополнение в bierniku. От myśleć o czymś пассива нет.",
+   "pl": [],
+   "refs": [
+    "ZPA (разделы «Przekształcanie» и «Które czasowniki»)",
+    "GJA (passive voice: «created almost exclusively by transitive verbs»)",
+    "ZPB («tylko od czasowników przechodnich»)",
+    "JPBG XI s. 39 («Stronę bierną tworzymy tylko od czasowników przechodnich (tranzytywnych)»; «W zdaniach w stronie biernej funkcję podmiotu pełni dopełnienie ze strony czynnej»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "Imiesłów bierny оканчивается на -ny или -ty и склоняется как прилагательное; образуется и от несовершенных (robiony), и от совершенных (zrobiony) глаголов.",
+   "pl": [],
+   "refs": [
+    "ZPB (раздел о imiesłów przymiotnikowy bierny: «-ny lub -ty», odmiana jak ładny / bogaty)",
+    "ZPC (таблица склонения namalowany; пример robiony / zrobiony)",
+    "WEA (раздел Participles: «passive participle … in -ny or -ty (conjugated as an adjective)»)",
+    "JPBG XI s. 20 («Imiesłów przymiotnikowy bierny tworzy się od czasowników przechodnich zarówno dokonanych, jak i niedokonanych»; -ny, -ony, -ty)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "Глаголы на -ać → -any, на -ować → -owany: napisać → napisany, zaprojektować → zaprojektowany.",
+   "pl": [],
+   "refs": [
+    "ELB (раздел -any (-ać) и -owany)",
+    "PDA (пример zaprojektować → zaprojektowany)",
+    "ZPB (примеры napisany, karany)",
+    "JPBG XI s. 20 («-ny, -na, -ne»: czyta-ł → czyta-ny, widzia-ł → widzia-ny)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "Глаголы на -ić, -yć, -eć → -ony, часто с чередованием: zrobić → zrobiony, kupić → kupiony, zaprosić → zaproszony, (za)płacić → (za)płacony, skończyć → skończony.",
+   "pl": [],
+   "refs": [
+    "ELB (раздел -ony: zrobiony, kupiony, zobaczony, zaproszony, płacony; чередования ś→sz, ć→c)",
+    "PDA (пример skończyć → skończony)",
+    "ZPC (пример robiony / zrobiony)",
+    "JPBG XI s. 20 («-ony, -ona, -one»: licz-ysz → liczony, zrob-isz → zrobiony, piecz-esz → pieczony)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "-ty: глаголы на -nąć/-ąć (ą → ę: zamknąć → zamknięty, zacząć → zaczęty, wziąć → wzięty) и ряд коротких основ (umyć → umyty, użyć → użyty, zepsuć → zepsuty); otworzyć → otwarty — особая форма.",
+   "pl": [],
+   "refs": [
+    "ELB (раздел -ty)",
+    "PDA (пример użyć → użyty)",
+    "GJA (пример on jest myty)",
+    "JPBG XI s. 20 («-ty, -ta, -te»: zaczę-li → zaczęty, my-li → myty, bi-li → bity)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "Причастие согласуется с подлежащим в роде и числе. Мужско-личное мн. ч.: -ny → -ni, -ony → -eni, -ty → -ci: wybrani, zaproszeni, aresztowani, myci; для остальных — -ne/-te: zamknięte, wybrane.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Agreement: studenci zostali wybrani)",
+    "ELB (раздел Masculine-personal plural: aresztowani / aresztowane, zaproszeni)",
+    "ZPC (таблица: rodzaj męskoosobowy — namalowani)",
+    "GJA (пример oni są myci)",
+    "JPBG XI s. 21 («Imiesłowy … na -ony w mianowniku l.mn. rodzaju męskoosobowego kończą się na -eni»)",
+    "JPBG XI s. 39 (zostaliśmy przyjęci / zostałyśmy przyjęte; byli witani / były witane)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "zostać + причастие (обычно сов. вида) — событие, которое произошло (можно указать дату): Most został zbudowany w 1990 roku. być + причастие — состояние, результат: Sklep jest zamknięty w niedziele. Ошибка: *Prezydent był wybrany w niedzielę* → został wybrany.",
+   "pl": [],
+   "refs": [
+    "ELA (разделы «być vs zostać», «Common mistakes»)",
+    "ZPA (раздел «Budowa»: być — stan, zostać — czynność dokonana)",
+    "GJA (passive: perfective verbs form past and future passives with zostać; resultative forms with być)",
+    "JPBG XI s. 39 («czasownik posiłkowy zostać występuje tylko w stronie biernej tworzonej od czasowników dokonanych»; «być niekiedy jest używany … od dokonanych: jestem zaproszony»)",
+    "PO s. 204–205 («form czasownika zostać, jeśli imiesłowy pochodzą od czasowników dokonanych»; упражнение «Być czy zostać?»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "być + причастие несовершенного вида — процесс: Muzeum jest/było budowane (строится / строилось). Testy są sprawdzane.",
+   "pl": [],
+   "refs": [
+    "GJA (imperfective verbs: być + participle — on jest myty, ona jest myta)",
+    "PDA (примеры był budowany, jest monitorowany, są śpiewane)",
+    "JPBG XI s. 39 («Stronę bierną od czasowników niedokonanych tworzymy przy pomocy czasownika posiłkowego być: jest czytany… będzie oglądany»)",
+    "PO s. 204 («chętnie była / jest / będzie czytana przez młodzież»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "Будущее: zostanie / zostaną + причастие сов. вида (у zostać нет настоящего, его формы значат будущее): Wystawa zostanie otwarta. Встречается и będzie + причастие (будущее состояние/процесс): będzie odwiedzane.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Tenses: «zostać has no present tense … present-shaped forms carry future meaning»)",
+    "GJA (resultative forms byłem / jestem / będę umyty; future passive with zostać)",
+    "JPBG XI s. 39–40 (zostanę zatrudniony; «Lekarze przyjmą wszystkich pacjentów → Wszyscy pacjenci zostaną przyjęci przez lekarzy»; będzie oglądany)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R11",
+   "ru": "Исполнитель действия — przez + biernik, не творительный падеж, как в русском («написано Пушкиным»): Wiersz został napisany przez Szymborską. List został wysłany przez sekretarkę.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Agent: «przez + accusative, not the instrumental»)",
+    "ZPA (раздел «Przekształcanie»: podmiot → przez + biernik, «przez poetę»)",
+    "GJA (пример Jan jest bity przez Pawła)",
+    "PO s. 204 («W stronie biernej używamy konstrukcji: przez kogo, przez co (przez + biernik)»)",
+    "JPBG XI s. 39 («podmiot ze strony czynnej pełni funkcję dopełnienia wyrażonego w bierniku z przyimkiem przez»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R12",
+   "ru": "Пассив — скорее письменный стиль (новости, история, официальные тексты); в разговоре чаще действительный залог или конструкции с się и -no/-to.",
+   "pl": [],
+   "refs": [
+    "GJA («characteristic for the written language rather»)",
+    "ELA (раздел «Polish alternatives»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R13",
+   "ru": "Безличная форма на -no/-to (zbudowano, otwarto, zamknięto): без подлежащего и без исполнителя (przez нельзя), прямое дополнение остаётся в bierniku: Otwarto wystawę. Это не причастие.",
+   "pl": [],
+   "refs": [
+    "ELC (раздел -no/-to impersonal past: «keeps the object in the accusative», przez — ungrammatical)",
+    "WEA (раздел Verbs: «subjectless past tense … with the ending -o (e.g. śpiewano)»)",
+    "ZPC (примечание: формы na -no, -to (zamknięto, zbudowano) — nieosobowe, не imiesłowy)",
+    "JPBG XI s. 171 («Formy nieosobowe zakończone na -no, -to … mają znaczenie czasu przeszłego»; «nie zawierają informacji o wykonawcy czynności»)",
+    "PO s. 209 («FORMY NIEOSOBOWE – są zakończone na -no, -to»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R14",
+   "ru": "Конструкция с się (3 л. ед. ч.) — общее, безличное действие: W Polsce dużo się czyta. Tutaj sprzedaje się świeży chleb.",
+   "pl": [],
+   "refs": [
+    "ELC (раздел się-construction)",
+    "WEA (раздел Impersonal sentences: «się but no subject, the verb being third-person singular»)",
+    "ELA (пример Sprzedaje się mieszkanie)",
+    "JPBG XI s. 171–172 («Formy nieosobowe z zaimkiem się tworzymy przez dodanie się do czasownika w 3. osobie liczby pojedynczej»: Dzisiaj czyta się mało gazet)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "forms": []
+}

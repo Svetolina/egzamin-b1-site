@@ -1,0 +1,1068 @@
+{
+ "topic": "zdania-ktory",
+ "level": "B1",
+ "group": "Синтаксис",
+ "title_pl": "Zdania z „który”",
+ "title_ru": "Придаточные со словом «który»",
+ "lead": "Człowiek, który…, książka, którą…, dom, w którym… Który склоняется, как прилагательное.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. c «odmiana zaimków pytających: kto, co, jaki, który, czyj, ile», s. 76; 2.2.3 Składnia, pkt 3 lit. b «podrzędnie ze spójnikami: … który, jaki …», s. 78. На B2 (s. 91) — то же с предлогом перед który (Chłopak, na którego czekałaś…).",
+   "KEY: экзамен 06.2024, Gramatyka II. «Союзы» (tests/b1-2024-06.js, g2)",
+   "KEY: экзамен 02.2024, Gramatyka II. «Союзы» (tests/b1-2024-02.js, g2)",
+   "KEY: экзамен 11.2023, Gramatyka II. «Союзы» (tests/b1-2023-11.js, g2)",
+   "KEY: сборник 2017, Gramatyka 3.V. «Преобразование предложений, блок 3, V» (tests/b1-sbornik.js, k3-5)",
+   "KEY: сборник 2017, Gramatyka 3.VI. «Формы слов, блок 3, VI» (tests/b1-sbornik.js, k3-6)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Два вопроса к który",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "1) **К какому слову относится?** → оттуда **род и число**. 2) **Какую роль играет в своём предложении?** → оттуда **падеж**."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Lubię tego chłopca, który pracuje w banku.",
+       "ru": "…который работает (кто? — Mianownik)"
+      },
+      {
+       "pl": "Lubię tego chłopca, którego spotkałam w Warszawie.",
+       "ru": "…которого я встретила (кого? — Biernik)"
+      },
+      {
+       "pl": "Lubię tego chłopca, z którym byłaś w Krakowie.",
+       "ru": "…с которым ты была (z + Narzędnik)"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Как русское «который»: род — от слова, падеж — от своей части предложения."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Таблица склонения",
+   "facts": [
+    "R3",
+    "R4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Склоняется как прилагательное ([[nowy, nowa, nowe]])."
+    },
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч. мужско-личн.",
+      "мн. ч. остальные"
+     ],
+     "rows": [
+      [
+       "M",
+       "który",
+       "która",
+       "które",
+       "którzy",
+       "które"
+      ],
+      [
+       "D",
+       "którego",
+       "której",
+       "którego",
+       "których",
+       "których"
+      ],
+      [
+       "C",
+       "któremu",
+       "której",
+       "któremu",
+       "którym",
+       "którym"
+      ],
+      [
+       "B",
+       "którego (одуш.) / który (неодуш.)",
+       "którą",
+       "które",
+       "których",
+       "które"
+      ],
+      [
+       "N",
+       "którym",
+       "którą",
+       "którym",
+       "którymi",
+       "którymi"
+      ],
+      [
+       "Ms",
+       "(o) którym",
+       "(o) której",
+       "(o) którym",
+       "(o) których",
+       "(o) których"
+      ]
+     ],
+     "pl_cols": [
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Предлог — впереди",
+   "facts": [
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Предлог всегда **перед** który: [[kolega, **z którym** pracuję]]; [[dom, **w którym** mieszkam]]; [[temat, **o którym** musimy porozmawiać]]; [[firma, **dla której** pracuję]]."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Внимание: Не [[kobieta, którą studiowałam z]] — так нельзя."
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Запятые и пропуск",
+   "facts": [
+    "R6",
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Запятая перед **który** — всегда; если придаточное внутри предложения, то и после него: [[Samochód, który kupiłem, jest czerwony.]] Сам **który** не пропускают никогда."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Jaki и co",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "слово",
+      "когда",
+      "пример"
+     ],
+     "rows": [
+      [
+       "który",
+       "конкретный предмет/человек",
+       "Książka, która leży na stole, jest moja."
+      ],
+      [
+       "jaki",
+       "какой по типу, сравнение",
+       "To najlepszy film, jaki widziałam."
+      ],
+      [
+       "co",
+       "после to, wszystko, coś, nic или всего предложения",
+       "Wszystko, co mówisz, jest prawdą."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Строка «co» — по одному источнику."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t6",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Który — частый ответ в задании II реальных экзаменов «союзы» (например, 06.2024, 02.2024, 11.2023, 04.2023). В сборнике его формы проверяются в блоке 3 (зад. V — перефразирование, зад. VI — выбор формы)."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Род и число — как у слова, к которому относится: [[książka, która…]].",
+      "Падеж — по роли в придаточном: [[książka, którą czytam]].",
+      "Предлог — перед który: [[dom, w którym mieszkam]].",
+      "Придаточное выделяется запятыми."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Który, która, które, którzy",
+   "instr": "Напишите форму Mianownik.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To jest mój przyjaciel, ___ pracuje w banku.",
+     "a": [
+      "który"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest moja koleżanka, ___ pracuje w banku.",
+     "a": [
+      "która"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest dziecko, ___ mieszka obok.",
+     "a": [
+      "które"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "To są ludzie, ___ mi pomogli.",
+     "a": [
+      "którzy"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "To są książki, ___ leżą na stole.",
+     "a": [
+      "które"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Znam kobiety, ___ tu pracują.",
+     "a": [
+      "które"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Studenci, ___ zdali egzamin, mogą iść do domu.",
+     "a": [
+      "którzy"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Pies, ___ szczeka, jest mój.",
+     "a": [
+      "który"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Okno, ___ jest otwarte, trzeba zamknąć.",
+     "a": [
+      "które"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Nauczycielka, ___ uczy nas polskiego, jest z Krakowa.",
+     "a": [
+      "która"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Moi rodzice, ___ mieszkają w Kijowie, przyjadą jutro.",
+     "a": [
+      "którzy"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Koty, ___ śpią na kanapie, są głodne.",
+     "a": [
+      "które"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Падеж по роли в предложении",
+   "instr": "Напишите który в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To jest mężczyzna, ___ znam od lat.",
+     "a": [
+      "którego"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest kobieta, ___ znam od lat.",
+     "a": [
+      "którą"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Samochód, ___ kupiłem, jest czerwony. (подсказка: неодушевлённое: Biernik = Mianownik)",
+     "a": [
+      "który"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    },
+    {
+     "q": "To jest mężczyzna, ___ pożyczyłem pieniądze.",
+     "a": [
+      "któremu"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest koleżanka, ___ pożyczyłem pieniądze.",
+     "a": [
+      "której"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Książka, ___ czytam, jest nudna.",
+     "a": [
+      "którą"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest film, ___ nie lubię. (подсказка: nie + глагол → Dopełniacz)",
+     "a": [
+      "którego"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Dziewczyna, ___ szukasz, już wyszła. (подсказка: szukać + Dopełniacz)",
+     "a": [
+      "której"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Ludzie, ___ spotkaliśmy, byli mili.",
+     "a": [
+      "których"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Kwiaty, ___ dostałam, są piękne.",
+     "a": [
+      "które"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Dzieci, ___ pomagamy, mieszkają w domu dziecka. (подсказка: pomagać + Celownik)",
+     "a": [
+      "którym"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Firma, ___ kieruje mój mąż, jest duża. (подсказка: kierować + Narzędnik)",
+     "a": [
+      "którą"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest pan, ___ muszę podziękować. (подсказка: dziękować + Celownik)",
+     "a": [
+      "któremu"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Miasto, ___ odwiedziliśmy, było piękne.",
+     "a": [
+      "które"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Problem, ___ nie rozumiem, jest trudny. (подсказка: nie + глагол → Dopełniacz)",
+     "a": [
+      "którego"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Sąsiadka, ___ często odwiedzam, jest bardzo miła.",
+     "a": [
+      "którą"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Pies, ___ widziałeś, jest mój. (подсказка: одушевлённое)",
+     "a": [
+      "którego"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    },
+    {
+     "q": "Studentki, ___ uczę, są zdolne.",
+     "a": [
+      "które"
+     ],
+     "expl": "Мн.",
+     "t": "t2"
+    },
+    {
+     "q": "Moi bracia, ___ bardzo kocham, mieszkają daleko.",
+     "a": [
+      "których"
+     ],
+     "expl": "Мн.",
+     "t": "t2"
+    },
+    {
+     "q": "List, ___ napisałaś, jest piękny.",
+     "a": [
+      "który"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Z którym, w którym, o której…",
+   "instr": "Напишите который в нужной форме после предлога.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To jest kolega, z ___ pracuję.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "To jest kobieta, z ___ studiowałam.",
+     "a": [
+      "którą"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "To jest dom, w ___ mieszkam od dziecka.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "To jest temat, o ___ musimy porozmawiać.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Firma, dla ___ pracuję, sprzedaje papier.",
+     "a": [
+      "której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Miasto, do ___ jedziemy, jest nad morzem.",
+     "a": [
+      "którego"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Ludzie, z ___ mieszkam, są studentami.",
+     "a": [
+      "którymi"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Pokój, w ___ śpimy, jest mały.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Dziewczyna, o ___ ci mówiłem, przyjdzie dziś.",
+     "a": [
+      "której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Krzesło, na ___ siedzisz, jest stare.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Przyjaciele, bez ___ nie wyobrażam sobie życia, mieszkają w Warszawie.",
+     "a": [
+      "których"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Ulica, przy ___ mieszkam, jest cicha.",
+     "a": [
+      "której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Соедините предложения",
+   "instr": "Напишите który (с предлогом, если нужен) в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To jest dom. Mieszkam w tym domu. → To jest dom, ___ mieszkam.",
+     "a": [
+      "w którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Znam tego pana. Ten pan jest lekarzem. → Znam pana, ___ jest lekarzem.",
+     "a": [
+      "który"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "Mam koleżankę. Jej brat jest aktorem. → Mam koleżankę, ___ brat jest aktorem.",
+     "a": [
+      "której"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest książka. Mówiłam ci o tej książce. → To jest książka, ___ ci mówiłam.",
+     "a": [
+      "o której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Dostałam list. Napisała go babcia. → Dostałam list, ___ napisała babcia.",
+     "a": [
+      "który"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    },
+    {
+     "q": "Poznałam ludzi. Ci ludzie podróżują po świecie. → Poznałam ludzi, ___ podróżują po świecie.",
+     "a": [
+      "którzy"
+     ],
+     "expl": "Мн.",
+     "t": "t2"
+    },
+    {
+     "q": "To jest kawiarnia. Spotykamy się w niej. → To jest kawiarnia, ___ się spotykamy.",
+     "a": [
+      "w której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "To jest mój brat. Pojedziesz z nim. → To jest mój brat, ___ pojedziesz.",
+     "a": [
+      "z którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Widzisz te dzieci? Bawią się w parku. → Widzisz te dzieci, ___ bawią się w parku?",
+     "a": [
+      "które"
+     ],
+     "expl": "Мн.",
+     "t": "t2"
+    },
+    {
+     "q": "Szukam pracy. Ta praca ma być ciekawa. → Szukam pracy, ___ będzie ciekawa.",
+     "a": [
+      "która"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest pan. Pomogłam temu panu. → To jest pan, ___ pomogłam.",
+     "a": [
+      "któremu"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To są koleżanki. Dałam im prezenty. → To są koleżanki, ___ dałam prezenty.",
+     "a": [
+      "którym"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Który, jaki или co?",
+   "instr": "Напишите подходящее слово в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To najciekawsza książka, ___ mam. (сравнение)",
+     "a": [
+      "jaką"
+     ],
+     "expl": "Jaki — «какой (по типу)», особенно при сравнении: To najciekawsza książka, jaką mam.",
+     "t": "t5"
+    },
+    {
+     "q": "Kup taki chleb, ___ kupiliśmy ostatnio.",
+     "a": [
+      "jaki"
+     ],
+     "expl": "Jaki — «какой (по типу)», особенно при сравнении: To najciekawsza książka, jaką mam.",
+     "t": "t5"
+    },
+    {
+     "q": "Spóźnił się na pociąg, ___ mnie wcale nie zdziwiło.",
+     "a": [
+      "co"
+     ],
+     "expl": "Co — если речь о целом предложении или о to, wszystko, coś, nic: Spóźnił się na pociąg, co mnie nie zdziwiło.",
+     "t": "t5"
+    },
+    {
+     "q": "Wszystko, ___ mówisz, jest prawdą.",
+     "a": [
+      "co"
+     ],
+     "expl": "Co — если речь о целом предложении или о to, wszystko, coś, nic: Spóźnił się na pociąg, co mnie nie zdziwiło.",
+     "t": "t5"
+    },
+    {
+     "q": "Kupię ci taki prezent, ___ chcesz.",
+     "a": [
+      "jaki"
+     ],
+     "expl": "Jaki — «какой (по типу)», особенно при сравнении: To najciekawsza książka, jaką mam.",
+     "t": "t5"
+    },
+    {
+     "q": "Zrobiłem to, ___ obiecałem.",
+     "a": [
+      "co"
+     ],
+     "expl": "Co — если речь о целом предложении или о to, wszystko, coś, nic: Spóźnił się na pociąg, co mnie nie zdziwiło.",
+     "t": "t5"
+    },
+    {
+     "q": "Ta książka, ___ leży na stole, jest moja.",
+     "a": [
+      "która"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "To najlepszy film, ___ widziałam.",
+     "a": [
+      "jaki"
+     ],
+     "expl": "Jaki — «какой (по типу)», особенно при сравнении: To najciekawsza książka, jaką mam.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленный фрагмент.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Dziecko, **która** płacze, jest głodne.",
+     "a": [
+      "które"
+     ],
+     "expl": "dziecko — средний род: które.",
+     "t": "t2"
+    },
+    {
+     "q": "To jest kobieta, którą studiowałam z.",
+     "a": [
+      "z którą studiowałam",
+      "z którą"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Książka, który czytam, jest ciekawa.",
+     "a": [
+      "którą"
+     ],
+     "expl": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+     "t": "t1"
+    },
+    {
+     "q": "Ludzie, które mi pomogli, są mili.",
+     "a": [
+      "którzy"
+     ],
+     "expl": "Мн.",
+     "t": "t2"
+    },
+    {
+     "q": "To jest pan, którego pożyczyłem pieniądze.",
+     "a": [
+      "któremu"
+     ],
+     "expl": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) /…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest dziewczyna, o która ci mówiłem.",
+     "a": [
+      "o której"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "Samochód, którego kupiłem, jest nowy.",
+     "a": [
+      "który"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    },
+    {
+     "q": "Mieszkanie, w który mieszkam, jest małe.",
+     "a": [
+      "w którym"
+     ],
+     "expl": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w…",
+     "t": "t3"
+    },
+    {
+     "q": "To jest film, którego oglądałam wczoraj.",
+     "a": [
+      "który"
+     ],
+     "expl": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Ogłoszenie: szukam współlokatorki",
+   "instr": "Proszę wpisać zaimek „który” w odpowiedniej formie.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Szukam współlokatorki, {1} chce zamieszkać w centrum Gdańska. Mieszkanie, {2} wynajmuję, ma trzy pokoje. Pokój, w {3} będziesz mieszkać, jest jasny i ma balkon. Kuchnia, z {4} będziemy korzystać razem, jest duża. Mieszkam z kotem, {5} wszyscy kochają, i z koleżanką, o {6} wszyscy mówią „najlepsza kucharka na świecie”. Szukam osoby, {7} nie pali i {8} nie przeszkadzają zwierzęta. Sąsiedzi, {9} mieszkają obok, są bardzo spokojni. Okolica, w {10} znajduje się mieszkanie, jest cicha. Blisko jest park, do {11} chodzę codziennie biegać, i przystanek, z {12} w dziesięć minut dojedziesz na uniwersytet. Cena, {13} podaję w ogłoszeniu, obejmuje media. Osoby, {14} interesuje ta oferta, proszę o kontakt.",
+   "items": [
+    {
+     "q": "…",
+     "a": [
+      "która"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "które"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którym"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "której"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którego"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "której"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "która"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "której"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którzy"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "której"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którego"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którego"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "którą"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "…",
+     "a": [
+      "które"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 4,
+   "kind": "write",
+   "title": "Charakterystyka: osoba, która jest dla mnie ważna",
+   "instr": "Opisz osobę, która jest dla Ciebie ważna (80–100 słów): kim jest, jak wygląda, jaki ma charakter, dlaczego jest ważna.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 5 предложений с który в разных падежах, 2 — с предлогом, одно во мн. ч.; jaki или co.",
+   "model": "Osoba, która jest dla mnie bardzo ważna, to moja babcia Hanna. To kobieta, którą wszyscy w rodzinie podziwiają. Ma siwe włosy i oczy, które zawsze się śmieją. Mieszka w małym domu, w którym spędziłam całe dzieciństwo. Babcia ma ogród, o który dba codziennie. Ludzie, którzy ją znają, mówią, że jest najlepszą sąsiadką, jaką można mieć. To ona nauczyła mnie gotować i czytać. Wszystko, co dziś umiem, zawdzięczam też jej. Jest osobą, z którą mogę porozmawiać o wszystkim. Dzwonię do niej co tydzień.",
+   "model_future": [
+    "która",
+    "którą",
+    "które",
+    "w którym",
+    "o który",
+    "którzy",
+    "jaką",
+    "co",
+    "z którą"
+   ],
+   "checklist": [
+    "минимум 5 предложений с który в разных падежах",
+    "минимум 2 с предлогом (z którym, o której…)",
+    "одно с którzy или które во мн. ч.",
+    "запятые перед który (и после, если в середине)",
+    "одно предложение с jaki или co",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Ogłoszenie: szukam / sprzedam",
+   "instr": "Napisz ogłoszenie (50–70 słów): sprzedajesz rzecz albo szukasz osoby do pomocy (korepetytora, opiekunki do psa itp.).",
+   "words": [
+    50,
+    70
+   ],
+   "need": "Заголовок, не меньше 4 предложений с który, одно с предлогом + który, контакт.",
+   "model": "SZUKAM KOREPETYTORA\nSzukam nauczyciela, który pomoże mi przygotować się do egzaminu B1 z polskiego. Potrzebuję osoby, która ma doświadczenie i cierpliwość. Zajęcia, na które chcę chodzić, mogą być dwa razy w tygodniu, wieczorem. Mieszkam w dzielnicy, w której jest dużo kawiarni, więc możemy spotykać się na mieście. Osoby, które są zainteresowane, proszę o SMS: 600 000 000.",
+   "model_future": [
+    "który",
+    "która",
+    "na które",
+    "w której",
+    "które"
+   ],
+   "checklist": [
+    "заголовок (Sprzedam… / Szukam…)",
+    "минимум 4 предложения с który",
+    "одно с предлогом + który",
+    "контакт",
+    "50–70 слов"
+   ],
+   "t": "t1",
+   "items": []
+  }
+ ]
+}

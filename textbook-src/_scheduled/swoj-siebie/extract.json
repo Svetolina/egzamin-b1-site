@@ -1,0 +1,214 @@
+{
+ "topic": "swoj-siebie",
+ "title": "Swój / jego; siebie, sobie, się",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом владения.",
+   "sources": [
+    {
+     "title": "elon.io — «Confusing swój with mój/jego»",
+     "url": "https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+     "loc": "раздел Core Rule"
+    },
+    {
+     "title": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»",
+     "url": "https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+     "loc": "раздел о swój: «the subject must be the same as the owner»"
+    },
+    {
+     "title": "Polski Daily — «B1: Zaimek swój» (PDF, упражнения + схема)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/11/B1-Zaimek-swoj.pdf",
+     "loc": "схема: «Kto jest podmiotem?… Czy dopełnienie należy do podmiotu?»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "В 3-м лице выбор меняет смысл: Jan kocha swoją żonę (свою) — Jan kocha jego żonę (жену другого человека). jego/jej/ich — когда владелец не подлежащее: Znam jego siostrę.",
+   "sources": [
+    {
+     "title": "elon.io — «Confusing swój with mój/jego»",
+     "url": "https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+     "loc": "раздел Third Person"
+    },
+    {
+     "title": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»",
+     "url": "https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+     "loc": "jego, jej, ich — fixed 3rd person; swój — any person"
+    },
+    {
+     "title": "Polski Daily — «B1: Zaimek swój» (PDF, упражнения + схема)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/11/B1-Zaimek-swoj.pdf",
+     "loc": "ответы упражнений: jej / ich vs swoją / swoim"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не *Swój brat). Jego dom jest duży.",
+   "sources": [
+    {
+     "title": "elon.io — «Confusing swój with mój/jego»",
+     "url": "https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+     "loc": "раздел Subject Position"
+    },
+    {
+     "title": "Polski Daily — «B1: Zaimek swój» (PDF, упражнения + схема)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2020/11/B1-Zaimek-swoj.pdf",
+     "loc": "схема: если пропуск в подлежащем — «NIE UŻYWAJ ‘SWÓJ’»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "В 1-м и 2-м лице swój предпочтителен в аккуратной речи, mój/twój тоже встречается (особенно в разговоре): Odwiedzam swojego / mojego brata.",
+   "sources": [
+    {
+     "title": "elon.io — «Confusing swój with mój/jego»",
+     "url": "https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+     "loc": "раздел First and Second Person"
+    },
+    {
+     "title": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»",
+     "url": "https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+     "loc": "swój «can be used to mean any person»; пример Mam swoje własne problemy"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "jego, jej, ich не склоняются и не меняются по роду: jego dom, jego żona, z jego dziećmi.",
+   "sources": [
+    {
+     "title": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»",
+     "url": "https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+     "loc": "раздел о 3-м лице: «always stay jej, jego, and ich»"
+    },
+    {
+     "title": "elon.io — «His, Her, Their: jego, jej, ich (Invariable)»",
+     "url": "https://elon.io/grammar/polish/pronouns/possessive/jego-jej-ich",
+     "loc": "весь раздел"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "rule": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+   "sources": [
+    {
+     "title": "elon.io — «Confusing swój with mój/jego»",
+     "url": "https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+     "loc": "раздел Declension of swój"
+    },
+    {
+     "title": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»",
+     "url": "https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+     "loc": "swój «follows the same declension pattern as adjectives», swojego"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "siebie — возвратное местоимение без именительного падежа: D. siebie, C. sobie, B. siebie / się, N. sobą, Ms. (o) sobie.",
+   "sources": [
+    {
+     "title": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»",
+     "url": "https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+     "loc": "таблица Declension"
+    },
+    {
+     "title": "Wikibooks (de) — «Polnisch / Grammatik / Pronomen / Reflexivpronomen»",
+     "url": "https://de.wikibooks.org/wiki/Polnisch/_Grammatik/_Pronomen/_Reflexivpronomen",
+     "loc": "таблица Reflexivpronomen"
+    },
+    {
+     "title": "Langenscheidt Polish–German — «siebie»",
+     "url": "https://en.langenscheidt.com/polish-german/siebie",
+     "loc": "формы sobie, siebie / się, sobą"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "siebie / się — одна форма для всех лиц и чисел: myję się, myjesz się, myjemy się; kupiłem sobie, kupiłaś sobie.",
+   "sources": [
+    {
+     "title": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»",
+     "url": "https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+     "loc": "раздел «Same form for every person»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "Pronouns: «The reflexive pronoun for all persons and numbers is się»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "się — безударная частица при глаголе; после предлога и при логическом ударении — только полная форма: o sobie, dla siebie, ze sobą, do siebie, na sobie, u siebie (у себя дома). Не *o się.",
+   "sources": [
+    {
+     "title": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»",
+     "url": "https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+     "loc": "разделы «Się vs. siebie», «Prepositions», «Common mistakes»"
+    },
+    {
+     "title": "elon.io — «Reciprocal Expressions: się, siebie, nawzajem»",
+     "url": "https://elon.io/grammar/polish/pronouns/each-other/wzajemnie",
+     "loc": "о sobie, ze sobą, do siebie, na siebie"
+    },
+    {
+     "title": "Langenscheidt Polish–German — «siebie»",
+     "url": "https://en.langenscheidt.com/polish-german/siebie",
+     "loc": "фразы dla siebie, ze sobą, na sobie, przed sobą, obok siebie"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "sobie (дат. п.) — «себе, для себя»: Kupiłem sobie książkę (не *Kupiłem się książkę*). Nalej sobie kawy.",
+   "sources": [
+    {
+     "title": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»",
+     "url": "https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+     "loc": "Common mistakes: «Kupiłem się książkę → Kupiłem sobie książkę»"
+    },
+    {
+     "title": "Wikibooks (de) — «Polnisch / Grammatik / Pronomen / Reflexivpronomen»",
+     "url": "https://de.wikibooks.org/wiki/Polnisch/_Grammatik/_Pronomen/_Reflexivpronomen",
+     "loc": "таблица: Dativ — sobie"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о другой женщине). Jestem dumny z siebie.",
+   "sources": [
+    {
+     "title": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»",
+     "url": "https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+     "loc": "Common mistakes: «Ona myśli tylko o niej → o sobie», «Jestem dumny z mnie → z siebie»"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником напрямую (вытекает также из R1 и R8) — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R12",
+   "rule": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie / sobą (pomagają sobie, piszą do siebie, rozmawiają ze sobą); усиление — nawzajem / wzajemnie. «Nawzajem!» — «И вам того же!».",
+   "sources": [
+    {
+     "title": "elon.io — «Reciprocal Expressions: się, siebie, nawzajem»",
+     "url": "https://elon.io/grammar/polish/pronouns/each-other/wzajemnie",
+     "loc": "весь раздел"
+    },
+    {
+     "title": "Langenscheidt Polish–German — «siebie»",
+     "url": "https://en.langenscheidt.com/polish-german/siebie",
+     "loc": "ze sobą — «miteinander sprechen»; siebie = «einander»"
+    }
+   ]
+  }
+ ]
+}

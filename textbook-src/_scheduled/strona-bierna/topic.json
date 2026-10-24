@@ -1,0 +1,1153 @@
+{
+ "id": "strona-bierna",
+ "num": 12,
+ "title": "Strona bierna: страдательный залог",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "zeby-aby",
+ "next": "mowa-zalezna",
+ "summary": "być / zostać + imiesłów bierny: образование причастий (-any, -ony, -ty), согласование, событие или состояние, przez + biernik, безличные формы на -no/-to и się.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Что такое strona bierna",
+   "facts": [
+    "R1",
+    "R2",
+    "R12"
+   ],
+   "body": "В действительном залоге подлежащее делает действие: *Poeta napisał wiersz.* В страдательном (strona bierna) подлежащее — то, над чем действие совершается: *Wiersz został napisany przez poetę.*\n\nФормула: **być / zostać + imiesłów bierny**. Работает только с переходными глаголами (у которых есть дополнение в bierniku). Пассив — в основном письменный стиль: новости, история, официальные тексты.",
+   "examples": [
+    [
+     "Ten pałac został zbudowany przez króla.",
+     "Этот дворец был построен королём."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Как образовать причастие",
+   "facts": [
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "body": "Причастие оканчивается на **-ny** или **-ty** и склоняется как прилагательное.",
+   "table": {
+    "head": [
+     "Инфинитив",
+     "Суффикс",
+     "Примеры"
+    ],
+    "rows": [
+     [
+      "-ać, -ować",
+      "-any, -owany",
+      "napisać → napisany, zbudować → zbudowany"
+     ],
+     [
+      "-ić, -yć, -eć",
+      "-ony (+ чередование)",
+      "zrobić → zrobiony, kupić → kupiony, zaprosić → zaproszony, zapłacić → zapłacony, skończyć → skończony"
+     ],
+     [
+      "-nąć, -ąć",
+      "-ęty",
+      "zamknąć → zamknięty, zacząć → zaczęty, wziąć → wzięty"
+     ],
+     [
+      "короткие основы",
+      "-ty",
+      "umyć → umyty, użyć → użyty, zepsuć → zepsuty"
+     ],
+     [
+      "особая форма",
+      "",
+      "otworzyć → otwarty"
+     ]
+    ]
+   },
+   "note": "Надёжнее всего ориентироваться на основу настоящего/будущего времени: zaproszę → zaproszony."
+  },
+  {
+   "id": "s3",
+   "title": "Согласование и мужско-личная форма",
+   "facts": [
+    "R7"
+   ],
+   "body": "И глагол (został/została…), и причастие согласуются с подлежащим.",
+   "table": {
+    "head": [
+     "Подлежащее",
+     "Пример"
+    ],
+    "rows": [
+     [
+      "он (м.)",
+      "list został napisany"
+     ],
+     [
+      "она (ж.)",
+      "książka została napisana"
+     ],
+     [
+      "оно (ср.)",
+      "zadanie zostało napisane"
+     ],
+     [
+      "мужчины / смешанная группа",
+      "studenci zostali wybrani / zaproszeni / umyci"
+     ],
+     [
+      "остальные мн. ч.",
+      "listy zostały napisane, drzwi są zamknięte"
+     ]
+    ]
+   },
+   "note": "Мужско-личное мн. ч.: -ny → -ni (wybrani), -ony → -eni (zaproszeni), -ty → -ci (umyci)."
+  },
+  {
+   "id": "s4",
+   "title": "być или zostać?",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "body": "Вопрос-проверка: **был ли момент, когда это случилось?** Да (можно добавить дату) → **zostać**. Описываем, как обстоят дела сейчас → **być**.\n\n**być** + причастие несовершенного вида — процесс: *Muzeum było budowane przez trzy lata.*",
+   "table": {
+    "head": [
+     "zostać — событие",
+     "być — состояние / процесс"
+    ],
+    "rows": [
+     [
+      "Drzwi zostały zamknięte o ósmej.",
+      "Drzwi są zamknięte."
+     ],
+     [
+      "Most został zbudowany w 1990 roku.",
+      "Ten dom jest zbudowany z drewna."
+     ],
+     [
+      "Prezydent został wybrany w niedzielę.",
+      "Testy są sprawdzane przez komisję."
+     ]
+    ]
+   },
+   "note": "Ошибка: *Prezydent był wybrany w niedzielę* — правильно został wybrany."
+  },
+  {
+   "id": "s5",
+   "title": "Времена",
+   "facts": [
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "table": {
+    "head": [
+     "Время",
+     "być",
+     "zostać"
+    ],
+    "rows": [
+     [
+      "настоящее",
+      "jest zamknięty / jest budowany",
+      "— (нет)"
+     ],
+     [
+      "прошедшее",
+      "był zamknięty / był budowany",
+      "został zamknięty"
+     ],
+     [
+      "будущее",
+      "będzie zamknięty / będzie odwiedzany",
+      "zostanie zamknięty"
+     ]
+    ]
+   },
+   "body": "У zostać нет настоящего времени: *zostanie* — это будущее («будет закрыт»)."
+  },
+  {
+   "id": "s6",
+   "title": "Кем? — przez + biernik",
+   "facts": [
+    "R11"
+   ],
+   "body": "Исполнитель — **przez + biernik**. Внимание: не творительный падеж, как в русском «написано Пушкиным».",
+   "examples": [
+    [
+     "List został wysłany przez sekretarkę.",
+     "Письмо было отправлено секретарём."
+    ],
+    [
+     "Obraz został namalowany przez Jana Matejkę.",
+     "Картина была написана Яном Матейко."
+    ]
+   ],
+   "note": "Неверно: *List został wysłany sekretarką*."
+  },
+  {
+   "id": "s7",
+   "title": "Как перестроить предложение",
+   "facts": [
+    "R1",
+    "R2",
+    "R11"
+   ],
+   "body": "1. Дополнение в bierniku → подлежащее (в mianowniku).\n2. Время и вид исходного глагола → być/zostać в том же времени + причастие.\n3. Подлежащее исходного предложения → przez + biernik (можно опустить).\n\n*Policja zatrzymała złodzieja.* → *Złodziej został zatrzymany przez policję.*"
+  },
+  {
+   "id": "s8",
+   "title": "Без исполнителя: -no/-to и się",
+   "facts": [
+    "R13",
+    "R14"
+   ],
+   "body": "**-no/-to** (*zbudowano, otwarto, zamknięto, podpisano*) — «построили, открыли»: нет подлежащего, исполнителя назвать нельзя, дополнение остаётся в **bierniku**: *Otwarto nową wystawę.* Типично для новостей.\n\n**się** — общее действие «у нас так делают»: *W Polsce dużo się czyta. Tutaj sprzedaje się świeży chleb.*",
+   "table": {
+    "head": [
+     "Пассив",
+     "-no/-to"
+    ],
+    "rows": [
+     [
+      "Wystawa została otwarta.",
+      "Otwarto wystawę."
+     ],
+     [
+      "Umowa została podpisana.",
+      "Podpisano umowę."
+     ]
+    ]
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Образуйте причастие",
+   "kind": "gaps",
+   "instr": "Напечатайте imiesłów bierny в форме м. р. ед. ч.",
+   "facts": [
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "napisać → {1}",
+     "a": [
+      [
+       "napisany"
+      ]
+     ]
+    },
+    {
+     "q": "przeczytać → {1}",
+     "a": [
+      [
+       "przeczytany"
+      ]
+     ]
+    },
+    {
+     "q": "zbudować → {1}",
+     "a": [
+      [
+       "zbudowany"
+      ]
+     ]
+    },
+    {
+     "q": "zaprojektować → {1}",
+     "a": [
+      [
+       "zaprojektowany"
+      ]
+     ]
+    },
+    {
+     "q": "zrobić → {1}",
+     "a": [
+      [
+       "zrobiony"
+      ]
+     ]
+    },
+    {
+     "q": "kupić → {1}",
+     "a": [
+      [
+       "kupiony"
+      ]
+     ]
+    },
+    {
+     "q": "zaprosić → {1}",
+     "a": [
+      [
+       "zaproszony"
+      ]
+     ]
+    },
+    {
+     "q": "zapłacić → {1}",
+     "a": [
+      [
+       "zapłacony"
+      ]
+     ]
+    },
+    {
+     "q": "skończyć → {1}",
+     "a": [
+      [
+       "skończony"
+      ]
+     ]
+    },
+    {
+     "q": "zobaczyć → {1}",
+     "a": [
+      [
+       "zobaczony"
+      ]
+     ]
+    },
+    {
+     "q": "zamknąć → {1}",
+     "a": [
+      [
+       "zamknięty"
+      ]
+     ]
+    },
+    {
+     "q": "otworzyć → {1}",
+     "a": [
+      [
+       "otwarty"
+      ]
+     ]
+    },
+    {
+     "q": "umyć → {1}",
+     "a": [
+      [
+       "umyty"
+      ]
+     ]
+    },
+    {
+     "q": "wziąć → {1}",
+     "a": [
+      [
+       "wzięty"
+      ]
+     ]
+    },
+    {
+     "q": "zacząć → {1}",
+     "a": [
+      [
+       "zaczęty"
+      ]
+     ]
+    },
+    {
+     "q": "zepsuć → {1}",
+     "a": [
+      [
+       "zepsuty"
+      ]
+     ]
+    },
+    {
+     "q": "użyć → {1}",
+     "a": [
+      [
+       "użyty"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Согласуйте причастие",
+   "kind": "gaps",
+   "instr": "Поставьте причастие от глагола в скобках в нужную форму.",
+   "facts": [
+    "R7",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "Książka została {1} (napisać) w 1990 roku.",
+     "a": [
+      [
+       "napisana"
+      ]
+     ]
+    },
+    {
+     "q": "Okna są {1} (zamknąć).",
+     "a": [
+      [
+       "zamknięte"
+      ]
+     ]
+    },
+    {
+     "q": "Studenci zostali {1} (zaprosić) na konferencję.",
+     "a": [
+      [
+       "zaproszeni"
+      ]
+     ]
+    },
+    {
+     "q": "Dziecko zostało {1} (umyć).",
+     "a": [
+      [
+       "umyte"
+      ]
+     ]
+    },
+    {
+     "q": "Sprawcy zostali {1} (aresztować).",
+     "a": [
+      [
+       "aresztowani"
+      ]
+     ]
+    },
+    {
+     "q": "List został {1} (wysłać) wczoraj.",
+     "a": [
+      [
+       "wysłany"
+      ]
+     ]
+    },
+    {
+     "q": "Drzwi zostały {1} (otworzyć) o ósmej.",
+     "a": [
+      [
+       "otwarte"
+      ]
+     ]
+    },
+    {
+     "q": "Rachunki są już {1} (zapłacić).",
+     "a": [
+      [
+       "zapłacone"
+      ]
+     ]
+    },
+    {
+     "q": "Nowi pracownicy zostali {1} (wybrać) w maju.",
+     "a": [
+      [
+       "wybrani"
+      ]
+     ]
+    },
+    {
+     "q": "Zadanie zostało {1} (skończyć).",
+     "a": [
+      [
+       "skończone"
+      ]
+     ]
+    },
+    {
+     "q": "Kobiety zostały {1} (wybrać) do zarządu.",
+     "a": [
+      [
+       "wybrane"
+      ]
+     ]
+    },
+    {
+     "q": "Piłkarze zostali {1} (ukarać) przez sędziego.",
+     "a": [
+      [
+       "ukarani"
+      ]
+     ]
+    },
+    {
+     "q": "Ten film został {1} (nagrodzić) na festiwalu.",
+     "a": [
+      [
+       "nagrodzony"
+      ]
+     ]
+    },
+    {
+     "q": "Goście zostali {1} (zaprosić) na siódmą.",
+     "a": [
+      [
+       "zaproszeni"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "być или zostać?",
+   "kind": "gaps",
+   "instr": "Впишите нужную форму być или zostać (событие или состояние?).",
+   "facts": [
+    "R8",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Most {1} zbudowany w 1990 roku.",
+     "a": [
+      [
+       "został"
+      ]
+     ]
+    },
+    {
+     "q": "Sklep {1} zamknięty w niedziele.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    },
+    {
+     "q": "Prezydent {1} wybrany w niedzielę.",
+     "a": [
+      [
+       "został"
+      ]
+     ]
+    },
+    {
+     "q": "Ten dom {1} zbudowany z drewna.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    },
+    {
+     "q": "Jutro wystawa {1} oficjalnie otwarta przez prezydenta miasta.",
+     "a": [
+      [
+       "zostanie",
+       "będzie"
+      ]
+     ]
+    },
+    {
+     "q": "Muzeum {1} otwarte od wtorku do niedzieli.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    },
+    {
+     "q": "Wczoraj złodziej {1} zatrzymany przez policję.",
+     "a": [
+      [
+       "został"
+      ]
+     ]
+    },
+    {
+     "q": "Ten wiersz {1} napisany przez Szymborską w 1957 roku.",
+     "a": [
+      [
+       "został"
+      ]
+     ]
+    },
+    {
+     "q": "Stół {1} już nakryty, możemy jeść.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    },
+    {
+     "q": "W zeszłym tygodniu nowa ustawa {1} przyjęta przez Sejm.",
+     "a": [
+      [
+       "została"
+      ]
+     ]
+    },
+    {
+     "q": "Wyniki {1} ogłoszone w przyszły piątek.",
+     "a": [
+      [
+       "zostaną",
+       "będą"
+      ]
+     ]
+    },
+    {
+     "q": "Nasze mieszkanie {1} ubezpieczone.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "przez + biernik",
+   "kind": "gaps",
+   "instr": "Поставьте слова в скобках после przez в нужную форму.",
+   "facts": [
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "List został napisany przez {1} (sekretarka).",
+     "a": [
+      [
+       "sekretarkę"
+      ]
+     ]
+    },
+    {
+     "q": "Obraz został namalowany przez {1} (Jan Matejko).",
+     "a": [
+      [
+       "Jana Matejkę"
+      ]
+     ]
+    },
+    {
+     "q": "Film został wyreżyserowany przez {1} (Agnieszka Holland).",
+     "a": [
+      [
+       "Agnieszkę Holland"
+      ]
+     ]
+    },
+    {
+     "q": "Dom został zaprojektowany przez {1} (znany architekt).",
+     "a": [
+      [
+       "znanego architekta"
+      ]
+     ]
+    },
+    {
+     "q": "Ustawa została przyjęta przez {1} (Sejm).",
+     "a": [
+      [
+       "Sejm"
+      ]
+     ]
+    },
+    {
+     "q": "Złodziej został zatrzymany przez {1} (policja).",
+     "a": [
+      [
+       "policję"
+      ]
+     ]
+    },
+    {
+     "q": "Drzwi zostały zamknięte przez {1} (dozorca).",
+     "a": [
+      [
+       "dozorcę"
+      ]
+     ]
+    },
+    {
+     "q": "Ten wiersz został napisany przez {1} (Wisława Szymborska).",
+     "a": [
+      [
+       "Wisławę Szymborską"
+      ]
+     ]
+    },
+    {
+     "q": "Pacjent został zbadany przez {1} (lekarze).",
+     "a": [
+      [
+       "lekarzy"
+      ]
+     ]
+    },
+    {
+     "q": "Projekt został oceniony przez {1} (komisja).",
+     "a": [
+      [
+       "komisję"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Из действительного — в страдательный",
+   "kind": "gaps",
+   "instr": "Перестройте в страдательный залог: напечатайте сказуемое (być/zostać + причастие).",
+   "facts": [
+    "R1",
+    "R7",
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Poeta napisał wiersz. → Wiersz {1} przez poetę.",
+     "a": [
+      [
+       "został napisany"
+      ]
+     ]
+    },
+    {
+     "q": "Policja zatrzymała złodzieja. → Złodziej {1} przez policję.",
+     "a": [
+      [
+       "został zatrzymany"
+      ]
+     ]
+    },
+    {
+     "q": "Firma zbuduje nowy most. → Nowy most {1} przez firmę.",
+     "a": [
+      [
+       "zostanie zbudowany",
+       "będzie zbudowany"
+      ]
+     ]
+    },
+    {
+     "q": "Mama ugotowała obiad. → Obiad {1} przez mamę.",
+     "a": [
+      [
+       "został ugotowany"
+      ]
+     ]
+    },
+    {
+     "q": "Dyrektor zaprosił gości. → Goście {1} przez dyrektora.",
+     "a": [
+      [
+       "zostali zaproszeni"
+      ]
+     ]
+    },
+    {
+     "q": "Studenci przeczytali książkę. → Książka {1} przez studentów.",
+     "a": [
+      [
+       "została przeczytana"
+      ]
+     ]
+    },
+    {
+     "q": "Ktoś otworzył okno. → Okno {1}.",
+     "a": [
+      [
+       "zostało otwarte"
+      ]
+     ]
+    },
+    {
+     "q": "Sejm przyjmie ustawę. → Ustawa {1} przez Sejm.",
+     "a": [
+      [
+       "zostanie przyjęta",
+       "będzie przyjęta"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz zbadał pacjentkę. → Pacjentka {1} przez lekarza.",
+     "a": [
+      [
+       "została zbadana"
+      ]
+     ]
+    },
+    {
+     "q": "Komisja sprawdza testy. → Testy {1} przez komisję.",
+     "a": [
+      [
+       "są sprawdzane"
+      ]
+     ]
+    },
+    {
+     "q": "Firma zatrudniła nowych pracowników. → Nowi pracownicy {1} przez firmę.",
+     "a": [
+      [
+       "zostali zatrudnieni"
+      ]
+     ]
+    },
+    {
+     "q": "Turyści odwiedzają to muzeum. → To muzeum {1} przez turystów.",
+     "a": [
+      [
+       "jest odwiedzane"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Форма на -no/-to",
+   "kind": "gaps",
+   "instr": "Перестройте с формой на -no/-to (без исполнителя). Помните: дополнение — в bierniku.",
+   "facts": [
+    "R13"
+   ],
+   "items": [
+    {
+     "q": "Most został zbudowany w 1990 roku. → {1} most w 1990 roku.",
+     "a": [
+      [
+       "Zbudowano"
+      ]
+     ]
+    },
+    {
+     "q": "Wystawa została otwarta w piątek. → Otwarto {1} w piątek.",
+     "a": [
+      [
+       "wystawę"
+      ]
+     ]
+    },
+    {
+     "q": "Sklep został zamknięty. → {1} sklep.",
+     "a": [
+      [
+       "Zamknięto"
+      ]
+     ]
+    },
+    {
+     "q": "Nowa szkoła została otwarta. → Otwarto {1}.",
+     "a": [
+      [
+       "nową szkołę"
+      ]
+     ]
+    },
+    {
+     "q": "Decyzja została podjęta. → Podjęto {1}.",
+     "a": [
+      [
+       "decyzję"
+      ]
+     ]
+    },
+    {
+     "q": "Umowa została podpisana wczoraj. → Wczoraj podpisano {1}.",
+     "a": [
+      [
+       "umowę"
+      ]
+     ]
+    },
+    {
+     "q": "Złodziej został zatrzymany. → {1} złodzieja.",
+     "a": [
+      [
+       "Zatrzymano"
+      ]
+     ]
+    },
+    {
+     "q": "Ustawa została przyjęta. → Przyjęto {1}.",
+     "a": [
+      [
+       "ustawę"
+      ]
+     ]
+    },
+    {
+     "q": "Wyniki zostały ogłoszone. → {1} wyniki.",
+     "a": [
+      [
+       "Ogłoszono"
+      ]
+     ]
+    },
+    {
+     "q": "Książka została wydana w 2020 roku. → W 2020 roku {1} książkę.",
+     "a": [
+      [
+       "wydano"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: новость",
+   "kind": "gaps",
+   "instr": "Uzupełnij tekst. Wpisz formę strony biernej (być/zostać + imiesłów) albo formę na -no/-to — zgodnie z podpowiedzią w nawiasie.",
+   "facts": [
+    "R1",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R13"
+   ],
+   "items": [
+    {
+     "q": "W sobotę w Gdańsku {1} nowe Muzeum Morza. (otworzyć → forma na -no/-to)",
+     "a": [
+      [
+       "otwarto"
+      ]
+     ]
+    },
+    {
+     "q": "Budynek {1} przez młodą architektkę z Krakowa. (zaprojektować → zostać, przeszły)",
+     "a": [
+      [
+       "został zaprojektowany"
+      ]
+     ]
+    },
+    {
+     "q": "Muzeum {1} przez trzy lata. (budować → być, przeszły)",
+     "a": [
+      [
+       "było budowane"
+      ]
+     ]
+    },
+    {
+     "q": "Pieniądze na budowę {1} przez miasto. (przekazać → zostać, przeszły)",
+     "a": [
+      [
+       "zostały przekazane"
+      ]
+     ]
+    },
+    {
+     "q": "Na otwarcie {1} ponad dwustu gości. (zaprosić → forma na -no/-to)",
+     "a": [
+      [
+       "zaproszono"
+      ]
+     ]
+    },
+    {
+     "q": "Najstarsi marynarze {1} medalami. (nagrodzić → zostać, przeszły)",
+     "a": [
+      [
+       "zostali nagrodzeni"
+      ]
+     ]
+    },
+    {
+     "q": "Wstęga {1} przez najstarszego kapitana w mieście. (przeciąć → zostać, przeszły)",
+     "a": [
+      [
+       "została przecięta"
+      ]
+     ]
+    },
+    {
+     "q": "Od wtorku do niedzieli muzeum {1} dla zwiedzających. (otworzyć → być, teraźniejszy)",
+     "a": [
+      [
+       "jest otwarte"
+      ]
+     ]
+    },
+    {
+     "q": "W poniedziałki muzeum {1}. (zamknąć → być, teraźniejszy)",
+     "a": [
+      [
+       "jest zamknięte"
+      ]
+     ]
+    },
+    {
+     "q": "Bilety mogą {1} przez internet. (kupować → być + imiesłów)",
+     "a": [
+      [
+       "być kupowane",
+       "być kupione"
+      ]
+     ]
+    },
+    {
+     "q": "Najcenniejsze eksponaty {1} w przyszłym roku. (pokazać → zostać, przyszły)",
+     "a": [
+      [
+       "zostaną pokazane",
+       "będą pokazane"
+      ]
+     ]
+    },
+    {
+     "q": "Według organizatorów muzeum {1} przez sto tysięcy osób rocznie. (odwiedzać → być, przyszły)",
+     "a": [
+      [
+       "będzie odwiedzane"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте предложение, начиная с данного начала (как в задании VI экзамена). Напечатайте продолжение.",
+   "facts": [
+    "R1",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R13"
+   ],
+   "items": [
+    {
+     "q": "Znany architekt zaprojektował ten dom. → Ten dom {1}.",
+     "a": [
+      [
+       "został zaprojektowany przez znanego architekta"
+      ]
+     ]
+    },
+    {
+     "q": "Policja zatrzymała dwóch mężczyzn. → Dwaj mężczyźni {1}.",
+     "a": [
+      [
+       "zostali zatrzymani przez policję"
+      ]
+     ]
+    },
+    {
+     "q": "Organizatorzy odwołali koncert. → Koncert {1}.",
+     "a": [
+      [
+       "został odwołany przez organizatorów"
+      ]
+     ]
+    },
+    {
+     "q": "Ten wiersz został napisany przez Szymborską. → Szymborska {1}.",
+     "a": [
+      [
+       "napisała ten wiersz"
+      ]
+     ]
+    },
+    {
+     "q": "Wczoraj podpisano umowę. → Wczoraj umowa {1}.",
+     "a": [
+      [
+       "została podpisana"
+      ]
+     ]
+    },
+    {
+     "q": "Turyści często fotografują ten zamek. → Ten zamek {1}.",
+     "a": [
+      [
+       "jest często fotografowany przez turystów",
+       "jest fotografowany przez turystów często",
+       "często jest fotografowany przez turystów"
+      ]
+     ]
+    },
+    {
+     "q": "Sejm przyjmie nową ustawę. → Nowa ustawa {1}.",
+     "a": [
+      [
+       "zostanie przyjęta przez Sejm",
+       "będzie przyjęta przez Sejm"
+      ]
+     ]
+    },
+    {
+     "q": "Mój dziadek zbudował ten dom. → Ten dom {1}.",
+     "a": [
+      [
+       "został zbudowany przez mojego dziadka"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Заметка в местную газету",
+   "facts": [
+    "R1",
+    "R8",
+    "R11",
+    "R13"
+   ],
+   "instr": "Napisz krótką notatkę do lokalnej gazety (80–100 słów) o wydarzeniu w Twoim mieście (otwarcie parku, festyn, remont dworca). Napisz: co i kiedy zostało otwarte/zorganizowane, przez kogo, kto został zaproszony, co jeszcze zostanie zrobione.",
+   "checklist": [
+    "не меньше 4 форм страдательного залога (został/zostanie …)",
+    "хотя бы 1 исполнитель с przez + biernik",
+    "хотя бы 2 формы на -no/-to (otwarto, zorganizowano)",
+    "газетный стиль: без «ja»"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "История здания",
+   "facts": [
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "instr": "Opisz historię ważnego budynku w Twoim mieście lub kraju (80–100 słów): kiedy i przez kogo został zbudowany, co było w nim robione, co zostało zmienione, jak jest używany dziś.",
+   "checklist": [
+    "даты с zostać (został zbudowany w … roku)",
+    "хотя бы 1 процесс с być (był budowany przez … lat)",
+    "хотя бы 1 состояние сегодня (jest otwarty / jest używany)",
+    "хотя бы 1 форма будущего (zostanie odnowiony)"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 95,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 8,
+  "facts": 14
+ }
+}

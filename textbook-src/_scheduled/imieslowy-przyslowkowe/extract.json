@@ -1,0 +1,219 @@
+{
+ "topic": "imieslowy-przyslowkowe",
+ "title": "Imiesłowy przysłówkowe (-ąc, -wszy) и -ący",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие, одновременное с главным: Czytając gazetę, pił kawę.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "раздел о imiesłowie współczesnym"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "раздел imiesłów przysłówkowy współczesny"
+    },
+    {
+     "title": "elon.io — «The Contemporary Verbal Adverb (-ąc)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+     "loc": "разделы Formation, Imperfective only"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "Participles: present adverbial participle — imperfective only, śpiewając"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Образование -ąc: 3-е л. мн. ч. настоящего времени + -c: czytają → czytając, robią → robiąc, idą → idąc, piszą → pisząc.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "«czytają → czytając»"
+    },
+    {
+     "title": "elon.io — «The Contemporary Verbal Adverb (-ąc)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+     "loc": "раздел Formation: robią → robiąc, idą → idąc"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "być → będąc (от основы будущего будę): Będąc w Krakowie, odwiedź Wawel.",
+   "sources": [
+    {
+     "title": "elon.io — «The Contemporary Verbal Adverb (-ąc)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+     "loc": "раздел Formation: «Być is irregular: będąc»"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R4",
+   "rule": "Imiesłów przysłówkowy uprzedni на -wszy / -łszy образуется только от глаголов совершенного вида и обозначает действие, завершившееся до главного: Przeczytawszy list, zadzwoniła do matki.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "раздел о imiesłowie uprzednim"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "«od czasowników dokonanych … wyłącznie imiesłowy uprzednie»"
+    },
+    {
+     "title": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+     "loc": "разделы Formation, Meaning"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "past active participle: zabiwszy, perfective only"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "Образование: прош. вр. м. р. без -ł; после гласной + -wszy (zrobił → zrobiwszy, przeczytał → przeczytawszy, napisał → napisawszy), после согласной + -łszy (zjadł → zjadłszy, przyszedł → przyszedłszy, przyniósł → przyniósłszy).",
+   "sources": [
+    {
+     "title": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+     "loc": "раздел Formation"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "примеры przeczytawszy, przyniósłszy"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "примеры napisawszy, zmókłszy"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "rule": "Imiesłowy przysłówkowe не изменяются (как наречия): skończywszy, czytając — для любого рода и числа.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "«Imiesłowy przysłówkowe tak jak przysłówek nie podlegają odmianie»"
+    },
+    {
+     "title": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+     "loc": "«The form is indeclinable»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "«this form is invariant»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Общее подлежащее: действие причастия выполняет подлежащее главного предложения. Ошибка: *Idąc do szkoły, padał deszcz*. Правильно: Idąc do szkoły, zmokłem.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "раздел «Wspólny podmiot», пример с rzeką"
+    },
+    {
+     "title": "elon.io — «The Contemporary Verbal Adverb (-ąc)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+     "loc": "раздел Same-subject rule"
+    },
+    {
+     "title": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+     "loc": "раздел Same subject"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "Оборот с imiesłowem przysłówkowym (imiesłowowy równoważnik zdania) выделяется запятыми.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "раздел «Przecinek»: «Anna, czekając na tramwaj, …»"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "«A comma always…» — przecinek przy imiesłowach przysłówkowych"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "nie с imiesłowem przysłówkowym пишется раздельно: nie wiedząc, nie czytając, nie przeczytawszy.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłów przysłówkowy»",
+     "url": "https://zpe.gov.pl/watek/LP17S4zgSJ/7/a/imieslow-przyslowkowy/D8VcRm2NS",
+     "loc": "раздел «Pisownia nie»"
+    },
+    {
+     "title": "K. Strycharz, «Imiesłowy mniej kłopotliwe», Gazeta Uniwersytecka (Uniwersytet Rzeszowski) nr 1/32, 2005",
+     "url": "https://wydawnictwo.ur.edu.pl/wp-content/uploads/2020/10/Imieslowy_mniej_klopotliwe.pdf",
+     "loc": "«z imiesłowami przysłówkowymi … obowiązuje pisownia rozdzielna»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Стиль: -ąc — книжная/официальная форма (в разговоре чаще kiedy/gdy + глагол), но устойчивые обороты (mówiąc szczerze) обычны и в речи; -wszy — очень книжная, в разговоре почти не употребляется.",
+   "sources": [
+    {
+     "title": "elon.io — «The Contemporary Verbal Adverb (-ąc)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/contemporary-adverb-ac",
+     "loc": "раздел Register"
+    },
+    {
+     "title": "elon.io — «The Anterior Verbal Adverb (-wszy / -łszy)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/anterior-adverb-wszy",
+     "loc": "раздел Register"
+    }
+   ],
+   "note": "Оба источника — разные страницы одного сайта (elon.io); стилистическое правило, не грамматическое."
+  },
+  {
+   "id": "R11",
+   "rule": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное и заменяет придаточное с który: kobieta czytająca książkę = kobieta, która czyta książkę. В отличие от -ąc он относится к существительному.",
+   "sources": [
+    {
+     "title": "elon.io — «The Active Adjectival Participle (-ący)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/active-adjectival",
+     "loc": "разделы Formation, Declension, Difference from -ąc"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "раздел imiesłów przymiotnikowy czynny"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "present adjectival participle śpiewający"
+    }
+   ]
+  }
+ ]
+}

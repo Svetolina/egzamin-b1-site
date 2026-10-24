@@ -1,0 +1,1159 @@
+{
+ "topic": "rzeczowniki-odczasownikowe",
+ "level": "B2",
+ "group": "Существительное",
+ "title_pl": "Rzeczowniki odczasownikowe",
+ "title_ru": "Отглагольные существительные",
+ "lead": "Czytanie, pływanie, palenie wzbronione. Существительные-действия. Слой B2 поверх B1.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: По стандарту образование отглагольных существительных — тема B2: Dz.U. 2025 poz. 217, Zał. 1, Część II, F (B2): 2.2.2 Słowotwórstwo, pkt 2 lit. a «derywacja rzeczowników odczasownikowych (np.: pisać – pisanie, rozumieć – rozumienie, liczyć – liczenie, szyć – szycie)», s. 90. В списке B1 (s. 75–78) этого пункта нет; частые слова (czytanie, gotowanie, zwiedzanie) встречаются на B1 как лексика.",
+   "KEY: поиск по разделу Gramatyka сборника 2017 и 18 экзаменов (tests/b1-*.js) — заданий на эту тему нет"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Что это такое",
+   "facts": [
+    "R1",
+    "R12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Rzeczownik odczasownikowy — существительное-действие, как русское «чтение», «плавание». Оканчивается на **-nie / -enie / -cie**, всегда **среднего рода**."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Czytanie przed snem pomaga mi się zrelaksować.",
+       "ru": "Чтение перед сном помогает мне расслабиться."
+      },
+      {
+       "pl": "Takie myślenie jest błędne.",
+       "ru": "Такое мышление ошибочно."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Типично для официальных текстов (правила, объявления). В своей речи — в меру."
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило подтверждено одним источником — дано одной строкой с пометкой."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t2",
+   "title": "Как образовать",
+   "facts": [
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Глагол",
+      "Как",
+      "Примеры"
+     ],
+     "rows": [
+      [
+       "-ać (-ować)",
+       "-ć → -nie",
+       "czytać → czytanie, pływać → pływanie, spać → spanie"
+      ],
+      [
+       "-ić / -yć / -eć (II спр.)",
+       "основа «ja» + -enie",
+       "robię → robienie, myślę → myślenie, noszę → noszenie"
+      ],
+      [
+       "короткие -ić / -yć / -uć",
+       "-ć → -cie",
+       "pić → picie, myć → mycie, żyć → życie, szyć → szycie"
+      ]
+     ],
+     "pl_cols": [
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "się остаётся: uczenie się, nudzenie się (одним источником)."
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило подтверждено одним источником — дано одной строкой с пометкой."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t3",
+   "title": "Склонение",
+   "facts": [
+    "R1"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Падеж",
+      "Окончание",
+      "Пример"
+     ],
+     "rows": [
+      [
+       "M. / B.",
+       "-nie / -cie",
+       "Lubię czytanie."
+      ],
+      [
+       "D.",
+       "-nia / -cia",
+       "Nie ma nic do jedzenia."
+      ],
+      [
+       "C. / Ms.",
+       "-niu / -ciu",
+       "po jedzeniu"
+      ],
+      [
+       "N.",
+       "-niem / -ciem",
+       "Interesuję się czytaniem."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Вид сохраняется",
+   "facts": [
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**czytanie** — процесс, **przeczytanie** — результат. После [[po]] обычно совершенный вид, после [[podczas]] — несовершенный."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Несов. (процесс)",
+      "Сов. (результат)"
+     ],
+     "rows": [
+      [
+       "czytanie",
+       "przeczytanie"
+      ],
+      [
+       "robienie",
+       "zrobienie"
+      ],
+      [
+       "kończenie",
+       "zakończenie / skończenie"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Дополнение — в dopełniaczu",
+   "facts": [
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[czytać książkę]] → [[czytanie **książki**]]; [[myć samochód]] → [[mycie **samochodu**]]. Как в русском: «читать книгу» → «чтение книги»."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Ошибка: [[czytanie książkę]]."
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "С предлогами",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Конструкция",
+      "Значение",
+      "Пример"
+     ],
+     "rows": [
+      [
+       "do + D.",
+       "для, чтобы",
+       "Nie mam nic do powiedzenia. maszyna do pisania"
+      ],
+      [
+       "po + Ms.",
+       "после",
+       "Po przeczytaniu listu zadzwoniła do brata."
+      ],
+      [
+       "podczas + D.",
+       "во время",
+       "Podczas czytania nie słucham muzyki."
+      ],
+      [
+       "bez + D.",
+       "без",
+       "Bez zrozumienia kontekstu trudno ocenić decyzję."
+      ],
+      [
+       "w celu + D.",
+       "с целью (офиц.)",
+       "Zebranie zwołano w celu omówienia budżetu."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Ставшие обычными словами",
+   "facts": [
+    "R10",
+    "R11"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[mieszkanie]] — квартира, [[pytanie]] — вопрос, [[jedzenie]] — еда, [[picie]] — питьё, [[życie]] — жизнь, [[uczucie]] — чувство, [[otwarcie wystawy]] — открытие выставки, [[godzina zamknięcia]] — время закрытия."
+    },
+    {
+     "type": "p",
+     "text": "После [[lubić]] лучше инфинитив: [[Lubię gotować]] (форма [[Lubię czytanie]] тоже встречается)."
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Отдельного задания на отглагольные существительные в экзамене B1 нет (поиск по сборнику и 18 экзаменам на сайте). Они часты в объявлениях и правилах (Palenie wzbronione) и в письме об увлечениях (Interesuję się gotowaniem)."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Возьмите форму прошедшего времени: [[czytał → czyta-]].",
+      "Добавьте [[-nie / -enie / -cie]]: [[czytanie, robienie, picie]].",
+      "Дополнение — в родительном: [[czytanie książek]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Образуйте существительное",
+   "instr": "Напечатайте rzeczownik odczasownikowy.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "czytać → ___",
+     "a": [
+      "czytanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "pisać → ___",
+     "a": [
+      "pisanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "pływać → ___",
+     "a": [
+      "pływanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "gotować → ___",
+     "a": [
+      "gotowanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "czekać → ___",
+     "a": [
+      "czekanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "oglądać → ___",
+     "a": [
+      "oglądanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "spać → ___",
+     "a": [
+      "spanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "robić → ___",
+     "a": [
+      "robienie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "mówić → ___",
+     "a": [
+      "mówienie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "nosić → ___",
+     "a": [
+      "noszenie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "myśleć → ___",
+     "a": [
+      "myślenie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "siedzieć → ___",
+     "a": [
+      "siedzenie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "uczyć się → ___",
+     "a": [
+      "uczenie się"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "palić → ___",
+     "a": [
+      "palenie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "płacić → ___",
+     "a": [
+      "płacenie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "pić → ___",
+     "a": [
+      "picie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "myć → ___",
+     "a": [
+      "mycie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "żyć → ___",
+     "a": [
+      "życie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "przeczytać → ___",
+     "a": [
+      "przeczytanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "zrobić → ___",
+     "a": [
+      "zrobienie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    },
+    {
+     "q": "napisać → ___",
+     "a": [
+      "napisanie"
+     ],
+     "expl": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować →…",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Дополнение в dopełniaczu",
+   "instr": "Поставьте дополнение в нужную форму.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "czytać książki → czytanie ___",
+     "a": [
+      "książek"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "myć samochód → mycie ___",
+     "a": [
+      "samochodu"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "pisać list → pisanie ___",
+     "a": [
+      "listu"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "mówić prawdę → mówienie ___",
+     "a": [
+      "prawdy"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "oglądać telewizję → oglądanie ___",
+     "a": [
+      "telewizji"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "gotować obiad → gotowanie ___",
+     "a": [
+      "obiadu"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "kupić mieszkanie → kupienie ___",
+     "a": [
+      "mieszkania"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "palić papierosy → palenie ___",
+     "a": [
+      "papierosów"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "ukończyć szkołę → ukończenie ___",
+     "a": [
+      "szkoły"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "organizować konferencję → organizowanie ___",
+     "a": [
+      "konferencji"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "pić kawę → picie ___",
+     "a": [
+      "kawy"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "zrobić zakupy → zrobienie ___",
+     "a": [
+      "zakupów"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Нужный падеж",
+   "instr": "Поставьте отглагольное существительное в нужный падеж.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Myj ręce przed ___ (jedzenie).",
+     "a": [
+      "jedzeniem"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Po ___ (przeczytanie) listu zadzwoniła do brata.",
+     "a": [
+      "przeczytaniu"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Nie mam nic do ___ (powiedzenie).",
+     "a": [
+      "powiedzenia"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Podczas ___ (jedzenie) nie rozmawiamy przez telefon.",
+     "a": [
+      "jedzenia"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Interesuję się ___ (czytanie).",
+     "a": [
+      "czytaniem"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Pływanie po ___ (jedzenie) jest niezdrowe.",
+     "a": [
+      "jedzeniu"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Bez ___ (zrozumienie) kontekstu trudno ocenić tę decyzję.",
+     "a": [
+      "zrozumienia"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Kupiłam proszek do ___ (pranie).",
+     "a": [
+      "prania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest stara maszyna do ___ (pisanie).",
+     "a": [
+      "pisania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Zebranie zwołano w celu ___ (omówienie) budżetu.",
+     "a": [
+      "omówienia"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Zajmuję się ___ (gotowanie).",
+     "a": [
+      "gotowaniem"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "Polecisz mi coś do ___ (czytanie)?",
+     "a": [
+      "czytania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Процесс или результат?",
+   "instr": "Выберите и напечатайте подходящую форму (несов. или сов. вид) в нужном падеже.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Po ___ (czytanie / przeczytanie) książki obejrzałam film.",
+     "a": [
+      "przeczytaniu"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "___ (czytanie / przeczytanie) przed snem pomaga mi się zrelaksować.",
+     "a": [
+      "Czytanie"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Podczas ___ (pisanie / napisanie) listu zadzwonił telefon.",
+     "a": [
+      "pisania"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Po ___ (kończenie / skończenie) pracy idę na siłownię.",
+     "a": [
+      "skończeniu"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "___ (robienie / zrobienie) zakupów zajmuje mi godzinę.",
+     "a": [
+      "Robienie"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Gratuluję ___ (kończenie / ukończenie) studiów!",
+     "a": [
+      "ukończenia"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Po ___ (jedzenie / zjedzenie) obiadu wyszli na spacer.",
+     "a": [
+      "zjedzeniu"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "___ (pływanie / przepłynięcie) jest dobre dla zdrowia.",
+     "a": [
+      "Pływanie"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Замените придаточное",
+   "instr": "Замените придаточное или инфинитив существительным. Напечатайте пропущенное слово.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Kiedy przeczytała list, zadzwoniła do brata. → Po ___ listu zadzwoniła do brata.",
+     "a": [
+      "przeczytaniu"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Kiedy jem, nie oglądam telewizji. → Podczas ___ nie oglądam telewizji.",
+     "a": [
+      "jedzenia"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie mam nic, co mógłbym powiedzieć. → Nie mam nic do ___.",
+     "a": [
+      "powiedzenia"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Gdy skończył szkołę, wyjechał za granicę. → Po ___ szkoły wyjechał za granicę.",
+     "a": [
+      "skończeniu",
+      "ukończeniu"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Myj ręce, zanim zjesz. → Myj ręce przed ___.",
+     "a": [
+      "jedzeniem"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Trudno jest pisać po polsku. → ___ po polsku jest trudne.",
+     "a": [
+      "Pisanie"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Spotkaliśmy się, żeby omówić budżet. → Spotkaliśmy się w celu ___ budżetu.",
+     "a": [
+      "omówienia"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie zrozumiesz tego, jeśli nie znasz kontekstu. → Bez ___ kontekstu tego nie zrozumiesz.",
+     "a": [
+      "znajomości",
+      "zrozumienia"
+     ],
+     "expl": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Обычные существительные",
+   "instr": "Напечатайте существительное по определению.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Miejsce, w którym mieszkasz: ___",
+     "a": [
+      "mieszkanie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "To, o co pytasz: ___",
+     "a": [
+      "pytanie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "To, co jesz: ___",
+     "a": [
+      "jedzenie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "Miejsce w samochodzie albo w pociągu, na którym siedzisz: ___",
+     "a": [
+      "siedzenie"
+     ],
+     "expl": "siedzieć → siedzenie (стало обычным словом).",
+     "t": "t7"
+    },
+    {
+     "q": "Czas od urodzenia do śmierci: ___",
+     "a": [
+      "życie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "Miłość to piękne ___.",
+     "a": [
+      "uczucie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "Uroczystość na początku wystawy: ___ wystawy",
+     "a": [
+      "otwarcie"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    },
+    {
+     "q": "Godzina, od której sklep jest nieczynny: godzina ___",
+     "a": [
+      "zamknięcia"
+     ],
+     "expl": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie…",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: правила бассейна",
+   "instr": "Uzupełnij regulamin. Wpisz rzeczownik odczasownikowy od czasownika w nawiasie w odpowiedniej formie.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "REGULAMIN BASENU. 1. {1} do wody bez czepka jest zabronione. 2. Przed {2} należy wziąć prysznic. 3. {3} i {4} na terenie basenu jest zabronione. 4. Po {5} zajęć należy opuścić halę basenu. 5. Podczas {6} prosimy nie korzystać z telefonów. 6. Rzeczy do {7} można zostawić w szafce. 7. {8} papierosów jest zabronione. 8. Za {9} kluczyka do szafki płaci się 20 zł. 9. W celu {10} toru prosimy dzwonić do recepcji. 10. Bez {11} biletu nie można wejść na basen. Dziękujemy za {12} regulaminu!",
+   "items": [
+    {
+     "q": "wchodzić",
+     "a": [
+      "Wchodzenie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "pływać",
+     "a": [
+      "pływaniem"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "jeść",
+     "a": [
+      "Jedzenie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "pić",
+     "a": [
+      "picie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "skończyć",
+     "a": [
+      "skończeniu"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "pływać",
+     "a": [
+      "pływania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "przechować",
+     "a": [
+      "przechowania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "palić",
+     "a": [
+      "Palenie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "zgubić",
+     "a": [
+      "zgubienie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "zarezerwować",
+     "a": [
+      "zarezerwowania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "pokazać",
+     "a": [
+      "pokazania"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    },
+    {
+     "q": "przestrzegać",
+     "a": [
+      "przestrzeganie"
+     ],
+     "expl": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "instr": "Перестройте, используя отглагольное существительное. Впишите одно слово.",
+   "format": "exam",
+   "level": 3,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Po tym, jak zjedliśmy kolację, poszliśmy na spacer. → Po ___ kolacji poszliśmy na spacer.",
+     "a": [
+      "zjedzeniu"
+     ],
+     "expl": "po + miejscownik: po zjedzeniu.",
+     "t": "t6"
+    },
+    {
+     "q": "Kiedy czekam na autobus, słucham muzyki. → Podczas ___ na autobus słucham muzyki.",
+     "a": [
+      "czekania"
+     ],
+     "expl": "podczas + dopełniacz: podczas czekania.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie wolno tu palić. → ___ jest tu zabronione.",
+     "a": [
+      "Palenie"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Lubię gotować. → Moje hobby to ___.",
+     "a": [
+      "gotowanie"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Zanim pójdziesz spać, wyłącz komputer. → Przed ___ wyłącz komputer.",
+     "a": [
+      "spaniem",
+      "snem"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Zebraliśmy się, żeby omówić plan. → Zebraliśmy się w celu ___ planu.",
+     "a": [
+      "omówienia"
+     ],
+     "expl": "w celu + dopełniacz: omówienia.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie wiem, co powiedzieć. → Nie mam nic do ___.",
+     "a": [
+      "powiedzenia"
+     ],
+     "expl": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+     "t": "t4"
+    },
+    {
+     "q": "Przyjemnie jest uczyć się języków. → ___ się języków jest przyjemne.",
+     "a": [
+      "Uczenie"
+     ],
+     "expl": "uczyć się → uczenie się.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Правила общежития",
+   "instr": "Napisz regulamin akademika lub hostelu (8–10 punktów, 60–80 słów): co jest zabronione, co trzeba zrobić przed wyjazdem, w jakich godzinach jest cisza nocna.",
+   "words": [
+    60,
+    80
+   ],
+   "need": "Не меньше 6 отглагольных существительных, дополнения в родительном, хотя бы 3 разных предлога (po, przed, podczas, w celu), официальный стиль.",
+   "model": "Regulamin domu studenckiego\n1. Palenie papierosów w budynku jest zabronione.\n2. Picie alkoholu w kuchni jest niedozwolone.\n3. Cisza nocna obowiązuje od 22:00 do 6:00.\n4. Podczas ciszy nocnej słuchanie głośnej muzyki jest zabronione.\n5. Po gotowaniu należy umyć naczynia.\n6. Przed wyjazdem obowiązkowe jest oddanie klucza w recepcji.\n7. W celu przedłużenia pobytu prosimy o kontakt z administracją.\n8. Przyjmowanie gości jest możliwe do godziny 21:00.\n9. Za zniszczenie wyposażenia płaci mieszkaniec.",
+   "model_future": [
+    "palenie papierosów",
+    "picie alkoholu",
+    "podczas ciszy",
+    "słuchanie głośnej muzyki",
+    "po gotowaniu",
+    "przed wyjazdem",
+    "oddanie klucza",
+    "w celu przedłużenia",
+    "przyjmowanie gości",
+    "zniszczenie"
+   ],
+   "checklist": [
+    "не меньше 6 отглагольных существительных",
+    "дополнения в dopełniaczu (palenie papierosów)",
+    "po / przed / podczas / w celu — хотя бы 3 разных",
+    "официальный стиль",
+    "60–80 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Мои увлечения",
+   "instr": "Napisz tekst o swoich zainteresowaniach (80–100 słów): czym się interesujesz, co robisz w wolnym czasie, czego nie lubisz robić.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Interesuję się …-niem, moje hobby to…, 2 формы с po / podczas, lubię + инфинитив.",
+   "model": "Moje zainteresowania\nInteresuję się gotowaniem i podróżowaniem. Moje hobby to pieczenie chleba. W weekendy lubię gotować dla przyjaciół i próbować nowych przepisów. Po pracy często chodzę na pływanie, bo pływanie pomaga mi odpocząć. Podczas podróży zawsze robię zdjęcia i kupuję lokalne przyprawy. Lubię też czytanie kryminałów, szczególnie przed spaniem. Nie lubię natomiast sprzątania i prasowania. Najgorsze jest dla mnie mycie okien! Na szczęście mój mąż lubi porządki. Marzę o zwiedzaniu Japonii i nauce japońskiej kuchni. W przyszłym roku planuję zapisanie się na kurs tańca.",
+   "model_future": [
+    "gotowaniem",
+    "podróżowaniem",
+    "pieczenie chleba",
+    "pływanie",
+    "podczas podróży",
+    "czytanie kryminałów",
+    "przed spaniem",
+    "sprzątania",
+    "prasowania",
+    "mycie okien",
+    "zwiedzaniu"
+   ],
+   "checklist": [
+    "interesuję się …-niem (творительный)",
+    "moje hobby to …",
+    "2 формы с po / podczas",
+    "хотя бы 1 lubię + инфинитив",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  }
+ ]
+}

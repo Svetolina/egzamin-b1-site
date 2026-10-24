@@ -1,0 +1,221 @@
+<title>Liczebniki z rzeczownikami · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "liczebniki-z-rzeczownikami", "level": "B1", "group": "Числительные", "title_pl": "Liczebniki z rzeczownikami", "title_ru": "Числительные с существительными", "lead": "Dwa koty, pięć kotów, dwóch braci, dwoje dzieci. Какой падеж и какой глагол после числа.", "facts_file": "extract.json", "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. d «odmiana liczebników głównych (np.: jeden, dwa, dwie; cztery, czterej, czterech; pięć, pięciu; siedem, siedmiu)» и lit. a «męskoosobowych i niemęskoosobowych (np.: … czterech panów, czterej studenci ≠ cztery stoły, cztery studentki)», s. 76.", "KEY: сборник 2017, Gramatyka 11.III. «Числительные, блок 11, III» (tests/b1-sbornik.js, k11-3)"]}, "forms": [], "theory": [{"id": "t1", "title": "Три группы", "facts": ["R1", "R2", "R3"], "blocks": [{"type": "table", "head": ["число", "существительное", "пример"], "rows": [["1", "как прилагательное", "jeden kot, jedna kobieta, jedno okno"], ["2, 3, 4 (и …2, …3, …4)", "Mianownik мн. ч.", "trzy koty, cztery okna, 23 stopnie"], ["5+ (и 11–21, …5–…1)", "Dopełniacz мн. ч.", "pięć kotów, siedem kobiet, 25 stopni"]], "pl_cols": [2]}, {"type": "note", "kind": "tip", "text": "Почти как в русском (два кота — пять котов), но в польском 2–4 дают именно мн. ч. Mianownik: trzy koty."}]}, {"id": "t2", "title": "Смотрите на последнее слово", "facts": ["R2", "R4", "R5"], "blocks": [{"type": "table", "head": ["число", "последнее слово", "форма"], "rows": [["22, 33, 104", "dwa / trzy / cztery", "Mianownik: dwadzieścia dwa domy"], ["12, 13, 14", "-naście", "Dopełniacz: dwanaście domów"], ["21, 31, 101", "jeden", "Dopełniacz: dwadzieścia jeden domów"], ["100, 300, 400", "sto / trzysta / czterysta", "Dopełniacz: czterysta złotych"]], "pl_cols": [0, 1, 2]}, {"type": "note", "kind": "tip", "text": "Внимание: [[dwanaście domy]] — ошибка: 12 не «кончается на 2»."}]}, {"id": "t3", "title": "Dwa или dwie", "facts": ["R6"], "blocks": [{"type": "p", "text": "**dwa** — мужской неличный и средний: [[dwa koty, dwa okna, dwa samochody]]. **dwie** — женский: [[dwie kobiety, dwie książki]]. Trzy и cztery рода не различают."}]}, {"id": "t4", "title": "Мужчины и смешанные группы", "facts": ["R7"], "blocks": [{"type": "table", "head": ["вариант", "форма", "пример"], "rows": [["основной", "dwóch, trzech, czterech, pięciu… + Dopełniacz", "dwóch studentów, pięciu mężczyzn, sześciu chłopców"], ["для 2–4", "dwaj, trzej, czterej + Mianownik", "dwaj studenci, trzej mężczyźni, czterej panowie"]], "pl_cols": [1, 2]}, {"type": "note", "kind": "tip", "text": "Обе конструкции правильные; в упражнениях на согласование глагола используем основной вариант (dwóch … przyszło)."}]}, {"id": "t5", "title": "Какой глагол", "facts": ["R8"], "blocks": [{"type": "table", "head": ["подлежащее", "глагол", "пример"], "rows": [["2–4 + не мужско-личное", "мн. ч.", "Cztery osoby przyszły. Dwie kobiety piły kawę."], ["5+", "ед. ч. (прош. — ср. род)", "Pięć osób przyszło. Teraz pięć osób czeka."], ["dwóch / pięciu + мужчины", "ед. ч. (прош. — ср. род)", "Dwóch mężczyzn przyszło. Pięciu studentów zdało."]], "pl_cols": [2]}]}, {"id": "t6", "title": "Dzieci: dwoje, troje, czworo", "facts": ["R9"], "blocks": [{"type": "p", "text": "С [[dzieci]] — собирательные числительные: **dwoje, troje, czworo, pięcioro dzieci**. [[Mam dwoje dzieci]] (не [[dwa dzieci]])."}]}, {"id": "t7", "title": "Возраст и цены", "facts": ["R10"], "blocks": [{"type": "table", "head": ["", "2–4", "5+"], "rows": [["возраст", "22 lata, 3 lata", "25 lat, 21 lat"], ["цена", "4 złote, 33 złote", "8 złotych, 12 złotych, 400 złotych"]], "pl_cols": [1, 2]}]}, {"id": "t8", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В сборнике числительным посвящено задание III блока 11 («поставьте числительные в нужную форму»). В письме числа нужны почти всегда: цены, возраст, количество людей и вещей."}, {"type": "steps", "items": ["Посмотрите на последнюю цифру: 2, 3, 4 (кроме 12–14) — именительный мн. ч.", "5 и больше, 12–14 — родительный мн. ч.: [[pięć kotów]].", "Мужчины: [[dwóch / trzech / pięciu panów]] + глагол в ед. ч. ср. р.: [[przyszło]]."]}]}], "exercises": [{"id": "e1", "title": "Форма существительного", "instr": "Напишите существительное в нужной форме.", "level": 2, "kind": "type", "items": [{"q": "dwa ___ (kot)", "a": ["koty"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "pięć ___ (kot)", "a": ["kotów"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "trzy ___ (kobieta)", "a": ["kobiety"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "siedem ___ (kobieta)", "a": ["kobiet"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "cztery ___ (okno)", "a": ["okna"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "dziesięć ___ (okno)", "a": ["okien"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "dwie ___ (książka)", "a": ["książki"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "dwanaście ___ (książka)", "a": ["książek"], "expl": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście…", "t": "t2"}, {"q": "dwadzieścia dwa ___ (dom)", "a": ["domy"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "dwadzieścia pięć ___ (dom)", "a": ["domów"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "czternaście ___ (dzień)", "a": ["dni"], "expl": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście…", "t": "t2"}, {"q": "dwadzieścia trzy ___ (stopień)", "a": ["stopnie"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "sześć ___ (stopień)", "a": ["stopni"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "dwa ___ (miesiąc)", "a": ["miesiące"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "osiem ___ (miesiąc)", "a": ["miesięcy"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "cztery ___ (tydzień)", "a": ["tygodnie"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "pięć ___ (tydzień)", "a": ["tygodni"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "dwadzieścia jeden ___ (pies)", "a": ["psów"], "expl": "Составные, кончающиеся на jeden (21, 31, 101), — jeden не меняется, существительное в Dopełniacz мн.", "t": "t2"}, {"q": "trzydzieści trzy ___ (krzesło)", "a": ["krzesła"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "sto ___ (osoba)", "a": ["osób"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "dwie ___ (osoba)", "a": ["osoby"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "czterdzieści cztery ___ (jabłko)", "a": ["jabłka"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "piętnaście ___ (jabłko)", "a": ["jabłek"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "trzynaście ___ (samochód)", "a": ["samochodów"], "expl": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście…", "t": "t2"}]}, {"id": "e2", "title": "Dwa, dwie, dwaj, dwóch…", "instr": "Напишите числительное в правильной форме.", "level": 2, "kind": "type", "items": [{"q": "___ kobiety (2)", "a": ["dwie"], "expl": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).", "t": "t3"}, {"q": "___ koty (2)", "a": ["dwa"], "expl": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).", "t": "t3"}, {"q": "___ okna (2)", "a": ["dwa"], "expl": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).", "t": "t3"}, {"q": "___ mężczyźni (2)", "a": ["dwaj"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ mężczyzn (2)", "a": ["dwóch"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ studenci (3)", "a": ["trzej"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ studentów (3)", "a": ["trzech"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ panowie (4)", "a": ["czterej"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ lekarzy (5, мужчины)", "a": ["pięciu"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "___ lekarek (5, женщины)", "a": ["pięć"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "___ siostry (2)", "a": ["dwie"], "expl": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).", "t": "t3"}, {"q": "___ chłopców (6)", "a": ["sześciu"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}]}, {"id": "e3", "title": "Согласование глагола", "instr": "Напишите форму глагола (прошедшее время, если не указано иное).", "level": 2, "kind": "type", "items": [{"q": "Pięć osób ___ na spotkanie. (przyjść)", "a": ["przyszło"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Cztery osoby ___ na spotkanie. (przyjść)", "a": ["przyszły"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwie kobiety ___ kawę. (pić)", "a": ["piły"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwóch mężczyzn ___ do sklepu. (wejść)", "a": ["weszło"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Pięciu studentów ___ egzamin. (zdać)", "a": ["zdało"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Trzy psy ___ całą noc. (szczekać)", "a": ["szczekały"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dziesięć samochodów ___ na parkingu. (stać)", "a": ["stało"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwa autobusy ___ spóźnione. (być)", "a": ["były"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Siedem dziewczyn ___ w chórze. (śpiewać)", "a": ["śpiewało"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Trzech kolegów ___ mi w przeprowadzce. (pomóc)", "a": ["pomogło"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwadzieścia dwie osoby ___ na wycieczkę. (pojechać)", "a": ["pojechały"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwanaście osób ___ na wycieczkę. (pojechać)", "a": ["pojechało"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Teraz pięć osób ___ w kolejce. (czekać, czas teraźniejszy)", "a": ["czeka"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}]}, {"id": "e4", "title": "Возраст, цены, комнаты", "instr": "Напишите существительное в нужной форме.", "level": 2, "kind": "type", "items": [{"q": "Mam dwadzieścia dwa ___. (rok)", "a": ["lata"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mam dwadzieścia pięć ___. (rok)", "a": ["lat"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mam dwadzieścia jeden ___. (rok)", "a": ["lat"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mój syn ma trzy ___. (rok)", "a": ["lata"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Babcia ma osiemdziesiąt cztery ___. (rok)", "a": ["lata"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "To kosztuje dwa ___. (złoty)", "a": ["złote"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "To kosztuje pięć ___. (złoty)", "a": ["złotych"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Bilet kosztuje cztery ___. (złoty)", "a": ["złote"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Kawa kosztuje dwanaście ___. (złoty)", "a": ["złotych"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Obiad kosztuje trzydzieści trzy ___. (złoty)", "a": ["złote"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mieszkanie ma trzy ___. (pokój)", "a": ["pokoje"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mieszkanie ma pięć ___. (pokój)", "a": ["pokoi", "pokojów"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}]}, {"id": "e5", "title": "Dwoje, troje, czworo", "instr": "Напишите форму.", "level": 2, "kind": "type", "items": [{"q": "Mam ___ dzieci. (2)", "a": ["dwoje"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}, {"q": "Oni mają ___ dzieci. (3)", "a": ["troje"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}, {"q": "Sąsiedzi mają ___ dzieci. (4)", "a": ["czworo"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}, {"q": "W grupie jest ___ dzieci. (5)", "a": ["pięcioro"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}, {"q": "Mamy dwoje ___. (dziecko)", "a": ["dzieci"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}]}, {"id": "e6", "title": "Найдите и исправьте ошибку", "instr": "Напишите исправленное слово.", "level": 2, "kind": "type", "items": [{"q": "Pięć kot.", "a": ["kotów"], "expl": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн.", "t": "t1"}, {"q": "Dwa kobiety.", "a": ["dwie"], "expl": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).", "t": "t3"}, {"q": "Pięć osób przyszły.", "a": ["przyszło"], "expl": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób…", "t": "t5"}, {"q": "Dwanaście domy.", "a": ["domów"], "expl": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście…", "t": "t2"}, {"q": "Dwadzieścia trzy domów.", "a": ["domy"], "expl": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн.", "t": "t1"}, {"q": "Mam dwadzieścia pięć lata.", "a": ["lat"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Dwie mężczyźni.", "a": ["dwaj"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "Trzy studentów.", "a": ["trzech"], "expl": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн.", "t": "t4"}, {"q": "To kosztuje pięć złote.", "a": ["złotych"], "expl": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8…", "t": "t7"}, {"q": "Mamy dwa dzieci.", "a": ["dwoje"], "expl": "С dziecko (dzieci) и словами только мн.", "t": "t6"}]}, {"id": "e7", "title": "Ogłoszenie: wycieczka szkoły językowej", "instr": "Proszę wpisać wyrazy z nawiasu w odpowiedniej formie.", "format": "exam", "level": 3, "kind": "text", "passage": "Szkoła językowa „Polonus” organizuje wycieczkę do Krakowa. Wyjazd w piątek rano, powrót w niedzielę — razem trzy {1}. Pojedzie dwudziestu {2} i dwie {3}. W hostelu zarezerwowaliśmy sześć {4}, w tym dwa {5} z łazienką. Każdy uczestnik płaci czterysta {6}. W cenie są trzy {7} i dwie {8}. W sobotę zobaczymy dwa najstarsze {9} w mieście. W zeszłym roku na wycieczkę {10} dwanaście osób, a w tym roku już dwadzieścia dwie {11} {12}. Zostało jeszcze pięć {13}. Sekretariat jest czynny siedem {14} dziennie. Zapraszamy!", "items": [{"q": "dzień", "a": ["dni"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "student", "a": ["studentów"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "nauczycielka", "a": ["nauczycielki"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "pokój", "a": ["pokoi", "pokojów"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "pokój", "a": ["pokoje"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "złoty", "a": ["złotych"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "obiad", "a": ["obiady"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "kolacja", "a": ["kolacje"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "kościół", "a": ["kościoły"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "pojechać", "a": ["pojechało"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "osoba", "a": ["osoby"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "zapisać się", "a": ["zapisały się"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "miejsce", "a": ["miejsc"], "expl": "См. правило в теории.", "t": "t1"}, {"q": "godzina", "a": ["godzin"], "expl": "См. правило в теории.", "t": "t1"}]}, {"id": "e8", "level": 4, "kind": "write", "title": "E-mail: zamówienie na przyjęcie", "instr": "Organizujesz przyjęcie urodzinowe. Napisz e-mail do firmy cateringowej (60–80 słów): ile osób przyjdzie, co zamawiasz (ilości), ile chcesz zapłacić.", "words": [60, 80], "need": "Не меньше 6 сочетаний числительное + существительное из разных групп; мужско-личная форма; dwoje / troje dzieci.", "model": "Szanowni Państwo,\nw sobotę organizuję przyjęcie urodzinowe. Przyjdą dwadzieścia dwie osoby: piętnastu dorosłych, pięciu kolegów z pracy i dwoje dzieci. Chciałabym zamówić trzy duże sałatki, dwadzieścia cztery kanapki, dwanaście pierogów z mięsem i dwa torty. Do picia proszę o sześć butelek soku i cztery butelki wody. Mój budżet to około ośmiuset złotych. Czy mogliby Państwo przygotować ofertę?\nZ poważaniem\nOlena Kowal", "model_future": ["dwadzieścia dwie osoby", "piętnastu dorosłych", "pięciu kolegów", "dwoje dzieci", "trzy duże sałatki", "ośmiuset złotych"], "checklist": ["минимум 6 сочетаний числительное + существительное из разных групп (2–4, 5+, 12–14, …2–…4)", "одна мужско-личная форма (pięciu kolegów)", "dwoje/troje dzieci", "одна фраза с согласованием глагола (przyjdzie dwadzieścia osób)", "цена в złote/złotych", "60–80 слов"], "t": "t1", "items": []}, {"id": "e9", "level": 4, "kind": "write", "title": "Opis: moja rodzina w liczbach", "instr": "Opisz swoją rodzinę i dom (80–100 słów), używając jak najwięcej liczebników: ile osób, ile lat, ile pokoi, zwierząt, lat w Polsce itp.", "words": [80, 100], "need": "Возраст с lata и lat, не меньше 2 форм с 5+ и 2 с 2–4, собирательное или мужско-личное, глагол в согласовании с 5+.", "model": "Moja rodzina jest duża. Mam męża i troje dzieci. Najstarszy syn ma dwadzieścia dwa lata, córka ma osiemnaście lat, a najmłodszy syn — pięć lat. Mieszkamy w domu, który ma sześć pokoi i dwie łazienki. Mamy też dwa koty i jednego psa. W Polsce mieszkamy od siedmiu lat. Mój mąż ma trzech braci, więc na święta przyjeżdża do nas dwanaście osób. W zeszłe święta przy stole siedziało aż piętnaście osób! Było głośno, ale bardzo wesoło. Na kolację przygotowałam dwanaście dań. Razem było nas osiemnaście osób.", "model_future": ["troje dzieci", "dwadzieścia dwa lata", "osiemnaście lat", "sześć pokoi", "dwie łazienki", "trzech braci", "siedziało"], "checklist": ["возраст с lata и lat", "минимум 2 формы с 5+ (Dopełniacz)", "минимум 2 формы с 2–4", "собирательное (dwoje dzieci) или мужско-личное (trzech braci)", "один глагол в согласовании с 5+", "80–100 слов"], "t": "t1", "items": []}]}, "facts": {"R1": {"refs": ["ELA («jeden agrees like an adjective»)", "TLA («1 takes the gender form: jeden, jedna, jedno»)", "JPBG XI s. 95 («Liczebnik jeden występuje w trzech rodzajach i odmienia się … według deklinacji przymiotnikowej: jeden, jedna, jedno»)"], "status": "ok"}, "R2": {"refs": ["ELA («2–4: the noun stays in the nominative plural»)", "PDA («2, 3, and 4 (including 22, 23, and 24) take the nominative plural»)", "LQA («Numerals ending in 2, 3, or 4»)", "JPBG XI s. 96 (2, 3, 4; 22, 23, 24; 32, 33, 34 … + «rzeczownik … w mianowniku lm.»: Dwa samochody, Trzydzieści cztery samochody)"], "status": "ok"}, "R3": {"refs": ["ELA («5+: the counted noun goes into the genitive plural»)", "PDA («Other numbers above 5, except those ending in 2–4, take the genitive plural»)", "LQA («All other cardinal numbers take the genitive plural»: siedem kobiet, dwanaście ryb, trzysta złotych)", "JPBG XI s. 96 («od 5 do 21, od 25 do 31 … w dopełniaczu lm.»: Pięć samochodów, Sto dwadzieścia jeden samochodów)"], "status": "ok"}, "R4": {"refs": ["LQA («12–14 fall into the genitive group»)", "PDA («2 domy» but «11 domów»; «teens… take lat»)", "JPBG XI s. 96 (12–14 входят в группу «od 5 do 21» — dopełniacz lm.)"], "status": "ok"}, "R5": {"refs": ["ZPA («If the final element is jeden, it stays unchanged»)", "PDA («21 and 25–30 take lat»)", "JPBG XI s. 96 («Liczebnik jeden znajdujący się na końcu liczby, niezależnie od rodzaju rzeczownika, zawsze stawiamy w rodzaju męskim: dwadzieścia jeden okien, trzydzieści jeden kobiet»)"], "status": "ok"}, "R6": {"refs": ["ELA («dwa for masculine and neuter, dwie for feminine»)", "ZPA (примеры dwa samochody, dwie panie, dwa okna)", "TLA (таблица по родам)", "JPBG XI s. 95 («Liczebnik dwa posiada także formę rodzaju żeńskiego»: dwaj/dwóch — dwie — dwa)"], "status": "ok"}, "R7": {"refs": ["ELA («dwóch, trzech, czterech, pięciu, sześciu… take the genitive plural»; dwaj studenci)", "TLA («dwaj / trzej / czterej mężczyźni; pięciu mężczyzn»)", "ZPA («dwaj chłopcy, dwóch chłopców»)", "JPBG XI s. 98 («Liczebniki 2, 3, 4 w mianowniku lm. występują w dwóch formach: dwaj – dwóch, trzej – trzech, czterej – czterech»; dwaj + mianownik, dwóch + dopełniacz)", "JPBG XI s. 95 (męskoosobowe: pięciu, sześciu…)"], "status": "ok"}, "R8": {"refs": ["ELA («Verb agreement»: Pięć osób przyszło; Cztery osoby przyszły)", "UNA («dwie kobiety przyszły», «dwóch mężczyzn przyszło»)", "JPBG XI s. 96 («Dwa samochody jadą / jechały»; «Pięć samochodów jedzie / jechało»)", "JPBG XI s. 98 («Dwaj robotnicy pracują / pracowali»; «Dwóch robotników pracuje / pracowało»; «Pięciu robotników pracuje / pracowało»)"], "status": "ok"}, "R9": {"refs": ["ZPA («Collective numerals»: dwoje dzieci, czworo dzieci)", "TLA («dwoje / troje / czworo dzieci; pięcioro dzieci»)", "JPBG XI s. 134 («Liczebniki zbiorowe łączą się … z rzeczownikiem dziecko: dwoje, sześcioro, piętnaścioro dzieci»)"], "status": "ok"}, "R10": {"refs": ["PDA («Age expressions (lata vs. lat)»; «4 złote» but «8 złotych»)", "LQA («trzysta złotych»)", "ZJP s. 64 («Mieszkam w Polsce ponad (12) lat», «Przed (5) laty»)"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "ELA": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»: https://elon.io/grammar/polish/mistakes/numbers-and-agreement", "ZPA": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»: https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM", "TLA": "Transparent Language, Polish Language Blog: «Cardinal numbers»: https://blogs.transparent.com/polish/cardinal-numbers/", "PDA": "Polski Daily: «Polish numerals — nominative or genitive?»: https://polskidaily.eu/polish-numerals-nominative-or-genitive/", "LQA": "LingQ grammar resource: «Polish Numerals»: https://www.lingq.com/pl/grammar-resource/polish/numerals/", "UNA": "K. Schlund, «Dwaj panowie przyszli or dwóch panów przyszło?», Journal of Slavic Linguistics (2022) — аннотация: https://ojs.ung.si/index.php/JSL/article/view/60", "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka", "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py", "JPBG XI": "Język polski bez granic, kl. XI (B2) (файлы проекта kl.-XI-*.pdf)", "ZJP": "Z językiem polskim każdego dnia – B1, podręcznik (файлы проекта Podręcznik_…B1-*.pdf)"}, "checked": "24.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

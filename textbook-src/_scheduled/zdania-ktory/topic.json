@@ -1,0 +1,840 @@
+{
+ "id": "zdania-ktory",
+ "order": 10,
+ "title": "Zdania z „który”",
+ "titleRu": "Придаточные со словом «który»",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "przymiotnik-odmiana",
+  "przypadki"
+ ],
+ "next": "zeby-aby",
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Два вопроса к który",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "body": "1) **К какому слову относится?** → оттуда **род и число**. 2) **Какую роль играет в своём предложении?** → оттуда **падеж**.",
+   "examples": [
+    [
+     "Lubię tego chłopca, który pracuje w banku.",
+     "…который работает (кто? — Mianownik)"
+    ],
+    [
+     "Lubię tego chłopca, którego spotkałam w Warszawie.",
+     "…которого я встретила (кого? — Biernik)"
+    ],
+    [
+     "Lubię tego chłopca, z którym byłaś w Krakowie.",
+     "…с которым ты была (z + Narzędnik)"
+    ]
+   ],
+   "tip": "Как русское «который»: род — от слова, падеж — от своей части предложения."
+  },
+  {
+   "id": "t2",
+   "title": "Таблица склонения",
+   "facts": [
+    "R3",
+    "R4"
+   ],
+   "table": {
+    "head": [
+     "падеж",
+     "м. р.",
+     "ж. р.",
+     "ср. р.",
+     "мн. ч. мужско-личн.",
+     "мн. ч. остальные"
+    ],
+    "rows": [
+     [
+      "M",
+      "który",
+      "która",
+      "które",
+      "którzy",
+      "które"
+     ],
+     [
+      "D",
+      "którego",
+      "której",
+      "którego",
+      "których",
+      "których"
+     ],
+     [
+      "C",
+      "któremu",
+      "której",
+      "któremu",
+      "którym",
+      "którym"
+     ],
+     [
+      "B",
+      "którego (одуш.) / który (неодуш.)",
+      "którą",
+      "które",
+      "których",
+      "które"
+     ],
+     [
+      "N",
+      "którym",
+      "którą",
+      "którym",
+      "którymi",
+      "którymi"
+     ],
+     [
+      "Ms",
+      "(o) którym",
+      "(o) której",
+      "(o) którym",
+      "(o) których",
+      "(o) których"
+     ]
+    ]
+   },
+   "body": "Склоняется как прилагательное (*nowy, nowa, nowe*).",
+   "sourceNote": "Полная таблица в источниках дана картинкой; формы сверены с примерами в тексте источников и с адъективным склонением."
+  },
+  {
+   "id": "t3",
+   "title": "Предлог — впереди",
+   "facts": [
+    "R5"
+   ],
+   "body": "Предлог всегда **перед** który: *kolega, **z którym** pracuję*; *dom, **w którym** mieszkam*; *temat, **o którym** musimy porozmawiać*; *firma, **dla której** pracuję*.",
+   "warn": "Не *kobieta, którą studiowałam z* — так нельзя."
+  },
+  {
+   "id": "t4",
+   "title": "Запятые и пропуск",
+   "facts": [
+    "R6",
+    "R7"
+   ],
+   "body": "Запятая перед **który** — всегда; если придаточное внутри предложения, то и после него: *Samochód, który kupiłem, jest czerwony.* Сам **który** не пропускают никогда."
+  },
+  {
+   "id": "t5",
+   "title": "Jaki и co",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "table": {
+    "head": [
+     "слово",
+     "когда",
+     "пример"
+    ],
+    "rows": [
+     [
+      "który",
+      "конкретный предмет/человек",
+      "Książka, która leży na stole, jest moja."
+     ],
+     [
+      "jaki",
+      "какой по типу, сравнение",
+      "To najlepszy film, jaki widziałam."
+     ],
+     [
+      "co",
+      "после to, wszystko, coś, nic или всего предложения",
+      "Wszystko, co mówisz, jest prawdą."
+     ]
+    ]
+   },
+   "sourceNote": "Строка «co» — по одному источнику."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "gaps",
+   "title": "Który, która, które, którzy",
+   "instr": "Напишите форму Mianownik.",
+   "items": [
+    {
+     "q": "To jest mój przyjaciel, {1} pracuje w banku.",
+     "a": [
+      "który"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "To jest moja koleżanka, {1} pracuje w banku.",
+     "a": [
+      "która"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "To jest dziecko, {1} mieszka obok.",
+     "a": [
+      "które"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "To są ludzie, {1} mi pomogli.",
+     "a": [
+      "którzy"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "To są książki, {1} leżą na stole.",
+     "a": [
+      "które"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Znam kobiety, {1} tu pracują.",
+     "a": [
+      "które"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Studenci, {1} zdali egzamin, mogą iść do domu.",
+     "a": [
+      "którzy"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Pies, {1} szczeka, jest mój.",
+     "a": [
+      "który"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Okno, {1} jest otwarte, trzeba zamknąć.",
+     "a": [
+      "które"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Nauczycielka, {1} uczy nas polskiego, jest z Krakowa.",
+     "a": [
+      "która"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Moi rodzice, {1} mieszkają w Kijowie, przyjadą jutro.",
+     "a": [
+      "którzy"
+     ],
+     "fact": "R1, R3"
+    },
+    {
+     "q": "Koty, {1} śpią na kanapie, są głodne.",
+     "a": [
+      "które"
+     ],
+     "fact": "R1, R3"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "gaps",
+   "title": "Падеж по роли в предложении",
+   "instr": "Напишите który в нужной форме.",
+   "items": [
+    {
+     "q": "To jest mężczyzna, {1} znam od lat.",
+     "a": [
+      "którego"
+     ],
+     "fact": "R2, R4"
+    },
+    {
+     "q": "To jest kobieta, {1} znam od lat.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Samochód, {1} kupiłem, jest czerwony.",
+     "a": [
+      "który"
+     ],
+     "fact": "R4",
+     "hint": "неодушевлённое: Biernik = Mianownik"
+    },
+    {
+     "q": "To jest mężczyzna, {1} pożyczyłem pieniądze.",
+     "a": [
+      "któremu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To jest koleżanka, {1} pożyczyłem pieniądze.",
+     "a": [
+      "której"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Książka, {1} czytam, jest nudna.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To jest film, {1} nie lubię.",
+     "a": [
+      "którego"
+     ],
+     "fact": "R2",
+     "hint": "nie + глагол → Dopełniacz"
+    },
+    {
+     "q": "Dziewczyna, {1} szukasz, już wyszła.",
+     "a": [
+      "której"
+     ],
+     "fact": "R2",
+     "hint": "szukać + Dopełniacz"
+    },
+    {
+     "q": "Ludzie, {1} spotkaliśmy, byli mili.",
+     "a": [
+      "których"
+     ],
+     "fact": "R2, R3"
+    },
+    {
+     "q": "Kwiaty, {1} dostałam, są piękne.",
+     "a": [
+      "które"
+     ],
+     "fact": "R2, R3"
+    },
+    {
+     "q": "Dzieci, {1} pomagamy, mieszkają w domu dziecka.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R2",
+     "hint": "pomagać + Celownik"
+    },
+    {
+     "q": "Firma, {1} kieruje mój mąż, jest duża.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R2",
+     "hint": "kierować + Narzędnik"
+    },
+    {
+     "q": "To jest pan, {1} muszę podziękować.",
+     "a": [
+      "któremu"
+     ],
+     "fact": "R2",
+     "hint": "dziękować + Celownik"
+    },
+    {
+     "q": "Miasto, {1} odwiedziliśmy, było piękne.",
+     "a": [
+      "które"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Problem, {1} nie rozumiem, jest trudny.",
+     "a": [
+      "którego"
+     ],
+     "fact": "R2",
+     "hint": "nie + глагол → Dopełniacz"
+    },
+    {
+     "q": "Sąsiadka, {1} często odwiedzam, jest bardzo miła.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Pies, {1} widziałeś, jest mój.",
+     "a": [
+      "którego"
+     ],
+     "fact": "R4",
+     "hint": "одушевлённое"
+    },
+    {
+     "q": "Studentki, {1} uczę, są zdolne.",
+     "a": [
+      "które"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Moi bracia, {1} bardzo kocham, mieszkają daleko.",
+     "a": [
+      "których"
+     ],
+     "fact": "R3, R4"
+    },
+    {
+     "q": "List, {1} napisałaś, jest piękny.",
+     "a": [
+      "który"
+     ],
+     "fact": "R4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Z którym, w którym, o której…",
+   "instr": "Напишите который в нужной форме после предлога.",
+   "items": [
+    {
+     "q": "To jest kolega, z {1} pracuję.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "To jest kobieta, z {1} studiowałam.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "To jest dom, w {1} mieszkam od dziecka.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "To jest temat, o {1} musimy porozmawiać.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Firma, dla {1} pracuję, sprzedaje papier.",
+     "a": [
+      "której"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Miasto, do {1} jedziemy, jest nad morzem.",
+     "a": [
+      "którego"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Ludzie, z {1} mieszkam, są studentami.",
+     "a": [
+      "którymi"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Pokój, w {1} śpimy, jest mały.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Dziewczyna, o {1} ci mówiłem, przyjdzie dziś.",
+     "a": [
+      "której"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Krzesło, na {1} siedzisz, jest stare.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Przyjaciele, bez {1} nie wyobrażam sobie życia, mieszkają w Warszawie.",
+     "a": [
+      "których"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Ulica, przy {1} mieszkam, jest cicha.",
+     "a": [
+      "której"
+     ],
+     "fact": "R5"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "Соедините предложения",
+   "instr": "Напишите który (с предлогом, если нужен) в нужной форме.",
+   "items": [
+    {
+     "q": "To jest dom. Mieszkam w tym domu. → To jest dom, {1} mieszkam.",
+     "a": [
+      "w którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Znam tego pana. Ten pan jest lekarzem. → Znam pana, {1} jest lekarzem.",
+     "a": [
+      "który"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Mam koleżankę. Jej brat jest aktorem. → Mam koleżankę, {1} brat jest aktorem.",
+     "a": [
+      "której"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To jest książka. Mówiłam ci o tej książce. → To jest książka, {1} ci mówiłam.",
+     "a": [
+      "o której"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Dostałam list. Napisała go babcia. → Dostałam list, {1} napisała babcia.",
+     "a": [
+      "który"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Poznałam ludzi. Ci ludzie podróżują po świecie. → Poznałam ludzi, {1} podróżują po świecie.",
+     "a": [
+      "którzy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "To jest kawiarnia. Spotykamy się w niej. → To jest kawiarnia, {1} się spotykamy.",
+     "a": [
+      "w której"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "To jest mój brat. Pojedziesz z nim. → To jest mój brat, {1} pojedziesz.",
+     "a": [
+      "z którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Widzisz te dzieci? Bawią się w parku. → Widzisz te dzieci, {1} bawią się w parku?",
+     "a": [
+      "które"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Szukam pracy. Ta praca ma być ciekawa. → Szukam pracy, {1} będzie ciekawa.",
+     "a": [
+      "która"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To jest pan. Pomogłam temu panu. → To jest pan, {1} pomogłam.",
+     "a": [
+      "któremu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To są koleżanki. Dałam im prezenty. → To są koleżanki, {1} dałam prezenty.",
+     "a": [
+      "którym"
+     ],
+     "fact": "R2"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "gaps",
+   "title": "Który, jaki или co?",
+   "instr": "Напишите подходящее слово в нужной форме.",
+   "items": [
+    {
+     "q": "To najciekawsza książka, {1} mam. (сравнение)",
+     "a": [
+      "jaką"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Kup taki chleb, {1} kupiliśmy ostatnio.",
+     "a": [
+      "jaki"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Spóźnił się na pociąg, {1} mnie wcale nie zdziwiło.",
+     "a": [
+      "co"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Wszystko, {1} mówisz, jest prawdą.",
+     "a": [
+      "co"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Kupię ci taki prezent, {1} chcesz.",
+     "a": [
+      "jaki"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Zrobiłem to, {1} obiecałem.",
+     "a": [
+      "co"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Ta książka, {1} leży na stole, jest moja.",
+     "a": [
+      "która"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "To najlepszy film, {1} widziałam.",
+     "a": [
+      "jaki"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "typed",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленный фрагмент.",
+   "items": [
+    {
+     "q": "To jest mój brat który mieszka w Krakowie. (напишите два слова с правильной пунктуацией)",
+     "a": [
+      "brat, który"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "To jest kobieta, którą studiowałam z.",
+     "a": [
+      "z którą studiowałam",
+      "z którą"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Książka, który czytam, jest ciekawa.",
+     "a": [
+      "którą"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Ludzie, które mi pomogli, są mili.",
+     "a": [
+      "którzy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "To jest pan, którego pożyczyłem pieniądze.",
+     "a": [
+      "któremu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "To jest dziewczyna, o która ci mówiłem.",
+     "a": [
+      "o której"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Samochód, którego kupiłem, jest nowy.",
+     "a": [
+      "który"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Mieszkanie, w który mieszkam, jest małe.",
+     "a": [
+      "w którym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "To jest film, którego oglądałam wczoraj.",
+     "a": [
+      "który"
+     ],
+     "fact": "R4"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Ogłoszenie: szukam współlokatorki",
+   "instr": "Proszę wpisać zaimek „który” w odpowiedniej formie.",
+   "text": "Szukam współlokatorki, {1} chce zamieszkać w centrum Gdańska. Mieszkanie, {2} wynajmuję, ma trzy pokoje. Pokój, w {3} będziesz mieszkać, jest jasny i ma balkon. Kuchnia, z {4} będziemy korzystać razem, jest duża. Mieszkam z kotem, {5} wszyscy kochają, i z koleżanką, o {6} wszyscy mówią „najlepsza kucharka na świecie”. Szukam osoby, {7} nie pali i {8} nie przeszkadzają zwierzęta. Sąsiedzi, {9} mieszkają obok, są bardzo spokojni. Okolica, w {10} znajduje się mieszkanie, jest cicha. Blisko jest park, do {11} chodzę codziennie biegać, i przystanek, z {12} w dziesięć minut dojedziesz na uniwersytet. Cena, {13} podaję w ogłoszeniu, obejmuje media. Osoby, {14} interesuje ta oferta, proszę o kontakt.",
+   "a": {
+    "1": [
+     "która"
+    ],
+    "2": [
+     "które"
+    ],
+    "3": [
+     "którym"
+    ],
+    "4": [
+     "której"
+    ],
+    "5": [
+     "którego"
+    ],
+    "6": [
+     "której"
+    ],
+    "7": [
+     "która"
+    ],
+    "8": [
+     "której"
+    ],
+    "9": [
+     "którzy"
+    ],
+    "10": [
+     "której"
+    ],
+    "11": [
+     "którego"
+    ],
+    "12": [
+     "którego"
+    ],
+    "13": [
+     "którą"
+    ],
+    "14": [
+     "które"
+    ]
+   },
+   "facts": {
+    "1": "R1",
+    "2": "R2",
+    "3": "R5",
+    "4": "R5",
+    "5": "R4",
+    "6": "R5",
+    "7": "R1",
+    "8": "R2",
+    "9": "R3",
+    "10": "R5",
+    "11": "R5",
+    "12": "R5",
+    "13": "R2",
+    "14": "R3"
+   }
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "charakterystyka",
+   "title": "Charakterystyka: osoba, która jest dla mnie ważna",
+   "prompt": "Opisz osobę, która jest dla Ciebie ważna (80–100 słów): kim jest, jak wygląda, jaki ma charakter, dlaczego jest ważna.",
+   "checklist": [
+    "минимум 5 предложений с który в разных падежах",
+    "минимум 2 с предлогом (z którym, o której…)",
+    "одно с którzy или które во мн. ч.",
+    "запятые перед który (и после, если в середине)",
+    "одно предложение с jaki или co"
+   ],
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R5",
+    "R6",
+    "R8"
+   ],
+   "model": "Osoba, która jest dla mnie bardzo ważna, to moja babcia Hanna. To kobieta, którą wszyscy w rodzinie podziwiają. Ma siwe włosy i oczy, które zawsze się śmieją. Mieszka w małym domu, w którym spędziłam całe dzieciństwo. Babcia ma ogród, o który dba codziennie. Ludzie, którzy ją znają, mówią, że jest najlepszą sąsiadką, jaką można mieć. To ona nauczyła mnie gotować i czytać. Wszystko, co dziś umiem, zawdzięczam też jej. Jest osobą, z którą mogę porozmawiać o wszystkim."
+  },
+  {
+   "id": "w2",
+   "genre": "ogloszenie",
+   "title": "Ogłoszenie: szukam / sprzedam",
+   "prompt": "Napisz ogłoszenie (50–70 słów): sprzedajesz rzecz albo szukasz osoby do pomocy (korepetytora, opiekunki do psa itp.).",
+   "checklist": [
+    "заголовок (Sprzedam… / Szukam…)",
+    "минимум 4 предложения с który",
+    "одно с предлогом + który",
+    "контакт"
+   ],
+   "facts": [
+    "R1",
+    "R2",
+    "R5"
+   ],
+   "model": "SZUKAM KOREPETYTORA\nSzukam nauczyciela, który pomoże mi przygotować się do egzaminu B1 z polskiego. Potrzebuję osoby, która ma doświadczenie i cierpliwość. Zajęcia, na które chcę chodzić, mogą być dwa razy w tygodniu, wieczorem. Mieszkam w dzielnicy, w której jest dużo kawiarni, więc możemy spotykać się na mieście. Osoby, które są zainteresowane, proszę o SMS: 600 000 000."
+  }
+ ]
+}

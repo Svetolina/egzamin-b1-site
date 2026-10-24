@@ -1,0 +1,615 @@
+{
+ "topic": "biernik",
+ "title": "Biernik — винительный падеж (ед. число)",
+ "stage": "шаги 1–3 готовы; шаги 4–5 — черновик",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 «deklinacja», lit. a–c (существительные всех типов, прилагательные, местоимения ja, ty, on… ten, ta, to), s. 75–76; 2.2.3 Składnia, pkt 1 lit. d «biernik: jako określenie czasownika bez przyimka (Danusia przerobiła już te dwa podręczniki), z przyimkiem (Ta pani pyta o cenę książki. Ania poprosiła o szklankę wody. Ta grupa turystów od dawna czeka na samolot); wyrażające różne stosunki znaczeniowe (Zapraszam was na siódmą na kolację na Stare Miasto. Ewa była w Brazylii tydzień. Rodzice przyjadą do nas na miesiąc)», s. 78. На A2 (s. 68) — те же функции с более простыми примерами (Wczoraj przeczytała tę interesującą książkę. Prosiłyśmy o wodę. Czekają na ostatniego gościa); на B2 (s. 90) — сложнее (wycelował w zwierzę, po kolana).",
+  "level": "B1 — повторение и расширение A2: все типы существительных, прилагательные, ta → tę, личные местоимения с предлогами, исключения на -a у неодушевлённых, предлоги «куда?», отрицание → родительный.",
+  "katalog_b": [
+   "7.6 zakupy i usługi",
+   "7.3.1 typowe zajęcia / czynności dnia codziennego"
+  ],
+  "katalog_a": [
+   "wyrażanie upodobań (lubię…, mam…)",
+   "proszenie o coś (proszę o…)"
+  ],
+  "exam": "В грамматике экзамена — задания «впишите слово в правильной форме» (сборник комиссии 2017, блок 1 k1-4, k1-8; блок 11 k11-6) и местоимения (блок 2, k2-1: czeka na nią, odprowadza ją). Винительный — самый частый падеж в письме (mam, lubię, kupiłam, proszę o…).",
+  "depends_on": [
+   "род существительных (A1–A2)",
+   "czas-terazniejszy"
+  ],
+  "feeds": [
+   "dopełniacz (отрицание, мужской одушевлённый = родительный)",
+   "блок 4: męskoosobowe (винительный мн. = родительный)",
+   "miejscownik / narzędnik (nad, pod, przed, za: куда? — где?)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, rozdział «Przez biernik», s. 65–84 (s. 67 — существительные, s. 68 — неодушевлённые на -a, s. 69 — прилагательные и употребление, s. 74 — местоимения, s. 76–79 — мн. число); s. 40 (отрицание → dopełniacz)",
+  "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6 «Czym mogę służyć?», s. 119–121 (biernik l. poj.: rzeczownik, przymiotnik, zaimki, przyimki), s. 126 (l. mn.); klucz s. 198–199",
+  "ZPE": "Zintegrowana Platforma Edukacyjna MEN, lekcja «Do pełna dopełniam — dopełnienie»: https://zpe.gov.pl/a/do-pelna-dopelniam---dopelnienie/DLa3gh3QC",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka: blok 1 (k1-4, k1-8), blok 2 (k2-1), blok 11 (k11-6) — ключ внесён в tests/b1-sbornik.js сайта",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)",
+  "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): lekcja 2A (s. 24) — только таблица для заполнения, явного правила нет"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "ru": "Винительный (biernik, kogo? co?) — падеж прямого дополнения: после mieć, lubić, znać, kochać, kupować, jeść, pić, czytać, widzieć, oglądać, odwiedzać и многих других.",
+   "pl": [
+    "Mam kota. Lubię kawę. Czytam książkę."
+   ],
+   "refs": [
+    "PP s. 69 («Biernika używamy: a) po wielu czasownikach, np. mieć, znać, studiować, lubić…»)",
+    "JPBG s. 121 (рамка: mieć / brać / jeść / pić / widzieć / spotkać + BIERNIK; poznać / kochać / lubić / kupić / myć / czytać + BIERNIK)",
+    "STD B1 2.2.3 pkt 1 lit. d, s. 78 (biernik bez przyimka: «Danusia przerobiła już te dwa podręczniki»)",
+    "KEY k1-4 (mieli nadzieję), k11-6 (zwracać uwagę)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B2",
+   "ru": "Женский род на -a и -i: окончание -ę (kawa → kawę, gospodyni → gospodynię). Исключение: pani → panią; так же слова-прилагательные: znajoma → znajomą, krawcowa → krawcową.",
+   "pl": [
+    "mama – mamę",
+    "gospodyni – gospodynię",
+    "pani – panią",
+    "znajoma – znajomą"
+   ],
+   "refs": [
+    "PP s. 67 (таблица: «słowa zakończone na -a, -i… -ę»; «wyjątek: pani – panią»)",
+    "JPBG s. 119 (kobietę, mamę, kosmetyczkę, gospodynię; «Uwaga! panią, krawcową, znajomą, królową»), klucz s. 198 (nauczycielkę, herbatę, sprzedawczynię)",
+    "KEY k1-4 (nadzieja → nadzieję), k11-6 (uwaga → uwagę)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B3",
+   "ru": "Женский род на согласную — без изменений, как в именительном: noc, rzecz, jesień, radość.",
+   "pl": [
+    "Lubię jesień. Czuję radość."
+   ],
+   "refs": [
+    "PP s. 67 («słowa zakończone na spółgłoskę — bez zmian (jak mianownik)»: jesień, radość, sól, wieś)",
+    "JPBG s. 119 («= Mianownik, gdy rzeczownik kończy się na spółgłoskę»: noc, rzecz, dłoń, kość)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B4",
+   "ru": "Мужской род одушевлённый (люди и животные): окончание -a, как в родительном: brat → brata, pies → psa, kot → kota.",
+   "pl": [
+    "Znam pana Adama. Mam psa."
+   ],
+   "refs": [
+    "PP s. 67 (таблица: brata, Tomka; упр.: lubię sąsiada, widzę smoka, lubię Jacka)",
+    "JPBG s. 119 («męski żywotny -a: pana, szewca, fryzjera, kota, psa»), klucz s. 198 (zegarmistrza, smoka, kolegę)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B5",
+   "ru": "Мужской род на -a (tata, kolega, mężczyzna, kierowca) склоняется как женский: -ę.",
+   "pl": [
+    "Widzę tatę. Znam tego kierowcę."
+   ],
+   "refs": [
+    "PP s. 67 (колонка -ę: «i słowa rodzaju męskiego zakończone na -a»)",
+    "JPBG s. 119 («-ę, gdy rzeczownik kończy się na -a: mężczyznę, tatę»), klucz s. 198 (spotkałem kolegę)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B6",
+   "ru": "Мужской род неодушевлённый — как именительный: stół, dom, samochód, telefon.",
+   "pl": [
+    "Mam nowy telefon. Zwiedzam zamek."
+   ],
+   "refs": [
+    "PP s. 67 (klucz, zamek — bez zmian)",
+    "JPBG s. 119 («męski nieżywotny = Mianownik: samochód, stół, rower, kwiat, las»)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B7",
+   "ru": "Часть неодушевлённых мужского рода всё же берёт -a: марки (mam fiata), валюты (dolara), танцы (tańczę walca), игры (gram w tenisa), устойчивые выражения (mieć pecha, strzelić gola).",
+   "pl": [
+    "Kupiłem fiata. Gramy w tenisa. Mam pecha."
+   ],
+   "refs": [
+    "PP s. 68 («Uwaga na rodzaj męski nieżywotny!»: a) marki, b) waluty, c) tańce, d) gry, e) planety, f) niektóre kwiaty, g) utarte połączenia)",
+    "JPBG s. 119 (*: «tańców, walut, gier; marek, firm, produktów» — tańczę poloneza, wydałam dolara, gram w tenisa, kupiłem fiata, mam samsunga)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B8",
+   "ru": "Еда и новые слова (banan, ogórek, hamburger, mail, SMS): форма на -a обычна в разговорной речи (jem banana, wysłałam maila), строгая норма — как именительный (jem banan, wysłałam mail). Не со всеми словами: только zawiązać but, wyrwać ząb.",
+   "pl": [
+    "jem banana / jem banan",
+    "wysłałam maila / wysłałam mail"
+   ],
+   "refs": [
+    "PP s. 68 (h) «w normie potocznej — także nazwy niektórych produktów spożywczych: jeść ogórka, pączka… hamburgera»; i) «mieć laptopa… wysyłać maila»; «Uwaga! Nie wszystkie formy… *zawiązać buta (źle!)»)",
+    "JPBG s. 119 (без пометки о норме: jem banana, kroję pomidora, jem loda, mam cukierka, piekę kurczaka, kupuję hot-doga), klucz s. 198 (Tata je hamburgera)",
+    "MORF"
+   ],
+   "status": "marked",
+   "conflict": "PP: формы на -a у еды и новых слов — разговорная норма, литературная — как именительный. JPBG даёт их без пометки и ставит в ключ (je hamburgera).",
+   "decision": "Предложено 24.10.2026 (пользователь просил делать тему до конца, ждёт подтверждения): в ключах принимаем обе формы; в теории — одна строка с пометкой «в разговоре чаще -a, в строгой норме — как именительный»."
+  },
+  {
+   "id": "B9",
+   "ru": "Средний род — как именительный: okno, dziecko, śniadanie, zwierzę.",
+   "pl": [
+    "Otwieram okno. Jem śniadanie."
+   ],
+   "refs": [
+    "PP s. 67 (śniadanie, jezioro — bez zmian)",
+    "JPBG s. 119 («nijaki = Mianownik: dziecko, okno, krzesło»)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B10",
+   "ru": "Прилагательные: муж. одушевлённый -ego (-iego после k, g); муж. неодушевлённый — как именительный (-y, -i); жен. -ą; ср. -e. С неодушевлёнными словами на -a тоже -ego: kupiłam dużego ananasa.",
+   "pl": [
+    "Znam dobrego lekarza. Mam dobry plan. Piję zimną wodę. Lubię polskie kino."
+   ],
+   "refs": [
+    "PP s. 69 (таблица: -ego / -i, -y bez zmian / -ą / -e; «Znamy dobrego aktora. Znam dobry film.»)",
+    "JPBG s. 120 (таблица; «Uwaga! Przymiotniki łączące się z rzeczownikami nieżywotnymi, które w bierniku mają końcówkę -a, przyjmują końcówkę -ego/-iego»)",
+    "STD B1 2.2.3 d (Czekają na ostatniego gościa — A2/B1)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B11",
+   "ru": "Указательное ta в винительном — tę: tę książkę, tę kawę (в разговоре слышно и tą, но пишем tę). Ten — tego (одуш.) / ten (неодуш.), to — to.",
+   "pl": [
+    "Znam tę panią. Znam tego pana. Kupuję ten stół."
+   ],
+   "refs": [
+    "PP s. 69 («Uwaga: ta – tę. Lubię tę starą piosenkę»)",
+    "JPBG s. 120 («Zaimek wskazujący w rodzaju żeńskim ma formę tę»), klucz s. 198 (tę uprzejmą krawcową, tę ładną lalkę)",
+    "STD A2 s. 68 («Wczoraj przeczytała tę interesującą książkę»)",
+    "MORF (tą — с пометкой «pot.», разговорное)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B12",
+   "ru": "Личные местоимения: mnie, cię / ciebie, go / jego / niego, ją / nią, je / nie; nas, was, ich / nich, je / nie. Короткие cię, go не ставим в начало фразы и после предлога; после предлога — ciebie, niego, nią, nie, nich.",
+   "pl": [
+    "Kocham cię. Czekam na ciebie.",
+    "Kupuję go. Płacę za niego.",
+    "Odprowadzam ją. Czekam na nią."
+   ],
+   "refs": [
+    "PP s. 74 (таблица; «Kupuję go. Płacę za niego. Kupuję ją. Płacę za nią.»)",
+    "JPBG s. 120 (таблица; «Krótkie formy zaimków (np. cię, go)… nigdy nie występują na początku zdania. Po przyimkach zawsze używa się formy dłuższej (ciebie) albo formy z n- (niego, nią, nie)»)",
+    "KEY k2-1 (czeka na nią; odprowadza ją)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B13",
+   "ru": "Предлоги с винительным: na (czekać na, iść na), w (w sobotę, grać w, ubrać się w), o (prosić o, pytać o, martwić się o), przez (przez ulicę, przez telefon), za (za godzinę), po (iść po chleb). Nad, pod, przed, za, między — с винительным, когда это направление «куда?»: jadę nad morze (но jestem nad morzem).",
+   "pl": [
+    "Czekam na autobus. Proszę o rachunek. Wrócę za godzinę.",
+    "Jedziemy nad morze. Kot wszedł pod stół."
+   ],
+   "refs": [
+    "PP s. 69 (b: «po przyimkach: o, w, przez, na, po, nad, ponad, pod, przed, za, między» — pytać o drogę, czekać na pociąg, iść po chleb, jechać nad rzekę, wrócić za godzinę)",
+    "JPBG s. 121 (упр. IV и рамка: o / w / po / na + BIERNIK; przez; między / nad / pod / ponad / poza / przed / za + BIERNIK или NARZĘDNIK)",
+    "STD B1 2.2.3 d, s. 78 («pyta o cenę», «poprosiła o szklankę wody», «czeka na samolot», «na siódmą na kolację», «na miesiąc»)",
+    "KEY k2-1 (czeka na nią)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B14",
+   "ru": "При отрицании прямое дополнение переходит из винительного в родительный: mam samochód → nie mam samochodu. Подробно — в теме «Родительный падеж».",
+   "pl": [
+    "Lubię kawę. → Nie lubię kawy."
+   ],
+   "refs": [
+    "PP s. 40 («Dopełniacza używamy… d) gdy dokonujemy negacji biernika (nie lubię bigosu, nie piję kawy, nie jem mięsa)»)",
+    "ZPE (lekcja «Do pełna dopełniam — dopełnienie», упр. 4: «Kupuję gazetę. — Nie kupuję gazety.»)",
+    "STD B1 2.2.3 b, s. 78 (dopełniacz przy czasowniku zaprzeczonym: «Studentki nie przeczytały tych artykułów»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "B15",
+   "ru": "Множественное число коротко: немужско-личное — как именительный мн. (koty, książki, okna); мужско-личное — как родительный мн. (panów, studentów). Подробно — в блоке 4.",
+   "pl": [
+    "Mam koty. Znam tych studentów."
+   ],
+   "refs": [
+    "PP s. 76–79 (biernik l. mn.: «Znam te Polki. Znam tych Polaków.»)",
+    "JPBG s. 126 (таблица: męskoosobowy = Dopełniacz l. mn., niemęskoosobowy = Mianownik l. mn.)",
+    "KEY k1-8 (odwiedzać państwa Kowalskich)",
+    "MORF"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "PP и JPBG расходятся в оценке форм на -a у еды (jem hamburgera): PP — разговорная норма, JPBG — без пометки (факт B8, предложено принимать обе формы).",
+  "Сборник k1-8: «opowieści pana Antoniego» — это родительный (чьи?), а не винительный; для винительного там пример «odwiedzać państwa Kowalskich» (мн. мужско-личное = родительный).",
+  "ZJP B1 по винительному даёт только таблицу для заполнения (lekcja 2A, s. 24) — как источник правила не используется.",
+  "Morfeusz (SGJP) знает «tą» и как винительный (разговорный вариант) — поэтому в теории говорим «пишем tę», а «tą» в ключ не ставим, но и не объявляем грубой ошибкой."
+ ],
+ "forms": [
+  {
+   "form": "kawę",
+   "kind": "przyp",
+   "lemma": "kawa",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "mamę",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "gospodynię",
+   "kind": "przyp",
+   "lemma": "gospodyni",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "panią",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "noc",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "jesień",
+   "kind": "przyp",
+   "lemma": "jesień",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "radość",
+   "kind": "przyp",
+   "lemma": "radość",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "brata",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "psa",
+   "kind": "przyp",
+   "lemma": "pies",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "kota",
+   "kind": "przyp",
+   "lemma": "kot",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "pana",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "sąsiada",
+   "kind": "przyp",
+   "lemma": "sąsiad",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "tatę",
+   "kind": "przyp",
+   "lemma": "tata",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "kolegę",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "mężczyznę",
+   "kind": "przyp",
+   "lemma": "mężczyzna",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "kierowcę",
+   "kind": "przyp",
+   "lemma": "kierowca",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "stół",
+   "kind": "przyp",
+   "lemma": "stół",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dom",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "samochód",
+   "kind": "przyp",
+   "lemma": "samochód",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "fiata",
+   "kind": "przyp",
+   "lemma": "fiat",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dolara",
+   "kind": "przyp",
+   "lemma": "dolar",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "walca",
+   "kind": "przyp",
+   "lemma": "walc",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "tenisa",
+   "kind": "przyp",
+   "lemma": "tenis",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "pecha",
+   "kind": "przyp",
+   "lemma": "pech",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "gola",
+   "kind": "przyp",
+   "lemma": "gol",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "banana",
+   "kind": "przyp",
+   "lemma": "banan",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "banan",
+   "kind": "przyp",
+   "lemma": "banan",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "okno",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dziecko",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "zwierzę",
+   "kind": "przyp",
+   "lemma": "zwierzę",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dobrego",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dobry",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dobrą",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dobre",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "tę",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "tego",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "cię",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "ciebie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "go",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "jego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "niego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "ją",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nią",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "je",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "ich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "samochodu",
+   "kind": "przyp",
+   "lemma": "samochód",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kawy",
+   "kind": "przyp",
+   "lemma": "kawa",
+   "case": "gen",
+   "n": "sg"
+  }
+ ]
+}

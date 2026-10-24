@@ -1,0 +1,1166 @@
+{
+ "topic": "swoj-siebie",
+ "level": "B1",
+ "group": "Местоимения",
+ "title_pl": "Swój, jego; siebie, się",
+ "title_ru": "Притяжательное «свой» и возвратное «себя»",
+ "lead": "Kocha swoją żonę — а не jego żonę. Siebie, sobie, sobą, się.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. c «odmiana zaimków dzierżawczych: mój, twój, nasz, wasz, swój» и «odmiana zaimka zwrotnego: siebie, się», s. 76.",
+   "KEY: сборник 2017, Gramatyka 3.IV. «Местоимения, блок 3, IV» (tests/b1-sbornik.js, k3-4)",
+   "KEY: сборник 2017, Gramatyka 3.VI. «Формы слов, блок 3, VI» (tests/b1-sbornik.js, k3-6)",
+   "KEY: экзамен 04.2024, Gramatyka IV. «Настоящее и прошедшее время» (tests/b1-2024-04.js, g4)",
+   "KEY: экзамен 06.2024, Gramatyka V. «Вопрос к части предложения» (tests/b1-2024-06.js, g5)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "swój — «свой»",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**swój** указывает на владельца-подлежащее: [[Jan kocha swoją żonę.]] Если владелец — кто-то другой, нужны **jego / jej / ich**: [[Jan kocha jego żonę]] — Ян любит жену другого человека (!)."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Владелец = подлежащее",
+      "Владелец — другой"
+     ],
+     "rows": [
+      [
+       "Anna odwiedza swoją babcię.",
+       "Anna odwiedza jej babcię (чужую)."
+      ],
+      [
+       "Oni sprzedali swój dom.",
+       "Oni kupili ich dom."
+      ],
+      [
+       "Piotr jedzie swoim samochodem.",
+       "Piotr jedzie jego samochodem (чужим)."
+      ]
+     ],
+     "pl_cols": [
+      0
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Как в русском «свой / его»: «Ян любит свою жену» — «его жену»."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Где swój нельзя",
+   "facts": [
+    "R3",
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В подлежащем — никогда: [[Mój brat mieszka w Krakowie. Jego dom jest duży.]] Не **Swój brat…**"
+    },
+    {
+     "type": "p",
+     "text": "**jego, jej, ich** не склоняются: [[jego dom, jego żona, z jego dziećmi.]]"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Я и ты: swój или mój?",
+   "facts": [
+    "R4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "С «я», «ты», «мы», «вы» в аккуратной речи лучше **swój**: [[Odwiedzam swojego brata.]] Форма [[mojego]] тоже встречается, особенно в разговоре, — ошибкой смысла она не будет. В упражнениях засчитываются обе."
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Склонение swój",
+   "facts": [
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Падеж",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     "rows": [
+      [
+       "M.",
+       "swój",
+       "swoja",
+       "swoje",
+       "swoi / swoje"
+      ],
+      [
+       "D.",
+       "swojego",
+       "swojej",
+       "swojego",
+       "swoich"
+      ],
+      [
+       "C.",
+       "swojemu",
+       "swojej",
+       "swojemu",
+       "swoim"
+      ],
+      [
+       "B.",
+       "swój / swojego",
+       "swoją",
+       "swoje",
+       "swoich / swoje"
+      ],
+      [
+       "N.",
+       "swoim",
+       "swoją",
+       "swoim",
+       "swoimi"
+      ],
+      [
+       "Ms.",
+       "swoim",
+       "swojej",
+       "swoim",
+       "swoich"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Склоняется точно как mój (mojego, mojej, moim…)."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "siebie, sobie, sobą, się",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Одна форма для всех лиц: [[myję się, myjesz się, myjemy się.]]"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Падеж",
+      "Форма",
+      "Пример"
+     ],
+     "rows": [
+      [
+       "M.",
+       "—",
+       "(нет)"
+      ],
+      [
+       "D.",
+       "siebie",
+       "dla siebie, do siebie, u siebie"
+      ],
+      [
+       "C.",
+       "sobie",
+       "kupiłem sobie"
+      ],
+      [
+       "B.",
+       "siebie / się",
+       "myję się; patrzę na siebie"
+      ],
+      [
+       "N.",
+       "sobą",
+       "ze sobą"
+      ],
+      [
+       "Ms.",
+       "sobie",
+       "o sobie, na sobie"
+      ]
+     ],
+     "pl_cols": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "się или siebie?",
+   "facts": [
+    "R9",
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**się** — безударное, стоит при глаголе: [[Myję się każdego ranka.]] **siebie** — полное: после предлога и при противопоставлении: [[Myję tylko siebie.]]"
+    },
+    {
+     "type": "p",
+     "text": "**sobie** — «себе»: [[Kupiłem sobie książkę. Nalej sobie kawy.]]"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Ошибки: [[o się → o sobie; ]]Kupiłem się książkę → Kupiłem sobie książkę."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "o sobie или o niej?",
+   "facts": [
+    "R11"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Если речь о самом подлежащем — **siebie / sobie**: [[Ona myśli tylko o sobie.]] Личное местоимение означает другого человека: [[Ona myśli tylko o niej]] — о другой женщине. (Прямо подтверждено одним источником.)"
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Друг друга",
+   "facts": [
+    "R12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**się**: [[Kochają się. Spotkaliśmy się na lotnisku.]] Если глагол требует другого падежа/предлога — **sobie / siebie / sobą**: [[Pomagają sobie. Piszą do siebie. Rozmawiają ze sobą.]] Усиление — **nawzajem**: [[Pomagamy sobie nawzajem.]]"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "«Miłego weekendu!» — «Nawzajem!» (И вам!)."
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Формы swój и siebie проверяются в сборнике: блок 3, зад. IV (местоимения: swojego, swojej, swoich) и зад. VI (siebie, sobie, sobą). В реальных экзаменах они встречаются в заданиях IV и V (например, 04.2024, 06.2024)."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Владелец — подлежащее этого же предложения? Тогда [[swój]].",
+      "В подлежащем [[swój]] не бывает: [[Jego brat…]], не «Swój brat…».",
+      "Действие на себя — [[się / siebie]]; падеж — по глаголу или предлогу."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "swój или jego / jej / ich?",
+   "instr": "Впишите swój (в нужной форме) или jego / jej / ich. В скобках — чья вещь.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Jan kocha ___ żonę. (жену Яна)",
+     "a": [
+      "swoją"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Jan zna Piotra i ___ żonę. (жену Петра)",
+     "a": [
+      "jego"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Anna odwiedza ___ babcię. (свою)",
+     "a": [
+      "swoją"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Piotr i Ewa sprzedali ___ samochód. (свой)",
+     "a": [
+      "swój"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Marek pożyczył auto od Tomka i jedzie ___ samochodem. (Томека)",
+     "a": [
+      "jego"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Dzieci bawią się ___ zabawkami. (своими)",
+     "a": [
+      "swoimi"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Ewa spotkała Kasię i ___ męża. (мужа Каси)",
+     "a": [
+      "jej"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Oni rozmawiają o ___ problemach. (своих)",
+     "a": [
+      "swoich"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Sąsiedzi wyjechali, a my podlewamy ___ kwiaty. (соседей)",
+     "a": [
+      "ich"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Profesor czyta ___ artykuł. (свою статью)",
+     "a": [
+      "swój"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Mama dzwoni do ___ siostry. (своей)",
+     "a": [
+      "swojej"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Lubię Martę, ale nie lubię ___ psa. (Марты)",
+     "a": [
+      "jej"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Tomek mieszka ze ___ rodzicami. (своими)",
+     "a": [
+      "swoimi"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Studenci oddali ___ prace. (свои)",
+     "a": [
+      "swoje"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Nie znam ___ adresu. (его)",
+     "a": [
+      "jego"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "swój в нужном падеже",
+   "instr": "Поставьте swój в нужную форму. С «я/мы» засчитывается и mój/nasz.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Pomagam ___ mamie.",
+     "a": [
+      "swojej",
+      "mojej"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Jadę do pracy ___ samochodem.",
+     "a": [
+      "swoim",
+      "moim"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "On nie ma ___ pokoju.",
+     "a": [
+      "swojego"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Ewa myśli o ___ przyszłości.",
+     "a": [
+      "swojej"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Dziadek opowiada o ___ młodości.",
+     "a": [
+      "swojej"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Kasia przedstawiła mi ___ chłopaka.",
+     "a": [
+      "swojego"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Oni zaprosili ___ przyjaciół.",
+     "a": [
+      "swoich"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Marek dał prezent ___ siostrze.",
+     "a": [
+      "swojej"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Każdy ma ___ zdanie.",
+     "a": [
+      "swoje"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Rodzice są dumni ze ___ dzieci.",
+     "a": [
+      "swoich"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Ona rozmawia ze ___ szefem.",
+     "a": [
+      "swoim"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    },
+    {
+     "q": "Wróciliśmy do ___ domu.",
+     "a": [
+      "swojego",
+      "naszego"
+     ],
+     "expl": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Подлежащее или дополнение?",
+   "instr": "Впишите местоимение (в скобках — по-русски). Помните: swój не бывает в подлежащем.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "___ brat mieszka w Krakowie. (мой)",
+     "a": [
+      "Mój"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Odwiedzam ___ brata w Krakowie. (своего, я)",
+     "a": [
+      "swojego",
+      "mojego"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Marek i ___ żona przyszli na imprezę. (его)",
+     "a": [
+      "jego"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Ewa przyszła ze ___ mężem. (своим)",
+     "a": [
+      "swoim"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "___ dzieci chodzą do szkoły. (её)",
+     "a": [
+      "Jej"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Anna kocha ___ dzieci. (своих)",
+     "a": [
+      "swoje"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Czy ___ samochód jest nowy? (твой)",
+     "a": [
+      "twój"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Sprzedałeś już ___ samochód? (свой, ты)",
+     "a": [
+      "swój",
+      "twój"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "___ rodzice są lekarzami. (их)",
+     "a": [
+      "Ich"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    },
+    {
+     "q": "Oni odwiedzają ___ rodziców co tydzień. (своих)",
+     "a": [
+      "swoich"
+     ],
+     "expl": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не Swój brat).",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "siebie, sobie, sobą или się?",
+   "instr": "Впишите нужную форму.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Kupiłam ___ nową sukienkę.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Myję ___ każdego ranka.",
+     "a": [
+      "się"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Opowiedz mi coś o ___.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Zrobiłem to dla ___.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "On zawsze myśli tylko o ___.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Masz przy ___ dokumenty?",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Jestem z ___ dumny.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Wracam do ___. (домой)",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Weź parasol ze ___.",
+     "a": [
+      "sobą"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Patrzyła na ___ w lustrze.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Ona nie jest pewna ___.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Co masz na ___? (какая одежда)",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Usiedliśmy obok ___.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    },
+    {
+     "q": "Nalej ___ kawy.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "siebie — возвратное местоимение без именительного падежа: D.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Себя или его/её?",
+   "instr": "Впишите siebie/sobie/sobą или личное местоимение — по смыслу в скобках.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Ona myśli tylko o ___. (о себе)",
+     "a": [
+      "sobie"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Ona myśli tylko o ___. (о ней — о другой)",
+     "a": [
+      "niej"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Marek kupił ___ książkę. (себе)",
+     "a": [
+      "sobie"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Marek kupił ___ książkę. (ему — другому)",
+     "a": [
+      "mu",
+      "jemu"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Jestem dumna z ___. (собой)",
+     "a": [
+      "siebie"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Jestem dumna z ___. (тобой)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Oni rozmawiają o ___. (о себе)",
+     "a": [
+      "sobie"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Oni rozmawiają o ___. (о них — о других)",
+     "a": [
+      "nich"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Zabierz psa ze ___. (с собой)",
+     "a": [
+      "sobą"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    },
+    {
+     "q": "Zrobiłam to dla ___. (для него)",
+     "a": [
+      "niego"
+     ],
+     "expl": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о…",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Друг друга",
+   "instr": "Впишите się, sobie, siebie, sobą или nawzajem.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Anna i Piotr kochają ___ od liceum.",
+     "a": [
+      "się"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Pomagamy ___ nawzajem.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Piszą do ___ długie listy.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Długo rozmawiali ze ___.",
+     "a": [
+      "sobą"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Spotkaliśmy ___ przypadkiem na lotnisku.",
+     "a": [
+      "się"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Patrzyli na ___ bez słowa.",
+     "a": [
+      "siebie"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "Znamy ___ od dziecka.",
+     "a": [
+      "się"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    },
+    {
+     "q": "— Miłego weekendu! — ___!",
+     "a": [
+      "Nawzajem",
+      "Wzajemnie"
+     ],
+     "expl": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie /…",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: письмо",
+   "instr": "Uzupełnij list. Wpisz swój / jego / jej / ich w odpowiedniej formie albo siebie / sobie / sobą / się. W nawiasie — podpowiedź po rosyjsku.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Droga Aniu! Mój brat Tomek wreszcie kupił {1} pierwsze mieszkanie. Mieszka w nim ze {2} dziewczyną. {3} dziewczyna ma na imię Ola. Ola pracuje w szkole i bardzo lubi {4} pracę. W sobotę zaprosili nas do {5}. Tomek pokazał nam {6} nowe meble, a Ola opowiadała o {7} rodzinie. {8} rodzice mieszkają w Gdańsku. Wieczorem Tomek i Ola pomagali {9} w kuchni. Widać, że dobrze czują się ze {10}. Mama była bardzo dumna ze {11} syna. Następnym razem zaprosimy ich do {12}. Całuję, Kasia",
+   "items": [
+    {
+     "q": "своё",
+     "a": [
+      "swoje",
+      "własne"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "своей",
+     "a": [
+      "swoją"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "его",
+     "a": [
+      "Jego"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "свою",
+     "a": [
+      "swoją"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "к себе",
+     "a": [
+      "siebie"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "свои",
+     "a": [
+      "swoje"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "своей",
+     "a": [
+      "swojej"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "её",
+     "a": [
+      "Jej"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "друг другу",
+     "a": [
+      "sobie"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "друг с другом",
+     "a": [
+      "sobą"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "своего",
+     "a": [
+      "swojego"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "к себе",
+     "a": [
+      "siebie"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "instr": "Перестройте предложение, используя swój или siebie/sobie/sobą. Впишите одно слово.",
+   "format": "exam",
+   "level": 3,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Marek myje samochód. Samochód należy do Marka. → Marek myje ___ samochód.",
+     "a": [
+      "swój"
+     ],
+     "expl": "Вещь или человек принадлежит подлежащему → swój в нужной форме.",
+     "t": "t1"
+    },
+    {
+     "q": "Anna rozmawia z mamą Anny. → Anna rozmawia ze ___ mamą.",
+     "a": [
+      "swoją"
+     ],
+     "expl": "Вещь или человек принадлежит подлежащему → swój в нужной форме.",
+     "t": "t1"
+    },
+    {
+     "q": "Kupiłem książkę dla siebie. → Kupiłem ___ książkę.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    },
+    {
+     "q": "Oni pomagają jeden drugiemu. → Oni pomagają ___ nawzajem.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "Друг другу → sobie nawzajem.",
+     "t": "t8"
+    },
+    {
+     "q": "Przyjechał mój brat i żona mojego brata. → Przyjechał mój brat i ___ żona.",
+     "a": [
+      "jego"
+     ],
+     "expl": "Жена брата, а брат — не подлежащее этой части → jego.",
+     "t": "t2"
+    },
+    {
+     "q": "Piotr odwiedza babcię Piotra. → Piotr odwiedza ___ babcię.",
+     "a": [
+      "swoją"
+     ],
+     "expl": "Вещь или человек принадлежит подлежащему → swój в нужной форме.",
+     "t": "t1"
+    },
+    {
+     "q": "Tomek rozmawiał z Olą, a Ola z Tomkiem. → Tomek i Ola rozmawiali ze ___.",
+     "a": [
+      "sobą"
+     ],
+     "expl": "Друг с другом → ze sobą.",
+     "t": "t8"
+    },
+    {
+     "q": "Klucze są ze mną. → Mam klucze przy ___.",
+     "a": [
+      "sobie"
+     ],
+     "expl": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Моя семья",
+   "instr": "Napisz tekst o swojej rodzinie (80–100 słów): przedstaw dwie lub trzy osoby — gdzie mieszkają, co robią, z kim, jakie mają hobby.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 4 форм swój в разных падежах, 2 формы jego / jej / ich, ни одного swój в подлежащем, sobie или ze sobą.",
+   "model": "Moja rodzina\nMoja siostra Ola mieszka w Gdańsku ze swoim mężem i dwójką dzieci. Jej mąż jest lekarzem, a ich syn chodzi już do szkoły. Ola bardzo kocha swoją pracę w bibliotece i często opowiada o swoich czytelnikach. Mój brat Paweł mieszka sam. Jego mieszkanie jest małe, ale ma w nim swój ulubiony fotel i dużo książek. W weekendy jeździ na rowerze ze swoimi kolegami. Moi rodzice mieszkają na wsi. Mają duży ogród i sami uprawiają warzywa dla siebie i dla nas. Kiedy się spotykamy, zawsze mamy sobie dużo do powiedzenia.",
+   "model_future": [
+    "ze swoim mężem",
+    "swoją pracę",
+    "o swoich czytelnikach",
+    "swój ulubiony fotel",
+    "ze swoimi kolegami",
+    "jej mąż",
+    "ich syn",
+    "jego mieszkanie",
+    "dla siebie",
+    "sobie"
+   ],
+   "checklist": [
+    "не меньше 4 форм swój в разных падежах",
+    "не меньше 2 форм jego / jej / ich",
+    "ни одного swój в подлежащем",
+    "хотя бы 1 sobie / ze sobą",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Отпуск с друзьями",
+   "instr": "Napisz e-mail do koleżanki (80–100 słów) o wyjeździe z przyjaciółmi: co zabraliście ze sobą, jak sobie pomagaliście, co kupiliście sobie na pamiątkę, o czym rozmawialiście.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Ze sobą, sobie, siebie — хотя бы по одному разу; взаимное действие с się; nawzajem; 2 формы swój.",
+   "model": "Cześć Magda!\nWłaśnie wróciłam z Zakopanego. Pojechałam tam z Kasią i Michałem. Każdy wziął ze sobą tylko jeden plecak, bo chcieliśmy chodzić po górach. Codziennie spotykaliśmy się rano na śniadaniu i planowaliśmy trasę. W górach bardzo sobie pomagaliśmy: Michał niósł wodę dla wszystkich, a ja miałam swoją apteczkę. Wieczorami opowiadaliśmy sobie historie ze swojego dzieciństwa i dużo się śmialiśmy. Na pamiątkę kupiliśmy sobie wełniane czapki. Kasia kupiła też coś dla siebie — piękny sweter. Obiecaliśmy sobie nawzajem, że za rok znowu pojedziemy razem.\nŚciskam,\nZuza",
+   "model_future": [
+    "ze sobą",
+    "spotykaliśmy się",
+    "sobie pomagaliśmy",
+    "swoją apteczkę",
+    "ze swojego dzieciństwa",
+    "dla siebie",
+    "sobie nawzajem"
+   ],
+   "checklist": [
+    "ze sobą, sobie, siebie — хотя бы по 1 разу",
+    "1 взаимное действие с się (spotkaliśmy się…)",
+    "1 nawzajem",
+    "2 формы swój",
+    "80–100 слов"
+   ],
+   "t": "t6",
+   "items": []
+  }
+ ]
+}

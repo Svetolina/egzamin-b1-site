@@ -1,0 +1,1352 @@
+{
+ "topic": "dopelniacz-po-negacji",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Dopełniacz po negacji",
+ "title_ru": "Родительный падеж при отрицании",
+ "lead": "Mam czas — nie mam czasu. Почему после nie меняется падеж и когда он не меняется.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.3 Składnia, pkt 1 lit. b «dopełniacz: … jako określenie czasownika zaprzeczonego (np.: Studentki nie przeczytały tych artykułów na dzisiaj.)» и «jako podmiot (np.: Studentów nie było na tym spotkaniu.)», s. 77; pkt 2 lit. c «zaprzeczone (np.: Niczym się nie interesujesz. Nikt nie przyszedł. Nigdy nie byłem w Polsce.)», s. 78.",
+   "KEY: сборник 2017, Gramatyka 11.X. «Преобразование предложений, блок 11, X» (tests/b1-sbornik.js, k11-10)",
+   "KEY: сборник 2017, Gramatyka 3.VI. «Формы слов, блок 3, VI» (tests/b1-sbornik.js, k3-6)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное правило",
+   "facts": [
+    "R1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**nie + глагол** → прямое дополнение из **Biernik** (кого? что?) переходит в **Dopełniacz** (kogo? czego?)."
+    },
+    {
+     "type": "table",
+     "head": [
+      "утверждение (Biernik)",
+      "отрицание (Dopełniacz)"
+     ],
+     "rows": [
+      [
+       "Mam samochód.",
+       "Nie mam samochodu."
+      ],
+      [
+       "Lubię kawę.",
+       "Nie lubię kawy."
+      ],
+      [
+       "Czytam gazetę.",
+       "Nie czytam gazety."
+      ],
+      [
+       "Piję mleko.",
+       "Nie piję mleka."
+      ],
+      [
+       "Mam pieniądze.",
+       "Nie mam pieniędzy."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Как в русском «у меня нет машины», только в польском это правило работает почти всегда и строже."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Nie ma, nie było, nie będzie",
+   "facts": [
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Форма безличная: **nie ma** (сейчас), **nie było** (раньше), **nie będzie** (потом) — для всех родов и чисел."
+    },
+    {
+     "type": "table",
+     "head": [
+      "есть",
+      "нет"
+     ],
+     "rows": [
+      [
+       "Jest mleko.",
+       "Nie ma mleka."
+      ],
+      [
+       "Tomek jest w domu.",
+       "Tomka nie ma w domu."
+      ],
+      [
+       "Był prąd.",
+       "Nie było prądu."
+      ],
+      [
+       "Będzie lekcja.",
+       "Nie będzie lekcji."
+      ],
+      [
+       "Są bilety.",
+       "Nie ma biletów."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Внимание: Не [[On nie jest tu]], а [[Nie ma go tu]]."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "И после инфинитива",
+   "facts": [
+    "R3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Если отрицаемый глагол управляет инфинитивом, дополнение инфинитива тоже в Dopełniacz: [[Nie chcę kupić samochodu. Nie mogę pić kawy. Nie lubię oglądać seriali.]]"
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Что НЕ меняется",
+   "facts": [
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Проверка одним вопросом: **в утвердительном предложении это был Biernik?** Если да — меняем, если нет — оставляем."
+    },
+    {
+     "type": "table",
+     "head": [
+      "что",
+      "пример"
+     ],
+     "rows": [
+      [
+       "подлежащее",
+       "Ewa nie lubi kawy."
+      ],
+      [
+       "дательный",
+       "Nie pomagam bratu."
+      ],
+      [
+       "творительный",
+       "Nie interesuję się polityką."
+      ],
+      [
+       "после предлога",
+       "Nie czekam na autobus."
+      ],
+      [
+       "глаголы с Dopełniacz и так",
+       "Nie szukam pracy. Nie słucham radia."
+      ],
+      [
+       "być + сказуемое",
+       "Nie jestem studentem."
+      ]
+     ],
+     "pl_cols": [
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Строка «być + сказуемое» — по одному источнику."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t5",
+   "title": "Меняется вся группа слов",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Biernik",
+      "Dopełniacz"
+     ],
+     "rows": [
+      [
+       "ten adres",
+       "tego adresu"
+      ],
+      [
+       "tę książkę",
+       "tej książki"
+      ],
+      [
+       "te jabłka",
+       "tych jabłek"
+      ],
+      [
+       "nowy telefon",
+       "nowego telefonu"
+      ],
+      [
+       "polską muzykę",
+       "polskiej muzyki"
+      ],
+      [
+       "psa, tego pana",
+       "psa, tego pana (та же форма)"
+      ]
+     ],
+     "pl_cols": [
+      0
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "У мужского одушевлённого (psa, brata, kota) форма не меняется: Biernik уже совпадает с Dopełniacz."
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Местоимения",
+   "facts": [
+    "R9"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Biernik",
+      "Dopełniacz"
+     ],
+     "rows": [
+      [
+       "go",
+       "go"
+      ],
+      [
+       "ją",
+       "jej"
+      ],
+      [
+       "ich",
+       "ich"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Nikt, nic, nigdy, żaden",
+   "facts": [
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Слова отрицания **не отменяют** nie: [[Nikt nie przyszedł. Nigdy nie piję wina. Nie ma tu żadnego sklepu.]] И дополнение — тоже в Dopełniacz."
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Для продвинутых: отрицание слова",
+   "facts": [
+    "R11"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[Nie kawę piję, ale herbatę]] — отрицается не глагол, а слово «kawę», поэтому падеж не меняется."
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "По одному источнику."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t9",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике есть отдельное задание на отрицание: блок 11, зад. X «przekształć zdania (negacja)». Родительный после nie нужен и в заданиях «поставьте слово в нужную форму», и в письме (nie było…, nie dostałam…)."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Есть ли перед глаголом [[nie]]?",
+      "Если глагол без nie требует винительного — ставьте родительный: [[mam czas → nie mam czasu]].",
+      "Другие падежи не меняются: [[nie pomagam bratu, nie interesuję się sportem]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Скажите «нет»",
+   "instr": "Напишите дополнение в родительном падеже.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Mam samochód. → Nie mam ___.",
+     "a": [
+      "samochodu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Lubię kawę. → Nie lubię ___.",
+     "a": [
+      "kawy"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Czytam gazetę. → Nie czytam ___.",
+     "a": [
+      "gazety"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Piję mleko. → Nie piję ___.",
+     "a": [
+      "mleka"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Znam tego pana. → Nie znam ___.",
+     "a": [
+      "tego pana"
+     ],
+     "expl": "Видимость: у мужского одушевлённого Biernik = Dopełniacz (Mam psa → Nie mam psa; Znam tego pana → Nie znam tego pana)…",
+     "t": "t5"
+    },
+    {
+     "q": "Kupiłam nowy telefon. → Nie kupiłam ___.",
+     "a": [
+      "nowego telefonu"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Oglądam ten film. → Nie oglądam ___.",
+     "a": [
+      "tego filmu"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Znam twoją siostrę. → Nie znam ___.",
+     "a": [
+      "twojej siostry"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Jem mięso. → Nie jem ___.",
+     "a": [
+      "mięsa"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Odwiedziłem babcię. → Nie odwiedziłem ___.",
+     "a": [
+      "babci"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Robię zakupy. → Nie robię ___.",
+     "a": [
+      "zakupów"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Mam brata. → Nie mam ___.",
+     "a": [
+      "brata"
+     ],
+     "expl": "Видимость: у мужского одушевлённого Biernik = Dopełniacz (Mam psa → Nie mam psa; Znam tego pana → Nie znam tego pana)…",
+     "t": "t5"
+    },
+    {
+     "q": "Lubię polską muzykę. → Nie lubię ___.",
+     "a": [
+      "polskiej muzyki"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Zrobiłam obiad. → Nie zrobiłam ___.",
+     "a": [
+      "obiadu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Mam pieniądze. → Nie mam ___.",
+     "a": [
+      "pieniędzy"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Kupujemy te jabłka. → Nie kupujemy ___.",
+     "a": [
+      "tych jabłek"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Rozumiem to słowo. → Nie rozumiem ___.",
+     "a": [
+      "tego słowa"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Zamówiliśmy pizzę. → Nie zamówiliśmy ___.",
+     "a": [
+      "pizzy"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Lubię psy. → Nie lubię ___.",
+     "a": [
+      "psów"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Mam kota. → Nie mam ___.",
+     "a": [
+      "kota"
+     ],
+     "expl": "Видимость: у мужского одушевлённого Biernik = Dopełniacz (Mam psa → Nie mam psa; Znam tego pana → Nie znam tego pana)…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Nie ma / nie było / nie będzie",
+   "instr": "Напишите отрицание и существительное.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "W lodówce jest mleko. → W lodówce ___ ….",
+     "a": [
+      "nie ma"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W lodówce jest mleko. → W lodówce … ___.",
+     "a": [
+      "mleka"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Tomek jest w domu. → ___ … w domu.",
+     "a": [
+      "Tomka"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Tomek jest w domu. → … ___ w domu.",
+     "a": [
+      "nie ma"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Wczoraj był prąd. → Wczoraj ___ ….",
+     "a": [
+      "nie było"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Wczoraj był prąd. → Wczoraj … ___.",
+     "a": [
+      "prądu"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jutro będzie lekcja. → Jutro ___ ….",
+     "a": [
+      "nie będzie"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jutro będzie lekcja. → Jutro … ___.",
+     "a": [
+      "lekcji"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W sklepie był chleb. → W sklepie ___ ….",
+     "a": [
+      "nie było"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W sklepie był chleb. → W sklepie … ___.",
+     "a": [
+      "chleba"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Są bilety na koncert. → ___ … na koncert.",
+     "a": [
+      "Nie ma"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Są bilety na koncert. → … ___ na koncert.",
+     "a": [
+      "biletów"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Na ulicy byli ludzie. → Na ulicy ___ ….",
+     "a": [
+      "nie było"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Na ulicy byli ludzie. → Na ulicy … ___.",
+     "a": [
+      "ludzi"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jest szef? → Nie, ___ ….",
+     "a": [
+      "nie ma"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jest szef? → Nie, … ___.",
+     "a": [
+      "szefa"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W hotelu będzie basen. → W hotelu ___ ….",
+     "a": [
+      "nie będzie"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W hotelu będzie basen. → W hotelu … ___.",
+     "a": [
+      "basenu"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Tu jest apteka. → Tu ___ ….",
+     "a": [
+      "nie ma"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Tu jest apteka. → Tu … ___.",
+     "a": [
+      "apteki"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W pokoju były krzesła. → W pokoju ___ ….",
+     "a": [
+      "nie było"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "W pokoju były krzesła. → W pokoju … ___.",
+     "a": [
+      "krzeseł"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jutro będą zajęcia. → Jutro ___ ….",
+     "a": [
+      "nie będzie"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Jutro będą zajęcia. → Jutro … ___.",
+     "a": [
+      "zajęć"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Меняется или нет?",
+   "instr": "Напишите слово в правильной форме. Подумайте: был ли здесь Biernik?",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Nie pomagam ___. (brat)",
+     "a": [
+      "bratu"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie interesuję się ___. (polityka)",
+     "a": [
+      "polityką"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie czekam na ___. (autobus)",
+     "a": [
+      "autobus"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie szukam ___. (praca)",
+     "a": [
+      "pracy"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie lubię ___. (zima)",
+     "a": [
+      "zimy"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Nie jestem ___. (lekarz)",
+     "a": [
+      "lekarzem"
+     ],
+     "expl": "После być сказуемое остаётся в творительном: Jestem studentem → Nie jestem studentem.",
+     "t": "t4"
+    },
+    {
+     "q": "Nie mam ___. (siostra)",
+     "a": [
+      "siostry"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Nie rozmawiam z ___. (sąsiad)",
+     "a": [
+      "sąsiadem"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie słucham ___. (radio)",
+     "a": [
+      "radia"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie myślę o ___. (egzamin)",
+     "a": [
+      "egzaminie"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie znam ___. (ta dziewczyna)",
+     "a": [
+      "tej dziewczyny"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie ufam ___. (on)",
+     "a": [
+      "mu",
+      "jemu"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie potrzebuję ___. (pomoc)",
+     "a": [
+      "pomocy"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Ewa nie lubi ___. (kawa) — а «Ewa» не меняется!",
+     "a": [
+      "kawy"
+     ],
+     "expl": "Подлежащее остаётся в именительном: Ewa nie lubi kawy.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "После инфинитива",
+   "instr": "Напишите дополнение в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Chcę kupić nowy samochód. → Nie chcę kupić ___.",
+     "a": [
+      "nowego samochodu"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Mogę pić kawę. → Nie mogę pić ___.",
+     "a": [
+      "kawy"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Muszę napisać raport. → Nie muszę pisać ___.",
+     "a": [
+      "raportu"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Lubię oglądać seriale. → Nie lubię oglądać ___.",
+     "a": [
+      "seriali",
+      "serialów"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Umiem prowadzić samochód. → Nie umiem prowadzić ___.",
+     "a": [
+      "samochodu"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Zamierzam sprzedać mieszkanie. → Nie zamierzam sprzedać ___.",
+     "a": [
+      "mieszkania"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Planuję odwiedzić Kraków. → Nie planuję odwiedzić ___.",
+     "a": [
+      "Krakowa"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    },
+    {
+     "q": "Lubię czytać książki. → Nie lubię czytać ___.",
+     "a": [
+      "książek"
+     ],
+     "expl": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę…",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Местоимения",
+   "instr": "Напишите местоимение.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Znam ją. → Nie znam ___.",
+     "a": [
+      "jej"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Widzę go. → Nie widzę ___.",
+     "a": [
+      "go"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Zaprosiłam ją. → Nie zaprosiłam ___.",
+     "a": [
+      "jej"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Rozumiem go. → Nie rozumiem ___.",
+     "a": [
+      "go"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Pamiętam ją. → Nie pamiętam ___.",
+     "a": [
+      "jej"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Odwiedzę ją jutro. → Nie odwiedzę ___ jutro.",
+     "a": [
+      "jej"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Lubię ich. → Nie lubię ___.",
+     "a": [
+      "ich"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    },
+    {
+     "q": "Słyszę ich. → Nie słyszę ___.",
+     "a": [
+      "ich"
+     ],
+     "expl": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленное слово/слова.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Nie mam czas.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Nie piję kawę.",
+     "a": [
+      "kawy"
+     ],
+     "expl": "Видимость: у мужского одушевлённого Biernik = Dopełniacz (Mam psa → Nie mam psa; Znam tego pana → Nie znam tego pana)…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie mam pieniądze.",
+     "a": [
+      "pieniędzy"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "On **nie jest** tu. → Nie ma ___ tu.",
+     "a": [
+      "go"
+     ],
+     "expl": "Отсутствие: nie ma + dopełniacz (on → go), а не «nie jest».",
+     "t": "t2"
+    },
+    {
+     "q": "Nie pomagam brata.",
+     "a": [
+      "bratu"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie szukam pracę.",
+     "a": [
+      "pracy"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nigdy nie pijesz wino?",
+     "a": [
+      "wina"
+     ],
+     "expl": "С nigdy, nikt, nic, żaden отрицание nie всё равно нужно (двойное отрицание), и родительный тоже: Nigdy nie pijesz wina?",
+     "t": "t7"
+    },
+    {
+     "q": "Nie lubię tę książkę.",
+     "a": [
+      "tej książki"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie ma czas na to.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Nie jestem lekarza.",
+     "a": [
+      "lekarzem"
+     ],
+     "expl": "После być сказуемое остаётся в творительном: Jestem studentem → Nie jestem studentem.",
+     "t": "t4"
+    },
+    {
+     "q": "Nie czekam na autobusu.",
+     "a": [
+      "autobus"
+     ],
+     "expl": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie…",
+     "t": "t4"
+    },
+    {
+     "q": "Nie widziałem twoi rodzice.",
+     "a": [
+      "twoich rodziców"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Ответьте «нет»",
+   "instr": "Закончите отрицательный ответ.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Masz czas? — Nie, nie mam ___.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Lubisz sport? — Nie, nie lubię ___.",
+     "a": [
+      "sportu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Masz rodzeństwo? — Nie, nie mam ___.",
+     "a": [
+      "rodzeństwa"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Czy jest Ania? — Nie, nie ma ___.",
+     "a": [
+      "Ani"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Był wczoraj pociąg o szóstej? — Nie, nie było ___.",
+     "a": [
+      "pociągu"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Znasz tę restaurację? — Nie, nie znam ___.",
+     "a": [
+      "tej restauracji"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    },
+    {
+     "q": "Kupiłaś bilety? — Nie, nie kupiłam ___.",
+     "a": [
+      "biletów"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Będzie jutro egzamin? — Nie, jutro nie będzie ___.",
+     "a": [
+      "egzaminu"
+     ],
+     "expl": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu.",
+     "t": "t2"
+    },
+    {
+     "q": "Pijesz alkohol? — Nie, nie piję ___.",
+     "a": [
+      "alkoholu"
+     ],
+     "expl": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz)…",
+     "t": "t1"
+    },
+    {
+     "q": "Widziałeś moje klucze? — Nie, nie widziałem ___.",
+     "a": [
+      "twoich kluczy"
+     ],
+     "expl": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Opinia o mieszkaniu na wynajem",
+   "instr": "Proszę wpisać wyrazy z nawiasu w odpowiedniej formie. Uwaga: nie po każdym zaprzeczeniu zmienia się przypadek!",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Wynająłem to mieszkanie na tydzień i niestety nie polecam. Na zdjęciach był duży balkon, ale w rzeczywistości nie było {1}. W kuchni nie było {2} ani {3}. Przez dwa dni nie mieliśmy {4}. Właściciel nie odbierał {5}, więc nie mogliśmy zgłosić {6}. W łazience nie znalazłem {7}. Nie mam {8} do lokalizacji — jest blisko centrum, ale nie ma tu {9}. Sąsiedzi byli mili, ale nie rozumieli {10}. Właściciel w ogóle nie interesował się {11}. Na koniec nie oddał nam {12} i nawet nie pomógł {13} z bagażami. Nie polecam {14} nikomu.",
+   "items": [
+    {
+     "q": "balkon",
+     "a": [
+      "balkonu"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "mikrofalówka",
+     "a": [
+      "mikrofalówki"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "czajnik",
+     "a": [
+      "czajnika"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "ciepła woda",
+     "a": [
+      "ciepłej wody"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "telefon",
+     "a": [
+      "telefonu"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "problem",
+     "a": [
+      "problemu"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "ręcznik",
+     "a": [
+      "ręcznika"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "zastrzeżenia",
+     "a": [
+      "zastrzeżeń"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "żaden sklep",
+     "a": [
+      "żadnego sklepu"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "moje pytania",
+     "a": [
+      "moich pytań"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "nasze problemy",
+     "a": [
+      "naszymi problemami"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "kaucja",
+     "a": [
+      "kaucji"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "moja żona",
+     "a": [
+      "mojej żonie"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "to mieszkanie",
+     "a": [
+      "tego mieszkania"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "E-mail z reklamacją do hotelu",
+   "instr": "Wróciłeś/wróciłaś z hotelu, który nie spełnił obietnic z oferty. Napisz oficjalny e-mail z reklamacją (80–100 słów): czego nie było, co nie działało, czego oczekujesz.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 3 «nie było + родительный» и 3 «nie + глагол + родительный»; одно отрицание без смены падежа.",
+   "model": "Szanowni Państwo,\nw dniach 3–7 sierpnia mieszkałam w Państwa hotelu. Niestety, nie jestem zadowolona z pobytu. W ofercie był basen, ale na miejscu nie było basenu. W pokoju nie było klimatyzacji ani sejfu, a przez dwa dni nie mieliśmy ciepłej wody. Codziennie prosiłam o nowe ręczniki, ale nie dostałam ręczników ani razu. W restauracji nie było też wegetariańskich dań. Przez cały pobyt nie widziałam też sprzątaczki. Recepcja nie interesowała się naszymi problemami i nikt nam nie pomógł. Oczekuję zwrotu części pieniędzy i przeprosin.\nZ poważaniem\nIrina Petrenko",
+   "model_future": [
+    "basenu",
+    "klimatyzacji",
+    "sejfu",
+    "ciepłej wody",
+    "ręczników",
+    "dań",
+    "naszymi problemami"
+   ],
+   "checklist": [
+    "Szanowni Państwo / Z poważaniem",
+    "минимум 3 «nie było + Dopełniacz»",
+    "минимум 3 «nie + глагол + Dopełniacz» (nie dostałam ręczników…)",
+    "одно отрицание без смены падежа (nikt nie pomógł mi / nie interesowali się…)",
+    "чего вы ждёте (zwrot pieniędzy, przeprosiny)",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Wpis na blogu: „Czego brakuje w moim mieście”",
+   "instr": "Opisz swoje miasto lub dzielnicę (80–100 słów): czego tam nie ma, czego nie było kiedyś, czego nie będzie w przyszłości (albo co się zmieni).",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Nie ma / nie było / nie będzie + родительный; żaden или nigdy… nie; две группы «прилагательное + существительное» в родительном.",
+   "model": "Mieszkam na małym osiedlu na obrzeżach miasta. Jest tu spokojnie, ale brakuje wielu rzeczy. Nie ma dużego supermarketu ani żadnej dobrej kawiarni. Nie ma też żadnego kina. Dziesięć lat temu nie było nawet przystanku autobusowego i wszyscy jeździli samochodami. Teraz mamy autobus, ale nie ma ścieżki rowerowej. Dzieci nie mają placu zabaw, więc bawią się na parkingu. Miasto obiecało nowy park, ale w tym roku na pewno nie będzie pieniędzy na inwestycje. Mimo to lubię to miejsce i nigdy nie chciałam się stąd wyprowadzić.",
+   "model_future": [
+    "dużego supermarketu",
+    "żadnej dobrej kawiarni",
+    "przystanku autobusowego",
+    "ścieżki rowerowej",
+    "placu zabaw",
+    "pieniędzy"
+   ],
+   "checklist": [
+    "nie ma / nie było / nie będzie + Dopełniacz — все три",
+    "минимум 1 «żaden» или «nigdy … nie»",
+    "минимум 2 группы прилагательное + существительное в Dopełniacz",
+    "вывод",
+    "80–100 слов"
+   ],
+   "t": "t2",
+   "items": []
+  }
+ ]
+}

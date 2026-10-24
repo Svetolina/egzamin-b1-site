@@ -1,0 +1,1445 @@
+{
+ "topic": "czasowniki-ruchu",
+ "level": "B1",
+ "group": "Глагол",
+ "title_pl": "Czasowniki ruchu",
+ "title_ru": "Глаголы движения",
+ "lead": "Iść или chodzić, jechać или jeździć — и что меняют приставки przy-, wy-, do-, prze-.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): отдельной строки о глаголах движения нет; они входят в 2.2.1 Fleksja, pkt 2 lit. a «czas teraźniejszy (np.: … chodzę, jadę …)» и «czas przeszły … (np.: … poszłam …)», и в pkt 2 lit. b «aspekt», s. 77.",
+   "KEY: сборник 2017, Gramatyka 6.III. «Глаголы, прошедшее время, блок 6, III» (tests/b1-sbornik.js, k6-3)",
+   "KEY: сборник 2017, Gramatyka 12.IV. «Глаголы, блок 12, IV» (tests/b1-sbornik.js, k12-4)",
+   "KEY: экзамен 04.2023, Gramatyka V. «Вопрос к части предложения» (tests/b1-2023-04.js, g5)",
+   "KEY: экзамен 03.2022, Gramatyka V. «Вопрос к части предложения» (tests/b1-2022-03.js, g5)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Пешком или на транспорте",
+   "facts": [
+    "R1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**iść** — пешком, **jechać** — на любом наземном транспорте. Если едете в другой город — почти всегда **jechać**."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Idę do sklepu.",
+       "ru": "Иду в магазин (пешком)."
+      },
+      {
+       "pl": "Jadę do Krakowa pociągiem.",
+       "ru": "Еду в Краков поездом."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Внимание: [[Idę do Gdańska]] значит «иду пешком в Гданьск»."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Две «пары» несовершенного вида",
+   "facts": [
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "однонаправленный (сейчас, к цели)",
+      "разнонаправленный (привычка, туда-обратно, умение)",
+      "значение"
+     ],
+     "rows": [
+      [
+       "iść",
+       "chodzić",
+       "идти / ходить"
+      ],
+      [
+       "jechać",
+       "jeździć",
+       "ехать / ездить"
+      ],
+      [
+       "lecieć",
+       "latać",
+       "лететь / летать"
+      ],
+      [
+       "biec",
+       "biegać",
+       "бежать / бегать"
+      ],
+      [
+       "płynąć",
+       "pływać",
+       "плыть / плавать"
+      ],
+      [
+       "nieść",
+       "nosić",
+       "нести / носить"
+      ],
+      [
+       "wieźć",
+       "wozić",
+       "везти / возить"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Почти как в русском: идти/ходить, ехать/ездить."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Когда iść / jechać",
+   "facts": [
+    "R3"
+   ],
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      "сейчас, в одну сторону: [[Idę do domu.]]",
+      "запланированная поездка (настоящее о будущем): [[Jutro jadę do Warszawy.]]",
+      "фон в прошлом: [[Kiedy szłam przez park, spotkałam sąsiada.]]"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Когда chodzić / jeździć",
+   "facts": [
+    "R4"
+   ],
+   "blocks": [
+    {
+     "type": "steps",
+     "items": [
+      "привычка, регулярно: [[Codziennie jeżdżę do pracy tramwajem.]]",
+      "туда и обратно (в прошлом): [[W zeszłym roku jeździliśmy do Włoch.]]",
+      "«по», без цели: [[chodzić po parku]]",
+      "умение: [[Dziecko już chodzi. Umiem jeździć samochodem.]]"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Совершенный вид: pójść, pojechać",
+   "facts": [
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Один завершённый поход или поездка — **pójść, pojechać** (polecieć, pobiec): [[Jutro pójdę do kina. Wczoraj pojechaliśmy nad morze.]] Повтор в будущем — [[będę chodzić / jeździć]]."
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Формы, которые надо знать",
+   "facts": [
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "глагол",
+      "наст./буд.",
+      "прошедшее"
+     ],
+     "rows": [
+      [
+       "iść",
+       "idę, idziesz, idą",
+       "szedł, szła, szli"
+      ],
+      [
+       "pójść",
+       "pójdę, pójdziesz, pójdą",
+       "poszedł, poszła, poszli"
+      ],
+      [
+       "chodzić",
+       "chodzę, chodzisz, chodzą",
+       "chodził, chodziła"
+      ],
+      [
+       "jechać",
+       "jadę, jedziesz, jadą",
+       "jechał, jechała"
+      ],
+      [
+       "pojechać",
+       "pojadę, pojedziesz",
+       "pojechał"
+      ],
+      [
+       "jeździć",
+       "jeżdżę, jeździsz, jeżdżą",
+       "jeździł, jeździła"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Чем и на чём",
+   "facts": [
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Транспорт — **творительный без предлога**: [[autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem]]. Но **na rowerze, na koniu**. Пешком — [[pieszo, piechotą]]."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Внимание: Не [[przez autobus]], не [[rowerem]] (в значении «на велосипеде»)."
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Куда и откуда",
+   "facts": [
+    "R8"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "вопрос",
+      "предлог",
+      "пример"
+     ],
+     "rows": [
+      [
+       "dokąd?",
+       "do + Dopełniacz",
+       "do Krakowa, do sklepu, do pracy"
+      ],
+      [
+       "dokąd?",
+       "na + Biernik (особые слова)",
+       "na basen, na lotnisko, na pocztę"
+      ],
+      [
+       "skąd?",
+       "z + Dopełniacz",
+       "z domu, z pracy"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Приставки: пары",
+   "facts": [
+    "R9",
+    "R10",
+    "R12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Правило: **приставка + iść/jechać → dk**, **приставка + chodzić/-jeżdżać → ndk**. Вставное **-e-**: [[wejść, odejść, podejść, zejść]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "dk (от iść / jechać)",
+      "ndk (от chodzić / -jeżdżać)"
+     ],
+     "rows": [
+      [
+       "przyjść, przyjechać",
+       "przychodzić, przyjeżdżać"
+      ],
+      [
+       "wyjść, wyjechać",
+       "wychodzić, wyjeżdżać"
+      ],
+      [
+       "wejść, wjechać",
+       "wchodzić, wjeżdżać"
+      ],
+      [
+       "dojść, dojechać",
+       "dochodzić, dojeżdżać"
+      ],
+      [
+       "odejść, odjechać",
+       "odchodzić, odjeżdżać"
+      ],
+      [
+       "podejść, podjechać",
+       "podchodzić, podjeżdżać"
+      ],
+      [
+       "przejść, przejechać",
+       "przechodzić, przejeżdżać"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "**-jeżdżać** спрягается как [[czytać]]: przyjeżdżam, przyjeżdżasz, przyjeżdżają."
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Что значит приставка",
+   "facts": [
+    "R11"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "приставка",
+      "значение",
+      "с каким предлогом",
+      "пример"
+     ],
+     "rows": [
+      [
+       "przy-",
+       "прийти, приехать",
+       "do",
+       "Przyszedł do mnie wieczorem."
+      ],
+      [
+       "wy-",
+       "выйти, уехать из",
+       "z",
+       "Wyszłam z domu o siódmej."
+      ],
+      [
+       "w-/we-",
+       "войти, въехать",
+       "do",
+       "Weszła do sklepu."
+      ],
+      [
+       "do-",
+       "дойти, доехать",
+       "do",
+       "Dojeżdżam do pracy autobusem."
+      ],
+      [
+       "od-/ode-",
+       "отойти, отъехать",
+       "od, z",
+       "Pociąg odjeżdża z peronu drugiego."
+      ],
+      [
+       "pod-/pode-",
+       "подойти",
+       "do",
+       "Podszedł do okna."
+      ],
+      [
+       "prze-",
+       "перейти через",
+       "przez + Biernik",
+       "Przeszliśmy przez ulicę."
+      ],
+      [
+       "z-/ze-",
+       "сойти вниз",
+       "z, na",
+       "Zszedł na dół."
+      ],
+      [
+       "o-/ob-",
+       "обойти вокруг",
+       "— (Biernik)",
+       "Obeszliśmy cały park."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "Прошедшее приставочных от iść",
+   "facts": [
+    "R12"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "глагол",
+      "on",
+      "ona",
+      "oni"
+     ],
+     "rows": [
+      [
+       "przyjść",
+       "przyszedł",
+       "przyszła",
+       "przyszli"
+      ],
+      [
+       "wyjść",
+       "wyszedł",
+       "wyszła",
+       "wyszli"
+      ],
+      [
+       "wejść",
+       "wszedł",
+       "weszła",
+       "weszli"
+      ],
+      [
+       "odejść",
+       "odszedł",
+       "odeszła",
+       "odeszli"
+      ],
+      [
+       "zejść",
+       "zszedł",
+       "zeszła",
+       "zeszli"
+      ],
+      [
+       "przejść",
+       "przeszedł",
+       "przeszła",
+       "przeszli"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Отдельного задания на глаголы движения в экзамене нет, но их формы постоянно встречаются в заданиях на времена и вопросы: сборник, блок 6, зад. III (poszedłeś, przyszła) и блок 12, зад. IV (przyjechać / wyszedł); экзамены 04.2023 и 03.2022, задание V (chodzi, przyszła, poszedł, pojechała)."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Пешком — [[iść / chodzić]], на транспорте — [[jechać / jeździć]].",
+      "Сейчас, в одну сторону — [[iść, jechać]]; регулярно, туда-обратно — [[chodzić, jeździć]].",
+      "Приставка даёт совершенный вид и направление: [[wyjść, przyjechać, dojść]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Iść или jechać?",
+   "instr": "Напишите форму настоящего времени.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Teraz ___ do sklepu, jest blisko. (ja; iść / jechać)",
+     "a": [
+      "idę"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Jutro ___ do Wrocławia pociągiem. (my; iść / jechać)",
+     "a": [
+      "jedziemy"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Dokąd ___? — Do kina, na piechotę. (ty; iść / jechać)",
+     "a": [
+      "idziesz"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Oni ___ na wakacje do Hiszpanii samochodem. (iść / jechać)",
+     "a": [
+      "jadą"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Ona ___ do pracy tramwajem. Teraz siedzi w tramwaju. (iść / jechać)",
+     "a": [
+      "jedzie"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "___ na spacer z psem. (my; iść / jechać)",
+     "a": [
+      "Idziemy"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Dokąd ___? (wy, autobusem; iść / jechać)",
+     "a": [
+      "jedziecie"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Dzieci ___ do szkoły pieszo. (iść / jechać)",
+     "a": [
+      "idą"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Kasia ___ do lekarza, przychodnia jest za rogiem. (iść / jechać)",
+     "a": [
+      "idzie"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "___ do Gdańska na weekend. (ja; iść / jechać)",
+     "a": [
+      "Jadę"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Ty też ___ na rowerze do parku? (iść / jechać)",
+     "a": [
+      "jedziesz"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    },
+    {
+     "q": "Babcia ___ do kościoła, kościół jest obok. (iść / jechać)",
+     "a": [
+      "idzie"
+     ],
+     "expl": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед).",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Однонаправленный или разнонаправленный?",
+   "instr": "Напишите правильную форму (время — по смыслу).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Codziennie ___ do pracy tramwajem. (ja; jechać / jeździć)",
+     "a": [
+      "jeżdżę"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Teraz ___ do pracy, zadzwonię później. (ja; jechać / jeździć)",
+     "a": [
+      "jadę"
+     ],
+     "expl": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju.",
+     "t": "t3"
+    },
+    {
+     "q": "Dwa razy w tygodniu ___ na basen. (my; iść / chodzić)",
+     "a": [
+      "chodzimy"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Patrz, Tomek ___ do nas! (iść / chodzić)",
+     "a": [
+      "idzie"
+     ],
+     "expl": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju.",
+     "t": "t3"
+    },
+    {
+     "q": "Moje dziecko już ___! (iść / chodzić — umiejętność)",
+     "a": [
+      "chodzi"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Umiesz ___ samochodem? (jechać / jeździć)",
+     "a": [
+      "jeździć"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "W zeszłym roku ___ do Włoch na wakacje. (my ♂; jechać / jeździć — tam i z powrotem)",
+     "a": [
+      "jeździliśmy"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Kiedy ___ przez park, spotkałam sąsiada. (ja ♀; iść / chodzić)",
+     "a": [
+      "szłam"
+     ],
+     "expl": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju.",
+     "t": "t3"
+    },
+    {
+     "q": "Lubię ___ po starym mieście. (iść / chodzić)",
+     "a": [
+      "chodzić"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Często ___ samolotem do Londynu. (on; lecieć / latać)",
+     "a": [
+      "lata"
+     ],
+     "expl": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć…",
+     "t": "t2"
+    },
+    {
+     "q": "Teraz ___ nad Atlantykiem. (my; lecieć / latać)",
+     "a": [
+      "lecimy"
+     ],
+     "expl": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć…",
+     "t": "t2"
+    },
+    {
+     "q": "Zawsze ___ parasol w torbie. (ona; nieść / nosić)",
+     "a": [
+      "nosi"
+     ],
+     "expl": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć…",
+     "t": "t2"
+    },
+    {
+     "q": "Uważaj, ___ gorącą zupę! (ja; nieść / nosić)",
+     "a": [
+      "niosę"
+     ],
+     "expl": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć…",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy byłem mały, często ___ w jeziorze. (ja ♂; płynąć / pływać)",
+     "a": [
+      "pływałem"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "Dokąd ___, kiedy wczoraj zobaczyłem cię na autostradzie? (ty ♂; jechać / jeździć)",
+     "a": [
+      "jechałeś"
+     ],
+     "expl": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju.",
+     "t": "t3"
+    },
+    {
+     "q": "Od roku ___ do pracy na rowerze. (oni; jechać / jeździć)",
+     "a": [
+      "jeżdżą"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Pójść, pojechać, będę chodzić",
+   "instr": "Напишите форму.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Jutro ___ do kina. (ja; pójść)",
+     "a": [
+      "pójdę"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Wczoraj ___ do sklepu. (ja ♀; pójść)",
+     "a": [
+      "poszłam"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "W sobotę ___ nad morze. (my; pojechać)",
+     "a": [
+      "pojedziemy"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Dokąd ___ Marek? — Do domu. (pójść; przeszły)",
+     "a": [
+      "poszedł"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Od września ___ na kurs polskiego dwa razy w tygodniu. (ja ♀; chodzić, przyszły)",
+     "a": [
+      "będę chodzić",
+      "będę chodziła"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    },
+    {
+     "q": "W przyszłym roku ___ do Japonii. (oni; polecieć)",
+     "a": [
+      "polecą"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Dzieci ___ już spać. (pójść; przeszły)",
+     "a": [
+      "poszły"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Jak ___ do pracy jutro, skoro nie ma tramwajów? (ty; pojechać)",
+     "a": [
+      "pojedziesz"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Po obiedzie ___ na spacer. (my ♂; pójść; przeszły)",
+     "a": [
+      "poszliśmy"
+     ],
+     "expl": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina.",
+     "t": "t5"
+    },
+    {
+     "q": "Od jutra codziennie ___ na siłownię. (on; chodzić, przyszły)",
+     "a": [
+      "będzie chodzić",
+      "będzie chodził"
+     ],
+     "expl": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и…",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Приставочные глаголы",
+   "instr": "Напишите нужную форму глагола из скобок.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Goście ___ o siódmej. (przyjść; oni, przyszły)",
+     "a": [
+      "przyjdą"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "Pociąg z Warszawy ___ codziennie o 8:15. (przyjeżdżać)",
+     "a": [
+      "przyjeżdża"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Codziennie ___ z domu o siódmej. (ja; wychodzić)",
+     "a": [
+      "wychodzę"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "Zaraz ___, poczekaj chwilę! (ja; wyjść)",
+     "a": [
+      "wyjdę"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "___, drzwi są otwarte! (wejść; ty, tryb rozkazujący)",
+     "a": [
+      "Wejdź"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "Do pracy ___ autobusem, to trwa pół godziny. (ja; dojeżdżać)",
+     "a": [
+      "dojeżdżam"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Kiedy ___ z Polski? (ty; wyjechać, przyszły)",
+     "a": [
+      "wyjedziesz"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Uwaga, pociąg zaraz ___! (odjechać)",
+     "a": [
+      "odjedzie"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Przepraszam, jak ___ na dworzec? (dojść; bezokolicznik)",
+     "a": [
+      "dojść"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "Nie ___ przez ulicę na czerwonym świetle! (ty; przechodzić) (подсказка: Запрет → ndk (см. tryb rozkazujący).)",
+     "a": [
+      "przechodź"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "___ bliżej, tu lepiej widać! (podejść; wy, tryb rozkazujący)",
+     "a": [
+      "Podejdźcie"
+     ],
+     "expl": "Значения приставок и предлоги: przy- (прибыть) do; wy- (выйти) z; w-/we- (войти) do; do- (дойти, добраться) do…",
+     "t": "t10"
+    },
+    {
+     "q": "Często ___ do nas sąsiadka. (przychodzić)",
+     "a": [
+      "przychodzi"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    },
+    {
+     "q": "Rodzice ___ do nas na święta. (przyjechać; przyszły)",
+     "a": [
+      "przyjadą"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Wczoraj ___ na dół windą. (my ♂; zjechać)",
+     "a": [
+      "zjechaliśmy"
+     ],
+     "expl": "Значения приставок и предлоги: przy- (прибыть) do; wy- (выйти) z; w-/we- (войти) do; do- (дойти, добраться) do…",
+     "t": "t10"
+    },
+    {
+     "q": "Co roku ___ na urlop w lipcu. (my; wyjeżdżać)",
+     "a": [
+      "wyjeżdżamy"
+     ],
+     "expl": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać –…",
+     "t": "t9"
+    },
+    {
+     "q": "Nie ___ ode mnie! (ty; odchodzić)",
+     "a": [
+      "odchodź"
+     ],
+     "expl": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić…",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Прошедшее: szedł, przyszła, weszli…",
+   "instr": "Напишите форму прошедшего времени.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Wczoraj Marek ___ do pracy pieszo. (iść)",
+     "a": [
+      "szedł"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Kasia ___ do domu o północy. (przyjść)",
+     "a": [
+      "przyszła"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Dzieci ___ z klasy. (wyjść)",
+     "a": [
+      "wyszły"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Szef ___ do biura bez słowa. (wejść)",
+     "a": [
+      "wszedł"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Ona ___ do sklepu po chleb. (pójść)",
+     "a": [
+      "poszła"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Studenci ___ na wykład za późno. (przyjść)",
+     "a": [
+      "przyszli"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Babcia ___ ostrożnie po schodach na dół. (zejść)",
+     "a": [
+      "zeszła"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Pies ___ od drzwi. (odejść)",
+     "a": [
+      "odszedł"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Turyści ___ przez most. (przejść)",
+     "a": [
+      "przeszli"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "___ do okna i otworzyłam je. (ja ♀; podejść)",
+     "a": [
+      "Podeszłam"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "___ z domu bez kluczy! (ja ♂; wyjść)",
+     "a": [
+      "Wyszedłem"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    },
+    {
+     "q": "Kiedy ___ przez las, zaczął padać deszcz. (my ♂; iść)",
+     "a": [
+      "szliśmy"
+     ],
+     "expl": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Предлоги: do, z, na, przez, od",
+   "instr": "Впишите предлог.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Wyszedłem ___ domu o ósmej.",
+     "a": [
+      "z"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Weszła ___ sklepu.",
+     "a": [
+      "do"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Przeszła ___ ulicę.",
+     "a": [
+      "przez"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Odszedł ___ okna.",
+     "a": [
+      "od"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Jadę ___ basen.",
+     "a": [
+      "na"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Jedziemy ___ Krakowa.",
+     "a": [
+      "do"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Wracam ___ pracy o piątej.",
+     "a": [
+      "z"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Podeszła ___ kasy.",
+     "a": [
+      "do"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Idę ___ pocztę.",
+     "a": [
+      "na"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Przyjechali ___ Polski w zeszłym roku.",
+     "a": [
+      "do"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Zszedł ___ schodów. (подсказка: Перед «schodów» — форма предлога с -e.)",
+     "a": [
+      "ze"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    },
+    {
+     "q": "Jadę ___ lotnisko taksówką.",
+     "a": [
+      "na"
+     ],
+     "expl": "Куда/откуда: do + Dop.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Транспорт",
+   "instr": "Напишите слово в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Jadę do pracy ___. (autobus)",
+     "a": [
+      "autobusem"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "Pojedziemy nad morze ___. (samochód)",
+     "a": [
+      "samochodem"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "Wróciłam ___, bo było późno. (taksówka)",
+     "a": [
+      "taksówką"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "Lubię jeździć na ___ po parku. (rower)",
+     "a": [
+      "rowerze"
+     ],
+     "expl": "На велосипеде — na + miejscownik: na rowerze.",
+     "t": "t7"
+    },
+    {
+     "q": "Do Warszawy najlepiej jechać ___. (pociąg)",
+     "a": [
+      "pociągiem"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "W Krakowie jeżdżę ___. (tramwaj)",
+     "a": [
+      "tramwajem"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "Do Londynu polecę ___. (samolot)",
+     "a": [
+      "samolotem"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    },
+    {
+     "q": "Do szkoły chodzę ___. (пешком)",
+     "a": [
+      "pieszo",
+      "piechotą",
+      "na piechotę"
+     ],
+     "expl": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na…",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Dzień bez tramwajów",
+   "instr": "Proszę wpisać odpowiednią formę czasownika ruchu (lub nazwy środka transportu) w nawiasie. Narratorka — kobieta.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Zwykle {1} do pracy tramwajem, ale wczoraj tramwaje nie kursowały. {2} z domu o siódmej i {3} na przystanek autobusowy. Kiedy {4} przez park, spotkałam sąsiada. Autobus {5} dopiero po dwudziestu minutach. Do biura {6} spóźniona. {7} do pokoju i zobaczyłam, że szefa jeszcze nie ma. Po pracy {8} z koleżanką na kawę, a potem {9} do domu taksówką. Jutro też nie będzie tramwajów, więc {10} do pracy na {11}. A w weekend {12} do Rzymu {13}. Mój brat {14} tam co roku i bardzo mi poleca to miasto.",
+   "items": [
+    {
+     "q": "jechać / jeździć",
+     "a": [
+      "jeżdżę"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "wychodzić / wyjść",
+     "a": [
+      "Wyszłam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "iść / pójść",
+     "a": [
+      "poszłam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "iść / chodzić",
+     "a": [
+      "szłam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "przyjeżdżać / przyjechać",
+     "a": [
+      "przyjechał"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "dojeżdżać / dojechać",
+     "a": [
+      "dojechałam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "wchodzić / wejść",
+     "a": [
+      "Weszłam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "iść / pójść",
+     "a": [
+      "poszłam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "jechać / pojechać",
+     "a": [
+      "pojechałam"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "jechać / pojechać",
+     "a": [
+      "pojadę"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "rower",
+     "a": [
+      "rowerze"
+     ],
+     "expl": "На велосипеде — na + miejscownik: na rowerze.",
+     "t": "t7"
+    },
+    {
+     "q": "lecieć / polecieć",
+     "a": [
+      "polecę"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "samolot",
+     "a": [
+      "samolotem"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    },
+    {
+     "q": "lecieć / latać",
+     "a": [
+      "lata"
+     ],
+     "expl": "См. правило в теории.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "E-mail: jak do mnie dojechać",
+   "instr": "Kolega przyjeżdża do Ciebie pierwszy raz. Napisz e-mail (60–80 słów): jak dojechać z dworca do Twojego domu (środki transportu, droga pieszo, ile to trwa).",
+   "words": [
+    60,
+    80
+   ],
+   "need": "Не меньше 5 глаголов движения, из них 3 с приставкой; транспорт в творительном; предлоги do / z / przez / na.",
+   "model": "Cześć Pawle!\nCieszę się, że przyjedziesz. Kiedy wyjdziesz z dworca, przejdź przez ulicę i idź na przystanek tramwajowy. Jedź tramwajem numer 8 do przystanku „Rynek”. To trwa około piętnastu minut. Potem wysiądź i idź prosto pięć minut. Mój dom jest za apteką. Wejdź do klatki B i wjedź windą na trzecie piętro. Jeśli będziesz miał problem, zadzwoń — wyjdę po ciebie.\nDo zobaczenia!\nMarta",
+   "model_future": [
+    "wyjdziesz",
+    "przejdź",
+    "idź",
+    "jedź",
+    "wysiądź",
+    "wejdź",
+    "wjedź",
+    "tramwajem"
+   ],
+   "checklist": [
+    "минимум 5 глаголов движения, из них 3 с приставкой (wyjdź, przejdź, wsiądź, dojedziesz…)",
+    "транспорт в творительном (tramwajem) и/или na rowerze",
+    "предлоги do / z / przez / na",
+    "повелительное или будущее время для инструкций",
+    "приветствие и подпись",
+    "60–80 слов"
+   ],
+   "t": "t5",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Opowiadanie: „Moja najdziwniejsza podróż”",
+   "instr": "Opisz podróż, która nie poszła zgodnie z planem (100–120 słów).",
+   "words": [
+    100,
+    120
+   ],
+   "need": "Привычка с разнонаправленным глаголом, фон с szedłem / jechałam, не меньше 4 приставочных глаголов в прошедшем.",
+   "model": "Zwykle jeżdżę do rodziców pociągiem, ale w zeszłe święta postanowiłam pojechać autobusem, bo było taniej. Wyszłam z domu bardzo wcześnie i poszłam na dworzec. Autobus przyjechał punktualnie i wszystko było dobrze. Kiedy jechaliśmy przez góry, nagle zaczął padać śnieg. Kierowca zatrzymał autobus i powiedział, że dalej nie pojedziemy. Wszyscy wysiedliśmy i poszliśmy pieszo do małej wioski. Szliśmy przez las prawie godzinę, a śnieg ciągle padał. Tam weszliśmy do restauracji i czekaliśmy trzy godziny. W końcu przyjechał inny autobus i dojechaliśmy do miasta w nocy. Mama czekała na przystanku. Byłam zmęczona, ale cała i zdrowa. Kierowca autobusu bardzo nas przepraszał. Od tamtej pory zawsze jeżdżę pociągiem!",
+   "model_future": [
+    "jeżdżę",
+    "jechaliśmy",
+    "szliśmy",
+    "wyszłam",
+    "przyjechał",
+    "wysiedliśmy",
+    "weszliśmy",
+    "dojechaliśmy"
+   ],
+   "checklist": [
+    "разнонаправленный глагол для привычки (zwykle jeżdżę…)",
+    "фон с szedłem/jechałam + событие dk",
+    "минимум 4 приставочных глагола движения в прошедшем (wyszłam, wsiadłam, przyjechał, dojechaliśmy…)",
+    "минимум 2 вида транспорта",
+    "конец истории",
+    "100–120 слов"
+   ],
+   "t": "t3",
+   "items": []
+  }
+ ]
+}

@@ -6,7 +6,7 @@ var B1=window.B1,U=B1.util,el=U.el,fmt=U.fmt,S=B1.store,UI=B1.ui;
 var app=document.getElementById('app');
 var SEC=B1.sections;
 var SITE='Polski';
-var ASSET_VER='20261023e'; /* бампать при каждом обновлении файлов — иначе браузер/CDN может отдавать старый кеш tests/<id>.js */
+var ASSET_VER='20261023g';B1.ASSET_VER=ASSET_VER; /* бампать при каждом обновлении файлов — иначе браузер/CDN может отдавать старый кеш tests/<id>.js */
 var AUTO=['sluch','czyt','gram'];
 var flt={src:'all',type:'all',todo:false};
 var pageLabel='';

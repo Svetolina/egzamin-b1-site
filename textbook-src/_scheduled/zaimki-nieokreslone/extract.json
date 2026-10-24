@@ -1,0 +1,215 @@
+{
+ "topic": "zaimki-nieokreslone",
+ "title": "Zaimki nieokreślone i przeczące",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Вопросительное слово + -ś = «-то»: ktoś (кто-то), coś, gdzieś, kiedyś, jakoś, jakiś, czyjś — существует, но не названо.",
+   "sources": [
+    {
+     "title": "elon.io — «Indefinite Pronouns: ktoś, coś, gdzieś, jakiś»",
+     "url": "https://elon.io/grammar/polish/pronouns/indefinite/ktos-cos",
+     "loc": "таблица -ś"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Indefinite pronouns» (по Z. Kalecie)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-indef-prons.pdf",
+     "loc": "таблица пар -ś / -kolwiek"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "ktoś и coś склоняются как kto и co, окончание стоит перед -ś: kogoś, komuś, kimś, o kimś; czegoś, czemuś, czymś, o czymś. Падеж задаёт глагол или предлог: Szukam kogoś. Rozmawiałam z kimś.",
+   "sources": [
+    {
+     "title": "elon.io — «Indefinite Pronouns: ktoś, coś, gdzieś, jakiś»",
+     "url": "https://elon.io/grammar/polish/pronouns/indefinite/ktos-cos",
+     "loc": "раздел Declension; Common mistakes: «z kimś», «Szukam kogoś»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "таблица kto / co; «derived pronouns … declined similarly to kto and co»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "jakiś согласуется как прилагательное: jakiś pan, jakaś pani, jakieś pytanie.",
+   "sources": [
+    {
+     "title": "elon.io — «Indefinite Pronouns: ktoś, coś, gdzieś, jakiś»",
+     "url": "https://elon.io/grammar/polish/pronouns/indefinite/ktos-cos",
+     "loc": "раздел jakiś agreement; ошибка «Dzwonił jakiś pani»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Indefinite pronouns» (по Z. Kalecie)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-indef-prons.pdf",
+     "loc": "jakiś — «some kind of», jakikolwiek"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "-kolwiek = «любой, неважно кто/что; -угодно, -бы ни»: ktokolwiek, cokolwiek, gdziekolwiek, kiedykolwiek, jakikolwiek.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Indefinite pronouns» (по Z. Kalecie)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-indef-prons.pdf",
+     "loc": "правило Z. Kalety: -kolwiek — «identity doesn't matter»; совет переводить как -ever"
+    },
+    {
+     "title": "elon.io — «Indefinite Pronouns: ktoś, coś, gdzieś, jakiś»",
+     "url": "https://elon.io/grammar/polish/pronouns/indefinite/ktos-cos",
+     "loc": "раздел -ś vs -kolwiek"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "kiedyś может значить и «когда-то (в прошлом)», и «когда-нибудь (в будущем)».",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Indefinite pronouns» (по Z. Kalecie)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-indef-prons.pdf",
+     "loc": "примечание к kiedyś"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R6",
+   "rule": "Отрицательные слова nikt, nic, nigdy, nigdzie, żaden всегда требуют nie при глаголе (двойное отрицание), и их можно ставить несколько: Nikt nic nie powiedział. Ошибка: *Nikt przyszedł*.",
+   "sources": [
+    {
+     "title": "elon.io — «Negative Pronouns and Double Negation: nikt, nic, nigdy»",
+     "url": "https://elon.io/grammar/polish/pronouns/negative/nikt-nic",
+     "loc": "Core rule, Common mistakes"
+    },
+    {
+     "title": "elon.io — «Double and Multiple Negation»",
+     "url": "https://elon.io/grammar/polish/negation/double-negation",
+     "loc": "«Verbal nie is mandatory», «Multiple negatives add emphasis»"
+    },
+    {
+     "title": "Clozemaster Blog — «The Polish Negative Pronouns “nikt” and “nic”»",
+     "url": "https://www.clozemaster.com/blog/polish-negative-pronouns/",
+     "loc": "«Nikt nic nie wie», triple negation is normal"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Склонение: nikt — nikogo, nikomu, nikogo, nikim, o nikim; nic — niczego, niczemu, nic, niczym, o niczym.",
+   "sources": [
+    {
+     "title": "elon.io — «Negative Pronouns and Double Negation: nikt, nic, nigdy»",
+     "url": "https://elon.io/grammar/polish/pronouns/negative/nikt-nic",
+     "loc": "раздел Declension"
+    },
+    {
+     "title": "Clozemaster Blog — «The Polish Negative Pronouns “nikt” and “nic”»",
+     "url": "https://www.clozemaster.com/blog/polish-negative-pronouns/",
+     "loc": "таблица nikt / nic"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "«declined similarly to kto and co»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "Как дополнение при отрицании возможны и nic, и niczego: Nie mam nic / Nie mam niczego (niczego — выразительнее/официальнее). Niczego nie żałuję.",
+   "sources": [
+    {
+     "title": "elon.io — «Negative Pronouns and Double Negation: nikt, nic, nigdy»",
+     "url": "https://elon.io/grammar/polish/pronouns/negative/nikt-nic",
+     "loc": "раздел Nic after negated verbs"
+    },
+    {
+     "title": "elon.io — «Double and Multiple Negation»",
+     "url": "https://elon.io/grammar/polish/negation/double-negation",
+     "loc": "«Nie mam nic» и «Nie mam niczego»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "«nic has the unaltered (accusative) form instead of niczego»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "В отрицательном предложении «any-» передаётся словами на ni-, а не -ś / -kolwiek: Nic nie widzę (не *Nie widzę cokolwiek*), Nie mam nic (не *Nie mam coś*).",
+   "sources": [
+    {
+     "title": "elon.io — «Indefinite Pronouns: ktoś, coś, gdzieś, jakiś»",
+     "url": "https://elon.io/grammar/polish/pronouns/indefinite/ktos-cos",
+     "loc": "Common mistakes: «Nie widzę cokolwiek → Nic nie widzę»"
+    },
+    {
+     "title": "elon.io — «Double and Multiple Negation»",
+     "url": "https://elon.io/grammar/polish/negation/double-negation",
+     "loc": "Common mistakes: «Nie mam coś → Nie mam nic»"
+    },
+    {
+     "title": "Clozemaster Blog — «The Polish Negative Pronouns “nikt” and “nic”»",
+     "url": "https://www.clozemaster.com/blog/polish-negative-pronouns/",
+     "loc": "«nikt and nic can also mean anybody and anything»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "żaden («никакой, ни один») склоняется как прилагательное; как дополнение при отрицании — в dopełniaczu: Nie znam żadnego z tych ludzi.",
+   "sources": [
+    {
+     "title": "elon.io — «Negative Pronouns and Double Negation: nikt, nic, nigdy»",
+     "url": "https://elon.io/grammar/polish/pronouns/negative/nikt-nic",
+     "loc": "раздел Żaden agreement"
+    },
+    {
+     "title": "elon.io — «Double and Multiple Negation»",
+     "url": "https://elon.io/grammar/polish/negation/double-negation",
+     "loc": "«żaden declines like an adjective»"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "coś / nic + прилагательное в dopełniaczu: coś ciekawego, nic nowego, niczego podejrzanego.",
+   "sources": [
+    {
+     "title": "Polski Daily — «Subject expressed with Genitive» (PDF)",
+     "url": "https://www.polskidaily.eu/wp-content/uploads/2021/01/Subject-expressed-with-Genitive.pdf",
+     "loc": "пункт coś / nic / co + przymiotnik: «Nic ciekawego się nie stało»"
+    },
+    {
+     "title": "Clozemaster Blog — «The Polish Negative Pronouns “nikt” and “nic”»",
+     "url": "https://www.clozemaster.com/blog/polish-negative-pronouns/",
+     "loc": "пример «Nie zauważyłem niczego podejrzanego»"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "rule": "С nikt глагол прошедшего времени — в м. р. ед. ч.: Nikt nie przyszedł. Также ani razu («ни разу»), wcale («совсем не»): Ani razu nie zadzwonił. Wcale mi to nie przeszkadza.",
+   "sources": [
+    {
+     "title": "elon.io — «Negative Pronouns and Double Negation: nikt, nic, nigdy»",
+     "url": "https://elon.io/grammar/polish/pronouns/negative/nikt-nic",
+     "loc": "nikt «defaults to masculine singular in the past tense»"
+    },
+    {
+     "title": "elon.io — «Double and Multiple Negation»",
+     "url": "https://elon.io/grammar/polish/negation/double-negation",
+     "loc": "wcale, ani"
+    }
+   ],
+   "note": "Два источника — разные страницы одного сайта (elon.io)."
+  }
+ ]
+}

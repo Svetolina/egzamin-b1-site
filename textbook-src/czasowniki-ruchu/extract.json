@@ -1,0 +1,197 @@
+{
+ "topic": "czasowniki-ruchu",
+ "title": "Czasowniki ruchu — глаголы движения",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): отдельной строки о глаголах движения нет; они входят в 2.2.1 Fleksja, pkt 2 lit. a «czas teraźniejszy (np.: … chodzę, jadę …)» и «czas przeszły … (np.: … poszłam …)», и в pkt 2 lit. b «aspekt», s. 77.",
+  "level": "B1 — iść/chodzić, jechać/jeździć, pójść/pojechać, приставочные глаголы и предлоги «куда / откуда».",
+  "katalog_b": [
+   "7.5.1 środki komunikacji publicznej (s. 85)",
+   "7.5.2 środki transportu (s. 85)",
+   "7.5.5 dworzec kolejowy (s. 85)",
+   "7.3.1 typowe zajęcia dnia codziennego (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2.3 wyrażanie relacji w przestrzeni (miejsce i kierunek) (s. 84)",
+   "6.2.4 wyrażanie relacji czasowych (s. 84)"
+  ],
+  "exam": "Отдельного задания на глаголы движения в экзамене нет, но их формы постоянно встречаются в заданиях на времена и вопросы: сборник, блок 6, зад. III (poszedłeś, przyszła) и блок 12, зад. IV (przyjechać / wyszedł); экзамены 04.2023 и 03.2022, задание V (chodzi, przyszła, poszedł, pojechała).",
+  "depends_on": [
+   "czas-terazniejszy",
+   "czas-przeszly",
+   "aspekt"
+  ],
+  "feeds": [
+   "przyimki miejsca i kierunku"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "DZA": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — intro table»: https://faculty.washington.edu/dziwirek/grammar/verbs/polish-vom-intro-table.pdf",
+  "DZB": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»: https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf",
+  "DZC": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — prefix meaning» (таблица): https://faculty.washington.edu/dziwirek/grammar/verbs/polish-VOM-prefix-meaning.pdf",
+  "ELA": "elon.io Polish grammar: «Verbs of Motion: Determinate vs Indeterminate»: https://elon.io/grammar/polish/verbs/motion/overview",
+  "ELB": "elon.io Polish grammar: «jechać / jeździć»: https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+  "ELC": "elon.io Polish grammar: «Prefixed motion verbs»: https://elon.io/grammar/polish/verbs/motion/prefixed-motion",
+  "ELD": "elon.io verbs reference: «chodzić»: https://elon.io/grammar/polish/verbs-reference/chodzic",
+  "CMA": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»: https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+  "PIA": "polski.info — Grammar: Verbs (#verbs6 present irregular, #verbs7 past tense): https://polski.info/grammar/verbs#verbs7",
+  "GJA": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2»: aimless-motion imperfectives: https://grzegorj.smallhost.pl/gram/en/gram06.html",
+  "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "JPBG XI": "Język polski bez granic, kl. XI (B2) (файлы проекта kl.-XI-*.pdf)",
+  "PO": "Gramatyka z kulturą. Przez osoby (файлы проекта Gramatyka-z-kultura.-Przez-osoby.-Logo-*.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (файл проекта 142944-gramatyka-z-kultura.pdf)",
+  "ZJP": "Z językiem polskim każdego dnia – B1, podręcznik (файлы проекта Podręcznik_…B1-*.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед). Между городами обычно jechać: Jadę do Gdańska (не *idę).",
+   "pl": [],
+   "refs": [
+    "CMA («Iść vs. jechać»)",
+    "ELA («iść vs. jechać»)",
+    "ELB («Common mistakes»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć, biec, płynąć, nieść, wieźć; и разнонаправленный (привычка, туда-обратно, без цели, умение) — chodzić, jeździć, latać, biegać, pływać, nosić, wozić.",
+   "pl": [],
+   "refs": [
+    "DZA (таблица пар unidirectional / multidirectional)",
+    "ELA («Pairs listed on the page»)",
+    "GJA («aimless-motion imperfectives (nosić, chodzić)»)",
+    "JPBG XI s. 81 («Czasowniki ruchu możemy podzielić na jednokrotne i wielokrotne… jechać – jeździć; iść – chodzić; nieść – nosić; płynąć – pływać; lecieć – latać; wieźć – wozić, biec – biegać»; «jednokrotne oznaczają ruch ukierunkowany, zaś wielokrotne – ruch nieokreślony co do kierunku»)",
+    "ZJP s. 70 (рамка: czasowniki wielokrotne i jednokrotne)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju. Jadę właśnie do ciebie. Jutro idę do kina (настоящее о плане).",
+   "pl": [],
+   "refs": [
+    "DZA («Unidirectional…: Idę do pokoju; Jutro idę do kina»)",
+    "ELB («Determinate: jechać — happening now or planned»)",
+    "JPBG XI s. 81 («Jednokrotne oznaczają czynność jednorazową»; «Dzisiaj idę po zakupy do supermarketu»)",
+    "ZJP s. 70 («Czasowniki jednokrotne opisują pojedyncze lub konkretnie określone akcje ruchu»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и обратно в прошлом (W zeszłym roku jeździliśmy do Włoch), хождение «по» (chodzić po parku), умение (Dziecko już chodzi; Umiem jeździć samochodem).",
+   "pl": [],
+   "refs": [
+    "ELA («Uses of the indeterminate»)",
+    "ELB («Indeterminate: jeździć»)",
+    "ELD («Usage»)",
+    "DZA («Multidirectional…: repeated, back-and-forth, habitual, ability»)",
+    "JPBG XI s. 81 («wielokrotne – powtarzającą się»)",
+    "ZJP s. 70 («Czasowniki wielokrotne opisują ruch lub czynności, które są powtarzalne, cykliczne»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina. Wczoraj poszłam do sklepu. Na urlop pojedziemy do parku narodowego.",
+   "pl": [],
+   "refs": [
+    "CMA («Perfective (pójść, pojechać)… formed with po-»)",
+    "DZB (примеры «Jutro pójdę do kina», «Wczoraj poszłam do sklepu»)",
+    "PIA (#verbs1: jechać – pojechać)",
+    "JPBG XI s. 81 (jednokrotne с приставкой «zmieniają aspekt z niedokonanego na dokonany»)",
+    "PO s. 92 (iść – szedł; pójść – poszedł, poszła)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош. szedł, szła, szli (szedłem, szłam); pójść — pójdę, poszedł, poszła, poszli. jechać — jadę, jedziesz, jadą; jechał. jeździć — jeżdżę, jeździsz, jeżdżą; jeździł. chodzić — chodzę, chodzisz, chodzą.",
+   "pl": [],
+   "refs": [
+    "PIA (#verbs6 (iść, jechać, jeździć) и #verbs7 (szedłem, szłam))",
+    "ELB («Conjugation»)",
+    "ELD («Present», «Past»)",
+    "DZB («Forms shown»)",
+    "CMA («Conjugation examples»)",
+    "PO s. 92 («iść – szedł, szła; pójść – poszedł, poszła»; Poszedłem, Poszłam)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na rowerze, na koniu (na + местный); пешком — pieszo / piechotą.",
+   "pl": [],
+   "refs": [
+    "ELB («Vehicles take the bare instrumental», «Exception: na rowerze»)",
+    "CMA («Means of transport»)",
+    "PP s. 87 (narzędnik: «gdy mówimy, czym się poruszamy: autobusem, pociągiem, samolotem, taksówką, windą»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "Куда/откуда: do + Dop. (do Krakowa, do sklepu) — цель; na + Bier. — с ограниченным кругом слов (na basen, na lotnisko, na pocztę); z + Dop. — откуда (z domu).",
+   "pl": [],
+   "refs": [
+    "CMA («Prepositions»: do, na, z)",
+    "DZC (колонка «Prepositions»: do + GEN, z + GEN)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić, wejść – wchodzić, dojść – dochodzić, odejść – odchodzić, podejść – podchodzić, przejść – przechodzić.",
+   "pl": [],
+   "refs": [
+    "ELC («Core rule» и список приставок)",
+    "DZB (пары wychodzić/wyjść, przychodzić/przyjść, wchodzić/wejść)",
+    "JPBG XI s. 81 («Czasowniki ruchu wielokrotne po dodaniu prefiksów pozostają niedokonane, zaś jednokrotne zmieniają aspekt…: wychodzić – wyjść; zawozić – zawieźć»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać – wyjeżdżać, dojechać – dojeżdżać, odjechać – odjeżdżać.",
+   "pl": [],
+   "refs": [
+    "ELC («Jechać family: -jeżdżać»)",
+    "DZC (примеры «Dojeżdżam do pracy autobusem», «Pociąg odjeżdża z peronu»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R11",
+   "ru": "Значения приставок и предлоги: przy- (прибыть) do; wy- (выйти) z; w-/we- (войти) do; do- (дойти, добраться) do; od-/ode- (отойти, уехать) od / z; pod-/pode- (подойти) do; prze- (перейти через) przez + Bier.; z-/ze- (сойти вниз) z / na; o-/ob- (обойти вокруг).",
+   "pl": [],
+   "refs": [
+    "DZC (таблица «Prefix / Meaning / Prepositions»)",
+    "ELC (список приставок с значениями)",
+    "JPBG XI s. 81–82 («Znaczenie wybranych prefiksów w czasownikach ruchu»: do-, od(e)-, w(e)-, wy-, pod(e)-, z(e)-)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R12",
+   "ru": "Перед -jść вставляется -e-, если иначе трудно произнести: wejść, odejść, podejść, zejść, obejść (но przyjść, wyjść, dojść). Прошедшее приставочных от iść: przyszedł/przyszła, wyszedł/wyszła, wszedł/weszła, odszedł/odeszła, zszedł/zeszła; будущее przyjdę, wyjdę, wejdę.",
+   "pl": [],
+   "refs": [
+    "ELC («Polish inserts e to keep the word pronounceable»)",
+    "PIA (#verbs7: wejść, wyjść, przyjść, pójść, odejść; przyszedłem/przyszłam)",
+    "DZB (wszedłem, weszłam; wyjdę, przyjdę, wejdę)",
+    "PO s. 92, 94 (dojść – doszedł; wejść – wszedł, weszła; zejść – zszedł, zeszła; odejść – odszedł, odeszła; podejść – podszedł)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "forms": []
+}

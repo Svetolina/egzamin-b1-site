@@ -1,0 +1,165 @@
+{
+ "topic": "liczebniki-z-rzeczownikami",
+ "title": "Liczebniki z rzeczownikami — числительные с существительными",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. d «odmiana liczebników głównych (np.: jeden, dwa, dwie; cztery, czterej, czterech; pięć, pięciu; siedem, siedmiu)» и lit. a «męskoosobowych i niemęskoosobowych (np.: … czterech panów, czterej studenci ≠ cztery stoły, cztery studentki)», s. 76.",
+  "level": "B1 — 2–4 и 5+ с существительным, dwa / dwie / dwaj / dwóch, собирательные dwoje, troje, согласование глагола, возраст и цены.",
+  "katalog_b": [
+   "7.10.5 podstawowe miary, wagi, ilości (s. 85)",
+   "7.10.6 pieniądze (s. 85)",
+   "7.1.1 wiek (s. 84)",
+   "7.1.7 członkowie rodziny (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2.1 wyrażanie cechy, właściwości (ilość) (s. 84)",
+   "6.2.4 wyrażanie relacji czasowych (lata, godziny) (s. 84)"
+  ],
+  "exam": "В сборнике числительным посвящено задание III блока 11 («поставьте числительные в нужную форму»). В письме числа нужны почти всегда: цены, возраст, количество людей и вещей.",
+  "depends_on": [
+   "dopełniacz (мн. ч.)",
+   "męskoosobowe (мн. ч.)"
+  ],
+  "feeds": [
+   "склонение числительных (z pięcioma…) — отдельная тема"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "ELA": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»: https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+  "ZPA": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»: https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM",
+  "TLA": "Transparent Language, Polish Language Blog: «Cardinal numbers»: https://blogs.transparent.com/polish/cardinal-numbers/",
+  "PDA": "Polski Daily: «Polish numerals — nominative or genitive?»: https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+  "LQA": "LingQ grammar resource: «Polish Numerals»: https://www.lingq.com/pl/grammar-resource/polish/numerals/",
+  "UNA": "K. Schlund, «Dwaj panowie przyszli or dwóch panów przyszło?», Journal of Slavic Linguistics (2022) — аннотация: https://ojs.ung.si/index.php/JSL/article/view/60",
+  "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "JPBG XI": "Język polski bez granic, kl. XI (B2) (файлы проекта kl.-XI-*.pdf)",
+  "ZJP": "Z językiem polskim każdego dnia – B1, podręcznik (файлы проекта Podręcznik_…B1-*.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "1 согласуется как прилагательное: jeden kot, jedna kobieta, jedno okno.",
+   "pl": [],
+   "refs": [
+    "ELA («jeden agrees like an adjective»)",
+    "TLA («1 takes the gender form: jeden, jedna, jedno»)",
+    "JPBG XI s. 95 («Liczebnik jeden występuje w trzech rodzajach i odmienia się … według deklinacji przymiotnikowej: jeden, jedna, jedno»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн. ч.: trzy koty, cztery okna, dwadzieścia trzy krzesła, 23 stopnie.",
+   "pl": [],
+   "refs": [
+    "ELA («2–4: the noun stays in the nominative plural»)",
+    "PDA («2, 3, and 4 (including 22, 23, and 24) take the nominative plural»)",
+    "LQA («Numerals ending in 2, 3, or 4»)",
+    "JPBG XI s. 96 (2, 3, 4; 22, 23, 24; 32, 33, 34 … + «rzeczownik … w mianowniku lm.»: Dwa samochody, Trzydzieści cztery samochody)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн. ч.: pięć kotów, siedem kobiet, sto książek, 25 stopni, czterysta złotych.",
+   "pl": [],
+   "refs": [
+    "ELA («5+: the counted noun goes into the genitive plural»)",
+    "PDA («Other numbers above 5, except those ending in 2–4, take the genitive plural»)",
+    "LQA («All other cardinal numbers take the genitive plural»: siedem kobiet, dwanaście ryb, trzysta złotych)",
+    "JPBG XI s. 96 («od 5 do 21, od 25 do 31 … w dopełniaczu lm.»: Pięć samochodów, Sto dwadzieścia jeden samochodów)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście domów.",
+   "pl": [],
+   "refs": [
+    "LQA («12–14 fall into the genitive group»)",
+    "PDA («2 domy» but «11 domów»; «teens… take lat»)",
+    "JPBG XI s. 96 (12–14 входят в группу «od 5 do 21» — dopełniacz lm.)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "Составные, кончающиеся на jeden (21, 31, 101), — jeden не меняется, существительное в Dopełniacz мн. ч.: dwadzieścia jeden lat, trzydzieści jeden domów.",
+   "pl": [],
+   "refs": [
+    "ZPA («If the final element is jeden, it stays unchanged»)",
+    "PDA («21 and 25–30 take lat»)",
+    "JPBG XI s. 96 («Liczebnik jeden znajdujący się na końcu liczby, niezależnie od rodzaju rzeczownika, zawsze stawiamy w rodzaju męskim: dwadzieścia jeden okien, trzydzieści jeden kobiet»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).",
+   "pl": [],
+   "refs": [
+    "ELA («dwa for masculine and neuter, dwie for feminine»)",
+    "ZPA (примеры dwa samochody, dwie panie, dwa okna)",
+    "TLA (таблица по родам)",
+    "JPBG XI s. 95 («Liczebnik dwa posiada także formę rodzaju żeńskiego»: dwaj/dwóch — dwie — dwa)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн. ч.: dwóch studentów, pięciu mężczyzn. Вариант 2–4: dwaj, trzej, czterej + Mianownik: dwaj studenci, trzej mężczyźni.",
+   "pl": [],
+   "refs": [
+    "ELA («dwóch, trzech, czterech, pięciu, sześciu… take the genitive plural»; dwaj studenci)",
+    "TLA («dwaj / trzej / czterej mężczyźni; pięciu mężczyzn»)",
+    "ZPA («dwaj chłopcy, dwóch chłopców»)",
+    "JPBG XI s. 98 («Liczebniki 2, 3, 4 w mianowniku lm. występują w dwóch formach: dwaj – dwóch, trzej – trzech, czterej – czterech»; dwaj + mianownik, dwóch + dopełniacz)",
+    "JPBG XI s. 95 (męskoosobowe: pięciu, sześciu…)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób przyszło. Pięciu studentów przyszło. Dwóch mężczyzn przyszło. С 2–4 (не мужско-личными) — множественное: Cztery osoby przyszły. Dwie kobiety przyszły.",
+   "pl": [],
+   "refs": [
+    "ELA («Verb agreement»: Pięć osób przyszło; Cztery osoby przyszły)",
+    "UNA («dwie kobiety przyszły», «dwóch mężczyzn przyszło»)",
+    "JPBG XI s. 96 («Dwa samochody jadą / jechały»; «Pięć samochodów jedzie / jechało»)",
+    "JPBG XI s. 98 («Dwaj robotnicy pracują / pracowali»; «Dwóch robotników pracuje / pracowało»; «Pięciu robotników pracuje / pracowało»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "С dziecko (dzieci) и словами только мн. ч. — собирательные: dwoje, troje, czworo, pięcioro dzieci.",
+   "pl": [],
+   "refs": [
+    "ZPA («Collective numerals»: dwoje dzieci, czworo dzieci)",
+    "TLA («dwoje / troje / czworo dzieci; pięcioro dzieci»)",
+    "JPBG XI s. 134 («Liczebniki zbiorowe łączą się … z rzeczownikiem dziecko: dwoje, sześcioro, piętnaścioro dzieci»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8 złotych).",
+   "pl": [],
+   "refs": [
+    "PDA («Age expressions (lata vs. lat)»; «4 złote» but «8 złotych»)",
+    "LQA («trzysta złotych»)",
+    "ZJP s. 64 («Mieszkam w Polsce ponad (12) lat», «Przed (5) laty»)"
+   ],
+   "status": "ok",
+   "note": "Форма lat/lata (от rok) — в одном источнике явно; второй подтверждает лишь złote/złotych."
+  }
+ ],
+ "forms": []
+}

@@ -1,0 +1,179 @@
+{
+ "topic": "spojniki-przyczyna-przyzwolenie",
+ "title": "Spójniki: przyczyna, skutek, przyzwolenie",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая. Ponieważ может стоять в начале предложения (Ponieważ było zimno, wzięłam kurtkę), bo — нет: не *Bo był zmęczony, poszedł spać*.",
+   "sources": [
+    {
+     "title": "elon.io — «Cause and result: bo, ponieważ, więc, dlatego»",
+     "url": "https://elon.io/grammar/polish/conjunctions/cause-result",
+     "loc": "раздел Cause Conjunctions, Punctuation, Common Mistakes"
+    },
+    {
+     "title": "elon.io — «Connecting ideas»",
+     "url": "https://elon.io/grammar/polish/expressions/connecting-ideas",
+     "loc": "«bo cannot start a sentence»; ponieważ «can open the sentence»"
+    }
+   ],
+   "note": "Оба источника — разные страницы одного сайта (elon.io); правило «bo не в начале» — норма письменной речи."
+  },
+  {
+   "id": "R2",
+   "rule": "Стиль: gdyż — официальный, письменный; ponieważ — нейтральный, уместен в официальном письме; bo — очень частый, обычно считается разговорным (хотя исследования показывают, что он широко встречается и в письменных текстах).",
+   "sources": [
+    {
+     "title": "elon.io — «Cause and result: bo, ponieważ, więc, dlatego»",
+     "url": "https://elon.io/grammar/polish/conjunctions/cause-result",
+     "loc": "описания bo / ponieważ / gdyż"
+    },
+    {
+     "title": "Vaia — «Polish Sentence Connectors»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-syntax/polish-sentence-connectors",
+     "loc": "«ponieważ … formal contexts», «bo … casual speech»"
+    },
+    {
+     "title": "K. Bakuła, «Bo v. ponieważ i inne spójniki w mówionym i pisanym», Z Teorii i Praktyki Dydaktycznej Języka Polskiego t. 30, 2021",
+     "url": "https://journals.us.edu.pl/index.php/TPDJP/article/download/12879/9990",
+     "loc": "с. 150–152, 163–164: противопоставление bo (устн.) / ponieważ (письм.) — «złudzenie poznawcze»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "dlatego że (или dlatego…, że) — «потому что» с упором на причину: Wyjechała dlatego, że chciała odpocząć.",
+   "sources": [
+    {
+     "title": "elon.io — «Cause and result: bo, ponieważ, więc, dlatego»",
+     "url": "https://elon.io/grammar/polish/conjunctions/cause-result",
+     "loc": "разделы dlatego że и dlatego … że"
+    },
+    {
+     "title": "elon.io — «Connecting ideas»",
+     "url": "https://elon.io/grammar/polish/expressions/connecting-ideas",
+     "loc": "«dlatego że is an alternative for fronting the reason»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "Следствие: więc, dlatego, zatem (офиц.), toteż — «поэтому, так что»; стоят после причины, перед ними запятая: Padało, więc wzięliśmy parasol. Ошибка: *Zostaliśmy w domu, dlatego padało*.",
+   "sources": [
+    {
+     "title": "elon.io — «Cause and result: bo, ponieważ, więc, dlatego»",
+     "url": "https://elon.io/grammar/polish/conjunctions/cause-result",
+     "loc": "раздел Result Conjunctions, Common Mistakes"
+    },
+    {
+     "title": "elon.io — «Connecting ideas»",
+     "url": "https://elon.io/grammar/polish/expressions/connecting-ideas",
+     "loc": "dlatego и więc — «bo points back, dlatego points forward»"
+    },
+    {
+     "title": "Vaia — «Polish Sentence Connectors»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-syntax/polish-sentence-connectors",
+     "loc": "więc, dlatego, zatem в таблице связок"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki + celownik (положительная причина).",
+   "sources": [
+    {
+     "title": "elon.io — «Cause and result: bo, ponieważ, więc, dlatego»",
+     "url": "https://elon.io/grammar/polish/conjunctions/cause-result",
+     "loc": "раздел Causes With Nouns"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R6",
+   "rule": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż padało, wyszliśmy na spacer (не *…, ale wyszliśmy*).",
+   "sources": [
+    {
+     "title": "elon.io — «Contrast and Condition: ale, jednak, chociaż…»",
+     "url": "https://elon.io/grammar/polish/conjunctions/contrast-condition",
+     "loc": "раздел о chociaż / mimo że; ошибка «Chociaż padało, ale…»"
+    },
+    {
+     "title": "Langenscheidt Polish–German — «mimo»",
+     "url": "https://en.langenscheidt.com/polish-german/mimo",
+     "loc": "mimo że — spójnik, «obwohl»"
+    },
+    {
+     "title": "elon.io — пример «Mimo że pada deszcz, idę na spacer»",
+     "url": "https://elon.io/learn-hardcore-polish/lexicon/500813/mimo-że-pada-deszcz-idę-na-spacer.",
+     "loc": "пример"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Запятая ставится перед всем союзом mimo że / pomimo że, а не внутри: …, mimo że… (не *mimo, że*).",
+   "sources": [
+    {
+     "title": "NCK / Ojczysty — dodaj do ulubionych: «Mimo że, pomimo że»",
+     "url": "https://nck.pl/projekty-kulturalne/projekty/ojczysty-dodaj-do-ulubionych/ciekawostki-jezykowe/mimo-ze-pomimo-ze-.ajax",
+     "loc": "правило о przecinku przed całym wyrażeniem"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R8",
+   "rule": "mimo / pomimo + dopełniacz — «несмотря на»: mimo deszczu, pomimo problemów. Устойчиво: mimo wszystko.",
+   "sources": [
+    {
+     "title": "Langenscheidt Polish–German — «mimo»",
+     "url": "https://en.langenscheidt.com/polish-german/mimo",
+     "loc": "mimo — przyimek + dopełniacz; mimo wszystko"
+    },
+    {
+     "title": "elon.io — пример «Idę na spacer mimo deszczu»",
+     "url": "https://elon.io/learn-hardcore-polish/lexicon/500867/idę-na-spacer-mimo-deszczu.",
+     "loc": "пример"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "mimo to, jednak — «тем не менее, однако»: Był chory. Mimo to poszedł do pracy. jednak может стоять в начале или внутри предложения.",
+   "sources": [
+    {
+     "title": "Langenscheidt Polish–German — «mimo»",
+     "url": "https://en.langenscheidt.com/polish-german/mimo",
+     "loc": "mimo to — «trotzdem»"
+    },
+    {
+     "title": "elon.io — «Contrast and Condition: ale, jednak, chociaż…»",
+     "url": "https://elon.io/grammar/polish/conjunctions/contrast-condition",
+     "loc": "jednak — «can open the clause or sit inside it»"
+    },
+    {
+     "title": "Vaia — «Polish Sentence Connectors»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-syntax/polish-sentence-connectors",
+     "loc": "jednak «often starts a sentence»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Противопоставление: ale (нейтр.), lecz (книжн.) — с запятой перед ними: Chciałem przyjść, ale nie miałem czasu.",
+   "sources": [
+    {
+     "title": "elon.io — «Contrast and Condition: ale, jednak, chociaż…»",
+     "url": "https://elon.io/grammar/polish/conjunctions/contrast-condition",
+     "loc": "ale, lecz; ошибка без запятой"
+    },
+    {
+     "title": "Vaia — «Polish Sentence Connectors»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-syntax/polish-sentence-connectors",
+     "loc": "ale «between clauses»"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1077 @@
+{
+ "id": "tryb-przypuszczajacy",
+ "order": 6,
+ "title": "Tryb przypuszczający",
+ "titleRu": "Условное наклонение («бы»)",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "czas-przeszly",
+  "aspekt"
+ ],
+ "next": "czasowniki-ruchu",
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Что это и зачем",
+   "facts": [
+    "R1",
+    "R8"
+   ],
+   "body": "Условное наклонение — польское «бы». Нужно для **вежливых просьб** (*Chciałabym kawę*), **воображаемых ситуаций** (*Gdybym miał czas…*) и **желаний** (*Chcę, żebyś przyszedł*).",
+   "examples": [
+    [
+     "Chciałbym zapytać o cenę.",
+     "Я хотел бы спросить о цене."
+    ],
+    [
+     "Gdybym miała samochód, pojechałabym nad morze.",
+     "Если бы у меня была машина, я бы поехала на море."
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Формула",
+   "facts": [
+    "R2",
+    "R4"
+   ],
+   "body": "**форма на -ł 3 лица + by + окончание**: robił + by + m = **robiłbym**. Окончания те же, что в прошедшем: **-m, -ś, —, -śmy, -ście**, но стоят **после by**.",
+   "warn": "Ошибка: *robiłemby*, *robiliśmyby*. Берите только форму 3 лица: robił / robiła / robili / robiły."
+  },
+  {
+   "id": "t3",
+   "title": "Таблица: czytać",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "table": {
+    "head": [
+     "лицо",
+     "♂ / мужско-личн.",
+     "♀ / немужско-личн."
+    ],
+    "rows": [
+     [
+      "ja",
+      "czytałbym",
+      "czytałabym"
+     ],
+     [
+      "ty",
+      "czytałbyś",
+      "czytałabyś"
+     ],
+     [
+      "on / ona / ono",
+      "czytałby",
+      "czytałaby / czytałoby"
+     ],
+     [
+      "my",
+      "czytalibyśmy",
+      "czytałybyśmy"
+     ],
+     [
+      "wy",
+      "czytalibyście",
+      "czytałybyście"
+     ],
+     [
+      "oni / one",
+      "czytaliby",
+      "czytałyby"
+     ]
+    ]
+   },
+   "body": "Чередования — как в прошедшем: *mógł → mógłbym, mogłabym*; *poszedł → poszedłbym, poszłabym*; *mieli → mielibyśmy*."
+  },
+  {
+   "id": "t4",
+   "title": "by «путешествует»",
+   "facts": [
+    "R5"
+   ],
+   "body": "**by** с окончанием может уйти от глагола на выделенное слово: *Zrobiłbym to chętnie* = *Chętnie **bym** to zrobił*; *Ja **bym** poszedł*. Но с **by** предложение не начинают."
+  },
+  {
+   "id": "t5",
+   "title": "Слитно или раздельно",
+   "facts": [
+    "R6",
+    "R7"
+   ],
+   "table": {
+    "head": [
+     "пишем",
+     "когда",
+     "пример"
+    ],
+    "rows": [
+     [
+      "слитно",
+      "при личной форме глагола",
+      "zrobiłbym, mieliby"
+     ],
+     [
+      "слитно",
+      "в союзах и частице",
+      "gdyby, żeby, aby, oby"
+     ],
+     [
+      "раздельно",
+      "by ушло на другое слово",
+      "chętnie bym, czy byś, ja bym"
+     ],
+     [
+      "раздельно",
+      "после безличных слов и инфинитива",
+      "trzeba by, można by, warto by"
+     ]
+    ]
+   },
+   "sourceNote": "Строка «trzeba by, można by» — по одному источнику (ZPE)."
+  },
+  {
+   "id": "t6",
+   "title": "Вежливые просьбы",
+   "facts": [
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "прямо",
+     "вежливо",
+     "официально"
+    ],
+    "rows": [
+     [
+      "Chcę kawę.",
+      "Chciałbym / Chciałabym kawę.",
+      "Chciałbym zapytać…"
+     ],
+     [
+      "Możesz mi pomóc?",
+      "Mógłbyś / Mogłabyś mi pomóc?",
+      "Czy mógłby pan / mogłaby pani mi pomóc?"
+     ],
+     [
+      "Mogę prosić o rachunek?",
+      "Mógłbym / Mogłabym prosić o rachunek?",
+      "Czy nie mógłby pan…? (ещё мягче)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t7",
+   "title": "Если бы: gdyby",
+   "facts": [
+    "R9",
+    "R10",
+    "R16"
+   ],
+   "body": "**gdyby + окончание** (gdybym, gdybyś, gdyby, gdybyśmy, gdybyście) + **форма на -ł**, а в главной части — условное наклонение.",
+   "examples": [
+    [
+     "Gdybym miał czas, poszedłbym na spacer.",
+     "Если бы у меня было время, я бы пошёл гулять."
+    ],
+    [
+     "Gdybyśmy mieszkali w Polsce, mówilibyśmy po polsku.",
+     "Если бы мы жили в Польше, мы бы говорили по-польски."
+    ]
+   ],
+   "warn": "Одно by на часть: не *gdybym miałbym*, а *gdybym miał*. Не *gdyby będę miał*.",
+   "note": "В главной части можно добавить необязательное *to*: Gdybym miał psa, to bym musiał wcześnie wstawać (по одному источнику)."
+  },
+  {
+   "id": "t8",
+   "title": "Реально или нереально: jeśli ↔ gdyby",
+   "facts": [
+    "R11",
+    "R12"
+   ],
+   "table": {
+    "head": [
+     "условие",
+     "формула",
+     "пример"
+    ],
+    "rows": [
+     [
+      "реальное",
+      "jeśli/jeżeli + будущее → будущее",
+      "Jeśli będziesz w Warszawie, wpadniesz do mnie?"
+     ],
+     [
+      "нереальное",
+      "gdyby + -ł → условное",
+      "Gdybyś był w Warszawie, wpadłbyś do mnie?"
+     ]
+    ]
+   },
+   "body": "Чтобы «превратить» реальное условие в нереальное: *jeśli → gdyby*, будущее → условное наклонение; и обратно.",
+   "note": "*Jeśli bym miał…* бывает в разговорной речи, но в упражнениях принимаем только *gdyby*."
+  },
+  {
+   "id": "t9",
+   "title": "Прошлое: «если бы тогда…»",
+   "facts": [
+    "R13"
+   ],
+   "body": "Форма та же, прошлое показывают слова *wtedy, wczoraj, w zeszłym roku*: *Gdybym wtedy wiedział, nie przyszedłbym.*",
+   "sourceNote": "По одному источнику (elon.io)."
+  },
+  {
+   "id": "t10",
+   "title": "Хочу, чтобы ты…: żeby",
+   "facts": [
+    "R14"
+   ],
+   "body": "Когда хотим или просим, чтобы действие сделал **другой**: **żeby + окончание + форма на -ł**: *Chcę, żebyś przyszedł. Proszę, żebyście nie palili. Mama chce, żebym zadzwoniła.*",
+   "note": "Если субъект тот же — инфинитив: *Chcę przyjść.* Подробно о żeby — в теме о придаточных цели."
+  },
+  {
+   "id": "t11",
+   "title": "Вид и совет",
+   "facts": [
+    "R15",
+    "R17"
+   ],
+   "body": "Условное наклонение есть у обоих видов: *zrobiłbym* (результат) / *robiłbym* (процесс, повтор). Совет: *Na twoim miejscu nie martwiłbym się tym.*",
+   "sourceNote": "Конструкция «Na twoim miejscu» — по одному источнику."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "typed",
+   "title": "Образуйте форму",
+   "instr": "Напишите форму условного наклонения.",
+   "items": [
+    {
+     "q": "(ja ♂, robić) → ?",
+     "a": [
+      "robiłbym"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ja ♀, robić) → ?",
+     "a": [
+      "robiłabym"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(ty ♂, mieć) → ?",
+     "a": [
+      "miałbyś"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ty ♀, mieć) → ?",
+     "a": [
+      "miałabyś"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(on, być) → ?",
+     "a": [
+      "byłby"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ona, być) → ?",
+     "a": [
+      "byłaby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(ono, móc) → ?",
+     "a": [
+      "mogłoby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(my ♂, pojechać) → ?",
+     "a": [
+      "pojechalibyśmy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(my ♀, pojechać) → ?",
+     "a": [
+      "pojechałybyśmy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(wy ♂, chcieć) → ?",
+     "a": [
+      "chcielibyście"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(wy ♀, chcieć) → ?",
+     "a": [
+      "chciałybyście"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(oni, kupić) → ?",
+     "a": [
+      "kupiliby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(one, kupić) → ?",
+     "a": [
+      "kupiłyby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(ja ♂, móc) → ?",
+     "a": [
+      "mógłbym"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ja ♀, móc) → ?",
+     "a": [
+      "mogłabym"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(ty ♂, pójść) → ?",
+     "a": [
+      "poszedłbyś"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ty ♀, pójść) → ?",
+     "a": [
+      "poszłabyś"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(on, zjeść) → ?",
+     "a": [
+      "zjadłby"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "(ona, wziąć) → ?",
+     "a": [
+      "wzięłaby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(oni, przyjść) → ?",
+     "a": [
+      "przyszliby"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(my ♂, pomóc) → ?",
+     "a": [
+      "pomoglibyśmy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(ja ♀, iść) → ?",
+     "a": [
+      "szłabym"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(wy ♂, wiedzieć) → ?",
+     "a": [
+      "wiedzielibyście"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "(oni, mieć) → ?",
+     "a": [
+      "mieliby"
+     ],
+     "fact": "R3"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "gaps",
+   "title": "Вежливые просьбы",
+   "instr": "Сделайте просьбу вежливой.",
+   "items": [
+    {
+     "q": "Chcę kawę z mlekiem. → {1} kawę z mlekiem. (ja ♀)",
+     "a": [
+      "Chciałabym",
+      "chciałabym"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Chcę zapytać o drogę. → {1} zapytać o drogę. (ja ♂)",
+     "a": [
+      "Chciałbym",
+      "chciałbym"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Możesz otworzyć okno? → {1} otworzyć okno? (do kolegi)",
+     "a": [
+      "Mógłbyś",
+      "mógłbyś"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Możesz mi pomóc? → {1} mi pomóc? (do koleżanki)",
+     "a": [
+      "Mogłabyś",
+      "mogłabyś"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Może pan powtórzyć? → Czy {1} pan powtórzyć?",
+     "a": [
+      "mógłby"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Może pani mówić wolniej? → Czy {1} pani mówić wolniej?",
+     "a": [
+      "mogłaby"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Mogę prosić o rachunek? → {1} prosić o rachunek? (ja ♂)",
+     "a": [
+      "Mógłbym",
+      "mógłbym"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Możecie przyjść o piątej? → {1} przyjść o piątej? (do grupy kolegów)",
+     "a": [
+      "Moglibyście",
+      "moglibyście"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Chcemy zarezerwować stolik. → {1} zarezerwować stolik. (my, mieszana grupa)",
+     "a": [
+      "Chcielibyśmy",
+      "chcielibyśmy"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Mogą państwo poczekać? → Czy {1} państwo poczekać?",
+     "a": [
+      "mogliby"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Chcesz pójść do kina? → {1} pójść do kina? (do koleżanki)",
+     "a": [
+      "Chciałabyś",
+      "chciałabyś"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Pomóż mi! → Czy nie {1} pan mi pomóc? (bardzo grzecznie)",
+     "a": [
+      "mógłby"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Gdyby: воображаемая ситуация",
+   "instr": "Перепишите реальную ситуацию как воображаемую.",
+   "items": [
+    {
+     "q": "Nie mam czasu, więc nie chodzę na basen. → Gdybym {1} czas, {2} na basen. (ja ♂)",
+     "a": {
+      "1": [
+       "miał"
+      ],
+      "2": [
+       "chodziłbym"
+      ]
+     },
+     "fact": "R9, R15"
+    },
+    {
+     "q": "Nie mam samochodu, więc nie pojadę nad morze. → Gdybym {1} samochód, {2} nad morze. (ja ♀)",
+     "a": {
+      "1": [
+       "miała"
+      ],
+      "2": [
+       "pojechałabym"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Nie znam jego numeru, więc nie zadzwonię. → Gdybym {1} jego numer, {2} do niego. (ja ♂)",
+     "a": {
+      "1": [
+       "znał"
+      ],
+      "2": [
+       "zadzwoniłbym"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Pada deszcz, więc nie idziemy na spacer. → Gdyby nie {1} deszcz, {2} na spacer. (my ♂)",
+     "a": {
+      "1": [
+       "padał"
+      ],
+      "2": [
+       "poszlibyśmy"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Jesteś zmęczona, więc nie pomożesz. → Gdybyś nie {1} zmęczona, {2} mi. (ty ♀)",
+     "a": {
+      "1": [
+       "była"
+      ],
+      "2": [
+       "pomogłabyś"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Oni nie mówią po polsku, więc nie rozumieją. → Gdyby {1} po polsku, {2} wszystko.",
+     "a": {
+      "1": [
+       "mówili"
+      ],
+      "2": [
+       "rozumieliby"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Nie mieszkamy w Krakowie, więc rzadko widzimy Wawel. → Gdybyśmy {1} w Krakowie, często {2} Wawel. (my ♀)",
+     "a": {
+      "1": [
+       "mieszkały"
+      ],
+      "2": [
+       "widziałybyśmy"
+      ]
+     },
+     "fact": "R9, R15"
+    },
+    {
+     "q": "Wtedy nie wiedziałem, że jest chory, więc przyszedłem. → Gdybym wtedy {1}, nie {2}.",
+     "a": {
+      "1": [
+       "wiedział"
+      ],
+      "2": [
+       "przyszedłbym"
+      ]
+     },
+     "fact": "R13"
+    },
+    {
+     "q": "Nie mamy pieniędzy, więc nie kupimy domu. → Gdybyśmy {1} pieniądze, {2} dom. (my ♂)",
+     "a": {
+      "1": [
+       "mieli"
+      ],
+      "2": [
+       "kupilibyśmy"
+      ]
+     },
+     "fact": "R9"
+    },
+    {
+     "q": "Radzę ci: nie martw się tym. → Na twoim miejscu nie {1} się tym. (ja ♀)",
+     "a": [
+      "martwiłabym"
+     ],
+     "fact": "R17"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "Jeśli ↔ gdyby",
+   "instr": "Превратите реальное условие в нереальное и наоборот.",
+   "items": [
+    {
+     "q": "Jeśli będziesz w Warszawie, wpadniesz do mnie? → {1} był w Warszawie, wpadłbyś do mnie?",
+     "a": [
+      "Gdybyś",
+      "gdybyś"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Jeśli zdasz egzamin, pójdziemy to uczcić. → Gdybyś zdał egzamin, {1} to uczcić. (my ♂)",
+     "a": [
+      "poszlibyśmy"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Gdybym miał czas, pomógłbym ci. → Jeśli {1} czas, pomogę ci. (ja)",
+     "a": [
+      "będę miał",
+      "będę mieć",
+      "będę miała"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Gdyby padało, zostalibyśmy w domu. → Jeśli będzie padać, {1} w domu. (my)",
+     "a": [
+      "zostaniemy"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Jeśli przyjdziesz, ugotuję obiad. → Gdybyś przyszedł, {1} obiad. (ja ♀)",
+     "a": [
+      "ugotowałabym"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Gdybyś poznał Ewę, polubiłbyś ją. → Jeśli {1} Ewę, polubisz ją.",
+     "a": [
+      "poznasz"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Jeśli kupimy bilety, pojedziemy na koncert. → Gdybyśmy {1} bilety, pojechalibyśmy na koncert. (my ♂)",
+     "a": [
+      "kupili"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Gdyby autobus nie przyjechał, wzięłabym taksówkę. → Jeśli autobus nie przyjedzie, {1} taksówkę. (ja)",
+     "a": [
+      "wezmę"
+     ],
+     "fact": "R11"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "gaps",
+   "title": "Żeby: хочу, чтобы…",
+   "instr": "Напишите żeby с окончанием или форму на -ł.",
+   "items": [
+    {
+     "q": "Chcę, {1} przyszedł na moje urodziny. (ty)",
+     "a": [
+      "żebyś"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Mama prosi, żebyśmy {1} wcześnie. (wrócić; my ♂)",
+     "a": [
+      "wrócili"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Szef chce, żebym {1} raport do piątku. (napisać; ja ♀)",
+     "a": [
+      "napisała"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Proszę, {1} nie palili w pokoju. (wy)",
+     "a": [
+      "żebyście"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Nauczycielka chce, żeby studenci {1} więcej. (czytać)",
+     "a": [
+      "czytali"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Chcemy, {1} Kasia zaśpiewała. (ona)",
+     "a": [
+      "żeby"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Lekarz radzi, żebyś {1} więcej wody. (pić; ty ♂)",
+     "a": [
+      "pił"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Wolałabym, żebyście {1} mnie wcześniej. (uprzedzić; wy ♂)",
+     "a": [
+      "uprzedzili"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Chcę, żeby dzieci {1} na dworze. (bawić się; mieszana grupa)",
+     "a": [
+      "bawiły się"
+     ],
+     "fact": "R14",
+     "hint": "dzieci — немужско-личное мн. ч."
+    },
+    {
+     "q": "Chcę {1} do Polski. (pojechać — ten sam podmiot!)",
+     "a": [
+      "pojechać"
+     ],
+     "fact": "R14",
+     "hint": "Субъект тот же — инфинитив, без żeby."
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "typed",
+   "title": "Слитно или раздельно?",
+   "instr": "Перепишите выделенный фрагмент правильно (знак _ — место, где решается слитно/раздельно). Пишите строчными буквами.",
+   "items": [
+    {
+     "q": "Gdy_bym miał czas…",
+     "a": [
+      "gdybym"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Kupił_bym to.",
+     "a": [
+      "kupiłbym"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Chętnie_bym to zrobił.",
+     "a": [
+      "chętnie bym"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Trzeba_by to naprawić.",
+     "a": [
+      "trzeba by"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Czy_byś mógł mi pomóc?",
+     "a": [
+      "czy byś"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Chcę, że_byś przyszedł.",
+     "a": [
+      "żebyś"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "O_by tak było!",
+     "a": [
+      "oby"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Można_by spróbować.",
+     "a": [
+      "można by"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Ja_bym poszła.",
+     "a": [
+      "ja bym"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Mieli_by więcej czasu.",
+     "a": [
+      "mieliby"
+     ],
+     "fact": "R6"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "kind": "typed",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленное слово/слова.",
+   "items": [
+    {
+     "q": "Gdybym miałbym czas, poszedłbym z tobą.",
+     "a": [
+      "miał"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Jeśli miałbym pieniądze, kupiłbym dom. (нереально)",
+     "a": [
+      "Gdybym",
+      "gdybym"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Gdyby będę miał czas, zadzwonię.",
+     "a": [
+      "Jeśli będę miał",
+      "jeśli będę miał",
+      "Jeżeli będę miał",
+      "jeżeli będę miał",
+      "Jeśli będę mieć",
+      "jeśli będę mieć",
+      "Jeżeli będę mieć",
+      "jeżeli będę mieć",
+      "Jeśli będę miała",
+      "jeśli będę miała"
+     ],
+     "fact": "R10, R11",
+     "hint": "Реальное условие — jeśli + будущее."
+    },
+    {
+     "q": "Chciałemby zapytać o cenę.",
+     "a": [
+      "chciałbym",
+      "Chciałbym"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Gdyby on miałby samochód, pojechałby nad morze.",
+     "a": [
+      "miał"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mogłybyście mi pomóc? (do dwóch kolegów)",
+     "a": [
+      "moglibyście"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Chcę, żebyś przyjdziesz jutro.",
+     "a": [
+      "przyszedł",
+      "przyszła"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Bym chętnie to zrobił. (by в начале)",
+     "a": [
+      "Chętnie bym",
+      "chętnie bym"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "Pojechaliśmyby nad morze.",
+     "a": [
+      "pojechalibyśmy",
+      "Pojechalibyśmy"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Czybyś mógł zamknąć okno?",
+     "a": [
+      "czy byś",
+      "Czy byś"
+     ],
+     "fact": "R6"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Forum: „Co byś zrobił, gdybyś wygrał milion?”",
+   "instr": "Proszę wpisać odpowiednią formę czasownika w nawiasie (tryb przypuszczający, czas przyszły lub forma po gdyby/żeby). Autor — mężczyzna.",
+   "text": "Często myślę, co {1} (zrobić), gdybym {2} (wygrać) milion złotych. Najpierw {3} (kupić) mieszkanie dla rodziców. Gdybyśmy z żoną {4} (mieć) więcej czasu, {5} (pojechać) w podróż dookoła świata. Moja żona {6} (chcieć) zobaczyć Japonię, a ja {7} (woleć) Amerykę Południową. Część pieniędzy {8} (dać) na schronisko dla zwierząt. Ale nie {9} (rzucić) pracy, bo ją lubię. Moi koledzy mówią, że oni {10} (kupić) od razu sportowy samochód. Jeśli w tym tygodniu {11} (kupić) los, może w sobotę {12} (wygrać)! Żona prosi, żebym nie {13} (wydawać) pieniędzy na loterię, ale marzyć można. A wy? Co {14} (zrobić), gdybyście wygrali?",
+   "a": {
+    "1": [
+     "zrobiłbym",
+     "bym zrobił"
+    ],
+    "2": [
+     "wygrał"
+    ],
+    "3": [
+     "kupiłbym"
+    ],
+    "4": [
+     "mieli"
+    ],
+    "5": [
+     "pojechalibyśmy"
+    ],
+    "6": [
+     "chciałaby"
+    ],
+    "7": [
+     "wolałbym"
+    ],
+    "8": [
+     "dałbym"
+    ],
+    "9": [
+     "rzuciłbym"
+    ],
+    "10": [
+     "kupiliby"
+    ],
+    "11": [
+     "kupię"
+    ],
+    "12": [
+     "wygram"
+    ],
+    "13": [
+     "wydawał"
+    ],
+    "14": [
+     "zrobilibyście",
+     "byście zrobili"
+    ]
+   },
+   "facts": {
+    "1": "R9",
+    "2": "R9",
+    "3": "R2",
+    "4": "R9",
+    "5": "R3",
+    "6": "R3",
+    "7": "R2",
+    "8": "R2",
+    "9": "R2",
+    "10": "R3",
+    "11": "R11",
+    "12": "R11",
+    "13": "R14",
+    "14": "R3"
+   }
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "opowiadanie",
+   "title": "Wpis na forum: „Gdybym mógł/mogła zmienić jedną rzecz w moim mieście…”",
+   "prompt": "Napisz wpis na forum (80–100 słów). Co zmieniłbyś/zmieniłabyś w swoim mieście i dlaczego? Jak wyglądałoby wtedy życie mieszkańców?",
+   "checklist": [
+    "минимум 2 предложения с gdyby",
+    "минимум 5 форм условного наклонения в правильном роде",
+    "одно реальное условие с jeśli + будущее",
+    "одно предложение с żeby (chciałbym, żeby…)",
+    "вывод в конце"
+   ],
+   "facts": [
+    "R2",
+    "R9",
+    "R11",
+    "R14"
+   ],
+   "model": "Gdybym mogła zmienić jedną rzecz w moim mieście, zbudowałabym więcej ścieżek rowerowych. Teraz wszyscy jeżdżą samochodami i w centrum są korki. Gdyby było więcej ścieżek, ludzie jeździliby do pracy na rowerze, a powietrze byłoby czystsze. Dzieci mogłyby bezpiecznie dojeżdżać do szkoły. Chciałabym też, żeby miasto posadziło więcej drzew. Jeśli władze miasta przeczytają ten wpis, może coś się zmieni! A wy? Co zmienilibyście w swoim mieście?"
+  },
+  {
+   "id": "w2",
+   "genre": "list",
+   "title": "E-mail oficjalny: prośba o informację",
+   "prompt": "Napisz oficjalny e-mail (60–80 słów) do szkoły językowej. Chcesz zapisać się na kurs: zapytaj o terminy, cenę i możliwość płatności w ratach.",
+   "checklist": [
+    "Szanowni Państwo, … / Z poważaniem",
+    "Chciałbym/Chciałabym …",
+    "минимум 2 вежливых вопроса: Czy mogliby Państwo…? Czy byłaby możliwość…?",
+    "Byłbym wdzięczny / Byłabym wdzięczna za…"
+   ],
+   "facts": [
+    "R8",
+    "R3"
+   ],
+   "model": "Szanowni Państwo,\nchciałabym zapisać się na kurs języka polskiego na poziomie B1. Czy mogliby Państwo przesłać mi informacje o terminach zajęć w semestrze zimowym? Chciałabym też zapytać o cenę kursu. Czy byłaby możliwość zapłacenia w dwóch ratach? Byłabym wdzięczna za szybką odpowiedź.\nZ poważaniem\nAnna Kowalenko"
+  }
+ ]
+}

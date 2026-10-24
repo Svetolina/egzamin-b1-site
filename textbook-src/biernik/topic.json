@@ -1,0 +1,1292 @@
+{
+ "topic": "biernik",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Biernik",
+ "title_ru": "Винительный падеж",
+ "lead": "Kogo? Co? Вижу, люблю, покупаю. Главное — род и «живое или нет».",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-4, k1-8 — формы слов), blok 2 (k2-1 — местоимения: czeka na nią, odprowadza ją), blok 11 (k11-6)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. d, s. 78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "B1",
+    "B9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Винительный отвечает на вопрос [[kogo? co?]] и нужен после большинства глаголов: [[mam, lubię, znam, kupuję, jem, piję, widzę, czytam]]. Почти как русский: «вижу маму, люблю кофе»."
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "жен. на -a, -i",
+       "-ę",
+       "[[mama → mamę]]"
+      ],
+      [
+       "жен. на согласную",
+       "без изменений",
+       "[[noc → noc]]"
+      ],
+      [
+       "муж. одушевлённый",
+       "-a",
+       "[[brat → brata]]"
+      ],
+      [
+       "муж. на -a",
+       "-ę",
+       "[[tata → tatę]]"
+      ],
+      [
+       "муж. неодушевлённый",
+       "без изменений",
+       "[[dom → dom]]"
+      ],
+      [
+       "средний",
+       "без изменений",
+       "[[okno → okno]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Средний род никогда не меняется: [[Otwieram okno. Jem śniadanie. Widzę dziecko.]]"
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Женский род",
+   "facts": [
+    "B2",
+    "B3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Слова на [[-a]] и [[-i]] получают [[-ę]], как русское «маму». Слова на согласную не меняются."
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "винительный"
+     ],
+     "rows": [
+      [
+       "kawa",
+       "kawę"
+      ],
+      [
+       "siostra",
+       "siostrę"
+      ],
+      [
+       "gospodyni",
+       "gospodynię"
+      ],
+      [
+       "noc",
+       "noc"
+      ],
+      [
+       "jesień",
+       "jesień"
+      ],
+      [
+       "rzecz",
+       "rzecz"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Исключение: [[pani → panią]]. Так же слова, похожие на прилагательные: [[znajoma → znajomą]], [[krawcowa → krawcową]]."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Мужской род: живой или нет",
+   "facts": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Главный вопрос — живое это или нет. Люди и животные получают [[-a]], предметы не меняются. Как в русском: «вижу брата», но «вижу дом»."
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "именительный",
+      "винительный"
+     ],
+     "rows": [
+      [
+       "человек",
+       "brat",
+       "brata"
+      ],
+      [
+       "животное",
+       "pies",
+       "psa"
+      ],
+      [
+       "предмет",
+       "stół",
+       "stół"
+      ],
+      [
+       "предмет",
+       "telefon",
+       "telefon"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Мужские слова на [[-a]] ведут себя как женские: [[tata → tatę]], [[kolega → kolegę]], [[kierowca → kierowcę]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "mam brat",
+       "good": "mam brata"
+      },
+      {
+       "bad": "mam nowego telefona",
+       "good": "mam nowy telefon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Неживые, но с -a",
+   "facts": [
+    "B7",
+    "B8"
+   ],
+   "marked": true,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Несколько групп неживых слов мужского рода всё равно получают [[-a]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "группа",
+      "пример"
+     ],
+     "rows": [
+      [
+       "марки",
+       "[[Kupiłem fiata.]]"
+      ],
+      [
+       "валюты",
+       "[[Wymieniłam dolara.]]"
+      ],
+      [
+       "танцы",
+       "[[Tańczymy walca.]]"
+      ],
+      [
+       "игры",
+       "[[Gram w tenisa.]]"
+      ],
+      [
+       "выражения",
+       "[[mieć pecha, strzelić gola]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Еда и новые слова: в разговоре чаще [[-a]] ([[jem banana, wysłałam maila]]), в строгой норме — без изменений ([[jem banan, wysłałam mail]]). В упражнениях засчитываем обе формы."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Прилагательные",
+   "facts": [
+    "B10"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "муж. одушевлённый",
+       "-ego / -iego",
+       "[[Znam dobrego lekarza.]]"
+      ],
+      [
+       "муж. неодушевлённый",
+       "без изменений",
+       "[[Mam dobry plan.]]"
+      ],
+      [
+       "женский",
+       "-ą",
+       "[[Piję zimną wodę.]]"
+      ],
+      [
+       "средний",
+       "-e",
+       "[[Lubię polskie kino.]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Прилагательное следует за существительным: если у слова [[-a]], то и у прилагательного [[-ego]]: [[kupiłem starego fiata]]."
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Ten, ta, to",
+   "facts": [
+    "B11"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "",
+      "именительный",
+      "винительный"
+     ],
+     "rows": [
+      [
+       "муж. одуш.",
+       "ten pan",
+       "tego pana"
+      ],
+      [
+       "муж. неодуш.",
+       "ten stół",
+       "ten stół"
+      ],
+      [
+       "жен.",
+       "ta książka",
+       "tę książkę"
+      ],
+      [
+       "ср.",
+       "to okno",
+       "to okno"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Пишем [[tę]]: [[Znam tę panią.]] В разговоре слышно и [[tą]], но в письме и на экзамене — [[tę]]."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Местоимения",
+   "facts": [
+    "B12"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кто",
+      "форма",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "ja",
+       "mnie",
+       "na mnie"
+      ],
+      [
+       "ty",
+       "cię",
+       "na ciebie"
+      ],
+      [
+       "on",
+       "go",
+       "na niego"
+      ],
+      [
+       "ona",
+       "ją",
+       "na nią"
+      ],
+      [
+       "my",
+       "nas",
+       "na nas"
+      ],
+      [
+       "wy",
+       "was",
+       "na was"
+      ],
+      [
+       "oni",
+       "ich",
+       "na nich"
+      ],
+      [
+       "one",
+       "je",
+       "na nie"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Короткие [[cię, go]] — внутри фразы: [[Kocham cię. Znam go.]] В начале фразы и для выделения — длинные: [[Ciebie kocham, nie jego.]]"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "[[Ono]] в винительном — [[je]], после предлога — [[nie]]: [[To dziecko? Widzę je. Czekam na nie.]]"
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Предлоги с винительным",
+   "facts": [
+    "B13"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "предлог",
+      "пример"
+     ],
+     "rows": [
+      [
+       "na",
+       "[[czekam na autobus, idę na koncert]]"
+      ],
+      [
+       "o",
+       "[[proszę o rachunek, pytam o drogę]]"
+      ],
+      [
+       "w",
+       "[[w sobotę, gram w szachy]]"
+      ],
+      [
+       "za",
+       "[[wrócę za godzinę]]"
+      ],
+      [
+       "po",
+       "[[idę po chleb]]"
+      ],
+      [
+       "przez",
+       "[[przez ulicę, przez telefon]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "p",
+     "text": "[[Nad, pod, przed, za, między]] берут винительный, когда отвечают на «куда?»: [[jadę nad morze]], [[kot wszedł pod stół]]. На «где?» — творительный: [[jestem nad morzem]]."
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Отрицание: nie mam czego?",
+   "facts": [
+    "B14"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "С [[nie]] дополнение переходит в родительный — как в русском «нет времени», только в польском это строго: [[Mam czas → Nie mam czasu]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Nie lubię kawę",
+       "good": "Nie lubię kawy"
+      },
+      {
+       "bad": "Nie mam samochód",
+       "good": "Nie mam samochodu"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Подробно — в теме «Родительный падеж»."
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Множественное — коротко",
+   "facts": [
+    "B15"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Если среди них нет мужчин — как именительный мн.: [[Mam koty. Kupuję książki.]] Если это мужчины — как родительный мн.: [[Znam tych studentów.]] Подробно — в блоке 4."
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В задании «поставьте слова в нужную форму» винительный встречается чаще всех: после глаголов и после [[na, o, w, za]]. И почти в каждом письме: [[mam, kupiłam, proszę o…]]"
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Найдите глагол или предлог: требует ли он винительный?",
+      "Если перед глаголом [[nie]] — родительный, не винительный.",
+      "Мужской род: живое → [[-a]], неживое → без изменений.",
+      "Женский: [[-ę]], прилагательное [[-ą]], [[ta → tę]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Lubię ___ z mlekiem.",
+     "opts": [
+      "kawa",
+      "kawę",
+      "kawą"
+     ],
+     "a": [
+      "kawę"
+     ],
+     "expl": "Жен. на -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "Mam młodszego ___.",
+     "opts": [
+      "brat",
+      "brata",
+      "bratu"
+     ],
+     "a": [
+      "brata"
+     ],
+     "expl": "Человек, муж. род → -a.",
+     "t": "t3"
+    },
+    {
+     "q": "Kupiłam nowy ___.",
+     "opts": [
+      "telefon",
+      "telefonu",
+      "telefona"
+     ],
+     "a": [
+      "telefon"
+     ],
+     "expl": "Предмет, муж. род — без изменений.",
+     "t": "t3"
+    },
+    {
+     "q": "Znasz ___ Kowalską?",
+     "opts": [
+      "pani",
+      "panię",
+      "panią"
+     ],
+     "a": [
+      "panią"
+     ],
+     "expl": "Исключение: pani → panią.",
+     "t": "t2"
+    },
+    {
+     "q": "Czekam na ___.",
+     "opts": [
+      "tata",
+      "tatę",
+      "taty"
+     ],
+     "a": [
+      "tatę"
+     ],
+     "expl": "Муж. на -a → -ę.",
+     "t": "t3"
+    },
+    {
+     "q": "Znam ___ dziewczynę.",
+     "opts": [
+      "ta",
+      "tę",
+      "tej"
+     ],
+     "a": [
+      "tę"
+     ],
+     "expl": "Ta → tę.",
+     "t": "t6"
+    },
+    {
+     "q": "Widzisz ___? To mój pies.",
+     "opts": [
+      "go",
+      "niego",
+      "nim"
+     ],
+     "a": [
+      "go"
+     ],
+     "expl": "Внутри фразы без предлога — короткое go.",
+     "t": "t7"
+    },
+    {
+     "q": "Lubię ___ w górach.",
+     "opts": [
+      "jesień",
+      "jesienię",
+      "jesieni"
+     ],
+     "a": [
+      "jesień"
+     ],
+     "expl": "Жен. на согласную — без изменений.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Mam **siostra** i brata.",
+     "a": [
+      "siostrę"
+     ],
+     "expl": "Жен. на -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "Znam tego **lekarz**.",
+     "a": [
+      "lekarza"
+     ],
+     "expl": "Человек → -a.",
+     "t": "t3"
+    },
+    {
+     "q": "Kupiłem **nowego** samochód.",
+     "a": [
+      "nowy"
+     ],
+     "expl": "Samochód — неживое: прилагательное без изменений.",
+     "t": "t5"
+    },
+    {
+     "q": "Czekam na **go** od rana.",
+     "a": [
+      "niego"
+     ],
+     "expl": "После предлога — niego.",
+     "t": "t7"
+    },
+    {
+     "q": "W niedzielę odwiedzam **babcia**.",
+     "a": [
+      "babcię"
+     ],
+     "expl": "Жен. на -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "Spotkałam **kolega** z pracy.",
+     "a": [
+      "kolegę"
+     ],
+     "expl": "Муж. на -a → -ę.",
+     "t": "t3"
+    },
+    {
+     "q": "Piję **zimny** herbatę.",
+     "a": [
+      "zimną"
+     ],
+     "expl": "Жен. род: прилагательное -ą.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Существительные",
+   "instr": "Поставьте слово в винительный падеж.",
+   "items": [
+    {
+     "q": "Codziennie piję ___. (herbata)",
+     "a": [
+      "herbatę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "Mam ___ i dwa koty. (pies)",
+     "a": [
+      "psa"
+     ],
+     "expl": "Животное → -a; e выпадает: pies → psa.",
+     "t": "t3"
+    },
+    {
+     "q": "Czytam ciekawą ___. (książka)",
+     "a": [
+      "książkę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "Znasz mojego ___? (sąsiad)",
+     "a": [
+      "sąsiada"
+     ],
+     "expl": "Человек → -a.",
+     "t": "t3"
+    },
+    {
+     "q": "Kupiłam nowy ___. (płaszcz)",
+     "a": [
+      "płaszcz"
+     ],
+     "expl": "Предмет — без изменений.",
+     "t": "t3"
+    },
+    {
+     "q": "Widzę ___ autobusu. (kierowca)",
+     "a": [
+      "kierowcę"
+     ],
+     "expl": "Муж. на -a → -ę.",
+     "t": "t3"
+    },
+    {
+     "q": "Najbardziej lubię ___. (jesień)",
+     "a": [
+      "jesień"
+     ],
+     "expl": "Жен. на согласную — без изменений.",
+     "t": "t2"
+    },
+    {
+     "q": "Otwórz ___, proszę. (okno)",
+     "a": [
+      "okno"
+     ],
+     "expl": "Средний род — без изменений.",
+     "t": "t1"
+    },
+    {
+     "q": "Zapytaj tę ___ o drogę. (pani)",
+     "a": [
+      "panią"
+     ],
+     "expl": "Исключение: panią.",
+     "t": "t2"
+    },
+    {
+     "q": "W sobotę mamy ___ z Krakowa. (gość)",
+     "a": [
+      "gościa"
+     ],
+     "expl": "Человек → -a.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте словосочетание в винительный падеж.",
+   "items": [
+    {
+     "q": "Mam ___. (starszy brat)",
+     "a": [
+      "starszego brata"
+     ],
+     "expl": "Одушевлённый: -ego + -a.",
+     "t": "t5"
+    },
+    {
+     "q": "Kupiłam ___. (czerwona sukienka)",
+     "a": [
+      "czerwoną sukienkę"
+     ],
+     "expl": "Жен.: -ą + -ę.",
+     "t": "t5"
+    },
+    {
+     "q": "Widzę ___. (duży dom)",
+     "a": [
+      "duży dom"
+     ],
+     "expl": "Неодушевлённый — без изменений.",
+     "t": "t5"
+    },
+    {
+     "q": "Zamawiam ___. (zimne piwo)",
+     "a": [
+      "zimne piwo"
+     ],
+     "expl": "Средний — без изменений.",
+     "t": "t5"
+    },
+    {
+     "q": "Wczoraj poznałam ___. (nowy kolega)",
+     "a": [
+      "nowego kolegę"
+     ],
+     "expl": "Kolega: -ego + -ę.",
+     "t": "t5"
+    },
+    {
+     "q": "Odwiedzam ___. (moja babcia)",
+     "a": [
+      "moją babcię"
+     ],
+     "expl": "Moja → moją, как прилагательное.",
+     "t": "t5"
+    },
+    {
+     "q": "Masz ___? (wolna chwila)",
+     "a": [
+      "wolną chwilę"
+     ],
+     "expl": "Жен.: -ą + -ę.",
+     "t": "t5"
+    },
+    {
+     "q": "Kupił ___. (stary fiat)",
+     "a": [
+      "starego fiata"
+     ],
+     "expl": "Марка → -a, и прилагательное -ego.",
+     "t": "t4"
+    },
+    {
+     "q": "Znam ___. (ta pani)",
+     "a": [
+      "tę panią"
+     ],
+     "expl": "Ta → tę, pani → panią.",
+     "t": "t6"
+    },
+    {
+     "q": "Oglądamy ___. (polski film)",
+     "a": [
+      "polski film"
+     ],
+     "expl": "Неодушевлённый — без изменений.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения",
+   "instr": "Впишите местоимение в винительном падеже.",
+   "items": [
+    {
+     "q": "To moja siostra. Kocham ___. (ona)",
+     "a": [
+      "ją"
+     ],
+     "expl": "Ona → ją.",
+     "t": "t7"
+    },
+    {
+     "q": "Gdzie jesteś? Czekam na ___! (ty)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — ciebie.",
+     "t": "t7"
+    },
+    {
+     "q": "To jest Piotr. Znasz ___? (on)",
+     "a": [
+      "go"
+     ],
+     "expl": "Внутри фразы — go.",
+     "t": "t7"
+    },
+    {
+     "q": "Ten film jest świetny. Widziałeś ___? (on)",
+     "a": [
+      "go"
+     ],
+     "expl": "Film — on: go.",
+     "t": "t7"
+    },
+    {
+     "q": "Przyjdę po ___ o ósmej. (ty)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — ciebie.",
+     "t": "t7"
+    },
+    {
+     "q": "Goście już są. Zapraszamy ___ do stołu. (oni)",
+     "a": [
+      "ich"
+     ],
+     "expl": "Oni → ich.",
+     "t": "t7"
+    },
+    {
+     "q": "Mamy nowe krzesła. Kupiliśmy ___ wczoraj. (one)",
+     "a": [
+      "je"
+     ],
+     "expl": "One → je.",
+     "t": "t7"
+    },
+    {
+     "q": "Ona patrzy na ___ i się uśmiecha. (on)",
+     "a": [
+      "niego"
+     ],
+     "expl": "После предлога — niego.",
+     "t": "t7"
+    },
+    {
+     "q": "Rodzice zawsze martwią się o ___. (my)",
+     "a": [
+      "nas"
+     ],
+     "expl": "My → nas.",
+     "t": "t7"
+    },
+    {
+     "q": "Nie widzę cię. A ty widzisz ___? (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Ja → mnie.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "W sobotę na rynku",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "W sobotę rano wzięłam {1} i poszłam na rynek. Najpierw kupiłam {2} i świeży chleb. Potem spotkałam {3} z pracy. Pani Ewa zna tu {4} i powiedziała mi, gdzie są najlepsze warzywa. Kupiłam więc {5} i {6}. Na końcu zobaczyłam {7}, który sprzedawał miód. Od razu kupiłam {8} dla mamy. W domu zrobiłam {9}, a wieczorem zaprosiłam {10} na kolację.",
+   "items": [
+    {
+     "q": "duża torba",
+     "a": [
+      "dużą torbę"
+     ],
+     "expl": "Жен.: -ą + -ę.",
+     "t": "t5"
+    },
+    {
+     "q": "masło",
+     "a": [
+      "masło"
+     ],
+     "expl": "Средний — без изменений.",
+     "t": "t1"
+    },
+    {
+     "q": "koleżanka",
+     "a": [
+      "koleżankę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "każdy sprzedawca",
+     "a": [
+      "każdego sprzedawcę"
+     ],
+     "expl": "Человек на -a: -ego + -ę.",
+     "t": "t5"
+    },
+    {
+     "q": "sałata",
+     "a": [
+      "sałatę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "ogórek",
+     "a": [
+      "ogórka",
+      "ogórek"
+     ],
+     "expl": "Еда: в разговоре ogórka, в строгой норме ogórek — засчитываем обе.",
+     "t": "t4"
+    },
+    {
+     "q": "starszy pan",
+     "a": [
+      "starszego pana"
+     ],
+     "expl": "Человек: -ego + -a.",
+     "t": "t5"
+    },
+    {
+     "q": "mały słoik",
+     "a": [
+      "mały słoik"
+     ],
+     "expl": "Предмет — без изменений.",
+     "t": "t5"
+    },
+    {
+     "q": "sałatka",
+     "a": [
+      "sałatkę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    },
+    {
+     "q": "przyjaciółka",
+     "a": [
+      "przyjaciółkę"
+     ],
+     "expl": "Жен. -a → -ę.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "choice",
+   "title": "Какой предлог?",
+   "items": [
+    {
+     "q": "Czekam ___ autobus.",
+     "opts": [
+      "na",
+      "o",
+      "w"
+     ],
+     "a": [
+      "na"
+     ],
+     "expl": "Czekać na + вин.",
+     "t": "t8"
+    },
+    {
+     "q": "Proszę ___ rachunek.",
+     "opts": [
+      "o",
+      "na",
+      "za"
+     ],
+     "a": [
+      "o"
+     ],
+     "expl": "Prosić o + вин.",
+     "t": "t8"
+    },
+    {
+     "q": "Wrócę ___ godzinę.",
+     "opts": [
+      "za",
+      "przez",
+      "na"
+     ],
+     "a": [
+      "za"
+     ],
+     "expl": "Za + время: через час.",
+     "t": "t8"
+    },
+    {
+     "q": "Idę do sklepu ___ chleb.",
+     "opts": [
+      "po",
+      "na",
+      "o"
+     ],
+     "a": [
+      "po"
+     ],
+     "expl": "Iść po coś — за чем-то.",
+     "t": "t8"
+    },
+    {
+     "q": "W wakacje jedziemy ___ morze.",
+     "opts": [
+      "nad",
+      "na",
+      "w"
+     ],
+     "a": [
+      "nad"
+     ],
+     "expl": "Куда? — nad morze.",
+     "t": "t8"
+    },
+    {
+     "q": "Zadzwonię do ciebie ___ sobotę.",
+     "opts": [
+      "w",
+      "na",
+      "o"
+     ],
+     "a": [
+      "w"
+     ],
+     "expl": "Дни недели: w sobotę.",
+     "t": "t8"
+    },
+    {
+     "q": "Martwię się ___ mamę.",
+     "opts": [
+      "o",
+      "na",
+      "za"
+     ],
+     "a": [
+      "o"
+     ],
+     "expl": "Martwić się o + вин.",
+     "t": "t8"
+    },
+    {
+     "q": "Przejdź ___ ulicę na zielonym świetle.",
+     "opts": [
+      "przez",
+      "po",
+      "na"
+     ],
+     "a": [
+      "przez"
+     ],
+     "expl": "Через улицу — przez ulicę.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование: с отрицанием",
+   "instr": "Перепишите с отрицанием и впишите нужную форму.",
+   "items": [
+    {
+     "q": "Lubię kawę. → Nie lubię ___.",
+     "a": [
+      "kawy"
+     ],
+     "expl": "С nie — родительный: kawy.",
+     "t": "t9"
+    },
+    {
+     "q": "Mam psa. → Nie mam ___.",
+     "a": [
+      "psa"
+     ],
+     "expl": "У одушевлённых винительный = родительный: psa.",
+     "t": "t9"
+    },
+    {
+     "q": "Znam tego pana. → Nie znam ___.",
+     "a": [
+      "tego pana"
+     ],
+     "expl": "Одушевлённый: форма та же.",
+     "t": "t9"
+    },
+    {
+     "q": "Czytam gazetę. → Nie czytam ___.",
+     "a": [
+      "gazety"
+     ],
+     "expl": "С nie — родительный: gazety.",
+     "t": "t9"
+    },
+    {
+     "q": "Jem mięso. → Nie jem ___.",
+     "a": [
+      "mięsa"
+     ],
+     "expl": "С nie — родительный: mięsa.",
+     "t": "t9"
+    },
+    {
+     "q": "Oglądam telewizję. → Nie oglądam ___.",
+     "a": [
+      "telewizji"
+     ],
+     "expl": "С nie — родительный: telewizji.",
+     "t": "t9"
+    },
+    {
+     "q": "Mam czas. → Nie mam ___.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "С nie — родительный: czasu.",
+     "t": "t9"
+    },
+    {
+     "q": "Piję mleko. → Nie piję ___.",
+     "a": [
+      "mleka"
+     ],
+     "expl": "С nie — родительный: mleka.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Co kupiłam",
+   "instr": "Напишите подруге, что вы купили на выходных, для кого и кого встретили.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм винительного падежа: хотя бы два «прилагательное + существительное», одно местоимение и один предлог с винительным (na, o, w…).",
+   "model": "Cześć Ola! W sobotę byłam w centrum handlowym. Kupiłam ciepłą kurtkę i nowe buty. Dla brata wzięłam ciekawą książkę, a dla mamy dużą świecę. Spotkałam też Kasię i jej męża. Pytali o ciebie! Zaprosiłam ich na kawę w niedzielę. Masz czas? Buziaki, Marta",
+   "model_future": [
+    "kurtkę",
+    "książkę",
+    "świecę",
+    "kasię",
+    "męża",
+    "ciebie",
+    "ich",
+    "kawę",
+    "niedzielę"
+   ],
+   "checklist": [
+    "Есть обращение и подпись",
+    "Сказано, что купили и для кого",
+    "Не меньше 8 форм винительного",
+    "Хотя бы два «прилагательное + существительное» (ciepłą kurtkę…)",
+    "Есть местоимение (go, ją, ich, ciebie…)",
+    "Есть предлог с винительным (na kawę, o ciebie, w niedzielę…)",
+    "После nie — родительный, не винительный",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

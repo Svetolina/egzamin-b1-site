@@ -1,0 +1,606 @@
+{
+ "topic": "aspekt",
+ "title": "Aspekt czasownika — вид глагола",
+ "stage": "выписка и сверка (шаги 1–3), ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1), 2.2.1 Fleksja, pkt 2 lit. b: «aspekt: – aspekt czasowników dokonanych i niedokonanych, – tworzenie form aspektu dokonanego od form aspektu niedokonanego, – znaczenie i użycie składniowe aspektu niedokonanego i dokonanego» — s. 77 Dz.U. На A1 (s. 59): «aspekt … wprowadzany leksykalnie»; на A2 (s. 67): только «aspekt czasowników dokonanych i niedokonanych»; на B2 (s. 89) — те же три пункта, что на B1. Образование пар и употребление вида впервые появляются именно на B1.",
+  "level": "B1 — ключевая тема уровня: образование пар (приставка, суффикс, разные основы), выбор вида по смыслу и по подсказкам в предложении, вид в настоящем, будущем и прошедшем.",
+  "katalog_b": [
+   "7.3.1 typowe zajęcia / czynności dnia codziennego",
+   "7.4.5 hobby i zainteresowania"
+  ],
+  "katalog_a": [
+   "4 informowanie (relacjonowanie wydarzeń)",
+   "opowiadanie o przeszłości i planach"
+  ],
+  "exam": "В сборнике комиссии 2017 года виду посвящён блок 7 (зад. I–VI: k7-1 … k7-6 на сайте) — выбрать из пары «kupować/kupić» нужный вид в нужной форме. В реальных экзаменах задание «czas teraźniejszy i przyszły» (7 из 15) тоже требует выбрать вид: простое будущее от совершенного или составное от несовершенного. Вид нужен и в перефразировании, и в письме.",
+  "depends_on": [
+   "czas-terazniejszy",
+   "czas-przyszly",
+   "czas-przeszly"
+  ],
+  "feeds": [
+   "tryb rozkazujący (вид в повелительном наклонении)",
+   "czasowniki ruchu (iść / chodzić — не видовая пара, отдельная тема)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023, rozdział II «Tego trzeba się (na)uczyć — pary aspektowe», s. 61–74 (grupy I–III, s. 73 — сводная таблица и «Konteksty i kontrasty»); rozdział III, s. 84–85",
+  "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0, s. 15 (aspekt, czasowniki dokonane i niedokonane); lekcja 3, s. 60 (pary aspektowe: komputer)",
+  "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): lekcja 3D, s. 44 (czas przyszły prosty / złożony); lekcja 4A, s. 49 (зад. 3, пары глаголов); lekcja 8, s. 98 (определение вида)",
+  "AMU": "«Aspekt czasownika w czasie przeszłym» — pakiet dydaktyczny dla grup pochodzenia wschodniosłowiańskiego, Wydział Filologii Polskiej i Klasycznej UAM: https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf (страницы не пронумерованы)",
+  "ZPE": "Zintegrowana Platforma Edukacyjna MEN, lekcja «Aspekt i tryb czasownika»: https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/D6rmPBCi4",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka, blok 7 zad. I–VI (s. 22–25) — ключ внесён в tests/b1-sbornik.js сайта (k7-1 … k7-6)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка вида скриптом tools/morfeusz_check.py (kind «aspekt»)"
+ },
+ "facts": [
+  {
+   "id": "A1",
+   "ru": "Два вида. Несовершенный (niedokonany) — действие как процесс, без результата или повторяющееся; совершенный (dokonany) — действие доведено до конца, есть результат или один момент.",
+   "pl": [
+    "czytałam – przeczytałam",
+    "robię – zrobię",
+    "spałem – wyspałem się"
+   ],
+   "refs": [
+    "PO s. 73 («Konteksty i kontrasty»: a) robić coś nie do końca / zrobić coś do końca; b) proces / moment)",
+    "JPBG s. 15 (aspekt: «czy czynność została już wykonana, czy nadal jest wykonywana, np. robić – zrobić»)",
+    "ZJP s. 98 («Czasowniki niedokonane nazywają czynności… niemające swojego zakończenia/rezultatu… dokonane… które się zakończyły lub zakończą»)",
+    "ZPE"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A2",
+   "ru": "Пара через приставку: совершенный = несовершенный + приставка (z-, s-, prze-, na-, u-, wy-, po-, za-). Какая приставка — надо запомнить вместе с глаголом.",
+   "pl": [
+    "robić – zrobić",
+    "czytać – przeczytać",
+    "pisać – napisać",
+    "gotować – ugotować",
+    "pić – wypić",
+    "dzwonić – zadzwonić",
+    "kopiować – skopiować",
+    "drukować – wydrukować"
+   ],
+   "refs": [
+    "PO s. 61 (grupa I: myć / umyć, gotować / ugotować, pić / wypić…), s. 73 («pary prefiksalne»)",
+    "JPBG s. 60 (упр. IV: kopiować / skopiować, drukować / wydrukować, skanować / zeskanować)",
+    "ZJP s. 49 (зад. 3: kopiować – skopiować, instalować – zainstalować, kasować – skasować)",
+    "AMU (prefiksy na-, po-, prze-, s-, u-, wy-, z-, za-; pisać – napisać, czytać – przeczytać)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A3",
+   "ru": "Пара через суффикс: обычно несовершенный длиннее (-ać, -ywać, -iwać, -awać), совершенный короче (-ić, -yć, -ać).",
+   "pl": [
+    "sprawdzać – sprawdzić",
+    "kupować – kupić",
+    "wysyłać – wysłać",
+    "zapisywać – zapisać",
+    "otwierać – otworzyć",
+    "wstawać – wstać",
+    "dawać – dać",
+    "zamykać – zamknąć"
+   ],
+   "refs": [
+    "PO s. 67 (grupa II: sprawdzać / sprawdzić, wysyłać / wysłać, otwierać / otworzyć…), s. 69 (таблица: dawać – dać, wstawać – wstać…), s. 73 («pary sufiksalne»)",
+    "JPBG s. 60 (zapisywać / zapisać, pobierać / pobrać, włączać / włączyć, wysyłać / wysłać)",
+    "ZJP s. 49 (kupować – kupić, włączać – włączyć, pobierać – pobrać, przesyłać – przesłać)",
+    "AMU (-ać → -ić, -ać → -yć…; dawać – dać)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A4",
+   "ru": "Нерегулярные пары — разные основы, их надо выучить.",
+   "pl": [
+    "brać – wziąć",
+    "mówić – powiedzieć",
+    "widzieć – zobaczyć",
+    "oglądać – obejrzeć",
+    "kłaść – położyć",
+    "znajdować – znaleźć",
+    "iść – pójść",
+    "wchodzić – wejść"
+   ],
+   "refs": [
+    "PO s. 71–72 (grupa III: brać / wziąć, kłaść / położyć, widzieć / zobaczyć, oglądać / obejrzeć, mówić / powiedzieć…), s. 73 («pary nieregularne»)",
+    "JPBG s. 60 (wchodzić / wejść)",
+    "ZJP s. 49 (wchodzić – wejść, odpowiadać – odpowiedzieć)",
+    "AMU (mówić – powiedzieć, brać – wziąć, iść – pójść, dawać – dać)",
+    "KEY k7-4 (brać/wziąć → wzięła, widzieć/zobaczyć → zobaczyła)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A5",
+   "ru": "У некоторых частых глаголов пары нет — только несовершенный вид.",
+   "pl": [
+    "być, mieć, musieć, móc, umieć, woleć",
+    "pracować, studiować, potrzebować"
+   ],
+   "refs": [
+    "PO s. 73 («single językowe»: być, żyć, musieć, woleć, mieć, umieć, móc, potrafić, uważać, studiować, pracować, potrzebować)",
+    "AMU (только несовершенные: być, mieć, pracować, studiować, mieszkać…)",
+    "KEY k7-6 (в рамке «pracować/ », «studiować/ » — пары нет)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A6",
+   "ru": "Разные приставки — разный смысл: один несовершенный глагол может иметь два совершенных с разным значением.",
+   "pl": [
+    "tłumaczyć → przetłumaczyć (na inny język) / wytłumaczyć (regułę)",
+    "malować → namalować (obraz) / pomalować (pokój)",
+    "mieszać → wymieszać (składniki) / pomieszać (zupę)"
+   ],
+   "refs": [
+    "PO s. 66 («Uwaga! Różne znaczenia – różne prefiksy!»), s. 61 (mieszać / wymieszać składniki, mieszać / pomieszać zupę)",
+    "MORF (все шесть форм — совершенный вид)"
+   ],
+   "status": "one-rule-source"
+  },
+  {
+   "id": "A7",
+   "ru": "Подсказки в предложении: codziennie, często, zawsze, zwykle, długo, cały dzień, od rana do wieczora — несовершенный; w końcu, nagle, szybko, od razu, raz — совершенный.",
+   "pl": [
+    "Codziennie gotuję obiad.",
+    "Długo oglądał buty, aż w końcu kupił sandały."
+   ],
+   "refs": [
+    "PO s. 73 (b: «ciągle, bez przerwy, od rana do wieczora, przez cały dzień» / «szybko, nagle, natychmiast»; c: «codziennie, często, rzadko, czasami…»)",
+    "AMU (długo, cały dzień; nagle, szybko, natychmiast; codziennie, często, zawsze; wreszcie, nareszcie, w końcu)",
+    "KEY k7-2 (Zwykle… robiła; długo oglądał; w końcu kupił), k7-3 (często się kłócili; codziennie przytulam)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A8",
+   "ru": "Слова wczoraj, rano, wieczorem, tydzień temu вид не определяют — с ними возможны оба вида, решает смысл.",
+   "pl": [
+    "Wczoraj czytałam. / Wczoraj przeczytałam cały rozdział."
+   ],
+   "refs": [
+    "AMU («UWAGA! Określenia: rano, wieczorem, wczoraj, dwa dni temu, rok temu… nie decydują o aspekcie!»)",
+    "PO s. 85 (упр. 6a/6b: одни и те же «przed chwilą, wczoraj…» и с piłam, и с wypiłam)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A9",
+   "ru": "Настоящее время есть только у несовершенного вида. Та же форма от совершенного глагола означает будущее: robię (сейчас) — zrobię (потом).",
+   "pl": [
+    "Teraz piszę list. / Jutro napiszę list."
+   ],
+   "refs": [
+    "ZPE (dokonany: «nie ma czasu teraźniejszego», будущее простое: przeczytam)",
+    "ZJP s. 44 («Czas przyszły prosty mają wyłącznie czasowniki dokonane»)",
+    "JPBG s. 15 (robię — niedokonany; zrobię — «czynność… zostanie zakończona»)",
+    "см. тему czas-przyszly"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A10",
+   "ru": "Составное будущее (będę + …) — только от несовершенного: będę robić, но zrobię (не *będę zrobić).",
+   "pl": [
+    "będę czytać / będę czytał",
+    "przeczytam"
+   ],
+   "refs": [
+    "ZJP s. 44 («Czas przyszły złożony przeznaczony jest dla czasowników niedokonanych»)",
+    "ZPE (niedokonany: будущее «zawsze złożony», będę czytał / czytać)",
+    "см. тему czas-przyszly"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A11",
+   "ru": "В прошедшем есть оба вида: несовершенный — процесс, повторение, «чем занимался»; совершенный — результат.",
+   "pl": [
+    "Często piłam zieloną herbatę. / Wypiłam herbatę i wyszłam."
+   ],
+   "refs": [
+    "PO s. 84 (упр. 5: «Czy w zeszłym roku często piłeś…» / «Czy w zeszłym miesiącu wypiłeś…»)",
+    "JPBG s. 15 (robiłem — «czynność trwała»; zrobiłem — «została zakończona»)",
+    "KEY k7-5 (oglądała → obejrzałam)",
+    "ZPE (Wczoraj kupowałem / kupiłem książki)",
+    "см. тему czas-przeszly, R9"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A12",
+   "ru": "После muszę, chcę, mogę, trzeba, lubię + инфинитив: регулярное занятие — несовершенный, одно конкретное дело — совершенный. После lubić — почти всегда несовершенный.",
+   "pl": [
+    "Codziennie muszę gotować obiad. / Dziś muszę szybko ugotować obiad.",
+    "Lubię czytać. / W tym tygodniu chcę przeczytać tę książkę."
+   ],
+   "refs": [
+    "PO s. 63 (упр. 7: «rutyna, powtarzalna akcja» — Muszę codziennie gotować / «zmiana, konkretna akcja» — Muszę szybko ugotować), s. 68, 72, 74 (lubi czytać → chce przeczytać)",
+    "KEY k7-4 (Chciała pożyczyć trochę soli)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "A13",
+   "ru": "В рассказе цепочка законченных действий одно за другим — совершенный вид; действие-фон, которое длилось, — несовершенный. В «w chwili, gdy…» ключ комиссии принимает оба вида.",
+   "pl": [
+    "Wstała, założyła szlafrok i otworzyła drzwi.",
+    "Kiedy czytałam, zadzwonił telefon."
+   ],
+   "refs": [
+    "KEY k7-4 (wstała, założyła, podeszła, otworzyła, zobaczyła; «W chwili gdy kładła się / położyła się do łóżka, zadzwonił telefon» — засчитываются оба)",
+    "AMU (proces — długo; moment — nagle; jeden raz)"
+   ],
+   "status": "one-rule-source"
+  }
+ ],
+ "noticed": [
+  "ZJP s. 49 (зад. 3) ставит в пару szukać – znaleźć. Это пара по смыслу, а не видовая: видовые — szukać / poszukać и znajdować / znaleźć (PO s. 71). В теории даём znajdować – znaleźć и предупреждаем, что szukać ≠ znaleźć.",
+  "Сборник k7-1 даёт в скобках «jechać/jeździć» — это не видовая пара, а глаголы движения (однократный / многократный); тема отдельная.",
+  "Сборник k7-4: подсказка «pochodzić/podejść» — опечатка, должно быть podchodzić/podejść.",
+  "ZPE утверждает, что несовершенные глаголы «не следует употреблять в повелительном наклонении» — это неверно (czytaj, pisz, siadaj — обычные формы). Этот пункт ZPE не используем.",
+  "PO s. 73 относит uważać к глаголам без пары; Morfeusz даёт uważać только как несовершенный, но в значении «считать» есть совершенный uznać. В теорию uważać не берём."
+ ],
+ "forms": [
+  {
+   "form": "robić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "czytać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "pisać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "gotować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "pić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "dzwonić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "kopiować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "drukować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "sprawdzać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "kupować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "wysyłać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "zapisywać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "otwierać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "wstawać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "dawać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "zamykać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "brać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "mówić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "widzieć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "oglądać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "kłaść",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "znajdować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "iść",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "wchodzić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "odpowiadać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "tłumaczyć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "malować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "mieszać",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "być",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "mieć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "musieć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "móc",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "umieć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "woleć",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "pracować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "studiować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "potrzebować",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "lubić",
+   "kind": "aspekt",
+   "aspect": "imperf"
+  },
+  {
+   "form": "zrobić",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "przeczytać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "napisać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "ugotować",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wypić",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "zadzwonić",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "skopiować",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wydrukować",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "sprawdzić",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "kupić",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wysłać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "zapisać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "otworzyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wstać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "dać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "zamknąć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wziąć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "powiedzieć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "zobaczyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "obejrzeć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "położyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "znaleźć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "pójść",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wejść",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "odpowiedzieć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "przetłumaczyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wytłumaczyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "namalować",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "pomalować",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "wymieszać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "pomieszać",
+   "kind": "aspekt",
+   "aspect": "perf"
+  },
+  {
+   "form": "pożyczyć",
+   "kind": "aspekt",
+   "aspect": "perf"
+  }
+ ]
+}

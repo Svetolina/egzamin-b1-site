@@ -1,0 +1,221 @@
+<title>Czas przeszły · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "czas-przeszly", "level": "B1", "group": "Глагол", "title_pl": "Czas przeszły", "title_ru": "Прошедшее время", "lead": "Что было и что я сделала. Окончания зависят от рода, а у нескольких частых глаголов меняется основа.", "facts_file": "extract.json", "stage": "теория и упражнения всех четырёх ступеней (порция 2 — ступени 3–4 — ждёт проверки)", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka, blok 6, zad. I–V, s. 19–22 (на сайте: Сборник, k6-1 … k6-5)", "Zbiór zadań B1 (2017), Gramatyka, blok 7, zad. V, s. 25 (вид в прошедшем, k7-5)"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["R1", "R2"], "blocks": [{"type": "p", "text": "Берём инфинитив, убираем [[-ć]], добавляем [[-ł]] и окончание. В прошедшем времени глагол показывает и лицо, и род — как в русском «читал / читала», только ещё и «я», «ты» видно по окончанию."}, {"type": "table", "head": ["", "он", "она", "оно"], "rows": [["[[grać]]", "grał", "grała", "grało"], ["[[czekać]]", "czekał", "czekała", "czekało"], ["[[kupować]]", "kupował", "kupowała", "kupowało"]], "pl_cols": [1, 2, 3]}, {"type": "note", "kind": "tip", "text": "Местоимение обычно не нужно: [[Grałam]] — уже «я играла», [[Grałeś]] — «ты играл»."}]}, {"id": "t2", "title": "Окончания", "facts": ["R2"], "blocks": [{"type": "table", "head": ["", "муж.", "жен.", "ср."], "rows": [["ja", "czekałem", "czekałam", "—"], ["ty", "czekałeś", "czekałaś", "—"], ["on, ona, ono", "czekał", "czekała", "czekało"]], "pl_cols": [0, 1, 2]}, {"type": "table", "head": ["", "мужско-личный", "немужско-личный"], "rows": [["my", "czekaliśmy", "czekałyśmy"], ["wy", "czekaliście", "czekałyście"], ["oni / one", "czekali", "czekały"]], "pl_cols": [0, 1, 2]}]}, {"id": "t3", "title": "-li или -ły?", "facts": ["R3"], "blocks": [{"type": "p", "text": "Во множественном числе выбираем между [[-li]] и [[-ły]]. Правило одно: есть в группе хотя бы один мужчина — [[-li]]. Нет ни одного — [[-ły]]."}, {"type": "table", "head": ["Кто", "Форма", "Пример"], "rows": [["мужчины", "[[-li]]", "[[Koledzy wrócili.]]"], ["мужчина + женщина", "[[-li]]", "[[Anna i Piotr wrócili.]]"], ["[[państwo]]", "[[-li]]", "[[Państwo wrócili.]]"], ["женщины", "[[-ły]]", "[[Koleżanki wróciły.]]"], ["дети, животные", "[[-ły]]", "[[Dzieci wróciły. Psy wróciły.]]"], ["предметы", "[[-ły]]", "[[Listy wróciły.]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "[[Dzieci]] — всегда [[-ły]], даже если там одни мальчики: [[Dzieci bawiły się w ogrodzie.]]"}]}, {"id": "t4", "title": "Глаголы на -eć: a ↔ e", "facts": ["R4"], "blocks": [{"type": "p", "text": "У глаголов на [[-eć]] везде [[-a-]], и только в мужско-личной форме [[-e-]]."}, {"type": "table", "head": ["", "on", "ona", "one", "oni"], "rows": [["mieć", "miał", "miała", "miały", "mieli"], ["chcieć", "chciał", "chciała", "chciały", "chcieli"], ["musieć", "musiał", "musiała", "musiały", "musieli"], ["wiedzieć", "wiedział", "wiedziała", "wiedziały", "wiedzieli"], ["myśleć", "myślał", "myślała", "myślały", "myśleli"], ["rozumieć", "rozumiał", "rozumiała", "rozumiały", "rozumieli"]], "pl_cols": [0, 1, 2, 3, 4]}, {"type": "fix", "items": [{"bad": "oni miały", "good": "oni mieli"}, {"bad": "ona mieła", "good": "ona miała"}]}]}, {"id": "t5", "title": "Глаголы на -ąć: ą ↔ ę", "facts": ["R5"], "blocks": [{"type": "p", "text": "[[-ą-]] остаётся только в мужском роде единственного числа. Во всех остальных формах — [[-ę-]]."}, {"type": "table", "head": ["", "ja (муж.)", "on", "ona", "oni"], "rows": [["wziąć", "wziąłem", "wziął", "wzięła", "wzięli"], ["zacząć", "zacząłem", "zaczął", "zaczęła", "zaczęli"], ["zamknąć", "zamknąłem", "zamknął", "zamknęła", "zamknęli"], ["płynąć", "płynąłem", "płynął", "płynęła", "płynęli"]], "pl_cols": [0, 1, 2, 3, 4]}, {"type": "note", "kind": "tip", "text": "Пишем [[ą, ę]], а перед [[ł]] произносим [[o, e]]: [[wziąłem]] звучит как «wziołem», [[wzięła]] — как «wzieła»."}]}, {"id": "t6", "title": "Iść и все его приставки", "facts": ["R6"], "blocks": [{"type": "p", "text": "Прошедшее от [[iść]] надо запомнить: [[szedł, szła]]. Приставочные глаголы повторяют эти формы."}, {"type": "table", "head": ["", "on", "ona", "oni", "one"], "rows": [["iść", "szedł", "szła", "szli", "szły"], ["pójść", "poszedł", "poszła", "poszli", "poszły"], ["przyjść", "przyszedł", "przyszła", "przyszli", "przyszły"], ["wyjść", "wyszedł", "wyszła", "wyszli", "wyszły"], ["wejść", "wszedł", "weszła", "weszli", "weszły"]], "pl_cols": [0, 1, 2, 3, 4]}, {"type": "note", "kind": "tip", "text": "«Я» мужчина — [[szedłem, poszedłem]], женщина — [[szłam, poszłam]]. В [[wejść]] у «он» нет e: [[wszedł]], но [[weszła]]."}]}, {"id": "t7", "title": "Nieść, wieźć, jeść, znaleźć", "facts": ["R7"], "blocks": [{"type": "p", "text": "В мужско-личной форме у этих глаголов [[-e-]], в остальных формах [[-o-]] или [[-a-]]."}, {"type": "table", "head": ["", "on", "ona", "oni"], "rows": [["nieść", "niósł", "niosła", "nieśli"], ["wieźć", "wiózł", "wiozła", "wieźli"], ["jeść", "jadł", "jadła", "jedli"], ["znaleźć", "znalazł", "znalazła", "znaleźli"]], "pl_cols": [0, 1, 2, 3]}, {"type": "note", "kind": "tip", "text": "Приставки ничего не меняют: [[przynieść – przyniósł]], [[zjeść – zjadła]], [[przywieźć – przywieźli]]."}]}, {"id": "t8", "title": "Móc, piec, biec: -gł, -kł", "facts": ["R8"], "blocks": [{"type": "table", "head": ["", "on", "ona", "oni"], "rows": [["móc", "mógł", "mogła", "mogli"], ["pomóc", "pomógł", "pomogła", "pomogli"], ["piec", "piekł", "piekła", "piekli"], ["biec", "biegł", "biegła", "biegli"]], "pl_cols": [0, 1, 2, 3]}, {"type": "note", "kind": "tip", "text": "[[ó]] только в «он»: [[mógł]], но [[mogłem, mogła, mogli]]."}]}, {"id": "t9", "title": "Robiłam или zrobiłam?", "facts": ["R9"], "blocks": [{"type": "p", "text": "Как в русском: «делала» и «сделала». Несовершенный вид — процесс или повторение, совершенный — один результат."}, {"type": "ex", "items": [{"pl": "Wczoraj cały wieczór pisałam maile.", "ru": "Вчера весь вечер писала письма (процесс)."}, {"pl": "W końcu napisałam ten raport.", "ru": "Наконец написала этот отчёт (результат)."}, {"pl": "W dzieciństwie często jeździłem na rowerze.", "ru": "В детстве часто катался на велосипеде (повторение)."}]}, {"type": "steps", "items": ["Слова [[często, codziennie, zawsze, długo, cały dzień]] — обычно несовершенный вид.", "Слова [[w końcu, nagle, już, raz]] или законченный результат — совершенный."]}]}, {"id": "t10", "title": "Когда это было", "facts": ["R10"], "blocks": [{"type": "chips", "items": ["wczoraj", "przedwczoraj", "przed chwilą", "w zeszłym tygodniu", "w zeszłym roku", "tydzień temu", "dwa lata temu"]}, {"type": "note", "kind": "tip", "text": "«Назад» — [[temu]], и оно стоит после времени: [[godzinę temu]], [[trzy dni temu]]."}]}, {"id": "t11", "title": "Pan, pani, państwo", "facts": ["R11"], "blocks": [{"type": "p", "text": "Вежливый вопрос строится с глаголом в 3-м лице, как будто говорим «он» или «они»."}, {"type": "table", "head": ["", "Вопрос"], "rows": [["pan", "Gdzie pan był?"], ["pani", "Gdzie pani była?"], ["panowie", "Gdzie panowie byli?"], ["panie", "Gdzie panie były?"], ["państwo", "Gdzie państwo byli?"]], "pl_cols": [0, 1]}]}, {"id": "t12", "title": "Nie ma → nie było", "facts": ["R12"], "blocks": [{"type": "p", "text": "«Не было» по-польски всегда [[nie było]] — средний род, какое бы слово ни шло дальше."}, {"type": "ex", "items": [{"pl": "Wczoraj nie było prądu.", "ru": "Вчера не было электричества."}, {"pl": "Na przystanku nie było nikogo.", "ru": "На остановке никого не было."}]}, {"type": "fix", "items": [{"bad": "nie był chleba", "good": "nie było chleba"}, {"bad": "nie była wody", "good": "nie było wody"}]}]}, {"id": "t13", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "Прошедшее время нужно в перефразировании и в письме (рассказ, письмо другу). В сборнике комиссии ему посвящён целый блок упражнений."}, {"type": "steps", "items": ["Найдите, кто делает: мужчина, женщина, группа с мужчиной или без.", "Если глагол на [[-eć]], [[-ąć]] или это [[iść]], [[nieść]], [[jeść]], [[móc]] — сверьтесь с таблицей.", "Проверьте вид: процесс — [[robiłam]], результат — [[zrobiłam]]."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "Wczoraj Ania ___ do kina.", "opts": ["poszła", "poszedła", "poszłam"], "a": ["poszła"], "expl": "Pójść: ona poszła. Poszłam — это «я».", "t": "t6"}, {"q": "Moi rodzice ___ dziesięć lat w Gdańsku.", "opts": ["mieszkali", "mieszkały", "mieszkał"], "a": ["mieszkali"], "expl": "Rodzice: есть мужчина (отец) — -li.", "t": "t3"}, {"q": "Dzieci ___ w ogrodzie cały dzień.", "opts": ["bawiły się", "bawili się", "bawił się"], "a": ["bawiły się"], "expl": "Dzieci — всегда -ły.", "t": "t3"}, {"q": "Czy ___ moje klucze? (ty, м.)", "opts": ["wziąłeś", "wzięłeś", "wziąłaś"], "a": ["wziąłeś"], "expl": "Мужской род ед. ч. — с ą: wziąłeś.", "t": "t5"}, {"q": "Chłopcy nie ___, co powiedzieć.", "opts": ["wiedzieli", "wiedziały", "wiedzieły"], "a": ["wiedzieli"], "expl": "Wiedzieć, мужско-личный род: -eli.", "t": "t4"}, {"q": "Tata ___ walizkę na czwarte piętro.", "opts": ["niósł", "niesł", "niosł"], "a": ["niósł"], "expl": "Nieść: on niósł — с ó.", "t": "t7"}, {"q": "Nie ___ przyjść, bo byłam chora. (ja, ж.)", "opts": ["mogłam", "mógłam", "możłam"], "a": ["mogłam"], "expl": "Ó только в «он»: mógł, но mogłam.", "t": "t8"}, {"q": "Wczoraj w sklepie nie ___ chleba.", "opts": ["było", "był", "była"], "a": ["było"], "expl": "«Не было» — всегда nie było.", "t": "t12"}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "В каждом предложении выделена неверная форма. Впишите правильную.", "expect": "past", "items": [{"q": "Ewa: „Wczoraj **byłem** w teatrze.”", "a": ["byłam"], "expl": "Говорит женщина: byłam.", "t": "t2"}, {"q": "Moje siostry **przyszli** na obiad.", "a": ["przyszły"], "expl": "Siostry — без мужчин: -ły.", "t": "t3"}, {"q": "Koledzy **miały** dużo pracy.", "a": ["mieli"], "expl": "Koledzy — мужско-личный род: mieli.", "t": "t4"}, {"q": "Marek **wzięł** parasol.", "a": ["wziął"], "expl": "On — с ą: wziął.", "t": "t5"}, {"q": "Ola **szedła** do pracy pieszo.", "a": ["szła"], "expl": "Iść: ona szła.", "t": "t6"}, {"q": "Dziewczyny **jedli** pizzę.", "a": ["jadły"], "expl": "Dziewczyny — -ły, и тогда основа jad-: jadły.", "t": "t7"}, {"q": "Rano nie **był** ciepłej wody.", "a": ["było"], "expl": "Nie było — всегда средний род.", "t": "t12"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Обычные глаголы", "instr": "Поставьте глагол в прошедшее время.", "expect": "past", "items": [{"q": "Wczoraj długo ___ na autobus. (czekać, ja, ж.)", "a": ["czekałam"], "expl": "Ja, жен.: -łam.", "t": "t2"}, {"q": "Co ___ w weekend? (robić, ty, м.)", "a": ["robiłeś"], "expl": "Ty, муж.: -łeś.", "t": "t2"}, {"q": "Mój brat ___ w Krakowie. (studiować)", "a": ["studiował"], "expl": "От инфинитива: studiowa-ć → studiował.", "t": "t1"}, {"q": "W sobotę ___ do babci. (jechać, my, ж.)", "a": ["jechałyśmy"], "expl": "My, только женщины: -łyśmy.", "t": "t2"}, {"q": "Czy ___ ten film? (oglądać, wy, м.)", "a": ["oglądaliście"], "expl": "Wy, мужско-личный: -liście.", "t": "t2"}, {"q": "Koleżanki ___ mi kwiaty. (kupić)", "a": ["kupiły"], "expl": "Koleżanki — -ły.", "t": "t3"}, {"q": "Rano ___ tylko kawę. (pić, ja, м.)", "a": ["piłem"], "expl": "Ja, муж.: -łem.", "t": "t2"}, {"q": "Ewa i Tomek ___ po parku. (spacerować)", "a": ["spacerowali"], "expl": "Есть мужчина — -li.", "t": "t3"}, {"q": "Dziecko ___ całą noc. (płakać)", "a": ["płakało"], "expl": "Dziecko — средний род: -ło.", "t": "t1"}, {"q": "Dlaczego nie ___? (dzwonić, ty, ж.)", "a": ["dzwoniłaś"], "expl": "Ty, жен.: -łaś.", "t": "t2"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "-eć и -ąć", "instr": "Поставьте глагол в прошедшее время.", "expect": "past", "items": [{"q": "Studenci nie ___ tego zadania. (rozumieć)", "a": ["rozumieli"], "expl": "Мужско-личный: -eli.", "t": "t4"}, {"q": "Dziewczyny ___ iść do kina. (chcieć)", "a": ["chciały"], "expl": "Без мужчин: -ały.", "t": "t4"}, {"q": "Wczoraj nie ___ czasu. (mieć, ja, м.)", "a": ["miałem"], "expl": "Ед. ч. — с a: miałem.", "t": "t4"}, {"q": "Czy państwo ___ długo czekać? (musieć)", "a": ["musieli"], "expl": "Państwo — мужско-личный: musieli.", "t": "t11"}, {"q": "Kto ___ o tym wcześniej? (wiedzieć)", "a": ["wiedział"], "expl": "Kto — как «он»: wiedział.", "t": "t4"}, {"q": "Zawsze ___, że to proste. (myśleć, ja, ж.)", "a": ["myślałam"], "expl": "Ед. ч. — с a: myślałam.", "t": "t4"}, {"q": "Czy ___ parasol? (wziąć, ty, ж.)", "a": ["wzięłaś"], "expl": "Женский род — с ę: wzięłaś.", "t": "t5"}, {"q": "Film ___ się o ósmej. (zacząć)", "a": ["zaczął"], "expl": "Film — он: zaczął, с ą.", "t": "t5"}, {"q": "Ania ___ drzwi na klucz. (zamknąć)", "a": ["zamknęła"], "expl": "Ona — с ę: zamknęła.", "t": "t5"}, {"q": "Chłopcy szybko ___ do brzegu. (dopłynąć)", "a": ["dopłynęli"], "expl": "Множественное — с ę: dopłynęli.", "t": "t5"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "Iść, nieść, jeść, móc", "instr": "Поставьте глагол в прошедшее время.", "expect": "past", "items": [{"q": "Wczoraj ___ do pracy pieszo. (iść, ja, м.)", "a": ["szedłem"], "expl": "Iść: ja (муж.) szedłem.", "t": "t6"}, {"q": "Goście ___ o siódmej. (przyjść)", "a": ["przyszli"], "expl": "Goście — мужско-личный: przyszli.", "t": "t6"}, {"q": "Ola ___ z domu bez kurtki. (wyjść)", "a": ["wyszła"], "expl": "Ona: wyszła.", "t": "t6"}, {"q": "Marek ___ do pokoju i usiadł. (wejść)", "a": ["wszedł"], "expl": "On: wszedł — без e после w.", "t": "t6"}, {"q": "Ewa ___ do sklepu po chleb. (pójść)", "a": ["poszła"], "expl": "Ona: poszła.", "t": "t6"}, {"q": "Sąsiad ___ mi zakupy do domu. (zanieść)", "a": ["zaniósł"], "expl": "On: zaniósł — с ó.", "t": "t7"}, {"q": "Co ___ na śniadanie? (jeść, wy, м.)", "a": ["jedliście"], "expl": "Мужско-личный — с e: jedliście.", "t": "t7"}, {"q": "Nareszcie ___ klucze! (znaleźć, ja, ж.)", "a": ["znalazłam"], "expl": "Ед. ч. — с a: znalazłam.", "t": "t7"}, {"q": "Nie ___ ci wczoraj pomóc. (móc, ja, м.)", "a": ["mogłem"], "expl": "Ó только в «он»: mogłem.", "t": "t8"}, {"q": "Babcia ___ dla nas sernik. (upiec)", "a": ["upiekła"], "expl": "Piec → piekła, с приставкой upiekła.", "t": "t8"}]}, {"id": "e6", "level": 3, "kind": "text", "format": "exam", "title": "Weekend w górach", "instr": "Как на экзамене: поставьте глаголы в прошедшее время. Рассказывает женщина.", "expect": "past", "passage": "W zeszły piątek {1} z pracy wcześniej, bo razem z Kasią i Pawłem {2} wyjazd w góry. Do Zakopanego {3} pociągiem prawie sześć godzin. W sobotę Paweł {4} ciężki plecak, a my z Kasią {5} tylko wodę i kanapki. Na szlaku {6} padać deszcz, ale nie {7} wracać. Po południu {8} do schroniska i {9} tam gorącą zupę. Wieczorem nikt nie {10} siły, żeby wyjść na spacer.", "items": [{"q": "wyjść, ja", "a": ["wyszłam"], "expl": "Ja, жен.: wyszłam — как poszła, szła.", "t": "t6"}, {"q": "planować, my", "a": ["planowaliśmy"], "expl": "С нами Paweł — мужско-личная форма: -liśmy.", "t": "t3"}, {"q": "jechać, my", "a": ["jechaliśmy"], "expl": "Те же трое, есть мужчина: jechaliśmy.", "t": "t3"}, {"q": "nieść", "a": ["niósł"], "expl": "Paweł — он: niósł, с ó.", "t": "t7"}, {"q": "wziąć, my", "a": ["wzięłyśmy"], "expl": "«My z Kasią» — я и Кася, две женщины: -łyśmy, и с ę.", "t": "t5"}, {"q": "zacząć", "a": ["zaczął"], "expl": "Deszcz — он: zaczął, с ą.", "t": "t5"}, {"q": "chcieć, my – все трое", "a": ["chcieliśmy"], "expl": "Мужско-личная форма -eć: chcieliśmy.", "t": "t4"}, {"q": "dojść, my", "a": ["doszliśmy"], "expl": "Приставка + iść: doszliśmy.", "t": "t6"}, {"q": "zjeść, my", "a": ["zjedliśmy"], "expl": "Мужско-личная форма jeść — с e: zjedliśmy.", "t": "t7"}, {"q": "mieć", "a": ["miał"], "expl": "Nikt — как «он»: miał.", "t": "t4"}]}, {"id": "e7", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Как в сборнике комиссии: поменяйте, о ком идёт речь, и впишите нужную форму глагола.", "expect": "past", "items": [{"q": "Tomek mógł przyjść. → Ania ___ przyjść.", "a": ["mogła"], "expl": "Ó только в «он»: mógł, но mogła.", "t": "t8"}, {"q": "Pan wziął klucze? → Pani ___ klucze?", "a": ["wzięła"], "expl": "Pani — как «она»: wzięła, с ę.", "t": "t11"}, {"q": "Studenci zjedli obiad. → Studentki ___ obiad.", "a": ["zjadły"], "expl": "Без мужчин — -ły, основа jad-: zjadły.", "t": "t7"}, {"q": "Marek: „Poszedłem do lekarza.” → Ewa: „___ do lekarza.”", "a": ["poszłam"], "expl": "Говорит женщина: poszłam.", "t": "t6"}, {"q": "Siostry nie miały czasu. → Bracia nie ___ czasu.", "a": ["mieli"], "expl": "Bracia — мужско-личная форма: mieli.", "t": "t4"}, {"q": "Dziś nie ma autobusu. → Wczoraj nie ___ autobusu.", "a": ["było"], "expl": "Nie ma → nie było.", "t": "t12"}, {"q": "Kasia przyniosła ciasto. → Paweł ___ ciasto.", "a": ["przyniósł"], "expl": "On: przyniósł, с ó.", "t": "t7"}, {"q": "Państwo już zamknęli sklep? → Pan już ___ sklep?", "a": ["zamknął"], "expl": "Pan — как «он»: zamknął, с ą.", "t": "t11"}, {"q": "Teraz idę do domu. (ja, м.) → Wczoraj o tej porze ___ do domu.", "a": ["szedłem"], "expl": "Iść: ja (муж.) szedłem.", "t": "t6"}, {"q": "Koleżanki weszły do sali. → Koledzy ___ do sali.", "a": ["weszli"], "expl": "Мужско-личная форма: weszli.", "t": "t6"}]}, {"id": "e8", "level": 3, "kind": "choice", "title": "Robiłam или zrobiłam?", "items": [{"q": "Wczoraj cały dzień ___ do egzaminu. (ja, ж.)", "opts": ["uczyłam się", "nauczyłam się"], "a": ["uczyłam się"], "expl": "«Cały dzień» — процесс: несовершенный вид.", "t": "t9"}, {"q": "W końcu ___ wszystkie maile. (ja, ж.)", "opts": ["wysyłałam", "wysłałam"], "a": ["wysłałam"], "expl": "«W końcu» — результат: совершенный вид.", "t": "t9"}, {"q": "Kiedy byłem mały, często ___ do dziadków.", "opts": ["jeździłem", "pojechałem"], "a": ["jeździłem"], "expl": "«Często» — повторение: несовершенный вид.", "t": "t9"}, {"q": "Ojej, ktoś ___ całe mleko!", "opts": ["pił", "wypił"], "a": ["wypił"], "expl": "Молока больше нет — результат: wypił.", "t": "t9"}, {"q": "Długo ___ na tramwaj, ale nie przyjechał. (ja, ж.)", "opts": ["czekałam", "poczekałam"], "a": ["czekałam"], "expl": "«Długo» — процесс: czekałam.", "t": "t9"}, {"q": "Sprzedawca ___ mi resztę i podziękował.", "opts": ["wydawał", "wydał"], "a": ["wydał"], "expl": "Одно законченное действие за другим: wydał.", "t": "t9"}, {"q": "Co roku ___ urodziny w domu.", "opts": ["obchodziliśmy", "obeszliśmy"], "a": ["obchodziliśmy"], "expl": "«Co roku» — повторение: obchodziliśmy.", "t": "t9"}, {"q": "Już ___ bilety na koncert? (ty, ж.)", "opts": ["kupowałaś", "kupiłaś"], "a": ["kupiłaś"], "expl": "«Już» — есть ли результат: kupiłaś.", "t": "t9"}]}, {"id": "e9", "level": 4, "kind": "write", "title": "Mój weekend", "instr": "Напишите подруге, как вы провели прошлые выходные: куда ездили или ходили, с кем, что делали.", "words": [50, 60], "need": "Не меньше 8 глаголов в прошедшем времени: хотя бы две трудные формы (poszłam, wzięłam, zjadłam, mogłam…), одна форма «мы» и пара «процесс / результат».", "model": "Cześć Ola! W sobotę rano pojechałam z Tomkiem nad morze. Wzięłam aparat i zrobiłam dużo zdjęć. Długo spacerowaliśmy po plaży, a potem poszliśmy do małej restauracji. Zjadłam tam świetną rybę. Wieczorem chciałam jeszcze iść do kina, ale nie miałam siły, bo bolały mnie nogi. W niedzielę cały dzień odpoczywałam. Ściskam, Marta", "model_future": ["pojechałam", "wzięłam", "zrobiłam", "spacerowaliśmy", "poszliśmy", "zjadłam", "chciałam", "miałam", "bolały", "odpoczywałam"], "checklist": ["Есть обращение и подпись", "Сказано, куда и с кем вы ездили или ходили", "Не меньше 8 глаголов в прошедшем времени", "Окончания везде по вашему роду (-łam или -łem)", "Хотя бы две трудные формы: poszłam, wzięłam, zjadłam, mogłam…", "Форма «мы» с правильным -liśmy или -łyśmy", "Процесс — несовершенный вид (spacerowaliśmy), результат — совершенный (zrobiłam)", "50–60 слов"], "t": "t1"}]}, "facts": {"R1": {"refs": ["JPBG s. 99 («tworzymy przez dodanie odpowiedniego zakończenia do tematu bezokolicznika… po odcięciu końcówki -ć»)", "PO s. 83–84 (таблицы BY-Ć → BY-Ł, (Z)ROBI-Ć → (Z)ROBI-Ł)", "MORF"], "status": "ok"}, "R2": {"refs": ["PO s. 83 (таблица być: był+em, był+am, byli+śmy, były+śmy)", "JPBG s. 99 (таблица: byłem, czytałem, oglądałem…)", "MORF"], "status": "ok"}, "R3": {"refs": ["PO s. 83 (rodzaj męskoosobowy / niemęskoosobowy; «Gdzie państwo byli?», klucz s. 233)", "JPBG s. 99 (таблица родов), s. 102 упр. VII + klucz s. 197 (Państwo Kowalscy podwieźli), s. 143 (Dzieci przeszły)", "KEY k6-1 (siostry … czuły się)", "STD (leżały, kupowali)"], "status": "ok"}, "R4": {"refs": ["PO s. 88 («Uwaga na …-eć!», MI-AŁ / MI-ELI), klucz s. 233 (chciały, wiedziały, musieli, chcieliśmy)", "JPBG s. 100 (B: «tylko w rodzaju męskoosobowym jest e… alternacja a : e»)", "MORF"], "status": "ok"}, "R5": {"refs": ["PO s. 90 (WZI-ĄŁ / WZI-ĘŁO; «zamiast ą czytamy o, a zamiast ę — e»), klucz s. 233 (zajęła, wzięła, zaczęła)", "JPBG s. 101 (C: «Tylko w rodzaju męskim jest ą… alternacja ą : ę»; «ę, ą przed ł wymawiamy jak e, o»)", "KEY k6-1 (wzięłaś, krzyknęła), k6-3 (zginął, zająłem się)", "MORF"], "status": "ok"}, "R6": {"refs": ["PO s. 92 (iść и rodzina, cz. I), s. 94 (wejść, zejść, odejść…)", "JPBG s. 100 (A: czasownik iść; «Tak samo odmieniają się pójść, wyjść, przyjść, odejść»)", "KEY k6-3 (poszedłeś, przyszła, poszła, przyszli), k6-5 (wyszły, wyszedł, doszedł)", "MORF"], "status": "ok"}, "R7": {"refs": ["PO s. 98 (NIEŚĆ, WIEŹĆ, ZNALEŹĆ, JEŚĆ)", "JPBG s. 100 (jeść: jadłem, jedliśmy), s. 102 (D: nieść, wieźć; «alternacja e : o : ó»)", "KEY k6-2 (zaniósł, znaleźliśmy), k6-3 (zjadłem, znaleźli)", "MORF"], "status": "ok"}, "R8": {"refs": ["PO s. 96 (MÓC, BIEC, PIEC, UCIEC)", "JPBG klucz s. 197 (Pomogłem), s. 143 + klucz s. 200 (będziecie piekły)", "KEY k6-2 (piekła), k6-3 (mogliśmy), k6-5 (mogła)", "MORF"], "status": "ok"}, "R9": {"refs": ["PO s. 84 (упр. 5: czas przeszły niedokonany «często…» / dokonany «w zeszłym miesiącu…»), s. 85 (6a «Co wtedy robiłeś?» / 6b «Co wtedy zrobiłeś?»)", "JPBG s. 15 (niedokonane: «czynność trwała… robiłem»; dokonane: «czynność została zakończona… zrobiłem»)", "KEY k7-5 (pisała → napisałam, oglądała → obejrzałam)"], "status": "ok"}, "R10": {"refs": ["PO s. 85 («Kiedy to było?»: przed chwilą, wczoraj, tydzień temu, w zeszłym roku…)", "JPBG s. 99 (Wczoraj przeczytałam całą książkę), s. 135 (Kilka lat temu…)", "KEY k6-1 (wczoraj)"], "status": "ok"}, "R11": {"refs": ["PO s. 83 упр. 3, s. 92 упр. 16, klucz s. 233 (Gdzie pan był? Gdzie panowie byli? Gdzie państwo byli?…)", "JPBG s. 102 упр. VII + klucz s. 197 (Pan Profesor Nowak przyniósł)", "KEY k6-4 (Dlaczego mi pan nie powiedział…; Nie mogli państwo…)"], "status": "ok"}, "R12": {"refs": ["KEY k6-5 (nic nie ma → nie było)", "JPBG s. 73 упр. II + klucz s. 194 (nie … zasięgu → było)", "STD B1 2.2.2 (Koleżanki nie było w szkole — пример из раздела składnia)"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023, rozdział III «Tu byłem! — czas przeszły (niedokonany i dokonany)», s. 75–110; klucz s. 233–234", "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0 (s. 15, вид глагола), lekcja 5 «Grunt to rodzinka» (s. 99–102, czas przeszły i oboczności); klucz s. 196–197", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka, blok 6 zad. I–V (s. 19–22) и blok 7 zad. V (s. 25) — ключ внесён в tests/b1-sbornik.js сайта (k6-1 … k6-5, k7-5)", "MORF": "Morfeusz 2 (SGJP), версия 1.99.15 — проверка форм скриптом tools/morfeusz_check.py", "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): отдельного правила о прошедшем времени нет, только употребление (лекция 7B, 7D, 8C)"}, "checked": "24.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

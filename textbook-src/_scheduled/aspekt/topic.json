@@ -1,0 +1,1548 @@
+{
+ "id": "aspekt",
+ "order": 4,
+ "title": "Aspekt czasownika",
+ "titleRu": "Вид глагола: dokonany и niedokonany",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "czas-terazniejszy",
+  "czas-przyszly",
+  "czas-przeszly"
+ ],
+ "next": "tryb-rozkazujacy",
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Что такое вид",
+   "facts": [
+    "R1"
+   ],
+   "body": "Каждый польский глагол — либо **несовершенного** вида (*niedokonany*, **ndk**: «что делать?» — процесс, повтор), либо **совершенного** (*dokonany*, **dk**: «что сделать?» — результат, один раз). Как правило, глаголы живут парами: *malować – namalować*, *czytać – przeczytać*.",
+   "examples": [
+    [
+     "Ania maluje obraz.",
+     "Аня рисует картину (процесс)."
+    ],
+    [
+     "Ania namalowała obraz.",
+     "Аня нарисовала картину (готово)."
+    ]
+   ],
+   "tip": "Для русскоязычных: это почти та же система, что «делать / сделать». Главное — выучить польские пары: они часто не совпадают с русскими по форме."
+  },
+  {
+   "id": "t2",
+   "title": "Вид и времена: таблица",
+   "facts": [
+    "R2",
+    "R3",
+    "R4"
+   ],
+   "table": {
+    "head": [
+     "",
+     "ndk: czytać",
+     "dk: przeczytać"
+    ],
+    "rows": [
+     [
+      "Прошедшее",
+      "czytałem/czytałam",
+      "przeczytałem/przeczytałam"
+     ],
+     [
+      "Настоящее",
+      "czytam",
+      "— (нет!)"
+     ],
+     [
+      "Будущее",
+      "będę czytać / będę czytał(a)",
+      "przeczytam"
+     ]
+    ]
+   },
+   "body": "Главная ловушка: форма dk выглядит как настоящее время, но значит **будущее**. *Przeczytam* = «прочитаю». Поэтому у dk нет настоящего, а у будущего dk нет *będę*."
+  },
+  {
+   "id": "t3",
+   "title": "Будущее время двух видов",
+   "facts": [
+    "R3"
+   ],
+   "body": "**ndk:** *będę / będziesz / będzie / będziemy / będziecie / będą* + инфинитив **или** + форма на -ł (*będę pisać* = *będę pisał/pisała*). **dk:** одно слово с окончаниями настоящего: *napiszę, napiszesz, napisze…*",
+   "examples": [
+    [
+     "Jutro będę pisać raport cały dzień.",
+     "Завтра буду писать отчёт весь день."
+    ],
+    [
+     "Jutro napiszę raport.",
+     "Завтра напишу отчёт."
+    ]
+   ],
+   "warn": "Ошибка: *będę napisać*, *będę przeczytam*. У dk сложного будущего не бывает."
+  },
+  {
+   "id": "t4",
+   "title": "Как образуются пары: 1) приставка",
+   "facts": [
+    "R5"
+   ],
+   "body": "Чаще всего dk = ndk + приставка, которая **не меняет смысл**, а только добавляет «результат»: **na-, po-, prze-, z-/s-, u-, wy-, za-**. Какая именно — правилом не угадать, пару учат целиком.",
+   "table": {
+    "head": [
+     "ndk",
+     "dk",
+     "приставка"
+    ],
+    "rows": [
+     [
+      "pisać",
+      "napisać",
+      "na-"
+     ],
+     [
+      "malować",
+      "namalować",
+      "na-"
+     ],
+     [
+      "czytać",
+      "przeczytać",
+      "prze-"
+     ],
+     [
+      "robić",
+      "zrobić",
+      "z-"
+     ],
+     [
+      "jeść",
+      "zjeść",
+      "z-"
+     ],
+     [
+      "pić",
+      "wypić",
+      "wy-"
+     ],
+     [
+      "gotować",
+      "ugotować",
+      "u-"
+     ],
+     [
+      "pytać",
+      "zapytać",
+      "za-"
+     ],
+     [
+      "myśleć",
+      "pomyśleć",
+      "po-"
+     ],
+     [
+      "uczyć się",
+      "nauczyć się",
+      "na-"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t5",
+   "title": "2) суффикс и чередование",
+   "facts": [
+    "R6"
+   ],
+   "body": "В этих парах меняется суффикс или основа; часто ndk длиннее (-ać, -ywać, -ować), а dk короче (-ić, -yć, -nąć).",
+   "table": {
+    "head": [
+     "ndk",
+     "dk"
+    ],
+    "rows": [
+     [
+      "kupować",
+      "kupić"
+     ],
+     [
+      "wracać",
+      "wrócić"
+     ],
+     [
+      "otwierać",
+      "otworzyć"
+     ],
+     [
+      "zamykać",
+      "zamknąć"
+     ],
+     [
+      "zapraszać",
+      "zaprosić"
+     ],
+     [
+      "spotykać",
+      "spotkać"
+     ],
+     [
+      "zaczynać",
+      "zacząć"
+     ],
+     [
+      "dawać",
+      "dać"
+     ],
+     [
+      "polecać",
+      "polecić"
+     ],
+     [
+      "zwiedzać",
+      "zwiedzić"
+     ],
+     [
+      "rzucać",
+      "rzucić"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t6",
+   "title": "3) разные корни",
+   "facts": [
+    "R7"
+   ],
+   "table": {
+    "head": [
+     "ndk",
+     "dk",
+     "перевод"
+    ],
+    "rows": [
+     [
+      "brać",
+      "wziąć",
+      "брать – взять"
+     ],
+     [
+      "mówić",
+      "powiedzieć",
+      "говорить – сказать"
+     ],
+     [
+      "widzieć",
+      "zobaczyć",
+      "видеть – увидеть"
+     ],
+     [
+      "oglądać",
+      "obejrzeć",
+      "смотреть – посмотреть (фильм)"
+     ],
+     [
+      "iść",
+      "pójść",
+      "идти – пойти"
+     ]
+    ]
+   },
+   "body": "Такие пары — самые частые в речи. Учите их как два отдельных слова."
+  },
+  {
+   "id": "t7",
+   "title": "Приставка с новым значением и -ywać",
+   "facts": [
+    "R8"
+   ],
+   "body": "Если приставка меняет смысл (*pisać → przepisać* «переписать»), получается **новый dk-глагол**. Его ndk делают суффиксом **-ywać/-iwać** (реже -ać): *przepisać → przepisywać*. Подсказка: **-ywać/-iwać на конце — почти всегда ndk**.",
+   "table": {
+    "head": [
+     "dk",
+     "ndk",
+     "значение"
+    ],
+    "rows": [
+     [
+      "przepisać",
+      "przepisywać",
+      "переписать"
+     ],
+     [
+      "zapisać",
+      "zapisywać",
+      "записать"
+     ],
+     [
+      "podpisać",
+      "podpisywać",
+      "подписать"
+     ],
+     [
+      "opisać",
+      "opisywać",
+      "описать"
+     ],
+     [
+      "pokazać",
+      "pokazywać",
+      "показать"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t8",
+   "title": "Глаголы без пары",
+   "facts": [
+    "R9"
+   ],
+   "body": "Только ndk: **być, mieć, móc, musieć, wiedzieć, pracować, studiować, mieszkać, kochać, czekać, siedzieć, stać**. Их будущее — только с *będę*: *będę mieszkać*, *będę musiał*.",
+   "note": "Про *musieć / móc / chcieć* в будущем см. решение темы «Czas przyszły» (учим форму на -ł)."
+  },
+  {
+   "id": "t9",
+   "title": "Когда ndk",
+   "facts": [
+    "R10",
+    "R11"
+   ],
+   "list": [
+    "**процесс, длительность:** długo, ciągle, całą godzinę, dwie godziny, cały dzień",
+    "**повтор, привычка:** codziennie, często, zawsze, zwykle, co roku, w każdy piątek, wieczorami",
+    "**вопрос «делал ли вообще / чем занимался»:** Co robiłeś wczoraj?"
+   ],
+   "examples": [
+    [
+     "Codziennie piję kawę.",
+     "Каждый день пью кофе."
+    ],
+    [
+     "Długo czekałam na autobus.",
+     "Я долго ждала автобус."
+    ]
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Когда dk",
+   "facts": [
+    "R12",
+    "R13"
+   ],
+   "list": [
+    "**результат:** wreszcie, nareszcie, w końcu, już",
+    "**один раз:** (jeden) raz, przypadkiem",
+    "**внезапно, сразу:** nagle, zaraz, natychmiast, jak tylko"
+   ],
+   "examples": [
+    [
+     "Wreszcie skończyłem raport!",
+     "Наконец-то я закончил отчёт!"
+    ],
+    [
+     "Nagle zaczął padać deszcz.",
+     "Вдруг пошёл дождь."
+    ]
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "«Wczoraj» вид не выбирает",
+   "facts": [
+    "R14"
+   ],
+   "body": "Слова *wczoraj, rano, wieczorem, w poniedziałek* говорят только **когда**, а не **как**. Решает смысл: процесс или результат.",
+   "examples": [
+    [
+     "Wczoraj wieczorem czytałam książkę.",
+     "Вчера вечером я читала (была занята чтением)."
+    ],
+    [
+     "Wczoraj wieczorem przeczytałam książkę.",
+     "Вчера вечером я прочитала книгу (до конца)."
+    ]
+   ]
+  },
+  {
+   "id": "t12",
+   "title": "Два действия в одном предложении",
+   "facts": [
+    "R15",
+    "R16",
+    "R17"
+   ],
+   "table": {
+    "head": [
+     "схема",
+     "смысл",
+     "пример"
+    ],
+    "rows": [
+     [
+      "ndk + dk",
+      "фон + прерывание",
+      "Czytałam, kiedy zadzwonił telefon."
+     ],
+     [
+      "dk + dk + dk",
+      "одно за другим",
+      "Wszedł, usiadł i zaczął mówić."
+     ],
+     [
+      "ndk + ndk",
+      "одновременно",
+      "Gdy on gotował, ja czytałem."
+     ]
+    ]
+   },
+   "body": "Сначала решите, как связаны действия (прерывание, цепочка, параллель), — и вид получится сам."
+  },
+  {
+   "id": "t13",
+   "title": "Начать, закончить, перестать + ndk",
+   "facts": [
+    "R18"
+   ],
+   "body": "После *zacząć/zaczynać, skończyć/kończyć, przestać/przestawać* — **только инфинитив ndk**: *Zaczęłam czytać*, *Skończyliśmy oglądać film*, *Przestań mówić!*",
+   "warn": "Ошибка: *zacząłem napisać*, *skończyć przeczytać*.",
+   "sourceNote": "Подтверждено только одним сайтом (elon.io, две страницы) — пометка до проверки по учебнику."
+  },
+  {
+   "id": "t14",
+   "title": "Вид в просьбах и запретах (кратко)",
+   "facts": [
+    "R19"
+   ],
+   "body": "**Сделай один раз** — обычно dk: *Zamknij drzwi!* **Не делай** — ndk: *Nie zamykaj okna!* «Nie + dk» — только предостережение: *Uważaj, nie upuść telefonu!* Подробно — в следующей теме «Tryb rozkazujący»."
+  },
+  {
+   "id": "t15",
+   "title": "Глаголы движения (кратко)",
+   "facts": [
+    "R20"
+   ],
+   "body": "*iść – pójść*, *jechać – pojechać* — обычные пары (сейчас иду / пойду). *chodzić, jeździć* — ndk для повторного или «вообще» движения: *Codziennie chodzę na basen.* Подробно — в отдельной теме."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "typed",
+   "title": "Видовые пары",
+   "instr": "Напишите парный глагол (dk → ndk или ndk → dk).",
+   "items": [
+    {
+     "q": "pisać → dk",
+     "a": [
+      "napisać"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "czytać → dk",
+     "a": [
+      "przeczytać"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "robić → dk",
+     "a": [
+      "zrobić"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "pić → dk",
+     "a": [
+      "wypić"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "jeść → dk",
+     "a": [
+      "zjeść"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "gotować → dk",
+     "a": [
+      "ugotować"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "malować → dk",
+     "a": [
+      "namalować"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "pytać → dk",
+     "a": [
+      "zapytać",
+      "spytać"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "uczyć się → dk",
+     "a": [
+      "nauczyć się"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "myśleć → dk",
+     "a": [
+      "pomyśleć"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "kupować → dk",
+     "a": [
+      "kupić"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "wracać → dk",
+     "a": [
+      "wrócić"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "otwierać → dk",
+     "a": [
+      "otworzyć"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "zapraszać → dk",
+     "a": [
+      "zaprosić"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "spotykać → dk",
+     "a": [
+      "spotkać"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "dawać → dk",
+     "a": [
+      "dać"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "polecać → dk",
+     "a": [
+      "polecić"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "zwiedzać → dk",
+     "a": [
+      "zwiedzić"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "brać → dk",
+     "a": [
+      "wziąć"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "mówić → dk",
+     "a": [
+      "powiedzieć"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "widzieć → dk",
+     "a": [
+      "zobaczyć"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "oglądać → dk",
+     "a": [
+      "obejrzeć"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "iść → dk",
+     "a": [
+      "pójść"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "jechać → dk",
+     "a": [
+      "pojechać"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "zamknąć → ndk",
+     "a": [
+      "zamykać"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "zacząć → ndk",
+     "a": [
+      "zaczynać"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "rzucić → ndk",
+     "a": [
+      "rzucać"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "pokazać → ndk",
+     "a": [
+      "pokazywać"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "podpisać → ndk",
+     "a": [
+      "podpisywać"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "przepisać → ndk",
+     "a": [
+      "przepisywać"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "typed",
+   "title": "Какой вид?",
+   "instr": "Напишите «ndk» или «dk».",
+   "items": [
+    {
+     "q": "kupować",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "zapisać",
+     "a": [
+      "dk"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "zapisywać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "wziąć",
+     "a": [
+      "dk"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "oglądać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "obejrzeć",
+     "a": [
+      "dk"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "spotkać",
+     "a": [
+      "dk"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "spotykać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "przepisywać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "dać",
+     "a": [
+      "dk"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "dawać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "pracować",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "powiedzieć",
+     "a": [
+      "dk"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "wracać",
+     "a": [
+      "ndk"
+     ],
+     "fact": "R6"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Прошедшее: процесс или результат",
+   "instr": "Выберите вид по смыслу и сигнальным словам и напишите форму прошедшего времени.",
+   "items": [
+    {
+     "q": "Codziennie rano {1} kawę z mlekiem. (ja ♀; pić / wypić)",
+     "a": [
+      "piłam"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Wreszcie {1} ten raport! (ja ♂; kończyć / skończyć)",
+     "a": [
+      "skończyłem"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Ewa całą godzinę {1} artykuł. (czytać / przeczytać)",
+     "a": [
+      "czytała"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "O czwartej rano Ewa w końcu {1} ten artykuł do końca. (czytać / przeczytać)",
+     "a": [
+      "przeczytała"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Często {1} się w tej kawiarni. (my ♂; spotykać / spotkać)",
+     "a": [
+      "spotykaliśmy"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Przedwczoraj przypadkiem {1} Marka na ulicy. (ja ♀; spotykać / spotkać)",
+     "a": [
+      "spotkałam"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Kiedy byłem mały, zawsze {1} bajki w niedzielę. (ja ♂; oglądać / obejrzeć)",
+     "a": [
+      "oglądałem"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Wczoraj {1} cały film i poszliśmy spać. (my; oglądać / obejrzeć)",
+     "a": [
+      "obejrzeliśmy",
+      "obejrzałyśmy"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Dwie godziny {1} ten pokój. (oni; malować / namalować)",
+     "a": [
+      "malowali"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Nagle {1}: „Mam dość!”. (ona; mówić / powiedzieć)",
+     "a": [
+      "powiedziała"
+     ],
+     "fact": "R13"
+    },
+    {
+     "q": "Natychmiast {1} bilet, bo była promocja. (ja ♂; kupować / kupić)",
+     "a": [
+      "kupiłem"
+     ],
+     "fact": "R13"
+    },
+    {
+     "q": "Co roku {1} jakieś nowe miasto. (oni; zwiedzać / zwiedzić)",
+     "a": [
+      "zwiedzali"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "W zeszłym roku {1} Kraków w jeden dzień. (my; zwiedzać / zwiedzić)",
+     "a": [
+      "zwiedziliśmy",
+      "zwiedziłyśmy"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Mama długo {1} obiad. (gotować / ugotować)",
+     "a": [
+      "gotowała"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mama {1} obiad i zawołała nas do stołu. (gotować / ugotować)",
+     "a": [
+      "ugotowała"
+     ],
+     "fact": "R16"
+    },
+    {
+     "q": "Przez rok {1} polskiego i w końcu {2} dobrze mówić. (ja ♀; uczyć się / nauczyć się)",
+     "a": {
+      "1": [
+       "uczyłam się"
+      ],
+      "2": [
+       "nauczyłam się"
+      ]
+     },
+     "fact": "R10, R12"
+    },
+    {
+     "q": "Wczoraj rano przez trzy godziny {1} maile. (ja ♂; pisać / napisać)",
+     "a": [
+      "pisałem"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Wczoraj rano {1} wszystkie maile i wysłałem je szefowi. (ja ♂; pisać / napisać)",
+     "a": [
+      "napisałem"
+     ],
+     "fact": "R14"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "Будущее: będę + ndk или одно слово dk",
+   "instr": "Напишите форму будущего времени. Для ndk принимаются оба варианта: będę + инфинитив и będę + форма на -ł.",
+   "items": [
+    {
+     "q": "Jutro {1} ten list. (ja; napisać)",
+     "a": [
+      "napiszę"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Jutro cały dzień {1} pracę magisterską. (ja ♀; pisać)",
+     "a": [
+      "będę pisać",
+      "będę pisała"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Zaraz {1} twoją wiadomość. (ja; przeczytać)",
+     "a": [
+      "przeczytam"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "W wakacje codziennie {1} w morzu. (my ♂; pływać)",
+     "a": [
+      "będziemy pływać",
+      "będziemy pływali"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Kiedy {1} pracę? (ty; skończyć)",
+     "a": [
+      "skończysz"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Wieczorem {1} mecz. (oni; oglądać)",
+     "a": [
+      "będą oglądać",
+      "będą oglądali"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Jak tylko {1}, {2} do ciebie. (ja; wrócić, zadzwonić)",
+     "a": {
+      "1": [
+       "wrócę"
+      ],
+      "2": [
+       "zadzwonię"
+      ]
+     },
+     "fact": "R2, R13"
+    },
+    {
+     "q": "Za rok {1} mieszkanie. (my; kupić)",
+     "a": [
+      "kupimy"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Od jutra {1} o szóstej. (ja ♂; wstawać)",
+     "a": [
+      "będę wstawać",
+      "będę wstawał"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Nie martw się, {1} to dzisiaj. (ja; zrobić)",
+     "a": [
+      "zrobię"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "W przyszłym tygodniu przez trzy dni {1} muzea w Paryżu. (ona; zwiedzać)",
+     "a": [
+      "będzie zwiedzać",
+      "będzie zwiedzała"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Czy {1} mi swój numer? (ty; dać)",
+     "a": [
+      "dasz"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Jutro {1} parasol. (ja; wziąć)",
+     "a": [
+      "wezmę"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "{1} do lekarza w poniedziałek. (ja; pójść)",
+     "a": [
+      "pójdę",
+      "Pójdę"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Co {1} szefowi? (ty; powiedzieć)",
+     "a": [
+      "powiesz"
+     ],
+     "fact": "R2"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "typed",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "В каждом предложении одна ошибка в виде. Напишите правильную форму (только исправленное слово/слова).",
+   "items": [
+    {
+     "q": "Jutro będę przeczytać tę książkę.",
+     "a": [
+      "przeczytam"
+     ],
+     "fact": "R3",
+     "hint": "Вместо «będę przeczytać» — одно слово."
+    },
+    {
+     "q": "Nie przeszkadzaj, teraz napiszę list! (действие идёт сейчас)",
+     "a": [
+      "piszę"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Codziennie zrobiłam zakupy w tym sklepie.",
+     "a": [
+      "robiłam"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Zacząłem napisać raport o ósmej.",
+     "a": [
+      "pisać"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Przestań zjeść słodycze!",
+     "a": [
+      "jeść"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Nagle dzwonił telefon.",
+     "a": [
+      "zadzwonił"
+     ],
+     "fact": "R13"
+    },
+    {
+     "q": "Kiedy czytałam, ktoś pukał do drzwi. (один стук прервал чтение)",
+     "a": [
+      "zapukał"
+     ],
+     "fact": "R15"
+    },
+    {
+     "q": "Skończyliśmy obejrzeć film o północy.",
+     "a": [
+      "oglądać"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Wczoraj obejrzałem telewizję przez trzy godziny.",
+     "a": [
+      "oglądałem"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Jutro będę kupię chleb.",
+     "a": [
+      "kupię",
+      "będę kupować",
+      "będę kupował",
+      "będę kupowała"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Nie zamknij okna, jest gorąco!",
+     "a": [
+      "zamykaj"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "Przez cały wieczór napisałam list.",
+     "a": [
+      "pisałam"
+     ],
+     "fact": "R10"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "gaps",
+   "title": "Два действия: фон, цепочка, одновременность",
+   "instr": "Напишите формы прошедшего времени.",
+   "items": [
+    {
+     "q": "Kiedy {1} książkę, {2} telefon. (ja ♀; czytać / przeczytać — dzwonić / zadzwonić)",
+     "a": {
+      "1": [
+       "czytałam"
+      ],
+      "2": [
+       "zadzwonił"
+      ]
+     },
+     "fact": "R15"
+    },
+    {
+     "q": "Gdy on {1} obiad, ja {2} gazetę. (gotować / ugotować — ja ♂; czytać / przeczytać)",
+     "a": {
+      "1": [
+       "gotował"
+      ],
+      "2": [
+       "czytałem"
+      ]
+     },
+     "fact": "R17"
+    },
+    {
+     "q": "Wszedł, {1} i {2} mówić. (siadać / usiąść — zaczynać / zacząć)",
+     "a": {
+      "1": [
+       "usiadł"
+      ],
+      "2": [
+       "zaczął"
+      ]
+     },
+     "fact": "R16"
+    },
+    {
+     "q": "Kiedy {1} kolację, {2} tata. (my; jeść / zjeść — wracać / wrócić)",
+     "a": {
+      "1": [
+       "jedliśmy",
+       "jadłyśmy"
+      ],
+      "2": [
+       "wrócił"
+      ]
+     },
+     "fact": "R15"
+    },
+    {
+     "q": "Najpierw {1} zakupy, potem {2} do domu i {3} obiad. (ona; robić / zrobić — wracać / wrócić — gotować / ugotować)",
+     "a": {
+      "1": [
+       "zrobiła"
+      ],
+      "2": [
+       "wróciła"
+      ],
+      "3": [
+       "ugotowała"
+      ]
+     },
+     "fact": "R16"
+    },
+    {
+     "q": "Podczas gdy dzieci {1} bajkę, rodzice {2} kuchnię. (oglądać / obejrzeć — malować / namalować)",
+     "a": {
+      "1": [
+       "oglądały"
+      ],
+      "2": [
+       "malowali"
+      ]
+     },
+     "fact": "R17"
+    },
+    {
+     "q": "Kiedy {1} z pracy, {2} sąsiada. (ja ♂; wracać / wrócić — spotykać / spotkać)",
+     "a": {
+      "1": [
+       "wracałem"
+      ],
+      "2": [
+       "spotkałem"
+      ]
+     },
+     "fact": "R15"
+    },
+    {
+     "q": "{1} okno, {2} głęboki oddech i {3} kawę. (ja ♀; otwierać / otworzyć — brać / wziąć — pić / wypić)",
+     "a": {
+      "1": [
+       "Otworzyłam",
+       "otworzyłam"
+      ],
+      "2": [
+       "wzięłam"
+      ],
+      "3": [
+       "wypiłam"
+      ]
+     },
+     "fact": "R16"
+    },
+    {
+     "q": "Kiedy Ania {1} maila, jej brat {2} na gitarze. (pisać / napisać — grać)",
+     "a": {
+      "1": [
+       "pisała"
+      ],
+      "2": [
+       "grał"
+      ]
+     },
+     "fact": "R17"
+    },
+    {
+     "q": "Gdy {1} muzeum, {2} padać deszcz. (my; zwiedzać / zwiedzić — zaczynać / zacząć)",
+     "a": {
+      "1": [
+       "zwiedzaliśmy",
+       "zwiedzałyśmy"
+      ],
+      "2": [
+       "zaczął"
+      ]
+     },
+     "fact": "R15"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "kind": "gaps",
+   "title": "Zacząć / przestać + инфинитив; просьбы и запреты",
+   "instr": "Напишите правильную форму из скобок.",
+   "items": [
+    {
+     "q": "Zaczęłam {1} nową książkę. (czytać / przeczytać)",
+     "a": [
+      "czytać"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Kiedy skończysz {1} raport? (pisać / napisać)",
+     "a": [
+      "pisać"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Przestań {1} tak głośno! (mówić / powiedzieć)",
+     "a": [
+      "mówić"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Dzieci zaczęły {1} obiad o drugiej. (jeść / zjeść)",
+     "a": [
+      "jeść"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Skończyliśmy {1} serial o północy. (oglądać / obejrzeć)",
+     "a": [
+      "oglądać"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Przestałam {1} kawę wieczorem. (pić / wypić)",
+     "a": [
+      "pić"
+     ],
+     "fact": "R18"
+    },
+    {
+     "q": "Nie {1} okna, jest zimno! (otwieraj / otwórz)",
+     "a": [
+      "otwieraj"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "{1} drzwi, proszę. (Zamykaj / Zamknij — одна просьба)",
+     "a": [
+      "Zamknij",
+      "zamknij"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "Nie {1} tego, to za drogo! (kupuj / kup)",
+     "a": [
+      "kupuj"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "{1} chleb w drodze do domu. (Kupuj / Kup — один раз)",
+     "a": [
+      "Kup",
+      "kup"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "Nie {1} nikomu! (mów / powiedz)",
+     "a": [
+      "mów"
+     ],
+     "fact": "R19"
+    },
+    {
+     "q": "{1} mi, która jest godzina. (Mów / Powiedz)",
+     "a": [
+      "Powiedz",
+      "powiedz"
+     ],
+     "fact": "R19"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Pierwszy rok w Polsce",
+   "instr": "Proszę wpisać odpowiednią formę czasownika w nawiasie: czas przeszły lub przyszły, właściwy aspekt. Narratorka — kobieta.",
+   "text": "Kiedy w zeszłym roku przyjechałam do Polski, przez pierwsze tygodnie codziennie {1} (uczyć się / nauczyć się) nowych słów. Rano {2} (czytać / przeczytać) polskie gazety, a wieczorami {3} (oglądać / obejrzeć) seriale z napisami. Po trzech miesiącach {4} (zaczynać / zacząć) rozumieć, o czym mówią ludzie w tramwaju. Pewnego dnia, kiedy {5} (wracać / wrócić) z pracy, {6} (spotykać / spotkać) w sklepie moją sąsiadkę, panią Zofię. {7} (pytać / zapytać) mnie, skąd jestem, i {8} (zapraszać / zaprosić) mnie na herbatę. Tego wieczoru {9} (pić / wypić) u niej trzy filiżanki herbaty i {10} (jeść / zjeść) duży kawałek sernika. W przyszłą sobotę pani Zofia {11} (pokazywać / pokazać) mi Stare Miasto. Na pewno {12} (robić / zrobić) dużo zdjęć i {13} (kupować / kupić) pamiątki dla rodziny. A od poniedziałku {14} (chodzić) na kurs dla zaawansowanych.",
+   "a": {
+    "1": [
+     "uczyłam się"
+    ],
+    "2": [
+     "czytałam"
+    ],
+    "3": [
+     "oglądałam"
+    ],
+    "4": [
+     "zaczęłam"
+    ],
+    "5": [
+     "wracałam"
+    ],
+    "6": [
+     "spotkałam"
+    ],
+    "7": [
+     "Zapytała",
+     "zapytała"
+    ],
+    "8": [
+     "zaprosiła"
+    ],
+    "9": [
+     "wypiłam"
+    ],
+    "10": [
+     "zjadłam"
+    ],
+    "11": [
+     "pokaże"
+    ],
+    "12": [
+     "zrobię"
+    ],
+    "13": [
+     "kupię"
+    ],
+    "14": [
+     "będę chodzić",
+     "będę chodziła"
+    ]
+   },
+   "facts": {
+    "1": "R11",
+    "2": "R11",
+    "3": "R11",
+    "4": "R18",
+    "5": "R15",
+    "6": "R15",
+    "7": "R16",
+    "8": "R16",
+    "9": "R12",
+    "10": "R12",
+    "11": "R2",
+    "12": "R2",
+    "13": "R2",
+    "14": "R3"
+   }
+  },
+  {
+   "id": "e9",
+   "kind": "gaps",
+   "format": "exam",
+   "title": "Przekształcenia: из процесса — в результат",
+   "instr": "Дополните второе предложение так, чтобы оно передавало результат / одно действие.",
+   "items": [
+    {
+     "q": "Zwykle piszę maile wieczorem. → Wczoraj wieczorem {1} wszystkie maile. (ja)",
+     "a": [
+      "napisałem",
+      "napisałam"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Teraz oglądam ten film. → Jutro {1} ten film do końca. (ja)",
+     "a": [
+      "obejrzę"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Kupuję chleb codziennie. → Jutro rano też {1} chleb. (ja, jeden raz)",
+     "a": [
+      "kupię"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Mama gotuje zupę. → Za godzinę mama {1} zupę i zjemy obiad.",
+     "a": [
+      "ugotuje"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Często spotykam Adama. → Wczoraj przypadkiem {1} Adama. (ja)",
+     "a": [
+      "spotkałem",
+      "spotkałam"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Uczę się tego wiersza. → Wreszcie {1} tego wiersza na pamięć! (ja)",
+     "a": [
+      "nauczyłem się",
+      "nauczyłam się"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Bierzesz parasol? → Jutro {1} parasol?",
+     "a": [
+      "weźmiesz"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Zawsze mówię prawdę. → Jutro {1} mu całą prawdę. (ja)",
+     "a": [
+      "powiem"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Codziennie zamykam okno na noc. → Zaraz {1} okno. (ja)",
+     "a": [
+      "zamknę"
+     ],
+     "fact": "R13"
+    },
+    {
+     "q": "Często daję mu rady. → Jutro {1} mu ostatnią radę. (ja)",
+     "a": [
+      "dam"
+     ],
+     "fact": "R2"
+    }
+   ]
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "list",
+   "title": "E-mail do przyjaciela: weekend",
+   "prompt": "Napisz e-mail do koleżanki lub kolegi (80–100 słów). Opowiedz, co robiłeś/robiłaś w zeszły weekend i co zrobisz w przyszły.",
+   "checklist": [
+    "минимум 4 глагола dk в прошедшем (результат: przeczytałam, obejrzeliśmy…)",
+    "минимум 3 глагола ndk в прошедшем (процесс/повтор: cały dzień sprzątałam, często…)",
+    "минимум 2 будущих dk (zrobię, pojadę) и 1 будущее ndk с będę",
+    "хотя бы одно предложение «kiedy + ndk, … + dk» (прерывание)",
+    "приветствие и подпись (Cześć…, Pozdrawiam / Buziaki)"
+   ],
+   "facts": [
+    "R2",
+    "R3",
+    "R10",
+    "R12",
+    "R15"
+   ],
+   "model": "Cześć Kasiu!\nCo u Ciebie? W sobotę rano długo spałam, a potem cały dzień sprzątałam mieszkanie. Wieczorem przyszedł Tomek i razem obejrzeliśmy nowy film. Kiedy oglądaliśmy ostatnią scenę, nagle zgasło światło! W niedzielę wreszcie przeczytałam książkę, którą mi poleciłaś, i napisałam do Ciebie tego maila. W przyszły weekend pojadę do Krakowa. Zwiedzę Wawel i kupię prezent dla mamy. W niedzielę będę odpoczywać nad Wisłą. Może pojedziesz ze mną?\nBuziaki,\nOla"
+  },
+  {
+   "id": "w2",
+   "genre": "opowiadanie",
+   "title": "Opowiadanie: „To był dziwny dzień”",
+   "prompt": "Napisz opowiadanie (100–120 słów), które zaczyna się od zdania: „To był dziwny dzień”. Opisz tło (co się działo) i wydarzenia (co się stało).",
+   "checklist": [
+    "фон — ndk: świeciło słońce, ludzie spieszyli się…",
+    "события — цепочка dk: wszedł, usiadł, zapytał…",
+    "минимум 2 сигнальных слова: nagle, w końcu, wreszcie, natychmiast",
+    "одна одновременность ndk + ndk (podczas gdy / gdy)",
+    "конец истории (Na koniec…, W końcu…)"
+   ],
+   "facts": [
+    "R10",
+    "R13",
+    "R15",
+    "R16",
+    "R17"
+   ],
+   "model": "To był dziwny dzień. Rano padał deszcz, a ja czekałam na autobus. Podczas gdy ludzie rozmawiali przez telefon, ja czytałam gazetę. Nagle obok mnie zatrzymał się stary samochód. Wysiadł z niego starszy pan, podszedł do mnie i zapytał, czy nie zgubiłam portfela. Sprawdziłam torebkę — portfela nie było! Pan uśmiechnął się i oddał mi go. Powiedział, że znalazł go na przystanku przy moim domu. Natychmiast podziękowałam i chciałam dać mu coś w nagrodę, ale nie wziął pieniędzy. Wsiadł do samochodu i odjechał. Do dziś nie wiem, jak się nazywał."
+  }
+ ]
+}

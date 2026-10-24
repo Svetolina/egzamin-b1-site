@@ -1,0 +1,1070 @@
+{
+ "id": "swoj-siebie",
+ "num": 15,
+ "title": "Swój или jego; siebie, sobie, się",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "stopniowanie",
+ "next": "imieslowy-przyslowkowe",
+ "summary": "Когда «свой» — swój, а когда jego/jej/ich; почему swój не бывает подлежащим; возвратное местоимение siebie/sobie/sobą/się и взаимные действия.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "swój — «свой»",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "body": "**swój** указывает на владельца-подлежащее: *Jan kocha swoją żonę.* Если владелец — кто-то другой, нужны **jego / jej / ich**: *Jan kocha jego żonę* — Ян любит жену другого человека (!).",
+   "table": {
+    "head": [
+     "Владелец = подлежащее",
+     "Владелец — другой"
+    ],
+    "rows": [
+     [
+      "Anna odwiedza swoją babcię.",
+      "Anna odwiedza jej babcię (чужую)."
+     ],
+     [
+      "Oni sprzedali swój dom.",
+      "Oni kupili ich dom."
+     ],
+     [
+      "Piotr jedzie swoim samochodem.",
+      "Piotr jedzie jego samochodem (чужим)."
+     ]
+    ]
+   },
+   "note": "Как в русском «свой / его»: «Ян любит свою жену» — «его жену»."
+  },
+  {
+   "id": "s2",
+   "title": "Где swój нельзя",
+   "facts": [
+    "R3",
+    "R5"
+   ],
+   "body": "В подлежащем — никогда: ***Mój** brat mieszka w Krakowie. **Jego** dom jest duży.* Не *Swój brat…*.\n\n**jego, jej, ich** не склоняются: *jego dom, jego żona, z jego dziećmi.*"
+  },
+  {
+   "id": "s3",
+   "title": "Я и ты: swój или mój?",
+   "facts": [
+    "R4"
+   ],
+   "body": "С «я», «ты», «мы», «вы» в аккуратной речи лучше **swój**: *Odwiedzam swojego brata.* Форма *mojego* тоже встречается, особенно в разговоре, — ошибкой смысла она не будет. В упражнениях засчитываются обе."
+  },
+  {
+   "id": "s4",
+   "title": "Склонение swój",
+   "facts": [
+    "R6"
+   ],
+   "table": {
+    "head": [
+     "Падеж",
+     "м. р.",
+     "ж. р.",
+     "ср. р.",
+     "мн. ч."
+    ],
+    "rows": [
+     [
+      "M.",
+      "swój",
+      "swoja",
+      "swoje",
+      "swoi / swoje"
+     ],
+     [
+      "D.",
+      "swojego",
+      "swojej",
+      "swojego",
+      "swoich"
+     ],
+     [
+      "C.",
+      "swojemu",
+      "swojej",
+      "swojemu",
+      "swoim"
+     ],
+     [
+      "B.",
+      "swój / swojego",
+      "swoją",
+      "swoje",
+      "swoich / swoje"
+     ],
+     [
+      "N.",
+      "swoim",
+      "swoją",
+      "swoim",
+      "swoimi"
+     ],
+     [
+      "Ms.",
+      "swoim",
+      "swojej",
+      "swoim",
+      "swoich"
+     ]
+    ]
+   },
+   "note": "Склоняется точно как mój (mojego, mojej, moim…)."
+  },
+  {
+   "id": "s5",
+   "title": "siebie, sobie, sobą, się",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "Падеж",
+     "Форма",
+     "Пример"
+    ],
+    "rows": [
+     [
+      "M.",
+      "—",
+      "(нет)"
+     ],
+     [
+      "D.",
+      "siebie",
+      "dla siebie, do siebie, u siebie"
+     ],
+     [
+      "C.",
+      "sobie",
+      "kupiłem sobie"
+     ],
+     [
+      "B.",
+      "siebie / się",
+      "myję się; patrzę na siebie"
+     ],
+     [
+      "N.",
+      "sobą",
+      "ze sobą"
+     ],
+     [
+      "Ms.",
+      "sobie",
+      "o sobie, na sobie"
+     ]
+    ]
+   },
+   "body": "Одна форма для всех лиц: *myję się, myjesz się, myjemy się.*"
+  },
+  {
+   "id": "s6",
+   "title": "się или siebie?",
+   "facts": [
+    "R9",
+    "R10"
+   ],
+   "body": "**się** — безударное, стоит при глаголе: *Myję się każdego ranka.* **siebie** — полное: после предлога и при противопоставлении: *Myję tylko siebie.*\n\n**sobie** — «себе»: *Kupiłem sobie książkę. Nalej sobie kawy.*",
+   "note": "Ошибки: *o się → o sobie; *Kupiłem się książkę → Kupiłem sobie książkę."
+  },
+  {
+   "id": "s7",
+   "title": "o sobie или o niej?",
+   "facts": [
+    "R11"
+   ],
+   "body": "Если речь о самом подлежащем — **siebie / sobie**: *Ona myśli tylko o sobie.* Личное местоимение означает другого человека: *Ona myśli tylko o niej* — о другой женщине. (Прямо подтверждено одним источником.)"
+  },
+  {
+   "id": "s8",
+   "title": "Друг друга",
+   "facts": [
+    "R12"
+   ],
+   "body": "**się**: *Kochają się. Spotkaliśmy się na lotnisku.* Если глагол требует другого падежа/предлога — **sobie / siebie / sobą**: *Pomagają sobie. Piszą do siebie. Rozmawiają ze sobą.* Усиление — **nawzajem**: *Pomagamy sobie nawzajem.*",
+   "note": "«Miłego weekendu!» — «Nawzajem!» (И вам!)."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "swój или jego / jej / ich?",
+   "kind": "gaps",
+   "instr": "Впишите swój (в нужной форме) или jego / jej / ich. В скобках — чья вещь.",
+   "facts": [
+    "R1",
+    "R2",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "Jan kocha {1} żonę. (жену Яна)",
+     "a": [
+      [
+       "swoją"
+      ]
+     ]
+    },
+    {
+     "q": "Jan zna Piotra i {1} żonę. (жену Петра)",
+     "a": [
+      [
+       "jego"
+      ]
+     ]
+    },
+    {
+     "q": "Anna odwiedza {1} babcię. (свою)",
+     "a": [
+      [
+       "swoją"
+      ]
+     ]
+    },
+    {
+     "q": "Piotr i Ewa sprzedali {1} samochód. (свой)",
+     "a": [
+      [
+       "swój"
+      ]
+     ]
+    },
+    {
+     "q": "Marek pożyczył auto od Tomka i jedzie {1} samochodem. (Томека)",
+     "a": [
+      [
+       "jego"
+      ]
+     ]
+    },
+    {
+     "q": "Dzieci bawią się {1} zabawkami. (своими)",
+     "a": [
+      [
+       "swoimi"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa spotkała Kasię i {1} męża. (мужа Каси)",
+     "a": [
+      [
+       "jej"
+      ]
+     ]
+    },
+    {
+     "q": "Oni rozmawiają o {1} problemach. (своих)",
+     "a": [
+      [
+       "swoich"
+      ]
+     ]
+    },
+    {
+     "q": "Sąsiedzi wyjechali, a my podlewamy {1} kwiaty. (соседей)",
+     "a": [
+      [
+       "ich"
+      ]
+     ]
+    },
+    {
+     "q": "Profesor czyta {1} artykuł. (свою статью)",
+     "a": [
+      [
+       "swój"
+      ]
+     ]
+    },
+    {
+     "q": "Mama dzwoni do {1} siostry. (своей)",
+     "a": [
+      [
+       "swojej"
+      ]
+     ]
+    },
+    {
+     "q": "Lubię Martę, ale nie lubię {1} psa. (Марты)",
+     "a": [
+      [
+       "jej"
+      ]
+     ]
+    },
+    {
+     "q": "Tomek mieszka ze {1} rodzicami. (своими)",
+     "a": [
+      [
+       "swoimi"
+      ]
+     ]
+    },
+    {
+     "q": "Studenci oddali {1} prace. (свои)",
+     "a": [
+      [
+       "swoje"
+      ]
+     ]
+    },
+    {
+     "q": "Nie znam {1} adresu. (его)",
+     "a": [
+      [
+       "jego"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "swój в нужном падеже",
+   "kind": "gaps",
+   "instr": "Поставьте swój в нужную форму. С «я/мы» засчитывается и mój/nasz.",
+   "facts": [
+    "R6",
+    "R4"
+   ],
+   "items": [
+    {
+     "q": "Pomagam {1} mamie.",
+     "a": [
+      [
+       "swojej",
+       "mojej"
+      ]
+     ]
+    },
+    {
+     "q": "Jadę do pracy {1} samochodem.",
+     "a": [
+      [
+       "swoim",
+       "moim"
+      ]
+     ]
+    },
+    {
+     "q": "On nie ma {1} pokoju.",
+     "a": [
+      [
+       "swojego"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa myśli o {1} przyszłości.",
+     "a": [
+      [
+       "swojej"
+      ]
+     ]
+    },
+    {
+     "q": "Dziadek opowiada o {1} młodości.",
+     "a": [
+      [
+       "swojej"
+      ]
+     ]
+    },
+    {
+     "q": "Kasia przedstawiła mi {1} chłopaka.",
+     "a": [
+      [
+       "swojego"
+      ]
+     ]
+    },
+    {
+     "q": "Oni zaprosili {1} przyjaciół.",
+     "a": [
+      [
+       "swoich"
+      ]
+     ]
+    },
+    {
+     "q": "Marek dał prezent {1} siostrze.",
+     "a": [
+      [
+       "swojej"
+      ]
+     ]
+    },
+    {
+     "q": "Każdy ma {1} zdanie.",
+     "a": [
+      [
+       "swoje"
+      ]
+     ]
+    },
+    {
+     "q": "Rodzice są dumni ze {1} dzieci.",
+     "a": [
+      [
+       "swoich"
+      ]
+     ]
+    },
+    {
+     "q": "Ona rozmawia ze {1} szefem.",
+     "a": [
+      [
+       "swoim"
+      ]
+     ]
+    },
+    {
+     "q": "Wróciliśmy do {1} domu.",
+     "a": [
+      [
+       "swojego",
+       "naszego"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Подлежащее или дополнение?",
+   "kind": "gaps",
+   "instr": "Впишите местоимение (в скобках — по-русски). Помните: swój не бывает в подлежащем.",
+   "facts": [
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "items": [
+    {
+     "q": "{1} brat mieszka w Krakowie. (мой)",
+     "a": [
+      [
+       "Mój"
+      ]
+     ]
+    },
+    {
+     "q": "Odwiedzam {1} brata w Krakowie. (своего, я)",
+     "a": [
+      [
+       "swojego",
+       "mojego"
+      ]
+     ]
+    },
+    {
+     "q": "Marek i {1} żona przyszli na imprezę. (его)",
+     "a": [
+      [
+       "jego"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa przyszła ze {1} mężem. (своим)",
+     "a": [
+      [
+       "swoim"
+      ]
+     ]
+    },
+    {
+     "q": "{1} dzieci chodzą do szkoły. (её)",
+     "a": [
+      [
+       "Jej"
+      ]
+     ]
+    },
+    {
+     "q": "Anna kocha {1} dzieci. (своих)",
+     "a": [
+      [
+       "swoje"
+      ]
+     ]
+    },
+    {
+     "q": "Czy {1} samochód jest nowy? (твой)",
+     "a": [
+      [
+       "twój"
+      ]
+     ]
+    },
+    {
+     "q": "Sprzedałeś już {1} samochód? (свой, ты)",
+     "a": [
+      [
+       "swój",
+       "twój"
+      ]
+     ]
+    },
+    {
+     "q": "{1} rodzice są lekarzami. (их)",
+     "a": [
+      [
+       "Ich"
+      ]
+     ]
+    },
+    {
+     "q": "Oni odwiedzają {1} rodziców co tydzień. (своих)",
+     "a": [
+      [
+       "swoich"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "siebie, sobie, sobą или się?",
+   "kind": "gaps",
+   "instr": "Впишите нужную форму.",
+   "facts": [
+    "R7",
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Kupiłam {1} nową sukienkę.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Myję {1} każdego ranka.",
+     "a": [
+      [
+       "się"
+      ]
+     ]
+    },
+    {
+     "q": "Opowiedz mi coś o {1}.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Zrobiłem to dla {1}.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "On zawsze myśli tylko o {1}.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Masz przy {1} dokumenty?",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Jestem z {1} dumny.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Wracam do {1}. (домой)",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Weź parasol ze {1}.",
+     "a": [
+      [
+       "sobą"
+      ]
+     ]
+    },
+    {
+     "q": "Patrzyła na {1} w lustrze.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Ona nie jest pewna {1}.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Co masz na {1}? (какая одежда)",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Usiedliśmy obok {1}.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Nalej {1} kawy.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Себя или его/её?",
+   "kind": "gaps",
+   "instr": "Впишите siebie/sobie/sobą или личное местоимение — по смыслу в скобках.",
+   "facts": [
+    "R11",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Ona myśli tylko o {1}. (о себе)",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Ona myśli tylko o {1}. (о ней — о другой)",
+     "a": [
+      [
+       "niej"
+      ]
+     ]
+    },
+    {
+     "q": "Marek kupił {1} książkę. (себе)",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Marek kupił {1} książkę. (ему — другому)",
+     "a": [
+      [
+       "mu",
+       "jemu"
+      ]
+     ]
+    },
+    {
+     "q": "Jestem dumna z {1}. (собой)",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Jestem dumna z {1}. (тобой)",
+     "a": [
+      [
+       "ciebie"
+      ]
+     ]
+    },
+    {
+     "q": "Oni rozmawiają o {1}. (о себе)",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Oni rozmawiają o {1}. (о них — о других)",
+     "a": [
+      [
+       "nich"
+      ]
+     ]
+    },
+    {
+     "q": "Zabierz psa ze {1}. (с собой)",
+     "a": [
+      [
+       "sobą"
+      ]
+     ]
+    },
+    {
+     "q": "Zrobiłam to dla {1}. (для него)",
+     "a": [
+      [
+       "niego"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Друг друга",
+   "kind": "gaps",
+   "instr": "Впишите się, sobie, siebie, sobą или nawzajem.",
+   "facts": [
+    "R12"
+   ],
+   "items": [
+    {
+     "q": "Anna i Piotr kochają {1} od liceum.",
+     "a": [
+      [
+       "się"
+      ]
+     ]
+    },
+    {
+     "q": "Pomagamy {1} nawzajem.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Piszą do {1} długie listy.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Długo rozmawiali ze {1}.",
+     "a": [
+      [
+       "sobą"
+      ]
+     ]
+    },
+    {
+     "q": "Spotkaliśmy {1} przypadkiem na lotnisku.",
+     "a": [
+      [
+       "się"
+      ]
+     ]
+    },
+    {
+     "q": "Patrzyli na {1} bez słowa.",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Znamy {1} od dziecka.",
+     "a": [
+      [
+       "się"
+      ]
+     ]
+    },
+    {
+     "q": "— Miłego weekendu! — {1}!",
+     "a": [
+      [
+       "Nawzajem",
+       "Wzajemnie"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: письмо",
+   "kind": "gaps",
+   "instr": "Uzupełnij list. Wpisz swój / jego / jej / ich w odpowiedniej formie albo siebie / sobie / sobą / się. W nawiasie — podpowiedź po rosyjsku.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R6",
+    "R9",
+    "R12"
+   ],
+   "items": [
+    {
+     "q": "Droga Aniu! Mój brat Tomek wreszcie kupił {1} pierwsze mieszkanie. (своё)",
+     "a": [
+      [
+       "swoje",
+       "własne"
+      ]
+     ]
+    },
+    {
+     "q": "Mieszka w nim ze {1} dziewczyną. (своей)",
+     "a": [
+      [
+       "swoją"
+      ]
+     ]
+    },
+    {
+     "q": "{1} dziewczyna ma na imię Ola. (его)",
+     "a": [
+      [
+       "Jego"
+      ]
+     ]
+    },
+    {
+     "q": "Ola pracuje w szkole i bardzo lubi {1} pracę. (свою)",
+     "a": [
+      [
+       "swoją"
+      ]
+     ]
+    },
+    {
+     "q": "W sobotę zaprosili nas do {1}. (к себе)",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    },
+    {
+     "q": "Tomek pokazał nam {1} nowe meble, (свои)",
+     "a": [
+      [
+       "swoje"
+      ]
+     ]
+    },
+    {
+     "q": "a Ola opowiadała o {1} rodzinie. (своей)",
+     "a": [
+      [
+       "swojej"
+      ]
+     ]
+    },
+    {
+     "q": "{1} rodzice mieszkają w Gdańsku. (её)",
+     "a": [
+      [
+       "Jej"
+      ]
+     ]
+    },
+    {
+     "q": "Wieczorem Tomek i Ola pomagali {1} w kuchni. (друг другу)",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Widać, że dobrze czują się ze {1}. (друг с другом)",
+     "a": [
+      [
+       "sobą"
+      ]
+     ]
+    },
+    {
+     "q": "Mama była bardzo dumna ze {1} syna. (своего)",
+     "a": [
+      [
+       "swojego"
+      ]
+     ]
+    },
+    {
+     "q": "Następnym razem zaprosimy ich do {1}. (к себе) Całuję, Kasia",
+     "a": [
+      [
+       "siebie"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте предложение, используя swój или siebie/sobie/sobą. Напечатайте продолжение.",
+   "facts": [
+    "R1",
+    "R2",
+    "R9",
+    "R10",
+    "R12"
+   ],
+   "items": [
+    {
+     "q": "Marek myje samochód. Samochód należy do Marka. → Marek myje {1}.",
+     "a": [
+      [
+       "swój samochód"
+      ]
+     ]
+    },
+    {
+     "q": "Anna rozmawia z mamą Anny. → Anna rozmawia ze {1}.",
+     "a": [
+      [
+       "swoją mamą"
+      ]
+     ]
+    },
+    {
+     "q": "Kupiłem książkę dla siebie. → Kupiłem {1} książkę.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Oni pomagają jeden drugiemu. → Oni pomagają {1}.",
+     "a": [
+      [
+       "sobie nawzajem",
+       "sobie",
+       "nawzajem sobie"
+      ]
+     ]
+    },
+    {
+     "q": "Przyjechał mój brat i żona mojego brata. → Przyjechał mój brat i {1}.",
+     "a": [
+      [
+       "jego żona"
+      ]
+     ]
+    },
+    {
+     "q": "Piotr odwiedza babcię Piotra. → Piotr odwiedza {1}.",
+     "a": [
+      [
+       "swoją babcię"
+      ]
+     ]
+    },
+    {
+     "q": "Tomek rozmawiał z Olą, a Ola z Tomkiem. → Tomek i Ola rozmawiali {1}.",
+     "a": [
+      [
+       "ze sobą"
+      ]
+     ]
+    },
+    {
+     "q": "Klucze są ze mną. → Mam klucze przy {1}.",
+     "a": [
+      [
+       "sobie"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Моя семья",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R5"
+   ],
+   "instr": "Napisz tekst o swojej rodzinie (80–100 słów): przedstaw dwie lub trzy osoby — gdzie mieszkają, co robią, z kim, jakie mają hobby.",
+   "checklist": [
+    "не меньше 4 форм swój в разных падежах",
+    "не меньше 2 форм jego / jej / ich",
+    "ни одного swój в подлежащем",
+    "хотя бы 1 sobie / ze sobą"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Отпуск с друзьями",
+   "facts": [
+    "R9",
+    "R10",
+    "R12"
+   ],
+   "instr": "Napisz e-mail do koleżanki (80–100 słów) o wyjeździe z przyjaciółmi: co zabraliście ze sobą, jak sobie pomagaliście, co kupiliście sobie na pamiątkę, o czym rozmawialiście.",
+   "checklist": [
+    "ze sobą, sobie, siebie — хотя бы по 1 разу",
+    "1 взаимное действие с się (spotkaliśmy się…)",
+    "1 nawzajem",
+    "2 формы swój"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 89,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 8,
+  "facts": 12
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "topic": "tryb-rozkazujacy",
+ "title": "Tryb rozkazujący — повелительное наклонение",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "PIN",
+   "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+   "url": "https://polski.info/grammar/verbs#verbs10"
+  },
+  {
+   "id": "DZI",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf"
+  },
+  {
+   "id": "ELF",
+   "title": "elon.io Polish grammar: «Imperative: formation»",
+   "url": "https://elon.io/grammar/polish/verbs/imperative/formation"
+  },
+  {
+   "id": "CLZ",
+   "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+   "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/"
+  },
+  {
+   "id": "COP",
+   "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+   "url": "https://courseofpolish.com/grammar/verbs/imperative"
+  },
+  {
+   "id": "ZPE",
+   "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», раздел «Tryb rozkazujący»",
+   "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p"
+  },
+  {
+   "id": "GJ6",
+   "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы об imperative",
+   "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html"
+  },
+  {
+   "id": "WEN",
+   "title": "Wikipedia (en): Polish grammar — Verbs / Imperative",
+   "url": "https://en.wikipedia.org/wiki/Polish_grammar"
+  },
+  {
+   "id": "EL1",
+   "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?», раздел 2 «Negative imperative»",
+   "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "У повелительного наклонения три собственные формы: 2 л. ед. ч. (ty: czytaj), 1 л. мн. ч. (my: czytajmy — «давайте читать»), 2 л. мн. ч. (wy: czytajcie). Для остальных лиц — частица niech.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Imperative»: три формы, пустые клетки ja/on/oni"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Forms of the imperative»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«Plural and 1pl forms»"
+    },
+    {
+     "title": "Wikipedia (en): Polish grammar — Verbs / Imperative",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "id": "WEN",
+     "where": "Imperative: -my, -cie, niech"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы об imperative",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«simple forms… other persons use niech»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "Основа: настоящее время для ndk, простое будущее для dk (pisze → pisz, napisze → napisz). Время и род у повелительного не различаются.",
+   "sources": [
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Formation base»: 3 л. ед. ч. present / simple future"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«Formation base»"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», раздел «Tryb rozkazujący»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Tryb rozkazujący»: нет рода и времени"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Глаголы спряжения -m, -sz (czytam, czytasz; umiem; jem; wiem): берём форму oni и отбрасываем -ą: czytają → czytaj, słuchają → słuchaj, umieją → umiej, jedzą → jedz, wiedzą → wiedz. (Иначе: 3 л. ед. ч. на -a + -j: czyta → czytaj.)",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Conjugation -m, -sz»: czytaj, słuchaj, jedz, wiedz"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Conjugation I and IV»: czyta → czytaj, umie → umiej; jedz, wiedz"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Stem rules»: -a + -j"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Глаголы спряжения -ę, -esz / -ę, -isz (-ysz): отбрасываем -esz / -isz / -ysz от формы ty. Если на конце один согласный — окончания нет: piszesz → pisz, mówisz → mów, pracujesz → pracuj, bierzesz → bierz, patrzysz → patrz. Мягкость перед -i пишется знаком: niesiesz → nieś, idziesz → idź, prosisz → proś, zadzwonisz → zadzwoń, płacisz → płać.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Conjugation -ę, -esz and -ę, -isz/ysz»: один согласный — без окончания; nieś, idź"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Conjugation II and III»: bierz, pisz, mów"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Stem rules»: -e/-y отпадает; -i/-ie отпадает, c, s, n, dz, z → ć, ś, ń, dź, ź"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Если после отбрасывания окончания остаются два согласных (сочетание, которое трудно произнести), обычно добавляется -ij (после мягкого) / -yj (после твёрдого): zamkniesz → zamknij, śpisz → śpij, przypomnisz → przypomnij, wyślesz → wyślij, zapomnisz → zapomnij.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Two consonants left: usually -ij»: przypomnij, sprzątnij"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«-ij / -yj Endings»: śpij, zamknij, myj"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "таблица: śpij, rośnij, biegnij"
+    }
+   ],
+   "note": "Слово «обычно» важно: есть исключения вроде martw się, patrz."
+  },
+  {
+   "id": "R6",
+   "text": "В закрытом слоге o переходит в ó: robisz → rób, stoisz → stój, otworzysz → otwórz, pomożesz → pomóż; ó сохраняется и во мн. ч.: róbcie, róbmy.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«Vowel Alternation: o → ó»: rób, róbcie"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«o → ó»: rób, twórz, gróź; stój в таблице"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«In (z)robić, the o changes into ó»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Глаголы на -awać (dawać, wstawać, sprzedawać, zostawać) образуют форму от инфинитива: -ć → -j: dawaj, wstawaj (не *daj от dawać).",
+   "sources": [
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Infinitives ending in -awać replace -ć with -j»"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«wstawać → wstawaj, derived from the infinitive»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Неправильные формы, которые надо выучить: być → bądź, mieć → miej, wziąć → weź, jeść → jedz, wiedzieć → wiedz (и powiedz), zrozumieć → zrozum, zostać → zostań.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Irregular forms»: bądź, miej, weź"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«Irregular Forms»: bądź, idź"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "таблица неправильных: jedz, powiedz, zrozum, miej, zostań, stój"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "weź; powiedz"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "исключения jedz, wiedz"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Мн. ч.: к форме ty добавляем -my (давайте…) или -cie (вы…): pisz → piszmy, piszcie; idź → idźmy, idźcie; bądź → bądźcie; weź → weźcie.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«pisz → piszmy → piszcie»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "róbmy, róbcie, idźmy, idźcie"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Plural: add -my or -cie»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Plural Forms»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "text": "Возвратная частица się остаётся при глаголе: ucz się, nie martw się, trzymaj się, nie gniewaj się, uczcie się.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "пример «ucz się»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Uses»: Trzymaj się!, Nie gniewaj się!"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "text": "Для 3-го лица и вежливого обращения: niech + форма 3 л. настоящего (ndk) или простого будущего (dk): Niech pan czyta. Niech Kasia zadzwoni. Niech państwo usiądą. Niech czekają.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Formal address»: Niech pan czyta dalej"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Formal Imperative (niech)»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«niech + 3rd Person»"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Niech (formal requests)»"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«niech (Third Person)»"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "text": "Вежливая нейтральная просьба к незнакомому: proszę + инфинитив: Proszę usiąść. Proszę nie palić. Так пишут и в объявлениях. К pan/pani нельзя обращаться формой ty (*Siadaj, pani!).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Imperative: formation»",
+     "url": "https://elon.io/grammar/polish/verbs/imperative/formation",
+     "id": "ELF",
+     "where": "«proszę + Infinitive» и «Key Warning»"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs, раздел «Imperative»",
+     "url": "https://polski.info/grammar/verbs#verbs10",
+     "id": "PIN",
+     "where": "«Formal address: proszę + infinitive»"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«proszę (Polite Commands)»: публичные объявления"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы об imperative",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«formal alternatives: proszę + infinitive, uprasza się»"
+    }
+   ]
+  },
+  {
+   "id": "R13",
+   "text": "Proszę + повелительное (Proszę, napisz…) — просьба к тому, с кем мы на «ты».",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Polite: Proszę + imperative, e.g., Proszę czytaj»"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "пример «Proszę, napisz…»"
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "text": "Вид: просьба сделать что-то один раз (с результатом) — обычно dk: Zamknij drzwi! Napisz do mnie! Запрет (nie + …) — ndk: Nie zamykaj okna! Nie mów nikomu! «Nie + dk» — только предупреждение о случайном действии: Uważaj, nie upuść telefonu! Nie zapomnij!",
+   "sources": [
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы об imperative",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«The positive form is usually perfective, the negative usually imperfective»"
+    },
+    {
+     "title": "Clozemaster blog: «The Complete Guide to Polish Imperative Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-imperative-verbs/",
+     "id": "CLZ",
+     "where": "«Negation and Aspect»: Nie upuść telefonu"
+    },
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«Negation and aspect»: *Nie zrób zadania! — ошибка; pisz! / napisz!"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?», раздел 2 «Negative imperative»",
+     "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective",
+     "id": "EL1",
+     "where": "«Negative imperative»"
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "text": "Утвердительный ndk — когда важен процесс или продолжение (Pisz! — пиши, не останавливайся; Czytaj dalej!) или нетерпеливое повторение; dk или proszę звучит вежливее.",
+   "sources": [
+    {
+     "title": "courseofpolish.com — Grammar: Verbs: «Imperative»",
+     "url": "https://courseofpolish.com/grammar/verbs/imperative",
+     "id": "COP",
+     "where": "«pisz! asks someone to be writing, napisz! — to have something written»"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika», раздел «Tryb rozkazujący»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Tryb rozkazujący»: ndk может звучать нетерпеливо; dk или proszę — вежливее"
+    }
+   ]
+  },
+  {
+   "id": "R16",
+   "text": "Функции: приказ (Siadaj!), просьба (Proszę, pożycz mi…), извинение/утешение (Nie gniewaj się!), пожелание (Trzymaj się! Bądź zdrów!), инструкция.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Imperative»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-imperative.pdf",
+     "id": "DZI",
+     "where": "«Uses of the Imperative»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2» — абзацы об imperative",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«The imperative mode expresses…»"
+    }
+   ]
+  }
+ ]
+}

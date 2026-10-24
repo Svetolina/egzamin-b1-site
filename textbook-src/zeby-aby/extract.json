@@ -1,0 +1,222 @@
+{
+ "topic": "zeby-aby",
+ "title": "Żeby / aby — цель, желание, просьба: «чтобы»",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; с пометкой (одно правило в источниках): R15; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.3 Składnia, pkt 3 lit. b «zdania złożone podrzędnie ze spójnikami: że, żeby, …», s. 78. На B2 (s. 91) добавлены aby и by.",
+  "level": "B1 — żeby + инфинитив и żeby + окончание + форма на -ł, просьбы и желания, że или żeby; aby — официальный вариант.",
+  "katalog_b": [
+   "7.9.2 rodzaje pracy (szkolenie) (s. 85)",
+   "7.8 edukacja (nauka języka) (s. 85)",
+   "7.1.10 utrzymywanie kontaktu (korespondowanie) (s. 84)"
+  ],
+  "katalog_a": [
+   "6.1.4.d określanie celu, przeznaczenia (s. 83)",
+   "6.1.7.b prośba, wzywanie do działania (s. 83)",
+   "6.1.6.c wyrażanie życzenia (s. 83)",
+   "6.1.4.e relacjonowanie wypowiedzi innych osób (просьбы) (s. 83)"
+  ],
+  "exam": "Żeby — частый ответ в задании II реальных экзаменов «союзы» (например, 06.2023, 04.2023, 02.2023, 03.2022). В сборнике — блок 11, зад. VIII и блок 12, зад. VI (союзы из рамки).",
+  "depends_on": [
+   "czas-przeszly",
+   "tryb-przypuszczajacy"
+  ],
+  "feeds": [
+   "mowa-zalezna (просьбы)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "ELA": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»: https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+  "WEA": "Wikipedia (en) — «Polish grammar»: https://en.wikipedia.org/wiki/Polish_grammar",
+  "ZPA": "ZPE (Zintegrowana Platforma Edukacyjna, MEN) — «Tryby czasownika»: https://zpe.gov.pl/watek/LP1AC9VRws/6/a/tryby-czasownika/D18kXuVcM",
+  "DZA": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал: https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+  "TLA": "Transparent Language Polish Blog — «So what's the trick with Polish clauses?» (30.05.2014): https://blogs.transparent.com/polish/?p=5133",
+  "XXA": "Wiktionary — «żeby» (Polish, Conjunction): https://www.wiktionary.com/wiki/%C5%BCeby",
+  "ELB": "elon.io — «reported speech»: https://elon.io/grammar/polish/syntax/reported-speech",
+  "ELC": "elon.io — «że and żeby: That, So That»: https://elon.io/grammar/polish/conjunctions/subordinating-ze",
+  "ELD": "elon.io — урок «clauses of excess (zbyt… żeby)»: https://elon.io/learn-polish/lesson/clauses-of-excess-(zbyt...-%C5%BCeby)",
+  "XXB": "Vaia — «Polish Adverbial Clauses»: https://www.vaia.com/en-us/explanations/polish/polish-syntax/polish-adverbial-clauses",
+  "ELE": "elon.io — «wołać, prosić, kazać»: https://elon.io/grammar/polish/verbs-reference/wolac-prosic-kazac",
+  "XXC": "Langenscheidt Polish–German — «kazać»: https://en.langenscheidt.com/polish-german/kaza%C4%87",
+  "XXD": "M. Danielewiczowa, I. Duraj-Nowosielska, «Polski bezokolicznik celu przy czasownikach ruchu», LingVaria 18(1)(35), 2023: https://journals.akademicka.pl/lv/article/view/5077",
+  "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "PO": "Gramatyka z kulturą. Przez osoby (файлы проекта Gramatyka-z-kultura.-Przez-osoby.-Logo-*.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "żeby = że + by. Личное окончание присоединяется к самому союзу и пишется слитно: żebym, żebyś, żeby, żebyśmy, żebyście, żeby (3-е лицо без окончания). Так же aby: abym, abyś, abyśmy, abyście.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел «żeby = że + by, and it takes the clitic»)",
+    "WEA (раздел Conjunctions / Subjunctive clauses: «the by of the conjunction … takes personal endings»)",
+    "ZPA (часть о частице by: «Pisownia» — łącznie ze spójnikami (gdybym…); пример «Żebyś wiedział!»)",
+    "PO s. 187–191 (żebym chodził, żebyś się uczesał(a), żebyśmy byli, żebyście były — окончание на żeby)",
+    "PO s. 193 (рамка: żebym, żebyś, żeby, żebyśmy, żebyście)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "Цель при одном и том же субъекте: żeby + инфинитив. Uczę się, żeby zdać egzamin.",
+   "pl": [],
+   "refs": [
+    "DZA (раздел Purpose clauses: «purpose clauses are introduced by żeby followed by an infinitive»)",
+    "ELA (раздел «Purpose: the same-subject vs different-subject split»)",
+    "TLA (пункт aby/żeby + bezokolicznik: «Odwiedziłam ją, aby/żeby jej pogratulować»)",
+    "PO s. 167 («poszedłbym nad Wisłę, żeby popatrzeć na pomnik smoka»)",
+    "PO s. 187 («co robić, żeby mieć święty spokój»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "Если субъекты разные, после żeby стоит форма прошедшего времени на -ł (без личного окончания — оно уже на żeby): Mówię głośno, żebyś słyszał. Настоящее и будущее время после żeby не употребляются (не *żeby on przyjdzie, а żeby przyszedł).",
+   "pl": [],
+   "refs": [
+    "ELA (разделы «Purpose: the same-subject vs different-subject split» и «Common Mistakes»)",
+    "WEA (Conjunctions: aby/żeby «can take an infinitive phrase or a past-tense sentence»)",
+    "XXA (значения 1, 2: «with past tense»)",
+    "PO s. 188 (упражнение «Mama namawia mnie, żebym (poszłam, poszła, poszedł) na kurs» — после żebym форма на -ł без окончания: poszła)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "В придаточном цели żeby обязателен — его нельзя опустить, как английское to: Pan Orłowski jest w biurze, żeby pracować.",
+   "pl": [],
+   "refs": [
+    "DZA (раздел Purpose clauses: «żeby is NOT optional»)",
+    "ELA (раздел «Purpose …»: смешение конструкций названо «the classic error»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "После глаголов хотения, просьбы, приказа (chcieć, prosić, powiedzieć, mówić в значении «велеть») при другом исполнителе — żeby + форма на -ł: Chcę, żebyś przyszedł. Конструкции «хотеть + кого-то + инфинитив» нет: не *chcę ciebie przyjść. Если исполнитель тот же — просто инфинитив: Chcę przyjść.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел «Indirect commands and requests: ‘I want you to…’»)",
+    "WEA (Subjunctive clauses: «used with verbs meaning ‘want’, ‘expect’», пример chce, żeby(m) śpiewał)",
+    "ELB (пункт Commands and requests: «Powiedział, żebym poszedł do domu»)",
+    "PO s. 192 («Spójnika „żeby” używamy przy relacjonowaniu propozycji, życzeń, rad, próśb, poleceń: Poprosiła go, żeby zadzwonił do niej wieczorem»)",
+    "PO s. 187–189 («Mama często powtarza, żebym się uczył hiszpańskiego»; «Babcia prosi mnie, żebym…»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "Пожелания: Chciałbym/Chciałabym, żeby…; Marzę o tym, żeby…; восклицание Żebyś wiedział! («Ещё бы!», разг.).",
+   "pl": [],
+   "refs": [
+    "ELA (раздел «Wishes: Chciałbym, żeby…»)",
+    "XXA (значение «desire or wish, with past tense»; пример «Żebyś wiedział!»)",
+    "ZPA (пример «Żebyś wiedział!»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "że сообщает факт (глагол в обычном времени), żeby — цель, желание, просьбу. Один и тот же глагол меняет смысл: Powiedz mu, że zadzwonił (сообщи факт) — Powiedz mu, żeby zadzwonił (передай просьбу). Перед że и żeby всегда ставится запятая.",
+   "pl": [],
+   "refs": [
+    "ELC (разделы «że vs żeby»; пример с powiedz mu)",
+    "DZA (раздел Complement clauses: «finite complement clauses are introduced by że»)",
+    "ELB (пункты Statements (że) и Commands and requests (żeby); «A comma always precedes że, czy, żeby»)",
+    "PO s. 192 («Spójnika „że” używamy przy relacjonowaniu informacji… Spójnika „żeby” — przy relacjonowaniu propozycji, życzeń, rad, próśb, poleceń»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "Сомнение и отрицаемое мнение (nie sądzę, nie wydaje mi się, wątpię) часто вводятся через żeby + форма на -ł: Nie sądzę, żeby to był dobry pomysł.",
+   "pl": [],
+   "refs": [
+    "ELC (пример «Nie sądzę, żeby to był dobry pomysł» — отрицание переводит в ирреальность)",
+    "XXA (значение «doubt, chiefly in negated sentences: that, if (past tense)»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "Отрицательная цель: żeby nie + инфинитив / форма на -ł: Śpieszę się, żeby nie być spóźniona. Idź na palcach, żeby nie obudzić dziecka. Прямое дополнение при отрицании — в dopełniacz (см. тему 8).",
+   "pl": [],
+   "refs": [
+    "DZA (примеры «Studiuję, żeby się nie nudzić», «Śpieszę się, żeby nie być spóźniona»)",
+    "ELA (пример «Idź na palcach, żeby nie obudzić dziecka»)",
+    "PO s. 187 («ojciec mi mówi, żebym nie siedział tak długo…»), s. 191 («żebyśmy nie były takie poważne»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "«Слишком … чтобы»: za/zbyt + прилагательное/наречие, żeby + инфинитив: Jestem zbyt zajęta, żeby robić zakupy. Kawa jest za gorąca, żeby ją pić.",
+   "pl": [],
+   "refs": [
+    "DZA (пример «Jestem zbyt zajęta, żeby robić zakupy»)",
+    "ELD (весь урок)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R11",
+   "ru": "aby значит то же, что żeby, но звучит официальнее/книжнее; by и ażeby — ещё книжнее. Окончания те же: abym, byś…",
+   "pl": [],
+   "refs": [
+    "ELA (раздел «aby and the formal register»)",
+    "XXB (раздел о purpose: aby — «more formal», żeby — «spoken language», пример «Piszę, by pamiętać»)",
+    "WEA (Subjunctive clauses: перечень żeby, iżby, ażeby, aby, coby; пример chce, by(m) śpiewał)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R12",
+   "ru": "Придаточное с żeby может стоять в начале предложения: Żeby być dobrym studentem, trzeba dużo się uczyć.",
+   "pl": [],
+   "refs": [
+    "DZA (пример «Żeby być dobrym studentem, trzeba dużo się uczyć»)",
+    "XXB (примеры цели с aby/żeby)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R13",
+   "ru": "kazać («велеть») обычно управляет дательным лицом + инфинитивом, без żeby: Kazał mi czekać. Kazał nam kupić chleb.",
+   "pl": [],
+   "refs": [
+    "ELE (раздел kazać: «kazać + [DATIVE] + [INFINITIVE]»)",
+    "XXC (конструкция «kazać [komuś] + bezokolicznik», примеры kazał nam milczeć / kupić chleb)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R14",
+   "ru": "tak, żeby — «так, чтобы»: Piotr kupił samochód tak, żeby móc pojechać do Francji.",
+   "pl": [],
+   "refs": [
+    "TLA (пункт «tak, aby / tak, żeby»)",
+    "ELA (раздел «Purpose …» (żeby = so that))"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R15",
+   "ru": "После глаголов движения цель часто выражается просто инфинитивом: Idę spać. Pobiegł otworzyć drzwi. (Можно и с żeby: Idę tam, żeby robić zakupy.)",
+   "pl": [],
+   "refs": [
+    "XXD (с. 41–61, аннотация)",
+    "DZA (пример с żeby после глагола движения: «Idę tam, żeby robić zakupy»)"
+   ],
+   "status": "marked",
+   "decision": "правило из одного источника — публикуется одной строкой с пометкой (как решено для czas przyszły и вида): Инфинитив без żeby после глаголов движения прямо описан в одном источнике; второй подтверждает только вариант с żeby. Даётся одной строкой с пометкой."
+  }
+ ],
+ "forms": []
+}

@@ -1,0 +1,215 @@
+{
+ "topic": "rzeczowniki-odczasownikowe",
+ "title": "Rzeczowniki odczasownikowe",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Rzeczownik odczasownikowy называет действие (czytanie — чтение) и оканчивается на -nie / -enie / -cie; он среднего рода и склоняется как существительные на -e: czytanie, czytania, czytaniu, czytaniem.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbal-nouns-format.pdf",
+     "loc": "определение"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "таблица склонения"
+    },
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Neuter declension"
+    },
+    {
+     "title": "Transparent Language Polish Blog — «Verbal nouns»",
+     "url": "https://blogs.transparent.com/polish/?p=1652",
+     "loc": "«decline like neuter nouns»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Глаголы на -ać: -ć → -nie: czytać → czytanie, pytać → pytanie, czekać → czekanie, oglądać → oglądanie, pracować → pracowanie.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbal-nouns-format.pdf",
+     "loc": "п. 1"
+    },
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Formation: «-ać → -anie»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "Глаголы на -ić, -yć, -eć II спряжения: основа 1-го л. ед. ч. + -enie (с тем же чередованием): robię → robienie, myślę → myślenie, siedzę → siedzenie, noszę → noszenie.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbal-nouns-format.pdf",
+     "loc": "п. 2"
+    },
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Formation: nosić → noszenie"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "Короткие основы на -ić, -yć, -uć: -ć → -cie: pić → picie, myć → mycie, żyć → życie, czuć → czucie.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbal-nouns-format.pdf",
+     "loc": "п. 3"
+    },
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Formation: pić → picie"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "się сохраняется: uczyć się → uczenie się, nudzić się → nudzenie się.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbal-nouns-format.pdf",
+     "loc": "п. 2: uczenie się, nudzenie się, dziwienie się"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R6",
+   "rule": "Вид глагола сохраняется: czytanie (процесс) — przeczytanie (результат), robienie — zrobienie, kończenie — zakończenie.",
+   "sources": [
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Aspect pairs"
+    },
+    {
+     "title": "Transparent Language Polish Blog — «Verbal nouns»",
+     "url": "https://blogs.transparent.com/polish/?p=1652",
+     "loc": "czytanie vs przeczytanie"
+    },
+    {
+     "title": "elon.io — «Nominalization and Verbal-Noun Constructions»",
+     "url": "https://elon.io/grammar/polish/complex/nominalization",
+     "loc": "kończenie / zakończenie"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Прямое дополнение после отглагольного существительного — в dopełniaczu: czytać książkę → czytanie książki; mówienie prawdy, ukończenie szkoły. Ошибка: *czytanie książkę*.",
+   "sources": [
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Object in the genitive, Common mistakes"
+    },
+    {
+     "title": "elon.io — «Nominalization and Verbal-Noun Constructions»",
+     "url": "https://elon.io/grammar/polish/complex/nominalization",
+     "loc": "«czytanie książek … not the accusative»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "п. b: pisanie książki, mówienie prawdy"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "do + dopełniacz — «для того, чтобы…» / назначение: Nie mam nic do powiedzenia. Co jest do jedzenia? proszek do prania, maszyna do pisania.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "п. a"
+    },
+    {
+     "title": "Transparent Language Polish Blog — «Verbal nouns»",
+     "url": "https://blogs.transparent.com/polish/?p=1652",
+     "loc": "«do + Gen»: Nie mam nic do powiedzenia"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "С предлогами вместо придаточного: po + miejscownik (обычно сов. вид) — «после»: po przeczytaniu listu; podczas + dopełniacz (несов.) — «во время»: podczas czytania; bez + dopełniacz; w celu + dopełniacz (офиц.): w celu omówienia budżetu.",
+   "sources": [
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Uses: po + Ms., podczas + D."
+    },
+    {
+     "title": "elon.io — «Nominalization and Verbal-Noun Constructions»",
+     "url": "https://elon.io/grammar/polish/complex/nominalization",
+     "loc": "po, w celu, bez + verbal noun"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "пример «Pływanie po jedzeniu jest niezdrowe»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Многие стали обычными существительными: mieszkanie (квартира), pytanie (вопрос), jedzenie (еда), picie (питьё), życie (жизнь), uczucie (чувство), otwarcie / zamknięcie (открытие / закрытие).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "п. d"
+    },
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "раздел Lexicalized meanings"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "После lubić естественнее инфинитив: Lubię gotować (Lubię gotowanie звучит книжно, но встречается: Lubię czytanie).",
+   "sources": [
+    {
+     "title": "elon.io — «Verbal Nouns (-anie, -enie, -cie)»",
+     "url": "https://elon.io/grammar/polish/nouns/types/verbal-nouns-gerunds",
+     "loc": "Common mistakes: «Lubię gotowanie sounds stilted»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Verbal nouns: declension and use»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-verbalnounsdecluse.pdf",
+     "loc": "пример «Lubię czytanie»"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "rule": "Отглагольные существительные типичны для официального стиля; злоупотреблять ими в своих текстах не стоит — получается канцелярит.",
+   "sources": [
+    {
+     "title": "elon.io — «Nominalization and Verbal-Noun Constructions»",
+     "url": "https://elon.io/grammar/polish/complex/nominalization",
+     "loc": "раздел Caution"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  }
+ ]
+}

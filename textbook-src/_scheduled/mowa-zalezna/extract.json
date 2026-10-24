@@ -1,0 +1,202 @@
+{
+ "topic": "mowa-zalezna",
+ "title": "Mowa zależna",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Четыре типа: утверждение → że; вопрос «да/нет» → czy; вопрос с вопросительным словом → то же слово (gdzie, kiedy, co…); приказ/просьба → żeby (aby, ażeby, by).",
+   "sources": [
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "разделы о zdaniach oznajmujących, pytających i rozkazujących"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункты 1–4"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "«Polish reported speech at a glance»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Время глагола не «сдвигается», как в английском: сохраняется время исходной фразы. Jan powiedział wczoraj: «Jestem chory» → Jan powiedział, że jest chory.",
+   "sources": [
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункт Statements: «keep the original tense»; «The most common error is backshifting»"
+    },
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "пример «Nauczyciel powiedział nam, że dzisiaj idziemy na wycieczkę»"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пример «Ola zapytała mnie, kiedy wyjeżdżam»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "Лицо глагола и местоимения меняются с точки зрения того, кто пересказывает: «Czy spotkałaś się z Robertem?» → zapytał, czy spotkałam się z Robertem; mój → jego / jej.",
+   "sources": [
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункт 7, примеры spotkałaś → spotkałam, posprzątaj → żebym posprzątała"
+    },
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "примеры в таблице"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "«Pronouns and time/place words shift to the reporter's viewpoint»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "Вопрос без вопросительного слова вводится czy, и его нельзя пропустить: Bartek spytał mnie, czy napisałem wypracowanie.",
+   "sources": [
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "пример «Bartek spytał mnie, czy napisałem…»"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункт 3"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункт Yes/no questions"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "Вопросительное слово сохраняется, порядок слов — как в утверждении: Spytała, gdzie mieszkam.",
+   "sources": [
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "пример «Marek spytał mnie, kiedy spotkałem się z Anką»"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункт 2"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункт Wh-questions: «with statement word order»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "rule": "Приказ/просьба → żeby (+ окончание) + форма на -ł: «Posprzątaj pokój» → Matka powiedziała mi, żebym posprzątała pokój. (Подробно — тема 11.)",
+   "sources": [
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "пример «Matka powiedziała Marcie, żeby pozmywała naczynia»"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункт 4: «Mama poprosiła mnie, żebym wyniosła śmieci»"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункт Commands and requests"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Пунктуация: кавычки, двоеточие и тире исчезают; перед że, czy, żeby и вопросительным словом — запятая.",
+   "sources": [
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункт 8"
+    },
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "примеры в таблице"
+    },
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "«A comma always precedes że, czy, żeby, and wh-words»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "Эмоциональные элементы (восклицания, междометия, разговорные словечки) при пересказе опускаются.",
+   "sources": [
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "пункты 5–6"
+    },
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "о восклицательных знаках и эмоциональных элементах"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "Управление глаголов речи: powiedzieć komuś (celownik), zapytać / spytać kogoś (biernik), poprosić kogoś (biernik): powiedział nam, zapytała mnie, poprosiła mnie.",
+   "sources": [
+    {
+     "title": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51)",
+     "url": "https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+     "loc": "примеры «powiedział nam», «powiedziała Marcie», «spytał mnie»"
+    },
+    {
+     "title": "Agnieszka Kochan — «Mowa zależna i niezależna»",
+     "url": "http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+     "loc": "примеры «zapytała mnie», «poprosiła mnie»"
+    },
+    {
+     "title": "elon.io — «wołać, prosić, kazać»",
+     "url": "https://elon.io/grammar/polish/verbs-reference/wolac-prosic-kazac",
+     "loc": "раздел prosić: «prosić kogoś» (accusative)"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Слова времени и места тоже пересчитываются с точки зрения пересказчика (tu → tam, jutro → następnego dnia), если пересказ идёт в другом месте или в другой день.",
+   "sources": [
+    {
+     "title": "elon.io — «Polish reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "«Pronouns and time/place words shift … (ciebie → mnie, tu → tam)»"
+    }
+   ],
+   "single_source_note": "Сдвиг слов времени/места прямо описан одним источником; дано одной строкой с пометкой и в упражнениях не проверяется."
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+<title>Aspekt czasownika · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "aspekt", "level": "B1", "group": "Глагол", "title_pl": "Aspekt czasownika", "title_ru": "Вид глагола", "lead": "Делать или сделать. Как образуются пары и как выбрать нужный вид.", "facts_file": "extract.json", "stage": "теория (шаг 4) — ждёт проверки; упражнения будут следующими порциями", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka, blok 7, zad. I–VI, s. 22–25 (на сайте: Сборник, k7-1 … k7-6)", "Задание «czas teraźniejszy i przyszły» в 7 из 15 экзаменов сайта, напр. arkusz B1 02.2024, zad. IV, s. 3–4"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["A1"], "blocks": [{"type": "p", "text": "Вид в польском устроен почти как в русском: «читать» и «прочитать». У большинства глаголов есть пара: [[czytać – przeczytać]], [[robić – zrobić]]."}, {"type": "table", "head": ["", "несовершенный", "совершенный"], "rows": [["что показывает", "процесс, повторение, «чем занят»", "результат, одно законченное действие"], ["вопрос", "[[co robić?]]", "[[co zrobić?]]"], ["пример", "[[Czytam artykuł.]]", "[[Przeczytam artykuł.]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "Русская интуиция почти всегда подсказывает правильно: если по-русски «делала», по-польски [[robiłam]]; если «сделала» — [[zrobiłam]]."}]}, {"id": "t2", "title": "Пара через приставку", "facts": ["A2"], "blocks": [{"type": "p", "text": "Самый частый способ: к несовершенному глаголу добавляется приставка. Какая — заранее не угадать, её учим вместе с глаголом."}, {"type": "table", "head": ["приставка", "несовершенный", "совершенный"], "rows": [["z-", "robić", "zrobić"], ["s-", "kopiować", "skopiować"], ["prze-", "czytać", "przeczytać"], ["na-", "pisać", "napisać"], ["u-", "gotować", "ugotować"], ["wy-", "pić", "wypić"], ["po-", "prosić", "poprosić"], ["za-", "dzwonić", "zadzwonić"]], "pl_cols": [0, 1, 2]}]}, {"id": "t3", "title": "Пара через суффикс", "facts": ["A3"], "blocks": [{"type": "p", "text": "Во второй группе приставки нет, меняется конец глагола. Обычно несовершенный длиннее: [[-ać, -ywać, -iwać, -awać]]."}, {"type": "table", "head": ["несовершенный", "совершенный"], "rows": [["sprawdzać", "sprawdzić"], ["kupować", "kupić"], ["wysyłać", "wysłać"], ["zapisywać", "zapisać"], ["otwierać", "otworzyć"], ["zamykać", "zamknąć"], ["wstawać", "wstać"], ["dawać", "dać"]], "pl_cols": [0, 1]}]}, {"id": "t4", "title": "Разные основы", "facts": ["A4"], "blocks": [{"type": "p", "text": "У нескольких очень частых глаголов пара — почти другое слово. Их надо просто выучить."}, {"type": "table", "head": ["несовершенный", "совершенный", "по-русски"], "rows": [["brać", "wziąć", "брать – взять"], ["mówić", "powiedzieć", "говорить – сказать"], ["widzieć", "zobaczyć", "видеть – увидеть"], ["oglądać", "obejrzeć", "смотреть – посмотреть"], ["kłaść", "położyć", "класть – положить"], ["znajdować", "znaleźć", "находить – найти"], ["iść", "pójść", "идти – пойти"], ["wchodzić", "wejść", "входить – войти"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "[[Szukać]] — «искать», а [[znaleźć]] — «найти»: это разные глаголы, не пара. Пара к [[znaleźć]] — [[znajdować]]."}]}, {"id": "t5", "title": "Глаголы без пары", "facts": ["A5", "A10"], "blocks": [{"type": "p", "text": "У некоторых частых глаголов есть только несовершенный вид. Будущее у них — только с [[będę]]: [[będę mieć]], [[będę pracować]]."}, {"type": "chips", "items": ["być", "mieć", "musieć", "móc", "umieć", "woleć", "pracować", "studiować", "potrzebować"]}]}, {"id": "t6", "title": "Разные приставки — разный смысл", "facts": ["A6"], "marked": true, "blocks": [{"type": "p", "text": "Иногда у одного глагола два совершенных — с разными приставками и разным значением."}, {"type": "table", "head": ["несовершенный", "совершенный", "значение"], "rows": [["tłumaczyć", "przetłumaczyć", "перевести на другой язык"], ["", "wytłumaczyć", "объяснить"], ["malować", "namalować", "нарисовать картину"], ["", "pomalować", "покрасить стену, комнату"], ["mieszać", "wymieszać", "смешать продукты"], ["", "pomieszać", "помешать суп ложкой"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "mark", "text": "Правило по одному источнику (Przez osoby), формы подтверждены Morfeusz 2."}]}, {"id": "t7", "title": "Подсказки в предложении", "facts": ["A7", "A8"], "blocks": [{"type": "table", "head": ["несовершенный", "совершенный"], "rows": [["[[codziennie, często, zwykle, zawsze]]", "[[w końcu, wreszcie]]"], ["[[długo, cały dzień, dwie godziny]]", "[[nagle, od razu, szybko]]"], ["[[ciągle, od rana do wieczora]]", "[[raz, już]]"]], "pl_cols": []}, {"type": "ex", "items": [{"pl": "Zwykle jem śniadanie w domu.", "ru": "Обычно завтракаю дома (повторение)."}, {"pl": "Dwie godziny szukałem kluczy, aż w końcu je znalazłem.", "ru": "Два часа искал ключи и наконец нашёл (процесс → результат)."}]}, {"type": "note", "kind": "tip", "text": "[[Wczoraj, rano, wieczorem, tydzień temu]] вид не определяют: [[Wczoraj sprzątałam]] и [[Wczoraj posprzątałam kuchnię]] — обе фразы верные, решает смысл."}]}, {"id": "t8", "title": "Вид и время", "facts": ["A9", "A10", "A11"], "blocks": [{"type": "table", "head": ["", "несовершенный", "совершенный"], "rows": [["прошедшее", "pisałam", "napisałam"], ["настоящее", "piszę", "—"], ["будущее", "będę pisać / będę pisała", "napiszę"]], "pl_cols": [1, 2]}, {"type": "p", "text": "У совершенного глагола нет настоящего времени: форма [[napiszę]] похожа на настоящее, но значит «напишу». Так же, как в русском."}, {"type": "fix", "items": [{"bad": "będę napisać", "good": "napiszę"}, {"bad": "będę zrobiła", "good": "zrobię"}]}, {"type": "note", "kind": "tip", "text": "Подробнее — в темах «Настоящее время», «Будущее время» и «Прошедшее время»."}]}, {"id": "t9", "title": "После muszę, chcę, lubię", "facts": ["A12"], "blocks": [{"type": "p", "text": "После [[muszę, chcę, mogę, trzeba]] идёт инфинитив любого вида. Регулярное занятие — несовершенный, одно конкретное дело — совершенный."}, {"type": "ex", "items": [{"pl": "Codziennie muszę odpisywać na maile.", "ru": "Каждый день мне надо отвечать на письма (рутина)."}, {"pl": "Dziś muszę odpisać szefowi.", "ru": "Сегодня надо ответить начальнику (одно дело)."}, {"pl": "Lubię gotować, ale dziś chcę zamówić pizzę.", "ru": "Люблю готовить, но сегодня хочу заказать пиццу."}]}, {"type": "note", "kind": "tip", "text": "После [[lubić]] почти всегда несовершенный: [[lubię czytać]], [[lubię pływać]]."}]}, {"id": "t10", "title": "Вид в рассказе", "facts": ["A13"], "marked": true, "blocks": [{"type": "p", "text": "Когда действия идут одно за другим и каждое закончено — совершенный вид. Действие-фон, которое длилось, — несовершенный."}, {"type": "ex", "items": [{"pl": "Wróciłam do domu, zdjęłam buty i włączyłam czajnik.", "ru": "Цепочка: вернулась, сняла, включила."}, {"pl": "Kiedy gotowałam obiad, zadzwoniła mama.", "ru": "Фон — готовила; на его фоне — позвонила."}]}, {"type": "note", "kind": "mark", "text": "Правило по одному источнику: ключ сборника комиссии (блок 7) и пособие UAM. В «[[w chwili, gdy…]]» ключ принимает оба вида."}]}, {"id": "t11", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "Вид проверяют в заданиях с парой глаголов в скобках ([[kupować/kupić]]) и в задании на настоящее и будущее время. Он нужен и в письме."}, {"type": "steps", "items": ["Найдите подсказки: [[codziennie, długo]] или [[w końcu, nagle]].", "Спросите себя по-русски: «делал» или «сделал»?", "Совершенный вид не бывает в настоящем и не идёт после [[będę]]."]}]}], "exercises": []}, "facts": {"A1": {"refs": ["PO s. 73 («Konteksty i kontrasty»: a) robić coś nie do końca / zrobić coś do końca; b) proces / moment)", "JPBG s. 15 (aspekt: «czy czynność została już wykonana, czy nadal jest wykonywana, np. robić – zrobić»)", "ZJP s. 98 («Czasowniki niedokonane nazywają czynności… niemające swojego zakończenia/rezultatu… dokonane… które się zakończyły lub zakończą»)", "ZPE"], "status": "ok"}, "A2": {"refs": ["PO s. 61 (grupa I: myć / umyć, gotować / ugotować, pić / wypić…), s. 73 («pary prefiksalne»)", "JPBG s. 60 (упр. IV: kopiować / skopiować, drukować / wydrukować, skanować / zeskanować)", "ZJP s. 49 (зад. 3: kopiować – skopiować, instalować – zainstalować, kasować – skasować)", "AMU (prefiksy na-, po-, prze-, s-, u-, wy-, z-, za-; pisać – napisać, czytać – przeczytać)", "MORF"], "status": "ok"}, "A3": {"refs": ["PO s. 67 (grupa II: sprawdzać / sprawdzić, wysyłać / wysłać, otwierać / otworzyć…), s. 69 (таблица: dawać – dać, wstawać – wstać…), s. 73 («pary sufiksalne»)", "JPBG s. 60 (zapisywać / zapisać, pobierać / pobrać, włączać / włączyć, wysyłać / wysłać)", "ZJP s. 49 (kupować – kupić, włączać – włączyć, pobierać – pobrać, przesyłać – przesłać)", "AMU (-ać → -ić, -ać → -yć…; dawać – dać)", "MORF"], "status": "ok"}, "A4": {"refs": ["PO s. 71–72 (grupa III: brać / wziąć, kłaść / położyć, widzieć / zobaczyć, oglądać / obejrzeć, mówić / powiedzieć…), s. 73 («pary nieregularne»)", "JPBG s. 60 (wchodzić / wejść)", "ZJP s. 49 (wchodzić – wejść, odpowiadać – odpowiedzieć)", "AMU (mówić – powiedzieć, brać – wziąć, iść – pójść, dawać – dać)", "KEY k7-4 (brać/wziąć → wzięła, widzieć/zobaczyć → zobaczyła)", "MORF"], "status": "ok"}, "A5": {"refs": ["PO s. 73 («single językowe»: być, żyć, musieć, woleć, mieć, umieć, móc, potrafić, uważać, studiować, pracować, potrzebować)", "AMU (только несовершенные: być, mieć, pracować, studiować, mieszkać…)", "KEY k7-6 (в рамке «pracować/ », «studiować/ » — пары нет)", "MORF"], "status": "ok"}, "A6": {"refs": ["PO s. 66 («Uwaga! Różne znaczenia – różne prefiksy!»), s. 61 (mieszać / wymieszać składniki, mieszać / pomieszać zupę)", "MORF (все шесть форм — совершенный вид)"], "status": "marked"}, "A7": {"refs": ["PO s. 73 (b: «ciągle, bez przerwy, od rana do wieczora, przez cały dzień» / «szybko, nagle, natychmiast»; c: «codziennie, często, rzadko, czasami…»)", "AMU (długo, cały dzień; nagle, szybko, natychmiast; codziennie, często, zawsze; wreszcie, nareszcie, w końcu)", "KEY k7-2 (Zwykle… robiła; długo oglądał; w końcu kupił), k7-3 (często się kłócili; codziennie przytulam)"], "status": "ok"}, "A8": {"refs": ["AMU («UWAGA! Określenia: rano, wieczorem, wczoraj, dwa dni temu, rok temu… nie decydują o aspekcie!»)", "PO s. 85 (упр. 6a/6b: одни и те же «przed chwilą, wczoraj…» и с piłam, и с wypiłam)"], "status": "ok"}, "A9": {"refs": ["ZPE (dokonany: «nie ma czasu teraźniejszego», будущее простое: przeczytam)", "ZJP s. 44 («Czas przyszły prosty mają wyłącznie czasowniki dokonane»)", "JPBG s. 15 (robię — niedokonany; zrobię — «czynność… zostanie zakończona»)", "см. тему czas-przyszly"], "status": "ok"}, "A10": {"refs": ["ZJP s. 44 («Czas przyszły złożony przeznaczony jest dla czasowników niedokonanych»)", "ZPE (niedokonany: будущее «zawsze złożony», będę czytał / czytać)", "см. тему czas-przyszly"], "status": "ok"}, "A11": {"refs": ["PO s. 84 (упр. 5: «Czy w zeszłym roku często piłeś…» / «Czy w zeszłym miesiącu wypiłeś…»)", "JPBG s. 15 (robiłem — «czynność trwała»; zrobiłem — «została zakończona»)", "KEY k7-5 (oglądała → obejrzałam)", "ZPE (Wczoraj kupowałem / kupiłem książki)", "см. тему czas-przeszly, R9"], "status": "ok"}, "A12": {"refs": ["PO s. 63 (упр. 7: «rutyna, powtarzalna akcja» — Muszę codziennie gotować / «zmiana, konkretna akcja» — Muszę szybko ugotować), s. 68, 72, 74 (lubi czytać → chce przeczytać)", "KEY k7-4 (Chciała pożyczyć trochę soli)"], "status": "ok"}, "A13": {"refs": ["KEY k7-4 (wstała, założyła, podeszła, otworzyła, zobaczyła; «W chwili gdy kładła się / położyła się do łóżka, zadzwonił telefon» — засчитываются оба)", "AMU (proces — długo; moment — nagle; jeden raz)"], "status": "marked"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PO": "Gramatyka z kulturą. Przez osoby, UMCS 2023, rozdział II «Tego trzeba się (na)uczyć — pary aspektowe», s. 61–74 (grupy I–III, s. 73 — сводная таблица и «Konteksty i kontrasty»); rozdział III, s. 84–85", "JPBG": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0, s. 15 (aspekt, czasowniki dokonane i niedokonane); lekcja 3, s. 60 (pary aspektowe: komputer)", "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): lekcja 3D, s. 44 (czas przyszły prosty / złożony); lekcja 4A, s. 49 (зад. 3, пары глаголов); lekcja 8, s. 98 (определение вида)", "AMU": "«Aspekt czasownika w czasie przeszłym» — pakiet dydaktyczny dla grup pochodzenia wschodniosłowiańskiego, Wydział Filologii Polskiej i Klasycznej UAM: https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf (страницы не пронумерованы)", "ZPE": "Zintegrowana Platforma Edukacyjna MEN, lekcja «Aspekt i tryb czasownika»: https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/D6rmPBCi4", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka, blok 7 zad. I–VI (s. 22–25) — ключ внесён в tests/b1-sbornik.js сайта (k7-1 … k7-6)", "MORF": "Morfeusz 2 (SGJP) — проверка вида скриптом tools/morfeusz_check.py (kind «aspekt»)"}, "checked": "24.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

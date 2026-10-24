@@ -1,0 +1,1042 @@
+{
+ "id": "zaimki-nieokreslone",
+ "num": 18,
+ "title": "Ktoś, ktokolwiek, nikt: неопределённые и отрицательные местоимения",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "rzeczowniki-odczasownikowe",
+ "next": "spojniki-przyczyna-przyzwolenie",
+ "summary": "Ряды ktoś / ktokolwiek / nikt: склонение, jakiś и żaden, двойное отрицание, nic или niczego, coś ciekawego.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Три ряда местоимений",
+   "facts": [
+    "R1",
+    "R4",
+    "R6"
+   ],
+   "table": {
+    "head": [
+     "Вопрос",
+     "-ś (-то)",
+     "-kolwiek (-угодно)",
+     "ni- (никто)"
+    ],
+    "rows": [
+     [
+      "kto?",
+      "ktoś",
+      "ktokolwiek",
+      "nikt"
+     ],
+     [
+      "co?",
+      "coś",
+      "cokolwiek",
+      "nic"
+     ],
+     [
+      "gdzie?",
+      "gdzieś",
+      "gdziekolwiek",
+      "nigdzie"
+     ],
+     [
+      "kiedy?",
+      "kiedyś",
+      "kiedykolwiek",
+      "nigdy"
+     ],
+     [
+      "jaki?",
+      "jakiś",
+      "jakikolwiek",
+      "żaden"
+     ],
+     [
+      "jak?",
+      "jakoś",
+      "jakkolwiek",
+      "—"
+     ]
+    ]
+   },
+   "note": "kiedyś — и «когда-то», и «когда-нибудь» (одним источником)."
+  },
+  {
+   "id": "s2",
+   "title": "ktoś, coś — склонение",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "body": "Склоняются как *kto, co*; окончание — **перед -ś**.",
+   "table": {
+    "head": [
+     "Падеж",
+     "ktoś",
+     "coś"
+    ],
+    "rows": [
+     [
+      "M.",
+      "ktoś",
+      "coś"
+     ],
+     [
+      "D.",
+      "kogoś",
+      "czegoś"
+     ],
+     [
+      "C.",
+      "komuś",
+      "czemuś"
+     ],
+     [
+      "B.",
+      "kogoś",
+      "coś"
+     ],
+     [
+      "N.",
+      "kimś",
+      "czymś"
+     ],
+     [
+      "Ms.",
+      "o kimś",
+      "o czymś"
+     ]
+    ]
+   },
+   "note": "jakiś согласуется: jakiś pan, jakaś pani, jakieś pytanie. Ошибки: *z ktoś → z kimś; *Szukam ktoś → Szukam kogoś."
+  },
+  {
+   "id": "s3",
+   "title": "-kolwiek: любой, неважно какой",
+   "facts": [
+    "R4"
+   ],
+   "examples": [
+    [
+     "Możesz zapytać kogokolwiek.",
+     "Можешь спросить кого угодно."
+    ],
+    [
+     "Cokolwiek zrobisz, będę z tobą.",
+     "Что бы ты ни сделал, я буду с тобой."
+    ],
+    [
+     "Dzwoń kiedykolwiek.",
+     "Звони когда угодно."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Двойное отрицание",
+   "facts": [
+    "R6",
+    "R9",
+    "R12"
+   ],
+   "body": "Как в русском: **nikt nie**, **nic nie**, **nigdy nie** — nie обязательно. Можно ставить несколько отрицаний: *Nikt nigdy nigdzie nic nie powiedział.*\n\nВ отрицании не используются -ś / -kolwiek: *Nic nie widzę* (не *Nie widzę cokolwiek*).",
+   "note": "С nikt глагол в м. р.: Nikt nie przyszedł. Ani razu — «ни разу», wcale — «совсем не»."
+  },
+  {
+   "id": "s5",
+   "title": "nikt, nic — склонение",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "Падеж",
+     "nikt",
+     "nic"
+    ],
+    "rows": [
+     [
+      "M.",
+      "nikt",
+      "nic"
+     ],
+     [
+      "D.",
+      "nikogo",
+      "niczego"
+     ],
+     [
+      "C.",
+      "nikomu",
+      "niczemu"
+     ],
+     [
+      "B.",
+      "nikogo",
+      "nic"
+     ],
+     [
+      "N.",
+      "nikim",
+      "niczym"
+     ],
+     [
+      "Ms.",
+      "o nikim",
+      "o niczym"
+     ]
+    ]
+   },
+   "note": "Дополнение при отрицании: nic или niczego — оба верны (niczego выразительнее): Nie mam nic / Nie mam niczego."
+  },
+  {
+   "id": "s6",
+   "title": "żaden",
+   "facts": [
+    "R10"
+   ],
+   "body": "*żaden, żadna, żadne* — «никакой, ни один»; склоняется как прилагательное; при отрицании дополнение — в dopełniaczu: *Nie mam żadnego pytania. Nie znam żadnego z tych ludzi.*"
+  },
+  {
+   "id": "s7",
+   "title": "coś ciekawego, nic nowego",
+   "facts": [
+    "R11"
+   ],
+   "body": "После coś / nic прилагательное стоит в **dopełniaczu**: *coś ciekawego, nic nowego, coś słodkiego, niczego podejrzanego*. Как в русском «что-то интересное» — но в польском родительный падеж."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "ktoś, coś, jakiś… в нужной форме",
+   "kind": "gaps",
+   "instr": "Впишите местоимение на -ś в нужной форме (подсказка по-русски).",
+   "facts": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "{1} dzwonił, kiedy byłeś pod prysznicem. (кто-то)",
+     "a": [
+      [
+       "Ktoś"
+      ]
+     ]
+    },
+    {
+     "q": "Muszę ci o {1} powiedzieć. (что-то)",
+     "a": [
+      [
+       "czymś"
+      ]
+     ]
+    },
+    {
+     "q": "Rozmawiałam z {1} o tobie. (кем-то)",
+     "a": [
+      [
+       "kimś"
+      ]
+     ]
+    },
+    {
+     "q": "Szukam {1}, kto mi pomoże. (кого-то)",
+     "a": [
+      [
+       "kogoś"
+      ]
+     ]
+    },
+    {
+     "q": "Dzwonił {1} pan. (какой-то)",
+     "a": [
+      [
+       "jakiś"
+      ]
+     ]
+    },
+    {
+     "q": "Dzwoniła {1} pani. (какая-то)",
+     "a": [
+      [
+       "jakaś"
+      ]
+     ]
+    },
+    {
+     "q": "Mam {1} pytanie. (какой-то)",
+     "a": [
+      [
+       "jakieś"
+      ]
+     ]
+    },
+    {
+     "q": "Zostawiłam {1} klucze. (где-то)",
+     "a": [
+      [
+       "gdzieś"
+      ]
+     ]
+    },
+    {
+     "q": "{1} byłam w Paryżu. (когда-то)",
+     "a": [
+      [
+       "Kiedyś"
+      ]
+     ]
+    },
+    {
+     "q": "Daj mi {1} do picia. (что-нибудь)",
+     "a": [
+      [
+       "coś"
+      ]
+     ]
+    },
+    {
+     "q": "Dam to {1} z rodziny. (кому-нибудь)",
+     "a": [
+      [
+       "komuś"
+      ]
+     ]
+    },
+    {
+     "q": "To {1} parasol? (чей-то)",
+     "a": [
+      [
+       "czyjś"
+      ]
+     ]
+    },
+    {
+     "q": "Interesuję się {1} nowym. (чем-то)",
+     "a": [
+      [
+       "czymś"
+      ]
+     ]
+    },
+    {
+     "q": "{1} sobie poradzimy. (как-нибудь)",
+     "a": [
+      [
+       "Jakoś"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "-ś или -kolwiek?",
+   "kind": "gaps",
+   "instr": "Впишите местоимение на -ś или -kolwiek в нужной форме.",
+   "facts": [
+    "R4",
+    "R1",
+    "R5"
+   ],
+   "items": [
+    {
+     "q": "Możesz zapytać {1} — wszyscy znają drogę. (кого угодно)",
+     "a": [
+      [
+       "kogokolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "Zjem {1}, jestem bardzo głodny. (что угодно)",
+     "a": [
+      [
+       "cokolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "Usiądź {1}. (где угодно)",
+     "a": [
+      [
+       "gdziekolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "Dzwoń {1}, nawet w nocy. (когда угодно)",
+     "a": [
+      [
+       "kiedykolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "{1} zapukał do drzwi. (кто-то)",
+     "a": [
+      [
+       "Ktoś"
+      ]
+     ]
+    },
+    {
+     "q": "Czy byłeś {1} w Polsce? (когда-нибудь)",
+     "a": [
+      [
+       "kiedykolwiek",
+       "kiedyś"
+      ]
+     ]
+    },
+    {
+     "q": "{1} zrobisz, będę z tobą. (что бы ни)",
+     "a": [
+      [
+       "Cokolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "Kupiłam {1} prezent dla mamy. (какой-то)",
+     "a": [
+      [
+       "jakiś"
+      ]
+     ]
+    },
+    {
+     "q": "Weź {1} książkę, wszystkie są ciekawe. (любую)",
+     "a": [
+      [
+       "jakąkolwiek"
+      ]
+     ]
+    },
+    {
+     "q": "{1} pojedziesz, pisz do mnie. (куда бы ни)",
+     "a": [
+      [
+       "Gdziekolwiek"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Ответьте отрицательно",
+   "kind": "gaps",
+   "instr": "Ответьте «нет», используя nikt, nic, nigdy, nigdzie, żaden в нужной форме.",
+   "facts": [
+    "R6",
+    "R7",
+    "R8",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Ktoś dzwonił? — Nie, {1} nie dzwonił.",
+     "a": [
+      [
+       "nikt"
+      ]
+     ]
+    },
+    {
+     "q": "Widzisz coś? — Nie, {1} nie widzę.",
+     "a": [
+      [
+       "nic",
+       "niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Byłeś kiedyś w Japonii? — Nie, {1} nie byłem.",
+     "a": [
+      [
+       "nigdy"
+      ]
+     ]
+    },
+    {
+     "q": "Idziesz gdzieś wieczorem? — Nie, {1} nie idę.",
+     "a": [
+      [
+       "nigdzie"
+      ]
+     ]
+    },
+    {
+     "q": "Czekasz na kogoś? — Nie, na {1} nie czekam.",
+     "a": [
+      [
+       "nikogo"
+      ]
+     ]
+    },
+    {
+     "q": "Rozmawiałeś z kimś? — Nie, z {1} nie rozmawiałem.",
+     "a": [
+      [
+       "nikim"
+      ]
+     ]
+    },
+    {
+     "q": "Myślisz o czymś? — Nie, o {1} nie myślę.",
+     "a": [
+      [
+       "niczym"
+      ]
+     ]
+    },
+    {
+     "q": "Dałeś to komuś? — Nie, {1} tego nie dałem.",
+     "a": [
+      [
+       "nikomu"
+      ]
+     ]
+    },
+    {
+     "q": "Masz jakieś pytanie? — Nie, nie mam {1} pytania.",
+     "a": [
+      [
+       "żadnego"
+      ]
+     ]
+    },
+    {
+     "q": "Interesujesz się czymś? — Nie, {1} się nie interesuję.",
+     "a": [
+      [
+       "niczym"
+      ]
+     ]
+    },
+    {
+     "q": "Kogoś szukasz? — Nie, {1} nie szukam.",
+     "a": [
+      [
+       "nikogo"
+      ]
+     ]
+    },
+    {
+     "q": "Boisz się czegoś? — Nie, {1} się nie boję.",
+     "a": [
+      [
+       "niczego",
+       "nic"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Исправьте ошибку",
+   "kind": "gaps",
+   "instr": "Напечатайте правильную форму вместо пропуска.",
+   "facts": [
+    "R2",
+    "R3",
+    "R6",
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Nikt przyszedł. → Nikt {1} przyszedł.",
+     "a": [
+      [
+       "nie"
+      ]
+     ]
+    },
+    {
+     "q": "Nigdy byłem w Hiszpanii. → Nigdy {1} w Hiszpanii.",
+     "a": [
+      [
+       "nie byłem"
+      ]
+     ]
+    },
+    {
+     "q": "Nie mam coś do picia. → Nie mam {1} do picia.",
+     "a": [
+      [
+       "nic",
+       "niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Nie znam żaden z tych ludzi. → Nie znam {1} z tych ludzi.",
+     "a": [
+      [
+       "żadnego"
+      ]
+     ]
+    },
+    {
+     "q": "Rozmawiałem z ktoś. → Rozmawiałem z {1}.",
+     "a": [
+      [
+       "kimś"
+      ]
+     ]
+    },
+    {
+     "q": "Nie widzę cokolwiek. → {1} nie widzę.",
+     "a": [
+      [
+       "Nic",
+       "Niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Nigdy nie powiem to nikomu. → Nigdy nikomu {1} nie powiem.",
+     "a": [
+      [
+       "tego"
+      ]
+     ]
+    },
+    {
+     "q": "Dzwonił jakiś pani. → Dzwoniła {1} pani.",
+     "a": [
+      [
+       "jakaś"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "coś ciekawego, nic nowego",
+   "kind": "gaps",
+   "instr": "Поставьте прилагательное в dopełniacz.",
+   "facts": [
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Opowiedz mi coś {1} (ciekawy).",
+     "a": [
+      [
+       "ciekawego"
+      ]
+     ]
+    },
+    {
+     "q": "Nic {1} (nowy) się nie stało.",
+     "a": [
+      [
+       "nowego"
+      ]
+     ]
+    },
+    {
+     "q": "Zjadłabym coś {1} (słodki).",
+     "a": [
+      [
+       "słodkiego"
+      ]
+     ]
+    },
+    {
+     "q": "Nie zauważyłem niczego {1} (podejrzany).",
+     "a": [
+      [
+       "podejrzanego"
+      ]
+     ]
+    },
+    {
+     "q": "Coś {1} (inny) mi się przypomniało.",
+     "a": [
+      [
+       "innego"
+      ]
+     ]
+    },
+    {
+     "q": "Nie mam nic {1} (ważny) do powiedzenia.",
+     "a": [
+      [
+       "ważnego"
+      ]
+     ]
+    },
+    {
+     "q": "Kup coś {1} (dobry) na kolację.",
+     "a": [
+      [
+       "dobrego"
+      ]
+     ]
+    },
+    {
+     "q": "Nic {1} (zły) się nie stanie.",
+     "a": [
+      [
+       "złego"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Несколько отрицаний",
+   "kind": "gaps",
+   "instr": "Переведите, заполнив пропуски.",
+   "facts": [
+    "R6",
+    "R7",
+    "R12"
+   ],
+   "items": [
+    {
+     "q": "Никто ничего не сказал. → {1} {2} nie powiedział.",
+     "a": [
+      [
+       "Nikt"
+      ],
+      [
+       "nic",
+       "niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Я никогда никому не говорю. → {1} {2} nie mówię.",
+     "a": [
+      [
+       "Nigdy"
+      ],
+      [
+       "nikomu"
+      ]
+     ]
+    },
+    {
+     "q": "Никто нигде не был. → {1} {2} nie był.",
+     "a": [
+      [
+       "Nikt"
+      ],
+      [
+       "nigdzie"
+      ]
+     ]
+    },
+    {
+     "q": "Мы ни с кем ни о чём не говорили. → Z {1} o {2} nie rozmawialiśmy.",
+     "a": [
+      [
+       "nikim"
+      ],
+      [
+       "niczym"
+      ]
+     ]
+    },
+    {
+     "q": "Он ни разу не позвонил. → {1} razu nie zadzwonił.",
+     "a": [
+      [
+       "Ani"
+      ]
+     ]
+    },
+    {
+     "q": "Мне это совсем не мешает. → {1} mi to nie przeszkadza.",
+     "a": [
+      [
+       "Wcale"
+      ]
+     ]
+    },
+    {
+     "q": "Там никого нет. → {1} tam nie ma.",
+     "a": [
+      [
+       "Nikogo"
+      ]
+     ]
+    },
+    {
+     "q": "В коробке ничего не было. → W pudełku {1} nie było.",
+     "a": [
+      [
+       "nic",
+       "niczego"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: рассказ",
+   "kind": "gaps",
+   "instr": "Uzupełnij tekst. Wpisz zaimek (ktoś, nikt, jakiś, nic…) w odpowiedniej formie. W nawiasie — podpowiedź po rosyjsku.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R6",
+    "R7",
+    "R8",
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Wczoraj wieczorem {1} zadzwonił do drzwi. (кто-то)",
+     "a": [
+      [
+       "ktoś"
+      ]
+     ]
+    },
+    {
+     "q": "Otworzyłam, ale {1} nie było. (никого)",
+     "a": [
+      [
+       "nikogo"
+      ]
+     ]
+    },
+    {
+     "q": "Myślałam, że to {1} dzieci z sąsiedztwa. (какие-то)",
+     "a": [
+      [
+       "jakieś"
+      ]
+     ]
+    },
+    {
+     "q": "Po godzinie znowu {1} zadzwonił. (кто-то)",
+     "a": [
+      [
+       "ktoś"
+      ]
+     ]
+    },
+    {
+     "q": "Zapytałam sąsiadów, ale {1} nic nie widział. (никто)",
+     "a": [
+      [
+       "nikt"
+      ]
+     ]
+    },
+    {
+     "q": "Pani Nowak powiedziała, że {1} nie słyszała takiej historii. (никогда)",
+     "a": [
+      [
+       "nigdy"
+      ]
+     ]
+    },
+    {
+     "q": "Potem {1} w domu zaczął dzwonić telefon, (где-то)",
+     "a": [
+      [
+       "gdzieś"
+      ]
+     ]
+    },
+    {
+     "q": "ale w słuchawce {1} nie było słychać. (ничего)",
+     "a": [
+      [
+       "nic",
+       "niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Następnego dnia znalazłam pod drzwiami {1} list. (какое-то)",
+     "a": [
+      [
+       "jakiś"
+      ]
+     ]
+    },
+    {
+     "q": "Nie było w nim {1}: (ничего интересного)",
+     "a": [
+      [
+       "nic ciekawego",
+       "niczego ciekawego",
+       "nic interesującego",
+       "niczego interesującego"
+      ]
+     ]
+    },
+    {
+     "q": "tylko {1} reklama. (какая-то)",
+     "a": [
+      [
+       "jakaś"
+      ]
+     ]
+    },
+    {
+     "q": "Teraz wieczorem {1} nie otwieram drzwi! (никому)",
+     "a": [
+      [
+       "nikomu"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Сделайте предложение отрицательным. Напечатайте продолжение.",
+   "facts": [
+    "R6",
+    "R7",
+    "R8",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Ktoś przyszedł. → {1}.",
+     "a": [
+      [
+       "Nikt nie przyszedł",
+       "Nie przyszedł nikt"
+      ]
+     ]
+    },
+    {
+     "q": "Coś widzę. → {1}.",
+     "a": [
+      [
+       "Nic nie widzę",
+       "Niczego nie widzę",
+       "Nie widzę nic",
+       "Nie widzę niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Zawsze tu jem. → {1} tu nie jem.",
+     "a": [
+      [
+       "Nigdy"
+      ]
+     ]
+    },
+    {
+     "q": "Wszędzie byłam. → {1}.",
+     "a": [
+      [
+       "Nigdzie nie byłam",
+       "Nie byłam nigdzie"
+      ]
+     ]
+    },
+    {
+     "q": "Mam jakiś pomysł. → Nie mam {1}.",
+     "a": [
+      [
+       "żadnego pomysłu"
+      ]
+     ]
+    },
+    {
+     "q": "Wszyscy wiedzą wszystko. → {1}.",
+     "a": [
+      [
+       "Nikt nic nie wie",
+       "Nikt niczego nie wie"
+      ]
+     ]
+    },
+    {
+     "q": "Rozmawiam z kimś. → {1}.",
+     "a": [
+      [
+       "Z nikim nie rozmawiam",
+       "Nie rozmawiam z nikim"
+      ]
+     ]
+    },
+    {
+     "q": "Znam kogoś w tym mieście. → {1} w tym mieście.",
+     "a": [
+      [
+       "Nikogo nie znam",
+       "Nie znam nikogo"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Жалоба на гостиницу",
+   "facts": [
+    "R6",
+    "R7",
+    "R8",
+    "R10"
+   ],
+   "instr": "Napisz e-mail z reklamacją do hotelu (80–100 słów). Nic nie działało tak, jak obiecano: nikt nie odbierał telefonu, w pokoju nie było żadnych ręczników, nigdzie nie można było zaparkować…",
+   "checklist": [
+    "не меньше 5 отрицательных слов (nikt, nic, nigdy, nigdzie, żaden)",
+    "везде nie при глаголе",
+    "żaden в dopełniaczu",
+    "официальное обращение и подпись"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Объявление: ищу кого-то",
+   "facts": [
+    "R1",
+    "R2",
+    "R4",
+    "R11"
+   ],
+   "instr": "Napisz ogłoszenie (50–70 słów): szukasz kogoś, kto pomoże Ci w nauce polskiego / zaopiekuje się kotem / pomoże przy przeprowadzce. Napisz, czego oczekujesz i kiedy można się kontaktować.",
+   "checklist": [
+    "szukam kogoś, kto…",
+    "1 форма jakiś в нужном роде",
+    "1 форма -kolwiek (kiedykolwiek, gdziekolwiek)",
+    "coś + прилагательное в dopełniaczu"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 84,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 7,
+  "facts": 12
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "topic": "stopniowanie",
+ "title": "Stopniowanie przymiotników i przysłówków",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две согласные → -ejszy (nudny → nudniejszy, ładny → ładniejszy, trudny → trudniejszy). Превосходная = naj- + сравнительная: najstarszy, najładniejszy.",
+   "sources": [
+    {
+     "title": "polski.info — «Adjectives» (раздел Comparison of adjectives)",
+     "url": "https://polski.info/grammar/adjectives",
+     "loc": "подраздел regular comparison: «one consonant + -szy», «two consonants + -ejszy»"
+    },
+    {
+     "title": "elon.io — «The Comparative: -szy / bardziej»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/comparative",
+     "loc": "разделы «-szy after a single consonant», «-ejszy after consonant clusters»"
+    },
+    {
+     "title": "Polski Daily — «Stopniowanie przymiotników» (PDF)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2021/02/stopniowanie-przymiotnikow.pdf",
+     "loc": "раздел Regular forms: młodszy, ładniejszy"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "adjective comparison: «-szy or -iejszy»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Чередования: ł → l (miły → milszy, ciepły → cieplejszy, wesoły → weselszy), n → ń (tani → tańszy), g → ż (drogi → droższy, długi → dłuższy); суффикс -k-/-ok-/-ek- выпадает: szybki → szybszy, niski → niższy, wysoki → wyższy, bliski → bliższy, daleki → dalszy, głęboki → głębszy; ciężki → cięższy, lekki → lżejszy.",
+   "sources": [
+    {
+     "title": "Polski Daily — «Stopniowanie przymiotników» (PDF)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2021/02/stopniowanie-przymiotnikow.pdf",
+     "loc": "разделы «Consonant alternations», «Ending reduction»"
+    },
+    {
+     "title": "elon.io — «The Comparative: -szy / bardziej»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/comparative",
+     "loc": "раздел «Stem alternations»"
+    },
+    {
+     "title": "polski.info — «Adjectives» (раздел Comparison of adjectives)",
+     "url": "https://polski.info/grammar/adjectives",
+     "loc": "подразделы «Alternations in single-/two-consonant stems»: wysoki → wyższy"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "Неправильные: dobry → lepszy → najlepszy; zły → gorszy → najgorszy; duży → większy → największy; mały → mniejszy → najmniejszy.",
+   "sources": [
+    {
+     "title": "elon.io — «The Comparative: -szy / bardziej»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/comparative",
+     "loc": "раздел «Irregular forms»"
+    },
+    {
+     "title": "Polski Daily — «Stopniowanie przymiotników» (PDF)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2021/02/stopniowanie-przymiotnikow.pdf",
+     "loc": "раздел Irregular"
+    },
+    {
+     "title": "polski.info — «Adjectives» (раздел Comparison of adjectives)",
+     "url": "https://polski.info/grammar/adjectives",
+     "loc": "подраздел «Irregular comparison of adjectives»"
+    },
+    {
+     "title": "Vaia — «Polish Comparatives and Superlatives»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-grammar/polish-comparatives-and-superlatives",
+     "loc": "раздел irregular: lepszy, większy, mniejszy, gorszy"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога), прилагательных от глаголов и причастий, ряда заимствований: bardziej interesujący, najbardziej zmęczony, mniej irytujący.",
+   "sources": [
+    {
+     "title": "polski.info — «Adjectives» (раздел Comparison of adjectives)",
+     "url": "https://polski.info/grammar/adjectives",
+     "loc": "подраздел analytical comparison: 4+ слога → bardziej / najbardziej"
+    },
+    {
+     "title": "elon.io — «The Comparative: -szy / bardziej»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/comparative",
+     "loc": "раздел «bardziej (analytic comparative)»"
+    },
+    {
+     "title": "Polski Daily — «Stopniowanie przymiotników» (PDF)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2021/02/stopniowanie-przymiotnikow.pdf",
+     "loc": "раздел Descriptive: bardziej interesujący, mniej irytujący"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "«bardziej and najbardziej are used before the adjective»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "Не сравниваются прилагательные материала, происхождения, постоянных признаков: drewniany, polski, krakowski, martwy.",
+   "sources": [
+    {
+     "title": "Polski Daily — «Stopniowanie przymiotników» (PDF)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2021/02/stopniowanie-przymiotnikow.pdf",
+     "loc": "раздел «Not compared»"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R6",
+   "rule": "Мужско-личное мн. ч. сравнительной степени: -szy → -si: starsi, młodsi, lepsi, więksi, mniejsi, wyżsi; najlepsi, najmłodsi.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Masculine personal plural»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-MPplural.pdf",
+     "loc": "п. 3: «-szy → -si: starszy brat → starsi bracia»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "раздел о чередованиях: «starszy → starsi»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od + dopełniacz (wyższy od brata, starszy ode mnie). Только niż — перед придаточным (trudniejsze, niż myślałem), наречием (lepiej niż wczoraj) и количеством (dłużej niż godzinę).",
+   "sources": [
+    {
+     "title": "elon.io — «niż vs od: Two Ways to Say ‘Than’»",
+     "url": "https://elon.io/grammar/polish/choosing/niz-vs-od-comparison",
+     "loc": "весь раздел"
+    },
+    {
+     "title": "polski.info — «Adverbs» (раздел о stopniowaniu)",
+     "url": "https://polski.info/grammar/adverbs",
+     "loc": "примеры «Latem jest cieplej niż zimą», «Magda mówi po polsku lepiej od Nazara»"
+    },
+    {
+     "title": "elon.io — «The Comparative: -szy / bardziej»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/comparative",
+     "loc": "примеры wyższy od brata, starszy ode mnie"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "Превосходная степень с группой: z + dopełniacz (najlepszy z całej klasy), с местом: w + miejscownik (najwyższa góra w Polsce).",
+   "sources": [
+    {
+     "title": "elon.io — «The Superlative: naj- + Comparative»",
+     "url": "https://elon.io/grammar/polish/adjectives/comparison/superlative",
+     "loc": "примеры «najlepszy z całej klasy», «najwyższa góra w Polsce»"
+    },
+    {
+     "title": "Vaia — «Polish Comparatives and Superlatives»",
+     "url": "https://vaia.com/en-us/explanations/polish/polish-grammar/polish-comparatives-and-superlatives",
+     "loc": "пример «najszybszą biegaczką w szkole»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno → wolniej, tanio → taniej, ciepło → cieplej, drogo → drożej, wysoko → wyżej, daleko → dalej, krótko → krócej, jasno → jaśniej, późno → później, trudno → trudniej.",
+   "sources": [
+    {
+     "title": "polski.info — «Adverbs» (раздел о stopniowaniu)",
+     "url": "https://polski.info/grammar/adverbs",
+     "loc": "подразделы regular comparison и alternations"
+    },
+    {
+     "title": "elon.io — «Comparative and Superlative Adverbs»",
+     "url": "https://elon.io/grammar/polish/adverbs/comparison",
+     "loc": "раздел «Comparative with -ej»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish morphology»",
+     "url": "https://en.wikipedia.org/wiki/Polish_morphology",
+     "loc": "adverb comparison: «-iej», naj-"
+    },
+    {
+     "title": "K. Dziwirek, «Adverb formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-adverb-form.pdf",
+     "loc": "пример inteligentnie → inteligentniej"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Неправильные наречия: dobrze → lepiej → najlepiej; źle → gorzej → najgorzej; dużo → więcej → najwięcej; mało → mniej → najmniej. После więcej/mniej существительное — в dopełniaczu (więcej czasu).",
+   "sources": [
+    {
+     "title": "polski.info — «Adverbs» (раздел о stopniowaniu)",
+     "url": "https://polski.info/grammar/adverbs",
+     "loc": "подраздел irregular comparison"
+    },
+    {
+     "title": "elon.io — «Comparative and Superlative Adverbs»",
+     "url": "https://elon.io/grammar/polish/adverbs/comparison",
+     "loc": "раздел «Irregular comparatives»: «Potrzebuję więcej czasu»"
+    },
+    {
+     "title": "K. Dziwirek, «Adverb formation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-adverb-form.pdf",
+     "loc": "irregular: lepiej, gorzej, więcej, mniej"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "coraz + сравнительная — «всё более»: Mam coraz więcej pracy.",
+   "sources": [
+    {
+     "title": "polski.info — «Adverbs» (раздел о stopniowaniu)",
+     "url": "https://polski.info/grammar/adverbs",
+     "loc": "Comparison expressions: «Mam coraz więcej pracy»"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  },
+  {
+   "id": "R12",
+   "rule": "im + сравнительная …, tym + сравнительная — «чем…, тем…»: Im szybciej skończymy, tym wcześniej wyjdziemy.",
+   "sources": [
+    {
+     "title": "elon.io — «Comparative and Result Clauses: tak… jak, taki… jak, im… tym»",
+     "url": "https://elon.io/grammar/polish/syntax/comparative-clauses",
+     "loc": "раздел im … tym"
+    }
+   ],
+   "single_source_note": "Подтверждено одним источником — дано одной строкой с пометкой."
+  }
+ ]
+}

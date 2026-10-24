@@ -1,0 +1,282 @@
+{
+ "topic": "zeby-aby",
+ "title": "Żeby / aby",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "żeby = że + by. Личное окончание присоединяется к самому союзу и пишется слитно: żebym, żebyś, żeby, żebyśmy, żebyście, żeby (3-е лицо без окончания). Так же aby: abym, abyś, abyśmy, abyście.",
+   "sources": [
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «żeby = że + by, and it takes the clitic»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "раздел Conjunctions / Subjunctive clauses: «the by of the conjunction … takes personal endings»"
+    },
+    {
+     "title": "ZPE (Zintegrowana Platforma Edukacyjna, MEN) — «Tryby czasownika»",
+     "url": "https://zpe.gov.pl/watek/LP1AC9VRws/6/a/tryby-czasownika/D18kXuVcM",
+     "loc": "часть о частице by: «Pisownia» — łącznie ze spójnikami (gdybym…); пример «Żebyś wiedział!»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Цель при одном и том же субъекте: żeby + инфинитив. Uczę się, żeby zdać egzamin.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "раздел Purpose clauses: «purpose clauses are introduced by żeby followed by an infinitive»"
+    },
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «Purpose: the same-subject vs different-subject split»"
+    },
+    {
+     "title": "Transparent Language Polish Blog — «So what's the trick with Polish clauses?» (30.05.2014)",
+     "url": "https://blogs.transparent.com/polish/?p=5133",
+     "loc": "пункт aby/żeby + bezokolicznik: «Odwiedziłam ją, aby/żeby jej pogratulować»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "Если субъекты разные, после żeby стоит форма прошедшего времени на -ł (без личного окончания — оно уже на żeby): Mówię głośno, żebyś słyszał. Настоящее и будущее время после żeby не употребляются (не *żeby on przyjdzie, а żeby przyszedł).",
+   "sources": [
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "разделы «Purpose: the same-subject vs different-subject split» и «Common Mistakes»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "Conjunctions: aby/żeby «can take an infinitive phrase or a past-tense sentence»"
+    },
+    {
+     "title": "Wiktionary — «żeby» (Polish, Conjunction)",
+     "url": "https://www.wiktionary.com/wiki/%C5%BCeby",
+     "loc": "значения 1, 2: «with past tense»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "В придаточном цели żeby обязателен — его нельзя опустить, как английское to: Pan Orłowski jest w biurze, żeby pracować.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "раздел Purpose clauses: «żeby is NOT optional»"
+    },
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «Purpose …»: смешение конструкций названо «the classic error»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "После глаголов хотения, просьбы, приказа (chcieć, prosić, powiedzieć, mówić в значении «велеть») при другом исполнителе — żeby + форма на -ł: Chcę, żebyś przyszedł. Конструкции «хотеть + кого-то + инфинитив» нет: не *chcę ciebie przyjść. Если исполнитель тот же — просто инфинитив: Chcę przyjść.",
+   "sources": [
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «Indirect commands and requests: ‘I want you to…’»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "Subjunctive clauses: «used with verbs meaning ‘want’, ‘expect’», пример chce, żeby(m) śpiewał"
+    },
+    {
+     "title": "elon.io — «reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункт Commands and requests: «Powiedział, żebym poszedł do domu»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "rule": "Пожелания: Chciałbym/Chciałabym, żeby…; Marzę o tym, żeby…; восклицание Żebyś wiedział! («Ещё бы!», разг.).",
+   "sources": [
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «Wishes: Chciałbym, żeby…»"
+    },
+    {
+     "title": "Wiktionary — «żeby» (Polish, Conjunction)",
+     "url": "https://www.wiktionary.com/wiki/%C5%BCeby",
+     "loc": "значение «desire or wish, with past tense»; пример «Żebyś wiedział!»"
+    },
+    {
+     "title": "ZPE (Zintegrowana Platforma Edukacyjna, MEN) — «Tryby czasownika»",
+     "url": "https://zpe.gov.pl/watek/LP1AC9VRws/6/a/tryby-czasownika/D18kXuVcM",
+     "loc": "пример «Żebyś wiedział!»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "że сообщает факт (глагол в обычном времени), żeby — цель, желание, просьбу. Один и тот же глагол меняет смысл: Powiedz mu, że zadzwonił (сообщи факт) — Powiedz mu, żeby zadzwonił (передай просьбу). Перед że и żeby всегда ставится запятая.",
+   "sources": [
+    {
+     "title": "elon.io — «że and żeby: That, So That»",
+     "url": "https://elon.io/grammar/polish/conjunctions/subordinating-ze",
+     "loc": "разделы «że vs żeby»; пример с powiedz mu"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "раздел Complement clauses: «finite complement clauses are introduced by że»"
+    },
+    {
+     "title": "elon.io — «reported speech»",
+     "url": "https://elon.io/grammar/polish/syntax/reported-speech",
+     "loc": "пункты Statements (że) и Commands and requests (żeby); «A comma always precedes że, czy, żeby»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "Сомнение и отрицаемое мнение (nie sądzę, nie wydaje mi się, wątpię) часто вводятся через żeby + форма на -ł: Nie sądzę, żeby to był dobry pomysł.",
+   "sources": [
+    {
+     "title": "elon.io — «że and żeby: That, So That»",
+     "url": "https://elon.io/grammar/polish/conjunctions/subordinating-ze",
+     "loc": "пример «Nie sądzę, żeby to był dobry pomysł» — отрицание переводит в ирреальность"
+    },
+    {
+     "title": "Wiktionary — «żeby» (Polish, Conjunction)",
+     "url": "https://www.wiktionary.com/wiki/%C5%BCeby",
+     "loc": "значение «doubt, chiefly in negated sentences: that, if (past tense)»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "Отрицательная цель: żeby nie + инфинитив / форма на -ł: Śpieszę się, żeby nie być spóźniona. Idź na palcach, żeby nie obudzić dziecka. Прямое дополнение при отрицании — в dopełniacz (см. тему 8).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "примеры «Studiuję, żeby się nie nudzić», «Śpieszę się, żeby nie być spóźniona»"
+    },
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "пример «Idź na palcach, żeby nie obudzić dziecka»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "«Слишком … чтобы»: za/zbyt + прилагательное/наречие, żeby + инфинитив: Jestem zbyt zajęta, żeby robić zakupy. Kawa jest za gorąca, żeby ją pić.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "пример «Jestem zbyt zajęta, żeby robić zakupy»"
+    },
+    {
+     "title": "elon.io — урок «clauses of excess (zbyt… żeby)»",
+     "url": "https://elon.io/learn-polish/lesson/clauses-of-excess-(zbyt...-%C5%BCeby)",
+     "loc": "весь урок"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "aby значит то же, что żeby, но звучит официальнее/книжнее; by и ażeby — ещё книжнее. Окончания те же: abym, byś…",
+   "sources": [
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «aby and the formal register»"
+    },
+    {
+     "title": "Vaia — «Polish Adverbial Clauses»",
+     "url": "https://www.vaia.com/en-us/explanations/polish/polish-syntax/polish-adverbial-clauses",
+     "loc": "раздел о purpose: aby — «more formal», żeby — «spoken language», пример «Piszę, by pamiętać»"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "Subjunctive clauses: перечень żeby, iżby, ażeby, aby, coby; пример chce, by(m) śpiewał"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "rule": "Придаточное с żeby может стоять в начале предложения: Żeby być dobrym studentem, trzeba dużo się uczyć.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "пример «Żeby być dobrym studentem, trzeba dużo się uczyć»"
+    },
+    {
+     "title": "Vaia — «Polish Adverbial Clauses»",
+     "url": "https://www.vaia.com/en-us/explanations/polish/polish-syntax/polish-adverbial-clauses",
+     "loc": "примеры цели с aby/żeby"
+    }
+   ]
+  },
+  {
+   "id": "R13",
+   "rule": "kazać («велеть») обычно управляет дательным лицом + инфинитивом, без żeby: Kazał mi czekać. Kazał nam kupić chleb.",
+   "sources": [
+    {
+     "title": "elon.io — «wołać, prosić, kazać»",
+     "url": "https://elon.io/grammar/polish/verbs-reference/wolac-prosic-kazac",
+     "loc": "раздел kazać: «kazać + [DATIVE] + [INFINITIVE]»"
+    },
+    {
+     "title": "Langenscheidt Polish–German — «kazać»",
+     "url": "https://en.langenscheidt.com/polish-german/kaza%C4%87",
+     "loc": "конструкция «kazać [komuś] + bezokolicznik», примеры kazał nam milczeć / kupić chleb"
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "rule": "tak, żeby — «так, чтобы»: Piotr kupił samochód tak, żeby móc pojechać do Francji.",
+   "sources": [
+    {
+     "title": "Transparent Language Polish Blog — «So what's the trick with Polish clauses?»",
+     "url": "https://blogs.transparent.com/polish/?p=5133",
+     "loc": "пункт «tak, aby / tak, żeby»"
+    },
+    {
+     "title": "elon.io — «żeby: Purpose, Wishes, and Subordinate Mood»",
+     "url": "https://elon.io/grammar/polish/verbs/conditional/zeby-purpose-and-wishes",
+     "loc": "раздел «Purpose …» (żeby = so that)"
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "rule": "После глаголов движения цель часто выражается просто инфинитивом: Idę spać. Pobiegł otworzyć drzwi. (Можно и с żeby: Idę tam, żeby robić zakupy.)",
+   "sources": [
+    {
+     "title": "M. Danielewiczowa, I. Duraj-Nowosielska, «Polski bezokolicznik celu przy czasownikach ruchu», LingVaria 18(1)(35), 2023",
+     "url": "https://journals.akademicka.pl/lv/article/view/5077",
+     "loc": "с. 41–61, аннотация"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), «Polish że / żeby» — раздаточный материал",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-ze-zeby.pdf",
+     "loc": "пример с żeby после глагола движения: «Idę tam, żeby robić zakupy»"
+    }
+   ],
+   "single_source_note": "Инфинитив без żeby после глаголов движения прямо описан в одном источнике; второй подтверждает только вариант с żeby. Даётся одной строкой с пометкой."
+  }
+ ]
+}

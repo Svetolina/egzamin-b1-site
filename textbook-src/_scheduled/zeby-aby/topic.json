@@ -1,0 +1,1349 @@
+{
+ "id": "zeby-aby",
+ "num": 11,
+ "title": "Żeby / aby: цель, желание, просьба",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "zdania-ktory",
+ "next": "strona-bierna",
+ "summary": "Как сказать «чтобы»: żeby + инфинитив (тот же человек) или żeby + окончание + форма на -ł (другой человек); просьбы, пожелания, że/żeby, aby в официальном стиле.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Что такое żeby и aby",
+   "facts": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "body": "**Żeby** (книжн. **aby**) вводит придаточное цели («чтобы»), желания и просьбы. Главное правило всей темы:\n\n- **один и тот же человек** → żeby + **инфинитив**: *Uczę się, żeby zdać egzamin.*\n- **разные люди** → żeb**y + окончание** + форма **на -ł**: *Mówię głośno, żebyś słyszał.*\n\n💡 Подсказка для русскоговорящих: как и в русском «чтобы ты пришёл», после żeby стоит форма прошедшего времени.",
+   "examples": [
+    [
+     "Uczę się, żeby zdać egzamin.",
+     "Учусь, чтобы сдать экзамен."
+    ],
+    [
+     "Mówię głośno, żebyś słyszał.",
+     "Говорю громко, чтобы ты слышал."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Окончания: żebym, żebyś…",
+   "facts": [
+    "R1",
+    "R3"
+   ],
+   "body": "Личное окончание «уезжает» на союз, а глагол стоит в форме на -ł **без** окончания.",
+   "table": {
+    "head": [
+     "Лицо",
+     "żeby + …",
+     "пример (iść → poszedł/poszła)"
+    ],
+    "rows": [
+     [
+      "ja",
+      "żebym",
+      "żebym poszedł / poszła"
+     ],
+     [
+      "ty",
+      "żebyś",
+      "żebyś poszedł / poszła"
+     ],
+     [
+      "on / ona / ono",
+      "żeby",
+      "żeby poszedł / poszła / poszło"
+     ],
+     [
+      "my",
+      "żebyśmy",
+      "żebyśmy poszli / poszły"
+     ],
+     [
+      "wy",
+      "żebyście",
+      "żebyście poszli / poszły"
+     ],
+     [
+      "oni / one",
+      "żeby",
+      "żeby poszli / poszły"
+     ]
+    ]
+   },
+   "note": "Неверно: *żeby poszedłem*, *żebym poszłem*. Окончание -m/-ś/-śmy/-ście — только одно и только на żeby."
+  },
+  {
+   "id": "s3",
+   "title": "Один субъект → инфинитив",
+   "facts": [
+    "R2",
+    "R4",
+    "R12"
+   ],
+   "body": "Если «чтобы» относится к тому же человеку, что и главный глагол, — инфинитив. Żeby **обязателен**, его нельзя пропустить. Придаточное может стоять и в начале.",
+   "examples": [
+    [
+     "Anna oszczędza, żeby kupić mieszkanie.",
+     "Анна копит, чтобы купить квартиру."
+    ],
+    [
+     "Żeby być dobrym studentem, trzeba dużo się uczyć.",
+     "Чтобы быть хорошим студентом, надо много учиться."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Разные субъекты → форма на -ł",
+   "facts": [
+    "R3"
+   ],
+   "body": "Если действие выполняет другой человек, после żeby — форма на -ł, согласованная с ним по роду и числу. Настоящее и будущее время **не** ставятся.",
+   "examples": [
+    [
+     "Zostawiłem ci klucz, żebyś mogła wejść.",
+     "Я оставил тебе ключ, чтобы ты могла войти."
+    ],
+    [
+     "Otwórz okno, żeby weszło świeże powietrze.",
+     "Открой окно, чтобы вошёл свежий воздух."
+    ]
+   ],
+   "note": "Ошибка: *żeby on przyjdzie* → правильно *żeby przyszedł*."
+  },
+  {
+   "id": "s5",
+   "title": "Хочу, чтобы ты… / Прошу, чтобы…",
+   "facts": [
+    "R5"
+   ],
+   "body": "chcieć, prosić, powiedzieć, mówić (в значении «велеть») + **żeby** при другом исполнителе. Так же передаётся приказ в косвенной речи: «Kup chleb!» → *Powiedziała, żebym kupił chleb.*",
+   "table": {
+    "head": [
+     "Тот же человек",
+     "Другой человек"
+    ],
+    "rows": [
+     [
+      "Chcę przyjść.",
+      "Chcę, żebyś przyszedł."
+     ],
+     [
+      "Proszę o pomoc.",
+      "Proszę, żebyś mi pomógł."
+     ]
+    ]
+   },
+   "note": "Не бывает: *chcę ciebie przyjść*, *chcę, żebym przyszedł* (если это я сам)."
+  },
+  {
+   "id": "s6",
+   "title": "kazać — без żeby",
+   "facts": [
+    "R13"
+   ],
+   "body": "Глагол **kazać** («велеть») обычно сочетается с дательным падежом лица и инфинитивом.",
+   "examples": [
+    [
+     "Kazał mi czekać.",
+     "Он велел мне ждать."
+    ],
+    [
+     "Szefowa kazała nam kupić chleb.",
+     "Начальница велела нам купить хлеб."
+    ]
+   ],
+   "note": "Не *Kazał mnie czekać* (лицо — в celowniku)."
+  },
+  {
+   "id": "s7",
+   "title": "Пожелания",
+   "facts": [
+    "R6"
+   ],
+   "body": "*Chciałbym / Chciałabym, żeby…*, *Marzę o tym, żeby…*. Разговорное восклицание *Żebyś wiedział!* — «Ещё бы! / Если бы ты знал!».",
+   "examples": [
+    [
+     "Chciałabym, żeby ten rok był spokojniejszy.",
+     "Я бы хотела, чтобы этот год был спокойнее."
+    ],
+    [
+     "Marzę o tym, żebyśmy pojechali nad morze.",
+     "Мечтаю о том, чтобы мы поехали на море."
+    ]
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "że или żeby?",
+   "facts": [
+    "R7"
+   ],
+   "body": "**że** — факт (обычное время): *Wiem, że masz rację.* **żeby** — цель, желание, просьба (форма на -ł / инфинитив). Перед обоими — **запятая**.",
+   "table": {
+    "head": [
+     "że (факт)",
+     "żeby (просьба)"
+    ],
+    "rows": [
+     [
+      "Powiedz mu, że dzwoniła mama.",
+      "Powiedz mu, żeby zadzwonił do mamy."
+     ],
+     [
+      "Napisała, że wróci w niedzielę.",
+      "Napisała, żebyśmy na nią nie czekali."
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s9",
+   "title": "Сомнение: nie sądzę, żeby…",
+   "facts": [
+    "R8"
+   ],
+   "body": "После *nie sądzę, nie wydaje mi się, wątpię* обычно żeby + форма на -ł (сравните: *Myślę, że to dobry pomysł* — *Nie sądzę, żeby to był dobry pomysł*).",
+   "examples": [
+    [
+     "Wątpię, żeby zdążył na pociąg.",
+     "Сомневаюсь, что он успел/успеет на поезд."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "Чтобы не…",
+   "facts": [
+    "R9"
+   ],
+   "body": "**żeby nie** + инфинитив или форма на -ł. Прямое дополнение при отрицании — в dopełniacz (тема 8): *żeby nie zgubić kluczy*.",
+   "examples": [
+    [
+     "Idź na palcach, żeby nie obudzić dziecka.",
+     "Иди на цыпочках, чтобы не разбудить ребёнка."
+    ],
+    [
+     "Powiedz mu, żeby nie palił papierosów.",
+     "Скажи ему, чтобы не курил."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "Слишком… чтобы; так, чтобы",
+   "facts": [
+    "R10",
+    "R14"
+   ],
+   "body": "**za / zbyt** + прилагательное, **żeby** + инфинитив. **tak, żeby** — «так, чтобы».",
+   "examples": [
+    [
+     "Jest za późno, żeby zaczynać nowy temat.",
+     "Слишком поздно, чтобы начинать новую тему."
+    ],
+    [
+     "Mów tak, żeby wszyscy słyszeli.",
+     "Говори так, чтобы все слышали."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "aby, by, ażeby — стиль",
+   "facts": [
+    "R11"
+   ],
+   "body": "Смысл одинаковый. **żeby** — нейтрально и в разговоре; **aby** — официально (письма в учреждения, объявления); **by, ażeby** — книжно. В официальном письме на экзамене уместно *aby*.",
+   "examples": [
+    [
+     "Uprzejmie proszę, aby Pan odpowiedział do piątku.",
+     "Убедительно прошу Вас ответить до пятницы."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "Глаголы движения: иногда без żeby",
+   "facts": [
+    "R15"
+   ],
+   "body": "После iść, pójść, pobiec и т. п. цель часто выражается просто инфинитивом: *Idę spać. Pobiegł otworzyć drzwi.* Вариант с żeby тоже правилен: *Idę tam, żeby zrobić zakupy.*",
+   "note": "Правило подтверждено одним источником напрямую — дано одной строкой."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Окончание на żeby",
+   "kind": "gaps",
+   "instr": "Впишите żeby с нужным окончанием (в 12 — aby).",
+   "facts": [
+    "R1"
+   ],
+   "items": [
+    {
+     "q": "Mama prosi, {1} (ja) wrócił przed dziesiątą.",
+     "a": [
+      [
+       "żebym"
+      ]
+     ]
+    },
+    {
+     "q": "Chcę, {1} (ty) zadzwonił do mnie jutro.",
+     "a": [
+      [
+       "żebyś"
+      ]
+     ]
+    },
+    {
+     "q": "Szef chce, {1} (my) skończyli raport do piątku.",
+     "a": [
+      [
+       "żebyśmy"
+      ]
+     ]
+    },
+    {
+     "q": "Proszę, {1} (wy) nie rozmawiali w czasie egzaminu.",
+     "a": [
+      [
+       "żebyście"
+      ]
+     ]
+    },
+    {
+     "q": "Nauczycielka chce, {1} (oni) przeczytali ten tekst.",
+     "a": [
+      [
+       "żeby"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz powiedział, {1} (ona) dużo piła.",
+     "a": [
+      [
+       "żeby"
+      ]
+     ]
+    },
+    {
+     "q": "Powiedz mu, {1} (on) zaczekał.",
+     "a": [
+      [
+       "żeby"
+      ]
+     ]
+    },
+    {
+     "q": "Rodzice chcą, {1} (ja) studiowała medycynę.",
+     "a": [
+      [
+       "żebym"
+      ]
+     ]
+    },
+    {
+     "q": "Prosiliśmy, {1} (ty) się nie spóźniała.",
+     "a": [
+      [
+       "żebyś"
+      ]
+     ]
+    },
+    {
+     "q": "Chciałbym, {1} (wy) przyjechali do nas w lipcu.",
+     "a": [
+      [
+       "żebyście"
+      ]
+     ]
+    },
+    {
+     "q": "Koledzy proszą, {1} (my) zrobili przerwę.",
+     "a": [
+      [
+       "żebyśmy"
+      ]
+     ]
+    },
+    {
+     "q": "Dyrektor prosi, {1} (wy) przyszli o ósmej.",
+     "a": [
+      [
+       "abyście"
+      ]
+     ],
+     "hint": "aby + окончание"
+    }
+   ],
+   "example": {
+    "q": "Chcę, ___ (ty) przyszedł.",
+    "a": "żebyś"
+   }
+  },
+  {
+   "id": "e2",
+   "title": "Инфинитив или форма на -ł?",
+   "kind": "gaps",
+   "instr": "Поставьте глагол в скобках в нужную форму: инфинитив (тот же субъект) или форму на -ł (другой субъект).",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Uczę się wieczorami, żeby {1} (zdać) egzamin B1.",
+     "a": [
+      [
+       "zdać"
+      ]
+     ]
+    },
+    {
+     "q": "Mówię wolno, żebyś mnie dobrze {1} (zrozumieć; ty — м.).",
+     "a": [
+      [
+       "zrozumiał"
+      ]
+     ]
+    },
+    {
+     "q": "Anna oszczędza pieniądze, żeby {1} (kupić) mieszkanie.",
+     "a": [
+      [
+       "kupić"
+      ]
+     ]
+    },
+    {
+     "q": "Otwórz okno, żeby {1} (wejść) świeże powietrze.",
+     "a": [
+      [
+       "weszło"
+      ]
+     ]
+    },
+    {
+     "q": "Zostawiłem ci klucz, żebyś {1} (móc; ty — ж.) wejść.",
+     "a": [
+      [
+       "mogła"
+      ]
+     ]
+    },
+    {
+     "q": "Wstałam wcześnie, żeby się nie {1} (spóźnić) na pociąg.",
+     "a": [
+      [
+       "spóźnić"
+      ]
+     ]
+    },
+    {
+     "q": "Dzwonię, żebyś {1} (wiedzieć; ty — м.), co się stało.",
+     "a": [
+      [
+       "wiedział"
+      ]
+     ]
+    },
+    {
+     "q": "Pracujemy dużo, żeby nasze dzieci {1} (mieć) lepsze życie.",
+     "a": [
+      [
+       "miały"
+      ]
+     ]
+    },
+    {
+     "q": "Piotr poszedł do apteki, żeby {1} (kupić) leki.",
+     "a": [
+      [
+       "kupić"
+      ]
+     ]
+    },
+    {
+     "q": "Napiszę do Ewy, żeby {1} (przyjść) na urodziny.",
+     "a": [
+      [
+       "przyszła"
+      ]
+     ]
+    },
+    {
+     "q": "Ćwiczę codziennie, żeby {1} (być) zdrowym.",
+     "a": [
+      [
+       "być"
+      ]
+     ]
+    },
+    {
+     "q": "Zamknij drzwi, żeby kot nie {1} (uciec).",
+     "a": [
+      [
+       "uciekł"
+      ]
+     ]
+    },
+    {
+     "q": "Kupiłem mapę, żebyśmy się nie {1} (zgubić).",
+     "a": [
+      [
+       "zgubili"
+      ]
+     ]
+    },
+    {
+     "q": "Przyjechali wcześniej, żeby nam {1} (pomóc).",
+     "a": [
+      [
+       "pomóc"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Соедините предложения",
+   "kind": "gaps",
+   "instr": "Соедините два предложения с помощью żeby. Напечатайте только часть с żeby (aby тоже засчитывается).",
+   "facts": [
+    "R2",
+    "R3",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Jadę do Krakowa. Chcę zwiedzić Wawel. → Jadę do Krakowa, {1}.",
+     "a": [
+      [
+       "żeby zwiedzić Wawel",
+       "aby zwiedzić Wawel"
+      ]
+     ]
+    },
+    {
+     "q": "Uczę się polskiego. Chcę pracować w Polsce. → Uczę się polskiego, {1}.",
+     "a": [
+      [
+       "żeby pracować w Polsce",
+       "aby pracować w Polsce"
+      ]
+     ]
+    },
+    {
+     "q": "Mówię głośno. Wszyscy mają mnie słyszeć. → Mówię głośno, {1}.",
+     "a": [
+      [
+       "żeby wszyscy mnie słyszeli",
+       "aby wszyscy mnie słyszeli"
+      ]
+     ]
+    },
+    {
+     "q": "Kupiłam słownik. Chcę szybciej czytać. → Kupiłam słownik, {1}.",
+     "a": [
+      [
+       "żeby szybciej czytać",
+       "aby szybciej czytać"
+      ]
+     ]
+    },
+    {
+     "q": "Daję ci mój numer. Możesz do mnie zadzwonić. → Daję ci mój numer, {1}.",
+     "a": [
+      [
+       "żebyś mógł do mnie zadzwonić",
+       "abyś mógł do mnie zadzwonić",
+       "żebyś mogła do mnie zadzwonić",
+       "abyś mogła do mnie zadzwonić"
+      ]
+     ]
+    },
+    {
+     "q": "Wychodzimy wcześniej. Nie chcemy stać w korku. → Wychodzimy wcześniej, {1}.",
+     "a": [
+      [
+       "żeby nie stać w korku",
+       "aby nie stać w korku"
+      ]
+     ]
+    },
+    {
+     "q": "Mama gotuje zupę. Dzieci mają zjeść coś ciepłego. → Mama gotuje zupę, {1}.",
+     "a": [
+      [
+       "żeby dzieci zjadły coś ciepłego",
+       "aby dzieci zjadły coś ciepłego"
+      ]
+     ]
+    },
+    {
+     "q": "Oszczędzam. Chcę pojechać na wakacje. → Oszczędzam, {1}.",
+     "a": [
+      [
+       "żeby pojechać na wakacje",
+       "aby pojechać na wakacje"
+      ]
+     ]
+    },
+    {
+     "q": "Tłumaczę ci to jeszcze raz. Masz wszystko zrozumieć. → Tłumaczę ci to jeszcze raz, {1}.",
+     "a": [
+      [
+       "żebyś wszystko zrozumiał",
+       "abyś wszystko zrozumiał",
+       "żebyś wszystko zrozumiała",
+       "abyś wszystko zrozumiała"
+      ]
+     ]
+    },
+    {
+     "q": "Włączyłem światło. Chciałem coś zobaczyć. → Włączyłem światło, {1}.",
+     "a": [
+      [
+       "żeby coś zobaczyć",
+       "aby coś zobaczyć"
+      ]
+     ]
+    },
+    {
+     "q": "Zapisałam adres. Nie chciałam go zapomnieć. → Zapisałam adres, {1}.",
+     "a": [
+      [
+       "żeby go nie zapomnieć",
+       "aby go nie zapomnieć"
+      ]
+     ]
+    },
+    {
+     "q": "Piszę do was. Macie przyjść w sobotę. → Piszę do was, {1}.",
+     "a": [
+      [
+       "żebyście przyszli w sobotę",
+       "abyście przyszli w sobotę"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Передайте просьбу",
+   "kind": "gaps",
+   "instr": "Передайте просьбу/приказ с помощью żeby. Если говорит «я», засчитываются обе формы рода.",
+   "facts": [
+    "R5",
+    "R1",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Mama do mnie: «Posprzątaj pokój!» → Mama chce, {1} pokój.",
+     "a": [
+      [
+       "żebym posprzątał",
+       "żebym posprzątała"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do nas: «Skończcie projekt do piątku!» → Szef chce, {1} projekt do piątku.",
+     "a": [
+      [
+       "żebyśmy skończyli",
+       "żebyśmy skończyły"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz do pacjenta: «Proszę nie palić!» → Lekarz prosi pacjenta, {1}.",
+     "a": [
+      [
+       "żeby nie palił"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do ciebie: «Zadzwoń wieczorem!» → Proszę cię, {1} wieczorem.",
+     "a": [
+      [
+       "żebyś zadzwonił",
+       "żebyś zadzwoniła"
+      ]
+     ]
+    },
+    {
+     "q": "Nauczyciel do uczniów: «Otwórzcie książki!» → Nauczyciel mówi, {1} książki.",
+     "a": [
+      [
+       "żeby otworzyli"
+      ]
+     ]
+    },
+    {
+     "q": "Anna do Marka: «Kup chleb!» → Anna powiedziała Markowi, {1} chleb.",
+     "a": [
+      [
+       "żeby kupił"
+      ]
+     ]
+    },
+    {
+     "q": "Policjant do kierowcy: «Proszę pokazać dokumenty.» → Policjant poprosił kierowcę, {1} dokumenty.",
+     "a": [
+      [
+       "żeby pokazał"
+      ]
+     ]
+    },
+    {
+     "q": "Babcia do wnuczki: «Ubierz się ciepło!» → Babcia mówi wnuczce, {1} ciepło.",
+     "a": [
+      [
+       "żeby się ubrała",
+       "żeby ubrała się"
+      ]
+     ]
+    },
+    {
+     "q": "Koleżanka do mnie: «Pomóż mi!» → Koleżanka prosi, {1}.",
+     "a": [
+      [
+       "żebym jej pomógł",
+       "żebym jej pomogła",
+       "żebym pomógł jej",
+       "żebym pomogła jej"
+      ]
+     ]
+    },
+    {
+     "q": "Rodzice do nas: «Nie wracajcie późno!» → Rodzice proszą, {1} późno.",
+     "a": [
+      [
+       "żebyśmy nie wracali",
+       "żebyśmy nie wracały"
+      ]
+     ]
+    },
+    {
+     "q": "Urzędniczka do mnie: «Proszę wypełnić formularz.» → Urzędniczka prosi, {1} formularz.",
+     "a": [
+      [
+       "żebym wypełnił",
+       "żebym wypełniła"
+      ]
+     ]
+    },
+    {
+     "q": "Ty do Ewy: «Przyjdź jutro!» → Powiedz Ewie, {1} jutro.",
+     "a": [
+      [
+       "żeby przyszła"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "że или żeby?",
+   "kind": "gaps",
+   "instr": "Впишите że или żeby (aby тоже засчитывается).",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "items": [
+    {
+     "q": "Wiem, {1} masz rację.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Chcę, {1} przyszedł wcześniej.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Powiedz mu, {1} dzwoniła mama.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Powiedz mu, {1} zadzwonił do mamy.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Myślę, {1} to dobry pomysł.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Nie sądzę, {1} to był dobry pomysł.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Cieszę się, {1} przyjechałeś.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Marzę o tym, {1} mieć własny dom.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Napisała, {1} wróci w niedzielę.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Napisała, {1} na nią nie czekać.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Słyszałem, {1} szukasz pracy.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Wątpię, {1} zdążył na pociąg.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Szef uważa, {1} projekt jest gotowy.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Zależy mi na tym, {1} wszyscy byli zadowoleni.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Чтобы не… (+ dopełniacz)",
+   "kind": "gaps",
+   "instr": "Поставьте слово в скобках в нужную форму (после отрицания — dopełniacz; глагол — форма на -ł).",
+   "facts": [
+    "R9",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Schowaj portfel, żeby nie zgubić {1} (pieniądze).",
+     "a": [
+      [
+       "pieniędzy"
+      ]
+     ]
+    },
+    {
+     "q": "Mów cicho, żeby nie obudzić {1} (dziecko).",
+     "a": [
+      [
+       "dziecka"
+      ]
+     ]
+    },
+    {
+     "q": "Jedź wolno, żeby nie mieć {1} (wypadek).",
+     "a": [
+      [
+       "wypadku"
+      ]
+     ]
+    },
+    {
+     "q": "Uczę się codziennie, żeby nie stracić {1} (motywacja).",
+     "a": [
+      [
+       "motywacji"
+      ]
+     ]
+    },
+    {
+     "q": "Wyłączyłem telefon, żeby nie słyszeć {1} (powiadomienia).",
+     "a": [
+      [
+       "powiadomień"
+      ]
+     ]
+    },
+    {
+     "q": "Zrób listę, żeby nie zapomnieć {1} (nic).",
+     "a": [
+      [
+       "niczego"
+      ]
+     ]
+    },
+    {
+     "q": "Wyszliśmy wcześniej, żeby nie przegapić {1} (początek) filmu.",
+     "a": [
+      [
+       "początku"
+      ]
+     ]
+    },
+    {
+     "q": "Piję dużo wody, żeby nie mieć {1} (ból) głowy.",
+     "a": [
+      [
+       "bólu"
+      ]
+     ]
+    },
+    {
+     "q": "Zapisz hasło, żeby nie zablokować {1} (konto).",
+     "a": [
+      [
+       "konta"
+      ]
+     ]
+    },
+    {
+     "q": "Przeczytaj umowę, żeby nie podpisać {1} (zły dokument).",
+     "a": [
+      [
+       "złego dokumentu"
+      ]
+     ]
+    },
+    {
+     "q": "Poproś go, żeby nie {1} (palić) w domu.",
+     "a": [
+      [
+       "palił"
+      ]
+     ]
+    },
+    {
+     "q": "Prosiłam was, żebyście nie {1} (jeść; вы — м.) słodyczy przed obiadem.",
+     "a": [
+      [
+       "jedli"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Слишком…, чтобы; сомнение",
+   "kind": "gaps",
+   "instr": "Поставьте глагол в нужную форму.",
+   "facts": [
+    "R10",
+    "R8",
+    "R14"
+   ],
+   "items": [
+    {
+     "q": "Jestem zbyt zmęczona, żeby {1} (iść) na imprezę.",
+     "a": [
+      [
+       "iść"
+      ]
+     ]
+    },
+    {
+     "q": "Kawa jest za gorąca, żeby ją {1} (pić) od razu.",
+     "a": [
+      [
+       "pić"
+      ]
+     ]
+    },
+    {
+     "q": "Jest za późno, żeby {1} (zaczynać) nowy temat.",
+     "a": [
+      [
+       "zaczynać"
+      ]
+     ]
+    },
+    {
+     "q": "Ten plecak jest za ciężki, żeby go {1} (nieść) jedną ręką.",
+     "a": [
+      [
+       "nieść"
+      ]
+     ]
+    },
+    {
+     "q": "On jest za młody, żeby {1} (prowadzić) samochód.",
+     "a": [
+      [
+       "prowadzić"
+      ]
+     ]
+    },
+    {
+     "q": "Nie sądzę, żeby to {1} (być) prawda.",
+     "a": [
+      [
+       "była"
+      ]
+     ]
+    },
+    {
+     "q": "Wątpię, żeby Marek {1} (zdążyć) na czas.",
+     "a": [
+      [
+       "zdążył"
+      ]
+     ]
+    },
+    {
+     "q": "Nie wydaje mi się, żeby oni {1} (chcieć) przyjść.",
+     "a": [
+      [
+       "chcieli"
+      ]
+     ]
+    },
+    {
+     "q": "Wątpię, żebyś {1} (znaleźć; ty — м.) tani bilet w sierpniu.",
+     "a": [
+      [
+       "znalazł"
+      ]
+     ]
+    },
+    {
+     "q": "Mów tak, żeby wszyscy cię {1} (słyszeć).",
+     "a": [
+      [
+       "słyszeli"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Тест в формате экзамена: письмо",
+   "kind": "gaps",
+   "instr": "Uzupełnij tekst. Wpisz że/żeby (z końcówką) i czasownik w odpowiedniej formie. W nawiasie: podmiot i bezokolicznik. Ola — kobieta, Kasia — kobieta.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R5",
+    "R7",
+    "R8",
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Cześć Kasiu! Piszę, {1} (zapytać) cię o radę.",
+     "a": [
+      [
+       "żeby zapytać",
+       "aby zapytać"
+      ]
+     ]
+    },
+    {
+     "q": "Moja szefowa chce, {1} (ja: pojechać) w przyszłym miesiącu na szkolenie do Gdańska.",
+     "a": [
+      [
+       "żebym pojechała",
+       "abym pojechała"
+      ]
+     ]
+    },
+    {
+     "q": "Chciałabym, {1} (ty: pojechać) ze mną, bo sama trochę się boję.",
+     "a": [
+      [
+       "żebyś pojechała",
+       "abyś pojechała"
+      ]
+     ]
+    },
+    {
+     "q": "Szefowa powiedziała, {1} (ja: zarezerwować) hotel jak najszybciej,",
+     "a": [
+      [
+       "żebym zarezerwowała",
+       "abym zarezerwowała"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (nie płacić) za dużo.",
+     "a": [
+      [
+       "żeby nie płacić",
+       "aby nie płacić"
+      ]
+     ]
+    },
+    {
+     "q": "Mój mąż prosi, {1} (my: wziąć) też dzieci,",
+     "a": [
+      [
+       "żebyśmy wzięli",
+       "abyśmy wzięli"
+      ]
+     ]
+    },
+    {
+     "q": "ale nie sądzę, {1} (to: być) dobry pomysł — szkolenie trwa cały dzień.",
+     "a": [
+      [
+       "żeby to był",
+       "aby to był"
+      ]
+     ]
+    },
+    {
+     "q": "Poza tym jest za daleko, {1} (jechać) z małymi dziećmi samochodem.",
+     "a": [
+      [
+       "żeby jechać",
+       "aby jechać"
+      ]
+     ]
+    },
+    {
+     "q": "Mama obiecała, {1} (ona: przyjść) do nas i zajmie się dziećmi.",
+     "a": [
+      [
+       "że przyjdzie"
+      ]
+     ]
+    },
+    {
+     "q": "Napisz mi, proszę, czy masz czas, {1} (ja: wiedzieć) wcześniej.",
+     "a": [
+      [
+       "żebym wiedziała",
+       "abym wiedziała"
+      ]
+     ]
+    },
+    {
+     "q": "Kupię bilety wcześniej, {1} (one: być) tańsze.",
+     "a": [
+      [
+       "żeby były",
+       "aby były"
+      ]
+     ]
+    },
+    {
+     "q": "Zależy mi na tym, {1} (wszystko: być) gotowe do piątku. Ściskam, Ola",
+     "a": [
+      [
+       "żeby wszystko było",
+       "aby wszystko było"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e9",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте предложение, начиная с данного начала (как в задании VI экзамена). Напечатайте продолжение.",
+   "facts": [
+    "R2",
+    "R3",
+    "R5",
+    "R8",
+    "R10",
+    "R13"
+   ],
+   "items": [
+    {
+     "q": "«Zamknij okno!» — powiedziała mi mama. → Mama powiedziała, {1}.",
+     "a": [
+      [
+       "żebym zamknął okno",
+       "abym zamknął okno",
+       "żebym zamknęła okno",
+       "abym zamknęła okno"
+      ]
+     ]
+    },
+    {
+     "q": "Uczę się polskiego w celu znalezienia pracy. → Uczę się polskiego, {1}.",
+     "a": [
+      [
+       "żeby znaleźć pracę",
+       "aby znaleźć pracę"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do mnie: «Proszę przygotować raport.» → Szef poprosił mnie, {1}.",
+     "a": [
+      [
+       "żebym przygotował raport",
+       "abym przygotował raport",
+       "żebym przygotowała raport",
+       "abym przygotowała raport"
+      ]
+     ]
+    },
+    {
+     "q": "Ta walizka jest bardzo ciężka. Nie da się jej podnieść. → Ta walizka jest za ciężka, {1}.",
+     "a": [
+      [
+       "żeby ją podnieść",
+       "aby ją podnieść"
+      ]
+     ]
+    },
+    {
+     "q": "Myślę, że to nie jest prawda. → Nie sądzę, {1}.",
+     "a": [
+      [
+       "żeby to była prawda",
+       "aby to była prawda"
+      ]
+     ]
+    },
+    {
+     "q": "Mówię wolno, bo chcę, żebyście mnie zrozumieli. → Mówię wolno, {1}.",
+     "a": [
+      [
+       "żebyście mnie zrozumieli",
+       "abyście mnie zrozumieli"
+      ]
+     ]
+    },
+    {
+     "q": "Powiedział, żebym czekał. → Kazał {1}.",
+     "a": [
+      [
+       "mi czekać"
+      ]
+     ]
+    },
+    {
+     "q": "Исправьте ошибку: Chcę, żebym pojechał do Gdańska. → Chcę {1}.",
+     "a": [
+      [
+       "pojechać do Gdańska"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Письмо подруге (неофициальное)",
+   "facts": [
+    "R2",
+    "R3",
+    "R5"
+   ],
+   "instr": "Napisz e-mail do koleżanki (80–100 słów). Przeprowadzasz się i potrzebujesz pomocy. Napisz: kiedy i dlaczego się przeprowadzasz; o co ją prosisz; co chcesz zrobić, żeby przeprowadzka poszła szybko; jak jej podziękujesz.",
+   "checklist": [
+    "не меньше 4 конструкций с żeby",
+    "хотя бы 2 — с другим субъектом (żebyś…, żebyśmy…)",
+    "хотя бы 1 — żeby nie …",
+    "обращение и подпись"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Официальное письмо администрации",
+   "facts": [
+    "R11",
+    "R3"
+   ],
+   "instr": "Napisz list do administracji budynku (80–100 słów). W Twoim mieszkaniu od tygodnia nie działa ogrzewanie. Opisz problem, poproś o naprawę i termin wizyty, zaproponuj, jak się z Tobą skontaktować.",
+   "checklist": [
+    "официальное обращение (Szanowni Państwo)",
+    "не меньше 3 конструкций с aby (abym, aby Państwo…)",
+    "просьба через «Uprzejmie proszę, aby…»",
+    "официальная подпись (Z poważaniem)"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 106,
+  "exercises": 9,
+  "writing": 2,
+  "sections": 13,
+  "facts": 15
+ }
+}

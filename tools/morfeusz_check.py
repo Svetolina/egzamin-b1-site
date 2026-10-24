@@ -12,6 +12,9 @@
        byc     — будущее być (класс bedzie) нужного лица и числа;
        zlozony — będę/będziesz/... + инфинитив или форма на -ł
                  несовершенного вида; род/число формы на -ł совпадают с "g".
+       teraz   — fin:imperf нужного лица и числа;
+       przesz  — praet нужного числа и рода (+ вид, если задан "aspect"),
+                 для 1-го и 2-го лица ещё aglt того же лица.
      Формы с "expect_error": true — заведомо неверные примеры; скрипт
      должен найти в них ошибку, иначе это сбой проверки.
   3. У каждого факта есть хотя бы 2 ссылки (refs). Факты со статусом
@@ -119,7 +122,59 @@ def check_teraz(f):
     return f"не найдено fin:{want_n}:{want_p}:imperf от «{f['lemma']}»"
 
 
-CHECKS = {"teraz": check_teraz, "prosty": check_prosty, "byc": check_byc, "zlozony": check_zlozony}
+def check_przesz(f):
+    """Прошедшее время: praet нужного числа, рода (и вида, если задан) от нужной
+    леммы; для 1-го и 2-го лица — ещё aglt (-m, -ś, -śmy, -ście) того же лица."""
+    want_p, want_n = PERSON[f["p"]], f["n"]
+    segs = morf.analyse(f["form"])
+    praet = [(s, e, l.split(":")[0], t.split(":")) for s, e, (_o, l, t, _q, _st) in segs
+             if t.startswith("praet")]
+    aglt = [t.split(":") for s, e, (_o, l, t, _q, _st) in segs if t.startswith("aglt")]
+    problems = []
+    for s, e, lemma, tag in praet:
+        if lemma != f["lemma"]:
+            continue
+        if tag[1] != want_n:
+            problems.append(f"число {tag[1]}")
+            continue
+        if f.get("g") and not (set(tag[2].split(".")) & GENDER[f["g"]]):
+            problems.append(f"род {tag[2]} не подходит к «{f['g']}»")
+            continue
+        if f.get("aspect") and tag[3] != f["aspect"]:
+            problems.append(f"вид {tag[3]}")
+            continue
+        if f["p"] == 3:
+            if aglt:
+                problems.append("лишнее окончание лица")
+                continue
+            return None
+        if any(a[1] == want_n and a[2] == want_p for a in aglt):
+            return None
+        problems.append("окончание лица не совпадает")
+    return "; ".join(problems) or f"не найдено praet от «{f['lemma']}»"
+
+
+def check_aspekt(f):
+    """Вид глагола: инфинитив с нужным видом (perf / imperf)."""
+    tags = [t for l, t in analyses(f["form"]) if t[0] == "inf" and l == f["form"]]
+    if not tags:
+        return "инфинитив не найден"
+    if any(f["aspect"] in t for t in tags):
+        if any(("perf" if f["aspect"] == "imperf" else "imperf") in t for t in tags):
+            return "REVIEW: Morfeusz знает и второй вид (омоним)"
+        return None
+    return f"вид не {f['aspect']}"
+
+
+def check_przyp(f):
+    """Падеж: форма от нужной леммы в нужном падеже и числе (subst / adj / ppron / ten)."""
+    for lemma, tag in analyses(f["form"]):
+        if lemma == f["lemma"] and has_parts(tag, f["n"], f["case"]):
+            return None
+    return f"не найдено {f['case']}:{f['n']} от «{f['lemma']}»"
+
+
+CHECKS = {"przesz": check_przesz, "teraz": check_teraz, "prosty": check_prosty, "byc": check_byc, "zlozony": check_zlozony, "aspekt": check_aspekt, "przyp": check_przyp}
 
 
 WORD = r"(?<![-A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż])[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+"
@@ -202,9 +257,12 @@ def main(path):
                             errors.append(f"{e['id']}: ответ «{ans}» — не совершенный глагол (не будущее)")
                         if exp == "present" and not any("imperf" in t for t in rd):
                             errors.append(f"{e['id']}: ответ «{ans}» — не настоящее время")
-                    if w[0] in BYC and len(w) == 2:
-                        rd = analyses(w[1])
-                        if rd and all("perf" in t and "imperf" not in t for _l, t in rd if t[0] in ("inf", "praet")):
+                        if exp == "past" and not any(t[0] == "praet" for _l, t in analyses(w[0])):
+                            errors.append(f"{e['id']}: ответ «{ans}» — не прошедшее время")
+                    if w and w[0] in BYC and len(w) == 2:
+                        # только инфинитив / форма на -ł; причастие (będzie zbudowany) — это страдательный залог, не ошибка
+                        rd = [t for _l, t in analyses(w[1]) if t[0] in ("inf", "praet")]
+                        if rd and all("perf" in t and "imperf" not in t for t in rd):
                             errors.append(f"{e['id']}: в ключе będę + совершенный глагол: {ans}")
     unknown = set()
     for ex in texts:

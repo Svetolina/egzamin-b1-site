@@ -1,0 +1,1182 @@
+{
+ "topic": "imieslowy-przyslowkowe",
+ "level": "B2",
+ "group": "Глагол",
+ "title_pl": "Imiesłowy przysłówkowe",
+ "title_ru": "Деепричастия на -ąc и -wszy",
+ "lead": "Idąc do pracy… Zjadłszy śniadanie… Одно подлежащее на всё предложение. Слой B2 поверх B1.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: По стандарту это тема B2: Dz.U. 2025 poz. 217, Zał. 1, Część II, F (B2): 2.2.1 Fleksja, pkt 2 lit. f «imiesłowy przysłówkowe (w ograniczonym zakresie): tworzenie i użycie imiesłowów współczesnych (np.: słuchając, pisząc), rozpoznawanie imiesłowów uprzednich (np.: wysłuchawszy, zjadłszy)», s. 89. В списке B1 (s. 75–78) деепричастий нет. На B2 формы на -wszy нужно только узнавать.",
+   "KEY: поиск по разделу Gramatyka сборника 2017 и 18 экзаменов (tests/b1-*.js) — заданий на эту тему нет"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Два деепричастия",
+   "facts": [
+    "R1",
+    "R4",
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Польские imiesłowy przysłówkowe — это русские деепричастия:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "-ąc (współczesny)",
+      "-wszy / -łszy (uprzedni)"
+     ],
+     "rows": [
+      [
+       "русский аналог",
+       "читая",
+       "прочитав"
+      ],
+      [
+       "вид глагола",
+       "несовершенный",
+       "совершенный"
+      ],
+      [
+       "время действия",
+       "одновременно с главным",
+       "до главного"
+      ],
+      [
+       "пример",
+       "Czytając gazetę, pił kawę.",
+       "Przeczytawszy list, zadzwoniła do matki."
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Не изменяются по роду и числу: Wszedłszy do domu, zdjęła buty (о женщине — та же форма)."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Как образовать -ąc",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Берём форму **oni** настоящего времени и добавляем **-c**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Инфинитив",
+      "oni",
+      "-ąc"
+     ],
+     "rows": [
+      [
+       "czytać",
+       "czytają",
+       "czytając"
+      ],
+      [
+       "pisać",
+       "piszą",
+       "pisząc"
+      ],
+      [
+       "iść",
+       "idą",
+       "idąc"
+      ],
+      [
+       "jechać",
+       "jadą",
+       "jadąc"
+      ],
+      [
+       "pić",
+       "piją",
+       "pijąc"
+      ],
+      [
+       "jeść",
+       "jedzą",
+       "jedząc"
+      ],
+      [
+       "spać",
+       "śpią",
+       "śpiąc"
+      ],
+      [
+       "być",
+       "(będą)",
+       "będąc"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "być → będąc — особая форма (одним источником)."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Как образовать -wszy / -łszy",
+   "facts": [
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Берём прошедшее время м. р. (**on**) и убираем **-ł**: осталась гласная → **-wszy**, согласная → **-łszy**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Инфинитив",
+      "on",
+      "uprzedni"
+     ],
+     "rows": [
+      [
+       "zrobić",
+       "zrobił",
+       "zrobiwszy"
+      ],
+      [
+       "przeczytać",
+       "przeczytał",
+       "przeczytawszy"
+      ],
+      [
+       "skończyć",
+       "skończył",
+       "skończywszy"
+      ],
+      [
+       "zjeść",
+       "zjadł",
+       "zjadłszy"
+      ],
+      [
+       "przyjść",
+       "przyszedł",
+       "przyszedłszy"
+      ],
+      [
+       "przynieść",
+       "przyniósł",
+       "przyniósłszy"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Главное правило: одно подлежащее",
+   "facts": [
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Деепричастие относится к подлежащему главного предложения — как и в русском."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Ошибка",
+      "Правильно"
+     ],
+     "rows": [
+      [
+       "Idąc do szkoły, padał deszcz.",
+       "Idąc do szkoły, zmokłem. / Kiedy szedłem do szkoły, padał deszcz."
+      ],
+      [
+       "Czytając książkę, zadzwonił telefon.",
+       "Kiedy czytałam książkę, zadzwonił telefon."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Сравните ошибку «Подъезжая к станции, у меня слетела шляпа» в русском."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Запятая и nie",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Оборот выделяется **запятыми**: [[Anna, czekając na tramwaj, denerwowała się.]] **nie** — раздельно: [[nie wiedząc, nie czytając, nie przeczytawszy.]]"
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Где это встречается",
+   "facts": [
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "-ąc — книжный и официальный стиль (тексты экзамена, новости, письма); в разговоре обычно говорят [[kiedy / gdy]] + глагол. Обиходные обороты: [[mówiąc szczerze, biorąc pod uwagę]]. -wszy — почти только в литературе: важно **понимать** при чтении."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "-ąc или -ący?",
+   "facts": [
+    "R11"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**-ący** (czytający, czytająca, czytające) — причастие-прилагательное: относится к существительному, склоняется и заменяет [[który]]: [[Kobieta czytająca książkę = kobieta, która czyta książkę.]] **-ąc** — деепричастие: относится к действию, не меняется."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Śpiące dziecko wyglądało jak aniołek.",
+       "ru": "Спящий ребёнок выглядел как ангелочек."
+      },
+      {
+       "pl": "Czytając, zasnął.",
+       "ru": "Читая, он уснул."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "На экзамене B1 деепричастия не проверяются: поиск по сборнику 2017 и всем 18 экзаменам на сайте не нашёл таких заданий. Их стоит узнавать в текстах для чтения; на B2 образование форм на -ąc входит в список грамматики."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Одно ли подлежащее у оборота и главной части?",
+      "Одновременно — [[-ąc]] от несовершенного: [[czytając]].",
+      "Раньше — [[-wszy / -łszy]] от совершенного: [[przeczytawszy]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Образуйте форму на -ąc",
+   "instr": "Напечатайте imiesłów przysłówkowy współczesny.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "czytać → ___",
+     "a": [
+      "czytając"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "pisać → ___",
+     "a": [
+      "pisząc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "robić → ___",
+     "a": [
+      "robiąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "iść → ___",
+     "a": [
+      "idąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "jechać → ___",
+     "a": [
+      "jadąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "mówić → ___",
+     "a": [
+      "mówiąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "słuchać → ___",
+     "a": [
+      "słuchając"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "pić → ___",
+     "a": [
+      "pijąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "jeść → ___",
+     "a": [
+      "jedząc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "siedzieć → ___",
+     "a": [
+      "siedząc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "uśmiechać się → ___",
+     "a": [
+      "uśmiechając się"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "wracać → ___",
+     "a": [
+      "wracając"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "patrzeć → ___",
+     "a": [
+      "patrząc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "myśleć → ___",
+     "a": [
+      "myśląc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "być → ___",
+     "a": [
+      "będąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "czekać → ___",
+     "a": [
+      "czekając"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "prowadzić → ___",
+     "a": [
+      "prowadząc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    },
+    {
+     "q": "spać → ___",
+     "a": [
+      "śpiąc"
+     ],
+     "expl": "Образование -ąc: 3-е л.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Образуйте форму на -wszy / -łszy",
+   "instr": "Напечатайте imiesłów przysłówkowy uprzedni (подсказка: от формы «on» прошедшего времени).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "zrobić → ___",
+     "a": [
+      "zrobiwszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "przeczytać → ___",
+     "a": [
+      "przeczytawszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "napisać → ___",
+     "a": [
+      "napisawszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "skończyć → ___",
+     "a": [
+      "skończywszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "zjeść → ___",
+     "a": [
+      "zjadłszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "przyjść → ___",
+     "a": [
+      "przyszedłszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "wejść → ___",
+     "a": [
+      "wszedłszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "wrócić → ___",
+     "a": [
+      "wróciwszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "zamknąć → ___",
+     "a": [
+      "zamknąwszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "obudzić się → ___",
+     "a": [
+      "obudziwszy się"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "kupić → ___",
+     "a": [
+      "kupiwszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "wypić → ___",
+     "a": [
+      "wypiwszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "przynieść → ___",
+     "a": [
+      "przyniósłszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    },
+    {
+     "q": "usiąść → ___",
+     "a": [
+      "usiadłszy"
+     ],
+     "expl": "Образование: прош.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "-ąc или -wszy?",
+   "instr": "Поставьте глагол в форму -ąc (одновременно) или -wszy/-łszy (раньше).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "___ (czytać) gazetę, pił kawę.",
+     "a": [
+      "Czytając"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (zjeść) obiad, wyszedł na spacer.",
+     "a": [
+      "Zjadłszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (wracać) do domu, spotkałam sąsiadkę.",
+     "a": [
+      "Wracając"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (przeczytać) list, zadzwoniła do matki.",
+     "a": [
+      "Przeczytawszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (słuchać) muzyki, gotuję obiad.",
+     "a": [
+      "Słuchając"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (skończyć) pracę, poszliśmy do kina.",
+     "a": [
+      "Skończywszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "Szedł ulicą, ___ (rozmawiać) przez telefon.",
+     "a": [
+      "rozmawiając"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (być) w Krakowie, odwiedź Wawel.",
+     "a": [
+      "Będąc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (wejść) do pokoju, zapalił światło.",
+     "a": [
+      "Wszedłszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "Dzieci bawiły się, ___ (śmiać się) głośno.",
+     "a": [
+      "śmiejąc się"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (mówić) szczerze, nie lubię tego filmu.",
+     "a": [
+      "Mówiąc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "___ (wrócić) z pracy, zjadła kolację.",
+     "a": [
+      "Wróciwszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Исправьте ошибку",
+   "instr": "В предложении разные подлежащие — деепричастие тут нельзя. Замените его на kiedy + глагол прошедшего времени: впишите глагол (говорит «я»; засчитываются обе формы рода).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "**Idąc do szkoły**, padał deszcz. → Kiedy ___ do szkoły, padał deszcz.",
+     "a": [
+      "szedłem",
+      "szłam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    },
+    {
+     "q": "**Jadąc autobusem**, zepsuł się silnik. → Kiedy ___ autobusem, zepsuł się silnik.",
+     "a": [
+      "jechałem",
+      "jechałam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    },
+    {
+     "q": "**Czytając książkę**, zadzwonił telefon. → Kiedy ___ książkę, zadzwonił telefon.",
+     "a": [
+      "czytałem",
+      "czytałam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    },
+    {
+     "q": "**Wchodząc do sklepu**, zaczęła się burza. → Kiedy ___ do sklepu, zaczęła się burza.",
+     "a": [
+      "wchodziłem",
+      "wchodziłam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    },
+    {
+     "q": "**Będąc dzieckiem**, mama czytała mi bajki. → Kiedy ___ dzieckiem, mama czytała mi bajki.",
+     "a": [
+      "byłem",
+      "byłam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    },
+    {
+     "q": "**Wróciwszy do domu**, pies na mnie czekał. → Kiedy ___ do domu, pies na mnie czekał.",
+     "a": [
+      "wróciłem",
+      "wróciłam"
+     ],
+     "expl": "Подлежащие разные — деепричастие нельзя; kiedy + прошедшее время в нужном роде.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Замените на деепричастие",
+   "instr": "Подлежащее одно — замените придаточное деепричастием (-ąc или -wszy/-łszy). Впишите одно слово.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Kiedy czekała na tramwaj, czytała książkę. → ___ na tramwaj, czytała książkę.",
+     "a": [
+      "Czekając"
+     ],
+     "expl": "Действия одновременные, подлежащее одно → форма на -ąc.",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy zjadł śniadanie, wyszedł z domu. → ___ śniadanie, wyszedł z domu.",
+     "a": [
+      "Zjadłszy"
+     ],
+     "expl": "Сначала одно действие, потом другое (совершенный вид) → форма на -wszy / -łszy.",
+     "t": "t3"
+    },
+    {
+     "q": "Gdy prowadzę samochód, nie rozmawiam przez telefon. → ___ samochód, nie rozmawiam przez telefon.",
+     "a": [
+      "Prowadząc"
+     ],
+     "expl": "Действия одновременные, подлежащее одно → форма на -ąc.",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy skończyła studia, wyjechała do Anglii. → ___ studia, wyjechała do Anglii.",
+     "a": [
+      "Skończywszy"
+     ],
+     "expl": "Сначала одно действие, потом другое (совершенный вид) → форма на -wszy / -łszy.",
+     "t": "t3"
+    },
+    {
+     "q": "Kiedy wracaliśmy z kina, rozmawialiśmy o filmie. → ___ z kina, rozmawialiśmy o filmie.",
+     "a": [
+      "Wracając"
+     ],
+     "expl": "Действия одновременные, подлежащее одно → форма на -ąc.",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy przeczytał wiadomość, uśmiechnął się. → ___ wiadomość, uśmiechnął się.",
+     "a": [
+      "Przeczytawszy"
+     ],
+     "expl": "Сначала одно действие, потом другое (совершенный вид) → форма на -wszy / -łszy.",
+     "t": "t3"
+    },
+    {
+     "q": "Gdy mieszkałem w Polsce, nauczyłem się polskiego. → ___ w Polsce, nauczyłem się polskiego.",
+     "a": [
+      "Mieszkając"
+     ],
+     "expl": "Действия одновременные, подлежащее одно → форма на -ąc.",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy otworzyła drzwi, zobaczyła kwiaty. → ___ drzwi, zobaczyła kwiaty.",
+     "a": [
+      "Otworzywszy"
+     ],
+     "expl": "Сначала одно действие, потом другое (совершенный вид) → форма на -wszy / -łszy.",
+     "t": "t3"
+    },
+    {
+     "q": "Ponieważ nie wiedział, co robić, zadzwonił do brata. → Nie ___, co robić, zadzwonił do brata.",
+     "a": [
+      "wiedząc"
+     ],
+     "expl": "Действия одновременные, подлежащее одно → форма на -ąc.",
+     "t": "t2"
+    },
+    {
+     "q": "Kiedy weszła do domu, zdjęła buty. → ___ do domu, zdjęła buty.",
+     "a": [
+      "Wszedłszy"
+     ],
+     "expl": "Сначала одно действие, потом другое (совершенный вид) → форма на -wszy / -łszy.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "-ąc или -ący?",
+   "instr": "Поставьте глагол в форму -ąc (деепричастие) или -ący (причастие, согласуйте!).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Kobieta ___ (czytać) książkę nie zauważyła deszczu.",
+     "a": [
+      "czytająca"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "___ (czytać) książkę, kobieta nie zauważyła deszczu.",
+     "a": [
+      "Czytając"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "___ (spać) dziecko wyglądało jak aniołek.",
+     "a": [
+      "Śpiące"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Znam wielu ludzi ___ (mówić) po polsku.",
+     "a": [
+      "mówiących"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Rozmawiałam z ___ (pracować) tu panią.",
+     "a": [
+      "pracującą"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "___ (pracować) w nocy, śpię w dzień.",
+     "a": [
+      "Pracując"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Studenci ___ (uczyć się) w bibliotece muszą być cicho.",
+     "a": [
+      "uczący się"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Wyszła z domu, nie ___ (mówić) ani słowa.",
+     "a": [
+      "mówiąc"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Przy stole siedział mężczyzna ___ (pić) kawę.",
+     "a": [
+      "pijący"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    },
+    {
+     "q": "Lubię patrzeć na ___ (bawić się) dzieci.",
+     "a": [
+      "bawiące się"
+     ],
+     "expl": "Imiesłów przymiotnikowy czynny на -ący (czytający, -ąca, -ące) — от несовершенного вида, склоняется как прилагательное…",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: рассказ",
+   "instr": "Uzupełnij tekst. Wpisz imiesłów przysłówkowy (-ąc albo -wszy/-łszy) od czasownika w nawiasie.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Wczoraj, {1} z pracy, zobaczyłam na ulicy małego psa. {2} pod drzewem, pies cicho skomlał. {3}, co zrobić, zadzwoniłam do siostry. {4} mnie, siostra powiedziała: „Weź go do domu!”. {5} psa na ręce, poszłam do domu. Mąż, {6} nas, bardzo się zdziwił. {7} psa i {8} go, zrobiliśmy mu zdjęcie i, {9} znaleźć właściciela, wrzuciliśmy je do internetu. Następnego dnia zadzwoniła starsza pani, {10} ze szczęścia. {11} po psa, przywiozła nam ciasto. {12} szczerze, trochę żal mi było się z nim rozstać.",
+   "items": [
+    {
+     "q": "wracać",
+     "a": [
+      "wracając"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "siedzieć",
+     "a": [
+      "Siedząc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "nie wiedzieć",
+     "a": [
+      "Nie wiedząc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "wysłuchać",
+     "a": [
+      "Wysłuchawszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "wziąć",
+     "a": [
+      "Wziąwszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "zobaczyć",
+     "a": [
+      "zobaczywszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "umyć",
+     "a": [
+      "Umywszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "nakarmić",
+     "a": [
+      "nakarmiwszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "chcieć",
+     "a": [
+      "chcąc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "płakać",
+     "a": [
+      "płacząc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "przyjechać",
+     "a": [
+      "Przyjechawszy"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    },
+    {
+     "q": "mówić",
+     "a": [
+      "Mówiąc"
+     ],
+     "expl": "Imiesłów przysłówkowy współczesny на -ąc образуется только от глаголов несовершенного вида и обозначает действие…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "instr": "Перестройте на разговорный вариант (kiedy/gdy, ponieważ, który). Впишите глагол (одно слово).",
+   "format": "exam",
+   "level": 3,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Zjadłszy obiad, wyszedł na spacer. → Kiedy ___ obiad, wyszedł na spacer.",
+     "a": [
+      "zjadł"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Czytając gazetę, pił kawę. → Kiedy ___ gazetę, pił kawę.",
+     "a": [
+      "czytał"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie mając czasu, nie przyszła na spotkanie. → Ponieważ nie ___ czasu, nie przyszła na spotkanie.",
+     "a": [
+      "miała"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Będąc w Krakowie, odwiedziliśmy Wawel. → Kiedy ___ w Krakowie, odwiedziliśmy Wawel.",
+     "a": [
+      "byliśmy"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Przeczytawszy list, zadzwoniła do matki. → Kiedy ___ list, zadzwoniła do matki.",
+     "a": [
+      "przeczytała"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Mieszkając blisko, chodzę do pracy pieszo. → Ponieważ ___ blisko, chodzę do pracy pieszo.",
+     "a": [
+      "mieszkam"
+     ],
+     "expl": "Деепричастие заменяем придаточным: kiedy / ponieważ + глагол в лице и времени подлежащего.",
+     "t": "t6"
+    },
+    {
+     "q": "Kobieta czytająca książkę to moja siostra. → Kobieta, która ___ książkę, to moja siostra.",
+     "a": [
+      "czyta"
+     ],
+     "expl": "Причастие на -ący заменяем на który + глагол в настоящем времени.",
+     "t": "t7"
+    },
+    {
+     "q": "Ludzie mieszkający w centrum narzekają na hałas. → Ludzie, którzy ___ w centrum, narzekają na hałas.",
+     "a": [
+      "mieszkają"
+     ],
+     "expl": "Причастие на -ący заменяем на który + глагол в настоящем времени.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Необычный день (рассказ)",
+   "instr": "Napisz opowiadanie (80–100 słów): „Dzień, którego nie zapomnę”. Opisz, co się stało, co robiłeś/robiłaś i jak to się skończyło.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 3 форм на -ąc и 2 на -wszy / -łszy; подлежащее везде одно; запятые вокруг оборотов; nie + деепричастие раздельно.",
+   "model": "Dzień, którego nie zapomnę\nTo był zwykły poniedziałek. Wstawszy wcześnie, zjadłam szybkie śniadanie i wyszłam z domu. Idąc na przystanek, zobaczyłam na chodniku mały portfel. Podniósłszy go, zajrzałam do środka: były tam dokumenty i dużo pieniędzy. Nie wiedząc, co zrobić, zadzwoniłam do mojego brata. Słuchając jego rady, poszłam na policję. Spiesząc się potem do biura, wiedziałam, że się spóźnię, ale byłam szczęśliwa. Wieczorem zadzwoniła do mnie starsza pani, właścicielka portfela. Dziękując mi, płakała ze wzruszenia. Następnego dnia przyniosła mi do pracy pyszne ciasto.",
+   "model_future": [
+    "wstawszy",
+    "idąc",
+    "podniósłszy",
+    "nie wiedząc",
+    "słuchając",
+    "spiesząc się",
+    "dziękując"
+   ],
+   "checklist": [
+    "не меньше 3 форм на -ąc",
+    "не меньше 2 форм на -wszy/-łszy",
+    "в каждом обороте подлежащее совпадает с главным",
+    "запятые вокруг оборотов",
+    "хотя бы 1 nie + деепричастие раздельно",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Советы туристам",
+   "instr": "Napisz krótki poradnik dla turystów (60–80 słów) o Twoim mieście: co warto zobaczyć, jak się poruszać, na co uważać.",
+   "words": [
+    60,
+    80
+   ],
+   "need": "Będąc w…, warto…; chcąc…, należy…; один устойчивый оборот (mówiąc szczerze, biorąc pod uwagę); одна форма на -ący.",
+   "model": "Poradnik dla turystów: Szczecin\nBędąc w Szczecinie, warto zobaczyć Wały Chrobrego i zamek. Chcąc poznać miasto szybko, należy kupić bilet dobowy na tramwaje. Spacerując po centrum, warto mieć w telefonie mapę, bo ulice tworzą gwiazdy. Mówiąc szczerze, najpiękniej jest tu wieczorem. Wychodząc wieczorem, warto zabrać ciepłą kurtkę, bo od morza wieje wiatr. Nie znając języka, można spokojnie pytać ludzi o drogę. Osoby lubiące przyrodę powinny pojechać nad jezioro Szmaragdowe. Biorąc pod uwagę pogodę, lepiej przyjechać latem.",
+   "model_future": [
+    "będąc",
+    "chcąc",
+    "spacerując",
+    "mówiąc szczerze",
+    "lubiące",
+    "biorąc pod uwagę"
+   ],
+   "checklist": [
+    "будąc w …, warto …",
+    "chcąc …, należy …",
+    "1 устойчивый оборот (mówiąc szczerze / biorąc pod uwagę)",
+    "1 форма -ący (osoby lubiące …)",
+    "60–80 слов"
+   ],
+   "t": "t1",
+   "items": []
+  }
+ ]
+}

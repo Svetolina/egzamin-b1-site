@@ -1,0 +1,290 @@
+{
+ "topic": "strona-bierna",
+ "title": "Strona bierna",
+ "facts": [
+  {
+   "id": "R1",
+   "rule": "Strona bierna: подлежащее — тот, над кем совершается действие. Образуется: być / zostać + imiesłów przymiotnikowy bierny. Wiersz został napisany przez poetę.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Strona czynna i bierna»",
+     "url": "https://zpe.gov.pl/a/strona-czynna-i-bierna/Dbi8lrKg0",
+     "loc": "разделы «Strona czynna / bierna», «Budowa»"
+    },
+    {
+     "title": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+     "loc": "раздел «Czym jest strona bierna?»: «Ten pałac został zbudowany przez króla…»"
+    },
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "вводная часть"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "rule": "Пассив образуют только переходные глаголы (czasowniki przechodnie); подлежащим становится прямое дополнение в bierniku. От myśleć o czymś пассива нет.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Strona czynna i bierna»",
+     "url": "https://zpe.gov.pl/a/strona-czynna-i-bierna/Dbi8lrKg0",
+     "loc": "разделы «Przekształcanie» и «Które czasowniki»"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "passive voice: «created almost exclusively by transitive verbs»"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "«tylko od czasowników przechodnich»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "rule": "Imiesłów bierny оканчивается на -ny или -ty и склоняется как прилагательное; образуется и от несовершенных (robiony), и от совершенных (zrobiony) глаголов.",
+   "sources": [
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "раздел о imiesłów przymiotnikowy bierny: «-ny lub -ty», odmiana jak ładny / bogaty"
+    },
+    {
+     "title": "ZPE (MEN) — «Rodzaje imiesłowów. Imiesłów przymiotnikowy»",
+     "url": "https://zpe.gov.pl/watek/LPCgxyBw7p/255/a/rodzaje-imieslowow-imieslow-przymiotnikowy/DgfX2F5qy",
+     "loc": "таблица склонения namalowany; пример robiony / zrobiony"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "раздел Participles: «passive participle … in -ny or -ty (conjugated as an adjective)»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "rule": "Глаголы на -ać → -any, на -ować → -owany: napisać → napisany, zaprojektować → zaprojektowany.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Participle (-ny / -ty)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/passive-participle",
+     "loc": "раздел -any (-ać) и -owany"
+    },
+    {
+     "title": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+     "loc": "пример zaprojektować → zaprojektowany"
+    },
+    {
+     "title": "ZPE (MEN) — «Imiesłowy i ich rodzaje»",
+     "url": "https://zpe.gov.pl/a/imieslowy-i-ich-rodzaje/DN28lvu36",
+     "loc": "примеры napisany, karany"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "rule": "Глаголы на -ić, -yć, -eć → -ony, часто с чередованием: zrobić → zrobiony, kupić → kupiony, zaprosić → zaproszony, (za)płacić → (za)płacony, skończyć → skończony.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Participle (-ny / -ty)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/passive-participle",
+     "loc": "раздел -ony: zrobiony, kupiony, zobaczony, zaproszony, płacony; чередования ś→sz, ć→c"
+    },
+    {
+     "title": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+     "loc": "пример skończyć → skończony"
+    },
+    {
+     "title": "ZPE (MEN) — «Rodzaje imiesłowów. Imiesłów przymiotnikowy»",
+     "url": "https://zpe.gov.pl/watek/LPCgxyBw7p/255/a/rodzaje-imieslowow-imieslow-przymiotnikowy/DgfX2F5qy",
+     "loc": "пример robiony / zrobiony"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "rule": "-ty: глаголы на -nąć/-ąć (ą → ę: zamknąć → zamknięty, zacząć → zaczęty, wziąć → wzięty) и ряд коротких основ (umyć → umyty, użyć → użyty, zepsuć → zepsuty); otworzyć → otwarty — особая форма.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Participle (-ny / -ty)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/passive-participle",
+     "loc": "раздел -ty"
+    },
+    {
+     "title": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+     "loc": "пример użyć → użyty"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "пример on jest myty"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "rule": "Причастие согласуется с подлежащим в роде и числе. Мужско-личное мн. ч.: -ny → -ni, -ony → -eni, -ty → -ci: wybrani, zaproszeni, aresztowani, myci; для остальных — -ne/-te: zamknięte, wybrane.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "раздел Agreement: studenci zostali wybrani"
+    },
+    {
+     "title": "elon.io — «The Passive Participle (-ny / -ty)»",
+     "url": "https://elon.io/grammar/polish/verbs/participles/passive-participle",
+     "loc": "раздел Masculine-personal plural: aresztowani / aresztowane, zaproszeni"
+    },
+    {
+     "title": "ZPE (MEN) — «Rodzaje imiesłowów. Imiesłów przymiotnikowy»",
+     "url": "https://zpe.gov.pl/watek/LPCgxyBw7p/255/a/rodzaje-imieslowow-imieslow-przymiotnikowy/DgfX2F5qy",
+     "loc": "таблица: rodzaj męskoosobowy — namalowani"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "пример oni są myci"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "rule": "zostać + причастие (обычно сов. вида) — событие, которое произошло (можно указать дату): Most został zbudowany w 1990 roku. być + причастие — состояние, результат: Sklep jest zamknięty w niedziele. Ошибка: *Prezydent był wybrany w niedzielę* → został wybrany.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "разделы «być vs zostać», «Common mistakes»"
+    },
+    {
+     "title": "ZPE (MEN) — «Strona czynna i bierna»",
+     "url": "https://zpe.gov.pl/a/strona-czynna-i-bierna/Dbi8lrKg0",
+     "loc": "раздел «Budowa»: być — stan, zostać — czynność dokonana"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "passive: perfective verbs form past and future passives with zostać; resultative forms with być"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "rule": "być + причастие несовершенного вида — процесс: Muzeum jest/było budowane (строится / строилось). Testy są sprawdzane.",
+   "sources": [
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "imperfective verbs: być + participle — on jest myty, ona jest myta"
+    },
+    {
+     "title": "Polski Daily — «Klub Gramatyczny: Strona bierna 2» (PDF, 2025)",
+     "url": "https://polskidaily.eu/wp-content/uploads/2025/06/Klub-Gramatyczny-Strona-bierna-2.pdf",
+     "loc": "примеры był budowany, jest monitorowany, są śpiewane"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "rule": "Будущее: zostanie / zostaną + причастие сов. вида (у zostać нет настоящего, его формы значат будущее): Wystawa zostanie otwarta. Встречается и będzie + причастие (будущее состояние/процесс): będzie odwiedzane.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "раздел Tenses: «zostać has no present tense … present-shaped forms carry future meaning»"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "resultative forms byłem / jestem / będę umyty; future passive with zostać"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "rule": "Исполнитель действия — przez + biernik, не творительный падеж, как в русском («написано Пушкиным»): Wiersz został napisany przez Szymborską. List został wysłany przez sekretarkę.",
+   "sources": [
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "раздел Agent: «przez + accusative, not the instrumental»"
+    },
+    {
+     "title": "ZPE (MEN) — «Strona czynna i bierna»",
+     "url": "https://zpe.gov.pl/a/strona-czynna-i-bierna/Dbi8lrKg0",
+     "loc": "раздел «Przekształcanie»: podmiot → przez + biernik, «przez poetę»"
+    },
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "пример Jan jest bity przez Pawła"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "rule": "Пассив — скорее письменный стиль (новости, история, официальные тексты); в разговоре чаще действительный залог или конструкции с się и -no/-to.",
+   "sources": [
+    {
+     "title": "G. Jagodziński, «A Grammar of the Polish Language», ч. 7 (Conjugation 2)",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram07.html",
+     "loc": "«characteristic for the written language rather»"
+    },
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "раздел «Polish alternatives»"
+    }
+   ]
+  },
+  {
+   "id": "R13",
+   "rule": "Безличная форма на -no/-to (zbudowano, otwarto, zamknięto): без подлежащего и без исполнителя (przez нельзя), прямое дополнение остаётся в bierniku: Otwarto wystawę. Это не причастие.",
+   "sources": [
+    {
+     "title": "elon.io — «The Full Impersonal/Passive System Compared»",
+     "url": "https://elon.io/grammar/polish/complex/se-passive-vs-no-to-vs-zostac",
+     "loc": "раздел -no/-to impersonal past: «keeps the object in the accusative», przez — ungrammatical"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "раздел Verbs: «subjectless past tense … with the ending -o (e.g. śpiewano)»"
+    },
+    {
+     "title": "ZPE (MEN) — «Rodzaje imiesłowów. Imiesłów przymiotnikowy»",
+     "url": "https://zpe.gov.pl/watek/LPCgxyBw7p/255/a/rodzaje-imieslowow-imieslow-przymiotnikowy/DgfX2F5qy",
+     "loc": "примечание: формы na -no, -to (zamknięto, zbudowano) — nieosobowe, не imiesłowy"
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "rule": "Конструкция с się (3 л. ед. ч.) — общее, безличное действие: W Polsce dużo się czyta. Tutaj sprzedaje się świeży chleb.",
+   "sources": [
+    {
+     "title": "elon.io — «The Full Impersonal/Passive System Compared»",
+     "url": "https://elon.io/grammar/polish/complex/se-passive-vs-no-to-vs-zostac",
+     "loc": "раздел się-construction"
+    },
+    {
+     "title": "Wikipedia (en) — «Polish grammar»",
+     "url": "https://en.wikipedia.org/wiki/Polish_grammar",
+     "loc": "раздел Impersonal sentences: «się but no subject, the verb being third-person singular»"
+    },
+    {
+     "title": "elon.io — «The Passive Voice: być and zostać + Participle»",
+     "url": "https://elon.io/grammar/polish/verbs/voice/passive-byc-zostac",
+     "loc": "пример Sprzedaje się mieszkanie"
+    }
+   ]
+  }
+ ]
+}

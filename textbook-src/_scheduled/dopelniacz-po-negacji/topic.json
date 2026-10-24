@@ -1,0 +1,1047 @@
+{
+ "id": "dopelniacz-po-negacji",
+ "order": 8,
+ "title": "Dopełniacz po negacji",
+ "titleRu": "Родительный падеж при отрицании",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "dopelniacz",
+  "biernik"
+ ],
+ "next": null,
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное правило",
+   "facts": [
+    "R1"
+   ],
+   "body": "**nie + глагол** → прямое дополнение из **Biernik** (кого? что?) переходит в **Dopełniacz** (kogo? czego?).",
+   "table": {
+    "head": [
+     "утверждение (Biernik)",
+     "отрицание (Dopełniacz)"
+    ],
+    "rows": [
+     [
+      "Mam samochód.",
+      "Nie mam samochodu."
+     ],
+     [
+      "Lubię kawę.",
+      "Nie lubię kawy."
+     ],
+     [
+      "Czytam gazetę.",
+      "Nie czytam gazety."
+     ],
+     [
+      "Piję mleko.",
+      "Nie piję mleka."
+     ],
+     [
+      "Mam pieniądze.",
+      "Nie mam pieniędzy."
+     ]
+    ]
+   },
+   "tip": "Как в русском «у меня нет машины», только в польском это правило работает почти всегда и строже."
+  },
+  {
+   "id": "t2",
+   "title": "Nie ma, nie było, nie będzie",
+   "facts": [
+    "R2"
+   ],
+   "table": {
+    "head": [
+     "есть",
+     "нет"
+    ],
+    "rows": [
+     [
+      "Jest mleko.",
+      "Nie ma mleka."
+     ],
+     [
+      "Tomek jest w domu.",
+      "Tomka nie ma w domu."
+     ],
+     [
+      "Był prąd.",
+      "Nie było prądu."
+     ],
+     [
+      "Będzie lekcja.",
+      "Nie będzie lekcji."
+     ],
+     [
+      "Są bilety.",
+      "Nie ma biletów."
+     ]
+    ]
+   },
+   "body": "Форма безличная: **nie ma** (сейчас), **nie było** (раньше), **nie będzie** (потом) — для всех родов и чисел.",
+   "warn": "Не *On nie jest tu*, а *Nie ma go tu*."
+  },
+  {
+   "id": "t3",
+   "title": "И после инфинитива",
+   "facts": [
+    "R3"
+   ],
+   "body": "Если отрицаемый глагол управляет инфинитивом, дополнение инфинитива тоже в Dopełniacz: *Nie chcę kupić samochodu. Nie mogę pić kawy. Nie lubię oglądać seriali.*"
+  },
+  {
+   "id": "t4",
+   "title": "Что НЕ меняется",
+   "facts": [
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "table": {
+    "head": [
+     "что",
+     "пример"
+    ],
+    "rows": [
+     [
+      "подлежащее",
+      "Ewa nie lubi kawy."
+     ],
+     [
+      "дательный",
+      "Nie pomagam bratu."
+     ],
+     [
+      "творительный",
+      "Nie interesuję się polityką."
+     ],
+     [
+      "после предлога",
+      "Nie czekam na autobus."
+     ],
+     [
+      "глаголы с Dopełniacz и так",
+      "Nie szukam pracy. Nie słucham radia."
+     ],
+     [
+      "być + сказуемое",
+      "Nie jestem studentem."
+     ]
+    ]
+   },
+   "body": "Проверка одним вопросом: **в утвердительном предложении это был Biernik?** Если да — меняем, если нет — оставляем.",
+   "sourceNote": "Строка «być + сказуемое» — по одному источнику."
+  },
+  {
+   "id": "t5",
+   "title": "Меняется вся группа слов",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "Biernik",
+     "Dopełniacz"
+    ],
+    "rows": [
+     [
+      "ten adres",
+      "tego adresu"
+     ],
+     [
+      "tę książkę",
+      "tej książki"
+     ],
+     [
+      "te jabłka",
+      "tych jabłek"
+     ],
+     [
+      "nowy telefon",
+      "nowego telefonu"
+     ],
+     [
+      "polską muzykę",
+      "polskiej muzyki"
+     ],
+     [
+      "psa, tego pana",
+      "psa, tego pana (та же форма)"
+     ]
+    ]
+   },
+   "note": "У мужского одушевлённого (psa, brata, kota) форма не меняется: Biernik уже совпадает с Dopełniacz."
+  },
+  {
+   "id": "t6",
+   "title": "Местоимения",
+   "facts": [
+    "R9"
+   ],
+   "table": {
+    "head": [
+     "Biernik",
+     "Dopełniacz"
+    ],
+    "rows": [
+     [
+      "go",
+      "go"
+     ],
+     [
+      "ją",
+      "jej"
+     ],
+     [
+      "ich",
+      "ich"
+     ]
+    ]
+   },
+   "sourceNote": "Строка «ich → ich» дана по стандартной парадигме; в источниках этой темы не приведена."
+  },
+  {
+   "id": "t7",
+   "title": "Nikt, nic, nigdy, żaden",
+   "facts": [
+    "R10"
+   ],
+   "body": "Слова отрицания **не отменяют** nie: *Nikt nie przyszedł. Nigdy nie piję wina. Nie ma tu żadnego sklepu.* И дополнение — тоже в Dopełniacz."
+  },
+  {
+   "id": "t8",
+   "title": "Для продвинутых: отрицание слова",
+   "facts": [
+    "R11"
+   ],
+   "body": "*Nie kawę piję, ale herbatę* — отрицается не глагол, а слово «kawę», поэтому падеж не меняется.",
+   "sourceNote": "По одному источнику."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "gaps",
+   "title": "Скажите «нет»",
+   "instr": "Напишите дополнение в родительном падеже.",
+   "items": [
+    {
+     "q": "Mam samochód. → Nie mam {1}.",
+     "a": [
+      "samochodu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Lubię kawę. → Nie lubię {1}.",
+     "a": [
+      "kawy"
+     ],
+     "fact": "R1, R8"
+    },
+    {
+     "q": "Czytam gazetę. → Nie czytam {1}.",
+     "a": [
+      "gazety"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Piję mleko. → Nie piję {1}.",
+     "a": [
+      "mleka"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Znam tego pana. → Nie znam {1}.",
+     "a": [
+      "tego pana"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Kupiłam nowy telefon. → Nie kupiłam {1}.",
+     "a": [
+      "nowego telefonu"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Oglądam ten film. → Nie oglądam {1}.",
+     "a": [
+      "tego filmu"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Znam twoją siostrę. → Nie znam {1}.",
+     "a": [
+      "twojej siostry"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Jem mięso. → Nie jem {1}.",
+     "a": [
+      "mięsa"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Odwiedziłem babcię. → Nie odwiedziłem {1}.",
+     "a": [
+      "babci"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Robię zakupy. → Nie robię {1}.",
+     "a": [
+      "zakupów"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Mam brata. → Nie mam {1}.",
+     "a": [
+      "brata"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Lubię polską muzykę. → Nie lubię {1}.",
+     "a": [
+      "polskiej muzyki"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Zrobiłam obiad. → Nie zrobiłam {1}.",
+     "a": [
+      "obiadu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Mam pieniądze. → Nie mam {1}.",
+     "a": [
+      "pieniędzy"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Kupujemy te jabłka. → Nie kupujemy {1}.",
+     "a": [
+      "tych jabłek"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Rozumiem to słowo. → Nie rozumiem {1}.",
+     "a": [
+      "tego słowa"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Zamówiliśmy pizzę. → Nie zamówiliśmy {1}.",
+     "a": [
+      "pizzy"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Lubię psy. → Nie lubię {1}.",
+     "a": [
+      "psów"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Mam kota. → Nie mam {1}.",
+     "a": [
+      "kota"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "gaps",
+   "title": "Nie ma / nie było / nie będzie",
+   "instr": "Напишите отрицание и существительное.",
+   "items": [
+    {
+     "q": "W lodówce jest mleko. → W lodówce {1} {2}.",
+     "a": {
+      "1": [
+       "nie ma"
+      ],
+      "2": [
+       "mleka"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Tomek jest w domu. → {1} {2} w domu.",
+     "a": {
+      "1": [
+       "Tomka",
+       "tomka"
+      ],
+      "2": [
+       "nie ma"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Wczoraj był prąd. → Wczoraj {1} {2}.",
+     "a": {
+      "1": [
+       "nie było"
+      ],
+      "2": [
+       "prądu"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Jutro będzie lekcja. → Jutro {1} {2}.",
+     "a": {
+      "1": [
+       "nie będzie"
+      ],
+      "2": [
+       "lekcji"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "W sklepie był chleb. → W sklepie {1} {2}.",
+     "a": {
+      "1": [
+       "nie było"
+      ],
+      "2": [
+       "chleba"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Są bilety na koncert. → {1} {2} na koncert.",
+     "a": {
+      "1": [
+       "Nie ma",
+       "nie ma"
+      ],
+      "2": [
+       "biletów"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Na ulicy byli ludzie. → Na ulicy {1} {2}.",
+     "a": {
+      "1": [
+       "nie było"
+      ],
+      "2": [
+       "ludzi"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Jest szef? → Nie, {1} {2}.",
+     "a": {
+      "1": [
+       "nie ma"
+      ],
+      "2": [
+       "szefa"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "W hotelu będzie basen. → W hotelu {1} {2}.",
+     "a": {
+      "1": [
+       "nie będzie"
+      ],
+      "2": [
+       "basenu"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Tu jest apteka. → Tu {1} {2}.",
+     "a": {
+      "1": [
+       "nie ma"
+      ],
+      "2": [
+       "apteki"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "W pokoju były krzesła. → W pokoju {1} {2}.",
+     "a": {
+      "1": [
+       "nie było"
+      ],
+      "2": [
+       "krzeseł"
+      ]
+     },
+     "fact": "R2"
+    },
+    {
+     "q": "Jutro będą zajęcia. → Jutro {1} {2}.",
+     "a": {
+      "1": [
+       "nie będzie"
+      ],
+      "2": [
+       "zajęć"
+      ]
+     },
+     "fact": "R2"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Меняется или нет?",
+   "instr": "Напишите слово в правильной форме. Подумайте: был ли здесь Biernik?",
+   "items": [
+    {
+     "q": "Nie pomagam {1}. (brat)",
+     "a": [
+      "bratu"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie interesuję się {1}. (polityka)",
+     "a": [
+      "polityką"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie czekam na {1}. (autobus)",
+     "a": [
+      "autobus"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie szukam {1}. (praca)",
+     "a": [
+      "pracy"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie lubię {1}. (zima)",
+     "a": [
+      "zimy"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Nie jestem {1}. (lekarz)",
+     "a": [
+      "lekarzem"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Nie mam {1}. (siostra)",
+     "a": [
+      "siostry"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Nie rozmawiam z {1}. (sąsiad)",
+     "a": [
+      "sąsiadem"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie słucham {1}. (radio)",
+     "a": [
+      "radia"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie myślę o {1}. (egzamin)",
+     "a": [
+      "egzaminie"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie znam {1}. (ta dziewczyna)",
+     "a": [
+      "tej dziewczyny"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Nie ufam {1}. (on)",
+     "a": [
+      "mu",
+      "jemu"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie potrzebuję {1}. (pomoc)",
+     "a": [
+      "pomocy"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Ewa nie lubi {1}. (kawa) — а «Ewa» не меняется!",
+     "a": [
+      "kawy"
+     ],
+     "fact": "R5"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "После инфинитива",
+   "instr": "Напишите дополнение в нужной форме.",
+   "items": [
+    {
+     "q": "Chcę kupić nowy samochód. → Nie chcę kupić {1}.",
+     "a": [
+      "nowego samochodu"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Mogę pić kawę. → Nie mogę pić {1}.",
+     "a": [
+      "kawy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Muszę napisać raport. → Nie muszę pisać {1}.",
+     "a": [
+      "raportu"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Lubię oglądać seriale. → Nie lubię oglądać {1}.",
+     "a": [
+      "seriali",
+      "serialów"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Umiem prowadzić samochód. → Nie umiem prowadzić {1}.",
+     "a": [
+      "samochodu"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Zamierzam sprzedać mieszkanie. → Nie zamierzam sprzedać {1}.",
+     "a": [
+      "mieszkania"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Planuję odwiedzić Kraków. → Nie planuję odwiedzić {1}.",
+     "a": [
+      "Krakowa"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Lubię czytać książki. → Nie lubię czytać {1}.",
+     "a": [
+      "książek"
+     ],
+     "fact": "R3"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "gaps",
+   "title": "Местоимения",
+   "instr": "Напишите местоимение.",
+   "items": [
+    {
+     "q": "Znam ją. → Nie znam {1}.",
+     "a": [
+      "jej"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Widzę go. → Nie widzę {1}.",
+     "a": [
+      "go"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Zaprosiłam ją. → Nie zaprosiłam {1}.",
+     "a": [
+      "jej"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Rozumiem go. → Nie rozumiem {1}.",
+     "a": [
+      "go"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Pamiętam ją. → Nie pamiętam {1}.",
+     "a": [
+      "jej"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Odwiedzę ją jutro. → Nie odwiedzę {1} jutro.",
+     "a": [
+      "jej"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Lubię ich. → Nie lubię {1}.",
+     "a": [
+      "ich"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Słyszę ich. → Nie słyszę {1}.",
+     "a": [
+      "ich"
+     ],
+     "fact": "R9"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "typed",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленное слово/слова.",
+   "items": [
+    {
+     "q": "Nie mam czas.",
+     "a": [
+      "czasu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Nie piję kawę.",
+     "a": [
+      "kawy"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Nie mam pieniądze.",
+     "a": [
+      "pieniędzy"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "On nie jest tu.",
+     "a": [
+      "Nie ma go tu",
+      "nie ma go tu",
+      "Nie ma go tutaj",
+      "nie ma go tutaj"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Nie pomagam brata.",
+     "a": [
+      "bratu"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie szukam pracę.",
+     "a": [
+      "pracy"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nigdy nie pijesz wino?",
+     "a": [
+      "wina"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Nie lubię tę książkę.",
+     "a": [
+      "tej książki"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Nie ma czas na to.",
+     "a": [
+      "czasu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Nie jestem lekarza.",
+     "a": [
+      "lekarzem"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Nie czekam na autobusu.",
+     "a": [
+      "autobus"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie widziałem twoi rodzice.",
+     "a": [
+      "twoich rodziców"
+     ],
+     "fact": "R7"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Opinia o mieszkaniu na wynajem",
+   "instr": "Proszę wpisać wyrazy z nawiasu w odpowiedniej formie. Uwaga: nie po każdym zaprzeczeniu zmienia się przypadek!",
+   "text": "Wynająłem to mieszkanie na tydzień i niestety nie polecam. Na zdjęciach był duży balkon, ale w rzeczywistości nie było {1} (balkon). W kuchni nie było {2} (mikrofalówka) ani {3} (czajnik). Przez dwa dni nie mieliśmy {4} (ciepła woda). Właściciel nie odbierał {5} (telefon), więc nie mogliśmy zgłosić {6} (problem). W łazience nie znalazłem {7} (ręcznik). Nie mam {8} (zastrzeżenia) do lokalizacji — jest blisko centrum, ale nie ma tu {9} (żaden sklep). Sąsiedzi byli mili, ale nie rozumieli {10} (moje pytania). Właściciel w ogóle nie interesował się {11} (nasze problemy). Na koniec nie oddał nam {12} (kaucja) i nawet nie pomógł {13} (moja żona) z bagażami. Nie polecam {14} (to mieszkanie) nikomu.",
+   "a": {
+    "1": [
+     "balkonu"
+    ],
+    "2": [
+     "mikrofalówki"
+    ],
+    "3": [
+     "czajnika"
+    ],
+    "4": [
+     "ciepłej wody"
+    ],
+    "5": [
+     "telefonu"
+    ],
+    "6": [
+     "problemu"
+    ],
+    "7": [
+     "ręcznika"
+    ],
+    "8": [
+     "zastrzeżeń"
+    ],
+    "9": [
+     "żadnego sklepu"
+    ],
+    "10": [
+     "moich pytań"
+    ],
+    "11": [
+     "naszymi problemami"
+    ],
+    "12": [
+     "kaucji"
+    ],
+    "13": [
+     "mojej żonie"
+    ],
+    "14": [
+     "tego mieszkania"
+    ]
+   },
+   "facts": {
+    "1": "R2",
+    "2": "R2",
+    "3": "R2",
+    "4": "R7",
+    "5": "R1",
+    "6": "R3",
+    "7": "R1",
+    "8": "R1",
+    "9": "R10",
+    "10": "R7",
+    "11": "R4",
+    "12": "R1",
+    "13": "R4",
+    "14": "R7"
+   }
+  },
+  {
+   "id": "e8",
+   "kind": "gaps",
+   "title": "Ответьте «нет»",
+   "instr": "Закончите отрицательный ответ.",
+   "items": [
+    {
+     "q": "Masz czas? — Nie, nie mam {1}.",
+     "a": [
+      "czasu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Lubisz sport? — Nie, nie lubię {1}.",
+     "a": [
+      "sportu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Masz rodzeństwo? — Nie, nie mam {1}.",
+     "a": [
+      "rodzeństwa"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Czy jest Ania? — Nie, nie ma {1}.",
+     "a": [
+      "Ani"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Był wczoraj pociąg o szóstej? — Nie, nie było {1}.",
+     "a": [
+      "pociągu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Znasz tę restaurację? — Nie, nie znam {1}.",
+     "a": [
+      "tej restauracji"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Kupiłaś bilety? — Nie, nie kupiłam {1}.",
+     "a": [
+      "biletów"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Będzie jutro egzamin? — Nie, jutro nie będzie {1}.",
+     "a": [
+      "egzaminu"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Pijesz alkohol? — Nie, nie piję {1}.",
+     "a": [
+      "alkoholu"
+     ],
+     "fact": "R1"
+    },
+    {
+     "q": "Widziałeś moje klucze? — Nie, nie widziałem {1}.",
+     "a": [
+      "twoich kluczy"
+     ],
+     "fact": "R7"
+    }
+   ]
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "list",
+   "title": "E-mail z reklamacją do hotelu",
+   "prompt": "Wróciłeś/wróciłaś z hotelu, który nie spełnił obietnic z oferty. Napisz oficjalny e-mail z reklamacją (80–100 słów): czego nie było, co nie działało, czego oczekujesz.",
+   "checklist": [
+    "Szanowni Państwo / Z poważaniem",
+    "минимум 3 «nie było + Dopełniacz»",
+    "минимум 3 «nie + глагол + Dopełniacz» (nie dostałam ręczników…)",
+    "одно отрицание без смены падежа (nikt nie pomógł mi / nie interesowali się…)",
+    "чего вы ждёте (zwrot pieniędzy, przeprosiny)"
+   ],
+   "facts": [
+    "R1",
+    "R2",
+    "R4",
+    "R7"
+   ],
+   "model": "Szanowni Państwo,\nw dniach 3–7 sierpnia mieszkałam w Państwa hotelu. Niestety, nie jestem zadowolona z pobytu. W ofercie był basen, ale na miejscu nie było basenu. W pokoju nie było klimatyzacji, a przez dwa dni nie mieliśmy ciepłej wody. Codziennie prosiłam o nowe ręczniki, ale nie dostałam ręczników ani razu. Recepcja nie interesowała się naszymi problemami i nikt nam nie pomógł. Oczekuję zwrotu części pieniędzy.\nZ poważaniem\nIrina Petrenko"
+  },
+  {
+   "id": "w2",
+   "genre": "opis",
+   "title": "Wpis na blogu: „Czego brakuje w moim mieście”",
+   "prompt": "Opisz swoje miasto lub dzielnicę (80–100 słów): czego tam nie ma, czego nie było kiedyś, czego nie będzie w przyszłości (albo co się zmieni).",
+   "checklist": [
+    "nie ma / nie było / nie będzie + Dopełniacz — все три",
+    "минимум 1 «żaden» или «nigdy … nie»",
+    "минимум 2 группы прилагательное + существительное в Dopełniacz",
+    "вывод"
+   ],
+   "facts": [
+    "R2",
+    "R7",
+    "R10"
+   ],
+   "model": "Mieszkam na małym osiedlu na obrzeżach miasta. Jest tu spokojnie, ale brakuje wielu rzeczy. Nie ma dużego supermarketu ani żadnej dobrej kawiarni. Dziesięć lat temu nie było nawet przystanku autobusowego i wszyscy jeździli samochodami. Teraz mamy autobus, ale nie ma ścieżki rowerowej. Dzieci nie mają placu zabaw, więc bawią się na parkingu. Miasto obiecało nowy park, ale w tym roku na pewno nie będzie pieniędzy na inwestycje. Mimo to lubię to miejsce i nigdy nie chciałam się stąd wyprowadzić."
+  }
+ ]
+}

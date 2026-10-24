@@ -1,0 +1,329 @@
+{
+ "topic": "czasowniki-ruchu",
+ "title": "Czasowniki ruchu — глаголы движения",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "DZV",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — intro table»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-vom-intro-table.pdf"
+  },
+  {
+   "id": "DZI",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf"
+  },
+  {
+   "id": "DZP",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — prefix meaning» (таблица)",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-VOM-prefix-meaning.pdf"
+  },
+  {
+   "id": "ELO",
+   "title": "elon.io Polish grammar: «Verbs of Motion: Determinate vs Indeterminate»",
+   "url": "https://elon.io/grammar/polish/verbs/motion/overview"
+  },
+  {
+   "id": "ELJ",
+   "title": "elon.io Polish grammar: «jechać / jeździć»",
+   "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic"
+  },
+  {
+   "id": "ELP",
+   "title": "elon.io Polish grammar: «Prefixed motion verbs»",
+   "url": "https://elon.io/grammar/polish/verbs/motion/prefixed-motion"
+  },
+  {
+   "id": "ELC",
+   "title": "elon.io verbs reference: «chodzić»",
+   "url": "https://elon.io/grammar/polish/verbs-reference/chodzic"
+  },
+  {
+   "id": "CLZ",
+   "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+   "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/"
+  },
+  {
+   "id": "PIN",
+   "title": "polski.info — Grammar: Verbs (#verbs6 present irregular, #verbs7 past tense)",
+   "url": "https://polski.info/grammar/verbs#verbs7"
+  },
+  {
+   "id": "GJ6",
+   "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2»: aimless-motion imperfectives",
+   "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "iść — идти пешком; jechać — ехать на транспорте (машина, автобус, поезд, велосипед). Между городами обычно jechać: Jadę do Gdańska (не *idę).",
+   "sources": [
+    {
+     "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+     "id": "CLZ",
+     "where": "«Iść vs. jechać»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Verbs of Motion: Determinate vs Indeterminate»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/overview",
+     "id": "ELO",
+     "where": "«iść vs. jechać»"
+    },
+    {
+     "title": "elon.io Polish grammar: «jechać / jeździć»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+     "id": "ELJ",
+     "where": "«Common mistakes»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "У глаголов движения два несовершенных глагола: однонаправленный (сейчас, в одну сторону, к цели) — iść, jechać, lecieć, biec, płynąć, nieść, wieźć; и разнонаправленный (привычка, туда-обратно, без цели, умение) — chodzić, jeździć, latać, biegać, pływać, nosić, wozić.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — intro table»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-vom-intro-table.pdf",
+     "id": "DZV",
+     "where": "таблица пар unidirectional / multidirectional"
+    },
+    {
+     "title": "elon.io Polish grammar: «Verbs of Motion: Determinate vs Indeterminate»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/overview",
+     "id": "ELO",
+     "where": "«Pairs listed on the page»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), «Conjugation, part 2»: aimless-motion imperfectives",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«aimless-motion imperfectives (nosić, chodzić)»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Однонаправленный: одна поездка/путь сейчас или запланированная: Idę do pokoju. Jadę właśnie do ciebie. Jutro idę do kina (настоящее о плане).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — intro table»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-vom-intro-table.pdf",
+     "id": "DZV",
+     "where": "«Unidirectional…: Idę do pokoju; Jutro idę do kina»"
+    },
+    {
+     "title": "elon.io Polish grammar: «jechać / jeździć»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+     "id": "ELJ",
+     "where": "«Determinate: jechać — happening now or planned»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Разнонаправленный: привычка (Codziennie jeżdżę do pracy tramwajem; Chodzę na siłownię trzy razy w tygodniu), туда и обратно в прошлом (W zeszłym roku jeździliśmy do Włoch), хождение «по» (chodzić po parku), умение (Dziecko już chodzi; Umiem jeździć samochodem).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Verbs of Motion: Determinate vs Indeterminate»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/overview",
+     "id": "ELO",
+     "where": "«Uses of the indeterminate»"
+    },
+    {
+     "title": "elon.io Polish grammar: «jechać / jeździć»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+     "id": "ELJ",
+     "where": "«Indeterminate: jeździć»"
+    },
+    {
+     "title": "elon.io verbs reference: «chodzić»",
+     "url": "https://elon.io/grammar/polish/verbs-reference/chodzic",
+     "id": "ELC",
+     "where": "«Usage»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — intro table»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-vom-intro-table.pdf",
+     "id": "DZV",
+     "where": "«Multidirectional…: repeated, back-and-forth, habitual, ability»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Совершенный вид: pójść, pojechać (и polecieć, pobiec…) — одна завершённая поездка/начало движения: Jutro pójdę do kina. Wczoraj poszłam do sklepu. Na urlop pojedziemy do parku narodowego.",
+   "sources": [
+    {
+     "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+     "id": "CLZ",
+     "where": "«Perfective (pójść, pojechać)… formed with po-»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf",
+     "id": "DZI",
+     "where": "примеры «Jutro pójdę do kina», «Wczoraj poszłam do sklepu»"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs (#verbs6 present irregular, #verbs7 past tense)",
+     "url": "https://polski.info/grammar/verbs#verbs7",
+     "id": "PIN",
+     "where": "#verbs1: jechać – pojechać"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "Формы: iść — idę, idziesz, idzie, idziemy, idziecie, idą; прош. szedł, szła, szli (szedłem, szłam); pójść — pójdę, poszedł, poszła, poszli. jechać — jadę, jedziesz, jadą; jechał. jeździć — jeżdżę, jeździsz, jeżdżą; jeździł. chodzić — chodzę, chodzisz, chodzą.",
+   "sources": [
+    {
+     "title": "polski.info — Grammar: Verbs (#verbs6 present irregular, #verbs7 past tense)",
+     "url": "https://polski.info/grammar/verbs#verbs7",
+     "id": "PIN",
+     "where": "#verbs6 (iść, jechać, jeździć) и #verbs7 (szedłem, szłam)"
+    },
+    {
+     "title": "elon.io Polish grammar: «jechać / jeździć»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+     "id": "ELJ",
+     "where": "«Conjugation»"
+    },
+    {
+     "title": "elon.io verbs reference: «chodzić»",
+     "url": "https://elon.io/grammar/polish/verbs-reference/chodzic",
+     "id": "ELC",
+     "where": "«Present», «Past»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf",
+     "id": "DZI",
+     "where": "«Forms shown»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+     "id": "CLZ",
+     "where": "«Conjugation examples»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Транспорт — творительный падеж без предлога: autobusem, pociągiem, samochodem, tramwajem, taksówką, metrem; но na rowerze, na koniu (na + местный); пешком — pieszo / piechotą.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «jechać / jeździć»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/jechac-jezdzic",
+     "id": "ELJ",
+     "where": "«Vehicles take the bare instrumental», «Exception: na rowerze»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+     "id": "CLZ",
+     "where": "«Means of transport»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Куда/откуда: do + Dop. (do Krakowa, do sklepu) — цель; na + Bier. — с ограниченным кругом слов (na basen, na lotnisko, na pocztę); z + Dop. — откуда (z domu).",
+   "sources": [
+    {
+     "title": "Clozemaster blog: «Polish Verbs of Motion „iść”, „jechać”, and Other Related Verbs»",
+     "url": "https://www.clozemaster.com/blog/polish-verbs-of-motion/",
+     "id": "CLZ",
+     "where": "«Prepositions»: do, na, z"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — prefix meaning» (таблица)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-VOM-prefix-meaning.pdf",
+     "id": "DZP",
+     "where": "колонка «Prepositions»: do + GEN, z + GEN"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Приставка + однонаправленный → dk; та же приставка + разнонаправленный → ndk: przyjść – przychodzić, wyjść – wychodzić, wejść – wchodzić, dojść – dochodzić, odejść – odchodzić, podejść – podchodzić, przejść – przechodzić.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Prefixed motion verbs»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/prefixed-motion",
+     "id": "ELP",
+     "where": "«Core rule» и список приставок"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf",
+     "id": "DZI",
+     "where": "пары wychodzić/wyjść, przychodzić/przyjść, wchodzić/wejść"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "text": "Для jechać ndk-пара приставочных глаголов строится от -jeżdżać (не от jeździć): przyjechać – przyjeżdżać, wyjechać – wyjeżdżać, dojechać – dojeżdżać, odjechać – odjeżdżać.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Prefixed motion verbs»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/prefixed-motion",
+     "id": "ELP",
+     "where": "«Jechać family: -jeżdżać»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — prefix meaning» (таблица)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-VOM-prefix-meaning.pdf",
+     "id": "DZP",
+     "where": "примеры «Dojeżdżam do pracy autobusem», «Pociąg odjeżdża z peronu»"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "text": "Значения приставок и предлоги: przy- (прибыть) do; wy- (выйти) z; w-/we- (войти) do; do- (дойти, добраться) do; od-/ode- (отойти, уехать) od / z; pod-/pode- (подойти) do; prze- (перейти через) przez + Bier.; z-/ze- (сойти вниз) z / na; o-/ob- (обойти вокруг).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Verbs of motion — prefix meaning» (таблица)",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-VOM-prefix-meaning.pdf",
+     "id": "DZP",
+     "where": "таблица «Prefix / Meaning / Prepositions»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Prefixed motion verbs»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/prefixed-motion",
+     "id": "ELP",
+     "where": "список приставок с значениями"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "text": "Перед -jść вставляется -e-, если иначе трудно произнести: wejść, odejść, podejść, zejść, obejść (но przyjść, wyjść, dojść). Прошедшее приставочных от iść: przyszedł/przyszła, wyszedł/wyszła, wszedł/weszła, odszedł/odeszła, zszedł/zeszła; будущее przyjdę, wyjdę, wejdę.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Prefixed motion verbs»",
+     "url": "https://elon.io/grammar/polish/verbs/motion/prefixed-motion",
+     "id": "ELP",
+     "where": "«Polish inserts e to keep the word pronounceable»"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs (#verbs6 present irregular, #verbs7 past tense)",
+     "url": "https://polski.info/grammar/verbs#verbs7",
+     "id": "PIN",
+     "where": "#verbs7: wejść, wyjść, przyjść, pójść, odejść; przyszedłem/przyszłam"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «iść — prefixed»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-isc-prefixed.pdf",
+     "id": "DZI",
+     "where": "wszedłem, weszłam; wyjdę, przyjdę, wejdę"
+    }
+   ]
+  }
+ ]
+}

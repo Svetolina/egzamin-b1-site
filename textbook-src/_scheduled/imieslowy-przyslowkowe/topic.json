@@ -1,0 +1,1111 @@
+{
+ "id": "imieslowy-przyslowkowe",
+ "num": 16,
+ "title": "Imiesłowy przysłówkowe: -ąc, -wszy (и -ący)",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "swoj-siebie",
+ "next": null,
+ "summary": "Польские деепричастия: -ąc (одновременно, несов. вид) и -wszy/-łszy (раньше, сов. вид); общее подлежащее, запятые, nie раздельно; отличие от причастия -ący.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Два деепричастия",
+   "facts": [
+    "R1",
+    "R4",
+    "R6"
+   ],
+   "body": "Польские imiesłowy przysłówkowe — это русские деепричастия:",
+   "table": {
+    "head": [
+     "",
+     "-ąc (współczesny)",
+     "-wszy / -łszy (uprzedni)"
+    ],
+    "rows": [
+     [
+      "русский аналог",
+      "читая",
+      "прочитав"
+     ],
+     [
+      "вид глагола",
+      "несовершенный",
+      "совершенный"
+     ],
+     [
+      "время действия",
+      "одновременно с главным",
+      "до главного"
+     ],
+     [
+      "пример",
+      "Czytając gazetę, pił kawę.",
+      "Przeczytawszy list, zadzwoniła do matki."
+     ]
+    ]
+   },
+   "note": "Не изменяются по роду и числу: Wszedłszy do domu, zdjęła buty (о женщине — та же форма)."
+  },
+  {
+   "id": "s2",
+   "title": "Как образовать -ąc",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "body": "Берём форму **oni** настоящего времени и добавляем **-c**.",
+   "table": {
+    "head": [
+     "Инфинитив",
+     "oni",
+     "-ąc"
+    ],
+    "rows": [
+     [
+      "czytać",
+      "czytają",
+      "czytając"
+     ],
+     [
+      "pisać",
+      "piszą",
+      "pisząc"
+     ],
+     [
+      "iść",
+      "idą",
+      "idąc"
+     ],
+     [
+      "jechać",
+      "jadą",
+      "jadąc"
+     ],
+     [
+      "pić",
+      "piją",
+      "pijąc"
+     ],
+     [
+      "jeść",
+      "jedzą",
+      "jedząc"
+     ],
+     [
+      "spać",
+      "śpią",
+      "śpiąc"
+     ],
+     [
+      "być",
+      "(będą)",
+      "będąc"
+     ]
+    ]
+   },
+   "note": "być → będąc — особая форма (одним источником)."
+  },
+  {
+   "id": "s3",
+   "title": "Как образовать -wszy / -łszy",
+   "facts": [
+    "R5"
+   ],
+   "body": "Берём прошедшее время м. р. (**on**) и убираем **-ł**: осталась гласная → **-wszy**, согласная → **-łszy**.",
+   "table": {
+    "head": [
+     "Инфинитив",
+     "on",
+     "uprzedni"
+    ],
+    "rows": [
+     [
+      "zrobić",
+      "zrobił",
+      "zrobiwszy"
+     ],
+     [
+      "przeczytać",
+      "przeczytał",
+      "przeczytawszy"
+     ],
+     [
+      "skończyć",
+      "skończył",
+      "skończywszy"
+     ],
+     [
+      "zjeść",
+      "zjadł",
+      "zjadłszy"
+     ],
+     [
+      "przyjść",
+      "przyszedł",
+      "przyszedłszy"
+     ],
+     [
+      "przynieść",
+      "przyniósł",
+      "przyniósłszy"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": "Главное правило: одно подлежащее",
+   "facts": [
+    "R7"
+   ],
+   "body": "Деепричастие относится к подлежащему главного предложения — как и в русском.",
+   "table": {
+    "head": [
+     "Ошибка",
+     "Правильно"
+    ],
+    "rows": [
+     [
+      "Idąc do szkoły, padał deszcz.",
+      "Idąc do szkoły, zmokłem. / Kiedy szedłem do szkoły, padał deszcz."
+     ],
+     [
+      "Czytając książkę, zadzwonił telefon.",
+      "Kiedy czytałam książkę, zadzwonił telefon."
+     ]
+    ]
+   },
+   "note": "Сравните ошибку «Подъезжая к станции, у меня слетела шляпа» в русском."
+  },
+  {
+   "id": "s5",
+   "title": "Запятая и nie",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "body": "Оборот выделяется **запятыми**: *Anna, czekając na tramwaj, denerwowała się.* **nie** — раздельно: *nie wiedząc, nie czytając, nie przeczytawszy.*"
+  },
+  {
+   "id": "s6",
+   "title": "Где это встречается",
+   "facts": [
+    "R10"
+   ],
+   "body": "-ąc — книжный и официальный стиль (тексты экзамена, новости, письма); в разговоре обычно говорят *kiedy / gdy* + глагол. Обиходные обороты: *mówiąc szczerze, biorąc pod uwagę*. -wszy — почти только в литературе: важно **понимать** при чтении."
+  },
+  {
+   "id": "s7",
+   "title": "-ąc или -ący?",
+   "facts": [
+    "R11"
+   ],
+   "body": "**-ący** (czytający, czytająca, czytające) — причастие-прилагательное: относится к существительному, склоняется и заменяет *który*: *Kobieta czytająca książkę = kobieta, która czyta książkę.* **-ąc** — деепричастие: относится к действию, не меняется.",
+   "examples": [
+    [
+     "Śpiące dziecko wyglądało jak aniołek.",
+     "Спящий ребёнок выглядел как ангелочек."
+    ],
+    [
+     "Czytając, zasnął.",
+     "Читая, он уснул."
+    ]
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Образуйте форму на -ąc",
+   "kind": "gaps",
+   "instr": "Напечатайте imiesłów przysłówkowy współczesny.",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "czytać → {1}",
+     "a": [
+      [
+       "czytając"
+      ]
+     ]
+    },
+    {
+     "q": "pisać → {1}",
+     "a": [
+      [
+       "pisząc"
+      ]
+     ]
+    },
+    {
+     "q": "robić → {1}",
+     "a": [
+      [
+       "robiąc"
+      ]
+     ]
+    },
+    {
+     "q": "iść → {1}",
+     "a": [
+      [
+       "idąc"
+      ]
+     ]
+    },
+    {
+     "q": "jechać → {1}",
+     "a": [
+      [
+       "jadąc"
+      ]
+     ]
+    },
+    {
+     "q": "mówić → {1}",
+     "a": [
+      [
+       "mówiąc"
+      ]
+     ]
+    },
+    {
+     "q": "słuchać → {1}",
+     "a": [
+      [
+       "słuchając"
+      ]
+     ]
+    },
+    {
+     "q": "pić → {1}",
+     "a": [
+      [
+       "pijąc"
+      ]
+     ]
+    },
+    {
+     "q": "jeść → {1}",
+     "a": [
+      [
+       "jedząc"
+      ]
+     ]
+    },
+    {
+     "q": "siedzieć → {1}",
+     "a": [
+      [
+       "siedząc"
+      ]
+     ]
+    },
+    {
+     "q": "uśmiechać się → {1}",
+     "a": [
+      [
+       "uśmiechając się"
+      ]
+     ]
+    },
+    {
+     "q": "wracać → {1}",
+     "a": [
+      [
+       "wracając"
+      ]
+     ]
+    },
+    {
+     "q": "patrzeć → {1}",
+     "a": [
+      [
+       "patrząc"
+      ]
+     ]
+    },
+    {
+     "q": "myśleć → {1}",
+     "a": [
+      [
+       "myśląc"
+      ]
+     ]
+    },
+    {
+     "q": "być → {1}",
+     "a": [
+      [
+       "będąc"
+      ]
+     ]
+    },
+    {
+     "q": "czekać → {1}",
+     "a": [
+      [
+       "czekając"
+      ]
+     ]
+    },
+    {
+     "q": "prowadzić → {1}",
+     "a": [
+      [
+       "prowadząc"
+      ]
+     ]
+    },
+    {
+     "q": "spać → {1}",
+     "a": [
+      [
+       "śpiąc"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Образуйте форму на -wszy / -łszy",
+   "kind": "gaps",
+   "instr": "Напечатайте imiesłów przysłówkowy uprzedni (подсказка: от формы «on» прошедшего времени).",
+   "facts": [
+    "R5"
+   ],
+   "items": [
+    {
+     "q": "zrobić → {1}",
+     "a": [
+      [
+       "zrobiwszy"
+      ]
+     ]
+    },
+    {
+     "q": "przeczytać → {1}",
+     "a": [
+      [
+       "przeczytawszy"
+      ]
+     ]
+    },
+    {
+     "q": "napisać → {1}",
+     "a": [
+      [
+       "napisawszy"
+      ]
+     ]
+    },
+    {
+     "q": "skończyć → {1}",
+     "a": [
+      [
+       "skończywszy"
+      ]
+     ]
+    },
+    {
+     "q": "zjeść → {1}",
+     "a": [
+      [
+       "zjadłszy"
+      ]
+     ]
+    },
+    {
+     "q": "przyjść → {1}",
+     "a": [
+      [
+       "przyszedłszy"
+      ]
+     ]
+    },
+    {
+     "q": "wejść → {1}",
+     "a": [
+      [
+       "wszedłszy"
+      ]
+     ]
+    },
+    {
+     "q": "wrócić → {1}",
+     "a": [
+      [
+       "wróciwszy"
+      ]
+     ]
+    },
+    {
+     "q": "zamknąć → {1}",
+     "a": [
+      [
+       "zamknąwszy"
+      ]
+     ]
+    },
+    {
+     "q": "obudzić się → {1}",
+     "a": [
+      [
+       "obudziwszy się"
+      ]
+     ]
+    },
+    {
+     "q": "kupić → {1}",
+     "a": [
+      [
+       "kupiwszy"
+      ]
+     ]
+    },
+    {
+     "q": "wypić → {1}",
+     "a": [
+      [
+       "wypiwszy"
+      ]
+     ]
+    },
+    {
+     "q": "przynieść → {1}",
+     "a": [
+      [
+       "przyniósłszy"
+      ]
+     ]
+    },
+    {
+     "q": "usiąść → {1}",
+     "a": [
+      [
+       "usiadłszy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "-ąc или -wszy?",
+   "kind": "gaps",
+   "instr": "Поставьте глагол в форму -ąc (одновременно) или -wszy/-łszy (раньше).",
+   "facts": [
+    "R1",
+    "R4",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "{1} (czytać) gazetę, pił kawę.",
+     "a": [
+      [
+       "Czytając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (zjeść) obiad, wyszedł na spacer.",
+     "a": [
+      [
+       "Zjadłszy"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (wracać) do domu, spotkałam sąsiadkę.",
+     "a": [
+      [
+       "Wracając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (przeczytać) list, zadzwoniła do matki.",
+     "a": [
+      [
+       "Przeczytawszy"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (słuchać) muzyki, gotuję obiad.",
+     "a": [
+      [
+       "Słuchając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (skończyć) pracę, poszliśmy do kina.",
+     "a": [
+      [
+       "Skończywszy"
+      ]
+     ]
+    },
+    {
+     "q": "Szedł ulicą, {1} (rozmawiać) przez telefon.",
+     "a": [
+      [
+       "rozmawiając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (być) w Krakowie, odwiedź Wawel.",
+     "a": [
+      [
+       "Będąc"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (wejść) do pokoju, zapalił światło.",
+     "a": [
+      [
+       "Wszedłszy"
+      ]
+     ]
+    },
+    {
+     "q": "Dzieci bawiły się, {1} (śmiać się) głośno.",
+     "a": [
+      [
+       "śmiejąc się"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (mówić) szczerze, nie lubię tego filmu.",
+     "a": [
+      [
+       "Mówiąc"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (wrócić) z pracy, zjadła kolację.",
+     "a": [
+      [
+       "Wróciwszy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Исправьте ошибку",
+   "kind": "gaps",
+   "instr": "В предложении разные подлежащие — деепричастие тут нельзя. Замените его на kiedy/gdy + глагол (говорит «я»; засчитываются обе формы рода).",
+   "facts": [
+    "R7"
+   ],
+   "items": [
+    {
+     "q": "Idąc do szkoły, padał deszcz. → {1}, padał deszcz.",
+     "a": [
+      [
+       "Kiedy szedłem do szkoły",
+       "Kiedy szłam do szkoły",
+       "Gdy szedłem do szkoły",
+       "Gdy szłam do szkoły"
+      ]
+     ]
+    },
+    {
+     "q": "Jadąc autobusem, zepsuł się silnik. → {1}, zepsuł się silnik.",
+     "a": [
+      [
+       "Kiedy jechałem autobusem",
+       "Kiedy jechałam autobusem",
+       "Gdy jechałem autobusem",
+       "Gdy jechałam autobusem"
+      ]
+     ]
+    },
+    {
+     "q": "Czytając książkę, zadzwonił telefon. → {1}, zadzwonił telefon.",
+     "a": [
+      [
+       "Kiedy czytałem książkę",
+       "Kiedy czytałam książkę",
+       "Gdy czytałem książkę",
+       "Gdy czytałam książkę"
+      ]
+     ]
+    },
+    {
+     "q": "Wchodząc do sklepu, zaczęła się burza. → {1}, zaczęła się burza.",
+     "a": [
+      [
+       "Kiedy wchodziłem do sklepu",
+       "Kiedy wchodziłam do sklepu",
+       "Gdy wchodziłem do sklepu",
+       "Gdy wchodziłam do sklepu"
+      ]
+     ]
+    },
+    {
+     "q": "Będąc dzieckiem, mama czytała mi bajki. → {1}, mama czytała mi bajki.",
+     "a": [
+      [
+       "Kiedy byłem dzieckiem",
+       "Kiedy byłam dzieckiem",
+       "Gdy byłem dzieckiem",
+       "Gdy byłam dzieckiem"
+      ]
+     ]
+    },
+    {
+     "q": "Wróciwszy do domu, pies na mnie czekał. → {1}, pies na mnie czekał.",
+     "a": [
+      [
+       "Kiedy wróciłem do domu",
+       "Kiedy wróciłam do domu",
+       "Gdy wróciłem do domu",
+       "Gdy wróciłam do domu"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Замените на деепричастие",
+   "kind": "gaps",
+   "instr": "Подлежащее одно — замените придаточное деепричастием (-ąc или -wszy/-łszy).",
+   "facts": [
+    "R1",
+    "R4",
+    "R5",
+    "R6",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Kiedy czekała na tramwaj, czytała książkę. → {1}, czytała książkę.",
+     "a": [
+      [
+       "Czekając na tramwaj"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy zjadł śniadanie, wyszedł z domu. → {1}, wyszedł z domu.",
+     "a": [
+      [
+       "Zjadłszy śniadanie"
+      ]
+     ]
+    },
+    {
+     "q": "Gdy prowadzę samochód, nie rozmawiam przez telefon. → {1}, nie rozmawiam przez telefon.",
+     "a": [
+      [
+       "Prowadząc samochód"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy skończyła studia, wyjechała do Anglii. → {1}, wyjechała do Anglii.",
+     "a": [
+      [
+       "Skończywszy studia"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy wracaliśmy z kina, rozmawialiśmy o filmie. → {1}, rozmawialiśmy o filmie.",
+     "a": [
+      [
+       "Wracając z kina"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy przeczytał wiadomość, uśmiechnął się. → {1}, uśmiechnął się.",
+     "a": [
+      [
+       "Przeczytawszy wiadomość"
+      ]
+     ]
+    },
+    {
+     "q": "Gdy mieszkałem w Polsce, nauczyłem się polskiego. → {1}, nauczyłem się polskiego.",
+     "a": [
+      [
+       "Mieszkając w Polsce"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy otworzyła drzwi, zobaczyła kwiaty. → {1}, zobaczyła kwiaty.",
+     "a": [
+      [
+       "Otworzywszy drzwi"
+      ]
+     ]
+    },
+    {
+     "q": "Ponieważ nie wiedział, co robić, zadzwonił do brata. → {1}, co robić, zadzwonił do brata.",
+     "a": [
+      [
+       "Nie wiedząc"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy weszła do domu, zdjęła buty. → {1}, zdjęła buty.",
+     "a": [
+      [
+       "Wszedłszy do domu"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "-ąc или -ący?",
+   "kind": "gaps",
+   "instr": "Поставьте глагол в форму -ąc (деепричастие) или -ący (причастие, согласуйте!).",
+   "facts": [
+    "R11",
+    "R1"
+   ],
+   "items": [
+    {
+     "q": "Kobieta {1} (czytać) książkę nie zauważyła deszczu.",
+     "a": [
+      [
+       "czytająca"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (czytać) książkę, kobieta nie zauważyła deszczu.",
+     "a": [
+      [
+       "Czytając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (spać) dziecko wyglądało jak aniołek.",
+     "a": [
+      [
+       "Śpiące"
+      ]
+     ]
+    },
+    {
+     "q": "Znam wielu ludzi {1} (mówić) po polsku.",
+     "a": [
+      [
+       "mówiących"
+      ]
+     ]
+    },
+    {
+     "q": "Rozmawiałam z {1} (pracować) tu panią.",
+     "a": [
+      [
+       "pracującą"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (pracować) w nocy, śpię w dzień.",
+     "a": [
+      [
+       "Pracując"
+      ]
+     ]
+    },
+    {
+     "q": "Studenci {1} (uczyć się) w bibliotece muszą być cicho.",
+     "a": [
+      [
+       "uczący się"
+      ]
+     ]
+    },
+    {
+     "q": "Wyszła z domu, nie {1} (mówić) ani słowa.",
+     "a": [
+      [
+       "mówiąc"
+      ]
+     ]
+    },
+    {
+     "q": "Przy stole siedział mężczyzna {1} (pić) kawę.",
+     "a": [
+      [
+       "pijący"
+      ]
+     ]
+    },
+    {
+     "q": "Lubię patrzeć na {1} (bawić się) dzieci.",
+     "a": [
+      [
+       "bawiące się"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: рассказ",
+   "kind": "gaps",
+   "instr": "Uzupełnij tekst. Wpisz imiesłów przysłówkowy (-ąc albo -wszy/-łszy) od czasownika w nawiasie.",
+   "facts": [
+    "R1",
+    "R2",
+    "R4",
+    "R5",
+    "R7",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Wczoraj, {1} (wracać) z pracy, zobaczyłam na ulicy małego psa.",
+     "a": [
+      [
+       "wracając"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (siedzieć) pod drzewem, pies cicho skomlał.",
+     "a": [
+      [
+       "Siedząc"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (nie wiedzieć), co zrobić, zadzwoniłam do siostry.",
+     "a": [
+      [
+       "Nie wiedząc"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (wysłuchać) mnie, siostra powiedziała: „Weź go do domu!”.",
+     "a": [
+      [
+       "Wysłuchawszy"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (wziąć) psa na ręce, poszłam do domu.",
+     "a": [
+      [
+       "Wziąwszy"
+      ]
+     ]
+    },
+    {
+     "q": "Mąż, {1} (zobaczyć) nas, bardzo się zdziwił.",
+     "a": [
+      [
+       "zobaczywszy"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (umyć) psa,",
+     "a": [
+      [
+       "Umywszy"
+      ]
+     ]
+    },
+    {
+     "q": "i {1} (nakarmić) go, zrobiliśmy mu zdjęcie",
+     "a": [
+      [
+       "nakarmiwszy"
+      ]
+     ]
+    },
+    {
+     "q": "i, {1} (chcieć) znaleźć właściciela, wrzuciliśmy je do internetu.",
+     "a": [
+      [
+       "chcąc"
+      ]
+     ]
+    },
+    {
+     "q": "Następnego dnia zadzwoniła starsza pani, {1} (płakać) ze szczęścia.",
+     "a": [
+      [
+       "płacząc"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (przyjechać) po psa, przywiozła nam ciasto.",
+     "a": [
+      [
+       "Przyjechawszy"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (mówić) szczerze, trochę żal mi było się z nim rozstać.",
+     "a": [
+      [
+       "Mówiąc"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте на разговорный вариант (kiedy/gdy, ponieważ/bo, który). Напечатайте вставку.",
+   "facts": [
+    "R1",
+    "R4",
+    "R10",
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Zjadłszy obiad, wyszedł na spacer. → {1}, wyszedł na spacer.",
+     "a": [
+      [
+       "Kiedy zjadł obiad",
+       "Gdy zjadł obiad"
+      ]
+     ]
+    },
+    {
+     "q": "Czytając gazetę, pił kawę. → {1}, pił kawę.",
+     "a": [
+      [
+       "Kiedy czytał gazetę",
+       "Gdy czytał gazetę"
+      ]
+     ]
+    },
+    {
+     "q": "Nie mając czasu, nie przyszła na spotkanie. → {1}, nie przyszła na spotkanie.",
+     "a": [
+      [
+       "Ponieważ nie miała czasu"
+      ]
+     ]
+    },
+    {
+     "q": "Będąc w Krakowie, odwiedziliśmy Wawel. → {1}, odwiedziliśmy Wawel.",
+     "a": [
+      [
+       "Kiedy byliśmy w Krakowie",
+       "Gdy byliśmy w Krakowie"
+      ]
+     ]
+    },
+    {
+     "q": "Przeczytawszy list, zadzwoniła do matki. → {1}, zadzwoniła do matki.",
+     "a": [
+      [
+       "Kiedy przeczytała list",
+       "Gdy przeczytała list"
+      ]
+     ]
+    },
+    {
+     "q": "Mieszkając blisko, chodzę do pracy pieszo. → {1}, chodzę do pracy pieszo.",
+     "a": [
+      [
+       "Ponieważ mieszkam blisko"
+      ]
+     ]
+    },
+    {
+     "q": "Kobieta czytająca książkę to moja siostra. → Kobieta, {1}, to moja siostra.",
+     "a": [
+      [
+       "która czyta książkę"
+      ]
+     ]
+    },
+    {
+     "q": "Ludzie mieszkający w centrum narzekają na hałas. → Ludzie, {1}, narzekają na hałas.",
+     "a": [
+      [
+       "którzy mieszkają w centrum"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Необычный день (рассказ)",
+   "facts": [
+    "R1",
+    "R4",
+    "R7",
+    "R8"
+   ],
+   "instr": "Napisz opowiadanie (80–100 słów): „Dzień, którego nie zapomnę”. Opisz, co się stało, co robiłeś/robiłaś i jak to się skończyło.",
+   "checklist": [
+    "не меньше 3 форм на -ąc",
+    "не меньше 2 форм на -wszy/-łszy",
+    "в каждом обороте подлежащее совпадает с главным",
+    "запятые вокруг оборотов",
+    "хотя бы 1 nie + деепричастие раздельно"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Советы туристам",
+   "facts": [
+    "R1",
+    "R3",
+    "R10"
+   ],
+   "instr": "Napisz krótki poradnik dla turystów (60–80 słów) o Twoim mieście: co warto zobaczyć, jak się poruszać, na co uważać.",
+   "checklist": [
+    "будąc w …, warto …",
+    "chcąc …, należy …",
+    "1 устойчивый оборот (mówiąc szczerze / biorąc pod uwagę)",
+    "1 форма -ący (osoby lubiące …)"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 90,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 7,
+  "facts": 11
+ }
+}

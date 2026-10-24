@@ -1,0 +1,1380 @@
+{
+ "topic": "stopniowanie",
+ "level": "B1",
+ "group": "Прилагательное",
+ "title_pl": "Stopniowanie",
+ "title_ru": "Степени сравнения",
+ "lead": "Tani — tańszy — najtańszy, dobry — lepszy. Как сравнивать прилагательные и наречия.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.2 Słowotwórstwo, pkt 1 «stopniowanie przymiotników: a) proste: regularnych (np.: pilny – pilniejszy, długi – dłuższy), supletywnych (np.: duży – większy), b) opisowe (np. bardziej chory)» и pkt 2 «stopniowanie przysłówków (np. szybko – szybciej; źle – gorzej; dużo – więcej; bardziej gorąco)», s. 77.",
+   "KEY: экзамен 06.2024, Gramatyka III. «Степени сравнения» (tests/b1-2024-06.js, g3)",
+   "KEY: экзамен 04.2024, Gramatyka III. «Степени сравнения» (tests/b1-2024-04.js, g3)",
+   "KEY: экзамен 11.2023, Gramatyka III. «Степени сравнения» (tests/b1-2023-11.js, g3)",
+   "KEY: сборник 2017, Gramatyka 12.V. «Имена, блок 12, V» (tests/b1-sbornik.js, k12-5)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Три степени",
+   "facts": [
+    "R1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Stopień równy (stary) → wyższy (starszy) → najwyższy (najstarszy). Превосходная всегда = **naj- + сравнительная**."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Równy",
+      "Wyższy",
+      "Najwyższy"
+     ],
+     "rows": [
+      [
+       "stary",
+       "starszy",
+       "najstarszy"
+      ],
+      [
+       "nowy",
+       "nowszy",
+       "najnowszy"
+      ],
+      [
+       "ładny",
+       "ładniejszy",
+       "najładniejszy"
+      ],
+      [
+       "trudny",
+       "trudniejszy",
+       "najtrudniejszy"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "-szy или -ejszy?",
+   "facts": [
+    "R1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Смотрим на согласные перед окончанием: **одна** → -szy (sta**r**y → starszy, mło**d**y → młodszy); **две** → -ejszy (nu**dn**y → nudniejszy, ła**dn**y → ładniejszy). Есть исключения: ciekawy → ciekawszy."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Чередования",
+   "facts": [
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Изменение",
+      "Примеры"
+     ],
+     "rows": [
+      [
+       "ł → l",
+       "miły → milszy, ciepły → cieplejszy, wesoły → weselszy"
+      ],
+      [
+       "n → ń",
+       "tani → tańszy"
+      ],
+      [
+       "g → ż",
+       "drogi → droższy, długi → dłuższy"
+      ],
+      [
+       "-k- выпадает",
+       "szybki → szybszy, daleki → dalszy, głęboki → głębszy"
+      ],
+      [
+       "-sk- → -ż-",
+       "niski → niższy, wysoki → wyższy, bliski → bliższy"
+      ],
+      [
+       "особые",
+       "ciężki → cięższy, lekki → lżejszy"
+      ]
+     ],
+     "pl_cols": [
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Такие формы лучше запоминать как слова."
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Неправильные формы",
+   "facts": [
+    "R3",
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Прилагательное",
+      "Наречие"
+     ],
+     "rows": [
+      [
+       "dobry → lepszy → najlepszy",
+       "dobrze → lepiej → najlepiej"
+      ],
+      [
+       "zły → gorszy → najgorszy",
+       "źle → gorzej → najgorzej"
+      ],
+      [
+       "duży → większy → największy",
+       "dużo → więcej → najwięcej"
+      ],
+      [
+       "mały → mniejszy → najmniejszy",
+       "mało → mniej → najmniej"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "После więcej / mniej — dopełniacz: więcej czasu, mniej pieniędzy."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "bardziej / najbardziej",
+   "facts": [
+    "R4",
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Для длинных слов (4+ слога), прилагательных от глаголов и причастий: [[bardziej interesujący, najbardziej zmęczony]]. Меньшая степень: [[mniej / najmniej]]. Изобретать формы вроде **zmęczeńszy** нельзя."
+    },
+    {
+     "type": "p",
+     "text": "Не сравниваются: [[drewniany, polski, krakowski, martwy]] (материал, происхождение; правило из одного источника)."
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило подтверждено одним источником — дано одной строкой с пометкой."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t6",
+   "title": "Мужско-личное мн. ч.: -si",
+   "facts": [
+    "R6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "О мужчинах и смешанных группах: **-szy → -si**."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Moi bracia są młodsi ode mnie.",
+       "ru": "Мои братья младше меня."
+      },
+      {
+       "pl": "Ci studenci są lepsi od tamtych.",
+       "ru": "Эти студенты лучше тех."
+      },
+      {
+       "pl": "Zawodnicy są wyżsi od nas.",
+       "ru": "Спортсмены выше нас."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Сравните: siostry są młodsze, książki są lepsze."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Наречия: -ej",
+   "facts": [
+    "R9",
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Równy",
+      "Wyższy",
+      "Najwyższy"
+     ],
+     "rows": [
+      [
+       "szybko",
+       "szybciej",
+       "najszybciej"
+      ],
+      [
+       "wolno",
+       "wolniej",
+       "najwolniej"
+      ],
+      [
+       "tanio",
+       "taniej",
+       "najtaniej"
+      ],
+      [
+       "ciepło",
+       "cieplej",
+       "najcieplej"
+      ],
+      [
+       "drogo",
+       "drożej",
+       "najdrożej"
+      ],
+      [
+       "wysoko",
+       "wyżej",
+       "najwyżej"
+      ],
+      [
+       "daleko",
+       "dalej",
+       "najdalej"
+      ],
+      [
+       "krótko",
+       "krócej",
+       "najkrócej"
+      ],
+      [
+       "późno",
+       "później",
+       "najpóźniej"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "niż или od?",
+   "facts": [
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**niż** — после него тот же падеж, что у первого сравниваемого: [[Ewa jest młodsza niż Marek. Lubię herbatę bardziej niż kawę.]] **od + dopełniacz** — коротко и разговорно: [[Ewa jest młodsza od Marka. Brat jest wyższy ode mnie.]] Только **niż**: перед придаточным ([[trudniejsze, niż myślałem]]), наречием ([[lepiej niż wczoraj]]), количеством ([[dłużej niż godzinę]])."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Как в русском «старше Марека» — od + dopełniacz; «старше, чем Марек» — niż + mianownik."
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Самый… из / в",
+   "facts": [
+    "R8"
+   ],
+   "blocks": [
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Jest najlepszy z całej klasy.",
+       "ru": "Он лучший во всём классе (из всего класса)."
+      },
+      {
+       "pl": "To najwyższa góra w Polsce.",
+       "ru": "Это самая высокая гора в Польше."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "coraz…; im…, tym…",
+   "facts": [
+    "R11",
+    "R12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[coraz]] + сравнительная — «всё более»: [[Mam coraz więcej pracy.]] [[im]] …, [[tym]] … — «чем…, тем…»: [[Im szybciej skończymy, tym wcześniej wyjdziemy.]] (Каждое из этих правил подтверждено одним источником.)"
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило подтверждено одним источником — дано одной строкой с пометкой."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t11",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Степени сравнения — постоянное задание III реальных экзаменов (например, 06.2024, 04.2024, 02.2024, 11.2023, 06.2023, 04.2023) и задание V блока 12 сборника. В письме — сравнения в отзывах и сообщениях на форуме."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Короткое прилагательное — [[-szy]], с трудной основой — [[-ejszy]].",
+      "Проверьте неправильные: [[dobry – lepszy, zły – gorszy, duży – większy, mały – mniejszy]].",
+      "Сравнение — [[niż]] + именительный или [[od]] + родительный."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Сравнительная степень",
+   "instr": "Напечатайте сравнительную степень (м. р. ед. ч.).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "stary → ___",
+     "a": [
+      "starszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "młody → ___",
+     "a": [
+      "młodszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "nowy → ___",
+     "a": [
+      "nowszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "ładny → ___",
+     "a": [
+      "ładniejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "trudny → ___",
+     "a": [
+      "trudniejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "ważny → ___",
+     "a": [
+      "ważniejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "ciepły → ___",
+     "a": [
+      "cieplejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "miły → ___",
+     "a": [
+      "milszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "tani → ___",
+     "a": [
+      "tańszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "drogi → ___",
+     "a": [
+      "droższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "długi → ___",
+     "a": [
+      "dłuższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "wysoki → ___",
+     "a": [
+      "wyższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "niski → ___",
+     "a": [
+      "niższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "szybki → ___",
+     "a": [
+      "szybszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "bliski → ___",
+     "a": [
+      "bliższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "daleki → ___",
+     "a": [
+      "dalszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "dobry → ___",
+     "a": [
+      "lepszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "zły → ___",
+     "a": [
+      "gorszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "duży → ___",
+     "a": [
+      "większy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "mały → ___",
+     "a": [
+      "mniejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "ciekawy → ___",
+     "a": [
+      "ciekawszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "lekki → ___",
+     "a": [
+      "lżejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "ciężki → ___",
+     "a": [
+      "cięższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "głęboki → ___",
+     "a": [
+      "głębszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Превосходная степень",
+   "instr": "Поставьте прилагательное в превосходную степень в нужной форме.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "To jest ___ (dobry) restauracja w mieście.",
+     "a": [
+      "najlepsza"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Wisła to ___ (długi) rzeka w Polsce.",
+     "a": [
+      "najdłuższa"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Rysy to ___ (wysoki) szczyt w Polsce.",
+     "a": [
+      "najwyższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Marek jest ___ (młody) z nas.",
+     "a": [
+      "najmłodszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "To był ___ (zły) dzień w moim życiu.",
+     "a": [
+      "najgorszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Kup ___ (tani) bilet.",
+     "a": [
+      "najtańszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Warszawa to ___ (duży) miasto w Polsce.",
+     "a": [
+      "największe"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "To ___ (ciekawy) książka, jaką czytałam.",
+     "a": [
+      "najciekawsza"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ten film jest ___ interesujący ze wszystkich. (bardzo → превосходная)",
+     "a": [
+      "najbardziej"
+     ],
+     "expl": "Прилагательные на -ący — описательная степень: najbardziej interesujący.",
+     "t": "t5"
+    },
+    {
+     "q": "Ci chłopcy to ___ (mały) uczniowie w szkole.",
+     "a": [
+      "najmniejsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Moi ___ (dobry) przyjaciele mieszkają w Gdańsku.",
+     "a": [
+      "najlepsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "To jest ___ (stary) kościół w mieście.",
+     "a": [
+      "najstarszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Сравнение в предложении",
+   "instr": "Поставьте прилагательное в сравнительную степень и согласуйте его.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Moja siostra jest ___ (stary) ode mnie.",
+     "a": [
+      "starsza"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Moi bracia są ___ (młody) ode mnie.",
+     "a": [
+      "młodsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ten pokój jest ___ (ładny) niż tamten.",
+     "a": [
+      "ładniejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Dzisiejszy dzień jest ___ (ciepły) niż wczorajszy.",
+     "a": [
+      "cieplejszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Nowe mieszkanie jest ___ (duży) od starego.",
+     "a": [
+      "większe"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ci studenci są ___ (dobry) od tamtych.",
+     "a": [
+      "lepsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Te buty są ___ (drogi) niż tamte.",
+     "a": [
+      "droższe"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Nasi nowi sąsiedzi są ___ (miły) niż poprzedni.",
+     "a": [
+      "milsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Pociąg jest ___ (szybki) od autobusu.",
+     "a": [
+      "szybszy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ta walizka jest ___ (lekki) od mojej.",
+     "a": [
+      "lżejsza"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ci koszykarze są ___ (wysoki) od nas.",
+     "a": [
+      "wyżsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "To zadanie jest ___ (trudny), niż myślałem.",
+     "a": [
+      "trudniejsze"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Наречия",
+   "instr": "Поставьте наречие в сравнительную (или, где сказано, превосходную) степень.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Mów ___ (wolno), proszę.",
+     "a": [
+      "wolniej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Pociągiem jedzie się ___ (szybko) niż autobusem.",
+     "a": [
+      "szybciej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Dzisiaj czuję się ___ (dobrze) niż wczoraj.",
+     "a": [
+      "lepiej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "W nocy było jeszcze ___ (źle).",
+     "a": [
+      "gorzej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Latem jest ___ (ciepło) niż zimą.",
+     "a": [
+      "cieplej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "W tym sklepie jest ___ (tanio).",
+     "a": [
+      "taniej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "W centrum mieszka się ___ (drogo).",
+     "a": [
+      "drożej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Wróciłem ___ (późno), niż planowałem.",
+     "a": [
+      "później"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Mam ___ (dużo) pracy niż w zeszłym roku.",
+     "a": [
+      "więcej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Jem teraz ___ (mało) słodyczy.",
+     "a": [
+      "mniej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Kto z was biega ___ (szybko)? — превосходная",
+     "a": [
+      "najszybciej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Która kawa smakuje ci ___ (dobrze)? — превосходная",
+     "a": [
+      "najlepiej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Samolot leci ___ (wysoko) niż ptak.",
+     "a": [
+      "wyżej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Mieszkam ___ (daleko) od pracy niż ty.",
+     "a": [
+      "dalej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    },
+    {
+     "q": "Coraz ___ (krótko) śpię.",
+     "a": [
+      "krócej"
+     ],
+     "expl": "Наречия: сравнительная на -ej, часто с чередованием; превосходная naj- + сравнительная: szybko → szybciej, wolno →…",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "niż или od?",
+   "instr": "Впишите слово в нужной форме или niż / od.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Mój brat jest wyższy ode ___ (ja).",
+     "a": [
+      "mnie"
+     ],
+     "expl": "od + ja → ode mnie.",
+     "t": "t8"
+    },
+    {
+     "q": "Anna jest starsza od ___ (Marek).",
+     "a": [
+      "Marka"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Ewa jest młodsza niż ___ (Marek).",
+     "a": [
+      "Marek"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Lubię herbatę bardziej niż ___ (kawa).",
+     "a": [
+      "kawę"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Pociąg jest szybszy od ___ (autobus).",
+     "a": [
+      "autobusu"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Kraków jest mniejszy od ___ (Warszawa).",
+     "a": [
+      "Warszawy"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Kraków jest mniejszy niż ___ (Warszawa).",
+     "a": [
+      "Warszawa"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Dzisiaj czuję się lepiej ___ wczoraj. (niż / od)",
+     "a": [
+      "niż"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "To było trudniejsze, ___ myślałem. (niż / od)",
+     "a": [
+      "niż"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Czekaliśmy dłużej ___ godzinę. (niż / od)",
+     "a": [
+      "niż"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Moja córka jest wyższa od ___ (syn).",
+     "a": [
+      "syna"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    },
+    {
+     "q": "Lepiej późno ___ wcale. (niż / od)",
+     "a": [
+      "niż"
+     ],
+     "expl": "«Чем»: niż + тот же падеж, что у первого члена (Ewa jest młodsza niż Marek; Lubię herbatę bardziej niż kawę); od +…",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Простая или описательная?",
+   "instr": "Напечатайте сравнительную степень: простую (-szy/-ejszy) или с bardziej. Где в живой речи возможны обе — засчитываются обе.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "interesujący → ___",
+     "a": [
+      "bardziej interesujący"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "zmęczony → ___",
+     "a": [
+      "bardziej zmęczony"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "romantyczny → ___",
+     "a": [
+      "bardziej romantyczny"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "ładny → ___",
+     "a": [
+      "ładniejszy"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "zadowolony → ___",
+     "a": [
+      "bardziej zadowolony"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "irytujący → ___",
+     "a": [
+      "bardziej irytujący"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "spokojny → ___",
+     "a": [
+      "spokojniejszy",
+      "bardziej spokojny"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "nowoczesny → ___",
+     "a": [
+      "nowocześniejszy",
+      "bardziej nowoczesny"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "stary → ___",
+     "a": [
+      "starszy"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    },
+    {
+     "q": "zmęczony → (меньше) ___",
+     "a": [
+      "mniej zmęczony"
+     ],
+     "expl": "Описательная степень bardziej / najbardziej (и mniej / najmniej) — для длинных прилагательных (4+ слога)…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: письмо",
+   "instr": "Uzupełnij e-mail. Wpisz przymiotnik lub przysłówek w odpowiednim stopniu i formie.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Cześć Basiu! Od miesiąca mieszkamy w nowym mieszkaniu. Jest {1} od starego i dużo {2}, bo ma {3} okien. Niestety jest też {4}, ale czynsz jest {5}, niż się baliśmy. Do pracy mam teraz {6}, ale autobus jeździ {7}. Dzieci mówią, że to {8} mieszkanie, w jakim mieszkały. Ich nowa szkoła jest {9} od poprzedniej, ale nauczyciele są {10}. Sąsiedzi też są {11} od poprzednich. Czujemy się tu coraz {12}. Ściskam, Ewa",
+   "items": [
+    {
+     "q": "duży",
+     "a": [
+      "większe"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "jasny",
+     "a": [
+      "jaśniejsze"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "dużo",
+     "a": [
+      "więcej"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "drogi",
+     "a": [
+      "droższe"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "niski",
+     "a": [
+      "niższy"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "daleko",
+     "a": [
+      "dalej"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "szybko",
+     "a": [
+      "szybciej"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "dobry",
+     "a": [
+      "najlepsze"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "mały",
+     "a": [
+      "mniejsza"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "miły",
+     "a": [
+      "milsi"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "spokojny",
+     "a": [
+      "spokojniejsi",
+      "bardziej spokojni"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "dobrze",
+     "a": [
+      "lepiej"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "instr": "Перестройте предложение, сохранив смысл. Впишите одно слово.",
+   "format": "exam",
+   "level": 3,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Marek jest wyższy niż Piotr. → Piotr jest ___ niż Marek.",
+     "a": [
+      "niższy"
+     ],
+     "expl": "Противоположное прилагательное в сравнительной степени: wysoki ↔ niski, stary ↔ młody, tani ↔ drogi.",
+     "t": "t3"
+    },
+    {
+     "q": "Anna jest starsza od Ewy. → Ewa jest ___ od Anny.",
+     "a": [
+      "młodsza"
+     ],
+     "expl": "Противоположное прилагательное в сравнительной степени: wysoki ↔ niski, stary ↔ młody, tani ↔ drogi.",
+     "t": "t3"
+    },
+    {
+     "q": "Nikt w klasie nie pisze lepiej niż Kasia. → Kasia pisze ___ w klasie.",
+     "a": [
+      "najlepiej"
+     ],
+     "expl": "Никто не пишет лучше = пишет лучше всех: najlepiej.",
+     "t": "t9"
+    },
+    {
+     "q": "Pociąg jedzie dwie godziny, a autobus trzy. → Pociąg jedzie ___ niż autobus.",
+     "a": [
+      "krócej",
+      "szybciej"
+     ],
+     "expl": "Простая сравнительная степень: одна согласная перед -y/-i → -szy (stary → starszy, młody → młodszy, nowy → nowszy); две…",
+     "t": "t1"
+    },
+    {
+     "q": "Ten hotel jest tańszy od tamtego. → Tamten hotel jest ___ od tego.",
+     "a": [
+      "droższy"
+     ],
+     "expl": "Противоположное прилагательное в сравнительной степени: wysoki ↔ niski, stary ↔ młody, tani ↔ drogi.",
+     "t": "t3"
+    },
+    {
+     "q": "Żadna rzeka w Polsce nie jest dłuższa od Wisły. → Wisła jest ___ rzeką w Polsce.",
+     "a": [
+      "najdłuższą"
+     ],
+     "expl": "Wisła jest + narzędnik: najdłuższą rzeką.",
+     "t": "t9"
+    },
+    {
+     "q": "Z roku na rok mam więcej pracy. → Mam ___ więcej pracy.",
+     "a": [
+      "coraz"
+     ],
+     "expl": "coraz + сравнительная степень: coraz więcej.",
+     "t": "t10"
+    },
+    {
+     "q": "Ten serial jest mniej ciekawy niż powieść. → Powieść jest ___ niż serial.",
+     "a": [
+      "ciekawsza",
+      "bardziej ciekawa"
+     ],
+     "expl": "ciekawy → ciekawszy (ciekawsza).",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Город или деревня?",
+   "instr": "Napisz tekst na forum (80–100 słów): gdzie lepiej mieszkać — w dużym mieście czy na wsi? Porównaj ceny, transport, pracę, spokój i przyrodę. Napisz, co wybierasz i dlaczego.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 5 форм сравнительной степени, одна неправильная, сравнение с niż и с od, одна превосходная, coraz или im… tym.",
+   "model": "Gdzie lepiej mieszkać?\nMieszkałam w dużym mieście i na wsi, więc mogę porównać. W mieście życie jest droższe, mieszkania są mniejsze, a czynsz jest wyższy niż na wsi. Za to transport jest dużo lepszy: autobusy jeżdżą częściej i szybciej dojeżdżam do pracy. Na wsi jest spokojniej i ciszej, a powietrze jest czystsze. Przyroda jest piękniejsza od miejskich parków. Największym problemem na wsi jest praca, bo ofert jest coraz mniej. Im dłużej mieszkam w mieście, tym bardziej tęsknię za spokojem. Mimo to na razie wybieram miasto, bo tu mam pracę.",
+   "model_future": [
+    "droższe",
+    "mniejsze",
+    "wyższy niż",
+    "lepszy",
+    "częściej",
+    "czystsze",
+    "piękniejsza od",
+    "największym",
+    "coraz mniej",
+    "im dłużej",
+    "tym bardziej"
+   ],
+   "checklist": [
+    "не меньше 5 форм сравнительной степени",
+    "хотя бы 1 неправильная (lepszy, więcej, gorzej)",
+    "хотя бы 1 сравнение с niż и 1 с od",
+    "1 превосходная степень",
+    "coraz или im…tym",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Какой отель выбрать",
+   "instr": "Napisz e-mail do znajomych (80–100 słów), którzy jadą do Krakowa. Porównaj dwa hotele (cena, odległość od centrum, pokoje, obsługa, śniadania) i poleć jeden z nich.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Не меньше 4 сравнений, одна описательная форма (bardziej / mniej), одна мужско-личная (milsi), одна превосходная с z / w.",
+   "model": "Cześć!\nSzukałam dla Was hotelu w Krakowie i porównałam dwa. Hotel „Wawel” jest tańszy od hotelu „Rynek” o sto złotych za noc, ale jest dalej od centrum. Do Rynku idzie się stamtąd dwadzieścia minut. Pokoje w „Rynku” są większe i bardziej nowoczesne, a łóżka są wygodniejsze. Pracownicy w „Rynku” są też milsi i lepiej mówią po angielsku. Śniadania w obu hotelach są dobre, ale w „Rynku” wybór jest większy. Według opinii to jeden z najlepszych hoteli w mieście. Dlatego polecam Wam „Rynek” — jest droższy, ale warto!\nBuziaki,\nIrena",
+   "model_future": [
+    "tańszy od",
+    "dalej",
+    "większe",
+    "bardziej nowoczesne",
+    "wygodniejsze",
+    "milsi",
+    "lepiej",
+    "jeden z najlepszych",
+    "droższy"
+   ],
+   "checklist": [
+    "не меньше 4 сравнений",
+    "1 описательная форма (bardziej / mniej …)",
+    "1 мужско-личная форма (pracownicy są milsi)",
+    "1 превосходная с z / w",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  }
+ ]
+}

@@ -1,0 +1,1089 @@
+{
+ "id": "mowa-zalezna",
+ "num": 13,
+ "title": "Mowa zależna: косвенная речь",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "strona-bierna",
+ "next": "stopniowanie",
+ "summary": "Как пересказать чужие слова: że, czy, вопросительные слова, żeby; время не сдвигается; меняются лицо и местоимения; падежи после powiedzieć / zapytać / poprosić.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Что такое mowa zależna",
+   "facts": [
+    "R1"
+   ],
+   "body": "Mowa niezależna — цитата: *Ewa powiedziała: „Jestem zmęczona”.* Mowa zależna — пересказ: *Ewa powiedziała, że jest zmęczona.* Связка зависит от типа фразы:",
+   "table": {
+    "head": [
+     "Исходная фраза",
+     "Связка",
+     "Пересказ"
+    ],
+    "rows": [
+     [
+      "утверждение: «Jestem zmęczona.»",
+      "że",
+      "Powiedziała, że jest zmęczona."
+     ],
+     [
+      "вопрос да/нет: «Masz czas?»",
+      "czy",
+      "Zapytała, czy mam czas."
+     ],
+     [
+      "вопрос со словом: «Gdzie mieszkasz?»",
+      "gdzie, kiedy, co…",
+      "Zapytała, gdzie mieszkam."
+     ],
+     [
+      "просьба/приказ: «Zadzwoń!»",
+      "żeby + окончание",
+      "Poprosiła, żebym zadzwonił."
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": "Время не сдвигается",
+   "facts": [
+    "R2"
+   ],
+   "body": "В отличие от английского, время остаётся тем же, что в исходной фразе — как и в русском («он сказал, что болеет»).",
+   "examples": [
+    [
+     "Jan (wczoraj): „Jestem chory.” → Jan powiedział, że jest chory.",
+     "Ян сказал, что болеет."
+    ],
+    [
+     "Ola: „Kiedy wyjeżdżasz?” → Ola zapytała mnie, kiedy wyjeżdżam.",
+     "Ола спросила, когда я уезжаю."
+    ]
+   ],
+   "note": "Ошибка по образцу английского: *Jan powiedział, że był chory* (так можно, только если он сказал «Byłem chory»)."
+  },
+  {
+   "id": "s3",
+   "title": "Меняются лицо и местоимения",
+   "facts": [
+    "R3",
+    "R10"
+   ],
+   "body": "Пересказываем со своей точки зрения: кто «я», кто «ты».",
+   "table": {
+    "head": [
+     "Сказали",
+     "Пересказ"
+    ],
+    "rows": [
+     [
+      "Ewa do mnie: „Widziałam cię w kinie.”",
+      "Ewa powiedziała, że widziała mnie w kinie."
+     ],
+     [
+      "Marek: „Mój brat jest lekarzem.”",
+      "Marek powiedział, że jego brat jest lekarzem."
+     ],
+     [
+      "Kasjerka do mnie: „Ma pani monetę?”",
+      "Kasjerka zapytała, czy mam monetę."
+     ]
+    ]
+   },
+   "note": "Слова времени и места (jutro, tu) тоже пересчитываются, если пересказ идёт в другой день или в другом месте: tu → tam, jutro → następnego dnia (правило из одного источника)."
+  },
+  {
+   "id": "s4",
+   "title": "Вопросы: czy и вопросительные слова",
+   "facts": [
+    "R4",
+    "R5"
+   ],
+   "body": "Вопрос «да/нет» — всегда с **czy** (его нельзя опустить). Вопрос со словом — это слово остаётся, порядок слов обычный.",
+   "examples": [
+    [
+     "„Napisałeś wypracowanie?” → Spytał mnie, czy napisałem wypracowanie.",
+     "Спросил, написал ли я сочинение."
+    ],
+    [
+     "„Gdzie mieszkasz?” → Spytała, gdzie mieszkam.",
+     "Спросила, где я живу."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "Просьбы и приказы: żeby",
+   "facts": [
+    "R6"
+   ],
+   "body": "Повелительное наклонение → **żeby + окончание + форма на -ł** (тема 11). В официальной речи — aby.",
+   "examples": [
+    [
+     "„Posprzątaj pokój!” → Mama powiedziała mi, żebym posprzątała pokój.",
+     "Мама сказала, чтобы я убрала комнату."
+    ],
+    [
+     "„Proszę nie palić.” → Lekarz powiedział, żeby nie palił.",
+     "Врач сказал ему не курить."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "Глаголы речи и их падежи",
+   "facts": [
+    "R9"
+   ],
+   "table": {
+    "head": [
+     "Глагол",
+     "Падеж лица",
+     "Пример"
+    ],
+    "rows": [
+     [
+      "powiedzieć / mówić",
+      "komu? — celownik",
+      "Powiedział nam, że…"
+     ],
+     [
+      "zapytać / spytać",
+      "kogo? — biernik",
+      "Zapytała mnie, czy…"
+     ],
+     [
+      "poprosić / prosić",
+      "kogo? — biernik",
+      "Poprosiła mnie, żebym…"
+     ]
+    ]
+   },
+   "note": "Как в русском: «спросил меня», «попросил меня», но «сказал мне»."
+  },
+  {
+   "id": "s7",
+   "title": "Пунктуация и что пропадает",
+   "facts": [
+    "R7",
+    "R8"
+   ],
+   "body": "Кавычки, двоеточие и тире исчезают; перед связкой — **запятая**. Восклицания и междометия (*Ojej! No wiesz!*) при пересказе опускаются."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Какая связка?",
+   "kind": "gaps",
+   "instr": "Впишите że, czy, żeby (с окончанием) или вопросительное слово.",
+   "facts": [
+    "R1",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "Ewa: «Jestem zmęczona.» → Ewa powiedziała, {1} jest zmęczona.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Marek do mnie: «Pójdziesz ze mną do kina?» → Marek zapytał mnie, {1} pójdę z nim do kina.",
+     "a": [
+      [
+       "czy"
+      ]
+     ]
+    },
+    {
+     "q": "Mama do mnie: «Wynieś śmieci!» → Mama poprosiła mnie, {1} wyniosła śmieci.",
+     "a": [
+      [
+       "żebym",
+       "abym"
+      ]
+     ]
+    },
+    {
+     "q": "Turysta: «Gdzie jest dworzec?» → Turysta zapytał, {1} jest dworzec.",
+     "a": [
+      [
+       "gdzie"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do nas: «Kiedy skończycie raport?» → Szef zapytał, {1} skończymy raport.",
+     "a": [
+      [
+       "kiedy"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz do pacjenta: «Proszę dużo pić.» → Lekarz powiedział pacjentowi, {1} dużo pił.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    },
+    {
+     "q": "Ania do mnie: «Masz czas?» → Ania zapytała, {1} mam czas.",
+     "a": [
+      [
+       "czy"
+      ]
+     ]
+    },
+    {
+     "q": "Piotr: «Wrócę o szóstej.» → Piotr powiedział, {1} wróci o szóstej.",
+     "a": [
+      [
+       "że"
+      ]
+     ]
+    },
+    {
+     "q": "Sąsiad do mnie: «Dlaczego nie odpowiadasz?» → Sąsiad zapytał, {1} nie odpowiadam.",
+     "a": [
+      [
+       "dlaczego",
+       "czemu"
+      ]
+     ]
+    },
+    {
+     "q": "Nauczycielka do nas: «Otwórzcie okna!» → Nauczycielka powiedziała, {1} otworzyli okna.",
+     "a": [
+      [
+       "żebyśmy",
+       "abyśmy"
+      ]
+     ]
+    },
+    {
+     "q": "Kasjerka do mnie: «Ma pani monetę?» → Kasjerka zapytała, {1} mam monetę.",
+     "a": [
+      [
+       "czy"
+      ]
+     ]
+    },
+    {
+     "q": "Kolega do mnie: «Co robisz w sobotę?» → Kolega zapytał, {1} robię w sobotę.",
+     "a": [
+      [
+       "co"
+      ]
+     ]
+    },
+    {
+     "q": "Babcia: «Ile kosztuje chleb?» → Babcia zapytała, {1} kosztuje chleb.",
+     "a": [
+      [
+       "ile"
+      ]
+     ]
+    },
+    {
+     "q": "Ola do Kuby: «Zadzwoń do mnie!» → Ola poprosiła Kubę, {1} do niej zadzwonił.",
+     "a": [
+      [
+       "żeby",
+       "aby"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Утверждения: że",
+   "kind": "gaps",
+   "instr": "Перескажите: впишите глагол или местоимение в нужной форме (время не меняется!).",
+   "facts": [
+    "R2",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Anna: «Mieszkam w Gdańsku.» → Anna powiedziała, że {1} w Gdańsku.",
+     "a": [
+      [
+       "mieszka"
+      ]
+     ]
+    },
+    {
+     "q": "Marek: «Jestem głodny.» → Marek powiedział, że {1} głodny.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    },
+    {
+     "q": "Ty do mnie: «Lubię jazz.» → Powiedziałeś mi, że {1} jazz.",
+     "a": [
+      [
+       "lubisz"
+      ]
+     ]
+    },
+    {
+     "q": "Rodzice: «Przyjedziemy w niedzielę.» → Rodzice napisali, że {1} w niedzielę.",
+     "a": [
+      [
+       "przyjadą"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do Ewy: «Nie mam czasu.» → Powiedziałem Ewie, że nie {1} czasu.",
+     "a": [
+      [
+       "mam"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa do mnie: «Widziałam cię wczoraj w kinie.» → Ewa powiedziała, że {1} mnie wczoraj w kinie.",
+     "a": [
+      [
+       "widziała"
+      ]
+     ]
+    },
+    {
+     "q": "Koledzy do nas: «Pomożemy wam.» → Koledzy obiecali, że nam {1}.",
+     "a": [
+      [
+       "pomogą"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do mnie: «Pan dostanie podwyżkę.» → Szef powiedział, że {1} podwyżkę.",
+     "a": [
+      [
+       "dostanę"
+      ]
+     ]
+    },
+    {
+     "q": "Kasia: «Mój brat pracuje w banku.» → Kasia powiedziała, że {1} brat pracuje w banku.",
+     "a": [
+      [
+       "jej"
+      ]
+     ]
+    },
+    {
+     "q": "Ty do mnie: «Byłam chora.» → Powiedziałaś mi, że {1} chora.",
+     "a": [
+      [
+       "byłaś"
+      ]
+     ]
+    },
+    {
+     "q": "Pan Nowak: «Moje dzieci chodzą do szkoły.» → Pan Nowak powiedział, że {1} dzieci chodzą do szkoły.",
+     "a": [
+      [
+       "jego"
+      ]
+     ]
+    },
+    {
+     "q": "Jan (wczoraj): «Jestem chory.» → Jan powiedział wczoraj, że {1} chory.",
+     "a": [
+      [
+       "jest"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Вопросы «да/нет»: czy",
+   "kind": "gaps",
+   "instr": "Перескажите вопрос: напечатайте czy + глагол в нужном лице.",
+   "facts": [
+    "R4",
+    "R3",
+    "R2"
+   ],
+   "items": [
+    {
+     "q": "Ania do mnie: «Masz samochód?» → Ania zapytała mnie, {1} samochód.",
+     "a": [
+      [
+       "czy mam"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do Ani: «Znasz Marka?» → Zapytałem Anię, {1} Marka.",
+     "a": [
+      [
+       "czy zna"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do nas: «Skończyliście?» → Szef zapytał nas, {1}.",
+     "a": [
+      [
+       "czy skończyliśmy",
+       "czy skończyłyśmy"
+      ]
+     ]
+    },
+    {
+     "q": "Kelner do nas: «Zamawiają państwo deser?» → Kelner zapytał, {1} deser.",
+     "a": [
+      [
+       "czy zamawiamy"
+      ]
+     ]
+    },
+    {
+     "q": "Mama do mnie: «Zjadłaś obiad?» → Mama zapytała mnie, {1} obiad.",
+     "a": [
+      [
+       "czy zjadłam"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do mamy: «Będziesz w domu wieczorem?» → Zapytałam mamę, {1} w domu wieczorem.",
+     "a": [
+      [
+       "czy będzie"
+      ]
+     ]
+    },
+    {
+     "q": "Kolega do mnie: «Pójdziesz z nami?» → Kolega zapytał mnie, {1} z nimi.",
+     "a": [
+      [
+       "czy pójdę"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz do pacjentki: «Boli panią głowa?» → Lekarz zapytał pacjentkę, {1} ją głowa.",
+     "a": [
+      [
+       "czy boli"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa do Piotra: «Kupiłeś bilety?» → Ewa zapytała Piotra, {1} bilety.",
+     "a": [
+      [
+       "czy kupił"
+      ]
+     ]
+    },
+    {
+     "q": "Turyści do mnie: «Mówi pan po angielsku?» → Turyści zapytali mnie, {1} po angielsku.",
+     "a": [
+      [
+       "czy mówię"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do was: «Widzieliście ten film?» → Zapytałem was, {1} ten film.",
+     "a": [
+      [
+       "czy widzieliście",
+       "czy widziałyście"
+      ]
+     ]
+    },
+    {
+     "q": "Babcia do nas: «Przyjedziecie na święta?» → Babcia zapytała nas, {1} na święta.",
+     "a": [
+      [
+       "czy przyjedziemy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Вопросы с вопросительным словом",
+   "kind": "gaps",
+   "instr": "Перескажите вопрос: напечатайте вопросительное слово + глагол (обычный порядок слов).",
+   "facts": [
+    "R5",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Turysta do mnie: «Gdzie jest muzeum?» → Turysta zapytał mnie, {1} muzeum.",
+     "a": [
+      [
+       "gdzie jest"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do Ewy: «Kiedy wracasz?» → Zapytałem Ewę, {1}.",
+     "a": [
+      [
+       "kiedy wraca"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do mnie: «Dlaczego się pan spóźnił?» → Szef zapytał mnie, {1}.",
+     "a": [
+      [
+       "dlaczego się spóźniłem",
+       "czemu się spóźniłem"
+      ]
+     ]
+    },
+    {
+     "q": "Mama do nas: «Co chcecie na obiad?» → Mama zapytała nas, {1} na obiad.",
+     "a": [
+      [
+       "co chcemy"
+      ]
+     ]
+    },
+    {
+     "q": "Kolega do mnie: «Ile płacisz za mieszkanie?» → Kolega zapytał mnie, {1} za mieszkanie.",
+     "a": [
+      [
+       "ile płacę"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do kelnera: «Ile kosztuje kawa?» → Zapytałam kelnera, {1} kawa.",
+     "a": [
+      [
+       "ile kosztuje"
+      ]
+     ]
+    },
+    {
+     "q": "Urzędniczka do mnie: «Jak się pani nazywa?» → Urzędniczka zapytała mnie, {1}.",
+     "a": [
+      [
+       "jak się nazywam"
+      ]
+     ]
+    },
+    {
+     "q": "Dziecko do mamy: «Gdzie jest tata?» → Dziecko zapytało mamę, {1} tata.",
+     "a": [
+      [
+       "gdzie jest"
+      ]
+     ]
+    },
+    {
+     "q": "Sąsiadka do nas: «Kiedy się przeprowadzacie?» → Sąsiadka zapytała nas, {1}.",
+     "a": [
+      [
+       "kiedy się przeprowadzamy"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do lekarza: «Jak długo mam brać leki?» → Zapytałem lekarza, {1} brać leki.",
+     "a": [
+      [
+       "jak długo mam"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Просьбы и приказы: żeby",
+   "kind": "gaps",
+   "instr": "Перескажите: напечатайте żeby (+ окончание) и глагол в форме на -ł.",
+   "facts": [
+    "R6",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Mama do mnie (я — ж.): «Posprzątaj pokój!» → Mama powiedziała mi, {1} pokój.",
+     "a": [
+      [
+       "żebym posprzątała",
+       "abym posprzątała"
+      ]
+     ]
+    },
+    {
+     "q": "Nauczyciel do uczniów: «Przeczytajcie tekst!» → Nauczyciel powiedział uczniom, {1} tekst.",
+     "a": [
+      [
+       "żeby przeczytali",
+       "aby przeczytali"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do mnie (я — м.): «Proszę zadzwonić do klienta.» → Szef poprosił mnie, {1} do klienta.",
+     "a": [
+      [
+       "żebym zadzwonił",
+       "abym zadzwonił"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do ciebie (ты — м.): «Nie spóźnij się!» → Prosiłam cię, {1}.",
+     "a": [
+      [
+       "żebyś się nie spóźnił",
+       "abyś się nie spóźnił"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz do pacjentki: «Proszę nie pić kawy.» → Lekarz powiedział pacjentce, {1} kawy.",
+     "a": [
+      [
+       "żeby nie piła",
+       "aby nie piła"
+      ]
+     ]
+    },
+    {
+     "q": "Rodzice do nas: «Wróćcie przed północą!» → Rodzice poprosili nas, {1} przed północą.",
+     "a": [
+      [
+       "żebyśmy wrócili",
+       "abyśmy wrócili",
+       "żebyśmy wróciły",
+       "abyśmy wróciły"
+      ]
+     ]
+    },
+    {
+     "q": "Policjant do kierowcy: «Proszę zwolnić.» → Policjant powiedział kierowcy, {1}.",
+     "a": [
+      [
+       "żeby zwolnił",
+       "aby zwolnił"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa do Marka: «Kup mleko!» → Ewa poprosiła Marka, {1} mleko.",
+     "a": [
+      [
+       "żeby kupił",
+       "aby kupił"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do was: «Nie róbcie hałasu!» → Poprosiłem was, {1} hałasu.",
+     "a": [
+      [
+       "żebyście nie robili",
+       "abyście nie robili",
+       "żebyście nie robiły",
+       "abyście nie robiły"
+      ]
+     ]
+    },
+    {
+     "q": "Babcia do mnie (я — ж.): «Ubierz się ciepło!» → Babcia powiedziała mi, {1} ciepło.",
+     "a": [
+      [
+       "żebym się ubrała",
+       "abym się ubrała",
+       "żebym ubrała się",
+       "abym ubrała się"
+      ]
+     ]
+    },
+    {
+     "q": "Trener do zawodników: «Biegajcie codziennie!» → Trener powiedział zawodnikom, {1} codziennie.",
+     "a": [
+      [
+       "żeby biegali",
+       "aby biegali"
+      ]
+     ]
+    },
+    {
+     "q": "Koleżanka do mnie (я — м.): «Pomóż mi z przeprowadzką!» → Koleżanka poprosiła mnie, {1} z przeprowadzką.",
+     "a": [
+      [
+       "żebym jej pomógł",
+       "abym jej pomógł",
+       "żebym pomógł jej",
+       "abym pomógł jej"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Местоимения и падежи",
+   "kind": "gaps",
+   "instr": "Впишите местоимение/слово в нужной форме.",
+   "facts": [
+    "R9",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "Ewa zapytała {1} (ja), czy mam czas.",
+     "a": [
+      [
+       "mnie"
+      ]
+     ]
+    },
+    {
+     "q": "Szef powiedział {1} (my), że jutro nie pracujemy.",
+     "a": [
+      [
+       "nam"
+      ]
+     ]
+    },
+    {
+     "q": "Zapytałem {1} (ona), czy przyjdzie.",
+     "a": [
+      [
+       "ją"
+      ]
+     ]
+    },
+    {
+     "q": "Powiedz {1} (on), że czekam.",
+     "a": [
+      [
+       "mu",
+       "jemu"
+      ]
+     ]
+    },
+    {
+     "q": "Anna: «Mój pies jest chory.» → Anna powiedziała, że {1} pies jest chory.",
+     "a": [
+      [
+       "jej"
+      ]
+     ]
+    },
+    {
+     "q": "Marek do mnie: «Twój samochód stoi na moim miejscu.» → Marek powiedział, że {1} samochód stoi na {2} miejscu.",
+     "a": [
+      [
+       "mój"
+      ],
+      [
+       "jego"
+      ]
+     ]
+    },
+    {
+     "q": "Ja do Ewy: «Czy mogę wziąć twój rower?» → Zapytałem Ewę, czy mogę wziąć {1} rower.",
+     "a": [
+      [
+       "jej"
+      ]
+     ]
+    },
+    {
+     "q": "Mama zapytała {1} (wy), co chcecie na obiad.",
+     "a": [
+      [
+       "was"
+      ]
+     ]
+    },
+    {
+     "q": "Zapytaliśmy {1} (pani Nowak), gdzie mieszka.",
+     "a": [
+      [
+       "panią Nowak"
+      ]
+     ]
+    },
+    {
+     "q": "Napisz {1} (rodzice), że wszystko w porządku.",
+     "a": [
+      [
+       "rodzicom"
+      ]
+     ]
+    },
+    {
+     "q": "Poprosiłam {1} (sąsiad), żeby podlał kwiaty.",
+     "a": [
+      [
+       "sąsiada"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: записка",
+   "kind": "gaps",
+   "instr": "Odebrałaś telefon do współlokatorki Kasi. Uzupełnij wiadomość dla niej: wpisz że / czy / żeby (z końcówką) / zaimek pytający i czasownik w odpowiedniej formie. W nawiasie — co powiedziała pani Kowalska z biura podróży.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "(«Bilety pani Kasi są już gotowe.») Kasiu, dzwoniła pani Kowalska. Powiedziała, {1} Twoje bilety do Rzymu {2} już gotowe.",
+     "a": [
+      [
+       "że"
+      ],
+      [
+       "są"
+      ]
+     ]
+    },
+    {
+     "q": "(«Czy może pani odebrać je w piątek?») Zapytała, {1} {2} je odebrać w piątek.",
+     "a": [
+      [
+       "czy"
+      ],
+      [
+       "możesz"
+      ]
+     ]
+    },
+    {
+     "q": "(«Proszę do mnie zadzwonić przed południem.») Prosiła, {1} do niej {2} przed południem.",
+     "a": [
+      [
+       "żebyś",
+       "abyś"
+      ],
+      [
+       "zadzwoniła"
+      ]
+     ]
+    },
+    {
+     "q": "(«Kiedy pani wraca z Rzymu?») Zapytała też, {1} {2} z Rzymu.",
+     "a": [
+      [
+       "kiedy"
+      ],
+      [
+       "wracasz"
+      ]
+     ]
+    },
+    {
+     "q": "(«Hotel ma bardzo dobre opinie.») Powiedziała, {1} hotel {2} bardzo dobre opinie.",
+     "a": [
+      [
+       "że"
+      ],
+      [
+       "ma"
+      ]
+     ]
+    },
+    {
+     "q": "(«Niech pani nie zapomni paszportu!») Prosiła, {1} nie {2} paszportu.",
+     "a": [
+      [
+       "żebyś",
+       "abyś"
+      ],
+      [
+       "zapomniała"
+      ]
+     ]
+    },
+    {
+     "q": "(«Będę w biurze do osiemnastej.») Dodała, {1} {2} w biurze do osiemnastej.",
+     "a": [
+      [
+       "że"
+      ],
+      [
+       "będzie"
+      ]
+     ]
+    },
+    {
+     "q": "(«Czy chce pani ubezpieczenie?») Zapytała jeszcze, {1} {2} ubezpieczenie. Ola",
+     "a": [
+      [
+       "czy"
+      ],
+      [
+       "chcesz"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перескажите фразу, начиная с данного начала. Напечатайте продолжение.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "Marek: «Jutro jadę do Krakowa.» → Marek powiedział, {1}.",
+     "a": [
+      [
+       "że jutro jedzie do Krakowa",
+       "że jedzie jutro do Krakowa"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa do mnie: «Czy lubisz pływać?» → Ewa zapytała mnie, {1}.",
+     "a": [
+      [
+       "czy lubię pływać"
+      ]
+     ]
+    },
+    {
+     "q": "Szef do nas: «Przyjdźcie jutro o ósmej!» → Szef powiedział nam, {1}.",
+     "a": [
+      [
+       "żebyśmy przyszli jutro o ósmej",
+       "abyśmy przyszli jutro o ósmej",
+       "żebyśmy jutro przyszli o ósmej",
+       "abyśmy jutro przyszli o ósmej"
+      ]
+     ]
+    },
+    {
+     "q": "Turystka do mnie: «Gdzie mogę kupić bilet?» → Turystka zapytała mnie, {1}.",
+     "a": [
+      [
+       "gdzie może kupić bilet"
+      ]
+     ]
+    },
+    {
+     "q": "Mama do mnie (я — ж.): «Nie wracaj późno!» → Mama poprosiła mnie, {1}.",
+     "a": [
+      [
+       "żebym nie wracała późno",
+       "abym nie wracała późno"
+      ]
+     ]
+    },
+    {
+     "q": "Anna do Piotra: «Kiedy się spotkamy?» → Anna zapytała Piotra, {1}.",
+     "a": [
+      [
+       "kiedy się spotkają"
+      ]
+     ]
+    },
+    {
+     "q": "Kolega do mnie: «Pożyczysz mi samochód?» → Kolega zapytał mnie, {1}.",
+     "a": [
+      [
+       "czy pożyczę mu samochód",
+       "czy mu pożyczę samochód"
+      ]
+     ]
+    },
+    {
+     "q": "Lekarz: «Pacjent musi zostać w szpitalu.» → Lekarz powiedział, {1}.",
+     "a": [
+      [
+       "że pacjent musi zostać w szpitalu"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Пересказ разговора (письмо другу)",
+   "facts": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "instr": "Napisz e-mail do przyjaciela (80–100 słów). Wczoraj rozmawiałeś/rozmawiałaś z nowym sąsiadem. Opowiedz: co sąsiad powiedział o sobie, o co Cię zapytał, o co Cię poprosił i co mu odpowiedziałeś/odpowiedziałaś.",
+   "checklist": [
+    "не меньше 2 утверждений с że",
+    "1 вопрос с czy и 1 — с вопросительным словом",
+    "1 просьба с żeby",
+    "время в пересказе не сдвинуто",
+    "без кавычек"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Сообщение коллеге о звонке клиента",
+   "facts": [
+    "R1",
+    "R6",
+    "R9"
+   ],
+   "instr": "Napisz wiadomość do kolegi z pracy (50–70 słów). Dzwonił do niego klient, pan Nowak. Przekaż: kim jest i co powiedział, o co pytał, o co prosił, kiedy można do niego oddzwonić.",
+   "checklist": [
+    "Dzwonił pan Nowak. Powiedział, że…",
+    "Pytał, czy / kiedy…",
+    "Prosił, żebyś…",
+    "правильные падежи: powiedział mi, pytał mnie"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 96,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 7,
+  "facts": 10
+ }
+}

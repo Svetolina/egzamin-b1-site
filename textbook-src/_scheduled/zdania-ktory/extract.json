@@ -1,0 +1,211 @@
+{
+ "topic": "zdania-ktory",
+ "title": "Zdania z „który” — придаточные со словом который",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "DZR",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf"
+  },
+  {
+   "id": "ELR",
+   "title": "elon.io Polish grammar: «Relative Clauses with który»",
+   "url": "https://elon.io/grammar/polish/syntax/relative-clauses"
+  },
+  {
+   "id": "CLZ",
+   "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+   "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "Род и число który берёт от слова, к которому относится: przyjaciel, który…; koleżanka, która…; dziecko, które…",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«The gender of the relative pronoun is determined by its referent»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«Agreement and case»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Agreement»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "Падеж który определяется его ролью в СВОЁМ (придаточном) предложении: Lubię tego chłopca, który pracuje (подлежащее) / którego spotkałam (дополнение) / z którym byłaś (с предлогом).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«The case… is determined by its function in the relative clause»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "примеры который/którego/któremu"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Case assignment»: Firma, dla której pracuję…"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Мн. ч.: мужско-личное — którzy (ludzie, którzy…), остальные — które (książki, które…; kobiety, które…).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«Masculine-personal plural (którzy)», «Non-masculine-personal plural (które)»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "таблица форм: którzy / które"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Który склоняется как прилагательное: którego, któremu, którym, której, którą, których, którymi. В винительном мужского рода: одушевлённое — którego (mężczyzna, którego znam), неодушевлённое — który (samochód, który kupiłem).",
+   "sources": [
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Both inflect like adjectives»; примеры форм"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "примеры: którego znam; Samochód, który kupiłem"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Предлог стоит ПЕРЕД który и определяет его падеж; оставить предлог в конце нельзя: kobieta, z którą studiowałam; dom, w którym mieszkam.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«the preposition cannot be separated from the relative pronoun»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«Prepositions (no stranding)»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Prepositions»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "Придаточное с który всегда отделяется запятой (с двух сторон, если оно в середине): Mój brat, który mieszka w Krakowie, jest lekarzem.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«Relative clauses are always separated by a comma»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«Comma rule»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Commas»"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Który нельзя пропустить, как в английском: Książka, którą czytam… (не *Książka czytam).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«you can never delete a relative pronoun»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«it's impossible to omit który»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Jaki — «какой (по типу)», особенно при сравнении: To najciekawsza książka, jaką mam. Kup taki chleb, jaki kupiliśmy ostatnio.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Relative clauses»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/miscellaneous/polish-rel-cl.pdf",
+     "id": "DZR",
+     "where": "«Jaki is used mainly when comparison is involved»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«co and jaki»"
+    },
+    {
+     "title": "Clozemaster blog: «Polish Relative Pronouns „który” and „jaki” Made (Relatively) Easy»",
+     "url": "https://www.clozemaster.com/blog/polish-relative-pronouns/",
+     "id": "CLZ",
+     "where": "«Który vs. jaki»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Co — если речь о целом предложении или о to, wszystko, coś, nic: Spóźnił się na pociąg, co mnie nie zdziwiło. Wszystko, co mówisz…",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Relative Clauses with który»",
+     "url": "https://elon.io/grammar/polish/syntax/relative-clauses",
+     "id": "ELR",
+     "where": "«co and jaki»"
+    }
+   ],
+   "note": "Только один источник; дано одной строкой."
+  }
+ ]
+}

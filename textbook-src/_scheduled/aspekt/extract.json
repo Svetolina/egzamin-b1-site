@@ -1,0 +1,561 @@
+{
+ "topic": "aspekt",
+ "title": "Aspekt czasownika — вид глагола",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "AMU",
+   "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+   "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf"
+  },
+  {
+   "id": "DZA",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf"
+  },
+  {
+   "id": "DZB",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect and adverbs»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect-and-adverbs.pdf"
+  },
+  {
+   "id": "WPL",
+   "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+   "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)"
+  },
+  {
+   "id": "ZPE",
+   "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika»",
+   "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p"
+  },
+  {
+   "id": "PIN",
+   "title": "polski.info — Grammar: Verbs",
+   "url": "https://polski.info/grammar/verbs#verbs1"
+  },
+  {
+   "id": "GJ6",
+   "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), Morphology p. 4: «Conjugation, part 2»",
+   "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html"
+  },
+  {
+   "id": "GJT",
+   "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl): «Using of tenses and aspects»",
+   "url": "https://grzegorj.smallhost.pl/gram/en/czasy02.html"
+  },
+  {
+   "id": "EL1",
+   "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?»",
+   "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective"
+  },
+  {
+   "id": "EL2",
+   "title": "elon.io Polish grammar: «Aspect choosing guide»",
+   "url": "https://elon.io/grammar/polish/verbs/aspect/choosing-guide"
+  },
+  {
+   "id": "EL3",
+   "title": "elon.io Polish grammar: «Forming Aspect Pairs: Imperfectivizing Suffixes»",
+   "url": "https://elon.io/grammar/polish/verbs/aspect/pair-formation-suffixes"
+  },
+  {
+   "id": "EL4",
+   "title": "elon.io Polish grammar: «Reading Meaning into Prefixed Verbs»",
+   "url": "https://elon.io/grammar/polish/word-formation/aspect-and-prefix-meaning"
+  },
+  {
+   "id": "EL5",
+   "title": "elon.io Polish grammar: «Aspect and tense interaction»",
+   "url": "https://elon.io/grammar/polish/complex/aspect-and-tense-interaction"
+  },
+  {
+   "id": "PRE",
+   "title": "Preply blog: «Past progressive in Polish»",
+   "url": "https://preply.com/en/blog/past-progressive-polish/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "В польском у глагола два вида: несовершенный (niedokonany, ndk — вопрос «co robić?») и совершенный (dokonany, dk — «co zrobić?»). Обычно глаголы образуют видовые пары: malować – namalować.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "Teoria, «WAŻNE!» i początek części o parach"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs",
+     "url": "https://polski.info/grammar/verbs#verbs1",
+     "id": "PIN",
+     "where": "Perfective and imperfective verbs (#verbs1)"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«Kategorie gramatyczne – aspekt czasownika»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "Настоящее время есть только у ndk. Форма dk с окончаниями настоящего времени означает БУДУЩЕЕ: napiszę = «напишу».",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "раздел «Aspect and tense»: Present / Future perfective"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "раздел «Aspekt w języku polskim»: czas teraźniejszy, czas przyszły prosty"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "определения ndk/dk: «dk – formy dwóch czasów: przeszłego i przyszłego»"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs",
+     "url": "https://polski.info/grammar/verbs#verbs1",
+     "id": "PIN",
+     "where": "#verbs1, последний абзац"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Будущее ndk — сложное: będę + инфинитив или będę + форма на -ł (będę czytać / będę czytał(a)). У dk сложного будущего нет: «będę przeczytać» — ошибка, правильно przeczytam.",
+   "sources": [
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: «czasowniki dokonane nie tworzą form czasu przyszłego złożonego»"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Aspekt i tryb czasownika»",
+     "url": "https://zpe.gov.pl/a/aspekt-i-tryb-czasownika/DPyWEtI3p",
+     "id": "ZPE",
+     "where": "«czas przyszły złożony: będę kupował, będę czytać»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "«Future, imperfective: będzie + infinitive or l-form»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Прошедшее время образуется от обоих видов одинаково (суффикс -ł- + личные окончания): czytałam / przeczytałam.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "«Aspect and tense»: Past — both aspects"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: czas przeszły od obu aspektów"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Самый частый способ образовать dk — приставка без нового значения: na-, po-, prze-, z-/s-, u-, wy-, za- (pisać – napisać, czytać – przeczytać, robić – zrobić, pić – wypić, gotować – ugotować, pytać – zapytać). Какая приставка нужна, по правилу не определить — пару запоминают.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "«Tworzenie par aspektowych»: przedrostki na-, po-, prze-, s-, u-, wy-, z-, za-"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: najczęstszy przedrostek z-/ze-/s-/ś-, dalej za-, wy-, po-, u-"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs",
+     "url": "https://polski.info/grammar/verbs#verbs1",
+     "id": "PIN",
+     "where": "#verbs1: wy-, z/s-, po-, za-, u-, na-, prze-"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), Morphology p. 4: «Conjugation, part 2»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«Formation by prefixation»: brak stałej reguły"
+    },
+    {
+     "title": "elon.io Polish grammar: «Reading Meaning into Prefixed Verbs»",
+     "url": "https://elon.io/grammar/polish/word-formation/aspect-and-prefix-meaning",
+     "id": "EL4",
+     "where": "раздел 1 «Empty (purely aspectual) prefixes»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "Второй способ — смена суффикса/основы, часто с чередованием гласной: kupować – kupić, wracać – wrócić, otwierać – otworzyć, zapraszać – zaprosić, spotykać – spotkać, dawać – dać, zamykać – zamknąć, zaczynać – zacząć, polecać – polecić, zwiedzać – zwiedzić, rzucać – rzucić.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "«Tworzenie par aspektowych»: zmiana tematu (otwierać – otworzyć, zapraszać – zaprosić)"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "«Formation: suffix change»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forming Aspect Pairs: Imperfectivizing Suffixes»",
+     "url": "https://elon.io/grammar/polish/verbs/aspect/pair-formation-suffixes",
+     "id": "EL3",
+     "where": "разделы 2–3: таблица суффиксов и чередований"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Некоторые пары образованы от разных корней (супплетивные), их учат наизусть: brać – wziąć, mówić – powiedzieć, widzieć – zobaczyć, iść – pójść, oglądać – obejrzeć.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "«Tworzenie par aspektowych»: różne formy"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "«Formation: suppletive»"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: «na drodze supletywnej, np. brać – wziąć, widzieć – zobaczyć»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), Morphology p. 4: «Conjugation, part 2»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«Prefixation plus suffixation or suppletion»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?»",
+     "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective",
+     "id": "EL1",
+     "where": "раздел 6, пример oglądać – obejrzeć"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Приставка может добавить НОВОЕ значение: pisać → przepisać (переписать), zapisać (записать), podpisać (подписать), opisać (описать). Такой глагол уже dk, а свой ndk он образует суффиксом -ywać/-iwać (-ać): przepisać – przepisywać, podpisać – podpisywać, pokazać – pokazywać. Глагол на -ywać/-iwać почти всегда ndk.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Reading Meaning into Prefixed Verbs»",
+     "url": "https://elon.io/grammar/polish/word-formation/aspect-and-prefix-meaning",
+     "id": "EL4",
+     "where": "разделы 2–3 «Prefixes that add meaning», «Secondary imperfective»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forming Aspect Pairs: Imperfectivizing Suffixes»",
+     "url": "https://elon.io/grammar/polish/verbs/aspect/pair-formation-suffixes",
+     "id": "EL3",
+     "where": "раздел 1 и 4: -ywać/-iwać, przepisać → przepisywać"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: «tworzą własne odpowiedniki niedokonane na drodze sufiksacji lub alternacji rdzenia»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Есть глаголы только ndk, без пары: być, mieć, móc, musieć, wiedzieć, pracować, studiować, mieszkać, kochać, czekać, siedzieć, stać. (Двувидовые, вроде aresztować, на B1 встречаются редко.)",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "«Wyjątki»: tylko ndk; dwuaspektowe (aresztować, awansować)"
+    },
+    {
+     "title": "polski.info — Grammar: Verbs",
+     "url": "https://polski.info/grammar/verbs#verbs1",
+     "id": "PIN",
+     "where": "#verbs1: «Some verbs have no perfective form»"
+    }
+   ],
+   "note": "Список двувидовых глаголов — только в одном источнике (AMU); дан одной строкой."
+  },
+  {
+   "id": "R10",
+   "text": "ndk — процесс, длительность: długo, ciągle, całą godzinę, dwie godziny, cały dzień. Ewa całą godzinę czytała artykuł.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "таблица użycia: proces / długa czynność"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "примеры: «Ewa czytała ten artykuł całą godzinę»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect and adverbs»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect-and-adverbs.pdf",
+     "id": "DZB",
+     "where": "колонка «duration»: ciągle, długo"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "text": "ndk — повторяющееся, привычное действие: codziennie, często, zawsze, zwykle, co roku, w każdy piątek, wieczorami. Często go spotykałam.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "таблица użycia: czynność powtarzana"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect and adverbs»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect-and-adverbs.pdf",
+     "id": "DZB",
+     "where": "колонка «repetition»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?»",
+     "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective",
+     "id": "EL1",
+     "where": "раздел 4 «Repeated actions and habits»"
+    },
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl): «Using of tenses and aspects»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/czasy02.html",
+     "id": "GJT",
+     "where": "«multiple or iterative activities»"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "text": "dk — результат, завершённое однократное действие: wreszcie, nareszcie, w końcu, (jeden) raz. W końcu przeczytała ten artykuł.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "таблица użycia: rezultat; czynność jednorazowa"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "примеры: «Ewa przeczytała wczoraj ten artykuł»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect and adverbs»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect-and-adverbs.pdf",
+     "id": "DZB",
+     "where": "колонка «finality/result»: wreszcie, nareszcie"
+    }
+   ]
+  },
+  {
+   "id": "R13",
+   "text": "dk — внезапное или мгновенное действие: nagle, zaraz, natychmiast, jak tylko. Natychmiast ją kupiła.",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "таблица użycia: moment (nagle, szybko)"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect and adverbs»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect-and-adverbs.pdf",
+     "id": "DZB",
+     "where": "колонка «suddenness/immediacy»: nagle, zaraz, natychmiast, jak tylko"
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "text": "Слова времени вроде wczoraj, rano, wieczorem вид НЕ определяют: Wczoraj czytałam (процесс) / Wczoraj przeczytałam (результат).",
+   "sources": [
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "примечание под таблицей: «nie decydują o aspekcie!»"
+    },
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Aspect»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/verbs/polish-aspect.pdf",
+     "id": "DZA",
+     "where": "пары примеров с wczoraj / przedwczoraj в обоих видах"
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "text": "Фон и прерывание: длившееся действие — ndk, действие, которое его прервало, — dk. Czytałam książkę, kiedy zadzwonił telefon.",
+   "sources": [
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl): «Using of tenses and aspects»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/czasy02.html",
+     "id": "GJT",
+     "where": "«background activity interrupted…»: czytałem książkę, gdy zadzwonił telefon"
+    },
+    {
+     "title": "elon.io Polish grammar: «Aspect and tense interaction»",
+     "url": "https://elon.io/grammar/polish/complex/aspect-and-tense-interaction",
+     "id": "EL5",
+     "where": "«Imperfective + Perfective: Interruption»"
+    },
+    {
+     "title": "Preply blog: «Past progressive in Polish»",
+     "url": "https://preply.com/en/blog/past-progressive-polish/",
+     "id": "PRE",
+     "where": "«ongoing background action / completed interrupting action»"
+    }
+   ]
+  },
+  {
+   "id": "R16",
+   "text": "Цепочка завершённых действий одно за другим — все dk. Wszedł, usiadł i zaczął mówić.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Aspect and tense interaction»",
+     "url": "https://elon.io/grammar/polish/complex/aspect-and-tense-interaction",
+     "id": "EL5",
+     "where": "«Perfective + Perfective: Sequence»"
+    },
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "таблица użycia: czynność jednorazowa / rezultat (каждое звено — dk)"
+    }
+   ]
+  },
+  {
+   "id": "R17",
+   "text": "Одновременные длящиеся действия — оба ndk (kiedy, gdy, podczas gdy). Gdy on gotował, ja czytałem.",
+   "sources": [
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl): «Using of tenses and aspects»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/czasy02.html",
+     "id": "GJT",
+     "where": "«simultaneous activities»: podczas gdy"
+    },
+    {
+     "title": "elon.io Polish grammar: «Aspect and tense interaction»",
+     "url": "https://elon.io/grammar/polish/complex/aspect-and-tense-interaction",
+     "id": "EL5",
+     "where": "«Imperfective + Imperfective: Simultaneity»"
+    },
+    {
+     "title": "Preply blog: «Past progressive in Polish»",
+     "url": "https://preply.com/en/blog/past-progressive-polish/",
+     "id": "PRE",
+     "where": "«Both verbs stay imperfective…»"
+    }
+   ]
+  },
+  {
+   "id": "R18",
+   "text": "После фазовых глаголов zacząć/zaczynać, skończyć/kończyć, przestać/przestawać инфинитив только ndk: Zacząłem pisać (не *napisać).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?»",
+     "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective",
+     "id": "EL1",
+     "where": "раздел 1 «Phase verbs»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Aspect choosing guide»",
+     "url": "https://elon.io/grammar/polish/verbs/aspect/choosing-guide",
+     "id": "EL2",
+     "where": "«Phase verbs (zacząć, skończyć, przestać) take an imperfective infinitive»"
+    }
+   ],
+   "note": "Оба подтверждения — с одного сайта (elon.io); второй независимый источник пока не найден. Правило дано одной строкой с пометкой."
+  },
+  {
+   "id": "R19",
+   "text": "В повелительном наклонении: просьба сделать один раз — обычно dk (Zamknij drzwi!), запрет с nie — ndk (Nie zamykaj okna!). «Nie + dk» — предостережение от случайного действия (Nie upuść telefonu!). Подробно — в теме «Tryb rozkazujący».",
+   "sources": [
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), Morphology p. 4: «Conjugation, part 2»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "абзац об imperative: positive usually perfective, negative usually imperfective"
+    },
+    {
+     "title": "elon.io Polish grammar: «Imperfective vs Perfective: Which Verb?»",
+     "url": "https://elon.io/grammar/polish/choosing/aspect-imperfective-vs-perfective",
+     "id": "EL1",
+     "where": "раздел 2 «Negative imperative»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Aspect choosing guide»",
+     "url": "https://elon.io/grammar/polish/verbs/aspect/choosing-guide",
+     "id": "EL2",
+     "where": "«Negative imperative»"
+    }
+   ]
+  },
+  {
+   "id": "R20",
+   "text": "Глаголы движения: iść – pójść, jechać – pojechać — пары; chodzić, jeździć (многократное/ненаправленное движение) — ndk. Подробно — в отдельной теме о глаголах движения.",
+   "sources": [
+    {
+     "title": "A Grammar of the Polish Language (grzegorj.smallhost.pl), Morphology p. 4: «Conjugation, part 2»",
+     "url": "https://grzegorj.smallhost.pl/gram/en/gram06.html",
+     "id": "GJ6",
+     "where": "«aimless-motion imperfectives (nosić, chodzić)»; пары pojechać/jechać"
+    },
+    {
+     "title": "Wikipedia (pl): Aspekt (językoznawstwo)",
+     "url": "https://pl.wikipedia.org/wiki/Aspekt_(j%C4%99zykoznawstwo)",
+     "id": "WPL",
+     "where": "«Aspekt w języku polskim»: nosić, chodzić"
+    },
+    {
+     "title": "Aspekt czasownika w czasie przeszłym. Pakiet A2–B1 dla Słowian Wschodnich (WFPiK UAM, Poznań)",
+     "url": "https://wfpik.amu.edu.pl/__data/assets/pdf_file/0029/335963/Aspekt-A2-B1-dla-Slowian-Wschodnich.pdf",
+     "id": "AMU",
+     "where": "«różne formy»: iść – pójść"
+    }
+   ]
+  }
+ ]
+}

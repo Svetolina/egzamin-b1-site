@@ -1,0 +1,1269 @@
+{
+ "id": "stopniowanie",
+ "num": 14,
+ "title": "Stopniowanie: сравнительная и превосходная степень",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "mowa-zalezna",
+ "next": "swoj-siebie",
+ "summary": "Степени сравнения прилагательных и наречий: -szy/-ejszy, чередования, неправильные формы, bardziej/najbardziej, мужско-личные формы, niż или od, coraz и im…tym.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Три степени",
+   "facts": [
+    "R1"
+   ],
+   "body": "Stopień równy (stary) → wyższy (starszy) → najwyższy (najstarszy). Превосходная всегда = **naj- + сравнительная**.",
+   "table": {
+    "head": [
+     "Równy",
+     "Wyższy",
+     "Najwyższy"
+    ],
+    "rows": [
+     [
+      "stary",
+      "starszy",
+      "najstarszy"
+     ],
+     [
+      "nowy",
+      "nowszy",
+      "najnowszy"
+     ],
+     [
+      "ładny",
+      "ładniejszy",
+      "najładniejszy"
+     ],
+     [
+      "trudny",
+      "trudniejszy",
+      "najtrudniejszy"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s2",
+   "title": "-szy или -ejszy?",
+   "facts": [
+    "R1"
+   ],
+   "body": "Смотрим на согласные перед окончанием: **одна** → -szy (sta**r**y → starszy, mło**d**y → młodszy); **две** → -ejszy (nu**dn**y → nudniejszy, ła**dn**y → ładniejszy). Есть исключения: ciekawy → ciekawszy."
+  },
+  {
+   "id": "s3",
+   "title": "Чередования",
+   "facts": [
+    "R2"
+   ],
+   "table": {
+    "head": [
+     "Изменение",
+     "Примеры"
+    ],
+    "rows": [
+     [
+      "ł → l",
+      "miły → milszy, ciepły → cieplejszy, wesoły → weselszy"
+     ],
+     [
+      "n → ń",
+      "tani → tańszy"
+     ],
+     [
+      "g → ż",
+      "drogi → droższy, długi → dłuższy"
+     ],
+     [
+      "-k- выпадает",
+      "szybki → szybszy, daleki → dalszy, głęboki → głębszy"
+     ],
+     [
+      "-sk- → -ż-",
+      "niski → niższy, wysoki → wyższy, bliski → bliższy"
+     ],
+     [
+      "особые",
+      "ciężki → cięższy, lekki → lżejszy"
+     ]
+    ]
+   },
+   "note": "Такие формы лучше запоминать как слова."
+  },
+  {
+   "id": "s4",
+   "title": "Неправильные формы",
+   "facts": [
+    "R3",
+    "R10"
+   ],
+   "table": {
+    "head": [
+     "Прилагательное",
+     "Наречие"
+    ],
+    "rows": [
+     [
+      "dobry → lepszy → najlepszy",
+      "dobrze → lepiej → najlepiej"
+     ],
+     [
+      "zły → gorszy → najgorszy",
+      "źle → gorzej → najgorzej"
+     ],
+     [
+      "duży → większy → największy",
+      "dużo → więcej → najwięcej"
+     ],
+     [
+      "mały → mniejszy → najmniejszy",
+      "mało → mniej → najmniej"
+     ]
+    ]
+   },
+   "note": "После więcej / mniej — dopełniacz: więcej czasu, mniej pieniędzy."
+  },
+  {
+   "id": "s5",
+   "title": "bardziej / najbardziej",
+   "facts": [
+    "R4",
+    "R5"
+   ],
+   "body": "Для длинных слов (4+ слога), прилагательных от глаголов и причастий: *bardziej interesujący, najbardziej zmęczony*. Меньшая степень: *mniej / najmniej*. Изобретать формы вроде *zmęczeńszy* нельзя.\n\nНе сравниваются: *drewniany, polski, krakowski, martwy* (материал, происхождение; правило из одного источника)."
+  },
+  {
+   "id": "s6",
+   "title": "Мужско-личное мн. ч.: -si",
+   "facts": [
+    "R6"
+   ],
+   "body": "О мужчинах и смешанных группах: **-szy → -si**.",
+   "examples": [
+    [
+     "Moi bracia są młodsi ode mnie.",
+     "Мои братья младше меня."
+    ],
+    [
+     "Ci studenci są lepsi od tamtych.",
+     "Эти студенты лучше тех."
+    ],
+    [
+     "Zawodnicy są wyżsi od nas.",
+     "Спортсмены выше нас."
+    ]
+   ],
+   "note": "Сравните: siostry są młodsze, książki są lepsze."
+  },
+  {
+   "id": "s7",
+   "title": "Наречия: -ej",
+   "facts": [
+    "R9",
+    "R10"
+   ],
+   "table": {
+    "head": [
+     "Równy",
+     "Wyższy",
+     "Najwyższy"
+    ],
+    "rows": [
+     [
+      "szybko",
+      "szybciej",
+      "najszybciej"
+     ],
+     [
+      "wolno",
+      "wolniej",
+      "najwolniej"
+     ],
+     [
+      "tanio",
+      "taniej",
+      "najtaniej"
+     ],
+     [
+      "ciepło",
+      "cieplej",
+      "najcieplej"
+     ],
+     [
+      "drogo",
+      "drożej",
+      "najdrożej"
+     ],
+     [
+      "wysoko",
+      "wyżej",
+      "najwyżej"
+     ],
+     [
+      "daleko",
+      "dalej",
+      "najdalej"
+     ],
+     [
+      "krótko",
+      "krócej",
+      "najkrócej"
+     ],
+     [
+      "późno",
+      "później",
+      "najpóźniej"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s8",
+   "title": "niż или od?",
+   "facts": [
+    "R7"
+   ],
+   "body": "**niż** — после него тот же падеж, что у первого сравниваемого: *Ewa jest młodsza niż Marek. Lubię herbatę bardziej niż kawę.*\n**od + dopełniacz** — коротко и разговорно: *Ewa jest młodsza od Marka. Brat jest wyższy ode mnie.*\nТолько **niż**: перед придаточным (*trudniejsze, niż myślałem*), наречием (*lepiej niż wczoraj*), количеством (*dłużej niż godzinę*).",
+   "note": "Как в русском «старше Марека» — od + dopełniacz; «старше, чем Марек» — niż + mianownik."
+  },
+  {
+   "id": "s9",
+   "title": "Самый… из / в",
+   "facts": [
+    "R8"
+   ],
+   "examples": [
+    [
+     "Jest najlepszy z całej klasy.",
+     "Он лучший во всём классе (из всего класса)."
+    ],
+    [
+     "To najwyższa góra w Polsce.",
+     "Это самая высокая гора в Польше."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "coraz…; im…, tym…",
+   "facts": [
+    "R11",
+    "R12"
+   ],
+   "body": "*coraz* + сравнительная — «всё более»: *Mam coraz więcej pracy.* *im* …, *tym* … — «чем…, тем…»: *Im szybciej skończymy, tym wcześniej wyjdziemy.* (Каждое из этих правил подтверждено одним источником.)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Сравнительная степень",
+   "kind": "gaps",
+   "instr": "Напечатайте сравнительную степень (м. р. ед. ч.).",
+   "facts": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "items": [
+    {
+     "q": "stary → {1}",
+     "a": [
+      [
+       "starszy"
+      ]
+     ]
+    },
+    {
+     "q": "młody → {1}",
+     "a": [
+      [
+       "młodszy"
+      ]
+     ]
+    },
+    {
+     "q": "nowy → {1}",
+     "a": [
+      [
+       "nowszy"
+      ]
+     ]
+    },
+    {
+     "q": "ładny → {1}",
+     "a": [
+      [
+       "ładniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "trudny → {1}",
+     "a": [
+      [
+       "trudniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "ważny → {1}",
+     "a": [
+      [
+       "ważniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "ciepły → {1}",
+     "a": [
+      [
+       "cieplejszy"
+      ]
+     ]
+    },
+    {
+     "q": "miły → {1}",
+     "a": [
+      [
+       "milszy"
+      ]
+     ]
+    },
+    {
+     "q": "tani → {1}",
+     "a": [
+      [
+       "tańszy"
+      ]
+     ]
+    },
+    {
+     "q": "drogi → {1}",
+     "a": [
+      [
+       "droższy"
+      ]
+     ]
+    },
+    {
+     "q": "długi → {1}",
+     "a": [
+      [
+       "dłuższy"
+      ]
+     ]
+    },
+    {
+     "q": "wysoki → {1}",
+     "a": [
+      [
+       "wyższy"
+      ]
+     ]
+    },
+    {
+     "q": "niski → {1}",
+     "a": [
+      [
+       "niższy"
+      ]
+     ]
+    },
+    {
+     "q": "szybki → {1}",
+     "a": [
+      [
+       "szybszy"
+      ]
+     ]
+    },
+    {
+     "q": "bliski → {1}",
+     "a": [
+      [
+       "bliższy"
+      ]
+     ]
+    },
+    {
+     "q": "daleki → {1}",
+     "a": [
+      [
+       "dalszy"
+      ]
+     ]
+    },
+    {
+     "q": "dobry → {1}",
+     "a": [
+      [
+       "lepszy"
+      ]
+     ]
+    },
+    {
+     "q": "zły → {1}",
+     "a": [
+      [
+       "gorszy"
+      ]
+     ]
+    },
+    {
+     "q": "duży → {1}",
+     "a": [
+      [
+       "większy"
+      ]
+     ]
+    },
+    {
+     "q": "mały → {1}",
+     "a": [
+      [
+       "mniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "ciekawy → {1}",
+     "a": [
+      [
+       "ciekawszy"
+      ]
+     ]
+    },
+    {
+     "q": "lekki → {1}",
+     "a": [
+      [
+       "lżejszy"
+      ]
+     ]
+    },
+    {
+     "q": "ciężki → {1}",
+     "a": [
+      [
+       "cięższy"
+      ]
+     ]
+    },
+    {
+     "q": "głęboki → {1}",
+     "a": [
+      [
+       "głębszy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Превосходная степень",
+   "kind": "gaps",
+   "instr": "Поставьте прилагательное в превосходную степень в нужной форме.",
+   "facts": [
+    "R1",
+    "R3",
+    "R4",
+    "R6",
+    "R8"
+   ],
+   "items": [
+    {
+     "q": "To jest {1} (dobry) restauracja w mieście.",
+     "a": [
+      [
+       "najlepsza"
+      ]
+     ]
+    },
+    {
+     "q": "Wisła to {1} (długi) rzeka w Polsce.",
+     "a": [
+      [
+       "najdłuższa"
+      ]
+     ]
+    },
+    {
+     "q": "Rysy to {1} (wysoki) szczyt w Polsce.",
+     "a": [
+      [
+       "najwyższy"
+      ]
+     ]
+    },
+    {
+     "q": "Marek jest {1} (młody) z nas.",
+     "a": [
+      [
+       "najmłodszy"
+      ]
+     ]
+    },
+    {
+     "q": "To był {1} (zły) dzień w moim życiu.",
+     "a": [
+      [
+       "najgorszy"
+      ]
+     ]
+    },
+    {
+     "q": "Kup {1} (tani) bilet.",
+     "a": [
+      [
+       "najtańszy"
+      ]
+     ]
+    },
+    {
+     "q": "Warszawa to {1} (duży) miasto w Polsce.",
+     "a": [
+      [
+       "największe"
+      ]
+     ]
+    },
+    {
+     "q": "To {1} (ciekawy) książka, jaką czytałam.",
+     "a": [
+      [
+       "najciekawsza"
+      ]
+     ]
+    },
+    {
+     "q": "Ten film jest {1} (interesujący) ze wszystkich.",
+     "a": [
+      [
+       "najbardziej interesujący"
+      ]
+     ]
+    },
+    {
+     "q": "Ci chłopcy to {1} (mały) uczniowie w szkole.",
+     "a": [
+      [
+       "najmniejsi"
+      ]
+     ]
+    },
+    {
+     "q": "Moi {1} (dobry) przyjaciele mieszkają w Gdańsku.",
+     "a": [
+      [
+       "najlepsi"
+      ]
+     ]
+    },
+    {
+     "q": "To jest {1} (stary) kościół w mieście.",
+     "a": [
+      [
+       "najstarszy"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Сравнение в предложении",
+   "kind": "gaps",
+   "instr": "Поставьте прилагательное в сравнительную степень и согласуйте его.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "Moja siostra jest {1} (stary) ode mnie.",
+     "a": [
+      [
+       "starsza"
+      ]
+     ]
+    },
+    {
+     "q": "Moi bracia są {1} (młody) ode mnie.",
+     "a": [
+      [
+       "młodsi"
+      ]
+     ]
+    },
+    {
+     "q": "Ten pokój jest {1} (ładny) niż tamten.",
+     "a": [
+      [
+       "ładniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "Dzisiejszy dzień jest {1} (ciepły) niż wczorajszy.",
+     "a": [
+      [
+       "cieplejszy"
+      ]
+     ]
+    },
+    {
+     "q": "Nowe mieszkanie jest {1} (duży) od starego.",
+     "a": [
+      [
+       "większe"
+      ]
+     ]
+    },
+    {
+     "q": "Ci studenci są {1} (dobry) od tamtych.",
+     "a": [
+      [
+       "lepsi"
+      ]
+     ]
+    },
+    {
+     "q": "Te buty są {1} (drogi) niż tamte.",
+     "a": [
+      [
+       "droższe"
+      ]
+     ]
+    },
+    {
+     "q": "Nasi nowi sąsiedzi są {1} (miły) niż poprzedni.",
+     "a": [
+      [
+       "milsi"
+      ]
+     ]
+    },
+    {
+     "q": "Pociąg jest {1} (szybki) od autobusu.",
+     "a": [
+      [
+       "szybszy"
+      ]
+     ]
+    },
+    {
+     "q": "Ta walizka jest {1} (lekki) od mojej.",
+     "a": [
+      [
+       "lżejsza"
+      ]
+     ]
+    },
+    {
+     "q": "Ci koszykarze są {1} (wysoki) od nas.",
+     "a": [
+      [
+       "wyżsi"
+      ]
+     ]
+    },
+    {
+     "q": "To zadanie jest {1} (trudny), niż myślałem.",
+     "a": [
+      [
+       "trudniejsze"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Наречия",
+   "kind": "gaps",
+   "instr": "Поставьте наречие в сравнительную (или, где сказано, превосходную) степень.",
+   "facts": [
+    "R9",
+    "R10",
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Mów {1} (wolno), proszę.",
+     "a": [
+      [
+       "wolniej"
+      ]
+     ]
+    },
+    {
+     "q": "Pociągiem jedzie się {1} (szybko) niż autobusem.",
+     "a": [
+      [
+       "szybciej"
+      ]
+     ]
+    },
+    {
+     "q": "Dzisiaj czuję się {1} (dobrze) niż wczoraj.",
+     "a": [
+      [
+       "lepiej"
+      ]
+     ]
+    },
+    {
+     "q": "W nocy było jeszcze {1} (źle).",
+     "a": [
+      [
+       "gorzej"
+      ]
+     ]
+    },
+    {
+     "q": "Latem jest {1} (ciepło) niż zimą.",
+     "a": [
+      [
+       "cieplej"
+      ]
+     ]
+    },
+    {
+     "q": "W tym sklepie jest {1} (tanio).",
+     "a": [
+      [
+       "taniej"
+      ]
+     ]
+    },
+    {
+     "q": "W centrum mieszka się {1} (drogo).",
+     "a": [
+      [
+       "drożej"
+      ]
+     ]
+    },
+    {
+     "q": "Wróciłem {1} (późno), niż planowałem.",
+     "a": [
+      [
+       "później"
+      ]
+     ]
+    },
+    {
+     "q": "Mam {1} (dużo) pracy niż w zeszłym roku.",
+     "a": [
+      [
+       "więcej"
+      ]
+     ]
+    },
+    {
+     "q": "Jem teraz {1} (mało) słodyczy.",
+     "a": [
+      [
+       "mniej"
+      ]
+     ]
+    },
+    {
+     "q": "Kto z was biega {1} (szybko)? — превосходная",
+     "a": [
+      [
+       "najszybciej"
+      ]
+     ]
+    },
+    {
+     "q": "Która kawa smakuje ci {1} (dobrze)? — превосходная",
+     "a": [
+      [
+       "najlepiej"
+      ]
+     ]
+    },
+    {
+     "q": "Samolot leci {1} (wysoko) niż ptak.",
+     "a": [
+      [
+       "wyżej"
+      ]
+     ]
+    },
+    {
+     "q": "Mieszkam {1} (daleko) od pracy niż ty.",
+     "a": [
+      [
+       "dalej"
+      ]
+     ]
+    },
+    {
+     "q": "Coraz {1} (krótko) śpię.",
+     "a": [
+      [
+       "krócej"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "niż или od?",
+   "kind": "gaps",
+   "instr": "Впишите слово в нужной форме или niż / od.",
+   "facts": [
+    "R7"
+   ],
+   "items": [
+    {
+     "q": "Mój brat jest wyższy {1} (od + ja).",
+     "a": [
+      [
+       "ode mnie"
+      ]
+     ]
+    },
+    {
+     "q": "Anna jest starsza od {1} (Marek).",
+     "a": [
+      [
+       "Marka"
+      ]
+     ]
+    },
+    {
+     "q": "Ewa jest młodsza niż {1} (Marek).",
+     "a": [
+      [
+       "Marek"
+      ]
+     ]
+    },
+    {
+     "q": "Lubię herbatę bardziej niż {1} (kawa).",
+     "a": [
+      [
+       "kawę"
+      ]
+     ]
+    },
+    {
+     "q": "Pociąg jest szybszy od {1} (autobus).",
+     "a": [
+      [
+       "autobusu"
+      ]
+     ]
+    },
+    {
+     "q": "Kraków jest mniejszy od {1} (Warszawa).",
+     "a": [
+      [
+       "Warszawy"
+      ]
+     ]
+    },
+    {
+     "q": "Kraków jest mniejszy niż {1} (Warszawa).",
+     "a": [
+      [
+       "Warszawa"
+      ]
+     ]
+    },
+    {
+     "q": "Dzisiaj czuję się lepiej {1} wczoraj. (niż / od)",
+     "a": [
+      [
+       "niż"
+      ]
+     ]
+    },
+    {
+     "q": "To było trudniejsze, {1} myślałem. (niż / od)",
+     "a": [
+      [
+       "niż"
+      ]
+     ]
+    },
+    {
+     "q": "Czekaliśmy dłużej {1} godzinę. (niż / od)",
+     "a": [
+      [
+       "niż"
+      ]
+     ]
+    },
+    {
+     "q": "Moja córka jest wyższa od {1} (syn).",
+     "a": [
+      [
+       "syna"
+      ]
+     ]
+    },
+    {
+     "q": "Lepiej późno {1} wcale. (niż / od)",
+     "a": [
+      [
+       "niż"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Простая или описательная?",
+   "kind": "gaps",
+   "instr": "Напечатайте сравнительную степень: простую (-szy/-ejszy) или с bardziej. Где в живой речи возможны обе — засчитываются обе.",
+   "facts": [
+    "R4",
+    "R1"
+   ],
+   "items": [
+    {
+     "q": "interesujący → {1}",
+     "a": [
+      [
+       "bardziej interesujący"
+      ]
+     ]
+    },
+    {
+     "q": "zmęczony → {1}",
+     "a": [
+      [
+       "bardziej zmęczony"
+      ]
+     ]
+    },
+    {
+     "q": "romantyczny → {1}",
+     "a": [
+      [
+       "bardziej romantyczny"
+      ]
+     ]
+    },
+    {
+     "q": "ładny → {1}",
+     "a": [
+      [
+       "ładniejszy"
+      ]
+     ]
+    },
+    {
+     "q": "zadowolony → {1}",
+     "a": [
+      [
+       "bardziej zadowolony"
+      ]
+     ]
+    },
+    {
+     "q": "irytujący → {1}",
+     "a": [
+      [
+       "bardziej irytujący"
+      ]
+     ]
+    },
+    {
+     "q": "spokojny → {1}",
+     "a": [
+      [
+       "spokojniejszy",
+       "bardziej spokojny"
+      ]
+     ]
+    },
+    {
+     "q": "nowoczesny → {1}",
+     "a": [
+      [
+       "nowocześniejszy",
+       "bardziej nowoczesny"
+      ]
+     ]
+    },
+    {
+     "q": "stary → {1}",
+     "a": [
+      [
+       "starszy"
+      ]
+     ]
+    },
+    {
+     "q": "zmęczony → (меньше) {1}",
+     "a": [
+      [
+       "mniej zmęczony"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: письмо",
+   "kind": "gaps",
+   "instr": "Uzupełnij e-mail. Wpisz przymiotnik lub przysłówek w odpowiednim stopniu i formie.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R6",
+    "R9",
+    "R10",
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Cześć Basiu! Od miesiąca mieszkamy w nowym mieszkaniu. Jest {1} (duży) od starego",
+     "a": [
+      [
+       "większe"
+      ]
+     ]
+    },
+    {
+     "q": "i dużo {1} (jasny),",
+     "a": [
+      [
+       "jaśniejsze"
+      ]
+     ]
+    },
+    {
+     "q": "bo ma {1} (dużo) okien.",
+     "a": [
+      [
+       "więcej"
+      ]
+     ]
+    },
+    {
+     "q": "Niestety jest też {1} (drogi),",
+     "a": [
+      [
+       "droższe"
+      ]
+     ]
+    },
+    {
+     "q": "ale czynsz jest {1} (niski), niż się baliśmy.",
+     "a": [
+      [
+       "niższy"
+      ]
+     ]
+    },
+    {
+     "q": "Do pracy mam teraz {1} (daleko),",
+     "a": [
+      [
+       "dalej"
+      ]
+     ]
+    },
+    {
+     "q": "ale autobus jeździ {1} (szybko).",
+     "a": [
+      [
+       "szybciej"
+      ]
+     ]
+    },
+    {
+     "q": "Dzieci mówią, że to {1} (dobry) mieszkanie, w jakim mieszkały.",
+     "a": [
+      [
+       "najlepsze"
+      ]
+     ]
+    },
+    {
+     "q": "Ich nowa szkoła jest {1} (mały) od poprzedniej,",
+     "a": [
+      [
+       "mniejsza"
+      ]
+     ]
+    },
+    {
+     "q": "ale nauczyciele są {1} (miły).",
+     "a": [
+      [
+       "milsi"
+      ]
+     ]
+    },
+    {
+     "q": "Sąsiedzi też są {1} (spokojny) od poprzednich.",
+     "a": [
+      [
+       "spokojniejsi",
+       "bardziej spokojni"
+      ]
+     ]
+    },
+    {
+     "q": "Czujemy się tu coraz {1} (dobrze). Ściskam, Ewa",
+     "a": [
+      [
+       "lepiej"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте предложение, сохранив смысл. Напечатайте продолжение.",
+   "facts": [
+    "R1",
+    "R3",
+    "R7",
+    "R8",
+    "R9",
+    "R11"
+   ],
+   "items": [
+    {
+     "q": "Marek jest wyższy niż Piotr. → Piotr jest {1}.",
+     "a": [
+      [
+       "niższy niż Marek",
+       "niższy od Marka"
+      ]
+     ]
+    },
+    {
+     "q": "Anna jest starsza od Ewy. → Ewa jest {1}.",
+     "a": [
+      [
+       "młodsza od Anny",
+       "młodsza niż Anna"
+      ]
+     ]
+    },
+    {
+     "q": "Nikt w klasie nie pisze lepiej niż Kasia. → Kasia pisze {1}.",
+     "a": [
+      [
+       "najlepiej w klasie",
+       "najlepiej z całej klasy",
+       "najlepiej z klasy"
+      ]
+     ]
+    },
+    {
+     "q": "Pociąg jedzie dwie godziny, a autobus trzy. → Pociąg jedzie {1} niż autobus.",
+     "a": [
+      [
+       "krócej",
+       "szybciej"
+      ]
+     ]
+    },
+    {
+     "q": "Ten hotel jest tańszy od tamtego. → Tamten hotel jest {1}.",
+     "a": [
+      [
+       "droższy od tego",
+       "droższy niż ten"
+      ]
+     ]
+    },
+    {
+     "q": "Żadna rzeka w Polsce nie jest dłuższa od Wisły. → Wisła jest {1}.",
+     "a": [
+      [
+       "najdłuższą rzeką w Polsce",
+       "najdłuższa w Polsce"
+      ]
+     ]
+    },
+    {
+     "q": "Z roku na rok mam więcej pracy. → Mam {1} pracy.",
+     "a": [
+      [
+       "coraz więcej"
+      ]
+     ]
+    },
+    {
+     "q": "Ten film jest mniej ciekawy niż książka. → Książka jest {1} niż film.",
+     "a": [
+      [
+       "ciekawsza",
+       "bardziej ciekawa"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Город или деревня?",
+   "facts": [
+    "R1",
+    "R3",
+    "R7",
+    "R9"
+   ],
+   "instr": "Napisz tekst na forum (80–100 słów): gdzie lepiej mieszkać — w dużym mieście czy na wsi? Porównaj ceny, transport, pracę, spokój i przyrodę. Napisz, co wybierasz i dlaczego.",
+   "checklist": [
+    "не меньше 5 форм сравнительной степени",
+    "хотя бы 1 неправильная (lepszy, więcej, gorzej)",
+    "хотя бы 1 сравнение с niż и 1 с od",
+    "1 превосходная степень",
+    "coraz или im…tym"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Какой отель выбрать",
+   "facts": [
+    "R1",
+    "R4",
+    "R8",
+    "R6"
+   ],
+   "instr": "Napisz e-mail do znajomych (80–100 słów), którzy jadą do Krakowa. Porównaj dwa hotele (cena, odległość od centrum, pokoje, obsługa, śniadania) i poleć jeden z nich.",
+   "checklist": [
+    "не меньше 4 сравнений",
+    "1 описательная форма (bardziej / mniej …)",
+    "1 мужско-личная форма (pracownicy są milsi)",
+    "1 превосходная с z / w"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 105,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 10,
+  "facts": 12
+ }
+}

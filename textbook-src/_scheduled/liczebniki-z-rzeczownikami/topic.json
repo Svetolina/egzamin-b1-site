@@ -1,0 +1,889 @@
+{
+ "id": "liczebniki-z-rzeczownikami",
+ "order": 9,
+ "title": "Liczebniki z rzeczownikami",
+ "titleRu": "Числительные с существительными",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "mianownik-l-mn",
+  "dopelniacz"
+ ],
+ "next": "zdania-ktory",
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Три группы",
+   "facts": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "table": {
+    "head": [
+     "число",
+     "существительное",
+     "пример"
+    ],
+    "rows": [
+     [
+      "1",
+      "как прилагательное",
+      "jeden kot, jedna kobieta, jedno okno"
+     ],
+     [
+      "2, 3, 4 (и …2, …3, …4)",
+      "Mianownik мн. ч.",
+      "trzy koty, cztery okna, 23 stopnie"
+     ],
+     [
+      "5+ (и 11–21, …5–…1)",
+      "Dopełniacz мн. ч.",
+      "pięć kotów, siedem kobiet, 25 stopni"
+     ]
+    ]
+   },
+   "tip": "Почти как в русском (два кота — пять котов), но в польском 2–4 дают именно мн. ч. Mianownik: trzy koty."
+  },
+  {
+   "id": "t2",
+   "title": "Смотрите на последнее слово",
+   "facts": [
+    "R2",
+    "R4",
+    "R5"
+   ],
+   "table": {
+    "head": [
+     "число",
+     "последнее слово",
+     "форма"
+    ],
+    "rows": [
+     [
+      "22, 33, 104",
+      "dwa / trzy / cztery",
+      "Mianownik: dwadzieścia dwa domy"
+     ],
+     [
+      "12, 13, 14",
+      "-naście",
+      "Dopełniacz: dwanaście domów"
+     ],
+     [
+      "21, 31, 101",
+      "jeden",
+      "Dopełniacz: dwadzieścia jeden domów"
+     ],
+     [
+      "100, 300, 400",
+      "sto / trzysta / czterysta",
+      "Dopełniacz: czterysta złotych"
+     ]
+    ]
+   },
+   "warn": "*dwanaście domy* — ошибка: 12 не «кончается на 2»."
+  },
+  {
+   "id": "t3",
+   "title": "Dwa или dwie",
+   "facts": [
+    "R6"
+   ],
+   "body": "**dwa** — мужской неличный и средний: *dwa koty, dwa okna, dwa samochody*. **dwie** — женский: *dwie kobiety, dwie książki*. Trzy и cztery рода не различают."
+  },
+  {
+   "id": "t4",
+   "title": "Мужчины и смешанные группы",
+   "facts": [
+    "R7"
+   ],
+   "table": {
+    "head": [
+     "вариант",
+     "форма",
+     "пример"
+    ],
+    "rows": [
+     [
+      "основной",
+      "dwóch, trzech, czterech, pięciu… + Dopełniacz",
+      "dwóch studentów, pięciu mężczyzn, sześciu chłopców"
+     ],
+     [
+      "для 2–4",
+      "dwaj, trzej, czterej + Mianownik",
+      "dwaj studenci, trzej mężczyźni, czterej panowie"
+     ]
+    ]
+   },
+   "note": "Обе конструкции правильные; в упражнениях на согласование глагола используем основной вариант (dwóch … przyszło)."
+  },
+  {
+   "id": "t5",
+   "title": "Какой глагол",
+   "facts": [
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "подлежащее",
+     "глагол",
+     "пример"
+    ],
+    "rows": [
+     [
+      "2–4 + не мужско-личное",
+      "мн. ч.",
+      "Cztery osoby przyszły. Dwie kobiety piły kawę."
+     ],
+     [
+      "5+",
+      "ед. ч. (прош. — ср. род)",
+      "Pięć osób przyszło. Teraz pięć osób czeka."
+     ],
+     [
+      "dwóch / pięciu + мужчины",
+      "ед. ч. (прош. — ср. род)",
+      "Dwóch mężczyzn przyszło. Pięciu studentów zdało."
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t6",
+   "title": "Dzieci: dwoje, troje, czworo",
+   "facts": [
+    "R9"
+   ],
+   "body": "С *dzieci* — собирательные числительные: **dwoje, troje, czworo, pięcioro dzieci**. *Mam dwoje dzieci* (не *dwa dzieci*)."
+  },
+  {
+   "id": "t7",
+   "title": "Возраст и цены",
+   "facts": [
+    "R10"
+   ],
+   "table": {
+    "head": [
+     "",
+     "2–4",
+     "5+"
+    ],
+    "rows": [
+     [
+      "возраст",
+      "22 lata, 3 lata",
+      "25 lat, 21 lat"
+     ],
+     [
+      "цена",
+      "4 złote, 33 złote",
+      "8 złotych, 12 złotych, 400 złotych"
+     ]
+    ]
+   },
+   "sourceNote": "lat / lata — по одному источнику."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "gaps",
+   "title": "Форма существительного",
+   "instr": "Напишите существительное в нужной форме.",
+   "items": [
+    {
+     "q": "dwa {1} (kot)",
+     "a": [
+      "koty"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "pięć {1} (kot)",
+     "a": [
+      "kotów"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "trzy {1} (kobieta)",
+     "a": [
+      "kobiety"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "siedem {1} (kobieta)",
+     "a": [
+      "kobiet"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "cztery {1} (okno)",
+     "a": [
+      "okna"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "dziesięć {1} (okno)",
+     "a": [
+      "okien"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "dwie {1} (książka)",
+     "a": [
+      "książki"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "dwanaście {1} (książka)",
+     "a": [
+      "książek"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "dwadzieścia dwa {1} (dom)",
+     "a": [
+      "domy"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "dwadzieścia pięć {1} (dom)",
+     "a": [
+      "domów"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "czternaście {1} (dzień)",
+     "a": [
+      "dni"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "dwadzieścia trzy {1} (stopień)",
+     "a": [
+      "stopnie"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "sześć {1} (stopień)",
+     "a": [
+      "stopni"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "dwa {1} (miesiąc)",
+     "a": [
+      "miesiące"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "osiem {1} (miesiąc)",
+     "a": [
+      "miesięcy"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "cztery {1} (tydzień)",
+     "a": [
+      "tygodnie"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "pięć {1} (tydzień)",
+     "a": [
+      "tygodni"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "dwadzieścia jeden {1} (pies)",
+     "a": [
+      "psów"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "trzydzieści trzy {1} (krzesło)",
+     "a": [
+      "krzesła"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "sto {1} (osoba)",
+     "a": [
+      "osób"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "dwie {1} (osoba)",
+     "a": [
+      "osoby"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "czterdzieści cztery {1} (jabłko)",
+     "a": [
+      "jabłka"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "piętnaście {1} (jabłko)",
+     "a": [
+      "jabłek"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "trzynaście {1} (samochód)",
+     "a": [
+      "samochodów"
+     ],
+     "fact": "R4"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "gaps",
+   "title": "Dwa, dwie, dwaj, dwóch…",
+   "instr": "Напишите числительное в правильной форме.",
+   "items": [
+    {
+     "q": "{1} kobiety (2)",
+     "a": [
+      "dwie"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "{1} koty (2)",
+     "a": [
+      "dwa"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "{1} okna (2)",
+     "a": [
+      "dwa"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "{1} mężczyźni (2)",
+     "a": [
+      "dwaj"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} mężczyzn (2)",
+     "a": [
+      "dwóch"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} studenci (3)",
+     "a": [
+      "trzej"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} studentów (3)",
+     "a": [
+      "trzech"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} panowie (4)",
+     "a": [
+      "czterej"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} lekarzy (5, мужчины)",
+     "a": [
+      "pięciu"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "{1} lekarek (5, женщины)",
+     "a": [
+      "pięć"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "{1} siostry (2)",
+     "a": [
+      "dwie"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "{1} chłopców (6)",
+     "a": [
+      "sześciu"
+     ],
+     "fact": "R7"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Согласование глагола",
+   "instr": "Напишите форму глагола (прошедшее время, если не указано иное).",
+   "items": [
+    {
+     "q": "Pięć osób {1} na spotkanie. (przyjść)",
+     "a": [
+      "przyszło"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Cztery osoby {1} na spotkanie. (przyjść)",
+     "a": [
+      "przyszły"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwie kobiety {1} kawę. (pić)",
+     "a": [
+      "piły"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwóch mężczyzn {1} do sklepu. (wejść)",
+     "a": [
+      "weszło"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Pięciu studentów {1} egzamin. (zdać)",
+     "a": [
+      "zdało"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Trzy psy {1} całą noc. (szczekać)",
+     "a": [
+      "szczekały"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dziesięć samochodów {1} na parkingu. (stać)",
+     "a": [
+      "stało"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwa autobusy {1} spóźnione. (być)",
+     "a": [
+      "były"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Siedem dziewczyn {1} w chórze. (śpiewać)",
+     "a": [
+      "śpiewało"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Trzech kolegów {1} mi w przeprowadzce. (pomóc)",
+     "a": [
+      "pomogło"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwadzieścia dwie osoby {1} na wycieczkę. (pojechać)",
+     "a": [
+      "pojechały"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwanaście osób {1} na wycieczkę. (pojechać)",
+     "a": [
+      "pojechało"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Teraz pięć osób {1} w kolejce. (czekać, czas teraźniejszy)",
+     "a": [
+      "czeka"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "Возраст, цены, комнаты",
+   "instr": "Напишите существительное в нужной форме.",
+   "items": [
+    {
+     "q": "Mam dwadzieścia dwa {1}. (rok)",
+     "a": [
+      "lata"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mam dwadzieścia pięć {1}. (rok)",
+     "a": [
+      "lat"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mam dwadzieścia jeden {1}. (rok)",
+     "a": [
+      "lat"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mój syn ma trzy {1}. (rok)",
+     "a": [
+      "lata"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Babcia ma osiemdziesiąt cztery {1}. (rok)",
+     "a": [
+      "lata"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "To kosztuje dwa {1}. (złoty)",
+     "a": [
+      "złote"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "To kosztuje pięć {1}. (złoty)",
+     "a": [
+      "złotych"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Bilet kosztuje cztery {1}. (złoty)",
+     "a": [
+      "złote"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Kawa kosztuje dwanaście {1}. (złoty)",
+     "a": [
+      "złotych"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Obiad kosztuje trzydzieści trzy {1}. (złoty)",
+     "a": [
+      "złote"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mieszkanie ma trzy {1}. (pokój)",
+     "a": [
+      "pokoje"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mieszkanie ma pięć {1}. (pokój)",
+     "a": [
+      "pokoi",
+      "pokojów"
+     ],
+     "fact": "R10"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "gaps",
+   "title": "Dwoje, troje, czworo",
+   "instr": "Напишите форму.",
+   "items": [
+    {
+     "q": "Mam {1} dzieci. (2)",
+     "a": [
+      "dwoje"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Oni mają {1} dzieci. (3)",
+     "a": [
+      "troje"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Sąsiedzi mają {1} dzieci. (4)",
+     "a": [
+      "czworo"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "W grupie jest {1} dzieci. (5)",
+     "a": [
+      "pięcioro"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Mamy dwoje {1}. (dziecko)",
+     "a": [
+      "dzieci"
+     ],
+     "fact": "R9"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Ogłoszenie: wycieczka szkoły językowej",
+   "instr": "Proszę wpisać wyrazy z nawiasu w odpowiedniej formie.",
+   "text": "Szkoła językowa „Polonus” organizuje wycieczkę do Krakowa. Wyjazd w piątek rano, powrót w niedzielę — razem trzy {1} (dzień). Pojedzie dwudziestu {2} (student) i dwie {3} (nauczycielka). W hostelu zarezerwowaliśmy sześć {4} (pokój), w tym dwa {5} (pokój) z łazienką. Każdy uczestnik płaci czterysta {6} (złoty). W cenie są trzy {7} (obiad) i dwie {8} (kolacja). W sobotę zobaczymy dwa najstarsze {9} (kościół) w mieście. W zeszłym roku na wycieczkę {10} (pojechać) dwanaście osób, a w tym roku już dwadzieścia dwie {11} (osoba) {12} (zapisać się). Zostało jeszcze pięć {13} (miejsce). Sekretariat jest czynny siedem {14} (godzina) dziennie. Zapraszamy!",
+   "a": {
+    "1": [
+     "dni"
+    ],
+    "2": [
+     "studentów"
+    ],
+    "3": [
+     "nauczycielki"
+    ],
+    "4": [
+     "pokoi",
+     "pokojów"
+    ],
+    "5": [
+     "pokoje"
+    ],
+    "6": [
+     "złotych"
+    ],
+    "7": [
+     "obiady"
+    ],
+    "8": [
+     "kolacje"
+    ],
+    "9": [
+     "kościoły"
+    ],
+    "10": [
+     "pojechało"
+    ],
+    "11": [
+     "osoby"
+    ],
+    "12": [
+     "zapisały się"
+    ],
+    "13": [
+     "miejsc"
+    ],
+    "14": [
+     "godzin"
+    ]
+   },
+   "facts": {
+    "1": "R2",
+    "2": "R7",
+    "3": "R2",
+    "4": "R3",
+    "5": "R2",
+    "6": "R3",
+    "7": "R2",
+    "8": "R2",
+    "9": "R2",
+    "10": "R8",
+    "11": "R2",
+    "12": "R8",
+    "13": "R3",
+    "14": "R3"
+   }
+  },
+  {
+   "id": "e7",
+   "kind": "typed",
+   "title": "Найдите и исправьте ошибку",
+   "instr": "Напишите исправленное слово.",
+   "items": [
+    {
+     "q": "Pięć kot.",
+     "a": [
+      "kotów"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "Dwa kobiety.",
+     "a": [
+      "dwie",
+      "Dwie"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Pięć osób przyszły.",
+     "a": [
+      "przyszło"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Dwanaście domy.",
+     "a": [
+      "domów"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Dwadzieścia trzy domów.",
+     "a": [
+      "domy"
+     ],
+     "fact": "R2"
+    },
+    {
+     "q": "Mam dwadzieścia pięć lata.",
+     "a": [
+      "lat"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Dwie mężczyźni.",
+     "a": [
+      "dwaj",
+      "Dwaj"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "Trzy studentów.",
+     "a": [
+      "trzech",
+      "Trzech"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "To kosztuje pięć złote.",
+     "a": [
+      "złotych"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Mamy dwa dzieci.",
+     "a": [
+      "dwoje"
+     ],
+     "fact": "R9"
+    }
+   ]
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "list",
+   "title": "E-mail: zamówienie na przyjęcie",
+   "prompt": "Organizujesz przyjęcie urodzinowe. Napisz e-mail do firmy cateringowej (60–80 słów): ile osób przyjdzie, co zamawiasz (ilości), ile chcesz zapłacić.",
+   "checklist": [
+    "минимум 6 сочетаний числительное + существительное из разных групп (2–4, 5+, 12–14, …2–…4)",
+    "одна мужско-личная форма (pięciu kolegów)",
+    "dwoje/troje dzieci",
+    "одна фраза с согласованием глагола (przyjdzie dwadzieścia osób)",
+    "цена в złote/złotych"
+   ],
+   "facts": [
+    "R2",
+    "R3",
+    "R7",
+    "R8",
+    "R9",
+    "R10"
+   ],
+   "model": "Szanowni Państwo,\nw sobotę organizuję przyjęcie urodzinowe. Przyjdą dwadzieścia dwie osoby: piętnastu dorosłych, pięciu kolegów z pracy i dwoje dzieci. Chciałabym zamówić trzy duże sałatki, dwadzieścia cztery kanapki, dwanaście pierogów z mięsem i dwa torty. Do picia proszę o sześć butelek soku i cztery butelki wody. Mój budżet to około ośmiuset złotych. Czy mogliby Państwo przygotować ofertę?\nZ poważaniem\nOlena Kowal"
+  },
+  {
+   "id": "w2",
+   "genre": "opis",
+   "title": "Opis: moja rodzina w liczbach",
+   "prompt": "Opisz swoją rodzinę i dom (80–100 słów), używając jak najwięcej liczebników: ile osób, ile lat, ile pokoi, zwierząt, lat w Polsce itp.",
+   "checklist": [
+    "возраст с lata и lat",
+    "минимум 2 формы с 5+ (Dopełniacz)",
+    "минимум 2 формы с 2–4",
+    "собирательное (dwoje dzieci) или мужско-личное (trzech braci)",
+    "один глагол в согласовании с 5+"
+   ],
+   "facts": [
+    "R2",
+    "R3",
+    "R7",
+    "R9",
+    "R10"
+   ],
+   "model": "Moja rodzina jest duża. Mam męża i troje dzieci. Najstarszy syn ma dwadzieścia dwa lata, córka ma osiemnaście lat, a najmłodszy syn — pięć lat. Mieszkamy w domu, który ma sześć pokoi i dwie łazienki. Mamy też dwa koty i jednego psa. W Polsce mieszkamy od siedmiu lat. Mój mąż ma trzech braci, więc na święta przyjeżdża do nas dwanaście osób. W zeszłe święta przy stole siedziało aż piętnaście osób! Było głośno, ale bardzo wesoło."
+  }
+ ]
+}

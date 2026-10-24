@@ -1,0 +1,1059 @@
+{
+ "id": "rzeczowniki-odczasownikowe",
+ "num": 17,
+ "title": "Rzeczowniki odczasownikowe: czytanie, picie",
+ "level": "B1",
+ "lang": "ru",
+ "prev": "imieslowy-przyslowkowe",
+ "next": "zaimki-nieokreslone",
+ "summary": "Существительные-действия на -nie/-enie/-cie: образование, склонение, вид, дополнение в dopełniaczu, предлоги po/podczas/do/bez/w celu и официальный стиль.",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Что это такое",
+   "facts": [
+    "R1",
+    "R12"
+   ],
+   "body": "Rzeczownik odczasownikowy — существительное-действие, как русское «чтение», «плавание». Оканчивается на **-nie / -enie / -cie**, всегда **среднего рода**.",
+   "examples": [
+    [
+     "Czytanie przed snem pomaga mi się zrelaksować.",
+     "Чтение перед сном помогает мне расслабиться."
+    ],
+    [
+     "Takie myślenie jest błędne.",
+     "Такое мышление ошибочно."
+    ]
+   ],
+   "note": "Типично для официальных текстов (правила, объявления). В своей речи — в меру."
+  },
+  {
+   "id": "s2",
+   "title": "Как образовать",
+   "facts": [
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "table": {
+    "head": [
+     "Глагол",
+     "Как",
+     "Примеры"
+    ],
+    "rows": [
+     [
+      "-ać (-ować)",
+      "-ć → -nie",
+      "czytać → czytanie, pracować → pracowanie, spać → spanie"
+     ],
+     [
+      "-ić / -yć / -eć (II спр.)",
+      "основа «ja» + -enie",
+      "robię → robienie, myślę → myślenie, noszę → noszenie"
+     ],
+     [
+      "короткие -ić / -yć / -uć",
+      "-ć → -cie",
+      "pić → picie, myć → mycie, żyć → życie, czuć → czucie"
+     ]
+    ]
+   },
+   "note": "się остаётся: uczenie się, nudzenie się (одним источником)."
+  },
+  {
+   "id": "s3",
+   "title": "Склонение",
+   "facts": [
+    "R1"
+   ],
+   "table": {
+    "head": [
+     "Падеж",
+     "Окончание",
+     "Пример"
+    ],
+    "rows": [
+     [
+      "M. / B.",
+      "-nie / -cie",
+      "Lubię czytanie."
+     ],
+     [
+      "D.",
+      "-nia / -cia",
+      "Nie ma nic do jedzenia."
+     ],
+     [
+      "C. / Ms.",
+      "-niu / -ciu",
+      "po jedzeniu"
+     ],
+     [
+      "N.",
+      "-niem / -ciem",
+      "Interesuję się czytaniem."
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "title": "Вид сохраняется",
+   "facts": [
+    "R6"
+   ],
+   "body": "**czytanie** — процесс, **przeczytanie** — результат. После *po* обычно совершенный вид, после *podczas* — несовершенный.",
+   "table": {
+    "head": [
+     "Несов. (процесс)",
+     "Сов. (результат)"
+    ],
+    "rows": [
+     [
+      "czytanie",
+      "przeczytanie"
+     ],
+     [
+      "robienie",
+      "zrobienie"
+     ],
+     [
+      "kończenie",
+      "zakończenie / skończenie"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s5",
+   "title": "Дополнение — в dopełniaczu",
+   "facts": [
+    "R7"
+   ],
+   "body": "*czytać książkę* → *czytanie **książki***; *myć samochód* → *mycie **samochodu***. Как в русском: «читать книгу» → «чтение книги».",
+   "note": "Ошибка: *czytanie książkę*."
+  },
+  {
+   "id": "s6",
+   "title": "С предлогами",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "table": {
+    "head": [
+     "Конструкция",
+     "Значение",
+     "Пример"
+    ],
+    "rows": [
+     [
+      "do + D.",
+      "для, чтобы",
+      "Nie mam nic do powiedzenia. maszyna do pisania"
+     ],
+     [
+      "po + Ms.",
+      "после",
+      "Po przeczytaniu listu zadzwoniła do brata."
+     ],
+     [
+      "podczas + D.",
+      "во время",
+      "Podczas czytania nie słucham muzyki."
+     ],
+     [
+      "bez + D.",
+      "без",
+      "Bez zrozumienia kontekstu trudno ocenić decyzję."
+     ],
+     [
+      "w celu + D.",
+      "с целью (офиц.)",
+      "Zebranie zwołano w celu omówienia budżetu."
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s7",
+   "title": "Ставшие обычными словами",
+   "facts": [
+    "R10",
+    "R11"
+   ],
+   "body": "*mieszkanie* — квартира, *pytanie* — вопрос, *jedzenie* — еда, *picie* — питьё, *życie* — жизнь, *uczucie* — чувство, *otwarcie wystawy* — открытие выставки, *godzina zamknięcia* — время закрытия.\n\nПосле *lubić* лучше инфинитив: *Lubię gotować* (форма *Lubię czytanie* тоже встречается)."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "Образуйте существительное",
+   "kind": "gaps",
+   "instr": "Напечатайте rzeczownik odczasownikowy.",
+   "facts": [
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "items": [
+    {
+     "q": "czytać → {1}",
+     "a": [
+      [
+       "czytanie"
+      ]
+     ]
+    },
+    {
+     "q": "pisać → {1}",
+     "a": [
+      [
+       "pisanie"
+      ]
+     ]
+    },
+    {
+     "q": "pływać → {1}",
+     "a": [
+      [
+       "pływanie"
+      ]
+     ]
+    },
+    {
+     "q": "gotować → {1}",
+     "a": [
+      [
+       "gotowanie"
+      ]
+     ]
+    },
+    {
+     "q": "czekać → {1}",
+     "a": [
+      [
+       "czekanie"
+      ]
+     ]
+    },
+    {
+     "q": "oglądać → {1}",
+     "a": [
+      [
+       "oglądanie"
+      ]
+     ]
+    },
+    {
+     "q": "spać → {1}",
+     "a": [
+      [
+       "spanie"
+      ]
+     ]
+    },
+    {
+     "q": "robić → {1}",
+     "a": [
+      [
+       "robienie"
+      ]
+     ]
+    },
+    {
+     "q": "mówić → {1}",
+     "a": [
+      [
+       "mówienie"
+      ]
+     ]
+    },
+    {
+     "q": "nosić → {1}",
+     "a": [
+      [
+       "noszenie"
+      ]
+     ]
+    },
+    {
+     "q": "myśleć → {1}",
+     "a": [
+      [
+       "myślenie"
+      ]
+     ]
+    },
+    {
+     "q": "siedzieć → {1}",
+     "a": [
+      [
+       "siedzenie"
+      ]
+     ]
+    },
+    {
+     "q": "uczyć się → {1}",
+     "a": [
+      [
+       "uczenie się"
+      ]
+     ]
+    },
+    {
+     "q": "palić → {1}",
+     "a": [
+      [
+       "palenie"
+      ]
+     ]
+    },
+    {
+     "q": "płacić → {1}",
+     "a": [
+      [
+       "płacenie"
+      ]
+     ]
+    },
+    {
+     "q": "pić → {1}",
+     "a": [
+      [
+       "picie"
+      ]
+     ]
+    },
+    {
+     "q": "myć → {1}",
+     "a": [
+      [
+       "mycie"
+      ]
+     ]
+    },
+    {
+     "q": "żyć → {1}",
+     "a": [
+      [
+       "życie"
+      ]
+     ]
+    },
+    {
+     "q": "przeczytać → {1}",
+     "a": [
+      [
+       "przeczytanie"
+      ]
+     ]
+    },
+    {
+     "q": "zrobić → {1}",
+     "a": [
+      [
+       "zrobienie"
+      ]
+     ]
+    },
+    {
+     "q": "napisać → {1}",
+     "a": [
+      [
+       "napisanie"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Дополнение в dopełniaczu",
+   "kind": "gaps",
+   "instr": "Поставьте дополнение в нужную форму.",
+   "facts": [
+    "R7"
+   ],
+   "items": [
+    {
+     "q": "czytać książki → czytanie {1}",
+     "a": [
+      [
+       "książek"
+      ]
+     ]
+    },
+    {
+     "q": "myć samochód → mycie {1}",
+     "a": [
+      [
+       "samochodu"
+      ]
+     ]
+    },
+    {
+     "q": "pisać list → pisanie {1}",
+     "a": [
+      [
+       "listu"
+      ]
+     ]
+    },
+    {
+     "q": "mówić prawdę → mówienie {1}",
+     "a": [
+      [
+       "prawdy"
+      ]
+     ]
+    },
+    {
+     "q": "oglądać telewizję → oglądanie {1}",
+     "a": [
+      [
+       "telewizji"
+      ]
+     ]
+    },
+    {
+     "q": "gotować obiad → gotowanie {1}",
+     "a": [
+      [
+       "obiadu"
+      ]
+     ]
+    },
+    {
+     "q": "kupić mieszkanie → kupienie {1}",
+     "a": [
+      [
+       "mieszkania"
+      ]
+     ]
+    },
+    {
+     "q": "palić papierosy → palenie {1}",
+     "a": [
+      [
+       "papierosów"
+      ]
+     ]
+    },
+    {
+     "q": "ukończyć szkołę → ukończenie {1}",
+     "a": [
+      [
+       "szkoły"
+      ]
+     ]
+    },
+    {
+     "q": "organizować konferencję → organizowanie {1}",
+     "a": [
+      [
+       "konferencji"
+      ]
+     ]
+    },
+    {
+     "q": "pić kawę → picie {1}",
+     "a": [
+      [
+       "kawy"
+      ]
+     ]
+    },
+    {
+     "q": "zrobić zakupy → zrobienie {1}",
+     "a": [
+      [
+       "zakupów"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "Нужный падеж",
+   "kind": "gaps",
+   "instr": "Поставьте отглагольное существительное в нужный падеж.",
+   "facts": [
+    "R1",
+    "R8",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Myj ręce przed {1} (jedzenie).",
+     "a": [
+      [
+       "jedzeniem"
+      ]
+     ]
+    },
+    {
+     "q": "Po {1} (przeczytanie) listu zadzwoniła do brata.",
+     "a": [
+      [
+       "przeczytaniu"
+      ]
+     ]
+    },
+    {
+     "q": "Nie mam nic do {1} (powiedzenie).",
+     "a": [
+      [
+       "powiedzenia"
+      ]
+     ]
+    },
+    {
+     "q": "Podczas {1} (jedzenie) nie rozmawiamy przez telefon.",
+     "a": [
+      [
+       "jedzenia"
+      ]
+     ]
+    },
+    {
+     "q": "Interesuję się {1} (czytanie).",
+     "a": [
+      [
+       "czytaniem"
+      ]
+     ]
+    },
+    {
+     "q": "Pływanie po {1} (jedzenie) jest niezdrowe.",
+     "a": [
+      [
+       "jedzeniu"
+      ]
+     ]
+    },
+    {
+     "q": "Bez {1} (zrozumienie) kontekstu trudno ocenić tę decyzję.",
+     "a": [
+      [
+       "zrozumienia"
+      ]
+     ]
+    },
+    {
+     "q": "Kupiłam proszek do {1} (pranie).",
+     "a": [
+      [
+       "prania"
+      ]
+     ]
+    },
+    {
+     "q": "To jest stara maszyna do {1} (pisanie).",
+     "a": [
+      [
+       "pisania"
+      ]
+     ]
+    },
+    {
+     "q": "Zebranie zwołano w celu {1} (omówienie) budżetu.",
+     "a": [
+      [
+       "omówienia"
+      ]
+     ]
+    },
+    {
+     "q": "Zajmuję się {1} (gotowanie).",
+     "a": [
+      [
+       "gotowaniem"
+      ]
+     ]
+    },
+    {
+     "q": "Polecisz mi coś do {1} (czytanie)?",
+     "a": [
+      [
+       "czytania"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Процесс или результат?",
+   "kind": "gaps",
+   "instr": "Выберите и напечатайте подходящую форму (несов. или сов. вид) в нужном падеже.",
+   "facts": [
+    "R6",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Po {1} (czytanie / przeczytanie) książki obejrzałam film.",
+     "a": [
+      [
+       "przeczytaniu"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (czytanie / przeczytanie) przed snem pomaga mi się zrelaksować.",
+     "a": [
+      [
+       "Czytanie"
+      ]
+     ]
+    },
+    {
+     "q": "Podczas {1} (pisanie / napisanie) listu zadzwonił telefon.",
+     "a": [
+      [
+       "pisania"
+      ]
+     ]
+    },
+    {
+     "q": "Po {1} (kończenie / skończenie) pracy idę na siłownię.",
+     "a": [
+      [
+       "skończeniu"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (robienie / zrobienie) zakupów zajmuje mi godzinę.",
+     "a": [
+      [
+       "Robienie"
+      ]
+     ]
+    },
+    {
+     "q": "Gratuluję {1} (kończenie / ukończenie) studiów!",
+     "a": [
+      [
+       "ukończenia"
+      ]
+     ]
+    },
+    {
+     "q": "Po {1} (jedzenie / zjedzenie) obiadu wyszli na spacer.",
+     "a": [
+      [
+       "zjedzeniu"
+      ]
+     ]
+    },
+    {
+     "q": "{1} (pływanie / przepłynięcie) jest dobre dla zdrowia.",
+     "a": [
+      [
+       "Pływanie"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Замените придаточное",
+   "kind": "gaps",
+   "instr": "Замените придаточное или инфинитив существительным. Напечатайте пропущенное слово.",
+   "facts": [
+    "R7",
+    "R8",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Kiedy przeczytała list, zadzwoniła do brata. → Po {1} listu zadzwoniła do brata.",
+     "a": [
+      [
+       "przeczytaniu"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy jem, nie oglądam telewizji. → Podczas {1} nie oglądam telewizji.",
+     "a": [
+      [
+       "jedzenia"
+      ]
+     ]
+    },
+    {
+     "q": "Nie mam nic, co mógłbym powiedzieć. → Nie mam nic do {1}.",
+     "a": [
+      [
+       "powiedzenia"
+      ]
+     ]
+    },
+    {
+     "q": "Gdy skończył szkołę, wyjechał za granicę. → Po {1} szkoły wyjechał za granicę.",
+     "a": [
+      [
+       "skończeniu",
+       "ukończeniu"
+      ]
+     ]
+    },
+    {
+     "q": "Myj ręce, zanim zjesz. → Myj ręce przed {1}.",
+     "a": [
+      [
+       "jedzeniem"
+      ]
+     ]
+    },
+    {
+     "q": "Trudno jest pisać po polsku. → {1} po polsku jest trudne.",
+     "a": [
+      [
+       "Pisanie"
+      ]
+     ]
+    },
+    {
+     "q": "Spotkaliśmy się, żeby omówić budżet. → Spotkaliśmy się w celu {1} budżetu.",
+     "a": [
+      [
+       "omówienia"
+      ]
+     ]
+    },
+    {
+     "q": "Nie zrozumiesz tego, jeśli nie znasz kontekstu. → Bez {1} kontekstu tego nie zrozumiesz.",
+     "a": [
+      [
+       "znajomości",
+       "zrozumienia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Обычные существительные",
+   "kind": "gaps",
+   "instr": "Напечатайте существительное по определению.",
+   "facts": [
+    "R10"
+   ],
+   "items": [
+    {
+     "q": "Miejsce, w którym mieszkasz: {1}",
+     "a": [
+      [
+       "mieszkanie"
+      ]
+     ]
+    },
+    {
+     "q": "To, o co pytasz: {1}",
+     "a": [
+      [
+       "pytanie"
+      ]
+     ]
+    },
+    {
+     "q": "To, co jesz: {1}",
+     "a": [
+      [
+       "jedzenie"
+      ]
+     ]
+    },
+    {
+     "q": "To, co pijesz: {1}",
+     "a": [
+      [
+       "picie"
+      ]
+     ]
+    },
+    {
+     "q": "Czas od urodzenia do śmierci: {1}",
+     "a": [
+      [
+       "życie"
+      ]
+     ]
+    },
+    {
+     "q": "Miłość to piękne {1}.",
+     "a": [
+      [
+       "uczucie"
+      ]
+     ]
+    },
+    {
+     "q": "Uroczystość na początku wystawy: {1} wystawy",
+     "a": [
+      [
+       "otwarcie"
+      ]
+     ]
+    },
+    {
+     "q": "Godzina, od której sklep jest nieczynny: godzina {1}",
+     "a": [
+      [
+       "zamknięcia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: правила бассейна",
+   "kind": "gaps",
+   "instr": "Uzupełnij regulamin. Wpisz rzeczownik odczasownikowy od czasownika w nawiasie w odpowiedniej formie.",
+   "facts": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R7",
+    "R8",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "REGULAMIN BASENU. 1. {1} (wchodzić) do wody bez czepka jest zabronione.",
+     "a": [
+      [
+       "Wchodzenie"
+      ]
+     ]
+    },
+    {
+     "q": "2. Przed {1} (pływać) należy wziąć prysznic.",
+     "a": [
+      [
+       "pływaniem"
+      ]
+     ]
+    },
+    {
+     "q": "3. {1} (jeść)",
+     "a": [
+      [
+       "Jedzenie"
+      ]
+     ]
+    },
+    {
+     "q": "i {1} (pić) na terenie basenu jest zabronione.",
+     "a": [
+      [
+       "picie"
+      ]
+     ]
+    },
+    {
+     "q": "4. Po {1} (skończyć) zajęć należy opuścić halę basenu.",
+     "a": [
+      [
+       "skończeniu"
+      ]
+     ]
+    },
+    {
+     "q": "5. Podczas {1} (pływać) prosimy nie korzystać z telefonów.",
+     "a": [
+      [
+       "pływania"
+      ]
+     ]
+    },
+    {
+     "q": "6. Rzeczy do {1} (przechować) można zostawić w szafce.",
+     "a": [
+      [
+       "przechowania"
+      ]
+     ]
+    },
+    {
+     "q": "7. {1} (palić) papierosów jest zabronione.",
+     "a": [
+      [
+       "Palenie"
+      ]
+     ]
+    },
+    {
+     "q": "8. Za {1} (zgubić) kluczyka do szafki płaci się 20 zł.",
+     "a": [
+      [
+       "zgubienie"
+      ]
+     ]
+    },
+    {
+     "q": "9. W celu {1} (zarezerwować) toru prosimy dzwonić do recepcji.",
+     "a": [
+      [
+       "zarezerwowania"
+      ]
+     ]
+    },
+    {
+     "q": "10. Bez {1} (pokazać) biletu nie można wejść na basen.",
+     "a": [
+      [
+       "pokazania"
+      ]
+     ]
+    },
+    {
+     "q": "Dziękujemy za {1} (przestrzegać) regulaminu!",
+     "a": [
+      [
+       "przestrzeganie"
+      ]
+     ]
+    }
+   ],
+   "format": "exam-text"
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "kind": "gaps",
+   "instr": "Перестройте, используя отглагольное существительное. Напечатайте вставку.",
+   "facts": [
+    "R6",
+    "R7",
+    "R8",
+    "R9"
+   ],
+   "items": [
+    {
+     "q": "Po tym, jak zjedliśmy kolację, poszliśmy na spacer. → Po {1} poszliśmy na spacer.",
+     "a": [
+      [
+       "zjedzeniu kolacji",
+       "skończeniu kolacji"
+      ]
+     ]
+    },
+    {
+     "q": "Kiedy czekam na autobus, słucham muzyki. → Podczas {1} słucham muzyki.",
+     "a": [
+      [
+       "czekania na autobus"
+      ]
+     ]
+    },
+    {
+     "q": "Nie wolno tu palić. → {1} jest tu zabronione.",
+     "a": [
+      [
+       "Palenie"
+      ]
+     ]
+    },
+    {
+     "q": "Lubię gotować. → Moje hobby to {1}.",
+     "a": [
+      [
+       "gotowanie"
+      ]
+     ]
+    },
+    {
+     "q": "Zanim pójdziesz spać, wyłącz komputer. → Przed {1} wyłącz komputer.",
+     "a": [
+      [
+       "spaniem",
+       "snem"
+      ]
+     ]
+    },
+    {
+     "q": "Zebraliśmy się, żeby omówić plan. → Zebraliśmy się w celu {1}.",
+     "a": [
+      [
+       "omówienia planu"
+      ]
+     ]
+    },
+    {
+     "q": "Nie wiem, co powiedzieć. → Nie mam nic do {1}.",
+     "a": [
+      [
+       "powiedzenia"
+      ]
+     ]
+    },
+    {
+     "q": "Przyjemnie jest uczyć się języków. → {1} jest przyjemne.",
+     "a": [
+      [
+       "Uczenie się języków"
+      ]
+     ]
+    }
+   ],
+   "format": "rewrite"
+  },
+  {
+   "id": "w1",
+   "kind": "writing",
+   "title": "Правила общежития",
+   "facts": [
+    "R1",
+    "R7",
+    "R9",
+    "R12"
+   ],
+   "instr": "Napisz regulamin akademika lub hostelu (8–10 punktów, 60–80 słów): co jest zabronione, co trzeba zrobić przed wyjazdem, w jakich godzinach jest cisza nocna.",
+   "checklist": [
+    "не меньше 6 отглагольных существительных",
+    "дополнения в dopełniaczu (palenie papierosów)",
+    "po / przed / podczas / w celu — хотя бы 3 разных",
+    "официальный стиль"
+   ]
+  },
+  {
+   "id": "w2",
+   "kind": "writing",
+   "title": "Мои увлечения",
+   "facts": [
+    "R1",
+    "R10",
+    "R11"
+   ],
+   "instr": "Napisz tekst o swoich zainteresowaniach (80–100 słów): czym się interesujesz, co robisz w wolnym czasie, czego nie lubisz robić.",
+   "checklist": [
+    "interesuję się …-niem (творительный)",
+    "moje hobby to …",
+    "2 формы с po / podczas",
+    "хотя бы 1 lubię + инфинитив"
+   ]
+  }
+ ],
+ "stats": {
+  "gaps": 89,
+  "exercises": 8,
+  "writing": 2,
+  "sections": 7,
+  "facts": 12
+ }
+}

@@ -1,0 +1,252 @@
+{
+ "topic": "dopelniacz-po-negacji",
+ "title": "Dopełniacz po negacji — родительный при отрицании",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "DZG",
+   "title": "K. Dziwirek (University of Washington), Polish Grammar: «Uses of the genitive» — «Genitive of negation», «Genitive in existential negation»",
+   "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-uses-of-gen.pdf"
+  },
+  {
+   "id": "ELR",
+   "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+   "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap"
+  },
+  {
+   "id": "ELM",
+   "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+   "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation"
+  },
+  {
+   "id": "PIN",
+   "title": "polski.info — Grammar: Nouns, раздел «Accusative» (#nouns8)",
+   "url": "https://polski.info/grammar/nouns#nouns8"
+  },
+  {
+   "id": "VT",
+   "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+   "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation"
+  },
+  {
+   "id": "GW",
+   "title": "M. Gębka-Wolak, «Between Genitive and Accusative Uses…», Poznańskie Studia Polonistyczne. Seria Językoznawcza 31 (2024), nr 1",
+   "url": "https://pressto.amu.edu.pl/index.php/pspsj/article/download/43962/36587/102195"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "Если глагол с прямым дополнением в винительном (Biernik) стоит с nie, дополнение переходит в родительный (Dopełniacz): Mam samochód → Nie mam samochodu; Lubię kawę → Nie lubię kawy. Это обязательно.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Uses of the genitive» — «Genitive of negation», «Genitive in existential negation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-uses-of-gen.pdf",
+     "id": "DZG",
+     "where": "«Genitive of negation»: Lubię Ewę → Nie lubię Ewy; «obligatory»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«Negation changes the direct object»"
+    },
+    {
+     "title": "polski.info — Grammar: Nouns, раздел «Accusative» (#nouns8)",
+     "url": "https://polski.info/grammar/nouns#nouns8",
+     "id": "PIN",
+     "where": "#nouns8: «if such verbs follow negation, the case is changed to genitive»"
+    },
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "«Genitive of negation»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "Отсутствие: nie ma / nie było / nie będzie + Dopełniacz (безличная форма, не меняется по лицам): Ojca nie ma w domu. Studentów nie było w klasie. Jutro nie będzie lekcji. Не *nie jest (для «нет, отсутствует»).",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Uses of the genitive» — «Genitive of negation», «Genitive in existential negation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-uses-of-gen.pdf",
+     "id": "DZG",
+     "where": "«Genitive in existential negation»: Ojca nie ma w domu"
+    },
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«Existential nie ma + genitive»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+     "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation",
+     "id": "ELM",
+     "where": "ошибка *Nie jest mleka / *On nie jest tu"
+    },
+    {
+     "title": "M. Gębka-Wolak, «Between Genitive and Accusative Uses…», Poznańskie Studia Polonistyczne. Seria Językoznawcza 31 (2024), nr 1",
+     "url": "https://pressto.amu.edu.pl/index.php/pspsj/article/download/43962/36587/102195",
+     "id": "GW",
+     "where": "с. 15: nie ma в значении «находиться где-то»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "Правило действует и тогда, когда дополнение зависит от инфинитива после отрицаемого глагола: Mogę pić piwo → Nie mogę pić piwa; Nie chcę kupić samochodu.",
+   "sources": [
+    {
+     "title": "K. Dziwirek (University of Washington), Polish Grammar: «Uses of the genitive» — «Genitive of negation», «Genitive in existential negation»",
+     "url": "https://faculty.washington.edu/dziwirek/grammar/nouns/polish-uses-of-gen.pdf",
+     "id": "DZG",
+     "where": "«Modals and infinitive complements»: Nie mogę pić piwa"
+    },
+    {
+     "title": "M. Gębka-Wolak, «Between Genitive and Accusative Uses…», Poznańskie Studia Polonistyczne. Seria Językoznawcza 31 (2024), nr 1",
+     "url": "https://pressto.amu.edu.pl/index.php/pspsj/article/download/43962/36587/102195",
+     "id": "GW",
+     "where": "с. 13: «direct object which is directly or indirectly dependent on the negated verb»"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "Не меняются: дополнения в дательном (Nie pomagam bratu), творительном (Nie interesuję się polityką), с предлогом (Nie czekam na autobus) и после глаголов, которые и так требуют родительного (Nie szukam pracy, Nie słucham radia). Проверка: был ли винительный в утвердительном предложении?",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«What does not change»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+     "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation",
+     "id": "ELM",
+     "where": "«Exceptions»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Подлежащее остаётся в именительном: Ewa nie lubi kawy. Ktoś nie przyszedł.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«Subjects stay nominative»"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+     "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation",
+     "id": "ELM",
+     "where": "«Subjects stay nominative»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "После być сказуемое остаётся в творительном: Jestem studentem → Nie jestem studentem.",
+   "sources": [
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "«Other cases unchanged»: Nie jestem studentem"
+    }
+   ],
+   "note": "Только один источник; дано одной строкой."
+  },
+  {
+   "id": "R7",
+   "text": "Меняется вся группа: прилагательные, местоимения, числа — тоже в родительный: ten adres → tego adresu, tę książkę → tej książki, te jabłka → tych jabłek, pieniądze → pieniędzy.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "Lubię tę książkę → Nie lubię tej książki"
+    },
+    {
+     "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+     "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation",
+     "id": "ELM",
+     "where": "«Typical mistakes»: tego adresu, tych jabłek, pieniędzy"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Видимость: у мужского одушевлённого Biernik = Dopełniacz (Mam psa → Nie mam psa; Znam tego pana → Nie znam tego pana), поэтому форма не меняется; женское -ę → -y/-i (kawę → kawy, książkę → książki).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«psa is unchanged…», «feminine -ę becomes -y or -i»"
+    },
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "«Masculine animate nouns… look the same»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "Местоимения: go → go (форма та же), ją → jej: Znam ją → Nie znam jej.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Negation Changes the Object Case»",
+     "url": "https://elon.io/grammar/polish/negation/genitive-of-negation-recap",
+     "id": "ELR",
+     "where": "«Pronoun objects»"
+    },
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "пример с niczego (coś → nic, Dopełniacz)"
+    }
+   ],
+   "note": "go/jej — прямо только у elon.io; второй источник подтверждает лишь общий принцип для местоимений (niczego)."
+  },
+  {
+   "id": "R10",
+   "text": "С nigdy, nikt, nic, żaden отрицание nie всё равно нужно (двойное отрицание), и родительный тоже: Nigdy nie pijesz wina? Nikt nie je niczego. Nie ma tu żadnego sklepu.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Forgetting the Genitive of Negation» (typical mistakes)",
+     "url": "https://elon.io/grammar/polish/mistakes/forgetting-genitive-of-negation",
+     "id": "ELM",
+     "where": "«Negative words not triggering the rule»: Nigdy nie pijesz wina?"
+    },
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "«Double negation»: Nikt nie przyszedł; Nikt nie je niczego"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "text": "Если отрицается не глагол, а слово (противопоставление), падеж не меняется: Nie kawę piję, ale herbatę.",
+   "sources": [
+    {
+     "title": "Varsity Tutors, Conversational Polish: «Using negation»",
+     "url": "https://internal.varsitytutors.com/practice/subjects/polish/lessons/using-negation",
+     "id": "VT",
+     "where": "«constituent negation»"
+    }
+   ],
+   "note": "Только один источник; дано как заметка для продвинутых."
+  }
+ ]
+}

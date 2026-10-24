@@ -599,3 +599,8 @@ main:focus,main:focus-visible{outline:none}
 .qlinks{display:flex;flex-wrap:wrap;gap:6px 16px}
 .qlink{display:inline-flex;align-items:center;min-height:36px;font-size:14px;font-weight:700;color:var(--cm)}
 .sugg .chip2.mt{border-style:dashed}
+.lemma{margin:0;font-size:14px;line-height:1.5}
+.lemma .lnk{min-height:28px;padding:0}
+.lemma{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:12px;background:var(--cmbg);color:var(--ink)}
+.lemma p{margin:0}
+.lemma .lnk{align-self:flex-start}

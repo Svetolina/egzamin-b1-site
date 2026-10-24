@@ -1,0 +1,1330 @@
+{
+ "id": "tryb-rozkazujacy",
+ "order": 5,
+ "title": "Tryb rozkazujący",
+ "titleRu": "Повелительное наклонение",
+ "level": "A2–B1",
+ "lang": "ru",
+ "prereq": [
+  "czas-terazniejszy",
+  "czas-przyszly",
+  "aspekt"
+ ],
+ "next": "tryb-przypuszczajacy",
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Какие формы бывают",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "table": {
+    "head": [
+     "лицо",
+     "форма",
+     "пример"
+    ],
+    "rows": [
+     [
+      "ty",
+      "основа",
+      "czytaj! pisz! zrób!"
+     ],
+     [
+      "my",
+      "+ -my",
+      "czytajmy! piszmy! zróbmy!"
+     ],
+     [
+      "wy",
+      "+ -cie",
+      "czytajcie! piszcie! zróbcie!"
+     ],
+     [
+      "on/ona, oni",
+      "niech + 3 л.",
+      "niech czyta! niech czytają!"
+     ],
+     [
+      "pan/pani",
+      "niech pan/pani + 3 л.; proszę + инф.",
+      "Niech pan usiądzie. Proszę usiąść."
+     ]
+    ]
+   },
+   "body": "Формы ty, my, wy строятся от основы глагола, остальные — с частицей **niech**. Рода и времени у повелительного нет: *czytaj* говорят и мужчине, и женщине."
+  },
+  {
+   "id": "t2",
+   "title": "Шаг 1. Определите спряжение",
+   "facts": [
+    "R3",
+    "R4"
+   ],
+   "body": "Посмотрите на форму **ja**: если она на **-m** (*czytam, jem, wiem*) — работайте по правилу 2; если на **-ę** (*piszę, mówię, idę*) — по правилу 3. Для dk берите простое будущее: *zrobię, zamknę*."
+  },
+  {
+   "id": "t3",
+   "title": "Шаг 2. Глаголы на -m: oni − ą",
+   "facts": [
+    "R3"
+   ],
+   "table": {
+    "head": [
+     "инфинитив",
+     "oni",
+     "ty!"
+    ],
+    "rows": [
+     [
+      "czytać",
+      "czytają",
+      "czytaj"
+     ],
+     [
+      "słuchać",
+      "słuchają",
+      "słuchaj"
+     ],
+     [
+      "pamiętać",
+      "pamiętają",
+      "pamiętaj"
+     ],
+     [
+      "poczekać",
+      "poczekają",
+      "poczekaj"
+     ],
+     [
+      "umieć",
+      "umieją",
+      "umiej"
+     ],
+     [
+      "jeść",
+      "jedzą",
+      "jedz"
+     ],
+     [
+      "wiedzieć",
+      "wiedzą",
+      "wiedz"
+     ]
+    ]
+   },
+   "body": "Отбросьте **-ą** у формы *oni*. Поэтому *jedz* и *wiedz* — на самом деле по правилу."
+  },
+  {
+   "id": "t4",
+   "title": "Шаг 3. Глаголы на -ę: ty − esz / isz",
+   "facts": [
+    "R4"
+   ],
+   "table": {
+    "head": [
+     "инфинитив",
+     "ty (наст./буд.)",
+     "ty!"
+    ],
+    "rows": [
+     [
+      "pisać",
+      "piszesz",
+      "pisz"
+     ],
+     [
+      "mówić",
+      "mówisz",
+      "mów"
+     ],
+     [
+      "pracować",
+      "pracujesz",
+      "pracuj"
+     ],
+     [
+      "brać",
+      "bierzesz",
+      "bierz"
+     ],
+     [
+      "iść",
+      "idziesz",
+      "idź"
+     ],
+     [
+      "nieść",
+      "niesiesz",
+      "nieś"
+     ],
+     [
+      "prosić",
+      "prosisz",
+      "proś"
+     ],
+     [
+      "zadzwonić",
+      "zadzwonisz",
+      "zadzwoń"
+     ],
+     [
+      "zapłacić",
+      "zapłacisz",
+      "zapłać"
+     ],
+     [
+      "kupić",
+      "kupisz",
+      "kup"
+     ]
+    ]
+   },
+   "body": "Отбросьте **-esz / -isz / -ysz**. Если согласный перед *i* был мягким, на письме появляется знак: *si → ś, ci → ć, dzi → dź, ni → ń, zi → ź*."
+  },
+  {
+   "id": "t5",
+   "title": "Два согласных на конце: -ij / -yj",
+   "facts": [
+    "R5"
+   ],
+   "table": {
+    "head": [
+     "инфинитив",
+     "ty",
+     "ty!"
+    ],
+    "rows": [
+     [
+      "zamknąć",
+      "zamkniesz",
+      "zamknij"
+     ],
+     [
+      "spać",
+      "śpisz",
+      "śpij"
+     ],
+     [
+      "zapomnieć",
+      "zapomnisz",
+      "zapomnij"
+     ],
+     [
+      "przypomnieć",
+      "przypomnisz",
+      "przypomnij"
+     ],
+     [
+      "wysłać",
+      "wyślesz",
+      "wyślij"
+     ]
+    ]
+   },
+   "body": "Если после отбрасывания окончания на конце остаётся труднопроизносимое сочетание согласных, обычно добавляется **-ij** (реже **-yj**).",
+   "note": "«Обычно»: *martw się, patrz* — без -ij."
+  },
+  {
+   "id": "t6",
+   "title": "o → ó",
+   "facts": [
+    "R6"
+   ],
+   "table": {
+    "head": [
+     "инфинитив",
+     "ty",
+     "ty!",
+     "wy!"
+    ],
+    "rows": [
+     [
+      "robić",
+      "robisz",
+      "rób",
+      "róbcie"
+     ],
+     [
+      "zrobić",
+      "zrobisz",
+      "zrób",
+      "zróbcie"
+     ],
+     [
+      "stać",
+      "stoisz",
+      "stój",
+      "stójcie"
+     ],
+     [
+      "otworzyć",
+      "otworzysz",
+      "otwórz",
+      "otwórzcie"
+     ],
+     [
+      "pomóc",
+      "pomożesz",
+      "pomóż",
+      "pomóżcie"
+     ],
+     [
+      "wrócić",
+      "wrócisz",
+      "wróć",
+      "wróćcie"
+     ]
+    ]
+   },
+   "body": "Когда слог становится закрытым, **o → ó**. Во мн. ч. *ó* остаётся: *róbcie*, а не *robcie*."
+  },
+  {
+   "id": "t7",
+   "title": "Глаголы на -awać",
+   "facts": [
+    "R7"
+   ],
+   "body": "*dawać, wstawać, sprzedawać, zostawać*: от **инфинитива** −ć + j: **dawaj, wstawaj, sprzedawaj, zostawaj**.",
+   "examples": [
+    [
+     "Wstawaj, już siódma!",
+     "Вставай, уже семь!"
+    ]
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Неправильные формы — наизусть",
+   "facts": [
+    "R8"
+   ],
+   "table": {
+    "head": [
+     "инфинитив",
+     "ty!",
+     "wy!"
+    ],
+    "rows": [
+     [
+      "być",
+      "bądź",
+      "bądźcie"
+     ],
+     [
+      "mieć",
+      "miej",
+      "miejcie"
+     ],
+     [
+      "wziąć",
+      "weź",
+      "weźcie"
+     ],
+     [
+      "jeść",
+      "jedz",
+      "jedzcie"
+     ],
+     [
+      "wiedzieć",
+      "wiedz",
+      "wiedzcie"
+     ],
+     [
+      "powiedzieć",
+      "powiedz",
+      "powiedzcie"
+     ],
+     [
+      "zrozumieć",
+      "zrozum",
+      "zrozumcie"
+     ],
+     [
+      "zostać",
+      "zostań",
+      "zostańcie"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t9",
+   "title": "my и wy: -my, -cie; się",
+   "facts": [
+    "R9",
+    "R10"
+   ],
+   "body": "К форме **ty** добавьте **-my** («давайте…») или **-cie**: *idź → idźmy, idźcie*. **się** остаётся: *ucz się → uczmy się, uczcie się*.",
+   "examples": [
+    [
+     "Chodźmy do kina!",
+     "Пойдём(те) в кино!"
+    ],
+    [
+     "Nie martwcie się!",
+     "Не волнуйтесь!"
+    ]
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "niech + 3 лицо",
+   "facts": [
+    "R11"
+   ],
+   "body": "**niech** + форма 3 л.: настоящее (ndk) или простое будущее (dk). Так передают просьбу третьему лицу и вежливо обращаются к pan/pani/państwo.",
+   "examples": [
+    [
+     "Niech Kasia zadzwoni do mnie.",
+     "Пусть Кася мне позвонит."
+    ],
+    [
+     "Niech pan usiądzie.",
+     "Садитесь, пожалуйста (мужчине)."
+    ],
+    [
+     "Niech państwo wejdą.",
+     "Проходите, пожалуйста."
+    ]
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "Proszę + инфинитив / proszę + повелительное",
+   "facts": [
+    "R12",
+    "R13"
+   ],
+   "table": {
+    "head": [
+     "кому",
+     "как",
+     "пример"
+    ],
+    "rows": [
+     [
+      "незнакомому, официально, в объявлениях",
+      "proszę + инфинитив",
+      "Proszę usiąść. Proszę nie palić."
+     ],
+     [
+      "тому, с кем на «ты»",
+      "proszę + повелительное",
+      "Proszę, zadzwoń do mnie."
+     ]
+    ]
+   },
+   "warn": "К pan/pani — никогда формой ty: не *Siadaj, pani!*, а *Niech pani siada* или *Proszę usiąść*."
+  },
+  {
+   "id": "t12",
+   "title": "Какой вид выбрать",
+   "facts": [
+    "R14",
+    "R15"
+   ],
+   "table": {
+    "head": [
+     "ситуация",
+     "вид",
+     "пример"
+    ],
+    "rows": [
+     [
+      "сделай один раз, нужен результат",
+      "dk",
+      "Zamknij drzwi! Kup chleb!"
+     ],
+     [
+      "запрет: не делай",
+      "nie + ndk",
+      "Nie zamykaj okna! Nie kupuj tego!"
+     ],
+     [
+      "предупреждение: как бы не…",
+      "nie + dk",
+      "Uważaj, nie upuść telefonu! Nie zapomnij!"
+     ],
+     [
+      "продолжай, делай (процесс), приглашение",
+      "ndk",
+      "Czytaj dalej! Siadaj!"
+     ]
+    ]
+   },
+   "warn": "Ошибка: *Nie zrób tego!* → *Nie rób tego!*"
+  },
+  {
+   "id": "t13",
+   "title": "Для чего используется",
+   "facts": [
+    "R16"
+   ],
+   "list": [
+    "приказ, инструкция: Siadaj! Wpisz hasło.",
+    "просьба: Proszę, pożycz mi długopis.",
+    "извинение, утешение: Nie gniewaj się! Nie martw się!",
+    "пожелание: Trzymaj się! Bądź zdrów!"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "kind": "typed",
+   "title": "Форма ty!",
+   "instr": "По подсказке (форма oni или ty) напишите повелительное наклонение для ty.",
+   "items": [
+    {
+     "q": "czytać (czytają) → ty!",
+     "a": [
+      "czytaj"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "słuchać (słuchają) → ty!",
+     "a": [
+      "słuchaj"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "pamiętać (pamiętają) → ty!",
+     "a": [
+      "pamiętaj"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "jeść (jedzą) → ty!",
+     "a": [
+      "jedz"
+     ],
+     "fact": "R3"
+    },
+    {
+     "q": "pisać (piszesz) → ty!",
+     "a": [
+      "pisz"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "mówić (mówisz) → ty!",
+     "a": [
+      "mów"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "pracować (pracujesz) → ty!",
+     "a": [
+      "pracuj"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "iść (idziesz) → ty!",
+     "a": [
+      "idź"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "prosić (prosisz) → ty!",
+     "a": [
+      "proś"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "zadzwonić (zadzwonisz) → ty!",
+     "a": [
+      "zadzwoń"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "zapłacić (zapłacisz) → ty!",
+     "a": [
+      "zapłać"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "przynieść (przyniesiesz) → ty!",
+     "a": [
+      "przynieś"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "jechać (jedziesz) → ty!",
+     "a": [
+      "jedź"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "siedzieć (siedzisz) → ty!",
+     "a": [
+      "siedź"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "zamknąć (zamkniesz) → ty!",
+     "a": [
+      "zamknij"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "spać (śpisz) → ty!",
+     "a": [
+      "śpij"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "zapomnieć (zapomnisz) → ty!",
+     "a": [
+      "zapomnij"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "wysłać (wyślesz) → ty!",
+     "a": [
+      "wyślij"
+     ],
+     "fact": "R5"
+    },
+    {
+     "q": "zrobić (zrobisz) → ty!",
+     "a": [
+      "zrób"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "stać (stoisz) → ty!",
+     "a": [
+      "stój"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "otworzyć (otworzysz) → ty!",
+     "a": [
+      "otwórz"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "pomóc (pomożesz) → ty!",
+     "a": [
+      "pomóż"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "wrócić (wrócisz) → ty!",
+     "a": [
+      "wróć"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "wstawać (wstajesz) → ty!",
+     "a": [
+      "wstawaj"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "dawać (dajesz) → ty!",
+     "a": [
+      "dawaj"
+     ],
+     "fact": "R7"
+    },
+    {
+     "q": "być (jesteś) → ty!",
+     "a": [
+      "bądź"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "mieć (masz) → ty!",
+     "a": [
+      "miej"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "wziąć (weźmiesz) → ty!",
+     "a": [
+      "weź"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "powiedzieć (powiesz) → ty!",
+     "a": [
+      "powiedz"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "zrozumieć (zrozumiesz) → ty!",
+     "a": [
+      "zrozum"
+     ],
+     "fact": "R8"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "kind": "typed",
+   "title": "Формы my! и wy!",
+   "instr": "Напишите форму.",
+   "items": [
+    {
+     "q": "iść → my!",
+     "a": [
+      "idźmy"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "iść → wy!",
+     "a": [
+      "idźcie"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "zrobić → wy!",
+     "a": [
+      "zróbcie"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "być → wy!",
+     "a": [
+      "bądźcie"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "wziąć → wy!",
+     "a": [
+      "weźcie"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "czytać → my!",
+     "a": [
+      "czytajmy"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "uczyć się → wy!",
+     "a": [
+      "uczcie się"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "pomóc → wy!",
+     "a": [
+      "pomóżcie"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "zamknąć → wy!",
+     "a": [
+      "zamknijcie"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "pisać → my!",
+     "a": [
+      "piszmy"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "jeść → wy!",
+     "a": [
+      "jedzcie"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "martwić się → nie + wy!",
+     "a": [
+      "nie martwcie się"
+     ],
+     "fact": "R10"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "kind": "gaps",
+   "title": "Запрет: nie + ndk",
+   "instr": "Сделайте из просьбы запрет. Помните: запрет — несовершенный вид.",
+   "items": [
+    {
+     "q": "Zamknij okno! → Nie {1} okna!",
+     "a": [
+      "zamykaj"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Kup ten telefon! → Nie {1} tego telefonu!",
+     "a": [
+      "kupuj"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Powiedz mamie! → Nie {1} mamie!",
+     "a": [
+      "mów"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Otwórz drzwi! → Nie {1} drzwi!",
+     "a": [
+      "otwieraj"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Weź parasol! → Nie {1} parasola!",
+     "a": [
+      "bierz"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Zadzwoń do niego! → Nie {1} do niego!",
+     "a": [
+      "dzwoń"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Zapłać kartą! → Nie {1} kartą!",
+     "a": [
+      "płać"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Wróć autobusem! → Nie {1} autobusem!",
+     "a": [
+      "wracaj"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Zjedz to! → Nie {1} tego!",
+     "a": [
+      "jedz"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Napiszcie do nich! → Nie {1} do nich!",
+     "a": [
+      "piszcie"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Obejrzyjmy ten film! → Nie {1} tego filmu!",
+     "a": [
+      "oglądajmy"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Zaproś ich! → Nie {1} ich!",
+     "a": [
+      "zapraszaj"
+     ],
+     "fact": "R14"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "kind": "gaps",
+   "title": "Вежливо: proszę + инфинитив и niech pan/pani",
+   "instr": "Перепишите просьбу двумя вежливыми способами.",
+   "items": [
+    {
+     "q": "Usiądź! → Proszę {1}. / Niech pan {2}.",
+     "a": {
+      "1": [
+       "usiąść"
+      ],
+      "2": [
+       "usiądzie"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Poczekaj chwilę! → Proszę {1} chwilę. / Niech pani {2} chwilę.",
+     "a": {
+      "1": [
+       "poczekać"
+      ],
+      "2": [
+       "poczeka"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Wejdź! → Proszę {1}. / Niech państwo {2}.",
+     "a": {
+      "1": [
+       "wejść"
+      ],
+      "2": [
+       "wejdą"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Nie pal tutaj! → Proszę tu nie {1}. / Niech pan tu nie {2}.",
+     "a": {
+      "1": [
+       "palić"
+      ],
+      "2": [
+       "pali"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Podpisz tutaj! → Proszę {1} tutaj. / Niech pani {2} tutaj.",
+     "a": {
+      "1": [
+       "podpisać"
+      ],
+      "2": [
+       "podpisze"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Mów wolniej! → Proszę {1} wolniej. / Niech pan {2} wolniej.",
+     "a": {
+      "1": [
+       "mówić"
+      ],
+      "2": [
+       "mówi"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Zamknijcie drzwi! → Proszę {1} drzwi. / Niech państwo {2} drzwi.",
+     "a": {
+      "1": [
+       "zamknąć"
+      ],
+      "2": [
+       "zamkną"
+      ]
+     },
+     "fact": "R11, R12"
+    },
+    {
+     "q": "Weź numerek! → Proszę {1} numerek. / Niech pani {2} numerek.",
+     "a": {
+      "1": [
+       "wziąć"
+      ],
+      "2": [
+       "weźmie"
+      ]
+     },
+     "fact": "R11, R12"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "kind": "gaps",
+   "title": "niech + 3 лицо",
+   "instr": "Напишите недостающее слово.",
+   "items": [
+    {
+     "q": "Kasia ma zadzwonić do mnie. → {1} Kasia zadzwoni do mnie.",
+     "a": [
+      "Niech",
+      "niech"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Powiedz Tomkowi, żeby przyszedł jutro. → Niech Tomek {1} jutro.",
+     "a": [
+      "przyjdzie"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Dzieci mają się uczyć. → Niech dzieci się {1}.",
+     "a": [
+      "uczą"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Powiedz szefowi, żeby poczekał. → Niech szef {1}.",
+     "a": [
+      "poczeka"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Oni mają kupić bilety. → Niech oni {1} bilety.",
+     "a": [
+      "kupią"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Ona ma odpocząć. → Niech ona {1}.",
+     "a": [
+      "odpocznie"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Goście mają wejść. → Niech goście {1}.",
+     "a": [
+      "wejdą"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Marek ma napisać raport. → Niech Marek {1} raport.",
+     "a": [
+      "napisze"
+     ],
+     "fact": "R11"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "kind": "gaps",
+   "title": "Какой вид в повелительном?",
+   "instr": "Напишите правильную форму из скобок.",
+   "items": [
+    {
+     "q": "{1} chleb w drodze do domu. (Kupuj / Kup)",
+     "a": [
+      "Kup",
+      "kup"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Nie {1}, kiedy ktoś mówi! (przerywaj / przerwij)",
+     "a": [
+      "przerywaj"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Uważaj, nie {1} kluczy! (zapominaj / zapomnij — предупреждение)",
+     "a": [
+      "zapomnij"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "{1} mi SMS-a, jak dojedziesz. (Pisz / Napisz)",
+     "a": [
+      "Napisz",
+      "napisz"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Nie {1} tyle słodyczy! (jedz / zjedz)",
+     "a": [
+      "jedz"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Wejdź i {1}! Czuj się jak u siebie. (siadaj / usiądź — приглашение)",
+     "a": [
+      "siadaj",
+      "usiądź"
+     ],
+     "fact": "R15",
+     "hint": "Принимаются оба: ndk — дружеское приглашение, dk — нейтрально."
+    },
+    {
+     "q": "Nie przestawaj, {1} dalej! (czytaj / przeczytaj)",
+     "a": [
+      "czytaj"
+     ],
+     "fact": "R15"
+    },
+    {
+     "q": "{1} drzwi, jest przeciąg. (Zamykaj / Zamknij)",
+     "a": [
+      "Zamknij",
+      "zamknij"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Nie {1} tego nikomu! (mów / powiedz)",
+     "a": [
+      "mów"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Uważaj, nie {1} się! (przewracaj / przewróć)",
+     "a": [
+      "przewróć"
+     ],
+     "fact": "R14"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "kind": "text-gaps",
+   "format": "exam",
+   "title": "Wiadomość dla współlokatorki",
+   "instr": "Proszę wpisać czasowniki w trybie rozkazującym (forma «ty», jeśli nie zaznaczono inaczej). Uwaga na aspekt.",
+   "text": "Cześć Magda! Wyjeżdżam na tydzień, więc mam do Ciebie kilka próśb. Codziennie rano {1} (podlewać) kwiaty w salonie, ale nie {2} (lać / wylać) za dużo wody. Jeśli przyjdzie list z banku, {3} (otworzyć) go i {4} (zrobić) zdjęcie, a potem {5} (wysłać) mi je SMS-em. W piątek przyjdzie pan hydraulik. {6} (być) w domu o 10:00 i {7} (pokazać) mu łazienkę. Nie {8} (płacić / zapłacić) mu — ja zapłacę przelewem. Wieczorem nie {9} (zapominać / zapomnieć) zamknąć drzwi na klucz! Kot je dwa razy dziennie: {10} (dawać) mu jedzenie rano i wieczorem i {11} (nie wypuszczać) go na balkon. Jeśli coś się stanie, od razu {12} (zadzwonić) do mnie. A jeśli przyjdą moi rodzice — niech {13} (wejść), wiedzą, gdzie jest herbata. {14} (Trzymać się)! Ola",
+   "a": {
+    "1": [
+     "podlewaj"
+    ],
+    "2": [
+     "lej"
+    ],
+    "3": [
+     "otwórz"
+    ],
+    "4": [
+     "zrób"
+    ],
+    "5": [
+     "wyślij"
+    ],
+    "6": [
+     "Bądź",
+     "bądź"
+    ],
+    "7": [
+     "pokaż"
+    ],
+    "8": [
+     "płać"
+    ],
+    "9": [
+     "zapomnij"
+    ],
+    "10": [
+     "dawaj"
+    ],
+    "11": [
+     "nie wypuszczaj"
+    ],
+    "12": [
+     "zadzwoń"
+    ],
+    "13": [
+     "wejdą"
+    ],
+    "14": [
+     "Trzymaj się",
+     "trzymaj się"
+    ]
+   },
+   "facts": {
+    "1": "R3",
+    "2": "R14",
+    "3": "R6",
+    "4": "R6",
+    "5": "R5",
+    "6": "R8",
+    "7": "R4",
+    "8": "R14",
+    "9": "R14",
+    "10": "R7",
+    "11": "R14",
+    "12": "R4",
+    "13": "R11",
+    "14": "R10"
+   },
+   "notes": {
+    "2": "lać: leję, lejesz → lej (ndk, т.к. запрет)",
+    "9": "предупреждение «как бы не забыть» → nie + dk",
+    "13": "niech + 3 л. мн. ч. простого будущего"
+   }
+  },
+  {
+   "id": "e8",
+   "kind": "gaps",
+   "format": "exam",
+   "title": "Przekształcenia: из «надо / нельзя» — в повелительное",
+   "instr": "Перепишите так, чтобы смысл сохранился.",
+   "items": [
+    {
+     "q": "Musisz zadzwonić do mamy. → {1} do mamy!",
+     "a": [
+      "Zadzwoń",
+      "zadzwoń"
+     ],
+     "fact": "R4"
+    },
+    {
+     "q": "Nie wolno tu palić. (объявление) → Proszę tu nie {1}.",
+     "a": [
+      "palić"
+     ],
+     "fact": "R12"
+    },
+    {
+     "q": "Chcę, żebyś mi pomógł. → {1} mi, proszę!",
+     "a": [
+      "Pomóż",
+      "pomóż"
+     ],
+     "fact": "R6"
+    },
+    {
+     "q": "Może pójdziemy do kina? → {1} do kina!",
+     "a": [
+      "Chodźmy",
+      "chodźmy",
+      "Idźmy",
+      "idźmy"
+     ],
+     "fact": "R9"
+    },
+    {
+     "q": "Nie powinnaś się martwić. → Nie {1} się!",
+     "a": [
+      "martw"
+     ],
+     "fact": "R10"
+    },
+    {
+     "q": "Proszę pana, czy może pan usiąść? → Niech pan {1}.",
+     "a": [
+      "usiądzie"
+     ],
+     "fact": "R11"
+    },
+    {
+     "q": "Dzieci, macie być cicho! → {1} cicho!",
+     "a": [
+      "Bądźcie",
+      "bądźcie"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Nie możesz zapomnieć o paszporcie! → Nie {1} paszportu!",
+     "a": [
+      "zapomnij"
+     ],
+     "fact": "R14"
+    },
+    {
+     "q": "Musicie wziąć ciepłe kurtki. → {1} ciepłe kurtki!",
+     "a": [
+      "Weźcie",
+      "weźcie"
+     ],
+     "fact": "R8"
+    },
+    {
+     "q": "Pan Nowak ma przyjść o 15:00. → Niech pan Nowak {1} o 15:00.",
+     "a": [
+      "przyjdzie"
+     ],
+     "fact": "R11"
+    }
+   ]
+  }
+ ],
+ "writing": [
+  {
+   "id": "w1",
+   "genre": "list",
+   "title": "Wiadomość: moje mieszkanie, Twoje zasady",
+   "prompt": "Przyjaciel/przyjaciółka zostaje w Twoim mieszkaniu na weekend. Napisz wiadomość (60–80 słów): co ma zrobić, czego nie robić, o czym pamiętać.",
+   "checklist": [
+    "минимум 5 форм ty!: 3 dk (zamknij, podlej, wyrzuć…) и 2 ndk-запрета (nie otwieraj…)",
+    "одно предупреждение nie + dk (nie zapomnij…)",
+    "одна форма niech (niech sąsiad…)",
+    "обращение и подпись"
+   ],
+   "facts": [
+    "R4",
+    "R5",
+    "R6",
+    "R11",
+    "R14"
+   ],
+   "model": "Cześć Kuba!\nKlucze są u sąsiadki, pani Ewy. Rozgość się! Weź z lodówki, co chcesz. Wieczorem podlej kwiaty na balkonie i wyrzuć śmieci. Nie otwieraj okna w sypialni — jest zepsute. Nie używaj też pralki, bo cieknie. Jeśli ktoś zadzwoni domofonem, niech zostawi paczkę pod drzwiami. Uważaj, nie zgub kluczy i nie zapomnij zamknąć drzwi, kiedy wychodzisz!\nDobrej zabawy,\nAnia"
+  },
+  {
+   "id": "w2",
+   "genre": "ogloszenie",
+   "title": "Ogłoszenie: regulamin pralni w akademiku",
+   "prompt": "Napisz ogłoszenie (50–70 słów) dla mieszkańców akademika o zasadach korzystania z pralni. Pisz oficjalnie.",
+   "checklist": [
+    "минимум 4 конструкции proszę + инфинитив (proszę zabrać…, proszę nie zostawiać…)",
+    "одна форма niech (niech osoby, które…)",
+    "заголовок и подпись (Administracja)",
+    "без форм ty!"
+   ],
+   "facts": [
+    "R11",
+    "R12"
+   ],
+   "model": "UWAGA, MIESZKAŃCY!\nPralnia jest czynna od 7:00 do 22:00. Proszę zapisywać się na listę przy drzwiach. Proszę nie zostawiać prania w pralce dłużej niż 30 minut. Po praniu proszę wyczyścić filtr i zamknąć okno. Proszę nie palić w pralni. Osoby, które znajdą czyjeś rzeczy — niech oddadzą je w portierni.\nDziękujemy!\nAdministracja Domu Studenta"
+  }
+ ]
+}

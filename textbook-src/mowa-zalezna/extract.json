@@ -1,0 +1,159 @@
+{
+ "topic": "mowa-zalezna",
+ "title": "Mowa zależna — косвенная речь",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; с пометкой (одно правило в источниках): R10; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "По стандарту это тема B2: Dz.U. 2025 poz. 217, Zał. 1, Część II, F (B2): 2.2.3 Składnia, lit. f «mowa niezależna i mowa zależna: wykładniki formalne…; zamiana mowy niezależnej na mowę zależną (np.: Mama powiedziała: Idź po zakupy! / Mama powiedziała, żebym poszedł po zakupy.)», s. 92. На B1 нужны только союзы że, żeby (2.2.3 pkt 3 lit. b, s. 78).",
+  "level": "B2 (слой поверх B1) — że, czy, вопросительные слова, żeby в пересказе; время не меняется, меняются лицо и местоимения.",
+  "katalog_b": [
+   "7.1.10 utrzymywanie kontaktu (rozmowy telefoniczne, wiadomości) (s. 84)",
+   "7.9.2 rodzaje pracy (s. 85)"
+  ],
+  "katalog_a": [
+   "6.1.4.e relacjonowanie wypowiedzi własnych lub wypowiedzi innych osób (s. 83)",
+   "6.1.7.a pytanie (pytania zależne) (s. 83)"
+  ],
+  "exam": "Отдельного задания на косвенную речь в экзамене B1 нет (поиск по сборнику и 18 экзаменам на сайте). Но союзы że, czy, żeby из этой темы — частые ответы в задании II «союзы» (например, 05.2021: że, czy; образец 2019: że, czy, żeby), а пересказ нужен в письме и в устной части.",
+  "depends_on": [
+   "zeby-aby",
+   "tryb-rozkazujacy"
+  ],
+  "feeds": []
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "XXA": "Aleklasa.pl — «Mowa zależna i niezależna» (материал, рекомендованный в уроке gov.pl «Zdalne lekcje», Temat 51): https://aleklasa.pl/gimnazjum/gramatyka/c185-slowotworstwo/15-mowa-zalezna-i-niezalezna",
+  "XXB": "Agnieszka Kochan — «Mowa zależna i niezależna»: http://agnieszkakochan.pl/mowa-zalezna-i-niezalezna/",
+  "ELA": "elon.io — «Polish reported speech»: https://elon.io/grammar/polish/syntax/reported-speech",
+  "ELB": "elon.io — «wołać, prosić, kazać»: https://elon.io/grammar/polish/verbs-reference/wolac-prosic-kazac",
+  "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "PO": "Gramatyka z kulturą. Przez osoby (файлы проекта Gramatyka-z-kultura.-Przez-osoby.-Logo-*.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "Четыре типа: утверждение → że; вопрос «да/нет» → czy; вопрос с вопросительным словом → то же слово (gdzie, kiedy, co…); приказ/просьба → żeby (aby, ażeby, by).",
+   "pl": [],
+   "refs": [
+    "XXA (разделы о zdaniach oznajmujących, pytających i rozkazujących)",
+    "XXB (пункты 1–4)",
+    "ELA («Polish reported speech at a glance»)",
+    "PO s. 192 («Mowa zależna to niedokładne relacjonowanie cudzych (albo swoich) słów w zdaniach podrzędnych»: że — informacje, czy — pytania, żeby — prośby, polecenia)",
+    "PO s. 194 (рамка: kto, co, czy, jak długo, gdzie… że, żeby)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "Время глагола не «сдвигается», как в английском: сохраняется время исходной фразы. Jan powiedział wczoraj: «Jestem chory» → Jan powiedział, że jest chory.",
+   "pl": [],
+   "refs": [
+    "ELA (пункт Statements: «keep the original tense»; «The most common error is backshifting»)",
+    "XXA (пример «Nauczyciel powiedział nam, że dzisiaj idziemy na wycieczkę»)",
+    "XXB (пример «Ola zapytała mnie, kiedy wyjeżdżam»)",
+    "PO s. 192 («„Po południu będę zajęta” → odpowiedziała mu, że po południu będzie zajęta» — время сохраняется)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "Лицо глагола и местоимения меняются с точки зрения того, кто пересказывает: «Czy spotkałaś się z Robertem?» → zapytał, czy spotkałam się z Robertem; mój → jego / jej.",
+   "pl": [],
+   "refs": [
+    "XXB (пункт 7, примеры spotkałaś → spotkałam, posprzątaj → żebym posprzątała)",
+    "XXA (примеры в таблице)",
+    "ELA («Pronouns and time/place words shift to the reporter's viewpoint»)",
+    "PO s. 192 («„Masz czas…?” → zapytał ją, czy ma czas»; «„Zadzwoń do mnie” → poprosiła go, żeby zadzwonił do niej»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "Вопрос без вопросительного слова вводится czy, и его нельзя пропустить: Bartek spytał mnie, czy napisałem wypracowanie.",
+   "pl": [],
+   "refs": [
+    "XXA (пример «Bartek spytał mnie, czy napisałem…»)",
+    "XXB (пункт 3)",
+    "ELA (пункт Yes/no questions)",
+    "PO s. 192 («Zapytał ją, czy ma czas po południu»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "Вопросительное слово сохраняется, порядок слов — как в утверждении: Spytała, gdzie mieszkam.",
+   "pl": [],
+   "refs": [
+    "XXA (пример «Marek spytał mnie, kiedy spotkałem się z Anką»)",
+    "XXB (пункт 2)",
+    "ELA (пункт Wh-questions: «with statement word order»)",
+    "PO s. 194 (Zapytałam go, … proponuje / gdzie… — вопросительное слово сохраняется)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "Приказ/просьба → żeby (+ окончание) + форма на -ł: «Posprzątaj pokój» → Matka powiedziała mi, żebym posprzątała pokój. (Подробно — тема 11.)",
+   "pl": [],
+   "refs": [
+    "XXA (пример «Matka powiedziała Marcie, żeby pozmywała naczynia»)",
+    "XXB (пункт 4: «Mama poprosiła mnie, żebym wyniosła śmieci»)",
+    "ELA (пункт Commands and requests)",
+    "PO s. 192 («poprosiła go, żeby zadzwonił do niej wieczorem»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "Пунктуация: кавычки, двоеточие и тире исчезают; перед że, czy, żeby и вопросительным словом — запятая.",
+   "pl": [],
+   "refs": [
+    "XXB (пункт 8)",
+    "XXA (примеры в таблице)",
+    "ELA («A comma always precedes że, czy, żeby, and wh-words»)",
+    "PO s. 192 (mowa niezależna: «On zapytał: „Masz czas po południu?”» → mowa zależna без двоеточия и кавычек, с запятой перед czy / że / żeby)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "Эмоциональные элементы (восклицания, междометия, разговорные словечки) при пересказе опускаются.",
+   "pl": [],
+   "refs": [
+    "XXB (пункты 5–6)",
+    "XXA (о восклицательных знаках и эмоциональных элементах)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "Управление глаголов речи: powiedzieć komuś (celownik), zapytać / spytać kogoś (biernik), poprosić kogoś (biernik): powiedział nam, zapytała mnie, poprosiła mnie.",
+   "pl": [],
+   "refs": [
+    "XXA (примеры «powiedział nam», «powiedziała Marcie», «spytał mnie»)",
+    "XXB (примеры «zapytała mnie», «poprosiła mnie»)",
+    "ELB (раздел prosić: «prosić kogoś» (accusative))",
+    "PO s. 192 («Odpowiedziała mu, że…», «Zapytał ją, czy…», «Poprosiła go, żeby…»)",
+    "PO s. 188 (упражнение «rodzice często mówili (mi, mnie, mną)» → mi)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "Слова времени и места тоже пересчитываются с точки зрения пересказчика (tu → tam, jutro → następnego dnia), если пересказ идёт в другом месте или в другой день.",
+   "pl": [],
+   "refs": [
+    "ELA («Pronouns and time/place words shift … (ciebie → mnie, tu → tam)»)"
+   ],
+   "status": "marked",
+   "decision": "правило из одного источника — публикуется одной строкой с пометкой (как решено для czas przyszły и вида): Сдвиг слов времени/места прямо описан одним источником; дано одной строкой с пометкой и в упражнениях не проверяется."
+  }
+ ],
+ "forms": []
+}

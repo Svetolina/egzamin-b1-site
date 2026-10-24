@@ -1,0 +1,180 @@
+{
+ "topic": "swoj-siebie",
+ "title": "Swój, jego; siebie, się — притяжательное «свой» и возвратное «себя»",
+ "stage": "шаги 1–3 готовы (24.10.2026): факты сверены с учебниками проекта со страницами, Katalog A/B вписан; ждёт проверки пользователем",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. c «odmiana zaimków dzierżawczych: mój, twój, nasz, wasz, swój» и «odmiana zaimka zwrotnego: siebie, się», s. 76.",
+  "level": "B1 — swój или jego / jej / ich, где swój невозможен, склонение swój, siebie / sobie / sobą / się, друг друга.",
+  "katalog_b": [
+   "7.1.7 rodzina, członkowie rodziny (s. 84)",
+   "7.1.8 relacje rodzinne (s. 84)",
+   "7.1.9 relacje międzyludzkie (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2.2 wyrażanie posiadania, przynależności (s. 84)"
+  ],
+  "exam": "Формы swój и siebie проверяются в сборнике: блок 3, зад. IV (местоимения: swojego, swojej, swoich) и зад. VI (siebie, sobie, sobą). В реальных экзаменах они встречаются в заданиях IV и V (например, 04.2024, 06.2024).",
+  "depends_on": [
+   "biernik",
+   "dopełniacz",
+   "celownik"
+  ],
+  "feeds": []
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "ELA": "elon.io — «Confusing swój with mój/jego»: https://elon.io/grammar/polish/mistakes/swoj-vs-jego",
+  "CMA": "Clozemaster Blog — «The No-Nonsense Guide to Polish Possessive Pronouns»: https://www.clozemaster.com/blog/polish-possessive-pronouns/",
+  "PDA": "Polski Daily — «B1: Zaimek swój» (PDF, упражнения + схема): https://www.polskidaily.eu/wp-content/uploads/2020/11/B1-Zaimek-swoj.pdf",
+  "ELB": "elon.io — «His, Her, Their: jego, jej, ich (Invariable)»: https://elon.io/grammar/polish/pronouns/possessive/jego-jej-ich",
+  "ELC": "elon.io — «The Reflexive Pronoun: siebie, sobie, sobą»: https://elon.io/grammar/polish/pronouns/reflexive/siebie-sobie",
+  "XXA": "Wikibooks (de) — «Polnisch / Grammatik / Pronomen / Reflexivpronomen»: https://de.wikibooks.org/wiki/Polnisch/_Grammatik/_Pronomen/_Reflexivpronomen",
+  "XXB": "Langenscheidt Polish–German — «siebie»: https://en.langenscheidt.com/polish-german/siebie",
+  "WEA": "Wikipedia (en) — «Polish grammar»: https://en.wikipedia.org/wiki/Polish_grammar",
+  "ELD": "elon.io — «Reciprocal Expressions: się, siebie, nawzajem»: https://elon.io/grammar/polish/pronouns/each-other/wzajemnie",
+  "KEY": "Официальные ключи комиссии: сборник B1 2017 (tests/b1-sbornik.js) и экзамены 2017–2024 (tests/b1-*.js) — найдено поиском по заданиям раздела Gramatyka",
+  "MORF": "Morfeusz 2 (SGJP) — проверка польских слов скриптом tools/morfeusz_check.py",
+  "PP": "Gramatyka z kulturą. Przez przypadki (файл проекта 142944-gramatyka-z-kultura.pdf)"
+ },
+ "noticed": [
+  "Тема перенесена из textbook-src/_scheduled/: источники — сайты (ссылки с разделом), страниц учебников проекта пока нет; Katalog A/B не подобраны.",
+  "Переведено из черновика запланированной задачи и доведено 24.10.2026: ссылки на сайты оставлены вторым источником, к фактам добавлены страницы учебников проекта."
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "ru": "swój — «свой»: указывает на владельца, который является подлежащим того же предложения, и согласуется с предметом владения.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Core Rule)",
+    "CMA (раздел о swój: «the subject must be the same as the owner»)",
+    "PDA (схема: «Kto jest podmiotem?… Czy dopełnienie należy do podmiotu?»)",
+    "KEY: сборник 2017, Gramatyka 3.IV (k3-4), пример: «Jan … troszczy się o swoje dzieci. Kiedy patrzę na jego dzieci…»; ответы swojego, swoich, swojej"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R2",
+   "ru": "В 3-м лице выбор меняет смысл: Jan kocha swoją żonę (свою) — Jan kocha jego żonę (жену другого человека). jego/jej/ich — когда владелец не подлежащее: Znam jego siostrę.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Third Person)",
+    "CMA (jego, jej, ich — fixed 3rd person; swój — any person)",
+    "PDA (ответы упражнений: jej / ich vs swoją / swoim)",
+    "KEY: k3-4 — пример swoje / jego; п. 3: «zaopiekujemy się waszymi dziećmi» (владелец не подлежащее — не swój)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R3",
+   "ru": "swój не бывает в подлежащем: Mój brat mieszka w Krakowie (не *Swój brat). Jego dom jest duży.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Subject Position)",
+    "PDA (схема: если пропуск в подлежащем — «NIE UŻYWAJ ‘SWÓJ’»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R4",
+   "ru": "В 1-м и 2-м лице swój предпочтителен в аккуратной речи, mój/twój тоже встречается (особенно в разговоре): Odwiedzam swojego / mojego brata.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел First and Second Person)",
+    "CMA (swój «can be used to mean any person»; пример Mam swoje własne problemy)",
+    "KEY: k3-4 — ключ принимает обе формы: «ze swoimi / z twoimi uczniami» (п. 5), «swoich / moich obrazów» (п. 9)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R5",
+   "ru": "jego, jej, ich не склоняются и не меняются по роду: jego dom, jego żona, z jego dziećmi.",
+   "pl": [],
+   "refs": [
+    "CMA (раздел о 3-м лице: «always stay jej, jego, and ich»)",
+    "ELB (весь раздел)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R6",
+   "ru": "swój склоняется как mój / прилагательное: swój, swoja, swoje; swojego, swojej, swoim, swoją, swoich, swoimi.",
+   "pl": [],
+   "refs": [
+    "ELA (раздел Declension of swój)",
+    "CMA (swój «follows the same declension pattern as adjectives», swojego)",
+    "KEY: k3-4 (swojego, swoich, swojej, swoimi)",
+    "PP s. 70 (упражнение: «(swój kot)», «(swój kolega)»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R7",
+   "ru": "siebie — возвратное местоимение без именительного падежа: D. siebie, C. sobie, B. siebie / się, N. sobą, Ms. (o) sobie.",
+   "pl": [],
+   "refs": [
+    "ELC (таблица Declension)",
+    "XXA (таблица Reflexivpronomen)",
+    "XXB (формы sobie, siebie / się, sobą)",
+    "KEY: сборник 2017, Gramatyka 3.VI (k3-6): выбор siebie / sobie / sobą"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R8",
+   "ru": "siebie / się — одна форма для всех лиц и чисел: myję się, myjesz się, myjemy się; kupiłem sobie, kupiłaś sobie.",
+   "pl": [],
+   "refs": [
+    "ELC (раздел «Same form for every person»)",
+    "WEA (Pronouns: «The reflexive pronoun for all persons and numbers is się»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R9",
+   "ru": "się — безударная частица при глаголе; после предлога и при логическом ударении — только полная форма: o sobie, dla siebie, ze sobą, do siebie, na sobie, u siebie (у себя дома). Не *o się.",
+   "pl": [],
+   "refs": [
+    "ELC (разделы «Się vs. siebie», «Prepositions», «Common mistakes»)",
+    "ELD (о sobie, ze sobą, do siebie, na siebie)",
+    "XXB (фразы dla siebie, ze sobą, na sobie, przed sobą, obok siebie)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R10",
+   "ru": "sobie (дат. п.) — «себе, для себя»: Kupiłem sobie książkę (не *Kupiłem się książkę*). Nalej sobie kawy.",
+   "pl": [],
+   "refs": [
+    "ELC (Common mistakes: «Kupiłem się książkę → Kupiłem sobie książkę»)",
+    "XXA (таблица: Dativ — sobie)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "R11",
+   "ru": "Если речь о самом подлежащем, нужно siebie, а не личное местоимение: Ona myśli tylko o sobie (о себе) — o niej (о другой женщине). Jestem dumny z siebie.",
+   "pl": [],
+   "refs": [
+    "ELC (Common mistakes: «Ona myśli tylko o niej → o sobie», «Jestem dumny z mnie → z siebie»)",
+    "KEY: k3-6 («Nie lubiłam wtedy (siebie / sobie / sobą)» → siebie — о самом подлежащем)"
+   ],
+   "status": "ok",
+   "decision": "подтверждено учебником проекта при сверке 24.10.2026"
+  },
+  {
+   "id": "R12",
+   "ru": "Взаимность: się (kochają się, spotkaliśmy się), а если глагол требует другого падежа или предлога — sobie / siebie / sobą (pomagają sobie, piszą do siebie, rozmawiają ze sobą); усиление — nawzajem / wzajemnie. «Nawzajem!» — «И вам того же!».",
+   "pl": [],
+   "refs": [
+    "ELD (весь раздел)",
+    "XXB (ze sobą — «miteinander sprechen»; siebie = «einander»)",
+    "KEY: k3-6 («obie zaczęłyśmy ze (sobą) rozmawiać»)",
+    "PP s. 58, 80 («spędzać ze sobą czas», «lubimy ze sobą rozmawiać»)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "forms": []
+}

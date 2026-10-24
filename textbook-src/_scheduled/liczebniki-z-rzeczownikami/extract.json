@@ -1,0 +1,244 @@
+{
+ "topic": "liczebniki-z-rzeczownikami",
+ "title": "Liczebniki z rzeczownikami — числительные с существительными",
+ "level": "A2–B1",
+ "sources": [
+  {
+   "id": "ELN",
+   "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+   "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement"
+  },
+  {
+   "id": "ZPE",
+   "title": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»",
+   "url": "https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM"
+  },
+  {
+   "id": "TPB",
+   "title": "Transparent Language, Polish Language Blog: «Cardinal numbers»",
+   "url": "https://blogs.transparent.com/polish/cardinal-numbers/"
+  },
+  {
+   "id": "PDN",
+   "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+   "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/"
+  },
+  {
+   "id": "LQ",
+   "title": "LingQ grammar resource: «Polish Numerals»",
+   "url": "https://www.lingq.com/pl/grammar-resource/polish/numerals/"
+  },
+  {
+   "id": "JSL",
+   "title": "K. Schlund, «Dwaj panowie przyszli or dwóch panów przyszło?», Journal of Slavic Linguistics (2022) — аннотация",
+   "url": "https://ojs.ung.si/index.php/JSL/article/view/60"
+  }
+ ],
+ "facts": [
+  {
+   "id": "R1",
+   "text": "1 согласуется как прилагательное: jeden kot, jedna kobieta, jedno okno.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«jeden agrees like an adjective»"
+    },
+    {
+     "title": "Transparent Language, Polish Language Blog: «Cardinal numbers»",
+     "url": "https://blogs.transparent.com/polish/cardinal-numbers/",
+     "id": "TPB",
+     "where": "«1 takes the gender form: jeden, jedna, jedno»"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "text": "2, 3, 4 (и составные, которые КОНЧАЮТСЯ на 2, 3, 4: 22, 23, 34, 102…) + Mianownik мн. ч.: trzy koty, cztery okna, dwadzieścia trzy krzesła, 23 stopnie.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«2–4: the noun stays in the nominative plural»"
+    },
+    {
+     "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+     "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+     "id": "PDN",
+     "where": "«2, 3, and 4 (including 22, 23, and 24) take the nominative plural»"
+    },
+    {
+     "title": "LingQ grammar resource: «Polish Numerals»",
+     "url": "https://www.lingq.com/pl/grammar-resource/polish/numerals/",
+     "id": "LQ",
+     "where": "«Numerals ending in 2, 3, or 4»"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "text": "5 и больше (а также 11–21, 25–31, 100, 400…) + Dopełniacz мн. ч.: pięć kotów, siedem kobiet, sto książek, 25 stopni, czterysta złotych.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«5+: the counted noun goes into the genitive plural»"
+    },
+    {
+     "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+     "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+     "id": "PDN",
+     "where": "«Other numbers above 5, except those ending in 2–4, take the genitive plural»"
+    },
+    {
+     "title": "LingQ grammar resource: «Polish Numerals»",
+     "url": "https://www.lingq.com/pl/grammar-resource/polish/numerals/",
+     "id": "LQ",
+     "where": "«All other cardinal numbers take the genitive plural»: siedem kobiet, dwanaście ryb, trzysta złotych"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "text": "12, 13, 14 — НЕ «на 2–4»: в конце не стоят отдельные dwa/trzy/cztery, поэтому + Dopełniacz: dwanaście ryb, czternaście domów.",
+   "sources": [
+    {
+     "title": "LingQ grammar resource: «Polish Numerals»",
+     "url": "https://www.lingq.com/pl/grammar-resource/polish/numerals/",
+     "id": "LQ",
+     "where": "«12–14 fall into the genitive group»"
+    },
+    {
+     "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+     "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+     "id": "PDN",
+     "where": "«2 domy» but «11 domów»; «teens… take lat»"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "text": "Составные, кончающиеся на jeden (21, 31, 101), — jeden не меняется, существительное в Dopełniacz мн. ч.: dwadzieścia jeden lat, trzydzieści jeden domów.",
+   "sources": [
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»",
+     "url": "https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM",
+     "id": "ZPE",
+     "where": "«If the final element is jeden, it stays unchanged»"
+    },
+    {
+     "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+     "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+     "id": "PDN",
+     "where": "«21 and 25–30 take lat»"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "text": "Род у двойки: dwa — мужской неличный и средний (dwa koty, dwa okna), dwie — женский (dwie kobiety, dwie panie).",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«dwa for masculine and neuter, dwie for feminine»"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»",
+     "url": "https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM",
+     "id": "ZPE",
+     "where": "примеры dwa samochody, dwie panie, dwa okna"
+    },
+    {
+     "title": "Transparent Language, Polish Language Blog: «Cardinal numbers»",
+     "url": "https://blogs.transparent.com/polish/cardinal-numbers/",
+     "id": "TPB",
+     "where": "таблица по родам"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "text": "Мужско-личные (мужчины, смешанные группы): dwóch, trzech, czterech, pięciu, sześciu… + Dopełniacz мн. ч.: dwóch studentów, pięciu mężczyzn. Вариант 2–4: dwaj, trzej, czterej + Mianownik: dwaj studenci, trzej mężczyźni.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«dwóch, trzech, czterech, pięciu, sześciu… take the genitive plural»; dwaj studenci"
+    },
+    {
+     "title": "Transparent Language, Polish Language Blog: «Cardinal numbers»",
+     "url": "https://blogs.transparent.com/polish/cardinal-numbers/",
+     "id": "TPB",
+     "where": "«dwaj / trzej / czterej mężczyźni; pięciu mężczyzn»"
+    },
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»",
+     "url": "https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM",
+     "id": "ZPE",
+     "where": "«dwaj chłopcy, dwóch chłopców»"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "text": "Глагол: с 5+ и с мужско-личными dwóch/trzech/pięciu… — единственное число (в прошедшем — средний род): Pięć osób przyszło. Pięciu studentów przyszło. Dwóch mężczyzn przyszło. С 2–4 (не мужско-личными) — множественное: Cztery osoby przyszły. Dwie kobiety przyszły.",
+   "sources": [
+    {
+     "title": "elon.io Polish grammar: «Number Errors: pięć kotów, dwie kobiety, oni/one»",
+     "url": "https://elon.io/grammar/polish/mistakes/numbers-and-agreement",
+     "id": "ELN",
+     "where": "«Verb agreement»: Pięć osób przyszło; Cztery osoby przyszły"
+    },
+    {
+     "title": "K. Schlund, «Dwaj panowie przyszli or dwóch panów przyszło?», Journal of Slavic Linguistics (2022) — аннотация",
+     "url": "https://ojs.ung.si/index.php/JSL/article/view/60",
+     "id": "JSL",
+     "where": "«dwie kobiety przyszły», «dwóch mężczyzn przyszło»"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "text": "С dziecko (dzieci) и словами только мн. ч. — собирательные: dwoje, troje, czworo, pięcioro dzieci.",
+   "sources": [
+    {
+     "title": "Zintegrowana Platforma Edukacyjna (MEN): «Odmiana liczebnika i zaimka»",
+     "url": "https://zpe.gov.pl/a/odmiana-liczebnika-i-zaimka/DlpSOS6eM",
+     "id": "ZPE",
+     "where": "«Collective numerals»: dwoje dzieci, czworo dzieci"
+    },
+    {
+     "title": "Transparent Language, Polish Language Blog: «Cardinal numbers»",
+     "url": "https://blogs.transparent.com/polish/cardinal-numbers/",
+     "id": "TPB",
+     "where": "«dwoje / troje / czworo dzieci; pięcioro dzieci»"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "text": "Возраст и деньги — по тем же правилам: 2–4 lata, 5+ lat (22 lata, 25 lat, 21 lat); 2–4 złote, 5+ złotych (4 złote, 8 złotych).",
+   "sources": [
+    {
+     "title": "Polski Daily: «Polish numerals — nominative or genitive?»",
+     "url": "https://polskidaily.eu/polish-numerals-nominative-or-genitive/",
+     "id": "PDN",
+     "where": "«Age expressions (lata vs. lat)»; «4 złote» but «8 złotych»"
+    },
+    {
+     "title": "LingQ grammar resource: «Polish Numerals»",
+     "url": "https://www.lingq.com/pl/grammar-resource/polish/numerals/",
+     "id": "LQ",
+     "where": "«trzysta złotych»"
+    }
+   ],
+   "note": "Форма lat/lata (от rok) — в одном источнике явно; второй подтверждает лишь złote/złotych."
+  }
+ ]
+}

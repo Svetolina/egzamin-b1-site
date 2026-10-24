@@ -1,0 +1,1148 @@
+{
+ "topic": "spojniki-przyczyna-przyzwolenie",
+ "level": "B1",
+ "group": "Синтаксис",
+ "title_pl": "Bo, ponieważ, więc, chociaż",
+ "title_ru": "Причина, следствие, уступка",
+ "lead": "Bo, ponieważ, dlatego że — почему; więc, dlatego — поэтому; chociaż, mimo że — хотя.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех ступеней проверены (естественность, ответы одним словом в перефразированиях, тест на пересказ, Morfeusz 0 ошибок) — ждёт проверки пользователем",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "STD: Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.3 Składnia, pkt 3 lit. a «współrzędnie ze spójnikami: oraz, a także, lub, albo, czy, dlatego, ale» и lit. b «podrzędnie ze spójnikami: że, żeby, ponieważ, bo, dlatego że, kiedy, gdy …», s. 78. Chociaż / choć, mimo / pomimo że, gdyż, lecz, zatem, toteż — в списке B2 (s. 91).",
+   "KEY: экзамен 11.2021, Gramatyka II. «Союзы» (tests/b1-2021-11.js, g2)",
+   "KEY: экзамен 02.2022, Gramatyka II. «Союзы» (tests/b1-2022-02.js, g2)",
+   "KEY: экзамен 06.2023, Gramatyka II. «Союзы» (tests/b1-2023-06.js, g2)",
+   "KEY: экзамен 04.2024, Gramatyka II. «Союзы» (tests/b1-2024-04.js, g2)",
+   "KEY: сборник 2017, Gramatyka 12.VI. «Формы слов, блок 12, VI» (tests/b1-sbornik.js, k12-6)"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Причина: bo, ponieważ, gdyż",
+   "facts": [
+    "R1",
+    "R2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Союз",
+      "Стиль",
+      "В начале предложения?"
+     ],
+     "rows": [
+      [
+       "bo",
+       "очень частый, разговорный оттенок",
+       "нет"
+      ],
+      [
+       "ponieważ",
+       "нейтральный, годится для официального письма",
+       "да"
+      ],
+      [
+       "gdyż",
+       "официальный, письменный",
+       "—"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Zostałem w domu, bo byłem zmęczony.",
+       "ru": "Я остался дома, потому что устал."
+      },
+      {
+       "pl": "Ponieważ było zimno, wzięłam kurtkę.",
+       "ru": "Поскольку было холодно, я взяла куртку."
+      },
+      {
+       "pl": "Plan wstrzymano, gdyż brakowało funduszy.",
+       "ru": "План приостановили, так как не хватало средств."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Ошибки: [[Bo był zmęczony, poszedł spać → Ponieważ…; ]]Nie poszedłem, bo deszcz → bo padał deszcz (после bo — целое предложение)."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "dlatego że",
+   "facts": [
+    "R3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[dlatego że]] — «потому что» с упором: [[Uczę się polskiego, dlatego że lubię języki.]] С выделением: [[Wyjechała dlatego, że chciała odpocząć.]]"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Следствие: więc, dlatego, zatem",
+   "facts": [
+    "R4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**bo** смотрит назад, на причину; **więc / dlatego** — вперёд, на результат."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Причина → следствие",
+      "Следствие ← причина"
+     ],
+     "rows": [
+      [
+       "Padało, więc wzięliśmy parasol.",
+       "Wzięliśmy parasol, bo padało."
+      ],
+      [
+       "Był zmęczony, dlatego poszedł spać.",
+       "Poszedł spać, ponieważ był zmęczony."
+      ],
+      [
+       "Zaspał, toteż spóźnił się.",
+       "Spóźnił się, bo zaspał."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "zatem — официальный; toteż — книжный."
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Причина-существительное",
+   "facts": [
+    "R5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Предлог",
+      "Падеж",
+      "Пример"
+     ],
+     "rows": [
+      [
+       "z powodu",
+       "D.",
+       "Zamknięto drogę z powodu remontu."
+      ],
+      [
+       "przez",
+       "B.",
+       "Spóźniłem się przez awarię."
+      ],
+      [
+       "dzięki",
+       "C.",
+       "Udało się dzięki pomocy kolegi."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "przez — часто с упрёком, dzięki — «благодаря» (хорошее). Правило — одним источником."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Уступка: chociaż, mimo że",
+   "facts": [
+    "R6",
+    "R7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**chociaż / choć / mimo że / pomimo że** + предложение — «хотя». В главной части **без ale**: [[Chociaż padało, wyszliśmy na spacer.]]"
+    },
+    {
+     "type": "p",
+     "text": "Запятая — перед всем союзом: [[…, mimo że…]] (не [[mimo, że]])."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Ошибка по русской модели «хотя…, но…»: [[Chociaż padało, ale wyszliśmy]]."
+    },
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило подтверждено одним источником — дано одной строкой с пометкой."
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t6",
+   "title": "mimo + dopełniacz; mimo to",
+   "facts": [
+    "R8",
+    "R9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[mimo wszystko]] — «несмотря ни на что». [[jednak]] — «однако»: в начале или внутри: [[Postanowiłem jednak spróbować.]]"
+    },
+    {
+     "type": "table",
+     "head": [
+      "С предложением",
+      "С существительным",
+      "Отдельное слово"
+     ],
+     "rows": [
+      [
+       "Mimo że padał deszcz, poszliśmy.",
+       "Mimo deszczu poszliśmy.",
+       "Padał deszcz. Mimo to poszliśmy."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "ale, lecz",
+   "facts": [
+    "R10"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[ale]] — обычное «но», [[lecz]] — книжное. Перед ними — запятая: [[Chciałem przyjść, ale nie miałem czasu.]]"
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Эти союзы — постоянные ответы в задании II реальных экзаменов «союзы» (например, 11.2021: chociaż, ponieważ; 02.2022: bo, chociaż; 06.2023, 11.2022, 03.2022: ponieważ; 02.2023, 11.2023, 04.2024: bo, więc) и в задании VI блока 12 сборника."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Почему? — [[bo, ponieważ, dlatego że]].",
+      "И что из этого? — [[więc, dlatego]].",
+      "Вопреки чему? — [[chociaż, mimo że]] или [[mimo]] + родительный."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "title": "bo или ponieważ?",
+   "instr": "Впишите союз причины. В начале предложения bo нельзя. Где помечено «офиц.» — только официальный союз.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Zostałem w domu, ___ byłem zmęczony.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż",
+      "dlatego że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "___ było zimno, wzięłam kurtkę.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie przyszła, ___ była chora.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż",
+      "dlatego że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "___ nie mam czasu, nie pójdę z wami.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Uczę się polskiego, ___ lubię języki.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż",
+      "dlatego że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Uprzejmie informuję, że nie będę obecny na zebraniu, ___ jestem w delegacji. (офиц.)",
+     "a": [
+      "gdyż",
+      "ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "___ autobus się spóźnił, wzięłam taksówkę.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie zadzwoniłem, ___ nie miałem twojego numeru.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż",
+      "dlatego że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Wyjechała ___, że chciała odpocząć.",
+     "a": [
+      "dlatego"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie kupię tego, ___ jest za drogie.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż",
+      "dlatego że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "___ pada deszcz, zostaniemy w domu.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Szkolenie odwołano, ___ zachorował trener. (офиц.)",
+     "a": [
+      "gdyż",
+      "ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "Причина или следствие?",
+   "instr": "Впишите bo/ponieważ (причина) или więc/dlatego (следствие).",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Padało, ___ wzięliśmy parasol.",
+     "a": [
+      "więc",
+      "dlatego",
+      "toteż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Wzięliśmy parasol, ___ padało.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Był zmęczony, ___ poszedł wcześnie spać.",
+     "a": [
+      "więc",
+      "dlatego",
+      "toteż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Poszedł wcześnie spać, ___ był zmęczony.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Zaspał, ___ spóźnił się do pracy.",
+     "a": [
+      "więc",
+      "dlatego",
+      "toteż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Spóźnił się do pracy, ___ zaspał.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie mam samochodu, ___ jeżdżę autobusem.",
+     "a": [
+      "więc",
+      "dlatego",
+      "toteż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Jeżdżę autobusem, ___ nie mam samochodu.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Wyniki są jasne, ___ decyzja jest prosta.",
+     "a": [
+      "więc",
+      "dlatego",
+      "zatem"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Lubię to miasto, ___ jest spokojne.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "z powodu, przez, dzięki",
+   "instr": "Поставьте слово в скобках в нужный падеж.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Zamknięto drogę z powodu ___ (remont).",
+     "a": [
+      "remontu"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Spóźniłem się przez ___ (awaria).",
+     "a": [
+      "awarię"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Udało się dzięki ___ (pomoc) kolegi.",
+     "a": [
+      "pomocy"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Lot odwołano z powodu ___ (mgła).",
+     "a": [
+      "mgły"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Przez ___ (ty) spóźniłam się na pociąg!",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Dzięki ___ (wy) wszystko się udało.",
+     "a": [
+      "wam"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Szkoła była zamknięta z powodu ___ (choroba) nauczycieli.",
+     "a": [
+      "choroby"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Zdałam egzamin dzięki ___ (twoje notatki).",
+     "a": [
+      "twoim notatkom"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Przez ___ (korek) nie zdążyliśmy na film.",
+     "a": [
+      "korek"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    },
+    {
+     "q": "Mecz przełożono z powodu ___ (deszcz).",
+     "a": [
+      "deszczu"
+     ],
+     "expl": "Причина-существительное — через предлог: z powodu + dopełniacz (нейтр.), przez + biernik (часто с упрёком), dzięki +…",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "title": "Хотя, несмотря на, но",
+   "instr": "Впишите союз или поставьте слово в нужную форму.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "___ padał deszcz, poszliśmy na spacer. (хотя)",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Poszliśmy na spacer mimo ___ (deszcz).",
+     "a": [
+      "deszczu"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Mimo ___ (zmęczenie) skończył pracę.",
+     "a": [
+      "zmęczenia"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "___ jest starsza od narzeczonego, dobrze się rozumieją. (хотя)",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Pomimo ___ (problemy) firma się rozwija.",
+     "a": [
+      "problemów"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Był chory. ___ poszedł do pracy. (тем не менее)",
+     "a": [
+      "Mimo to",
+      "Jednak",
+      "Mimo wszystko"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Mimo ___ (późna godzina) wszyscy jeszcze pracowali.",
+     "a": [
+      "późnej godziny"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Lubię go, ___ czasem mnie denerwuje. (хотя)",
+     "a": [
+      "chociaż",
+      "choć",
+      "mimo że",
+      "pomimo że"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Chciałem przyjść, ___ nie miałem czasu. (но)",
+     "a": [
+      "ale",
+      "lecz"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Nie mówię dobrze po polsku, ___ rozumiem prawie wszystko. (но / однако)",
+     "a": [
+      "ale",
+      "lecz",
+      "jednak"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    },
+    {
+     "q": "Mimo ___ jestem optymistką. (всё)",
+     "a": [
+      "wszystko"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że, pomimo że («хотя») + придаточное; в главной части ale/jednak НЕ добавляется: Chociaż…",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "Исправьте ошибку",
+   "instr": "Напечатайте правильный вариант вместо пропуска.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Bo był zmęczony, poszedł spać. → ___ był zmęczony, poszedł spać.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Zostałem w domu, **ponieważ że** padało. → Zostałem w domu, ___ padało.",
+     "a": [
+      "ponieważ",
+      "bo",
+      "gdyż"
+     ],
+     "expl": "Причина: ponieważ / bo / gdyż — без że.",
+     "t": "t1"
+    },
+    {
+     "q": "Chociaż padało, ale wyszliśmy na spacer. → Chociaż padało, ___ na spacer.",
+     "a": [
+      "wyszliśmy"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie poszedłem, **bo deszcz**. → Nie poszedłem, bo ___ deszcz.",
+     "a": [
+      "padał"
+     ],
+     "expl": "После bo — целое предложение с глаголом: bo padał deszcz.",
+     "t": "t1"
+    },
+    {
+     "q": "Zostaliśmy w domu, dlatego padało. → Padało, ___ zostaliśmy w domu.",
+     "a": [
+      "więc",
+      "dlatego"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Mimo deszcz poszliśmy na spacer. → Mimo ___ poszliśmy na spacer.",
+     "a": [
+      "deszczu"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Był zmęczony, bo poszedł spać. → Był zmęczony, ___ poszedł spać.",
+     "a": [
+      "więc",
+      "dlatego"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Album mimo, że został nagrany dawno, jest popularny. → Album, ___ został nagrany dawno, jest popularny.",
+     "a": [
+      "mimo że",
+      "choć",
+      "chociaż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "Соедините предложения",
+   "instr": "Соедините два предложения подходящим союзом (в скобках — что он выражает). Впишите союз.",
+   "level": 2,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Jest zimno. Włożę kurtkę. (следствие) → Jest zimno, ___ włożę kurtkę.",
+     "a": [
+      "więc",
+      "dlatego",
+      "toteż",
+      "zatem"
+     ],
+     "expl": "Следствие: więc, dlatego, toteż (zatem).",
+     "t": "t3"
+    },
+    {
+     "q": "Nie przyszedł. Był chory. (причина) → Nie przyszedł, ___ był chory.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина во второй части: bo, ponieważ, gdyż.",
+     "t": "t1"
+    },
+    {
+     "q": "Było późno. Pracowaliśmy dalej. (уступка) → ___ było późno, pracowaliśmy dalej.",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że.",
+     "t": "t5"
+    },
+    {
+     "q": "Mam egzamin. Uczę się całą noc. (следствие) → Mam egzamin, ___ uczę się całą noc.",
+     "a": [
+      "dlatego",
+      "więc",
+      "toteż",
+      "zatem"
+     ],
+     "expl": "Следствие: więc, dlatego, toteż (zatem).",
+     "t": "t3"
+    },
+    {
+     "q": "Padał deszcz. Graliśmy w piłkę. (уступка) → ___ padał deszcz, graliśmy w piłkę.",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Уступка: chociaż, choć, mimo że.",
+     "t": "t5"
+    },
+    {
+     "q": "Autobus się spóźnił. Wzięłam taksówkę. (причина, начало предложения) → ___ autobus się spóźnił, wzięłam taksówkę.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "В начале предложения — ponieważ, не bo.",
+     "t": "t1"
+    },
+    {
+     "q": "Lubię go. Często się kłócimy. (противопоставление) → Lubię go, ___ często się kłócimy.",
+     "a": [
+      "ale",
+      "lecz",
+      "choć",
+      "chociaż",
+      "mimo że"
+     ],
+     "expl": "Противопоставление: ale / lecz или уступка chociaż.",
+     "t": "t7"
+    },
+    {
+     "q": "Zaspał. Spóźnił się. (следствие) → Zaspał, ___ się spóźnił.",
+     "a": [
+      "więc",
+      "toteż",
+      "dlatego"
+     ],
+     "expl": "Следствие: więc, dlatego, toteż (zatem).",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "Тест в формате экзамена: рекламация",
+   "instr": "Uzupełnij list (styl oficjalny). Wpisz spójnik albo wyraz w nawiasie w odpowiedniej formie. W nawiasie — podpowiedź po rosyjsku.",
+   "format": "exam",
+   "level": 3,
+   "kind": "text",
+   "passage": "Szanowni Państwo, piszę do Państwa, {1} chciałabym złożyć reklamację. Dwa tygodnie temu kupiłam w Państwa sklepie pralkę. {2} była nowa, po tygodniu przestała działać. Dzwoniłam do serwisu, {3} nikt nie odbierał. Mimo {4} nie udało mi się z nikim porozmawiać. {5} nie mam pralki, muszę prać u sąsiadki. Z powodu {6} musiałam przełożyć urlop, {7} cały tydzień czekałam na technika. Technik w końcu przyszedł, {8} nie naprawił pralki, {9} nie miał potrzebnej części. {10} proszę o wymianę pralki na nową. Mam nadzieję, że dzięki {11} sprawa zostanie szybko załatwiona. {12} wszystko jestem zadowolona z wcześniejszych zakupów w Państwa sklepie. Z poważaniem, Anna Nowak",
+   "items": [
+    {
+     "q": "потому что",
+     "a": [
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "хотя",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "но",
+     "a": [
+      "ale",
+      "lecz"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "wiele prób",
+     "a": [
+      "wielu prób"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "поскольку",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "awaria",
+     "a": [
+      "awarii"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "так как",
+     "a": [
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "однако",
+     "a": [
+      "jednak",
+      "ale",
+      "lecz"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "так как",
+     "a": [
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "поэтому",
+     "a": [
+      "Dlatego",
+      "Zatem"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Państwa szybka reakcja",
+     "a": [
+      "Państwa szybkiej reakcji"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "несмотря на",
+     "a": [
+      "Mimo",
+      "Pomimo"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "title": "Przekształcenia",
+   "instr": "Перестройте предложение, сохранив смысл. Напечатайте пропущенную часть.",
+   "format": "exam",
+   "level": 3,
+   "kind": "type",
+   "items": [
+    {
+     "q": "Ponieważ padał deszcz, mecz odwołano. → Mecz odwołano z powodu ___.",
+     "a": [
+      "deszczu"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Chociaż był zmęczony, skończył pracę. → Mimo ___ skończył pracę.",
+     "a": [
+      "zmęczenia"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Mimo choroby poszła do pracy. → Mimo że była ___, poszła do pracy.",
+     "a": [
+      "chora"
+     ],
+     "expl": "Mimo że + целое предложение: mimo że była chora.",
+     "t": "t5"
+    },
+    {
+     "q": "Zdałem egzamin, bo mi pomogłeś. → Zdałem egzamin dzięki twojej ___.",
+     "a": [
+      "pomocy"
+     ],
+     "expl": "dzięki + celownik: twojej pomocy.",
+     "t": "t4"
+    },
+    {
+     "q": "Ponieważ był korek, spóźniliśmy się. → Spóźniliśmy się przez ___.",
+     "a": [
+      "korek"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Mimo złej pogody pojechaliśmy nad morze. → ___ pogoda była zła, pojechaliśmy nad morze.",
+     "a": [
+      "Chociaż",
+      "Choć",
+      "Mimo że",
+      "Pomimo że"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Był zmęczony, więc poszedł spać. → Poszedł spać, ___ był zmęczony.",
+     "a": [
+      "bo",
+      "ponieważ",
+      "gdyż"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    },
+    {
+     "q": "Nie mam czasu, dlatego nie przyjdę. → ___ nie mam czasu, nie przyjdę.",
+     "a": [
+      "Ponieważ"
+     ],
+     "expl": "Причина: bo, ponieważ, gdyż («потому что»); перед ними — запятая.",
+     "t": "t1"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Рекламация",
+   "instr": "Napisz list z reklamacją (100–120 słów) do biura podróży: wycieczka nie była taka, jak w ofercie. Opisz problemy, ich przyczyny i skutki, napisz, czego oczekujesz.",
+   "words": [
+    100,
+    120
+   ],
+   "need": "Официальные ponieważ, gdyż, zatem; z powodu + родительный; уступка (chociaż, mimo że, mimo + родительный); dlatego или więc; без bo в начале предложения.",
+   "model": "Szanowni Państwo,\npiszę do Państwa, ponieważ jestem niezadowolona z wycieczki do Grecji, którą kupiłam w Państwa biurze. W ofercie był hotel przy plaży, jednak mieszkaliśmy dwa kilometry od morza. Codziennie musieliśmy jeździć autobusem, dlatego traciliśmy dużo czasu. Z powodu remontu basen był zamknięty przez cały tydzień. Chociaż płaciliśmy za wycieczki z przewodnikiem, przewodnik dwa razy nie przyszedł, gdyż był chory. Hotel był też głośny z powodu dyskoteki obok. Mimo naszych próśb nikt nie zaproponował nam innego rozwiązania. Wycieczka nie była zatem taka, jak w ofercie. Mimo że rozumiem trudności, oczekuję zwrotu części pieniędzy, więc proszę o szybką odpowiedź. Liczę na zrozumienie.\nZ poważaniem\nOksana Melnyk",
+   "model_future": [
+    "ponieważ",
+    "dlatego",
+    "z powodu remontu",
+    "chociaż",
+    "gdyż",
+    "mimo naszych próśb",
+    "zatem",
+    "mimo że",
+    "więc"
+   ],
+   "checklist": [
+    "официальные союзы: ponieważ, gdyż, zatem",
+    "1 конструкция z powodu + D.",
+    "1 уступка: chociaż / mimo że / mimo + D.",
+    "dlatego / więc для следствия",
+    "без bo в начале предложения",
+    "100–120 слов"
+   ],
+   "t": "t1",
+   "items": []
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Работа из дома: за и против",
+   "instr": "Napisz wpis na forum (80–100 słów): czy praca zdalna jest lepsza od pracy w biurze? Podaj argumenty za i przeciw, napisz swoje zdanie.",
+   "words": [
+    80,
+    100
+   ],
+   "need": "Две причины (bo, ponieważ), две уступки (chociaż, mimo + родительный), mimo to или jednak, dzięki + дательный, вывод с więc или dlatego.",
+   "model": "Praca zdalna — tak czy nie?\nOd roku pracuję z domu i jestem zadowolona, bo nie tracę czasu na dojazdy. Dzięki temu mam więcej czasu dla rodziny. Pracuję też spokojniej, ponieważ nikt mi nie przeszkadza. Chociaż w domu jest wygodnie, czasem brakuje mi rozmów z kolegami. Mimo dobrego internetu spotkania online są męczące. Niektórzy mówią, że w domu trudno się skupić. Mimo to uważam, że praca zdalna jest lepsza, jeśli ma się swój pokój. Najlepiej pracować w biurze raz albo dwa razy w tygodniu, więc wybieram model mieszany.",
+   "model_future": [
+    "bo",
+    "dzięki temu",
+    "ponieważ",
+    "chociaż",
+    "mimo dobrego internetu",
+    "mimo to",
+    "więc"
+   ],
+   "checklist": [
+    "2 причины (bo, ponieważ)",
+    "2 уступки (chociaż, mimo + D.)",
+    "1 mimo to / jednak",
+    "1 dzięki + C.",
+    "вывод с więc / dlatego",
+    "80–100 слов"
+   ],
+   "t": "t1",
+   "items": []
+  }
+ ]
+}
