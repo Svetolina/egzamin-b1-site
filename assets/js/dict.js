@@ -136,6 +136,7 @@ function wordsTab(query){
       if(st.menu===w.id){
         var a=el('div','witem-a');
         a.append(UI.btn('btn2 small','Изменить',function(){st.menu=null;UI.wordForm({word:w});}));
+        if(B1.review&&B1.review.on())a.append(UI.btn('btn2 small','Замечание',function(){st.menu=null;B1.review.form({prefill:{scope:'dict:'+w.id,quote:w.pl+' — '+w.tr,src:'Словарь › '+w.pl,href:'#/dict/words?w='+encodeURIComponent(w.id),type:'dict'}});}));
         a.append(UI.btn('btn2 small danger','Удалить',function(){st.menu=null;var rem=S.words.remove(w.id);UI.toast('Слово удалено',function(){S.words.restore(rem);});}));
         r.append(a);
       }
@@ -150,6 +151,7 @@ function wordsTab(query){
 /* ---------- все комментарии ---------- */
 var TYPES=[['all','Все'],['Вопрос','Вопросы'],['Запомнить','Запомнить'],['Ошибка в материале','Ошибки'],['Заметка','Заметки']];
 function commentsTab(query){
+  if(B1.review&&B1.review.on())return B1.review.commentsTab(query||{});
   var all=S.comments.all();
   if(query&&query.c)st.hl=query.c;
   if(!all.length){

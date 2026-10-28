@@ -457,6 +457,8 @@ function wordForm(o){
 var TAGS=['Вопрос','Запомнить','Ошибка в материале','Заметка'];
 function commentForm(o){
   o=o||{};
+  /* в режиме проверки вместо обычного комментария — замечание (тип, статус, «как должно быть») */
+  if(B1.review&&((o.comment&&o.comment.kind)||(!o.comment&&B1.review.on())))return B1.review.form(o);
   var c=o.comment||null,pre=o.prefill||{};
   var sh=sheet(c?'Изменить комментарий':(pre.tag==='Заметка'&&!pre.quote?'Новая заметка':'Новый комментарий'));
   var b=sh.body;
@@ -595,11 +597,13 @@ function wrapRange(root,start,len,cid){
 var TAGCLS={'Вопрос':'t-q','Запомнить':'t-r','Ошибка в материале':'t-e','Заметка':'t-n'};
 function noteCard(c){
   var d=el('div','cnote'+(c.done?' done':''));
-  var h=el('div','cnote-h');h.append(el('span','ctag '+(TAGCLS[c.tag]||''),c.tag));
-  if(c.done)h.append(el('span','cdone','решено'));
+  var h=el('div','cnote-h');h.append(el('span','ctag '+(c.kind?'rv-ty t-'+c.kind:(TAGCLS[c.tag]||'')),c.tag));
+  if(c.kind&&B1.review){var s=B1.review.statusOf(c);h.append(el('span','rv-st s-'+s,B1.review.ST[s]||s));}
+  else if(c.done)h.append(el('span','cdone','решено'));
   d.append(h);
   if(c.quote)d.append(el('p','cnote-q pl','«'+c.quote+'»'));
   d.append(el('p','cnote-t',c.text));
+  if(c.fix)d.append(el('p','cnote-t fix-l','→ '+c.fix));
   var row=el('div','cnote-a');
   row.append(btn('lnk','Изменить',function(){commentForm({comment:c});}));
   row.append(btn('lnk danger','Удалить',function(){var rem=S.comments.remove(c.id);toast('Комментарий удалён',function(){S.comments.restore(rem);});}));
@@ -675,7 +679,7 @@ function afterRoute(o){
   if(!fab)buildFab();
   closeFab();hideBar();hideToastIfStale();
   if(openSheet)openSheet.close();
-  showComments=false;
+  showComments=!!o.showComments;
   document.body.classList.toggle('no-fab',!!o.noFab);
   document.body.classList.toggle('no-comments',!!o.noComments);
   if(exam!=='idle'&&!app.querySelector('.timer')){document.dispatchEvent(new CustomEvent('b1:exam',{detail:'idle'}));}

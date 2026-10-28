@@ -6,7 +6,7 @@ var B1=window.B1,U=B1.util,el=U.el,fmt=U.fmt,S=B1.store,UI=B1.ui;
 var app=document.getElementById('app');
 var SEC=B1.sections;
 var SITE='Polski';
-var ASSET_VER='20261023g';B1.ASSET_VER=ASSET_VER; /* бампать при каждом обновлении файлов — иначе браузер/CDN может отдавать старый кеш tests/<id>.js */
+var ASSET_VER='20261024a';B1.ASSET_VER=ASSET_VER; /* бампать при каждом обновлении файлов — иначе браузер/CDN может отдавать старый кеш tests/<id>.js */
 var AUTO=['sluch','czyt','gram'];
 var flt={src:'all',type:'all',todo:false};
 var pageLabel='';
@@ -273,7 +273,11 @@ function home(){
   }
   var s=section('Учить');
   var g=el('div','grid2');
-  LEARN.forEach(function(l){var a=link('#/learn/'+l.k,'ltile');a.append(el('span','ltile-t',l.t),el('span','ltile-s',l.s),soon());g.append(a);});
+  LEARN.forEach(function(l){
+    var live=l.k==='grammar'&&B1.textbook&&B1.textbook.index().length;
+    var a=link('#/learn/'+l.k,'ltile');a.append(el('span','ltile-t',l.t),el('span','ltile-s',live?B1.textbook.index().length+' '+plural(B1.textbook.index().length,'тема','темы','тем'):l.s));
+    if(!live)a.append(soon());g.append(a);
+  });
   s.append(g);
   var p=section();
   var pa=link('#/practice','ptile');
@@ -281,6 +285,7 @@ function home(){
   p.append(pa);
 }
 function learnPage(k){
+  if(k==='grammar'&&B1.textbook&&B1.textbook.index().length)return B1.textbook.listPage();
   var l=LEARN.filter(function(x){return x.k===k;})[0];if(!l)return home();
   title(l.t);setActive(k==='texts'?'texts':'learn');wide(false);
   tophead('#/',l.t,l.s);
@@ -734,6 +739,9 @@ function welcome(step){
 
 /* ---------- подпись источника для слов и комментариев ---------- */
 function labelFor(scopeEl){
+  if(scopeEl&&scopeEl.dataset.cscope&&B1.review){
+    var tl=B1.review.labelForScope(scopeEl.dataset.cscope);if(tl)return tl;
+  }
   if(scopeEl&&scopeEl.dataset.cscope){
     var p=scopeEl.dataset.cscope.split('/'),tid=p[0],kid=p.slice(1).join('/');
     var c=entryById(tid),t=dataById(tid);
@@ -769,6 +777,10 @@ function route(){
   else if(p==='task')taskPage(parts[1],parts[2],parts[3]);
   else if(p==='test'){if(parts.length<3)testPage(parts[1]);else modulePage(parts[1],parts[2],parts[3]);}
   else if(p==='learn')learnPage(parts[1]);
+  else if(p==='topic'&&B1.textbook){B1.textbook.topicPage(parts,query);opts.showComments=!!(B1.review&&B1.review.on());opts.noFab=true;}
+  else if(p==='review'&&B1.review){B1.review.exportPage();opts.noFab=true;opts.noComments=true;}
+  else if(p==='admin'&&B1.review){B1.review.adminPage();opts.noFab=true;opts.noComments=true;}
+  else if(p==='login'&&B1.review){B1.review.loginPage();opts.noFab=true;opts.noComments=true;}
   else if(p==='texts')textsPage();
   else if(p==='progress')progressPage();
   else if(p==='search'){searchPage();opts.noFab=true;opts.noComments=true;}
@@ -778,6 +790,7 @@ function route(){
   else home();
   if(document.body.classList.contains('first-run'))opts.noFab=true;
   if(!(p==='test'&&parts[3]))window.scrollTo(0,0);
+  if(B1.log)B1.log('page',pageLabel||p||'home');
   app.focus({preventScroll:true});
   rememberVisit();
   updateStickyOffsets();
@@ -796,6 +809,7 @@ function updateStickyOffsets(){
   document.documentElement.style.setProperty('--modh-h',(modh?modh.offsetHeight:0)+'px');
 }
 window.addEventListener('resize',updateStickyOffsets);
+B1.updateSticky=updateStickyOffsets;
 
 var audioObserver=null;
 function setupAudioAutopause(){

@@ -1,0 +1,914 @@
+{
+ "topic": "dopelniacz",
+ "title": "Dopełniacz — родительный падеж (ед. число)",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-24",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 «deklinacja», lit. a–c (существительные всех типов, в т.ч. «babcia, aula, telewizja», «gospodyni», «rzecz, noc», «muzeum, imię»; прилагательные; местоимения ja, ty, on…, ten, mój, twój, swój), s. 75–76; 2.2.3 Składnia, pkt 1 lit. b «dopełniacz: jako określenie rzeczownika bez przyimka (Książka Iwony leży na stole. Janek wypił filiżankę kawy…), z przyimkiem (Dostał koszulę z bawełny… reklama proszku do prania); jako określenie czasownika zaprzeczonego (Studentki nie przeczytały tych artykułów…), z rekcją dopełniaczową (Szuka większego mieszkania. Potrzebują nowych butów.), wyrażające różne okoliczności (Wracają z Krakowa do Warszawy. Apteka jest obok szpitala. Jestem bez pracy. Zrobił to dla kariery.); jako podmiot (Studentów nie było na tym spotkaniu.)», s. 77. На A2 (Część II, D, s. 67–68) — те же функции с более простыми примерами (Samochód sąsiada stoi na parkingu. Mam butelkę wody. Mieszka obok szpitala. Szuka dużego pokoju.).",
+  "level": "B1 — повторение и расширение A2: все типы существительных ед. числа (-y/-i, -a/-u, беглое e, -ii/-cji, imię, pani), прилагательные и местоимения, глаголы и предлоги с родительным, количество, принадлежность, даты. Мн. число — в блоке 4; отрицание подробно — в теме «Родительный при отрицании».",
+  "katalog_b": [
+   "7.10 Zakupy, pkt 2 artykuły spożywcze (s. 85)",
+   "7.11 Żywność i napoje (s. 86)",
+   "7.3 Życie codzienne, pkt 3 określenia czasu — miesiące, daty (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2 Pojęcia ogólne, pkt 2 wyrażanie posiadania, przynależności (s. 84)",
+   "6.2 pkt 4 wyrażanie relacji czasowych — daty (s. 84)",
+   "6.1 pkt 6 lit. c wyrażanie życzenia — życzę zdrowia (s. 83)"
+  ],
+  "exam": "В грамматике экзамена — «впишите слово в правильной форме»: сборник комиссии 2017, блок 1 k1-7 (życzyć: sukcesów, radości, powodzenia, miłości, zdrowia, szczęścia; пример «nie ma psa»), k1-3 (do swoich zajęć, po pracy, hałasu), k1-1 (nie ma słońca, nie lubimy ruchu), k1-2 (walory urody, postać trucicielki), k1-8 (do swojego domu, opowieści pana Antoniego); блок 11 k11-6 (nawiązywania kontaktu, internetowego łącza); местоимения — блок 3 k3-1 (jej, twojego).",
+  "depends_on": [
+   "biernik",
+   "род существительных (A1–A2)"
+  ],
+  "feeds": [
+   "dopelniacz-po-negacji",
+   "liczebniki-z-rzeczownikami (pięć + родительный мн.)",
+   "блок 4: родительный мн. число"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, rozdział «Dopełniacz liczby pojedynczej», s. 36–45 (s. 38–39 — окончания существительных, s. 40 — прилагательные, местоимения и употребление, s. 42–43 — глаголы и предлоги в упражнениях)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 4, s. 81 (даты: название месяца в родительном), lekcja 6, s. 120 (короткие формы местоимений, n- после предлогов), lekcja 8, s. 157 (z + narzędnik), lekcja 9, s. 180 (imię — imienia, szczenię — szczenięcia)",
+  "JPBG11": "Język polski bez granic, kl. XI (B1, cz. 2), Wspólnota Polska: lekcja 5, s. 100 («Wyrazy określające ilość»: dużo, mało, trochę + dopełniacz)",
+  "ZJP": "Z językiem polskim każdego dnia – B1 (UDSC 2023): ćwiczenia s. 10 (lekcja 1C, «Zapisz słownie daty w dopełniaczu»); podręcznik s. 64 (ramka «około… + dopełniacz») — явных правил окончаний нет",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы: D. ucznia, żony, okna; dobrego, dobrej): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "STEF": "Stefańczyk W.T., «O repartycji końcówek -a i -u w dopełniaczu liczby pojedynczej rodzaju męskiego», Annales UMCS, Sectio FF, vol. XXIV (2006): https://www.dlibra.umcs.lublin.pl/Content/24044/download",
+  "KURS": "Kurs języka polskiego (G. Jagodziński), «Lekcja dziewiąta: Dopełniacz liczby pojedynczej»: https://grzegorj.smallhost.pl/kurs/09.html",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka: blok 1 (k1-1, k1-2, k1-3, k1-7, k1-8), blok 3 (k3-1), blok 11 (k11-6) — ключ внесён в tests/b1-sbornik.js сайта",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "D1",
+   "ru": "Родительный (dopełniacz, kogo? czego?) нужен: при количестве (szklanka herbaty), принадлежности (dom brata), отсутствии и отрицании (nie ma czasu), в датах (pierwszego maja), после ряда глаголов (szukać, potrzebować) и предлогов (do, od, z, bez, dla, u…).",
+   "pl": [
+    "Szukam klucza. To jest samochód brata. Nie mam czasu."
+   ],
+   "refs": [
+    "PP s. 40 («Dopełniacza używamy: a) gdy mówimy, ile czegoś jest… b) czyje to jest… c) że czegoś nie ma… d) negacji biernika… e) daty… g) po niektórych czasownikach… h) po przyimkach»)",
+    "STD B1 2.2.3 pkt 1 lit. b, s. 77 (Książka Iwony; filiżankę kawy; Szuka większego mieszkania; Wracają z Krakowa do Warszawy; Studentów nie było)",
+    "KURS (dom mamy, pierwszy maja, nie ma Anny)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D2",
+   "ru": "Женский род на -a: после твёрдой согласной — -y (kawa → kawy, woda → wody), после «отвердевших» c, cz, sz, rz, ż — тоже -y (ulica → ulicy, kasza → kaszy); после мягкой, -l, -j и после -k, -g — -i (babcia → babci, kuchnia → kuchni, szkoła → szkoły, но mąka → mąki, książka → książki, droga → drogi).",
+   "pl": [
+    "Nie ma kawy. Idę do szkoły. Szukam książki. Wracam z kuchni."
+   ],
+   "refs": [
+    "PP s. 38–39 (таблица: «-i po spółgłoskach miękkich, po -l oraz po -k, -g»; «-y po spółgłoskach twardych i stwardniałych»: wody, zupy, herbaty; z ulicy, kaszy; mąki, szynki, książki; dla babci, z kuchni)",
+    "ZPE (таблица: D. żony)",
+    "KURS (mama → mamy, burza → burzy, matka → matki)",
+    "KEY k1-2 (urody, trucicielki), k1-3 (pracy)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D3",
+   "ru": "Женский род на согласную: обычно -i (miłość → miłości, sól → soli, noc → nocy после отвердевшей — -y; rzecz → rzeczy).",
+   "pl": [
+    "Życzę ci radości. Zupa bez soli. Pracuję do nocy."
+   ],
+   "refs": [
+    "PP s. 39 (-i po spółgłoskach miękkich: bez soli, z Łodzi; -y po stwardniałych: ciszy, pomarańczy)",
+    "KEY k1-7 (radości, miłości)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D4",
+   "ru": "Слова на -ia и -cja после согласной (обычно иностранные): -ii, -cji: Austria → Austrii, historia → historii, lekcja → lekcji, telewizja → telewizji.",
+   "pl": [
+    "Wracam z Austrii. Po lekcji idę do domu."
+   ],
+   "refs": [
+    "PP s. 39 (**: «Rzeczowniki obcego pochodzenia zakończone na -ia w dopełniaczu l. poj. kończą się na -ii (z Austrii, Hiszpanii, Irlandii…)»)",
+    "KURS (amnestia → amnestii, lekcja → lekcji)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D5",
+   "ru": "pani и gospodyni в родительном не меняются: pani → pani, gospodyni → gospodyni.",
+   "pl": [
+    "To jest torebka tej pani."
+   ],
+   "refs": [
+    "KURS (pani → pani)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D6",
+   "ru": "Мужской род одушевлённый (люди и животные): -a: brat → brata, lekarz → lekarza, kot → kota.",
+   "pl": [
+    "Czekam na syna u lekarza. To miska kota."
+   ],
+   "refs": [
+    "PP s. 39 («rzeczowniki rodzaju męskiego żywotnego (nie ma dyrektora, kucharza, kelnera, kurczaka, łososia, śledzia)»)",
+    "KURS (ojciec → ojca, syn, brat → brata)",
+    "KEY k1-7 (przykład: nie ma psa), k1-8 (pana Antoniego)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D7",
+   "ru": "Мужские слова на -a (tata, kolega, kierowca, mężczyzna) склоняются как женские: -y / -i: taty, kolegi, kierowcy.",
+   "pl": [
+    "Idę do kolegi. To samochód taty."
+   ],
+   "refs": [
+    "PP s. 38 (заголовок таблицы: «rodzaj żeński (i słowa rodzaju męskiego zakończone na -a)»)",
+    "KURS («tata → taty»)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D8",
+   "ru": "Мужской неодушевлённый: часто -u — вещества и несчётное (cukru, ryżu, soku), абстрактное (czasu, hałasu), большое и «фон» (domu, parku), дни недели (od poniedziałku), иностранные названия (z Londynu), слова на -unek и -izm (rachunku, optymizmu).",
+   "pl": [
+    "Nie mam czasu. Kupiłam paczkę ryżu. Od poniedziałku do piątku."
+   ],
+   "refs": [
+    "PP s. 39 (-u: «a) często: substancje, rzeczy niepoliczalne, abstrakcyjne… b) nazwy obce… c) nazwy dni tygodnia… d) -unek… e) -izm»)",
+    "STEF (по Westfalowi: -u у веществ, абстрактного, предметов больше человека; -unek, -izm)",
+    "KEY k1-1 (ruchu), k1-3 (hałasu), k11-6 (kontaktu), k1-8 (domu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D9",
+   "ru": "Мужской неодушевлённый: -a — у многих конкретных небольших предметов, фруктов и овощей, инструментов (banana, pomidora, noża, klucza, zegarka), у польских городов (z Krakowa), месяцев (do stycznia), марок, валют, мер (litra, metra) и слов на -ik, -nik (słownika, stolika). Строгого правила нет — в сомнительных случаях смотреть словарь.",
+   "pl": [
+    "Nie mam klucza. Jadę do Krakowa. Do końca maja."
+   ],
+   "refs": [
+    "PP s. 39 (-a: «a) często: rzeczy konkretne… b) nazwy polskie… c) nazwy miesięcy… d) produktów firmowych… f) walut… g) miar… h) -nik, -ik»; везде «często»)",
+    "STEF (-a у небольших предметов определённой формы, у суффиксальных слов; около 1% исключений: chleba, sera)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D10",
+   "ru": "Беглое e: в косвенных падежах e часто выпадает: kawałek → kawałka, ogórek → ogórka, pies → psa, dzień → dnia, sen → snu.",
+   "pl": [
+    "Poproszę kawałek sernika. Nie ma dnia bez kawy."
+   ],
+   "refs": [
+    "PP s. 38 («e ruchome! kawałek – kawałka, plasterek – plasterka, kubek – kubka, garnek – garnka»)",
+    "KURS (ojciec → ojca)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D11",
+   "ru": "Средний род: -a: okno → okna, mleko → mleka, jabłko → jabłka, śniadanie → śniadania, zdrowie → zdrowia. Слова на -ę расширяются: imię → imienia, zwierzę → zwierzęcia.",
+   "pl": [
+    "Szklanka mleka. Kawałek jabłka. Nie pamiętam jego imienia."
+   ],
+   "refs": [
+    "PP s. 39 («rzeczowniki rodzaju nijakiego (nie ma pieczywa, masła, mięsa, mleka, jabłka, śniadania)»)",
+    "ZPE (таблица: D. okna)",
+    "JPBG9 s. 180 (таблица: D. imienia, szczenięcia)",
+    "KEY k1-7 (zdrowia, szczęścia, powodzenia)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D12",
+   "ru": "Прилагательные и местоимения-определения: муж. и ср. род -ego, жен. -ej: dobrego chleba, zimnej wody; ten → tego, ta → tej; mój → mojego, moja → mojej; nasz → naszego.",
+   "pl": [
+    "Szukam tego dobrego chleba. Nie ma zimnej wody. Idę do mojej siostry."
+   ],
+   "refs": [
+    "PP s. 40 (таблица: «rodzaj męski i nijaki -ego; rodzaj żeński -ej: dobrego rosołu, dobrej kawy»)",
+    "ZPE (таблица: dobrego, dobrej, dobrego)",
+    "STD B1 s. 77 (Szuka większego mieszkania. nie przeczytały tych artykułów); A2 s. 68 (Nie czytały tej gazety. Szuka dużego pokoju.)",
+    "KEY k1-8 (swojego domu), k11-6 (internetowego), k3-1 (waszej, twojego)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D13",
+   "ru": "Личные местоимения в родительном: mnie, ciebie / cię, jego / go / niego, jej / niej, nas, was, ich / nich. После предлога — длинная форма с n-: u niego, dla niej, od nich, do ciebie; короткие cię, go — без ударения и не в начале фразы.",
+   "pl": [
+    "Nie ma go w domu. Mam coś dla niej. Idę do ciebie."
+   ],
+   "refs": [
+    "PP s. 40 (таблица «Zaimki osobowe»: mnie; cię / ciebie; go / jego / niego; jej / niej; nas; was; ich / nich)",
+    "JPBG9 s. 120 (Uwaga: короткие формы cię, go — после глагола или в середине фразы, не в начале; «Po przyimkach zawsze używa się formy dłuższej (ciebie) albo formy z n-»)",
+    "KURS (go не ударное: nie ma go tu)",
+    "KEY k3-1 (jej), k2-1 (o niej)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D14",
+   "ru": "Глаголы с родительным: szukać, potrzebować, słuchać, bać się, uczyć się, używać, unikać, życzyć (комy чего), spróbować, pilnować, brakować (чего), zazdrościć (кому чего).",
+   "pl": [
+    "Szukam pracy. Słucham radia. Boję się psa. Życzę ci zdrowia."
+   ],
+   "refs": [
+    "PP s. 40 (g: «bać się, chcieć, potrzebować, pragnąć, próbować, szukać, uczyć (się), unikać, używać, żądać, życzyć»), s. 42 (упр. 9: szukam, unikam, pilnuję, boję się, spróbować, używać, życzymy, zazdroszczę, brakuje, uczę się, słucham)",
+    "STD B1 s. 77 («z rekcją dopełniaczową: Szuka większego mieszkania. Potrzebują nowych butów.»); A2 s. 67 («Słucha muzyki.»)",
+    "KEY k1-7 (życzyć… powodzenia, zdrowia, szczęścia)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D15",
+   "ru": "Предлоги с родительным: do, od, z (откуда / из чего), bez, dla, u, obok, koło, około, podczas, według, zamiast, oprócz, z powodu, wokół.",
+   "pl": [
+    "Jadę do Gdańska. Jestem u lekarza. Kawa bez cukru. Prezent dla mamy."
+   ],
+   "refs": [
+    "PP s. 40 (h: «do, od, dla, u, z, bez, obok, koło, dookoła, wokół, spod, znad, według, podczas, oprócz, zamiast, z okazji, z powodu…»), s. 43 (упр. 10: według, oprócz, bez, do, dookoła, z, dla, od, zamiast)",
+    "STD B1 s. 77 (Wracają z Krakowa do Warszawy. Apteka jest obok szpitala. Jestem bez pracy. Zrobił to dla kariery.); A2 s. 68 (Piotr mieszka u mnie. Spotkajmy się około piątej.)",
+    "ZJP podręcznik s. 64 («około… + dopełniacz»)",
+    "KEY k1-3 (do swoich zajęć), k1-8 (do swojego domu)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D16",
+   "ru": "Предлог z: «откуда, из чего» — родительный (z Krakowa, sok z jabłek, koszula z bawełny); «вместе с кем / с чем» — творительный (z bratem, kawa z mlekiem).",
+   "pl": [
+    "Wracam z pracy. Kawa z mlekiem."
+   ],
+   "refs": [
+    "STD B1 s. 77 (z Krakowa; koszulę z bawełny — dopełniacz)",
+    "JPBG9 s. 157 (z… + NARZĘDNIK: bluzka z kieszonką, spacer ze swoją koleżanką)",
+    "PP s. 40 (h: z + dopełniacz), s. 43 (упр. 11: zupa z kury, ser z mleka)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D17",
+   "ru": "Количество: после слов-мер и ёмкостей (kilo, litr, szklanka, butelka, kawałek, paczka) и после dużo, mało, trochę, sporo — родительный: szklanka herbaty, kilo cukru, dużo czasu, trochę wody.",
+   "pl": [
+    "Poproszę butelkę wody i kilo cukru. Mam mało czasu."
+   ],
+   "refs": [
+    "PP s. 40 (a: «kilo cukru, talerz zupy, litr mleka»), s. 36–37 (szklanka herbaty, kostka masła, kromka chleba)",
+    "STD B1 s. 77 (Janek wypił filiżankę kawy.); A2 s. 67 (Mam butelkę wody.)",
+    "JPBG11 s. 100 («dużo, mało, trochę, sporo, mnóstwo… łączą się z rzeczownikiem w dopełniaczu… l. pojedynczej (dla rzeczowników niepoliczalnych typu czas, woda, cukier): Praca ta zajęła mu mało czasu. Dodałaś za dużo cukru.»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D18",
+   "ru": "Принадлежность и «чей / чего»: определение в родительном стоит после слова: dom brata, telefon Anny, centrum miasta, kolor nieba.",
+   "pl": [
+    "To jest telefon Anny. Mieszkam w centrum miasta."
+   ],
+   "refs": [
+    "PP s. 40 (b: «komputer Adama, telefon Anny, świat dziecka»)",
+    "STD B1 s. 77 (Książka Iwony leży na stole.); A2 s. 67 (Samochód sąsiada stoi na parkingu.)",
+    "KURS (dom mamy, książka taty)",
+    "KEY k1-8 (opowieści pana Antoniego), k1-3 (centrum Warszawy — przykład)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D19",
+   "ru": "Даты: «какого числа?» — порядковое числительное и месяц в родительном: pierwszego maja, piątego października; «сегодня какое число» — числительное в именительном, месяц всё равно в родительном: dziś jest pierwszy maja.",
+   "pl": [
+    "Urodziłam się piątego października. Dziś jest pierwszy maja."
+   ],
+   "refs": [
+    "PP s. 40 (e: «pierwszego stycznia, tamtego dnia»)",
+    "JPBG9 s. 81 («nazwa miesiąca umieszczana przy numerze dnia jest zawsze w dopełniaczu l. poj.: 23.12. – dwudziestego trzeciego grudnia»), s. 83 («Dzisiaj jest dziesiąty listopada… To było dziesiątego listopada»)",
+    "ZJP ćwiczenia s. 10 (zad. 4 «Zapisz słownie daty w dopełniaczu»; таблица: drugi luty → drugiego lutego)",
+    "KURS (pierwszy maja)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "D20",
+   "ru": "Отсутствие и отрицание: nie ma / nie było / nie będzie + родительный (nie ma chleba), и прямое дополнение при nie переходит в родительный (nie lubię kawy). Подробно — тема «Родительный при отрицании».",
+   "pl": [
+    "Nie ma chleba. Nie piję kawy."
+   ],
+   "refs": [
+    "PP s. 40 (c: «nie ma chleba, nie ma bułki, nie ma masła»; d: «nie lubię bigosu, nie piję kawy»)",
+    "STD B1 s. 77 (Studentki nie przeczytały tych artykułów. Studentów nie było na tym spotkaniu.)",
+    "KEY k1-1 (nie ma słońca; nie lubimy ruchu), k1-7 (przykład: On nie ma psa)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "JPBG kl. IX (B1, cz. 1) отдельного раздела о родительном падеже не содержит (лекции 6, 8, 9 — винительный, творительный, предложный); для родительного из JPBG взяты только даты (s. 81, 83), таблица imię/szczenię (s. 180) и правило n- после предлогов (s. 120). Количество — JPBG kl. XI, s. 100.",
+  "ZJP B1 по родительному даёт только таблицы для заполнения и упражнения (ćwiczenia s. 10 — даты; podręcznik s. 64 — około) — как источник правил окончаний не используется.",
+  "Выбор -a / -u у мужских неодушевлённых: PP везде пишет «często», Stefańczyk (2006) — что строгого правила нет (около 1% исключений, напр. chleba, sera). В теории это сказано прямо: «строгого правила нет, смотрите словарь»; в упражнениях — только частые слова.",
+  "Форма jej у ona в Morfeusz — ppron3 с леммой «on» (SGJP хранит ona/ono под леммой on); nas/was/ich — мн. число. Это учтено в forms.",
+  "В паспорте прежних тем (biernik) Katalog B указан как «7.6 zakupy i usługi», но в Dz.U. 2025 poz. 217, Część II, s. 85 пункт 7.6 — «Stosunki społeczne», а «Zakupy» — 7.10. Стоит поправить в biernik.",
+  "Сборник k1-3: «nie mógł zrekompensować hałasu» — родительный из-за отрицания при инфинитиве (тема «Родительный при отрицании», R3)."
+ ],
+ "forms": [
+  {
+   "form": "kawy",
+   "kind": "przyp",
+   "lemma": "kawa",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "wody",
+   "kind": "przyp",
+   "lemma": "woda",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "ulicy",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kaszy",
+   "kind": "przyp",
+   "lemma": "kasza",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "babci",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kuchni",
+   "kind": "przyp",
+   "lemma": "kuchnia",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "szkoły",
+   "kind": "przyp",
+   "lemma": "szkoła",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mąki",
+   "kind": "przyp",
+   "lemma": "mąka",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "książki",
+   "kind": "przyp",
+   "lemma": "książka",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "drogi",
+   "kind": "przyp",
+   "lemma": "droga",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "miłości",
+   "kind": "przyp",
+   "lemma": "miłość",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "soli",
+   "kind": "przyp",
+   "lemma": "sól",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "nocy",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "rzeczy",
+   "kind": "przyp",
+   "lemma": "rzecz",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "radości",
+   "kind": "przyp",
+   "lemma": "radość",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "Austrii",
+   "kind": "przyp",
+   "lemma": "Austria",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "historii",
+   "kind": "przyp",
+   "lemma": "historia",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "lekcji",
+   "kind": "przyp",
+   "lemma": "lekcja",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "telewizji",
+   "kind": "przyp",
+   "lemma": "telewizja",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "pani",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "gospodyni",
+   "kind": "przyp",
+   "lemma": "gospodyni",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "brata",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "lekarza",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kota",
+   "kind": "przyp",
+   "lemma": "kot",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "syna",
+   "kind": "przyp",
+   "lemma": "syn",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "taty",
+   "kind": "przyp",
+   "lemma": "tata",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kolegi",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kierowcy",
+   "kind": "przyp",
+   "lemma": "kierowca",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mężczyzny",
+   "kind": "przyp",
+   "lemma": "mężczyzna",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "cukru",
+   "kind": "przyp",
+   "lemma": "cukier",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "ryżu",
+   "kind": "przyp",
+   "lemma": "ryż",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "soku",
+   "kind": "przyp",
+   "lemma": "sok",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "czasu",
+   "kind": "przyp",
+   "lemma": "czas",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "hałasu",
+   "kind": "przyp",
+   "lemma": "hałas",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "domu",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "parku",
+   "kind": "przyp",
+   "lemma": "park",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "poniedziałku",
+   "kind": "przyp",
+   "lemma": "poniedziałek",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "Londynu",
+   "kind": "przyp",
+   "lemma": "Londyn",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "rachunku",
+   "kind": "przyp",
+   "lemma": "rachunek",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "optymizmu",
+   "kind": "przyp",
+   "lemma": "optymizm",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "banana",
+   "kind": "przyp",
+   "lemma": "banan",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "pomidora",
+   "kind": "przyp",
+   "lemma": "pomidor",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "noża",
+   "kind": "przyp",
+   "lemma": "nóż",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "klucza",
+   "kind": "przyp",
+   "lemma": "klucz",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "zegarka",
+   "kind": "przyp",
+   "lemma": "zegarek",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "Krakowa",
+   "kind": "przyp",
+   "lemma": "Kraków",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "stycznia",
+   "kind": "przyp",
+   "lemma": "styczeń",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "litra",
+   "kind": "przyp",
+   "lemma": "litr",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "metra",
+   "kind": "przyp",
+   "lemma": "metr",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "słownika",
+   "kind": "przyp",
+   "lemma": "słownik",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "stolika",
+   "kind": "przyp",
+   "lemma": "stolik",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "chleba",
+   "kind": "przyp",
+   "lemma": "chleb",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "sera",
+   "kind": "przyp",
+   "lemma": "ser",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "kawałka",
+   "kind": "przyp",
+   "lemma": "kawałek",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "ogórka",
+   "kind": "przyp",
+   "lemma": "ogórek",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "psa",
+   "kind": "przyp",
+   "lemma": "pies",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "dnia",
+   "kind": "przyp",
+   "lemma": "dzień",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "snu",
+   "kind": "przyp",
+   "lemma": "sen",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "okna",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mleka",
+   "kind": "przyp",
+   "lemma": "mleko",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "jabłka",
+   "kind": "przyp",
+   "lemma": "jabłko",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "śniadania",
+   "kind": "przyp",
+   "lemma": "śniadanie",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "zdrowia",
+   "kind": "przyp",
+   "lemma": "zdrowie",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "imienia",
+   "kind": "przyp",
+   "lemma": "imię",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "zwierzęcia",
+   "kind": "przyp",
+   "lemma": "zwierzę",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "dobrego",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "zimnej",
+   "kind": "przyp",
+   "lemma": "zimny",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "tego",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "tej",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mojego",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mojej",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "naszego",
+   "kind": "przyp",
+   "lemma": "nasz",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "ciebie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "cię",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "jego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "go",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "niego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "jej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "ich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "pl"
+  }
+ ]
+}

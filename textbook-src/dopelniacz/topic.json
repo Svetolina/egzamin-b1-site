@@ -1,0 +1,1676 @@
+{
+ "topic": "dopelniacz",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Dopełniacz",
+ "title_ru": "Родительный падеж",
+ "lead": "Kogo? Czego? Нет чего, сколько чего, чей, какого числа. Главное — -y/-i у женских и -a/-u у мужских.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-7 — życzyć + dopełniacz; k1-1, k1-3 — nie ma, do, po; k1-8 — opowieści pana Antoniego), blok 3 (k3-1 — jej, twojego), blok 11 (k11-6 — kontaktu, internetowego)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. b, s. 77"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "D1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Родительный отвечает на вопрос [[kogo? czego?]]. Он нужен чаще, чем кажется: «сколько чего», «чей», «нет чего», «какого числа», после ряда глаголов и многих предлогов."
+    },
+    {
+     "type": "table",
+     "head": [
+      "когда",
+      "пример"
+     ],
+     "rows": [
+      [
+       "сколько чего",
+       "[[szklanka herbaty]]"
+      ],
+      [
+       "чей",
+       "[[samochód brata]]"
+      ],
+      [
+       "нет, не",
+       "[[nie mam czasu]]"
+      ],
+      [
+       "дата",
+       "[[pierwszego maja]]"
+      ],
+      [
+       "глагол",
+       "[[szukam klucza]]"
+      ],
+      [
+       "предлог",
+       "[[do domu, bez cukru]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Почти всё как в русском: «стакан чаю», «машина брата», «нет времени», «первого мая». Главная трудность — окончания, особенно у мужского рода."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Женский род: -y или -i",
+   "facts": [
+    "D2",
+    "D3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Женские слова на [[-a]] получают [[-y]] или [[-i]]. Выбор зависит от согласной перед окончанием — как в русском «воды», но «книги»."
+    },
+    {
+     "type": "table",
+     "head": [
+      "перед окончанием",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "твёрдая: b, d, f, ł, m, n, p, r, s, t, w, z",
+       "-y",
+       "[[kawa → kawy, woda → wody, szkoła → szkoły]]"
+      ],
+      [
+       "c, cz, sz, rz, ż, dz",
+       "-y",
+       "[[ulica → ulicy, kasza → kaszy]]"
+      ],
+      [
+       "k, g",
+       "-i",
+       "[[książka → książki, droga → drogi]]"
+      ],
+      [
+       "мягкая, l, j",
+       "-i",
+       "[[babcia → babci, kuchnia → kuchni]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "p",
+     "text": "Женские слова на согласную обычно получают [[-i]], после [[c, cz, sz, rz, ż]] — [[-y]]:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "miłość",
+       "miłości"
+      ],
+      [
+       "sól",
+       "soli"
+      ],
+      [
+       "noc",
+       "nocy"
+      ],
+      [
+       "rzecz",
+       "rzeczy"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "После [[k]] и [[g]] никогда не пишем [[y]]: [[książki]], не «książky»."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "nie ma mąky",
+       "good": "nie ma mąki"
+      },
+      {
+       "bad": "szukam książky",
+       "good": "szukam książki"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Особые женские: -ii, -cji, pani",
+   "facts": [
+    "D4",
+    "D5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Слова на [[-ia]] и [[-cja]] после согласной (чаще всего иностранные) пишутся с двумя [[i]] или с [[-cji]]:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "Austria",
+       "Austrii"
+      ],
+      [
+       "historia",
+       "historii"
+      ],
+      [
+       "lekcja",
+       "lekcji"
+      ],
+      [
+       "telewizja",
+       "telewizji"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "p",
+     "text": "[[Pani]] и [[gospodyni]] в родительном не меняются: [[To torebka tej pani.]]"
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Мужской род: люди, животные и слова на -a",
+   "facts": [
+    "D6",
+    "D7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Люди и животные всегда получают [[-a]] — как в винительном."
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "brat",
+       "brata"
+      ],
+      [
+       "lekarz",
+       "lekarza"
+      ],
+      [
+       "kot",
+       "kota"
+      ],
+      [
+       "syn",
+       "syna"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Мужские слова на [[-a]] склоняются как женские: [[-y]] или [[-i]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "tata",
+       "taty"
+      ],
+      [
+       "kolega",
+       "kolegi"
+      ],
+      [
+       "kierowca",
+       "kierowcy"
+      ],
+      [
+       "mężczyzna",
+       "mężczyzny"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "idę do kolegę",
+       "good": "idę do kolegi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Мужской неодушевлённый: -u",
+   "facts": [
+    "D8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "У неживых мужских слов два окончания: [[-u]] и [[-a]]. [[-u]] чаще у того, что нельзя взять в руку как отдельный предмет:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "группа",
+      "пример"
+     ],
+     "rows": [
+      [
+       "вещества, несчётное",
+       "[[cukru, ryżu, soku]]"
+      ],
+      [
+       "абстрактное",
+       "[[czasu, hałasu]]"
+      ],
+      [
+       "большое, «место»",
+       "[[domu, parku]]"
+      ],
+      [
+       "дни недели",
+       "[[od poniedziałku]]"
+      ],
+      [
+       "иностранные названия",
+       "[[z Londynu]]"
+      ],
+      [
+       "на -unek, -izm",
+       "[[rachunku, optymizmu]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Nie mam czasu.",
+       "ru": "У меня нет времени."
+      },
+      {
+       "pl": "Wracam do domu.",
+       "ru": "Возвращаюсь домой."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Мужской неодушевлённый: -a",
+   "facts": [
+    "D9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[-a]] чаще у небольших конкретных предметов и у нескольких «списочных» групп:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "группа",
+      "пример"
+     ],
+     "rows": [
+      [
+       "предметы, инструменты",
+       "[[noża, klucza, zegarka]]"
+      ],
+      [
+       "фрукты, овощи",
+       "[[banana, pomidora]]"
+      ],
+      [
+       "польские города",
+       "[[z Krakowa, do Gdańska]]"
+      ],
+      [
+       "месяцы",
+       "[[do stycznia, od maja]]"
+      ],
+      [
+       "меры, валюты",
+       "[[litra, metra, dolara]]"
+      ],
+      [
+       "на -ik, -nik",
+       "[[słownika, stolika]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Строгого правила нет: [[chleb → chleba]], [[ser → sera]], хотя это «вещества». Учите слово сразу с формой родительного, в сомнении — смотрите словарь. Месяцы — всегда [[-a]], дни недели — [[-u]]: [[od stycznia]], но [[od poniedziałku]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "nie mam klucu",
+       "good": "nie mam klucza"
+      },
+      {
+       "bad": "kilo cukra",
+       "good": "kilo cukru"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Беглое e",
+   "facts": [
+    "D10"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Как в русском «кусок — куска», [[e]] в последнем слоге часто выпадает:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "kawałek",
+       "kawałka"
+      ],
+      [
+       "ogórek",
+       "ogórka"
+      ],
+      [
+       "pies",
+       "psa"
+      ],
+      [
+       "dzień",
+       "dnia"
+      ],
+      [
+       "sen",
+       "snu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Средний род",
+   "facts": [
+    "D11"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Средний род почти всегда получает [[-a]]:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный"
+     ],
+     "rows": [
+      [
+       "okno",
+       "okna"
+      ],
+      [
+       "mleko",
+       "mleka"
+      ],
+      [
+       "jabłko",
+       "jabłka"
+      ],
+      [
+       "śniadanie",
+       "śniadania"
+      ],
+      [
+       "zdrowie",
+       "zdrowia"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Слова на [[-ę]] удлиняются: [[imię → imienia]], [[zwierzę → zwierzęcia]]."
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Прилагательные, ten, mój",
+   "facts": [
+    "D12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Определения проще существительных: два окончания на все случаи."
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской и средний",
+       "-ego",
+       "[[dobrego chleba, tego okna]]"
+      ],
+      [
+       "женский",
+       "-ej",
+       "[[zimnej wody, tej książki]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "родительный (м., ср.)",
+      "родительный (ж.)"
+     ],
+     "rows": [
+      [
+       "ten / ta",
+       "tego",
+       "tej"
+      ],
+      [
+       "mój / moja",
+       "mojego",
+       "mojej"
+      ],
+      [
+       "nasz / nasza",
+       "naszego",
+       "naszej"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Szukam tego dobrego chleba.",
+       "ru": "Ищу тот хороший хлеб."
+      },
+      {
+       "pl": "Idę do mojej siostry.",
+       "ru": "Иду к моей сестре."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Местоимения",
+   "facts": [
+    "D13"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кто?",
+      "родительный",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "ja",
+       "mnie",
+       "u mnie"
+      ],
+      [
+       "ty",
+       "ciebie, cię",
+       "do ciebie"
+      ],
+      [
+       "on, ono",
+       "jego, go",
+       "u niego"
+      ],
+      [
+       "ona",
+       "jej",
+       "dla niej"
+      ],
+      [
+       "my",
+       "nas",
+       "od nas"
+      ],
+      [
+       "wy",
+       "was",
+       "dla was"
+      ],
+      [
+       "oni, one",
+       "ich",
+       "u nich"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "После предлога — форма с [[n-]]: [[dla niej]], не «dla jej». Короткие [[cię, go]] не ставим в начало фразы и после предлога: [[Nie ma go w domu.]]"
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "mam coś dla jej",
+       "good": "mam coś dla niej"
+      },
+      {
+       "bad": "idę do cię",
+       "good": "idę do ciebie"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "Глаголы с родительным",
+   "facts": [
+    "D14"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Эти глаголы требуют родительного без всякого отрицания. Многие совпадают с русскими («ищу», «боюсь», «желаю»), но не все:"
+    },
+    {
+     "type": "chips",
+     "items": [
+      "szukać",
+      "potrzebować",
+      "słuchać",
+      "bać się",
+      "uczyć się",
+      "używać",
+      "unikać",
+      "życzyć",
+      "spróbować",
+      "pilnować",
+      "brakować"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Słucham radia.",
+       "ru": "Слушаю радио (рус. — винительный!)."
+      },
+      {
+       "pl": "Uczę się polskiego.",
+       "ru": "Учу польский."
+      },
+      {
+       "pl": "Używam tego programu.",
+       "ru": "Пользуюсь этой программой."
+      },
+      {
+       "pl": "Życzę ci zdrowia.",
+       "ru": "Желаю тебе здоровья."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "słucham muzykę",
+       "good": "słucham muzyki"
+      },
+      {
+       "bad": "używam komputer",
+       "good": "używam komputera"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "title": "Предлоги с родительным",
+   "facts": [
+    "D15",
+    "D16"
+   ],
+   "blocks": [
+    {
+     "type": "chips",
+     "items": [
+      "do",
+      "od",
+      "z",
+      "bez",
+      "dla",
+      "u",
+      "obok",
+      "koło",
+      "około",
+      "podczas",
+      "według",
+      "zamiast",
+      "oprócz",
+      "z powodu"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Jadę do Gdańska.",
+       "ru": "Еду в Гданьск."
+      },
+      {
+       "pl": "Jestem u lekarza.",
+       "ru": "Я у врача."
+      },
+      {
+       "pl": "Kawa bez cukru.",
+       "ru": "Кофе без сахара."
+      },
+      {
+       "pl": "Mieszkam obok szkoły.",
+       "ru": "Живу рядом со школой."
+      },
+      {
+       "pl": "Podczas lekcji nie rozmawiamy.",
+       "ru": "Во время урока не разговариваем."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Осторожно с [[z]]: «откуда, из чего» — родительный, «вместе с» — творительный."
+    },
+    {
+     "type": "table",
+     "head": [
+      "значение",
+      "падеж",
+      "пример"
+     ],
+     "rows": [
+      [
+       "откуда, из чего",
+       "родительный",
+       "[[z pracy, z Krakowa, sok z jabłek]]"
+      ],
+      [
+       "вместе с",
+       "творительный",
+       "[[z bratem, kawa z mlekiem]]"
+      ]
+     ],
+     "pl_cols": []
+    }
+   ]
+  },
+  {
+   "id": "t13",
+   "title": "Сколько, чей, какого числа",
+   "facts": [
+    "D17",
+    "D18",
+    "D19"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После мер, ёмкостей и слов [[dużo, mało, trochę, sporo]] — родительный:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "butelka wody, kilo cukru, kawałek ciasta",
+       "ru": "бутылка воды, кило сахара, кусок пирога"
+      },
+      {
+       "pl": "Mam mało czasu.",
+       "ru": "У меня мало времени."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "«Чей?» — слово в родительном стоит после главного: [[telefon Anny]], [[centrum miasta]]."
+    },
+    {
+     "type": "p",
+     "text": "Даты: «какого числа?» — числительное и месяц в родительном. «Какое сегодня число?» — числительное в именительном, месяц всё равно в родительном:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Urodziłam się piątego października.",
+       "ru": "Я родилась пятого октября."
+      },
+      {
+       "pl": "Dziś jest pierwszy maja.",
+       "ru": "Сегодня первое мая."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t14",
+   "title": "Нет и не",
+   "facts": [
+    "D20"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[Nie ma / nie było / nie będzie]] + родительный: [[Nie ma sera.]] Прямое дополнение после [[nie]] тоже идёт в родительный: [[Lubię kawę. → Nie lubię kawy.]]"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Подробно, с исключениями, — в теме «Родительный при отрицании»."
+    }
+   ]
+  },
+  {
+   "id": "t15",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В задании «поставьте слова в нужную форму» родительный встречается почти в каждом тексте: после [[nie ma]], после [[do, z, bez, dla]], после [[życzyć]] (сборник 2017: [[życzę zdrowia, szczęścia, powodzenia]]) и в цепочках «чей»: [[opowieści pana Antoniego]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Перед словом [[nie]], предлог [[do, od, z, bez, dla, u]], глагол [[szukać, życzyć, słuchać]], мера или [[dużo, mało]]? — родительный.",
+      "Женский: твёрдая согласная → [[-y]], [[k, g]], мягкая, [[l, j]] → [[-i]].",
+      "Мужской: живое → [[-a]]; неживое → [[-u]] или [[-a]] (месяцы, предметы — [[-a]]).",
+      "Прилагательное: [[-ego]] / [[-ej]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Poproszę szklankę ___.",
+     "a": [
+      "wody"
+     ],
+     "expl": "Жен., твёрдая d → -y.",
+     "t": "t2",
+     "opts": [
+      "woda",
+      "wody",
+      "wodę"
+     ]
+    },
+    {
+     "q": "Nie mam ___ na kino.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "Абстрактное, муж. → -u.",
+     "t": "t5",
+     "opts": [
+      "czas",
+      "czasa",
+      "czasu"
+     ]
+    },
+    {
+     "q": "Jutro idę do ___.",
+     "a": [
+      "lekarza"
+     ],
+     "expl": "Человек → -a.",
+     "t": "t4",
+     "opts": [
+      "lekarz",
+      "lekarza",
+      "lekarzu"
+     ]
+    },
+    {
+     "q": "Szukam ___ do mieszkania.",
+     "a": [
+      "klucza"
+     ],
+     "expl": "Небольшой предмет → -a.",
+     "t": "t6",
+     "opts": [
+      "klucz",
+      "klucza",
+      "kluczu"
+     ]
+    },
+    {
+     "q": "Mieszkam obok ___.",
+     "a": [
+      "szkoły"
+     ],
+     "expl": "Жен., твёрдая ł → -y.",
+     "t": "t2",
+     "opts": [
+      "szkoła",
+      "szkoły",
+      "szkole"
+     ]
+    },
+    {
+     "q": "To jest samochód mojego ___.",
+     "a": [
+      "taty"
+     ],
+     "expl": "Муж. на -a — как женский: -y.",
+     "t": "t4",
+     "opts": [
+      "tata",
+      "tatę",
+      "taty"
+     ]
+    },
+    {
+     "q": "Kupiłam paczkę ___.",
+     "a": [
+      "herbaty"
+     ],
+     "expl": "Жен., твёрдая t → -y.",
+     "t": "t2",
+     "opts": [
+      "herbata",
+      "herbaty",
+      "herbacie"
+     ]
+    },
+    {
+     "q": "Mam coś dla ___.",
+     "a": [
+      "niej"
+     ],
+     "expl": "После предлога — форма с n-.",
+     "t": "t10",
+     "opts": [
+      "jej",
+      "niej",
+      "nią"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Nie ma już **mąky**.",
+     "a": [
+      "mąki"
+     ],
+     "expl": "После k — -i.",
+     "t": "t2"
+    },
+    {
+     "q": "Idę do **kolegę**.",
+     "a": [
+      "kolegi"
+     ],
+     "expl": "Kolega — как женский: -i после g.",
+     "t": "t4"
+    },
+    {
+     "q": "Kupiłem kilo **cukra**.",
+     "a": [
+      "cukru"
+     ],
+     "expl": "Вещество → -u.",
+     "t": "t5"
+    },
+    {
+     "q": "Słucham **muzykę** w autobusie.",
+     "a": [
+      "muzyki"
+     ],
+     "expl": "Słuchać + родительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Mam prezent dla **jej**.",
+     "a": [
+      "niej"
+     ],
+     "expl": "После предлога — niej.",
+     "t": "t10"
+    },
+    {
+     "q": "Wracam z **lekcii** o piątej.",
+     "a": [
+      "lekcji"
+     ],
+     "expl": "Lekcja → lekcji.",
+     "t": "t3"
+    },
+    {
+     "q": "Nie mam **kluczu**.",
+     "a": [
+      "klucza"
+     ],
+     "expl": "Небольшой предмет → -a.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Женский и средний род",
+   "instr": "Поставьте слово в родительный падеж.",
+   "items": [
+    {
+     "q": "Kawa bez ___. (śmietanka)",
+     "a": [
+      "śmietanki"
+     ],
+     "expl": "После k — -i.",
+     "t": "t2"
+    },
+    {
+     "q": "Nie ma już ___. (zupa)",
+     "a": [
+      "zupy"
+     ],
+     "expl": "Твёрдая p → -y.",
+     "t": "t2"
+    },
+    {
+     "q": "Idę do ___ po chleb. (piekarnia)",
+     "a": [
+      "piekarni"
+     ],
+     "expl": "Мягкая (-nia) → -i.",
+     "t": "t2"
+    },
+    {
+     "q": "Zupa bez ___ jest niedobra. (sól)",
+     "a": [
+      "soli"
+     ],
+     "expl": "Жен. на согласную → -i.",
+     "t": "t2"
+    },
+    {
+     "q": "Mieszkam na końcu ___. (ulica)",
+     "a": [
+      "ulicy"
+     ],
+     "expl": "После c — -y.",
+     "t": "t2"
+    },
+    {
+     "q": "Życzę ci ___. (radość)",
+     "a": [
+      "radości"
+     ],
+     "expl": "Жен. на -ść → -i.",
+     "t": "t2"
+    },
+    {
+     "q": "Ona jest z ___. (Hiszpania)",
+     "a": [
+      "Hiszpanii"
+     ],
+     "expl": "-nia после согласной в иностранном слове → -nii.",
+     "t": "t3"
+    },
+    {
+     "q": "Szklanka ___, proszę. (mleko)",
+     "a": [
+      "mleka"
+     ],
+     "expl": "Средний → -a.",
+     "t": "t8"
+    },
+    {
+     "q": "Nie pamiętam jego ___. (imię)",
+     "a": [
+      "imienia"
+     ],
+     "expl": "Imię → imienia.",
+     "t": "t8"
+    },
+    {
+     "q": "Poproszę kawałek ___. (ciasto)",
+     "a": [
+      "ciasta"
+     ],
+     "expl": "Средний → -a.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Мужской род: -a или -u",
+   "instr": "Поставьте слово в родительный падеж.",
+   "items": [
+    {
+     "q": "Nie mam ___. (brat)",
+     "a": [
+      "brata"
+     ],
+     "expl": "Человек → -a.",
+     "t": "t4"
+    },
+    {
+     "q": "Boję się tego ___. (pies)",
+     "a": [
+      "psa"
+     ],
+     "expl": "Животное → -a, e выпадает.",
+     "t": "t7"
+    },
+    {
+     "q": "Pracuję od ___ do piątku. (poniedziałek)",
+     "a": [
+      "poniedziałku"
+     ],
+     "expl": "Дни недели → -u.",
+     "t": "t5"
+    },
+    {
+     "q": "Urlop mam do końca ___. (lipiec)",
+     "a": [
+      "lipca"
+     ],
+     "expl": "Месяцы → -a, e выпадает.",
+     "t": "t6"
+    },
+    {
+     "q": "Poproszę kilo ___. (ryż)",
+     "a": [
+      "ryżu"
+     ],
+     "expl": "Вещество → -u.",
+     "t": "t5"
+    },
+    {
+     "q": "Kupiłam kawałek ___. (ser)",
+     "a": [
+      "sera"
+     ],
+     "expl": "Исключение: ser → sera.",
+     "t": "t6"
+    },
+    {
+     "q": "Wracamy do ___ wieczorem. (dom)",
+     "a": [
+      "domu"
+     ],
+     "expl": "Dom → domu.",
+     "t": "t5"
+    },
+    {
+     "q": "Jadę do ___ na weekend. (Kraków)",
+     "a": [
+      "Krakowa"
+     ],
+     "expl": "Польский город → -a.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie mogę znaleźć ___. (słownik)",
+     "a": [
+      "słownika"
+     ],
+     "expl": "На -nik → -a.",
+     "t": "t6"
+    },
+    {
+     "q": "Poproszę plasterek ___. (ogórek)",
+     "a": [
+      "ogórka"
+     ],
+     "expl": "Овощ → -a, e выпадает.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте обе части в родительный падеж.",
+   "items": [
+    {
+     "q": "Szukam ___. (tani hotel)",
+     "a": [
+      "taniego hotelu"
+     ],
+     "expl": "-ego + -u.",
+     "t": "t9"
+    },
+    {
+     "q": "Nie piję ___. (zimna woda)",
+     "a": [
+      "zimnej wody"
+     ],
+     "expl": "-ej + -y.",
+     "t": "t9"
+    },
+    {
+     "q": "To jest pokój ___. (mój młodszy brat)",
+     "a": [
+      "mojego młodszego brata"
+     ],
+     "expl": "-ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "Potrzebuję ___. (nowy komputer)",
+     "a": [
+      "nowego komputera"
+     ],
+     "expl": "-ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "Mieszkam obok ___. (ta duża apteka)",
+     "a": [
+      "tej dużej apteki"
+     ],
+     "expl": "-ej + -i (после k).",
+     "t": "t9"
+    },
+    {
+     "q": "Kupiłam butelkę ___. (czerwone wino)",
+     "a": [
+      "czerwonego wina"
+     ],
+     "expl": "Средний: -ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "Szukam ___ do pokoju. (wygodne krzesło)",
+     "a": [
+      "wygodnego krzesła"
+     ],
+     "expl": "Средний: -ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "Wracam z ___. (nasza nowa kuchnia)",
+     "a": [
+      "naszej nowej kuchni"
+     ],
+     "expl": "-ej + -i.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения",
+   "instr": "Впишите местоимение в нужной форме.",
+   "items": [
+    {
+     "q": "Kup coś dla ___! (ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "После предлога — niej.",
+     "t": "t10"
+    },
+    {
+     "q": "Nie ma ___ w domu. (on)",
+     "a": [
+      "go"
+     ],
+     "expl": "Без предлога, в середине фразы — go.",
+     "t": "t10"
+    },
+    {
+     "q": "Wieczorem przyjdę do ___. (ty)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — ciebie.",
+     "t": "t10"
+    },
+    {
+     "q": "Byliśmy wczoraj u ___. (oni)",
+     "a": [
+      "nich"
+     ],
+     "expl": "После предлога — nich.",
+     "t": "t10"
+    },
+    {
+     "q": "Ta książka jest dla ___. (wy)",
+     "a": [
+      "was"
+     ],
+     "expl": "Wy → was.",
+     "t": "t10"
+    },
+    {
+     "q": "Nie bój się ___! (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Ja → mnie.",
+     "t": "t10"
+    },
+    {
+     "q": "Szukam ___ od rana. (ona)",
+     "a": [
+      "jej"
+     ],
+     "expl": "Без предлога — jej.",
+     "t": "t10"
+    },
+    {
+     "q": "Kasia mieszka obok ___. (my)",
+     "a": [
+      "nas"
+     ],
+     "expl": "My → nas.",
+     "t": "t10"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 2,
+   "kind": "type",
+   "title": "После глаголов и предлогов",
+   "instr": "Поставьте слово в нужную форму. Осторожно: в одном пункте нужен не родительный.",
+   "items": [
+    {
+     "q": "Uczę się ___. (język polski)",
+     "a": [
+      "języka polskiego"
+     ],
+     "expl": "Uczyć się + родительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Często używam ___. (tablet)",
+     "a": [
+      "tabletu"
+     ],
+     "expl": "Używać + родительный; tablet → tabletu.",
+     "t": "t11"
+    },
+    {
+     "q": "Pijesz kawę z ___? (mleko)",
+     "a": [
+      "mlekiem"
+     ],
+     "expl": "Z = «вместе с» → творительный.",
+     "t": "t12"
+    },
+    {
+     "q": "Ten sok jest z ___. (pomarańcza)",
+     "a": [
+      "pomarańczy"
+     ],
+     "expl": "Z = «из чего» → родительный.",
+     "t": "t12"
+    },
+    {
+     "q": "Brakuje mi ___. (rodzina)",
+     "a": [
+      "rodziny"
+     ],
+     "expl": "Brakować + родительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Zamiast ___ piję wodę. (cola)",
+     "a": [
+      "coli"
+     ],
+     "expl": "Zamiast + родительный; после l — -i.",
+     "t": "t12"
+    },
+    {
+     "q": "Podczas ___ nie używamy telefonów. (egzamin)",
+     "a": [
+      "egzaminu"
+     ],
+     "expl": "Podczas + родительный.",
+     "t": "t12"
+    },
+    {
+     "q": "W weekend byłam u ___. (ciocia)",
+     "a": [
+      "cioci"
+     ],
+     "expl": "U + родительный; мягкая (-cia) → -i.",
+     "t": "t12"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Zakupy na urodziny",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "W sobotę są urodziny {1}. Rano poszłam do {2} po zakupy. Kupiłam kilo {3}, paczkę {4} i butelkę {5}. Potem szukałam {6} na prezent, ale nie było {7}. Na szczęście obok {8} jest mała księgarnia. Kupiłam tam album dla {9}. Wieczorem upiekę tort według przepisu {10}.",
+   "items": [
+    {
+     "q": "mój mąż",
+     "a": [
+      "mojego męża"
+     ],
+     "expl": "Чей? -ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "supermarket",
+     "a": [
+      "supermarketu"
+     ],
+     "expl": "Do + родительный; большое здание → -u.",
+     "t": "t5"
+    },
+    {
+     "q": "cukier",
+     "a": [
+      "cukru"
+     ],
+     "expl": "Мера + родительный; вещество → -u.",
+     "t": "t13"
+    },
+    {
+     "q": "mąka",
+     "a": [
+      "mąki"
+     ],
+     "expl": "После k — -i.",
+     "t": "t2"
+    },
+    {
+     "q": "dobre wino",
+     "a": [
+      "dobrego wina"
+     ],
+     "expl": "Средний: -ego + -a.",
+     "t": "t9"
+    },
+    {
+     "q": "ciekawa książka",
+     "a": [
+      "ciekawej książki"
+     ],
+     "expl": "Szukać + родительный: -ej + -i.",
+     "t": "t11"
+    },
+    {
+     "q": "żadna ciekawa",
+     "a": [
+      "żadnej ciekawej"
+     ],
+     "expl": "Nie było + родительный.",
+     "t": "t14"
+    },
+    {
+     "q": "sklep",
+     "a": [
+      "sklepu"
+     ],
+     "expl": "Obok + родительный; sklep → sklepu.",
+     "t": "t5"
+    },
+    {
+     "q": "on",
+     "a": [
+      "niego"
+     ],
+     "expl": "После предлога — niego.",
+     "t": "t10"
+    },
+    {
+     "q": "moja babcia",
+     "a": [
+      "mojej babci"
+     ],
+     "expl": "Чей? -ej + -i.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "Ten telefon należy do Anny. → To jest telefon ___.",
+     "a": [
+      "Anny"
+     ],
+     "expl": "Чей? — родительный после главного слова.",
+     "t": "t13"
+    },
+    {
+     "q": "W lodówce nie zostało mleko. → W lodówce nie ma już ___.",
+     "a": [
+      "mleka"
+     ],
+     "expl": "Nie ma + родительный.",
+     "t": "t14"
+    },
+    {
+     "q": "Kupiłam jeden litr soku i kawałek sera. → Kupiłam litr ___ i kawałek sera.",
+     "a": [
+      "soku"
+     ],
+     "expl": "Мера + родительный.",
+     "t": "t13"
+    },
+    {
+     "q": "Kupiłam mamie prezent. → Kupiłam prezent dla ___.",
+     "a": [
+      "mamy"
+     ],
+     "expl": "Dla + родительный.",
+     "t": "t12"
+    },
+    {
+     "q": "Mam niewiele czasu. → Mam mało ___.",
+     "a": [
+      "czasu"
+     ],
+     "expl": "Mało + родительный.",
+     "t": "t13"
+    },
+    {
+     "q": "Mieszkam obok parku. → Mieszkam koło ___.",
+     "a": [
+      "parku"
+     ],
+     "expl": "Koło + родительный.",
+     "t": "t12"
+    },
+    {
+     "q": "Urodziłem się 3 maja. → Urodziłem się trzeciego ___.",
+     "a": [
+      "maja"
+     ],
+     "expl": "Месяц в дате — родительный.",
+     "t": "t13"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Lista zakupów i życzenia",
+   "instr": "Напишите соседке записку: попросите купить вам продукты (что и сколько) и поздравьте её с днём рождения.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм родительного: хотя бы три «мера + продукт», один предлог с родительным, одно пожелание (życzę…) и одно «nie ma…».",
+   "model": "Droga Pani Ewo! Czy mogłaby Pani kupić mi w sklepie butelkę mleka, kilo cukru i paczkę herbaty? Nie mam już też chleba. Pieniądze zostawiłam u syna. Bardzo dziękuję! I wszystkiego najlepszego z okazji urodzin! Życzę Pani zdrowia i dużo radości. Marta z drugiego piętra",
+   "model_future": [
+    "mleka",
+    "cukru",
+    "herbaty",
+    "chleba",
+    "syna",
+    "urodzin",
+    "zdrowia",
+    "radości",
+    "piętra"
+   ],
+   "checklist": [
+    "Есть обращение и подпись",
+    "Сказано, что и сколько купить (butelkę mleka…)",
+    "Не меньше 8 форм родительного",
+    "Есть предлог с родительным (u, do, z, dla…)",
+    "Есть «nie ma / nie mam…»",
+    "Есть пожелание: życzę + родительный",
+    "Женский: -y / -i, мужской: -a / -u",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

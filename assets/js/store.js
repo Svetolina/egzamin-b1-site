@@ -5,7 +5,9 @@
 (function(){
 'use strict';
 var B1=window.B1=window.B1||{};
-var KEYS={words:'pl:words',comments:'pl:comments',prefs:'pl:prefs'};
+var KEYS={words:'pl:words',comments:'pl:comments',marks:'pl:marks',prefs:'pl:prefs'};
+/* коллекции, которые синхронизируются с сервером (Supabase, см. cloud.js) */
+var SYNCED=['words','comments','marks'];
 var mem={};
 function read(k){
   if(mem[k])return mem[k];
@@ -19,6 +21,11 @@ function write(k){
   try{localStorage.setItem(KEYS[k],JSON.stringify(mem[k]));}catch(e){}
   emit(k);
 }
+/* сообщить синхронизации, что запись изменилась (или удалена) */
+function changed(k,item,deleted){
+  if(SYNCED.indexOf(k)<0||!item)return;
+  if(B1.cloud&&B1.cloud.changed)try{B1.cloud.changed(k,item,!!deleted);}catch(e){console.error(e);}
+}
 var subs=[];
 function emit(k){subs.forEach(function(f){try{f(k);}catch(e){console.error(e);}});}
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7);}
@@ -28,10 +35,14 @@ function collection(k){
   return {
     all:function(){return read(k).slice();},
     get:function(id){return read(k).filter(function(x){return x.id===id;})[0]||null;},
-    add:function(obj){var o=Object.assign({},obj,{id:obj.id||uid(),created:obj.created||now(),updated:now()});read(k).unshift(o);write(k);return o;},
-    update:function(id,patch){var list=read(k);for(var i=0;i<list.length;i++){if(list[i].id===id){list[i]=Object.assign({},list[i],patch,{updated:now()});write(k);return list[i];}}return null;},
-    remove:function(id){var list=read(k);for(var i=0;i<list.length;i++){if(list[i].id===id){var o=list.splice(i,1)[0];write(k);return {item:o,index:i};}}return null;},
-    restore:function(rem){if(!rem)return;var list=read(k);list.splice(Math.min(rem.index,list.length),0,rem.item);write(k);}
+    add:function(obj){var o=Object.assign({},obj,{id:obj.id||uid(),created:obj.created||now(),updated:now()});read(k).unshift(o);write(k);changed(k,o);return o;},
+    update:function(id,patch){var list=read(k);for(var i=0;i<list.length;i++){if(list[i].id===id){list[i]=Object.assign({},list[i],patch,{updated:now()});write(k);changed(k,list[i]);return list[i];}}return null;},
+    /* записать целиком с заданным id (для отметок «ок»): создаёт или заменяет */
+    put:function(obj){var list=read(k),o=Object.assign({},obj,{updated:now()});for(var i=0;i<list.length;i++){if(list[i].id===obj.id){o.created=list[i].created;list[i]=o;write(k);changed(k,o);return o;}}o.created=now();list.unshift(o);write(k);changed(k,o);return o;},
+    remove:function(id){var list=read(k);for(var i=0;i<list.length;i++){if(list[i].id===id){var o=list.splice(i,1)[0];write(k);changed(k,{id:o.id,updated:now()},true);return {item:o,index:i};}}return null;},
+    restore:function(rem){if(!rem)return;var list=read(k);var o=Object.assign({},rem.item,{updated:now()});list.splice(Math.min(rem.index,list.length),0,o);write(k);changed(k,o);},
+    /* для синхронизации: заменить весь список без отправки на сервер */
+    _replace:function(list){mem[k]=list;write(k);}
   };
 }
 
@@ -61,8 +72,9 @@ words.grade=function(id,dir,ok){
   if(ok){s.box=Math.min(STEPS.length-1,s.box+1);s.due=startOfDay(Date.now())+STEPS[s.box]*DAY;}
   else{s.box=0;s.due=0;}
   var srs=Object.assign({},w.srs||{});srs[dir]=s;
-  var list=read('words');for(var i=0;i<list.length;i++)if(list[i].id===id){list[i]=Object.assign({},list[i],{srs:srs});}
-  write('words');
+  var list=read('words'),hit=null;
+  for(var i=0;i<list.length;i++)if(list[i].id===id){list[i]=Object.assign({},list[i],{srs:srs,updated:now()});hit=list[i];}
+  write('words');changed('words',hit);
 };
 words.findSame=function(pl,exceptId){
   var n=String(pl||'').trim().toLowerCase();if(!n)return null;
@@ -74,14 +86,17 @@ comments.forScopes=function(scopes){
   return read('comments').filter(function(c){return scopes.indexOf(c.scope)>-1;});
 };
 
+var marks=collection('marks');
+marks.isOk=function(id){var m=marks.get(id);return !!(m&&m.ok);};
+marks.toggle=function(id,extra){var on=!marks.isOk(id);marks.put(Object.assign({id:id,ok:on},extra||{}));return on;};
+
 var prefs={
   get:function(k,d){var p=read('prefs');return p[k]===undefined?d:p[k];},
   set:function(k,v){read('prefs')[k]=v;write('prefs');}
 };
 
-B1.store={words:words,comments:comments,prefs:prefs,
+B1.store={words:words,comments:comments,marks:marks,prefs:prefs,SYNCED:SYNCED,uid:uid,
   onChange:function(f){subs.push(f);},
-  /* на будущее: место для синхронизации с сервером */
   backend:'local'};
 window.addEventListener('storage',function(e){
   Object.keys(KEYS).forEach(function(k){if(e.key===KEYS[k]){delete mem[k];emit(k);}});
