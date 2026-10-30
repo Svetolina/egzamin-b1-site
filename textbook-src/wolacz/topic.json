@@ -1,0 +1,693 @@
+{
+ "topic": "wolacz",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Wołacz",
+ "title_ru": "Звательный падеж",
+ "lead": "Mamo! Panie Adamie! Droga Ewo! Как обращаться к человеку в разговоре и в письме.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Egzamin B1, Pisanie — obowiązkowe zwroty do adresata w listach (zbiór zadań 2017, P)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. g, s. 78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "W1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Звательный — форма, которой обращаются к человеку: [[Mamo! Panie Adamie! Babciu!]] Нужен в разговоре и обязательно — в начале письма."
+    },
+    {
+     "type": "table",
+     "head": [
+      "кто",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "женские на -a",
+       "-o",
+       "[[mamo, Anno]]"
+      ],
+      [
+       "ласковые на -sia, -nia, -cia",
+       "-u",
+       "[[Basiu, babciu]]"
+      ],
+      [
+       "мужские (твёрдая)",
+       "-e (как предложный)",
+       "[[panie, Adamie]]"
+      ],
+      [
+       "мужские (k, g, ch, мягкая)",
+       "-u",
+       "[[Jacku, Tomaszu]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "После обращения — [[!]] или запятая: [[Kochana Mamo!]] / [[Dzień dobry, panie Adamie.]]"
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Женские и мужские на -a: -o",
+   "facts": [
+    "W2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "звательный"
+     ],
+     "rows": [
+      [
+       "mama",
+       "mamo"
+      ],
+      [
+       "Anna",
+       "Anno"
+      ],
+      [
+       "Ewa",
+       "Ewo"
+      ],
+      [
+       "kolega",
+       "kolego"
+      ],
+      [
+       "Polska",
+       "Polsko"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "[[Pani]] не меняется: [[Dzień dobry, pani Ewo!]]"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Ласковые формы: -u",
+   "facts": [
+    "W3"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "звательный"
+     ],
+     "rows": [
+      [
+       "Basia",
+       "Basiu"
+      ],
+      [
+       "Ania",
+       "Aniu"
+      ],
+      [
+       "babcia",
+       "babciu"
+      ],
+      [
+       "ciocia",
+       "ciociu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Мужской род",
+   "facts": [
+    "W4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Почти всегда — как предложный падеж:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "звательный"
+     ],
+     "rows": [
+      [
+       "pan",
+       "panie"
+      ],
+      [
+       "Adam",
+       "Adamie"
+      ],
+      [
+       "Robert",
+       "Robercie"
+      ],
+      [
+       "Michał",
+       "Michale"
+      ],
+      [
+       "profesor",
+       "profesorze"
+      ],
+      [
+       "Jacek",
+       "Jacku"
+      ],
+      [
+       "dziadek",
+       "dziadku"
+      ],
+      [
+       "Tomasz",
+       "Tomaszu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Особые: [[ojciec → ojcze]], [[chłopiec → chłopcze]], [[syn → synu]]."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Прилагательные и средний род",
+   "facts": [
+    "W5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Прилагательное в обращении — как в именительном, средний род тоже не меняется:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Szanowny Panie!",
+       "ru": "Уважаемый господин!"
+      },
+      {
+       "pl": "Kochana Babciu!",
+       "ru": "Дорогая бабушка!"
+      },
+      {
+       "pl": "Drogie Dziecko!",
+       "ru": "Дорогое дитя!"
+      },
+      {
+       "pl": "Szanowni Państwo!",
+       "ru": "Уважаемые дамы и господа!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Официально и в письме",
+   "facts": [
+    "W6"
+   ],
+   "blocks": [
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Szanowny Panie Dyrektorze!",
+       "ru": "Уважаемый господин директор!"
+      },
+      {
+       "pl": "Szanowna Pani Dyrektor!",
+       "ru": "Уважаемая госпожа директор!"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Женские названия должностей часто не склоняются: [[pani dyrektor, pani doktor]]. В письме обращение пишем с большой буквы: [[Droga Ewo!]]"
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Szanowny Pan Dyrektor!",
+       "good": "Szanowny Panie Dyrektorze!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "В разговоре",
+   "facts": [
+    "W7"
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "kind": "mark",
+     "text": "Правило по одному учебнику (PP s. 118): с одним именем в разговоре часто говорят в именительном — [[Cześć, Ewa!]], [[Cześć, Jarek!]] В письме пишите звательный: [[Droga Ewo!]]"
+    }
+   ],
+   "marked": true
+  },
+  {
+   "id": "t8",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Отдельного задания нет, но обращение открывает каждое письмо. Ошибка в нём видна сразу."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Друг или родственник: [[Droga Ewo! Kochana Babciu! Drogi Marku!]]",
+      "Официально: [[Szanowny Panie! Szanowna Pani! Szanowni Państwo!]]",
+      "С должностью: [[Szanowny Panie Dyrektorze!]] / [[Szanowna Pani Dyrektor!]]",
+      "Обращение — с большой буквы, после него [[!]] или запятая."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "___, gdzie są moje klucze?",
+     "a": [
+      "Mamo"
+     ],
+     "expl": "Mama → mamo.",
+     "t": "t2",
+     "opts": [
+      "Mama",
+      "Mamo",
+      "Mamu"
+     ]
+    },
+    {
+     "q": "Dzień dobry, panie ___!",
+     "a": [
+      "Adamie"
+     ],
+     "expl": "Мужской, твёрдая: -ie.",
+     "t": "t4",
+     "opts": [
+      "Adam",
+      "Adamie",
+      "Adamu"
+     ]
+    },
+    {
+     "q": "Kochana ___!",
+     "a": [
+      "Babciu"
+     ],
+     "expl": "Babcia → babciu.",
+     "t": "t3",
+     "opts": [
+      "Babcia",
+      "Babcio",
+      "Babciu"
+     ]
+    },
+    {
+     "q": "Szanowny ___ Dyrektorze!",
+     "a": [
+      "Panie"
+     ],
+     "expl": "Pan → panie.",
+     "t": "t6",
+     "opts": [
+      "Pan",
+      "Panie",
+      "Panu"
+     ]
+    },
+    {
+     "q": "___, pomóż mi!",
+     "a": [
+      "Jacku"
+     ],
+     "expl": "Jacek → Jacku.",
+     "t": "t4",
+     "opts": [
+      "Jacek",
+      "Jacku",
+      "Jacke"
+     ]
+    },
+    {
+     "q": "Droga ___!",
+     "a": [
+      "Ewo"
+     ],
+     "expl": "Ewa → Ewo.",
+     "t": "t2",
+     "opts": [
+      "Ewa",
+      "Ewo",
+      "Ewu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 2,
+   "kind": "type",
+   "title": "Обращения",
+   "instr": "Поставьте слово в звательный падеж.",
+   "items": [
+    {
+     "q": "Drogi ___! (Marek)",
+     "a": [
+      "Marku"
+     ],
+     "expl": "После k — -u; беглое e.",
+     "t": "t4"
+    },
+    {
+     "q": "Kochana ___! (Ania)",
+     "a": [
+      "Aniu"
+     ],
+     "expl": "Ania → Aniu.",
+     "t": "t3"
+    },
+    {
+     "q": "Dzień dobry, panie ___! (profesor)",
+     "a": [
+      "profesorze"
+     ],
+     "expl": "R → rz.",
+     "t": "t4"
+    },
+    {
+     "q": "___, chodź na obiad! (syn)",
+     "a": [
+      "Synu"
+     ],
+     "expl": "Особое: synu.",
+     "t": "t4"
+    },
+    {
+     "q": "Szanowna Pani ___! (doktor)",
+     "a": [
+      "Doktor"
+     ],
+     "expl": "Женская должность не склоняется.",
+     "t": "t6"
+    },
+    {
+     "q": "Kochana ___! (ciocia)",
+     "a": [
+      "Ciociu"
+     ],
+     "expl": "Ciocia → ciociu.",
+     "t": "t3"
+    },
+    {
+     "q": "Hej, ___! Pomożesz mi? (kolega)",
+     "a": [
+      "kolego"
+     ],
+     "expl": "Kolega → kolego.",
+     "t": "t2"
+    },
+    {
+     "q": "Drogi ___! (Tomasz)",
+     "a": [
+      "Tomaszu"
+     ],
+     "expl": "После sz — -u.",
+     "t": "t4"
+    },
+    {
+     "q": "Kochany ___! (dziadek)",
+     "a": [
+      "Dziadku"
+     ],
+     "expl": "Dziadek → dziadku.",
+     "t": "t4"
+    },
+    {
+     "q": "Droga ___! (Monika)",
+     "a": [
+      "Moniko"
+     ],
+     "expl": "Monika → Moniko.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e2b",
+   "level": 2,
+   "kind": "type",
+   "title": "Имена",
+   "instr": "Обратитесь к человеку по имени: впишите звательный падеж.",
+   "items": [
+    {
+     "q": "Droga ___! (Agnieszka)",
+     "a": [
+      "Agnieszko"
+     ],
+     "expl": "-a → -o.",
+     "t": "t2"
+    },
+    {
+     "q": "Drogi ___! (Krzysztof)",
+     "a": [
+      "Krzysztofie"
+     ],
+     "expl": "Твёрдая f → -ie.",
+     "t": "t4"
+    },
+    {
+     "q": "Kochana ___! (Zosia)",
+     "a": [
+      "Zosiu"
+     ],
+     "expl": "Ласковая форма: -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Drogi ___! (Wojtek)",
+     "a": [
+      "Wojtku"
+     ],
+     "expl": "После k — -u; беглое e.",
+     "t": "t4"
+    },
+    {
+     "q": "Drogi ___! (Paweł)",
+     "a": [
+      "Pawle"
+     ],
+     "expl": "Paweł → Pawle.",
+     "t": "t4"
+    },
+    {
+     "q": "Drogi ___! (Jan)",
+     "a": [
+      "Janie"
+     ],
+     "expl": "Твёрдая n → -ie.",
+     "t": "t4"
+    },
+    {
+     "q": "Dzień dobry, pani ___! (Anna)",
+     "a": [
+      "Anno"
+     ],
+     "expl": "-a → -o.",
+     "t": "t2"
+    },
+    {
+     "q": "Drogi ___! (Łukasz)",
+     "a": [
+      "Łukaszu"
+     ],
+     "expl": "После sz — -u.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Szanowny **Pan Dyrektor**!",
+     "a": [
+      "Panie Dyrektorze"
+     ],
+     "expl": "Pan → Panie, dyrektor → Dyrektorze.",
+     "t": "t6"
+    },
+    {
+     "q": "Droga **Basio**!",
+     "a": [
+      "Basiu"
+     ],
+     "expl": "Ласковая форма: -u.",
+     "t": "t3"
+    },
+    {
+     "q": "**Ojciec**, pomóż mi!",
+     "a": [
+      "Ojcze"
+     ],
+     "expl": "Ojciec → ojcze.",
+     "t": "t4"
+    },
+    {
+     "q": "Kochany **Michał**!",
+     "a": [
+      "Michale"
+     ],
+     "expl": "Michał → Michale.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Początek listu",
+   "instr": "Как в письме на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "{1} Pani! Piszę w sprawie kursu. — Droga {2}! Dziękuję za zaproszenie! — Kochany {3}! Wszystkiego najlepszego! — Szanowny Panie {4}! Proszę o urlop. — Drogi {5}! Co u ciebie?",
+   "items": [
+    {
+     "q": "Szanowna",
+     "a": [
+      "Szanowna"
+     ],
+     "expl": "Прилагательное в обращении = именительный.",
+     "t": "t5"
+    },
+    {
+     "q": "Kasia",
+     "a": [
+      "Kasiu"
+     ],
+     "expl": "Ласковая форма: -u.",
+     "t": "t3"
+    },
+    {
+     "q": "dziadek",
+     "a": [
+      "Dziadku"
+     ],
+     "expl": "Dziadek → Dziadku.",
+     "t": "t4"
+    },
+    {
+     "q": "Dyrektor",
+     "a": [
+      "Dyrektorze"
+     ],
+     "expl": "R → rz.",
+     "t": "t6"
+    },
+    {
+     "q": "Piotr",
+     "a": [
+      "Piotrze"
+     ],
+     "expl": "R → rz.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 4,
+   "kind": "write",
+   "title": "Dwa listy",
+   "instr": "Напишите два коротких начала писем: (1) подруге Магде — пригласите её в гости; (2) директору школы (мужчине) — попросите о встрече.",
+   "words": [
+    30,
+    45
+   ],
+   "need": "В каждом письме — обращение в звательном падеже с большой буквы и подпись.",
+   "model": "Droga Magdo! Zapraszam Cię w sobotę na kolację. Przyjdziesz? Całuję, Ola. Szanowny Panie Dyrektorze! Zwracam się z prośbą o spotkanie w sprawie mojego syna. Czy mógłby Pan znaleźć dla mnie czas w przyszłym tygodniu? Z wyrazami szacunku, Olga Kowalska",
+   "model_future": [
+    "Magdo",
+    "Panie Dyrektorze"
+   ],
+   "checklist": [
+    "Обращение к подруге в звательном (Droga Magdo!)",
+    "Официальное обращение (Szanowny Panie Dyrektorze!)",
+    "Обращения с большой буквы",
+    "После обращения — !",
+    "В официальном письме — Pan / Pani вместо ty",
+    "Есть подписи"
+   ],
+   "t": "t1"
+  }
+ ]
+}

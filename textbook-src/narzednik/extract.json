@@ -1,0 +1,523 @@
+{
+ "topic": "narzednik",
+ "title": "Narzędnik — творительный падеж (ед. число)",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 «deklinacja» (s. 75–76); 2.2.3 Składnia, pkt 1 lit. e «narzędnik: jako orzecznik (Piotr jest przystojnym mężczyzną.), jako określenie rzeczownika (Zamówił dwie kawy z mlekiem…), jako określenie czasownika bez przyimka (Po studiach kierował biurem uniwersyteckim. W czasie studiów zajmowała się dziećmi znajomych.), z przyimkiem (Sklep znajduje się za tamtym rogiem. Napisali to oficjalne pismo przed kolacją. Przyjdziemy między siódmą a ósmą.)», s. 78. На A2 (s. 67–68) — те же функции проще (Interesuję się sportem. Jechał pociągiem. Byłyśmy nad morzem.).",
+  "level": "B1 — повторение и расширение A2: окончания ед. числа, kim jest? (orzecznik), инструмент и транспорт, глаголы, время, предлоги. Мн. число (-ami) — блок 4.",
+  "katalog_b": [
+   "7.1 Człowiek, pkt 4 zawód, zajęcie (s. 84)",
+   "7.4 Czas wolny, pkt 5 hobby i zainteresowania (s. 84)",
+   "7.5 Podróże, pkt 2 środki transportu (s. 85)"
+  ],
+  "katalog_a": [
+   "4 informowanie, lit. a identyfikowanie (s. 83)",
+   "6.2 Pojęcia ogólne, pkt 5 wyrażanie sposobu (s. 84)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka, блок 1: k1-5 (cieszył się rowerem, z kolegami), k1-6 (jeździł rowerem), k1-3 (cieszyć się widokiem), k1-8 (nad jeziorem mazurskim, najważniejszą atrakcją), k1-1 (nad morzem); блок 3 k3-1 (za tobą). В письме — kim jestem, czym się interesuję, czym jeżdżę.",
+  "depends_on": [
+   "przyimki",
+   "biernik"
+  ],
+  "feeds": [
+   "блок 4: творительный мн. число",
+   "charakterystyka osoby (письмо)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Narzędnik liczby pojedynczej», s. 85–94 (s. 87 — окончания и употребление, s. 94 — местоимения)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 8, s. 157 (таблица narzędnika, глаголы и предлоги), s. 159 (местоимения)",
+  "MOWIC": "Mówić po polsku, «Polish Cases: The Instrumental»: https://mowicpopolsku.com/polish-grammar/cases/instrumental",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-1, k1-3, k1-5, k1-6, k1-8), blok 3 (k3-1)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "N1",
+   "ru": "Творительный (narzędnik, (z) kim? (z) czym?) нужен: после być и zostać (kim jest?), для инструмента и транспорта (czym?), после ряда глаголов (interesować się, zajmować się), во времени (wieczorem, latem) и после предлогов z, nad, pod, przed, za, między.",
+   "pl": [
+    "Jestem lekarzem. Jadę autobusem. Interesuję się sportem."
+   ],
+   "refs": [
+    "PP s. 87 («Narzędnika używamy: a) gdy mówimy, czym się posługujemy… b) czym się poruszamy… c) którędy… d) relacje czasowe… e) po czasownikach… f) po przyimkach»)",
+    "JPBG9 s. 157 (таблица «Narzędnik (z) kim? (z) czym?», глаголы и предлоги + NARZĘDNIK)",
+    "STD B1 2.2.3 pkt 1 lit. e, s. 78 (Piotr jest przystojnym mężczyzną; kawy z mlekiem; kierował biurem; zajmowała się dziećmi; za tamtym rogiem; przed kolacją)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N2",
+   "ru": "Мужской и средний род: -em, после k, g — -iem: dom → domem, okno → oknem, brat → bratem, Polak → Polakiem, pociąg → pociągiem; на -e среднего — просто +m: śniadanie → śniadaniem.",
+   "pl": [
+    "Jadę pociągiem z bratem."
+   ],
+   "refs": [
+    "PP s. 87 (таблица: «rodzaj męski i nijaki -em, -iem (po -k, -g)»: aktorem, prawnikiem)",
+    "JPBG9 s. 157 (domem, zdaniem, oknem, zwierzęciem, imieniem; Polakiem, rolnikiem, Norwegiem)",
+    "MOWIC (-em, после g, k -iem; средний на -e — только -m)",
+    "ZPE (N. uczniem, oknem)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N3",
+   "ru": "Мягкая основа и беглое e: koń → koniem, gość → gościem; pies → psem, koniec → końcem, taniec → tańcem, chłopiec → chłopcem.",
+   "pl": [
+    "Spaceruję z psem."
+   ],
+   "refs": [
+    "PP s. 87 («e ruchome! koniec – przed końcem, taniec – tańcem, orzeł – orłem»)",
+    "MOWIC (chłopcem, gościem)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N4",
+   "ru": "Женский род: -ą (kawa → kawą, mama → mamą, noc → nocą, pani → panią). Мужские слова на -a — тоже -ą: kolegą, mężczyzną, tatą.",
+   "pl": [
+    "Piję kawę z mamą i z kolegą."
+   ],
+   "refs": [
+    "PP s. 87 (таблица: «rodzaj żeński i słowa rodzaju męskiego zakończone na -a: -ą»: aktorką, nocą, artystą)",
+    "JPBG9 s. 157 (książką, panią, miłością, rzeczą, nocą; Uwaga: kolegą, mężczyzną, artystą)",
+    "ZPE (N. żoną)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N5",
+   "ru": "Прилагательные и определения: муж. и ср. род -ym / -im (после k, g), жен. -ą: dobrym, wysokim, dobrą; ten → tym, ta → tą; mój → moim, moja → moją.",
+   "pl": [
+    "Jest dobrym lekarzem. Interesuję się tą książką."
+   ],
+   "refs": [
+    "PP s. 87 (rodzaj męski i nijaki -ym, -im; rodzaj żeński -ą: świetnym tłumaczem, świetną tłumaczką, językiem polskim, literaturą polską)",
+    "JPBG9 s. 157 (Przymiotnik: dużym, zdolnym, wysokim; dużą, zdolną)",
+    "ZPE (N. dobrym, dobrą, dobrym)",
+    "KEY k1-8 (nad jeziorem mazurskim; najważniejszą atrakcją)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N6",
+   "ru": "Личные местоимения: mną, tobą, nim, nią, nami, wami, nimi; с z перед mną — ze: ze mną.",
+   "pl": [
+    "Pójdziesz ze mną? Rozmawiam z nim."
+   ],
+   "refs": [
+    "PP s. 94 (таблица: mną, tobą, nim, nią, nami, wami, nimi; «Chcesz ze … (ja) iść»)",
+    "JPBG9 s. 159 (таблица zaimków w narzędniku)",
+    "KEY k3-1 (tęskni za tobą)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N7",
+   "ru": "Kim jest? — после być (и zostać) профессия, роль, национальность — в творительном: Jestem nauczycielką. Mój brat jest Polakiem. Chcę zostać lekarzem.",
+   "pl": [
+    "Jestem nauczycielką. Chcę zostać lekarzem."
+   ],
+   "refs": [
+    "PP s. 85 (Mikołaj Kopernik był astronomem…), s. 87 (chcę być aktorem; e: stać się, zostać)",
+    "STD B1 s. 78 (narzędnik jako orzecznik: Piotr jest przystojnym mężczyzną.)",
+    "MOWIC (być + narzędnik: Julian jest moim bratem.)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N8",
+   "ru": "Но после to (To jest…, …to…) — именительный: To jest Piotr. To mój brat. Ci studenci to Niemcy.",
+   "pl": [
+    "To jest mój brat. Mój brat jest lekarzem."
+   ],
+   "refs": [
+    "STD B1 s. 77 (mianownik jako orzecznik: «Ci pracowici studenci to Niemcy.»), s. 78 (narzędnik: «Piotr jest przystojnym mężczyzną.»)",
+    "MOWIC («to» + mianownik: Auto to drogi prezent.)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N9",
+   "ru": "Czym? — инструмент и транспорт без предлога: piszę długopisem, płacę kartą, jadę autobusem, lecę samolotem.",
+   "pl": [
+    "Do pracy jeżdżę tramwajem. Płacę kartą."
+   ],
+   "refs": [
+    "PP s. 87 (a: nożem, widelcem, długopisem; b: autobusem, pociągiem, samolotem, taksówką)",
+    "JPBG9 s. 157 (jechać, lecieć, płynąć, posługiwać się + NARZĘDNIK)",
+    "STD A2 s. 68 (Do Wieliczki pojedziemy autobusem.)",
+    "KEY k1-6 (będzie tam jeździł rowerem)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N10",
+   "ru": "Глаголы с творительным: interesować się, zajmować się, opiekować się, cieszyć się, kierować, rządzić, zostać.",
+   "pl": [
+    "Interesuję się muzyką. Opiekuję się babcią."
+   ],
+   "refs": [
+    "PP s. 87 (e: interesować się, zajmować się, opiekować się, rządzić, stać się, zostać), s. 86 (Ona się interesuje kinem…)",
+    "JPBG9 s. 157 (interesować się, zajmować się, zachwycać się, cieszyć się, opiekować się…)",
+    "STD B1 s. 78 (kierował biurem; zajmowała się dziećmi)",
+    "KEY k1-5 (najbardziej cieszył się rowerem), k1-3 (cieszyć się widokiem)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N11",
+   "ru": "Время суток и времена года — творительный без предлога: wieczorem, nocą, latem, zimą, wiosną, jesienią.",
+   "pl": [
+    "Wieczorem czytam. Latem jeździmy nad morze."
+   ],
+   "refs": [
+    "PP s. 87 (d: dniem i nocą, wieczorem, wiosną, latem, jesienią, zimą)",
+    "MOWIC (wieczorem, nocą)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "N12",
+   "ru": "Предлоги с творительным: z (вместе с), nad, pod, przed, za, między — где? (подробно — тема «Предлоги и падежи»).",
+   "pl": [
+    "Mieszkam nad morzem. Czekam przed kinem."
+   ],
+   "refs": [
+    "PP s. 87 (f: z, ponad, nad, pod, przed, za, między)",
+    "JPBG9 s. 157 (z / za / przed / nad / pod / między + NARZĘDNIK)",
+    "STD B1 s. 78 (za tamtym rogiem; przed kolacją; między siódmą a ósmą)",
+    "KEY k1-1 (nad morzem), k1-5 (z kolegami)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "В тексте JPBG IX s. 157 таблица narzędnika дана вместе со списком глаголов и предлогов — удобный второй источник.",
+  "«То» + именительный (To jest Piotr) против «jest» + творительный (Piotr jest lekarzem) явно разведено только в стандарте (s. 77 и s. 78) и у Mówić po polsku; в учебниках проекта — только примеры."
+ ],
+ "forms": [
+  {
+   "form": "domem",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "oknem",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "bratem",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "Polakiem",
+   "kind": "przyp",
+   "lemma": "Polak",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "pociągiem",
+   "kind": "przyp",
+   "lemma": "pociąg",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "śniadaniem",
+   "kind": "przyp",
+   "lemma": "śniadanie",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "koniem",
+   "kind": "przyp",
+   "lemma": "koń",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "gościem",
+   "kind": "przyp",
+   "lemma": "gość",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "psem",
+   "kind": "przyp",
+   "lemma": "pies",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "końcem",
+   "kind": "przyp",
+   "lemma": "koniec",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tańcem",
+   "kind": "przyp",
+   "lemma": "taniec",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "chłopcem",
+   "kind": "przyp",
+   "lemma": "chłopiec",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "kawą",
+   "kind": "przyp",
+   "lemma": "kawa",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "mamą",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "nocą",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "panią",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "kolegą",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "mężczyzną",
+   "kind": "przyp",
+   "lemma": "mężczyzna",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tatą",
+   "kind": "przyp",
+   "lemma": "tata",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "dobrym",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "wysokim",
+   "kind": "przyp",
+   "lemma": "wysoki",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "dobrą",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tym",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tą",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "moim",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "moją",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "mną",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tobą",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "nią",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "nami",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "wami",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "nimi",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "nauczycielką",
+   "kind": "przyp",
+   "lemma": "nauczycielka",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "Polakiem",
+   "kind": "przyp",
+   "lemma": "Polak",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "lekarzem",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "długopisem",
+   "kind": "przyp",
+   "lemma": "długopis",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "kartą",
+   "kind": "przyp",
+   "lemma": "karta",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "autobusem",
+   "kind": "przyp",
+   "lemma": "autobus",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "samolotem",
+   "kind": "przyp",
+   "lemma": "samolot",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "muzyką",
+   "kind": "przyp",
+   "lemma": "muzyka",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "babcią",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "wieczorem",
+   "kind": "przyp",
+   "lemma": "wieczór",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "latem",
+   "kind": "przyp",
+   "lemma": "lato",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "zimą",
+   "kind": "przyp",
+   "lemma": "zima",
+   "case": "inst",
+   "n": "sg"
+  }
+ ]
+}

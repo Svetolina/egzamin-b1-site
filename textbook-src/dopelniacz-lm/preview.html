@@ -1,0 +1,221 @@
+<title>Dopełniacz l. mn. · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "dopelniacz-lm", "level": "B1", "group": "Падежи", "title_pl": "Dopełniacz l. mn.", "title_ru": "Родительный падеж мн. числа", "lead": "Pięć książek, dużo ludzi, nie ma biletów: -ów, -i, -y и нулевое окончание с беглым e.", "facts_file": "extract.json", "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-4, k1-5, k1-6, k1-7, k1-8)", "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. a–b, s. 75–76; 2.2.3 pkt 1 lit. b, s. 77"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["G1"], "blocks": [{"type": "p", "text": "Родительный мн. нужен очень часто: [[pięć, kilka, dużo, mało]] + существительное, [[nie ma]], предлоги [[do, z, bez, dla]], а у мужчин — ещё и вместо винительного."}, {"type": "table", "head": ["род", "окончание", "пример"], "rows": [["мужской (твёрдая)", "-ów", "[[domów, studentów]]"], ["мужской (мягкая, cz, sz, rz)", "-i / -y", "[[nauczycieli, lekarzy]]"], ["женский, средний (твёрдая)", "нулевое (+ e)", "[[kobiet, miast, książek, okien]]"], ["женский (мягкая, -cja)", "-i / -y", "[[lekcji, nocy]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "Нулевое окончание — как в русском: «много книг, окон, женщин» → [[dużo książek, okien, kobiet]]."}]}, {"id": "t2", "title": "Мужской род: -ów, -i, -y", "facts": ["G2"], "blocks": [{"type": "table", "head": ["им. мн.", "род. мн."], "rows": [["domy", "domów"], ["studenci", "studentów"], ["panowie", "panów"], ["nauczyciele", "nauczycieli"], ["goście", "gości"], ["lekarze", "lekarzy"], ["klucze", "kluczy"]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "dużo nauczycielów", "good": "dużo nauczycieli"}]}]}, {"id": "t3", "title": "Женский и средний: нулевое окончание и беглое e", "facts": ["G3"], "blocks": [{"type": "p", "text": "Отбрасываем [[-a / -o]]. Если в конце неудобное скопление согласных — вставляем [[e]]. Часто [[o]] меняется на [[ó]]: [[szkoła → szkół]]."}, {"type": "table", "head": ["им. ед.", "род. мн."], "rows": [["kobieta", "kobiet"], ["miasto", "miast"], ["szkoła", "szkół"], ["książka", "książek"], ["okno", "okien"], ["jabłko", "jabłek"]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "pięć książków", "good": "pięć książek"}, {"bad": "dużo kobietów", "good": "dużo kobiet"}]}]}, {"id": "t4", "title": "Женский: -i / -y", "facts": ["G4"], "blocks": [{"type": "table", "head": ["им. ед.", "род. мн."], "rows": [["lekcja", "lekcji"], ["kuchnia", "kuchni"], ["noc", "nocy"], ["rzecz", "rzeczy"], ["miłość", "miłości"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "Но [[ulica → ulic]] — нулевое окончание."}]}, {"id": "t5", "title": "Средний на -e, -um", "facts": ["G5"], "blocks": [{"type": "table", "head": ["им. ед.", "род. мн."], "rows": [["zdjęcie", "zdjęć"], ["mieszkanie", "mieszkań"], ["zajęcie", "zajęć"], ["muzeum", "muzeów"], ["morze", "mórz"]], "pl_cols": [0, 1]}]}, {"id": "t6", "title": "Особые формы", "facts": ["G6"], "blocks": [{"type": "table", "head": ["им. мн.", "род. мн."], "rows": [["ludzie", "ludzi"], ["dzieci", "dzieci"], ["pieniądze", "pieniędzy"], ["przyjaciele", "przyjaciół"], ["tygodnie", "tygodni"], ["miesiące", "miesięcy"], ["lata", "lat"], ["urodziny", "urodzin"], ["wakacje", "wakacji"]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "pięć roków", "good": "pięć lat"}, {"bad": "dużo człowieków", "good": "dużo ludzi"}]}]}, {"id": "t7", "title": "Прилагательные, ten, mój", "facts": ["G7"], "blocks": [{"type": "p", "text": "Одно окончание на все рода: [[-ych]], после [[k, g]] — [[-ich]]."}, {"type": "ex", "items": [{"pl": "Szukam tanich biletów.", "ru": "Ищу дешёвые билеты."}, {"pl": "Nie znam tych ludzi.", "ru": "Я не знаю этих людей."}, {"pl": "Kilka moich koleżanek mieszka w Gdańsku.", "ru": "Несколько моих подруг живут в Гданьске."}]}]}, {"id": "t8", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В блоке 1 сборника 2017 родительный мн. — самая частая форма: [[kolejki do kas]], [[nie ma wolnych miejsc]], [[wiele nagród]], [[dużo zdjęć]], [[wielu dobrych przyjaciół]], [[brak pieniędzy]]."}, {"type": "steps", "items": ["Перед словом [[pięć, kilka, dużo, mało, wiele]], [[nie ma]] или предлог с родительным?", "Мужской: [[-ów]], после мягких и [[l]] — [[-i]], после [[cz, sz, rz]] — [[-y]].", "Женский и средний: отбросить [[-a / -o]], при скоплении — [[e]] ([[książek, okien]]).", "Прилагательное: [[-ych / -ich]]."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "Mam pięć ___.", "a": ["książek"], "expl": "Нулевое + e.", "t": "t3", "opts": ["książki", "książek", "książków"]}, {"q": "W sklepie nie ma ___.", "a": ["jabłek"], "expl": "Нулевое + e.", "t": "t3", "opts": ["jabłka", "jabłek", "jabłków"]}, {"q": "Na kursie jest dużo ___.", "a": ["studentów"], "expl": "Мужской: -ów.", "t": "t2", "opts": ["studentów", "studenci", "studenty"]}, {"q": "W pokoju jest kilka ___.", "a": ["okien"], "expl": "Okno → okien.", "t": "t3", "opts": ["okna", "okien", "oknów"]}, {"q": "Mieszkam tu od pięciu ___.", "a": ["lat"], "expl": "Rok → lat.", "t": "t6", "opts": ["roków", "lat", "lata"]}, {"q": "Nie mam ___.", "a": ["pieniędzy"], "expl": "Pieniądze → pieniędzy.", "t": "t6", "opts": ["pieniądze", "pieniędzy", "pieniądzów"]}, {"q": "Znam wielu ___.", "a": ["nauczycieli"], "expl": "После l — -i.", "t": "t2", "opts": ["nauczycielów", "nauczycieli", "nauczyciele"]}, {"q": "Mam dziś sześć ___.", "a": ["lekcji"], "expl": "-cja → -cji.", "t": "t4", "opts": ["lekcje", "lekcji", "lekcjów"]}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "W tej firmie pracuje dużo **kobietów**.", "a": ["kobiet"], "expl": "Нулевое окончание.", "t": "t3"}, {"q": "Na ulicy było mało **człowieków**.", "a": ["ludzi"], "expl": "Особая форма.", "t": "t6"}, {"q": "Mam troje **dziecków**.", "a": ["dzieci"], "expl": "Dzieci → dzieci.", "t": "t6"}, {"q": "Kupiłam dziesięć **jajków**.", "a": ["jajek"], "expl": "Нулевое + e.", "t": "t3"}, {"q": "Zrobiłam dużo **zdjęciów**.", "a": ["zdjęć"], "expl": "Средний на -e → нулевое.", "t": "t5"}, {"q": "Szukam **tanych** mieszkań.", "a": ["tanich"], "expl": "Прилагательное: -ich.", "t": "t7"}, {"q": "Nie mam **przyjacieli** w tym mieście.", "a": ["przyjaciół"], "expl": "Особая форма.", "t": "t6"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Мужской род", "instr": "Поставьте слово в родительный мн.", "items": [{"q": "W bibliotece jest dużo ___. (słownik)", "a": ["słowników"], "expl": "Твёрдая → -ów.", "t": "t2"}, {"q": "Na parkingu nie ma wolnych ___. (garaż)", "a": ["garaży", "garażów"], "expl": "После ż — -y (вариант -ów).", "t": "t2"}, {"q": "Mam pięciu ___. (kuzyn)", "a": ["kuzynów"], "expl": "Мужской: -ów.", "t": "t2"}, {"q": "Na koncercie było tysiąc ___. (widz)", "a": ["widzów"], "expl": "-owie → -ów.", "t": "t2"}, {"q": "Szukam ___ do mieszkania. (klucz)", "a": ["kluczy"], "expl": "После cz — -y.", "t": "t2"}, {"q": "Czekam na kilku ___. (gość)", "a": ["gości"], "expl": "Мягкая → -i.", "t": "t2"}, {"q": "W szpitalu brakuje ___. (lekarz)", "a": ["lekarzy"], "expl": "После rz — -y.", "t": "t2"}, {"q": "Kupiłem kilo ___. (pomidor)", "a": ["pomidorów"], "expl": "Твёрдая → -ów.", "t": "t2"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "Женский и средний род", "instr": "Поставьте слово в родительный мн.", "items": [{"q": "W mieście jest pięć ___. (szkoła)", "a": ["szkół"], "expl": "O → ó: szkół.", "t": "t3"}, {"q": "Kupiłam kilo ___. (truskawka)", "a": ["truskawek"], "expl": "Нулевое + e.", "t": "t3"}, {"q": "W tym kraju jest dużo pięknych ___. (miasto)", "a": ["miast"], "expl": "Нулевое.", "t": "t3"}, {"q": "Nie lubię długich ___. (rozmowa)", "a": ["rozmów"], "expl": "O → ó: rozmów.", "t": "t3"}, {"q": "W tej dzielnicy jest dużo ___. (restauracja)", "a": ["restauracji"], "expl": "-cja → -cji.", "t": "t4"}, {"q": "Mam w domu kilka ___. (roślina)", "a": ["roślin"], "expl": "Нулевое.", "t": "t3"}, {"q": "Na kursie było mało ___. (zajęcie)", "a": ["zajęć"], "expl": "Средний на -e → нулевое.", "t": "t5"}, {"q": "W Krakowie jest wiele ___. (muzeum)", "a": ["muzeów"], "expl": "-um → -ów.", "t": "t5"}, {"q": "Na tej ulicy nie ma ___. (sklep)", "a": ["sklepów"], "expl": "Мужской: -ów.", "t": "t2"}, {"q": "Ile masz ___? (siostra)", "a": ["sióstr"], "expl": "Siostra → sióstr.", "t": "t3"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "С прилагательным", "instr": "Поставьте в родительный мн. обе части.", "items": [{"q": "Szukam ___. (tani bilet)", "a": ["tanich biletów"], "expl": "-ich + -ów.", "t": "t7"}, {"q": "Mam dużo ___. (dobra koleżanka)", "a": ["dobrych koleżanek"], "expl": "-ych + нулевое (e).", "t": "t7"}, {"q": "Nie znam ___. (ten nowy sąsiad)", "a": ["tych nowych sąsiadów"], "expl": "Tych + -ych + -ów.", "t": "t7"}, {"q": "W sklepie jest wiele ___. (świeże jabłko)", "a": ["świeżych jabłek"], "expl": "-ych + jabłek.", "t": "t7"}, {"q": "Kupiłam kilka ___. (polska książka)", "a": ["polskich książek"], "expl": "-ich + książek.", "t": "t7"}, {"q": "Brakuje mi ___. (moi przyjaciele)", "a": ["moich przyjaciół"], "expl": "Moich + przyjaciół.", "t": "t7"}]}, {"id": "e6", "level": 3, "kind": "text", "format": "exam", "title": "Urodziny Kasi", "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.", "passage": "Na urodziny Kasi przyszło dużo {1}. Było dwadzieścia {2} i pięciu {3} z jej pracy. Na stole stało kilka {4} i talerze pełne {5}. Kasia dostała mnóstwo {6}, ale nie było wśród nich {7}. Wszyscy zrobili wiele {8}. Impreza trwała do drugiej, bo nikt nie chciał iść do {9}. Kasia mówi, że nie pamięta tak udanych {10}.", "items": [{"q": "gość", "a": ["gości"], "expl": "Dużo + gości.", "t": "t2"}, {"q": "osoba", "a": ["osób"], "expl": "Нулевое: o → ó.", "t": "t3"}, {"q": "kolega", "a": ["kolegów"], "expl": "Pięciu + kolegów.", "t": "t2"}, {"q": "butelka", "a": ["butelek"], "expl": "Нулевое + e.", "t": "t3"}, {"q": "kanapka", "a": ["kanapek"], "expl": "Нулевое + e.", "t": "t3"}, {"q": "prezent", "a": ["prezentów"], "expl": "Mnóstwo + -ów.", "t": "t2"}, {"q": "kwiaty", "a": ["kwiatów"], "expl": "Nie było + родительный.", "t": "t2"}, {"q": "zdjęcie", "a": ["zdjęć"], "expl": "Wiele + zdjęć.", "t": "t5"}, {"q": "dom (l. mn.)", "a": ["domów"], "expl": "Do + родительный мн.", "t": "t2"}, {"q": "urodziny", "a": ["urodzin"], "expl": "Особая форма.", "t": "t6"}]}, {"id": "e7", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.", "items": [{"q": "W sklepie są tylko dwie książki. → W sklepie jest mało ___.", "a": ["książek"], "expl": "Mało + родительный мн.", "t": "t3"}, {"q": "Na kursie jest piętnaście osób. → Na kursie jest piętnaście ___.", "a": ["osób"], "expl": "15 + родительный мн.", "t": "t3"}, {"q": "W kinie wszystkie miejsca były zajęte. → W kinie nie było wolnych ___.", "a": ["miejsc"], "expl": "Nie było + родительный мн.", "t": "t3"}, {"q": "Znam tych studentów od roku. → Znam ich od dwunastu ___. (miesiąc)", "a": ["miesięcy"], "expl": "Miesiąc → miesięcy (особая форма, как в «лет»).", "t": "t6"}, {"q": "Na parkingu stoi tylko jeden samochód. → Na parkingu jest mało ___.", "a": ["samochodów"], "expl": "Mało + -ów.", "t": "t2"}, {"q": "Moi rodzice mają pięcioro dzieci. → W naszej rodzinie jest pięcioro ___.", "a": ["dzieci"], "expl": "Dzieci → dzieci (особая форма).", "t": "t6"}]}, {"id": "e8", "level": 4, "kind": "write", "title": "Lista zakupów na imprezę", "instr": "Напишите другу, что нужно купить к вечеринке и сколько, и кого вы пригласили.", "words": [40, 50], "need": "Не меньше 8 форм родительного мн.: количество (kilo, kilka, dużo, pięć…), хотя бы одно «прилагательное + существительное», хотя бы одна особая форма (ludzi, przyjaciół, dzieci).", "model": "Cześć Tomek! W sobotę przyjdzie dziesięć osób: kilku kolegów z pracy i dużo moich przyjaciół. Kup proszę dwa kilo pomidorów, kilka butelek soku i pięć paczek chipsów. Nie mamy już też talerzy ani serwetek. Ja kupię dużo świeżych owoców. Dzięki!", "model_future": ["osób", "kolegów", "moich przyjaciół", "pomidorów", "butelek", "paczek", "chipsów", "talerzy", "serwetek", "świeżych owoców"], "checklist": ["Есть обращение", "Количество + родительный мн. (kilo pomidorów…)", "Kilka / dużo / pięć + родительный мн.", "Nie ma / nie mamy + родительный мн.", "Прилагательное -ych / -ich", "Особая форма (przyjaciół, ludzi, dzieci)", "Мужчины: kolegów; женщины и вещи: нулевое (osób, butelek)", "40–50 слов"], "t": "t1"}]}, "facts": {"G1": {"refs": ["PP s. 48 (таблица «Dopełniacz liczby mnogiej — Rzeczownik (kogo? czego?)»), s. 40 (употребление родительного: ile czegoś jest, nie ma, przyimki, czasowniki)", "JPBG11 s. 100 («Wyrazy te zawsze łączą się z rzeczownikiem w dopełniaczu l. mnogiej…: Na parkingu stało kilkanaście samochodów. Tu jest dużo ludzi. Przeczytał mnóstwo książek.»)", "ELON (pięć kotów, dużo ludzi, nie mam pieniędzy)", "KEY k1-4 (kolejki do kas, nie ma wolnych miejsc), k1-1 (dużo zdjęć)"], "status": "ok"}, "G2": {"refs": ["PP s. 48 (rodzaj męski: -ów po spółgłoskach twardych oraz po -j, -c; -i po miękkich; -y po stwardniałych; * mężczyźni na -owie → -ów; pokojów – pokoi)", "ELON (kot → kotów, dom → domów; nauczyciel → nauczycieli, talerz → talerzy)", "ZPE (D. l. mn. uczniów)", "KEY k1-4 (biletów), k1-5 (prezentów), k1-7 (sukcesów), k1-3 (pociągów), k1-1 (szczytów)", "MORF"], "status": "ok"}, "G3": {"refs": ["PP s. 48 (rodzaj żeński ø; rodzaj nijaki ø; *** e ruchome: frytki – frytek, bułka – bułek, jabłka – jabłek, jajka – jajek)", "ELON (zero ending; szkoła → szkół, słowo → słów; fleeting -e-: książka → książek, okno → okien, jabłko → jabłek)", "ZPE (D. l. mn. żon, okien)", "KEY k1-4 (kas, miejsc, nagród, wrażeń), k1-8 (ostatnich prac)", "MORF"], "status": "ok"}, "G4": {"refs": ["PP s. 48 (rodzaj żeński: -i czasem po spółgłoskach miękkich, -y czasem po stwardniałych: wiśni, nocy, groszy)", "ELON (noc → nocy, kość → kości, restauracja → restauracji; ulica → ulic)", "KEY k1-7 (wakacji)", "MORF"], "status": "ok"}, "G5": {"refs": ["PP s. 48 (rodzaj nijaki ø; -ów w rzeczownikach na -um: muzeów)", "ELON (morze → mórz, pole → pól)", "KEY k1-1 (dużo zdjęć), k1-3 (do swoich zajęć), k1-4 (wrażeń), k1-6 (mieszkań)", "MORF"], "status": "ok"}, "G6": {"refs": ["ELON (dużo ludzi, nie mam pieniędzy, kobiet i dzieci, bez moich przyjaciół — przyjaciół как исключение)", "KEY k1-6 (brak pieniędzy), k1-8 (wielu dobrych przyjaciół), k1-5 (z okazji urodzin), k1-7 (wakacji)", "JPBG11 s. 100 (Tu jest dużo ludzi.); JPBG11, lekcja 1 (kilka miesięcy później)", "Zbiór zadań 2017, Gramatyka (kilka miesięcy pomieszkać)", "MORF"], "status": "ok"}, "G7": {"refs": ["PP s. 49 (rodzaj męski, żeński i nijaki -ych / -ich: kilka dużych talerzy, kosz polskich jabłek)", "ZPE (D. l. mn. dobrych)", "KEY k1-8 (wielu dobrych przyjaciół; kilku ostatnich prac)", "MORF"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: «Dopełniacz liczby mnogiej», s. 46–51 (s. 48 — окончания и сноски, s. 49 — прилагательные); s. 40 — употребление родительного", "JPBG11": "Język polski bez granic, kl. XI (B1, cz. 2), Wspólnota Polska: lekcja 5, s. 100 («Wyrazy określające ilość» + dopełniacz l. mn.)", "ELON": "elon.io, «The Genitive Plural»: https://elon.io/grammar/polish/nouns/plurals/genitive-plural", "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-1, k1-3, k1-4, k1-5, k1-6, k1-7, k1-8)", "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

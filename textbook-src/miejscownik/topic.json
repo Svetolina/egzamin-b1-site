@@ -1,0 +1,1246 @@
+{
+ "topic": "miejscownik",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Miejscownik",
+ "title_ru": "Предложный падеж",
+ "lead": "O kim? O czym? Gdzie? W domu, w szkole, w Polsce — и почему Kraków становится w Krakowie.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-5, k1-6, k1-8), blok 11 (k11-6)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. f, s. 78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "M1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Предложный всегда идёт с предлогом: [[w, na, o, po, przy]]. Отвечает на «где?», «о чём?», «по чему?», «после чего?» — почти как русский предложный."
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "основное окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской, средний (твёрдая)",
+       "-e (+ смягчение)",
+       "[[w sklepie, w mieście]]"
+      ],
+      [
+       "мужской, средний (k, g, ch, мягкая)",
+       "-u",
+       "[[w parku, w hotelu]]"
+      ],
+      [
+       "женский (твёрдая)",
+       "-e (+ смена согласной)",
+       "[[w szkole, w Polsce]]"
+      ],
+      [
+       "женский (мягкая, c, sz…)",
+       "-i / -y",
+       "[[w kuchni, w pracy]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Главная трудность — смена согласной перед [[-e]]: [[Kraków → w Krakowie]], [[Polska → w Polsce]]."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Мужской и средний: -e",
+   "facts": [
+    "M2"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После твёрдой согласной (кроме [[k, g, ch]]) — [[-e]], а согласная смягчается. Самые частые замены:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "замена",
+      "пример"
+     ],
+     "rows": [
+      [
+       "t → ci",
+       "[[list → w liście, świat → na świecie]]"
+      ],
+      [
+       "d → dzi",
+       "[[ogród → w ogrodzie]]"
+      ],
+      [
+       "r → rz",
+       "[[rower → na rowerze]]"
+      ],
+      [
+       "ł → l",
+       "[[stół → na stole]]"
+      ],
+      [
+       "st → ści",
+       "[[miasto → w mieście]]"
+      ],
+      [
+       "b, p, m, w… → +i",
+       "[[klub → w klubie, sklep → w sklepie, Kraków → w Krakowie]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "w sklepu",
+       "good": "w sklepie"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Мужской и средний: -u",
+   "facts": [
+    "M3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После [[k, g, ch]], мягких, [[c, cz, sz, rz, ż]] и [[l, j]] — [[-u]], без смены согласной:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "предложный"
+     ],
+     "rows": [
+      [
+       "park",
+       "w parku"
+      ],
+      [
+       "pociąg",
+       "w pociągu"
+      ],
+      [
+       "hotel",
+       "w hotelu"
+      ],
+      [
+       "pokój",
+       "w pokoju"
+      ],
+      [
+       "dworzec",
+       "na dworcu"
+      ],
+      [
+       "śniadanie",
+       "po śniadaniu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Запомните три исключения: [[dom → w domu]], [[syn → o synu]], [[pan → o panu]]. Месяцы: [[w maju, w czerwcu, w marcu]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "w domie",
+       "good": "w domu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Женский род: -e со сменой согласной",
+   "facts": [
+    "M4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "замена",
+      "пример"
+     ],
+     "rows": [
+      [
+       "k → c",
+       "[[Polska → w Polsce, matka → o matce]]"
+      ],
+      [
+       "g → dz",
+       "[[droga → w drodze]]"
+      ],
+      [
+       "ch → sz",
+       "[[mucha → o musze]]"
+      ],
+      [
+       "d → dzi",
+       "[[woda → w wodzie]]"
+      ],
+      [
+       "ł → l",
+       "[[szkoła → w szkole]]"
+      ],
+      [
+       "t → ci",
+       "[[tata → o tacie]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Мужские на [[-a]] ведут себя так же: [[o tacie, o koledze]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "w Polskie",
+       "good": "w Polsce"
+      },
+      {
+       "bad": "w szkołe",
+       "good": "w szkole"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Женский род: -i и -y",
+   "facts": [
+    "M5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "основа",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мягкая, l, -ia, -cja, pani",
+       "-i",
+       "[[w kuchni, o babci, w sali, na lekcji]]"
+      ],
+      [
+       "c, cz, sz, rz, ż",
+       "-y",
+       "[[w pracy, na ulicy, na plaży]]"
+      ],
+      [
+       "на согласную",
+       "-i / -y",
+       "[[o miłości, w Łodzi, w nocy]]"
+      ]
+     ],
+     "pl_cols": []
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Прилагательные, ten, mój",
+   "facts": [
+    "M6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской, средний",
+       "-ym / -im",
+       "[[w dużym mieście, w wysokim domu]]"
+      ],
+      [
+       "женский",
+       "-ej",
+       "[[w małej kawiarni]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "предложный (м., ср.)",
+      "предложный (ж.)"
+     ],
+     "rows": [
+      [
+       "ten / ta",
+       "tym",
+       "tej"
+      ],
+      [
+       "mój / moja",
+       "moim",
+       "mojej"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Местоимения",
+   "facts": [
+    "M7"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кто?",
+      "предложный"
+     ],
+     "rows": [
+      [
+       "ja",
+       "mnie"
+      ],
+      [
+       "ty",
+       "tobie"
+      ],
+      [
+       "on, ono",
+       "nim"
+      ],
+      [
+       "ona",
+       "niej"
+      ],
+      [
+       "my",
+       "nas"
+      ],
+      [
+       "wy",
+       "was"
+      ],
+      [
+       "oni, one",
+       "nich"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Myślę o tobie.",
+       "ru": "Думаю о тебе."
+      },
+      {
+       "pl": "Mówimy o nim.",
+       "ru": "Говорим о нём."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Время",
+   "facts": [
+    "M8"
+   ],
+   "blocks": [
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Urodziłam się w maju.",
+       "ru": "Я родилась в мае."
+      },
+      {
+       "pl": "Spotkajmy się po obiedzie.",
+       "ru": "Встретимся после обеда."
+      },
+      {
+       "pl": "To było w dwa tysiące dwudziestym roku.",
+       "ru": "Это было в 2020 году."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "w maj",
+       "good": "w maju"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Глаголы с предложным",
+   "facts": [
+    "M9"
+   ],
+   "blocks": [
+    {
+     "type": "chips",
+     "items": [
+      "mówić o",
+      "myśleć o",
+      "rozmawiać o",
+      "marzyć o",
+      "pamiętać o",
+      "zapomnieć o",
+      "grać na",
+      "zakochać się w",
+      "podróżować po"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Marzę o wakacjach.",
+       "ru": "Мечтаю об отпуске."
+      },
+      {
+       "pl": "Gram na gitarze.",
+       "ru": "Играю на гитаре."
+      },
+      {
+       "pl": "Nie zapomnij o lekcji!",
+       "ru": "Не забудь об уроке!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике 2017: [[w czerwcu]], [[o rowerze]], [[po mieście]], [[w fabryce]], [[w tygodniu]], [[w domu]], [[na dziesiątym piętrze]], [[przy pysznej szarlotce]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Предлог [[w, na, o, po, przy]] и вопрос «где? о чём? после чего?» — предложный.",
+      "Мужской / средний: твёрдая → [[-e]] со смягчением; [[k, g, ch]], мягкая → [[-u]]; [[dom, syn, pan]] → [[-u]].",
+      "Женский: твёрдая → [[-e]] со сменой ([[k → c, g → dz]]); мягкая → [[-i]]; [[c, sz, rz]] → [[-y]].",
+      "Прилагательное: [[-ym / -im]] или [[-ej]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Mieszkam w ___.",
+     "a": [
+      "Krakowie"
+     ],
+     "expl": "Твёрдая w → -ie.",
+     "t": "t2",
+     "opts": [
+      "Krakowu",
+      "Krakowie",
+      "Kraków"
+     ]
+    },
+    {
+     "q": "Jestem teraz w ___.",
+     "a": [
+      "domu"
+     ],
+     "expl": "Исключение: w domu.",
+     "t": "t3",
+     "opts": [
+      "domie",
+      "domu",
+      "dom"
+     ]
+    },
+    {
+     "q": "Pracuję w ___.",
+     "a": [
+      "szkole"
+     ],
+     "expl": "Ł → l: w szkole.",
+     "t": "t4",
+     "opts": [
+      "szkołe",
+      "szkole",
+      "szkoły"
+     ]
+    },
+    {
+     "q": "Mieszkamy w ___.",
+     "a": [
+      "Polsce"
+     ],
+     "expl": "K → c: w Polsce.",
+     "t": "t4",
+     "opts": [
+      "Polskie",
+      "Polsce",
+      "Polski"
+     ]
+    },
+    {
+     "q": "Siedzę w ___ i piję kawę.",
+     "a": [
+      "kuchni"
+     ],
+     "expl": "Мягкая → -i.",
+     "t": "t5",
+     "opts": [
+      "kuchnie",
+      "kuchni",
+      "kuchnią"
+     ]
+    },
+    {
+     "q": "Spotkamy się w ___.",
+     "a": [
+      "parku"
+     ],
+     "expl": "После k — -u.",
+     "t": "t3",
+     "opts": [
+      "parku",
+      "parkie",
+      "parce"
+     ]
+    },
+    {
+     "q": "Często myślę o ___.",
+     "a": [
+      "tobie"
+     ],
+     "expl": "Ty → tobie.",
+     "t": "t7",
+     "opts": [
+      "ciebie",
+      "tobie",
+      "tobą"
+     ]
+    },
+    {
+     "q": "Urodziłem się w ___.",
+     "a": [
+      "maju"
+     ],
+     "expl": "Месяц: w maju.",
+     "t": "t8",
+     "opts": [
+      "maj",
+      "maju",
+      "maja"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Kupiłam to w **sklepu**.",
+     "a": [
+      "sklepie"
+     ],
+     "expl": "Твёрдая p → -ie.",
+     "t": "t2"
+    },
+    {
+     "q": "Byłam wczoraj w **domie**.",
+     "a": [
+      "domu"
+     ],
+     "expl": "Исключение: domu.",
+     "t": "t3"
+    },
+    {
+     "q": "Czekam na **ulice**.",
+     "a": [
+      "ulicy"
+     ],
+     "expl": "После c — -y.",
+     "t": "t5"
+    },
+    {
+     "q": "Mój brat mieszka w Gdańsku, a ja w **Szczecinu**.",
+     "a": [
+      "Szczecinie"
+     ],
+     "expl": "Твёрдая n → -ie.",
+     "t": "t2"
+    },
+    {
+     "q": "Rozmawiamy o **pracę**.",
+     "a": [
+      "pracy"
+     ],
+     "expl": "O «о чём» — предложный: pracy.",
+     "t": "t5"
+    },
+    {
+     "q": "Jedziemy na **rowerzie**.",
+     "a": [
+      "rowerze"
+     ],
+     "expl": "R → rz: rowerze.",
+     "t": "t2"
+    },
+    {
+     "q": "Byłeś kiedyś w **Ameryku**?",
+     "a": [
+      "Ameryce"
+     ],
+     "expl": "K → c: w Ameryce.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Мужской и средний род",
+   "instr": "Поставьте слово в предложный падеж.",
+   "items": [
+    {
+     "q": "Mieszkam w ___. (hotel)",
+     "a": [
+      "hotelu"
+     ],
+     "expl": "После l — -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Książka leży na ___. (stół)",
+     "a": [
+      "stole"
+     ],
+     "expl": "Ł → l.",
+     "t": "t2"
+    },
+    {
+     "q": "Czekam na ___. (dworzec)",
+     "a": [
+      "dworcu"
+     ],
+     "expl": "Беглое e, -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Byliśmy w ___ na koncercie. (teatr)",
+     "a": [
+      "teatrze"
+     ],
+     "expl": "R → rz.",
+     "t": "t2"
+    },
+    {
+     "q": "Wszystko jest w ___. (ogród)",
+     "a": [
+      "ogrodzie"
+     ],
+     "expl": "D → dzi.",
+     "t": "t2"
+    },
+    {
+     "q": "Ten film jest o ___ pani Ewy. (syn)",
+     "a": [
+      "synu"
+     ],
+     "expl": "Исключение: synu.",
+     "t": "t3"
+    },
+    {
+     "q": "Śpię w małym ___. (pokój)",
+     "a": [
+      "pokoju"
+     ],
+     "expl": "J → -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Mieszkam w centrum, w dużym ___. (miasto)",
+     "a": [
+      "mieście"
+     ],
+     "expl": "St → ści.",
+     "t": "t2"
+    },
+    {
+     "q": "Wracam do domu po ___. (spotkanie)",
+     "a": [
+      "spotkaniu"
+     ],
+     "expl": "Средний на -e → -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Jesteśmy w ___. (pociąg)",
+     "a": [
+      "pociągu"
+     ],
+     "expl": "После g — -u.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Женский род",
+   "instr": "Поставьте слово в предложный падеж.",
+   "items": [
+    {
+     "q": "Mieszkam w ___. (Warszawa)",
+     "a": [
+      "Warszawie"
+     ],
+     "expl": "W → wi.",
+     "t": "t4"
+    },
+    {
+     "q": "Ania jest na ___. (plaża)",
+     "a": [
+      "plaży"
+     ],
+     "expl": "Ż → -y.",
+     "t": "t5"
+    },
+    {
+     "q": "Często myślę o ___. (mama)",
+     "a": [
+      "mamie"
+     ],
+     "expl": "M → mi.",
+     "t": "t4"
+    },
+    {
+     "q": "Byłam na ___. (wycieczka)",
+     "a": [
+      "wycieczce"
+     ],
+     "expl": "K → c.",
+     "t": "t4"
+    },
+    {
+     "q": "Pracuję w ___. (apteka)",
+     "a": [
+      "aptece"
+     ],
+     "expl": "K → c.",
+     "t": "t4"
+    },
+    {
+     "q": "Spotkajmy się w ___. (kawiarnia)",
+     "a": [
+      "kawiarni"
+     ],
+     "expl": "Мягкая → -i.",
+     "t": "t5"
+    },
+    {
+     "q": "Opowiadał o swojej ___. (podróż)",
+     "a": [
+      "podróży"
+     ],
+     "expl": "Ż → -y.",
+     "t": "t5"
+    },
+    {
+     "q": "Mieszkam przy ___ Długiej. (ulica)",
+     "a": [
+      "ulicy"
+     ],
+     "expl": "C → -y.",
+     "t": "t5"
+    },
+    {
+     "q": "Byliśmy w ___. (Anglia)",
+     "a": [
+      "Anglii"
+     ],
+     "expl": "-ia → -ii.",
+     "t": "t5"
+    },
+    {
+     "q": "Często mówimy o ___. (Ola)",
+     "a": [
+      "Oli"
+     ],
+     "expl": "После l — -i.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте обе части в предложный падеж.",
+   "items": [
+    {
+     "q": "Mieszkam w ___. (duże miasto)",
+     "a": [
+      "dużym mieście"
+     ],
+     "expl": "-ym + -ie.",
+     "t": "t6"
+    },
+    {
+     "q": "Pracuję w ___. (mała firma)",
+     "a": [
+      "małej firmie"
+     ],
+     "expl": "-ej + -ie.",
+     "t": "t6"
+    },
+    {
+     "q": "Rozmawiamy o ___. (nowy film)",
+     "a": [
+      "nowym filmie"
+     ],
+     "expl": "-ym + -ie.",
+     "t": "t6"
+    },
+    {
+     "q": "Byliśmy na ___. (piękna plaża)",
+     "a": [
+      "pięknej plaży"
+     ],
+     "expl": "-ej + -y.",
+     "t": "t6"
+    },
+    {
+     "q": "Mieszkam na ___. (trzecie piętro)",
+     "a": [
+      "trzecim piętrze"
+     ],
+     "expl": "-im + -rze.",
+     "t": "t6"
+    },
+    {
+     "q": "Kot śpi w ___. (mój pokój)",
+     "a": [
+      "moim pokoju"
+     ],
+     "expl": "-im + -u.",
+     "t": "t6"
+    },
+    {
+     "q": "Myślę o ___. (ta praca)",
+     "a": [
+      "tej pracy"
+     ],
+     "expl": "-ej + -y.",
+     "t": "t6"
+    },
+    {
+     "q": "Wakacje spędziłam w ___. (stary dom)",
+     "a": [
+      "starym domu"
+     ],
+     "expl": "-ym + -u.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения и время",
+   "instr": "Поставьте слово в предложный падеж.",
+   "items": [
+    {
+     "q": "Wszyscy mówią o ___. (on)",
+     "a": [
+      "nim"
+     ],
+     "expl": "On → nim.",
+     "t": "t7"
+    },
+    {
+     "q": "Ciągle myślę o ___. (ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "Ona → niej.",
+     "t": "t7"
+    },
+    {
+     "q": "Nie zapomnij o ___! (my)",
+     "a": [
+      "nas"
+     ],
+     "expl": "My → nas.",
+     "t": "t7"
+    },
+    {
+     "q": "Wiem o ___ wszystko. (ty)",
+     "a": [
+      "tobie"
+     ],
+     "expl": "Ty → tobie.",
+     "t": "t7"
+    },
+    {
+     "q": "Egzamin jest w ___. (czerwiec)",
+     "a": [
+      "czerwcu"
+     ],
+     "expl": "Месяц, беглое e: w czerwcu.",
+     "t": "t8"
+    },
+    {
+     "q": "Po ___ idziemy na spacer. (obiad)",
+     "a": [
+      "obiedzie"
+     ],
+     "expl": "Po + предложный: po obiedzie (запомните форму).",
+     "t": "t8"
+    },
+    {
+     "q": "Wyjeżdżam w ___. (marzec)",
+     "a": [
+      "marcu"
+     ],
+     "expl": "Месяц: w marcu.",
+     "t": "t8"
+    },
+    {
+     "q": "Po ___ zawsze jestem zmęczona. (praca)",
+     "a": [
+      "pracy"
+     ],
+     "expl": "Po + предложный.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 2,
+   "kind": "type",
+   "title": "Глаголы с предложным",
+   "instr": "Поставьте слово в предложный падеж.",
+   "items": [
+    {
+     "q": "Marzę o ___. (urlop)",
+     "a": [
+      "urlopie"
+     ],
+     "expl": "Marzyć o + предложный.",
+     "t": "t9"
+    },
+    {
+     "q": "Moja córka gra na ___. (pianino)",
+     "a": [
+      "pianinie"
+     ],
+     "expl": "Grać na + предложный.",
+     "t": "t9"
+    },
+    {
+     "q": "Zakochał się w ___. (sąsiadka)",
+     "a": [
+      "sąsiadce"
+     ],
+     "expl": "Zakochać się w; k → c.",
+     "t": "t9"
+    },
+    {
+     "q": "Opowiedz mi o ___. (rodzina)",
+     "a": [
+      "rodzinie"
+     ],
+     "expl": "Opowiadać o + предложный.",
+     "t": "t9"
+    },
+    {
+     "q": "Podróżowaliśmy po ___. (Europa)",
+     "a": [
+      "Europie"
+     ],
+     "expl": "Podróżować po + предложный.",
+     "t": "t9"
+    },
+    {
+     "q": "Pamiętaj o ___! (lekarstwo)",
+     "a": [
+      "lekarstwie"
+     ],
+     "expl": "Pamiętać o + предложный: -ie.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Moje miasto",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "Od dwóch lat mieszkam w {1}. Moje mieszkanie jest na {2} w starej kamienicy przy {3} Wojska Polskiego. Pracuję w {4} niedaleko dworca. Po {5} lubię spacerować po {6} nad Odrą. W {7} jest dużo zieleni, a w {8} miasto pachnie kwiatami. Często rozmawiam z mamą przez telefon o moim {9}. Mama martwi się o mnie, ale ja dobrze się czuję w {10}.",
+   "items": [
+    {
+     "q": "Szczecin",
+     "a": [
+      "Szczecinie"
+     ],
+     "expl": "W + предложный: -ie.",
+     "t": "t2"
+    },
+    {
+     "q": "czwarte piętro",
+     "a": [
+      "czwartym piętrze"
+     ],
+     "expl": "-ym + -rze.",
+     "t": "t6"
+    },
+    {
+     "q": "ulica",
+     "a": [
+      "ulicy"
+     ],
+     "expl": "Przy + предложный: после c — -y.",
+     "t": "t5"
+    },
+    {
+     "q": "biuro",
+     "a": [
+      "biurze"
+     ],
+     "expl": "R → rz.",
+     "t": "t2"
+    },
+    {
+     "q": "praca",
+     "a": [
+      "pracy"
+     ],
+     "expl": "Po + предложный: -y.",
+     "t": "t8"
+    },
+    {
+     "q": "bulwar",
+     "a": [
+      "bulwarze"
+     ],
+     "expl": "Po «по чему»: r → rz.",
+     "t": "t2"
+    },
+    {
+     "q": "każda dzielnica",
+     "a": [
+      "każdej dzielnicy"
+     ],
+     "expl": "-ej + -y (после c).",
+     "t": "t6"
+    },
+    {
+     "q": "maj",
+     "a": [
+      "maju"
+     ],
+     "expl": "Месяц: w maju.",
+     "t": "t8"
+    },
+    {
+     "q": "nowe życie",
+     "a": [
+      "nowym życiu"
+     ],
+     "expl": "-ym + -u.",
+     "t": "t6"
+    },
+    {
+     "q": "to miasto",
+     "a": [
+      "tym mieście"
+     ],
+     "expl": "Tym + mieście.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "Mój adres: Gdańsk. → Mieszkam w ___.",
+     "a": [
+      "Gdańsku"
+     ],
+     "expl": "После k — -u.",
+     "t": "t3"
+    },
+    {
+     "q": "Moja praca to sklep z butami. → Pracuję w ___ z butami.",
+     "a": [
+      "sklepie"
+     ],
+     "expl": "W + предложный: sklepie.",
+     "t": "t2"
+    },
+    {
+     "q": "Moje marzenie to podróż do Japonii. → Marzę o ___ do Japonii.",
+     "a": [
+      "podróży"
+     ],
+     "expl": "Marzyć o + предложный.",
+     "t": "t9"
+    },
+    {
+     "q": "Wróciłam do domu, kiedy skończyła się lekcja. → Wróciłam do domu po ___.",
+     "a": [
+      "lekcji"
+     ],
+     "expl": "Po + предложный: -cji.",
+     "t": "t8"
+    },
+    {
+     "q": "Ania nie przestaje myśleć o Marku. → Ania ciągle myśli o ___.",
+     "a": [
+      "nim"
+     ],
+     "expl": "On → nim.",
+     "t": "t7"
+    },
+    {
+     "q": "Moje urodziny są piątego maja. → Mam urodziny w ___.",
+     "a": [
+      "maju"
+     ],
+     "expl": "W + месяц.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Gdzie mieszkam",
+   "instr": "Напишите другу, где вы живёте и работаете, где проводите свободное время и о чём мечтаете.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм предложного: w + город, na + этаж или улица, w + место работы, po + что-то, o + мечта, хотя бы одно «прилагательное + существительное».",
+   "model": "Cześć Marek! Mieszkam teraz w Szczecinie, w małym mieszkaniu na drugim piętrze. Pracuję w biurze przy ulicy Długiej. Po pracy chodzę na basen albo spaceruję po parku. W weekendy siedzę w kawiarni na rynku. Marzę o domu nad morzem. Pozdrawiam, Ola",
+   "model_future": [
+    "Szczecinie",
+    "małym mieszkaniu",
+    "drugim piętrze",
+    "biurze",
+    "ulicy",
+    "pracy",
+    "parku",
+    "kawiarni",
+    "rynku",
+    "domu"
+   ],
+   "checklist": [
+    "Есть обращение и подпись",
+    "W + город",
+    "Na + этаж / улица",
+    "W + место работы",
+    "Po + что-то",
+    "Marzę o + предложный",
+    "Хотя бы одно «прилагательное + существительное»",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

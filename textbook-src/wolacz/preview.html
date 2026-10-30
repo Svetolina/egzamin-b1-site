@@ -1,0 +1,221 @@
+<title>Wołacz · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "wolacz", "level": "B1", "group": "Падежи", "title_pl": "Wołacz", "title_ru": "Звательный падеж", "lead": "Mamo! Panie Adamie! Droga Ewo! Как обращаться к человеку в разговоре и в письме.", "facts_file": "extract.json", "stage": "теория и упражнения — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Egzamin B1, Pisanie — obowiązkowe zwroty do adresata w listach (zbiór zadań 2017, P)", "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. g, s. 78"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["W1"], "blocks": [{"type": "p", "text": "Звательный — форма, которой обращаются к человеку: [[Mamo! Panie Adamie! Babciu!]] Нужен в разговоре и обязательно — в начале письма."}, {"type": "table", "head": ["кто", "окончание", "пример"], "rows": [["женские на -a", "-o", "[[mamo, Anno]]"], ["ласковые на -sia, -nia, -cia", "-u", "[[Basiu, babciu]]"], ["мужские (твёрдая)", "-e (как предложный)", "[[panie, Adamie]]"], ["мужские (k, g, ch, мягкая)", "-u", "[[Jacku, Tomaszu]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "После обращения — [[!]] или запятая: [[Kochana Mamo!]] / [[Dzień dobry, panie Adamie.]]"}]}, {"id": "t2", "title": "Женские и мужские на -a: -o", "facts": ["W2"], "blocks": [{"type": "table", "head": ["именительный", "звательный"], "rows": [["mama", "mamo"], ["Anna", "Anno"], ["Ewa", "Ewo"], ["kolega", "kolego"], ["Polska", "Polsko"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "[[Pani]] не меняется: [[Dzień dobry, pani Ewo!]]"}]}, {"id": "t3", "title": "Ласковые формы: -u", "facts": ["W3"], "blocks": [{"type": "table", "head": ["именительный", "звательный"], "rows": [["Basia", "Basiu"], ["Ania", "Aniu"], ["babcia", "babciu"], ["ciocia", "ciociu"]], "pl_cols": [0, 1]}]}, {"id": "t4", "title": "Мужской род", "facts": ["W4"], "blocks": [{"type": "p", "text": "Почти всегда — как предложный падеж:"}, {"type": "table", "head": ["именительный", "звательный"], "rows": [["pan", "panie"], ["Adam", "Adamie"], ["Robert", "Robercie"], ["Michał", "Michale"], ["profesor", "profesorze"], ["Jacek", "Jacku"], ["dziadek", "dziadku"], ["Tomasz", "Tomaszu"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "Особые: [[ojciec → ojcze]], [[chłopiec → chłopcze]], [[syn → synu]]."}]}, {"id": "t5", "title": "Прилагательные и средний род", "facts": ["W5"], "blocks": [{"type": "p", "text": "Прилагательное в обращении — как в именительном, средний род тоже не меняется:"}, {"type": "ex", "items": [{"pl": "Szanowny Panie!", "ru": "Уважаемый господин!"}, {"pl": "Kochana Babciu!", "ru": "Дорогая бабушка!"}, {"pl": "Drogie Dziecko!", "ru": "Дорогое дитя!"}, {"pl": "Szanowni Państwo!", "ru": "Уважаемые дамы и господа!"}]}]}, {"id": "t6", "title": "Официально и в письме", "facts": ["W6"], "blocks": [{"type": "ex", "items": [{"pl": "Szanowny Panie Dyrektorze!", "ru": "Уважаемый господин директор!"}, {"pl": "Szanowna Pani Dyrektor!", "ru": "Уважаемая госпожа директор!"}]}, {"type": "note", "kind": "tip", "text": "Женские названия должностей часто не склоняются: [[pani dyrektor, pani doktor]]. В письме обращение пишем с большой буквы: [[Droga Ewo!]]"}, {"type": "fix", "items": [{"bad": "Szanowny Pan Dyrektor!", "good": "Szanowny Panie Dyrektorze!"}]}]}, {"id": "t7", "title": "В разговоре", "facts": ["W7"], "blocks": [{"type": "note", "kind": "mark", "text": "Правило по одному учебнику (PP s. 118): с одним именем в разговоре часто говорят в именительном — [[Cześć, Ewa!]], [[Cześć, Jarek!]] В письме пишите звательный: [[Droga Ewo!]]"}], "marked": true}, {"id": "t8", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "Отдельного задания нет, но обращение открывает каждое письмо. Ошибка в нём видна сразу."}, {"type": "steps", "items": ["Друг или родственник: [[Droga Ewo! Kochana Babciu! Drogi Marku!]]", "Официально: [[Szanowny Panie! Szanowna Pani! Szanowni Państwo!]]", "С должностью: [[Szanowny Panie Dyrektorze!]] / [[Szanowna Pani Dyrektor!]]", "Обращение — с большой буквы, после него [[!]] или запятая."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "___, gdzie są moje klucze?", "a": ["Mamo"], "expl": "Mama → mamo.", "t": "t2", "opts": ["Mama", "Mamo", "Mamu"]}, {"q": "Dzień dobry, panie ___!", "a": ["Adamie"], "expl": "Мужской, твёрдая: -ie.", "t": "t4", "opts": ["Adam", "Adamie", "Adamu"]}, {"q": "Kochana ___!", "a": ["Babciu"], "expl": "Babcia → babciu.", "t": "t3", "opts": ["Babcia", "Babcio", "Babciu"]}, {"q": "Szanowny ___ Dyrektorze!", "a": ["Panie"], "expl": "Pan → panie.", "t": "t6", "opts": ["Pan", "Panie", "Panu"]}, {"q": "___, pomóż mi!", "a": ["Jacku"], "expl": "Jacek → Jacku.", "t": "t4", "opts": ["Jacek", "Jacku", "Jacke"]}, {"q": "Droga ___!", "a": ["Ewo"], "expl": "Ewa → Ewo.", "t": "t2", "opts": ["Ewa", "Ewo", "Ewu"]}]}, {"id": "e2", "level": 2, "kind": "type", "title": "Обращения", "instr": "Поставьте слово в звательный падеж.", "items": [{"q": "Drogi ___! (Marek)", "a": ["Marku"], "expl": "После k — -u; беглое e.", "t": "t4"}, {"q": "Kochana ___! (Ania)", "a": ["Aniu"], "expl": "Ania → Aniu.", "t": "t3"}, {"q": "Dzień dobry, panie ___! (profesor)", "a": ["profesorze"], "expl": "R → rz.", "t": "t4"}, {"q": "___, chodź na obiad! (syn)", "a": ["Synu"], "expl": "Особое: synu.", "t": "t4"}, {"q": "Szanowna Pani ___! (doktor)", "a": ["Doktor"], "expl": "Женская должность не склоняется.", "t": "t6"}, {"q": "Kochana ___! (ciocia)", "a": ["Ciociu"], "expl": "Ciocia → ciociu.", "t": "t3"}, {"q": "Hej, ___! Pomożesz mi? (kolega)", "a": ["kolego"], "expl": "Kolega → kolego.", "t": "t2"}, {"q": "Drogi ___! (Tomasz)", "a": ["Tomaszu"], "expl": "После sz — -u.", "t": "t4"}, {"q": "Kochany ___! (dziadek)", "a": ["Dziadku"], "expl": "Dziadek → dziadku.", "t": "t4"}, {"q": "Droga ___! (Monika)", "a": ["Moniko"], "expl": "Monika → Moniko.", "t": "t2"}]}, {"id": "e2b", "level": 2, "kind": "type", "title": "Имена", "instr": "Обратитесь к человеку по имени: впишите звательный падеж.", "items": [{"q": "Droga ___! (Agnieszka)", "a": ["Agnieszko"], "expl": "-a → -o.", "t": "t2"}, {"q": "Drogi ___! (Krzysztof)", "a": ["Krzysztofie"], "expl": "Твёрдая f → -ie.", "t": "t4"}, {"q": "Kochana ___! (Zosia)", "a": ["Zosiu"], "expl": "Ласковая форма: -u.", "t": "t3"}, {"q": "Drogi ___! (Wojtek)", "a": ["Wojtku"], "expl": "После k — -u; беглое e.", "t": "t4"}, {"q": "Drogi ___! (Paweł)", "a": ["Pawle"], "expl": "Paweł → Pawle.", "t": "t4"}, {"q": "Drogi ___! (Jan)", "a": ["Janie"], "expl": "Твёрдая n → -ie.", "t": "t4"}, {"q": "Dzień dobry, pani ___! (Anna)", "a": ["Anno"], "expl": "-a → -o.", "t": "t2"}, {"q": "Drogi ___! (Łukasz)", "a": ["Łukaszu"], "expl": "После sz — -u.", "t": "t4"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "Szanowny **Pan Dyrektor**!", "a": ["Panie Dyrektorze"], "expl": "Pan → Panie, dyrektor → Dyrektorze.", "t": "t6"}, {"q": "Droga **Basio**!", "a": ["Basiu"], "expl": "Ласковая форма: -u.", "t": "t3"}, {"q": "**Ojciec**, pomóż mi!", "a": ["Ojcze"], "expl": "Ojciec → ojcze.", "t": "t4"}, {"q": "Kochany **Michał**!", "a": ["Michale"], "expl": "Michał → Michale.", "t": "t4"}]}, {"id": "e4", "level": 3, "kind": "text", "format": "exam", "title": "Początek listu", "instr": "Как в письме на экзамене: поставьте слова в скобках в нужную форму.", "passage": "{1} Pani! Piszę w sprawie kursu. — Droga {2}! Dziękuję za zaproszenie! — Kochany {3}! Wszystkiego najlepszego! — Szanowny Panie {4}! Proszę o urlop. — Drogi {5}! Co u ciebie?", "items": [{"q": "Szanowna", "a": ["Szanowna"], "expl": "Прилагательное в обращении = именительный.", "t": "t5"}, {"q": "Kasia", "a": ["Kasiu"], "expl": "Ласковая форма: -u.", "t": "t3"}, {"q": "dziadek", "a": ["Dziadku"], "expl": "Dziadek → Dziadku.", "t": "t4"}, {"q": "Dyrektor", "a": ["Dyrektorze"], "expl": "R → rz.", "t": "t6"}, {"q": "Piotr", "a": ["Piotrze"], "expl": "R → rz.", "t": "t4"}]}, {"id": "e5", "level": 4, "kind": "write", "title": "Dwa listy", "instr": "Напишите два коротких начала писем: (1) подруге Магде — пригласите её в гости; (2) директору школы (мужчине) — попросите о встрече.", "words": [30, 45], "need": "В каждом письме — обращение в звательном падеже с большой буквы и подпись.", "model": "Droga Magdo! Zapraszam Cię w sobotę na kolację. Przyjdziesz? Całuję, Ola. Szanowny Panie Dyrektorze! Zwracam się z prośbą o spotkanie w sprawie mojego syna. Czy mógłby Pan znaleźć dla mnie czas w przyszłym tygodniu? Z wyrazami szacunku, Olga Kowalska", "model_future": ["Magdo", "Panie Dyrektorze"], "checklist": ["Обращение к подруге в звательном (Droga Magdo!)", "Официальное обращение (Szanowny Panie Dyrektorze!)", "Обращения с большой буквы", "После обращения — !", "В официальном письме — Pan / Pani вместо ty", "Есть подписи"], "t": "t1"}]}, "facts": {"W1": {"refs": ["PP s. 118 («Wołacza używamy: a) gdy zwracamy się do kogoś… b) w listach (i e-mailach): Szanowny Panie Dyrektorze!, Kochana Babciu!… Po wołaczach stawiamy wykrzyknik albo… przecinek»)", "STD B1 2.2.3 pkt 1 lit. g, s. 78 («Szanowni Państwo! Dzisiejszy wykład zacznę od…»; «Kochana Mamo! Pozdrawiam Cię bardzo serdecznie z Poznania.»)", "JPBG9 s. 14 (wołacz (o!): «O wołacz nie pytamy… O, Barbaro!»)"], "status": "ok"}, "W2": {"refs": ["PP s. 117 (rodzaj żeński: -o — rzeczowniki zakończone na -a: Polsko, Olgo, Anno; ** «Dotyczy to również rzeczowników rodzaju męskiego zakończonych na -a: mężczyzno, kolego, poeto»)", "ZPE (W. żono)", "MORF"], "status": "ok"}, "W3": {"refs": ["PP s. 117 (-u: zdrobnienia zakończone na -cia, -dzia, -nia, -sia, -zia: córciu, Madziu, Aniu, Basiu, Zuziu), s. 118 (Wszystkiego najlepszego, droga babciu!)", "MORF"], "status": "ok"}, "W4": {"refs": ["PP s. 117 (rodzaj męski: -e po spółgłoskach twardych (z wyjątkiem -k, -g, -ch) — panie; -u po -k, -g, -ch i po miękkich — Polaku, Tomaszu, dziadku; сноска *: Adamie, Robercie, Michale; Uwaga: syn – synu, ojciec – ojcze, chłopiec – chłopcze, Bóg – Boże; e ruchome: Jacek – Jacku)", "ZPE (W. uczniu)", "MORF"], "status": "ok"}, "W5": {"refs": ["PP s. 117 (rodzaj nijaki — wołacz jak mianownik), s. 118 (Przymiotnik: wołacz jak mianownik — Szanowny Kliencie!, Szanowna Klientko!, Drogie Dziecko!)", "STD B1 s. 78 (Szanowni Państwo!, Kochana Mamo!)", "ZPE (W. okno)"], "status": "ok"}, "W6": {"refs": ["PP s. 118 (Szanowny Panie Dyrektorze!, Szanowna Pani Dyrektor!; «Żeńskie formy nazw zawodów i tytułów… bywają nieodmienne (panie doktorze!, ale: pani doktor!)»; «zwroty do adresata piszemy tu wielką literą»)", "STD B1 s. 78 (Szanowni Państwo!; Kochana Mamo! Pozdrawiam Cię…)"], "status": "ok"}, "W7": {"refs": ["PP s. 118 («W mowie potocznej (gdy używamy samych imion) wołacz często zastępujemy mianownikiem, np.: Cześć, Jarek!, Cześć, Ewa!»)"], "status": "marked"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Wołacz liczby pojedynczej», s. 114–118 (s. 117 — окончания, s. 118 — прилагательные и употребление)", "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0, s. 14 (wołacz (o!))", "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf", "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

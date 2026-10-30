@@ -1,0 +1,1472 @@
+{
+ "topic": "przyimki",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Przyimki",
+ "title_ru": "Предлоги и падежи",
+ "lead": "Gdzie? Dokąd? Skąd? Какой падеж после предлога — и что делать с предлогами, у которых их два.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1 — po Europie, na wakacje, za granicę, nad morze / nad morzem, w góry; k1-5 — z roweru, w czerwcu), blok 2 (k2-1 — o niej, na nią, z nią)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. b, d, e, f, s. 77–78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "P1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Предлог сам не меняется, но решает, в каком падеже будет следующее слово. Одни предлоги всегда требуют одного падежа, другие — двух, и тогда падеж меняет смысл."
+    },
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "предлоги"
+     ],
+     "rows": [
+      [
+       "только родительный",
+       "[[do, od, z, bez, dla, u, obok, koło, podczas, zamiast]]"
+      ],
+      [
+       "только винительный",
+       "[[przez]]"
+      ],
+      [
+       "только предложный",
+       "[[przy]]"
+      ],
+      [
+       "предложный или винительный",
+       "[[w, na, o, po]]"
+      ],
+      [
+       "творительный или винительный",
+       "[[nad, pod, przed, za, między]]"
+      ],
+      [
+       "родительный или творительный",
+       "[[z]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Главный вопрос для двухпадежных предлогов: [[gdzie?]] (где) или [[dokąd?]] (куда)?"
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Предлоги одного падежа",
+   "facts": [
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "С этими предлогами думать не нужно — падеж всегда один."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Idę do pracy bez parasola.",
+       "ru": "Иду на работу без зонта."
+      },
+      {
+       "pl": "Mieszkam przy ulicy Długiej.",
+       "ru": "Живу на улице Длуга."
+      },
+      {
+       "pl": "Idź przez park.",
+       "ru": "Иди через парк."
+      },
+      {
+       "pl": "Rozmawiamy przez telefon.",
+       "ru": "Разговариваем по телефону."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "[[Przy]] — «у, возле»: [[przy stole, przy oknie]]. Адрес — тоже [[przy ulicy…]]. [[Przez telefon]] — это русское «по телефону»."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Где? и куда? — w или do",
+   "facts": [
+    "P5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Если «где» говорим с [[w]], то «куда» — с [[do]] и родительным:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "где? (w + предложный)",
+      "куда? (do + родительный)"
+     ],
+     "rows": [
+      [
+       "w sklepie",
+       "do sklepu"
+      ],
+      [
+       "w szkole",
+       "do szkoły"
+      ],
+      [
+       "w Krakowie",
+       "do Krakowa"
+      ],
+      [
+       "w kinie",
+       "do kina"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Если «где» говорим с [[na]], то и «куда» с [[na]], но уже с винительным:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "где? (na + предложный)",
+      "куда? (na + винительный)"
+     ],
+     "rows": [
+      [
+       "na poczcie",
+       "na pocztę"
+      ],
+      [
+       "na koncercie",
+       "na koncert"
+      ],
+      [
+       "na dworcu",
+       "na dworzec"
+      ],
+      [
+       "na rynku",
+       "na rynek"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "idę w sklep",
+       "good": "idę do sklepu"
+      },
+      {
+       "bad": "idę do poczty",
+       "good": "idę na pocztę"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Когда na, а когда w",
+   "facts": [
+    "P6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "с na",
+      "с w / do"
+     ],
+     "rows": [
+      [
+       "открытые места: [[rynek, plaża, stadion, plac]]",
+       "здания: [[kino, szkoła, sklep, teatr]]"
+      ],
+      [
+       "события: [[koncert, mecz, spacer, kawa]]",
+       "города, страны: [[Kraków, Polska]]"
+      ],
+      [
+       "учреждения-«площади»: [[poczta, dworzec, uniwersytet]]",
+       "парк, лес, сад: [[park, las, ogród]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Idziemy do klubu na koncert.",
+       "ru": "Идём в клуб на концерт."
+      },
+      {
+       "pl": "Jadę na dworzec.",
+       "ru": "Еду на вокзал."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Часто нужны оба: куда — [[do]], зачем — [[na]]: [[Jadę do Gdańska na koncert.]]"
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Горы, море, заграница",
+   "facts": [
+    "P7"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "куда?",
+      "где?"
+     ],
+     "rows": [
+      [
+       "w góry",
+       "w górach"
+      ],
+      [
+       "nad morze",
+       "nad morzem"
+      ],
+      [
+       "nad jezioro",
+       "nad jeziorem"
+      ],
+      [
+       "za granicę",
+       "za granicą"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "W lipcu jedziemy nad morze, a w sierpniu w góry.",
+       "ru": "В июле едем на море, а в августе — в горы."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "jadę do morza",
+       "good": "jadę nad morze"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Откуда? — z",
+   "facts": [
+    "P8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "«Откуда» почти всегда [[z]] + родительный — и для мест с [[w]], и для мест с [[na]]:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "куда?",
+      "откуда?"
+     ],
+     "rows": [
+      [
+       "do pracy",
+       "z pracy"
+      ],
+      [
+       "do Krakowa",
+       "z Krakowa"
+      ],
+      [
+       "na pocztę",
+       "z poczty"
+      ],
+      [
+       "na koncert",
+       "z koncertu"
+      ],
+      [
+       "w góry",
+       "z gór"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "К кому, у кого, от кого",
+   "facts": [
+    "P9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "С людьми места не используем: не «в врача», а к врачу."
+    },
+    {
+     "type": "table",
+     "head": [
+      "вопрос",
+      "предлог",
+      "пример"
+     ],
+     "rows": [
+      [
+       "к кому?",
+       "do",
+       "[[Idę do fryzjera.]]"
+      ],
+      [
+       "у кого?",
+       "u",
+       "[[Byłam u fryzjera.]]"
+      ],
+      [
+       "от кого?",
+       "od",
+       "[[Mam list od mamy.]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "byłam w lekarza",
+       "good": "byłam u lekarza"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "O и po: два падежа",
+   "facts": [
+    "P10",
+    "P11"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "предлог",
+      "предложный",
+      "винительный"
+     ],
+     "rows": [
+      [
+       "o",
+       "о чём: [[mówić o filmie]]",
+       "просить, спрашивать: [[prosić o rachunek, pytać o drogę]]"
+      ],
+      [
+       "po",
+       "по чему, после: [[po parku, po lekcji]]",
+       "сходить за: [[iść po chleb]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Rozmawiamy o pracy.",
+       "ru": "Говорим о работе."
+      },
+      {
+       "pl": "Proszę o rachunek.",
+       "ru": "Прошу счёт."
+      },
+      {
+       "pl": "Po pracy idę po chleb.",
+       "ru": "После работы иду за хлебом."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "После [[martwić się, dbać]] — тоже [[o]] + винительный: [[martwię się o syna]]."
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Nad, pod, przed, za, między",
+   "facts": [
+    "P12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Где? — творительный. Куда? — винительный. Как в русском «под столом — под стол»."
+    },
+    {
+     "type": "table",
+     "head": [
+      "где? (творительный)",
+      "куда? (винительный)"
+     ],
+     "rows": [
+      [
+       "pod stołem",
+       "pod stół"
+      ],
+      [
+       "przed domem",
+       "przed dom"
+      ],
+      [
+       "nad morzem",
+       "nad morze"
+      ],
+      [
+       "za domem",
+       "za dom"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Kot jest pod stołem.",
+       "ru": "Кот под столом."
+      },
+      {
+       "pl": "Kot wszedł pod stół.",
+       "ru": "Кот залез под стол."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Z: откуда или с кем",
+   "facts": [
+    "P13"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "смысл",
+      "падеж",
+      "пример"
+     ],
+     "rows": [
+      [
+       "откуда, из чего",
+       "родительный",
+       "[[z pracy, sok z jabłek]]"
+      ],
+      [
+       "вместе с, с чем",
+       "творительный",
+       "[[z bratem, kawa z mlekiem]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Wracam z pracy z koleżanką.",
+       "ru": "Возвращаюсь с работы с подругой."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "Предлоги времени",
+   "facts": [
+    "P14"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "когда?",
+      "предлог + падеж",
+      "пример"
+     ],
+     "rows": [
+      [
+       "день недели",
+       "w + винительный",
+       "[[w sobotę]]"
+      ],
+      [
+       "через",
+       "za + винительный",
+       "[[za godzinę]]"
+      ],
+      [
+       "на срок",
+       "na + винительный",
+       "[[na miesiąc]]"
+      ],
+      [
+       "перед, до",
+       "przed + творительный",
+       "[[przed kolacją]]"
+      ],
+      [
+       "после",
+       "po + предложный",
+       "[[po lekcji]]"
+      ],
+      [
+       "с… до…",
+       "od… do… + родительный",
+       "[[od poniedziałku do piątku]]"
+      ],
+      [
+       "в котором часу",
+       "o + предложный",
+       "[[o piątej]]"
+      ],
+      [
+       "между",
+       "między + творительный",
+       "[[między siódmą a ósmą]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "wrócę przez godzinę",
+       "good": "wrócę za godzinę"
+      },
+      {
+       "bad": "w sobota",
+       "good": "w sobotę"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "title": "Местоимения после предлогов",
+   "facts": [
+    "P15"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После предлога у [[on, ona, ono, oni]] — форма с [[n-]], у [[ja, ty]] — длинная форма:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Myślę o niej.",
+       "ru": "Думаю о ней."
+      },
+      {
+       "pl": "Idę z nim do kina.",
+       "ru": "Иду с ним в кино."
+      },
+      {
+       "pl": "To dla ciebie.",
+       "ru": "Это для тебя."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "czekam na ją",
+       "good": "czekam na nią"
+      },
+      {
+       "bad": "idę do go",
+       "good": "idę do niego"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t13",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В задании «поставьте слова в нужную форму» предлоги с двумя падежами — любимая ловушка: в сборнике 2017 в одном тексте и [[jeździmy nad morze]], и [[jesteśmy nad morzem]], [[po Europie]], [[na wakacje]], [[za granicę]], [[w góry]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Найдите предлог перед пропуском.",
+      "Один падеж? — сразу ставьте его ([[do, z, bez, dla, u]] — родительный; [[przy]] — предложный; [[przez]] — винительный).",
+      "Два падежа? — спросите: где или куда? о чём или «просить о»? по чему или «сходить за»?",
+      "Местоимение после предлога — с [[n-]]: [[do niego, z nią]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Jutro idę ___.",
+     "a": [
+      "na pocztę"
+     ],
+     "expl": "Na poczcie → na pocztę.",
+     "t": "t3",
+     "opts": [
+      "do poczty",
+      "na pocztę",
+      "na poczcie"
+     ]
+    },
+    {
+     "q": "Kasia jest teraz ___.",
+     "a": [
+      "w sklepie"
+     ],
+     "expl": "Где? — w + предложный.",
+     "t": "t3",
+     "opts": [
+      "w sklepie",
+      "do sklepu",
+      "w sklep"
+     ]
+    },
+    {
+     "q": "W sierpniu jedziemy ___.",
+     "a": [
+      "nad morze"
+     ],
+     "expl": "Куда? — nad + винительный.",
+     "t": "t5",
+     "opts": [
+      "nad morzem",
+      "nad morze",
+      "do morza"
+     ]
+    },
+    {
+     "q": "Kot śpi ___.",
+     "a": [
+      "pod stołem"
+     ],
+     "expl": "Где? — pod + творительный.",
+     "t": "t9",
+     "opts": [
+      "pod stół",
+      "pod stołem",
+      "pod stole"
+     ]
+    },
+    {
+     "q": "Wieczorem idę ___.",
+     "a": [
+      "do kina"
+     ],
+     "expl": "W kinie → do kina.",
+     "t": "t3",
+     "opts": [
+      "do kina",
+      "na kino",
+      "w kinie"
+     ]
+    },
+    {
+     "q": "Muszę iść ___, bo boli mnie ząb.",
+     "a": [
+      "do dentysty"
+     ],
+     "expl": "К кому? — do + родительный.",
+     "t": "t7",
+     "opts": [
+      "u dentysty",
+      "do dentysty",
+      "na dentystę"
+     ]
+    },
+    {
+     "q": "Lubię spacerować ___.",
+     "a": [
+      "po parku"
+     ],
+     "expl": "По чему? — po + предложный.",
+     "t": "t8",
+     "opts": [
+      "po park",
+      "po parku",
+      "przez parku"
+     ]
+    },
+    {
+     "q": "Spotkajmy się ___.",
+     "a": [
+      "przed kinem"
+     ],
+     "expl": "Где? — przed + творительный.",
+     "t": "t9",
+     "opts": [
+      "przed kino",
+      "przed kinem",
+      "przed kina"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная часть неверна. Впишите правильный вариант (предлог + слово).",
+   "items": [
+    {
+     "q": "W piątek idziemy **do koncertu**.",
+     "a": [
+      "na koncert"
+     ],
+     "expl": "Na koncercie → na koncert.",
+     "t": "t3"
+    },
+    {
+     "q": "Wczoraj byłam **w lekarza**.",
+     "a": [
+      "u lekarza"
+     ],
+     "expl": "У кого? — u + родительный.",
+     "t": "t7"
+    },
+    {
+     "q": "W lipcu jadę **do morza**.",
+     "a": [
+      "nad morze"
+     ],
+     "expl": "К морю — nad morze.",
+     "t": "t5"
+    },
+    {
+     "q": "Wrócę **przez godzinę**.",
+     "a": [
+      "za godzinę"
+     ],
+     "expl": "«Через» во времени — za.",
+     "t": "t11"
+    },
+    {
+     "q": "Myślę **o ją** cały czas.",
+     "a": [
+      "o niej"
+     ],
+     "expl": "О ком — предложный; после предлога — niej.",
+     "t": "t12"
+    },
+    {
+     "q": "Idę **po chleba**.",
+     "a": [
+      "po chleb"
+     ],
+     "expl": "Сходить за — po + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Wracam **od pracy** o szóstej.",
+     "a": [
+      "z pracy"
+     ],
+     "expl": "Откуда (место) — z.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Где → куда",
+   "instr": "Скажите, куда вы идёте или едете. Впишите предлог и слово.",
+   "items": [
+    {
+     "q": "Jestem w szkole. → Idę ___.",
+     "a": [
+      "do szkoły"
+     ],
+     "expl": "W → do + родительный.",
+     "t": "t3"
+    },
+    {
+     "q": "Jestem na dworcu. → Jadę ___.",
+     "a": [
+      "na dworzec"
+     ],
+     "expl": "Na → na + винительный.",
+     "t": "t3"
+    },
+    {
+     "q": "Jestem w Warszawie. → Jadę ___.",
+     "a": [
+      "do Warszawy"
+     ],
+     "expl": "Город: do + родительный.",
+     "t": "t3"
+    },
+    {
+     "q": "Jestem na stadionie. → Idę ___.",
+     "a": [
+      "na stadion"
+     ],
+     "expl": "Na → na + винительный.",
+     "t": "t4"
+    },
+    {
+     "q": "Jestem w bibliotece. → Idę ___.",
+     "a": [
+      "do biblioteki"
+     ],
+     "expl": "Здание: do + родительный.",
+     "t": "t3"
+    },
+    {
+     "q": "Jestem na uniwersytecie. → Idę ___.",
+     "a": [
+      "na uniwersytet"
+     ],
+     "expl": "Uniwersytet — с na.",
+     "t": "t4"
+    },
+    {
+     "q": "Jestem w górach. → Jadę ___.",
+     "a": [
+      "w góry"
+     ],
+     "expl": "Особое: w góry.",
+     "t": "t5"
+    },
+    {
+     "q": "Jestem na spacerze. → Idę ___.",
+     "a": [
+      "na spacer"
+     ],
+     "expl": "Событие — na.",
+     "t": "t4"
+    },
+    {
+     "q": "Jestem w parku. → Idę ___.",
+     "a": [
+      "do parku"
+     ],
+     "expl": "Park — w / do.",
+     "t": "t4"
+    },
+    {
+     "q": "Jestem za granicą. → Jadę ___.",
+     "a": [
+      "za granicę"
+     ],
+     "expl": "Za + винительный.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Откуда?",
+   "instr": "Скажите, откуда вы возвращаетесь. Впишите предлог и слово.",
+   "items": [
+    {
+     "q": "Byłam na poczcie. → Wracam ___.",
+     "a": [
+      "z poczty"
+     ],
+     "expl": "Откуда — z + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam w pracy. → Wracam ___.",
+     "a": [
+      "z pracy"
+     ],
+     "expl": "Z + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam na koncercie. → Wracam ___.",
+     "a": [
+      "z koncertu"
+     ],
+     "expl": "Z + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam w Krakowie. → Wracam ___.",
+     "a": [
+      "z Krakowa"
+     ],
+     "expl": "Z + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam u babci. → Wracam ___.",
+     "a": [
+      "od babci"
+     ],
+     "expl": "От человека — od.",
+     "t": "t7"
+    },
+    {
+     "q": "Byłam na rynku. → Wracam ___.",
+     "a": [
+      "z rynku"
+     ],
+     "expl": "Z + родительный.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Где или куда: nad, pod, przed, za",
+   "instr": "Поставьте слово в нужную форму.",
+   "items": [
+    {
+     "q": "Samochód stoi przed ___. (dom)",
+     "a": [
+      "domem"
+     ],
+     "expl": "Где? — творительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Pies wszedł pod ___. (łóżko)",
+     "a": [
+      "łóżko"
+     ],
+     "expl": "Куда? — винительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Klucze leżą pod ___. (gazeta)",
+     "a": [
+      "gazetą"
+     ],
+     "expl": "Где? — творительный.",
+     "t": "t9"
+    },
+    {
+     "q": "W weekend jedziemy nad ___. (jezioro)",
+     "a": [
+      "jezioro"
+     ],
+     "expl": "Куда? — винительный.",
+     "t": "t5"
+    },
+    {
+     "q": "Mieszkamy nad ___. (rzeka)",
+     "a": [
+      "rzeką"
+     ],
+     "expl": "Где? — творительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Sklep jest za ___. (róg)",
+     "a": [
+      "rogiem"
+     ],
+     "expl": "Где? — творительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Wyjdź przed ___, poczekam tam. (dom)",
+     "a": [
+      "dom"
+     ],
+     "expl": "Куда? — винительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Lampa wisi nad ___. (stół)",
+     "a": [
+      "stołem"
+     ],
+     "expl": "Где? — творительный.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 2,
+   "kind": "type",
+   "title": "O и po",
+   "instr": "Поставьте слово в нужную форму.",
+   "items": [
+    {
+     "q": "Rozmawiamy o ___. (wakacje)",
+     "a": [
+      "wakacjach"
+     ],
+     "expl": "О чём — предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "Proszę o ___! (rachunek)",
+     "a": [
+      "rachunek"
+     ],
+     "expl": "Prosić o + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Turysta pyta o ___. (droga)",
+     "a": [
+      "drogę"
+     ],
+     "expl": "Pytać o + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Często myślę o ___. (mama)",
+     "a": [
+      "mamie"
+     ],
+     "expl": "О ком — предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "Po ___ idę na basen. (praca)",
+     "a": [
+      "pracy"
+     ],
+     "expl": "После — po + предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "Idę do sklepu po ___. (mleko)",
+     "a": [
+      "mleko"
+     ],
+     "expl": "Сходить за — po + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Podróżujemy po ___. (Polska)",
+     "a": [
+      "Polsce"
+     ],
+     "expl": "По чему — po + предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "Martwię się o ___. (syn)",
+     "a": [
+      "syna"
+     ],
+     "expl": "Martwić się o + винительный.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 2,
+   "kind": "type",
+   "title": "Время",
+   "instr": "Поставьте слово в нужную форму.",
+   "items": [
+    {
+     "q": "Spotkajmy się w ___. (piątek)",
+     "a": [
+      "piątek"
+     ],
+     "expl": "День недели: w + винительный (piątek не меняется).",
+     "t": "t11"
+    },
+    {
+     "q": "Wrócę za ___. (tydzień)",
+     "a": [
+      "tydzień"
+     ],
+     "expl": "Через — za + винительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Umyj ręce przed ___! (obiad)",
+     "a": [
+      "obiadem"
+     ],
+     "expl": "Перед — przed + творительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Po ___ zawsze piję kawę. (śniadanie)",
+     "a": [
+      "śniadaniu"
+     ],
+     "expl": "После — po + предложный.",
+     "t": "t11"
+    },
+    {
+     "q": "Sklep jest otwarty od ___ do soboty. (poniedziałek)",
+     "a": [
+      "poniedziałku"
+     ],
+     "expl": "Od + родительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Jadę do Gdańska na ___. (weekend)",
+     "a": [
+      "weekend"
+     ],
+     "expl": "На срок — na + винительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Lekcja zaczyna się o ___. (ósma)",
+     "a": [
+      "ósmej"
+     ],
+     "expl": "Час — o + предложный.",
+     "t": "t11"
+    },
+    {
+     "q": "Zadzwoń w ___. (środa)",
+     "a": [
+      "środę"
+     ],
+     "expl": "День недели: w + винительный.",
+     "t": "t11"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения",
+   "instr": "Впишите местоимение после предлога.",
+   "items": [
+    {
+     "q": "Idę do kina z ___. (on)",
+     "a": [
+      "nim"
+     ],
+     "expl": "Z + творительный; после предлога — nim.",
+     "t": "t12"
+    },
+    {
+     "q": "Czekam na ___ od godziny. (ona)",
+     "a": [
+      "nią"
+     ],
+     "expl": "Na + винительный; после предлога — nią.",
+     "t": "t12"
+    },
+    {
+     "q": "Ten prezent jest dla ___. (ty)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — ciebie.",
+     "t": "t12"
+    },
+    {
+     "q": "Często o ___ myślę. (oni)",
+     "a": [
+      "nich"
+     ],
+     "expl": "O + предложный; nich.",
+     "t": "t12"
+    },
+    {
+     "q": "Byłam wczoraj u ___. (on)",
+     "a": [
+      "niego"
+     ],
+     "expl": "U + родительный; niego.",
+     "t": "t12"
+    },
+    {
+     "q": "Chodź do ___! (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Do + родительный; mnie.",
+     "t": "t12"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Weekend nad jeziorem",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "W piątek po {1} pojechaliśmy z {2} nad {3}. Mieszkaliśmy w małym domku przy {4}. Rano chodziliśmy na {5}, a po południu pływaliśmy po {6}. W sobotę wieczorem byliśmy w {7} na pysznej rybie. Mój syn cały czas pytał o {8}, bo chciał łowić ryby. W niedzielę wróciliśmy do {9} już o {10}.",
+   "items": [
+    {
+     "q": "praca",
+     "a": [
+      "pracy"
+     ],
+     "expl": "Po «после» — предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "dzieci",
+     "a": [
+      "dziećmi"
+     ],
+     "expl": "Z «вместе с» — творительный.",
+     "t": "t10"
+    },
+    {
+     "q": "jezioro",
+     "a": [
+      "jezioro"
+     ],
+     "expl": "Куда? — nad + винительный.",
+     "t": "t5"
+    },
+    {
+     "q": "las",
+     "a": [
+      "lesie"
+     ],
+     "expl": "Przy — предложный.",
+     "t": "t2"
+    },
+    {
+     "q": "plaża",
+     "a": [
+      "plażę"
+     ],
+     "expl": "Куда? — na + винительный.",
+     "t": "t4"
+    },
+    {
+     "q": "jezioro",
+     "a": [
+      "jeziorze"
+     ],
+     "expl": "По чему — po + предложный.",
+     "t": "t8"
+    },
+    {
+     "q": "restauracja",
+     "a": [
+      "restauracji"
+     ],
+     "expl": "Где? — w + предложный.",
+     "t": "t3"
+    },
+    {
+     "q": "wędka",
+     "a": [
+      "wędkę"
+     ],
+     "expl": "Pytać o + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Szczecin",
+     "a": [
+      "Szczecina"
+     ],
+     "expl": "Куда (город) — do + родительный.",
+     "t": "t3"
+    },
+    {
+     "q": "szósta",
+     "a": [
+      "szóstej"
+     ],
+     "expl": "Час — o + предложный.",
+     "t": "t11"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "Wrócę po upływie godziny. → Wrócę za ___.",
+     "a": [
+      "godzinę"
+     ],
+     "expl": "За + винительный.",
+     "t": "t11"
+    },
+    {
+     "q": "Byłam dziś na poczcie. → Wracam właśnie z ___.",
+     "a": [
+      "poczty"
+     ],
+     "expl": "Z + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam u fryzjera. → Wracam od ___.",
+     "a": [
+      "fryzjera"
+     ],
+     "expl": "Od + родительный.",
+     "t": "t7"
+    },
+    {
+     "q": "Teraz jestem nad morzem. → Wczoraj przyjechałam nad ___.",
+     "a": [
+      "morze"
+     ],
+     "expl": "Куда — nad + винительный.",
+     "t": "t5"
+    },
+    {
+     "q": "Idę do sklepu, żeby kupić chleb. → Idę do sklepu po ___.",
+     "a": [
+      "chleb"
+     ],
+     "expl": "Po + винительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Kot był pod łóżkiem, a teraz wszedł pod ___. (szafa)",
+     "a": [
+      "szafę"
+     ],
+     "expl": "Куда — pod + винительный.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "level": 4,
+   "kind": "write",
+   "title": "Mój plan na sobotę",
+   "instr": "Напишите подруге, куда, когда и с кем вы пойдёте в субботу и откуда вернётесь.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 предлогов: хотя бы одно «куда» с do, одно с na, одно «откуда» с z, один предлог времени и одно местоимение после предлога.",
+   "model": "Cześć Ania! W sobotę rano idę z mamą na rynek, a potem do biblioteki. Po obiedzie jadę z Tomkiem nad jezioro. Wrócimy z jeziora przed kolacją. Wieczorem idziemy na koncert do parku. Może pójdziesz z nami? Czekamy na ciebie o siódmej przy fontannie. Ola",
+   "model_future": [
+    "na rynek",
+    "do biblioteki",
+    "nad jezioro",
+    "z jeziora",
+    "przed kolacją",
+    "na koncert",
+    "z nami",
+    "na ciebie",
+    "o siódmej",
+    "przy fontannie"
+   ],
+   "checklist": [
+    "Есть обращение и подпись",
+    "Не меньше 8 предлогов",
+    "Куда: do + родительный (do biblioteki)",
+    "Куда: na + винительный (na rynek, na koncert)",
+    "Откуда: z + родительный (z jeziora)",
+    "Время: przed, po, o, w…",
+    "Местоимение после предлога: z nami, na ciebie",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

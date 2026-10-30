@@ -1,0 +1,221 @@
+<title>Celownik · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "celownik", "level": "B1", "group": "Падежи", "title_pl": "Celownik", "title_ru": "Дательный падеж", "lead": "Komu? Czemu? Dziękuję ci, pomagam mamie, podoba mi się.", "facts_file": "extract.json", "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-4, k1-5, k1-6, k1-7), blok 2 (k2-1), blok 3 (k3-1), blok 11 (k11-6)", "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. c, s. 78"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["C1"], "blocks": [{"type": "p", "text": "Дательный отвечает на [[komu? czemu?]] — «кому?». Это тот, кому что-то дают, говорят, показывают или помогают:"}, {"type": "chips", "items": ["dać", "kupić", "pokazać", "powiedzieć", "pożyczyć", "pomagać", "dziękować", "wierzyć", "ufać", "gratulować", "życzyć"]}, {"type": "table", "head": ["род", "окончание", "пример"], "rows": [["мужской", "-owi (иногда -u)", "[[sąsiadowi, bratu]]"], ["женский, муж. на -a", "как предложный: -e / -i / -y", "[[mamie, babci, pracy]]"], ["средний", "-u", "[[dziecku]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "Не путайте с русским: «благодарю тебя», но [[dziękuję ci]]; «помогаю маме» — [[pomagam mamie]]."}]}, {"id": "t2", "title": "Мужской род: -owi", "facts": ["C2"], "blocks": [{"type": "table", "head": ["именительный", "дательный"], "rows": [["student", "studentowi"], ["lekarz", "lekarzowi"], ["sąsiad", "sąsiadowi"], ["Marek", "Markowi"], ["komputer", "komputerowi"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "Беглое [[e]] выпадает: [[Marek → Markowi]]."}]}, {"id": "t3", "title": "Мужской род: -u (запомнить)", "facts": ["C3"], "blocks": [{"type": "table", "head": ["именительный", "дательный"], "rows": [["pan", "panu"], ["brat", "bratu"], ["ojciec", "ojcu"], ["chłopiec", "chłopcu"], ["kot", "kotu"], ["pies", "psu"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "Ещё: [[Bogu, księdzu, światu]]. Всё остальное — [[-owi]]."}, {"type": "fix", "items": [{"bad": "dałem bratowi", "good": "dałem bratu"}, {"bad": "dziękuję panowi", "good": "dziękuję panu"}]}]}, {"id": "t4", "title": "Женский род и мужские на -a", "facts": ["C4"], "blocks": [{"type": "p", "text": "Формы те же, что в предложном падеже: [[o mamie — mamie]], [[w Polsce — Polsce]]."}, {"type": "table", "head": ["именительный", "дательный"], "rows": [["mama", "mamie"], ["siostra", "siostrze"], ["koleżanka", "koleżance"], ["babcia", "babci"], ["pani", "pani"], ["tata", "tacie"], ["kolega", "koledze"]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "daję mamę prezent", "good": "daję mamie prezent"}]}]}, {"id": "t5", "title": "Средний род: -u", "facts": ["C5"], "blocks": [{"type": "table", "head": ["именительный", "дательный"], "rows": [["dziecko", "dziecku"], ["okno", "oknu"], ["miasto", "miastu"], ["imię", "imieniu"]], "pl_cols": [0, 1]}]}, {"id": "t6", "title": "Прилагательные, ten, mój", "facts": ["C6"], "blocks": [{"type": "table", "head": ["род", "окончание", "пример"], "rows": [["мужской, средний", "-emu", "[[dobremu sąsiadowi, małemu dziecku]]"], ["женский", "-ej", "[[dobrej koleżance]]"]], "pl_cols": []}, {"type": "table", "head": ["именительный", "дательный (м., ср.)", "дательный (ж.)"], "rows": [["ten / ta", "temu", "tej"], ["mój / moja", "mojemu", "mojej"]], "pl_cols": [0, 1, 2]}]}, {"id": "t7", "title": "Местоимения: mi или mnie?", "facts": ["C7"], "blocks": [{"type": "table", "head": ["кто?", "коротко", "с ударением", "после предлога"], "rows": [["ja", "mi", "mnie", "—"], ["ty", "ci", "tobie", "—"], ["on, ono", "mu", "jemu", "niemu"], ["ona", "jej", "jej", "niej"], ["my", "nam", "nam", "nam"], ["wy", "wam", "wam", "wam"], ["oni, one", "im", "im", "nim"]], "pl_cols": [1, 2, 3]}, {"type": "ex", "items": [{"pl": "Daj mi to.", "ru": "Дай мне это."}, {"pl": "Tobie to powiem, jemu nie.", "ru": "Тебе скажу, ему — нет."}, {"pl": "Dzięki niemu zdałam egzamin.", "ru": "Благодаря ему я сдала экзамен."}]}, {"type": "fix", "items": [{"bad": "Mi się to podoba.", "good": "Mnie się to podoba. / Podoba mi się to."}]}]}, {"id": "t8", "title": "Podoba mi się", "facts": ["C8"], "blocks": [{"type": "p", "text": "Как в русском «мне нравится»: тот, кому нравится, — в дательном, а то, что нравится, — в именительном."}, {"type": "ex", "items": [{"pl": "Podoba mi się ta sukienka.", "ru": "Мне нравится это платье."}, {"pl": "Smakuje ci zupa?", "ru": "Тебе вкусен суп?"}, {"pl": "Jest mi zimno.", "ru": "Мне холодно."}]}]}, {"id": "t9", "title": "Dzięki", "facts": ["C9"], "blocks": [{"type": "ex", "items": [{"pl": "Zdałam egzamin dzięki nauczycielce.", "ru": "Я сдала экзамен благодаря учительнице."}, {"pl": "Dzięki temu filmowi poznałam Polskę.", "ru": "Благодаря этому фильму я узнала Польшу."}]}]}, {"id": "t10", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В сборнике 2017: [[pomagać bratu]], [[życzyć Markowi, siostrze]], [[dzięki filmowi]], [[dzięki sportowi]], [[być jej wdzięczna]]."}, {"type": "steps", "items": ["Кому? (dać, pomagać, dziękować, życzyć, podobać się, dzięki) — дательный.", "Мужской: [[-owi]], но [[panu, bratu, ojcu, psu, kotu]].", "Женский: как предложный ([[mamie, siostrze, babci]]).", "Прилагательное: [[-emu]] / [[-ej]]."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "Kupiłam ___ nowy telefon.", "a": ["bratu"], "expl": "Brat → bratu (исключение).", "t": "t3", "opts": ["brata", "bratu", "bratowi"]}, {"q": "Dziękuję ___ za pomoc.", "a": ["ci"], "expl": "Dziękować + дательный.", "t": "t7", "opts": ["cię", "ci", "tobą"]}, {"q": "Daj ___ wody.", "a": ["psu"], "expl": "Pies → psu.", "t": "t3", "opts": ["psa", "psu", "psowi"]}, {"q": "Pomagam ___ w kuchni.", "a": ["mamie"], "expl": "Женский: как предложный.", "t": "t4", "opts": ["mamę", "mamy", "mamie"]}, {"q": "Podoba ___ się ten film.", "a": ["mi"], "expl": "Podoba mi się.", "t": "t8", "opts": ["mnie", "mi", "mną"]}, {"q": "Pożyczyłem książkę ___.", "a": ["koledze"], "expl": "Kolega → koledze.", "t": "t4", "opts": ["kolegi", "koledze", "kolegowi"]}, {"q": "Pokaż to ___!", "a": ["lekarzowi"], "expl": "Мужской: -owi.", "t": "t2", "opts": ["lekarza", "lekarzu", "lekarzowi"]}, {"q": "Daj ___ zabawkę.", "a": ["dziecku"], "expl": "Средний: -u.", "t": "t5", "opts": ["dziecko", "dziecka", "dziecku"]}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "Dziękuję **panowi** za wszystko.", "a": ["panu"], "expl": "Исключение: panu.", "t": "t3"}, {"q": "Kupiłam **mamę** kwiaty.", "a": ["mamie"], "expl": "Кому? — mamie.", "t": "t4"}, {"q": "Muszę pomóc **bratowi**.", "a": ["bratu"], "expl": "Исключение: bratu.", "t": "t3"}, {"q": "**Mi** to się nie podoba.", "a": ["Mnie"], "expl": "В начале фразы — mnie.", "t": "t7"}, {"q": "Życzę **ciebie** zdrowia.", "a": ["ci"], "expl": "Życzyć + дательный: ci.", "t": "t7"}, {"q": "Opowiedz to **siostrę**.", "a": ["siostrze"], "expl": "Кому? — siostrze.", "t": "t4"}, {"q": "Dzięki **twój brat** wszystko się udało.", "a": ["twojemu bratu"], "expl": "Dzięki + дательный: twojemu bratu.", "t": "t9"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Существительные", "instr": "Поставьте слово в дательный падеж.", "items": [{"q": "Odpowiedz ___ na pytanie. (nauczyciel)", "a": ["nauczycielowi"], "expl": "Мужской: -owi.", "t": "t2"}, {"q": "Kupiłam prezent ___. (ojciec)", "a": ["ojcu"], "expl": "Исключение: ojcu.", "t": "t3"}, {"q": "Wysłałam zdjęcia ___. (babcia)", "a": ["babci"], "expl": "Мягкая → -i.", "t": "t4"}, {"q": "Pomagam ___ w pracy. (Ewa)", "a": ["Ewie"], "expl": "W → wi.", "t": "t4"}, {"q": "Ufam ___. (przyjaciel)", "a": ["przyjacielowi"], "expl": "Мужской: -owi.", "t": "t2"}, {"q": "Daj ___ mleko. (kot)", "a": ["kotu"], "expl": "Исключение: kotu.", "t": "t3"}, {"q": "Gratuluję ___! (córka)", "a": ["córce"], "expl": "K → c.", "t": "t4"}, {"q": "Opowiadam bajkę ___. (dziecko)", "a": ["dziecku"], "expl": "Средний: -u.", "t": "t5"}, {"q": "Dziękuję ___ za kolację. (pani)", "a": ["pani"], "expl": "Pani не меняется.", "t": "t4"}, {"q": "Wierzę ___. (Tomek)", "a": ["Tomkowi"], "expl": "Беглое e: Tomek → Tomkowi.", "t": "t2"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "Прилагательное + существительное", "instr": "Поставьте обе части в дательный падеж.", "items": [{"q": "Kupiłam to ___. (mój młodszy brat)", "a": ["mojemu młodszemu bratu"], "expl": "-emu + bratu.", "t": "t6"}, {"q": "Pomagam ___. (starsza sąsiadka)", "a": ["starszej sąsiadce"], "expl": "-ej + -ce.", "t": "t6"}, {"q": "Dziękuję ___. (nasz nowy lekarz)", "a": ["naszemu nowemu lekarzowi"], "expl": "-emu + -owi.", "t": "t6"}, {"q": "Daj to ___. (to małe dziecko)", "a": ["temu małemu dziecku"], "expl": "-emu + -u.", "t": "t6"}, {"q": "Życzę ___ szczęścia. (moja najlepsza przyjaciółka)", "a": ["mojej najlepszej przyjaciółce"], "expl": "-ej + -ce.", "t": "t6"}, {"q": "Podoba się to ___. (każdy turysta)", "a": ["każdemu turyście"], "expl": "-emu; turysta → turyście (как в предложном).", "t": "t6"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "Местоимения", "instr": "Впишите местоимение в дательном падеже.", "items": [{"q": "Pomóż ___! (ja)", "a": ["mi"], "expl": "Без ударения — mi.", "t": "t7"}, {"q": "Kupię ___ kawę. (ty)", "a": ["ci"], "expl": "Без ударения — ci.", "t": "t7"}, {"q": "Powiedz ___ prawdę. (on)", "a": ["mu"], "expl": "Без ударения — mu.", "t": "t7"}, {"q": "Dam ___ ten prezent jutro. (ona)", "a": ["jej"], "expl": "Ona → jej.", "t": "t7"}, {"q": "Ta zupa bardzo ___ smakuje. (my)", "a": ["nam"], "expl": "My → nam.", "t": "t8"}, {"q": "___ to powiem, a tobie nie. (on, с ударением)", "a": ["Jemu"], "expl": "С ударением — jemu.", "t": "t7"}, {"q": "Dzięki ___ zdałam egzamin. (ona)", "a": ["niej"], "expl": "После предлога — niej.", "t": "t7"}, {"q": "Pokażę ___ zdjęcia z wakacji. (wy)", "a": ["wam"], "expl": "Wy → wam.", "t": "t7"}]}, {"id": "e6", "level": 2, "kind": "type", "title": "Podoba się, dzięki", "instr": "Поставьте слово в нужную форму.", "items": [{"q": "Czy ___ podoba się Kraków? (pan)", "a": ["panu"], "expl": "Podobać się + дательный: panu.", "t": "t8"}, {"q": "Mojej ___ nie smakuje ryba. (mama)", "a": ["mamie"], "expl": "Smakować + дательный.", "t": "t8"}, {"q": "Dzięki ___ mam pracę. (kolega)", "a": ["koledze"], "expl": "Dzięki + дательный.", "t": "t9"}, {"q": "Jest ___ zimno? (ty)", "a": ["ci"], "expl": "Jest ci zimno.", "t": "t8"}, {"q": "Dzięki ___ wszystko się udało. (ten pomysł)", "a": ["temu pomysłowi"], "expl": "Dzięki + дательный: -emu + -owi.", "t": "t9"}, {"q": "Czy ___ podobała się wycieczka? (oni)", "a": ["im"], "expl": "Oni / one → im.", "t": "t8"}]}, {"id": "e7", "level": 3, "kind": "text", "format": "exam", "title": "Prezenty na święta", "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.", "passage": "W tym roku kupiłam prezenty całej rodzinie. {1} dałam ciepły szalik, a {2} — nowy krawat. Mojej {3} kupiłam książkę o Polsce, bo bardzo jej się podoba nasz kraj. Mojemu {4} bratu dałam grę komputerową. Nawet {5} kupiłam zabawkę! Dzięki {6} wszyscy byli zadowoleni. Najbardziej podobał {7} się prezent od babci. Na koniec podziękowałam {8} za pomoc w kuchni, a {9} — za piękną choinkę. Życzę {10} wesołych świąt!", "items": [{"q": "mama", "a": ["Mamie"], "expl": "Кому? — mamie.", "t": "t4"}, {"q": "tata", "a": ["tacie"], "expl": "T → ci: tacie.", "t": "t4"}, {"q": "siostra", "a": ["siostrze"], "expl": "R → rz: siostrze.", "t": "t4"}, {"q": "młodszy", "a": ["młodszemu"], "expl": "Прилагательное: -emu.", "t": "t6"}, {"q": "pies", "a": ["psu"], "expl": "Исключение: psu.", "t": "t3"}, {"q": "one", "a": ["nim"], "expl": "Dzięki + nim (после предлога).", "t": "t7"}, {"q": "ja", "a": ["mi"], "expl": "Podobał mi się.", "t": "t8"}, {"q": "babcia", "a": ["babci"], "expl": "Мягкая: babci.", "t": "t4"}, {"q": "dziadek", "a": ["dziadkowi"], "expl": "Беглое e: dziadkowi.", "t": "t2"}, {"q": "wy", "a": ["wam"], "expl": "Wy → wam.", "t": "t7"}]}, {"id": "e8", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.", "items": [{"q": "Lubię ten film. → Ten film podoba ___ się.", "a": ["mi"], "expl": "Podoba mi się.", "t": "t8"}, {"q": "Ewa dostała ode mnie kwiaty. → Dałam kwiaty ___.", "a": ["Ewie"], "expl": "Кому? — Ewie.", "t": "t4"}, {"q": "Brat otrzymał ode mnie pomoc. → Pomogłam ___.", "a": ["bratu"], "expl": "Pomóc + дательный: bratu.", "t": "t3"}, {"q": "Moja córka lubi zupę pomidorową. → Zupa pomidorowa smakuje mojej ___.", "a": ["córce"], "expl": "Smakować + дательный.", "t": "t8"}, {"q": "Ten list jest dla pana Nowaka. → Proszę dać ten list ___ Nowakowi.", "a": ["panu"], "expl": "Pan → panu.", "t": "t3"}, {"q": "Zdałem egzamin, bo pomógł mi nauczyciel. → Zdałem egzamin dzięki ___.", "a": ["nauczycielowi"], "expl": "Dzięki + дательный.", "t": "t9"}]}, {"id": "e9", "level": 4, "kind": "write", "title": "Podziękowanie", "instr": "Напишите короткое письмо-благодарность соседке, которая помогала вам во время болезни: что она для вас сделала, кому вы ещё благодарны, что вы хотите ей подарить.", "words": [40, 50], "need": "Не меньше 8 форм дательного: dziękuję + кому, помощь кому, подарок кому, podoba mi się, хотя бы одно «прилагательное + существительное», dzięki + кто-то.", "model": "Droga Pani Haniu! Bardzo dziękuję Pani za pomoc. Dzięki Pani mój syn miał co jeść, a mojemu psu nie było smutno. Dziękuję też Pani mężowi za zakupy. Kupiłam Pani kwiaty, mam nadzieję, że się Pani spodobają. Mnie się bardzo podobają! Ściskam, Ania", "model_future": ["Pani", "mojemu psu", "mężowi", "Mnie"], "checklist": ["Есть обращение и подпись", "Dziękuję + дательный", "Хотя бы одно «прилагательное + существительное» в дательном", "Dzięki + дательный", "Подарок: kupiłam + кому", "Podoba mi się / spodoba się", "Pan, brat, pies → panu, bratu, psu", "40–50 слов"], "t": "t1"}]}, "facts": {"C1": {"refs": ["PP s. 56 («Celownika używamy: a) po czasownikach: odpowiadać, podobać się, smakować, przyglądać się, służyć, wierzyć, ufać, dziękować, przeszkadzać, pomagać, dawać, kupować, mówić, opowiadać… gratulować, życzyć»)", "MOWIC (dawać / dać, pożyczyć, odpowiadać, opowiadać, gratulować, dziękować, pomagać, podobać się, smakować, wierzyć)", "STD B1 2.2.3 pkt 1 lit. c, s. 78 («Dał matce kwiaty i drobny upominek.»)", "KEY k1-6 (muszę więcej pomagać bratu), k1-7 (życzyć Markowi, siostrze)"], "status": "ok"}, "C2": {"refs": ["PP s. 54 (таблица: -owi — formy regularne: studentowi, profesorowi, gościowi, uczniowi)", "NCK («Rzeczowniki męskie zakończone na spółgłoskę niemal zawsze mają w celowniku końcówkę -owi»)", "MOWIC (lekarzowi)", "ZPE (C. uczniowi)", "KEY k11-6 (komputerowi), k1-7 (Markowi), k1-5 (sportowi)", "MORF"], "status": "ok"}, "C3": {"refs": ["PP s. 54 («-u — wyjątki do zapamiętania: Bóg, ksiądz, pan, brat, kot, świat, ojciec, chłopiec, diabeł, pies, lew»)", "NCK (panu, Bogu, bratu, chłopcu, diabłu, kotu i psu, lwu)", "MOWIC (bratu, panu, księdzu, psu)", "KEY k1-6 (pomagać bratu)", "MORF"], "status": "ok"}, "C4": {"refs": ["PP s. 54 (rodzaj żeński (i słowa rodzaju męskiego zakończone na -a): -e po twardych (osobie, mamie, Polsce), -y po stwardniałych (młodzieży, pracy), -i po miękkich i -l (Eli, cioci, babci, miłości))", "MOWIC (koleżance, szkole, drodze; pracy, nocy, myśli)", "ZPE (C. żonie = Ms. żonie)", "KEY k1-7 (siostrze)", "MORF"], "status": "ok"}, "C5": {"refs": ["PP s. 54 (rodzaj nijaki -u: dziecku, oku, uchu, oknu, miastu, państwu)", "MOWIC (sercu, oknu; imię → imieniu)", "ZPE (C. oknu)", "MORF"], "status": "ok"}, "C6": {"refs": ["PP s. 56 (rodzaj męski i nijaki -emu, rodzaj żeński -ej: dobremu przyjacielowi, małemu dziecku, dobrej koleżance)", "MOWIC (mojemu młodszemu synowi; swojej najlepszej przyjaciółce)", "ZPE (C. dobremu, dobrej, dobremu)", "MORF"], "status": "ok"}, "C7": {"refs": ["PP s. 56 (таблица: mi / mnie, ci / tobie, mu / jemu / niemu, jej / niej, nam, wam, im / nim)", "JPBG9 s. 120 («Krótkie formy zaimków (np. cię, go) stosuje się zwykle po czasowniku lub w środku zdania. Nigdy nie występują one na początku zdania. Po przyimkach… forma z n-»)", "KEY k3-1 (Postaraj się być jej za to wdzięczna), k2-1 (przynosi jej róże)", "MORF"], "status": "ok"}, "C8": {"refs": ["PP s. 56 (a: podobać się, smakować)", "STD B1 s. 78 («Ten film o Polsce podobał mi się bardzo.»); A2 s. 68 («Film podoba mi się bardzo. Czy jest ci zimno?»)"], "status": "ok"}, "C9": {"refs": ["PP s. 56 (b: po przyimkach: ku, dzięki, przeciw, przeciwko, na przekór, wbrew)", "KEY k1-4 (dzięki filmowi), k1-5 (dzięki sportowi)"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Celownik liczby pojedynczej», s. 52–57 (s. 54 — окончания и исключения на -u, s. 56 — прилагательные, местоимения, употребление)", "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6, s. 120 (короткие и длинные формы местоимений)", "NCK": "Narodowe Centrum Kultury, «Ojczysty — dodaj do ulubionych», ciekawostki językowe: «Celownik»: https://nck.pl/projekty-kulturalne/projekty/ojczysty-dodaj-do-ulubionych/ciekawostki-jezykowe/celownik.ajax", "MOWIC": "Mówić po polsku, «Polish Cases: The Dative (celownik)»: https://mowicpopolsku.com/polish-grammar/cases/dative", "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-4, k1-5, k1-6, k1-7), blok 2 (k2-1), blok 3 (k3-1), blok 11 (k11-6)", "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

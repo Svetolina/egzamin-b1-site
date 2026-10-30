@@ -1,0 +1,563 @@
+{
+ "topic": "miejscownik",
+ "title": "Miejscownik — предложный падеж (ед. число)",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 «deklinacja» (s. 75–76); 2.2.3 Składnia, pkt 1 lit. f «miejscownik: jako określenie rzeczownika (To jest film o historii Polski w czasie wojny. Studenci rozmawiali długo o tym wykładzie.), jako określenie czasownika z przyimkiem (Przemek mieszka w Warszawie przy ulicy Pięknej na pierwszym piętrze. Spotkajmy się na placu Litewskim przy pomniku. Teraz oni spacerują po lesie.)», s. 78. На A2 (s. 68) — то же проще (Mieszkam w Polsce. O której godzinie będzie obiad?).",
+  "level": "B1 — повторение и расширение A2: все окончания ед. числа с чередованиями, исключения domu / synu / panu, прилагательные, местоимения, время, глаголы с o. Мн. число (-ach) — блок 4.",
+  "katalog_b": [
+   "7.2 Dom, mieszkanie, otoczenie, pkt 2 położenie (s. 84)",
+   "7.5 Podróże (s. 85)",
+   "7.3 pkt 3 określenia czasu — miesiące (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2 Pojęcia ogólne, pkt 3 relacje w przestrzeni — miejsce (s. 84)",
+   "6.2 pkt 4 relacje czasowe (s. 84)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka, блок 1: k1-5 (w czerwcu, o rowerze, po mieście), k1-6 (w fabryce, w tygodniu, w domu), k1-3 (na dziesiątym piętrze), k1-8 (przy pysznej szarlotce), k1-1 (po Europie); блок 11 k11-6 (na czatach, w momencie, w skutkach). В письме — «где я живу / работаю».",
+  "depends_on": [
+   "przyimki",
+   "narzednik (те же окончания прилагательных)"
+  ],
+  "feeds": [
+   "celownik (женский род — те же формы)",
+   "блок 4: предложный мн. число"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Miejscownik liczby pojedynczej», s. 100–110 (s. 102–103 — окончания, s. 104 — прилагательные и употребление, s. 110 — местоимения)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 9, s. 174 (таблица miejscownika с чередованиями), s. 175 (прилагательные, мн. число, местоимения, глаголы); lekcja 4, s. 81, 83 (даты)",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-3, k1-5, k1-6, k1-8), blok 2 (k2-1), blok 3 (k3-1)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "M1",
+   "ru": "Предложный (miejscownik, (o) kim? (o) czym?) бывает только с предлогом: w, na, o, po, przy. Нужен для «где?», «о чём?», «по чему?», «после чего?».",
+   "pl": [
+    "Mieszkam w Szczecinie. Rozmawiamy o pracy."
+   ],
+   "refs": [
+    "PP s. 104 («Miejscownika używamy: a) po przyimkach: o, w, na, po, przy; b) po czasownikach…»)",
+    "JPBG9 s. 174 («Miejscownik zawsze występuje z przyimkiem»: na, w, przy, po, o)",
+    "STD B1 2.2.3 pkt 1 lit. f, s. 78 (Przemek mieszka w Warszawie przy ulicy Pięknej na pierwszym piętrze; spacerują po lesie; film o historii Polski)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M2",
+   "ru": "Мужской и средний род на твёрдую согласную (кроме k, g, ch): -e, а согласная смягчается: film → filmie, sklep → sklepie, rower → rowerze, Kraków → Krakowie, list → liście, ogród → ogrodzie, stół → stole, miasto → mieście.",
+   "pl": [
+    "Jestem w sklepie. Jadę na rowerze."
+   ],
+   "refs": [
+    "PP s. 102 (таблица -e «po spółgłoskach twardych (z wyjątkiem -k, -g, -ch)»: filmie, wschodzie, mieście; сноска *: klubie, sklepie, autobusie, kolorze, rosole)",
+    "JPBG9 s. 174 (-e; чередования d : dzi, t : ci, b : bi, p : pi, s : si, z : zi, f : fi, w : wi, r : rz, ł : l, st : ści, zd : ździ)",
+    "ZPE (Ms. oknie)",
+    "KEY k1-5 (na rowerze, po mieście)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M3",
+   "ru": "Мужской и средний: -u после k, g, ch, после мягких и «отвердевших» согласных и -l, -j: park → parku, pociąg → pociągu, hotel → hotelu, pokój → pokoju, garaż → garażu, dworzec → dworcu, maj → maju, czerwiec → czerwcu; śniadanie → śniadaniu. Исключения: dom → domu, syn → synu, pan → panu.",
+   "pl": [
+    "Jestem w domu. Wracam po śniadaniu."
+   ],
+   "refs": [
+    "PP s. 102 (таблица -u «po -k, -g, -ch, po spółgłoskach miękkich, stwardniałych i po -l»: parku, śniadaniu, dworcu; «Wyjątki: pan – panu, syn – synu, dom – domu»)",
+    "JPBG9 s. 174 (-u: mleku, dachu, garażu, koniu, zwierzęciu, ramieniu, słońcu)",
+    "ZPE (Ms. uczniu)",
+    "KEY k1-5 (w czerwcu), k1-6 (w tygodniu, w domu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M4",
+   "ru": "Женский род (и мужские на -a) на твёрдую согласную: -e со сменой согласной: mapa → mapie, szkoła → szkole, woda → wodzie, Polska → Polsce, droga → drodze, matka → matce, mucha → musze; tata → tacie.",
+   "pl": [
+    "Mieszkam w Polsce. Często myślę o tacie."
+   ],
+   "refs": [
+    "PP s. 103 (rodzaj żeński i słowa rodzaju męskiego zakończone na -a: -e po spółgłoskach twardych; сноска **: szkole, wodzie, Polsce, fladze, musze)",
+    "JPBG9 s. 174 (-e: mapie, torbie, szkole, matce, torebce, nodze; k : c, g : dz, ch : sz)",
+    "ZPE (Ms. żonie)",
+    "KEY k1-6 (w fabryce)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M5",
+   "ru": "Женский род на мягкую, -l, -i, -ia, -cja: -i (kuchnia → kuchni, babcia → babci, sala → sali, lekcja → lekcji, pani → pani); после c, cz, sz, rz, ż — -y (ulica → ulicy, praca → pracy, plaża → plaży); на согласную — -i / -y (miłość → miłości, Łódź → Łodzi, noc → nocy).",
+   "pl": [
+    "Jestem w pracy. Siedzę w kuchni."
+   ],
+   "refs": [
+    "PP s. 103 (-y po spółgłoskach stwardniałych: młodzieży, plaży, ciszy, pracy, granicy; -i po spółgłoskach miękkich i po -l: Łodzi, babci, księgarni, sali, lekcji, historii)",
+    "JPBG9 s. 174 (-i: pani, kuchni, cioci, historii, lekcji, sali, powieści, miłości; -y: rzeczy, nocy, ulicy, kaszy, młodzieży)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M6",
+   "ru": "Прилагательные и определения: муж. и ср. -ym / -im (как в творительном), жен. -ej: w dużym mieście, w małej kawiarni; ten → tym, ta → tej; mój → moim, moja → mojej.",
+   "pl": [
+    "Mieszkam w dużym mieście. Pracuję w tej szkole."
+   ],
+   "refs": [
+    "PP s. 104 (rodzaj męski i nijaki -ym, -im; rodzaj żeński -ej: w niedrogim hotelu, w świetnej formie)",
+    "JPBG9 s. 175 (Przymiotnik l. poj.: -ym / -im = Narzędnik; -ej = Dopełniacz i Celownik)",
+    "ZPE (Ms. dobrym, dobrej)",
+    "KEY k1-3 (na dziesiątym piętrze), k1-6 (w jego dużym domu), k1-8 (przy pysznej szarlotce)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M7",
+   "ru": "Личные местоимения: mnie, tobie, nim, niej, nas, was, nich (после предлога всегда эти формы).",
+   "pl": [
+    "Myślę o tobie. Mówimy o nim."
+   ],
+   "refs": [
+    "PP s. 110 (таблица: mnie, tobie, nim, niej, nas, was, nich)",
+    "JPBG9 s. 175 (таблица Zaimki osobowe: mnie, tobie, nim, niej, nas, was, nich)",
+    "KEY k3-1 (co cię w nim zachwyca), k2-1 (myśli o niej)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M8",
+   "ru": "Время: w + месяц (w maju, w czerwcu), w + год (w 2020 roku — w dwa tysiące dwudziestym roku), po + событие (po obiedzie), o + час (o piątej).",
+   "pl": [
+    "Urodziłam się w maju. Spotkajmy się po obiedzie."
+   ],
+   "refs": [
+    "PP s. 102 (marzec – w marcu; obiad – po obiedzie; śniadanie – po śniadaniu)",
+    "JPBG9 s. 81 (po 13.04. – po trzynastym kwietnia; w XIII w. – w trzynastym wieku), s. 83 (w 1364 r. – w tysiąc trzysta sześćdziesiątym czwartym roku)",
+    "KEY k1-5 (W czerwcu Piotrek dostał…)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "M9",
+   "ru": "Глаголы с o + предложный: mówić, myśleć, rozmawiać, marzyć, pamiętać, zapomnieć, opowiadać; а также grać na (gitarze), zakochać się w, podróżować po.",
+   "pl": [
+    "Marzę o wakacjach. Gram na gitarze."
+   ],
+   "refs": [
+    "PP s. 104 (b: myśleć, mówić, opowiadać, rozmawiać, dyskutować, czytać, wiedzieć, pamiętać, zapomnieć, marzyć o czymś; podróżować po; grać na; zakochać się w)",
+    "JPBG9 s. 175 (być w (na), znajdować się, podróżować po, myśleć o, zakochać się w, dowiedzieć się o, mówić o, siedzieć przy / na)",
+    "STD B1 s. 78 (Studenci rozmawiali długo o tym wykładzie.)",
+    "KEY k1-5 (O rowerze marzył już dawno.)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "Женские формы предложного совпадают с дательным (mamie, Polsce, babci) — в теме «Дательный» на это опираемся.",
+  "У PP и JPBG одинаковые таблицы чередований; JPBG IX s. 174 даёт их полнее (st : ści, zd : ździ, sm : śmi, sn : śni)."
+ ],
+ "forms": [
+  {
+   "form": "Szczecinie",
+   "kind": "przyp",
+   "lemma": "Szczecin",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "pracy",
+   "kind": "przyp",
+   "lemma": "praca",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "filmie",
+   "kind": "przyp",
+   "lemma": "film",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "sklepie",
+   "kind": "przyp",
+   "lemma": "sklep",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "rowerze",
+   "kind": "przyp",
+   "lemma": "rower",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "Krakowie",
+   "kind": "przyp",
+   "lemma": "Kraków",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "liście",
+   "kind": "przyp",
+   "lemma": "list",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "ogrodzie",
+   "kind": "przyp",
+   "lemma": "ogród",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "stole",
+   "kind": "przyp",
+   "lemma": "stół",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "mieście",
+   "kind": "przyp",
+   "lemma": "miasto",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "parku",
+   "kind": "przyp",
+   "lemma": "park",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "pociągu",
+   "kind": "przyp",
+   "lemma": "pociąg",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "hotelu",
+   "kind": "przyp",
+   "lemma": "hotel",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "pokoju",
+   "kind": "przyp",
+   "lemma": "pokój",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "garażu",
+   "kind": "przyp",
+   "lemma": "garaż",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "dworcu",
+   "kind": "przyp",
+   "lemma": "dworzec",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "maju",
+   "kind": "przyp",
+   "lemma": "maj",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "czerwcu",
+   "kind": "przyp",
+   "lemma": "czerwiec",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "śniadaniu",
+   "kind": "przyp",
+   "lemma": "śniadanie",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "domu",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "synu",
+   "kind": "przyp",
+   "lemma": "syn",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "panu",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "mapie",
+   "kind": "przyp",
+   "lemma": "mapa",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "szkole",
+   "kind": "przyp",
+   "lemma": "szkoła",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "wodzie",
+   "kind": "przyp",
+   "lemma": "woda",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "Polsce",
+   "kind": "przyp",
+   "lemma": "Polska",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "drodze",
+   "kind": "przyp",
+   "lemma": "droga",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "matce",
+   "kind": "przyp",
+   "lemma": "matka",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "musze",
+   "kind": "przyp",
+   "lemma": "mucha",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "tacie",
+   "kind": "przyp",
+   "lemma": "tata",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "kuchni",
+   "kind": "przyp",
+   "lemma": "kuchnia",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "babci",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "sali",
+   "kind": "przyp",
+   "lemma": "sala",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "lekcji",
+   "kind": "przyp",
+   "lemma": "lekcja",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "pani",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "ulicy",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "plaży",
+   "kind": "przyp",
+   "lemma": "plaża",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "miłości",
+   "kind": "przyp",
+   "lemma": "miłość",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "Łodzi",
+   "kind": "przyp",
+   "lemma": "Łódź",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "nocy",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "dużym",
+   "kind": "przyp",
+   "lemma": "duży",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "małej",
+   "kind": "przyp",
+   "lemma": "mały",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "tym",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "tej",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "moim",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "mojej",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "tobie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "obiedzie",
+   "kind": "przyp",
+   "lemma": "obiad",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "wakacjach",
+   "kind": "przyp",
+   "lemma": "wakacje",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "gitarze",
+   "kind": "przyp",
+   "lemma": "gitara",
+   "case": "loc",
+   "n": "sg"
+  }
+ ]
+}

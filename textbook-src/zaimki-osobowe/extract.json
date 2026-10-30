@@ -1,0 +1,494 @@
+{
+ "topic": "zaimki-osobowe",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1), 2.2.1 pkt 1 lit. c «odmiana zaimków (liczba pojedyncza i mnoga): – odmiana zaimków osobowych: ja, ty, on, ona, ono», s. 76 Dz.U.",
+  "examples_std": "s. 78: «Ten film o Polsce podobał mi się bardzo» (celownik), «Posłuchajcie go! Nie słuchajcie go!» (zdania rozkazujące), «Pozdrawiam Cię bardzo serdecznie z Poznania»",
+  "level": "Та же строка уже на A2 (s. 67); на B2 (s. 88) — «odmiana zaimków osobowych…» без перечня. На B1 — все падежи, краткие/длинные формы и формы с n-.",
+  "katalog_a": "6.1 pkt 1 lit. i «zapraszanie» (s. 82); 6.1 pkt 6 lit. e «wyrażanie upodobania» (s. 83); 6.1 pkt 7 lit. d «proponowanie, przyjmowanie i odrzucanie propozycji» (s. 83)",
+  "katalog_b": "7.1 pkt 9 «relacje międzyludzkie», pkt 10 «utrzymywanie kontaktu (korespondowanie, spotkania)» (s. 84)",
+  "exam": "Poprawność gramatyczna, zad. I «odmiana rzeczowników, przymiotników i zaimków» (luty 2024: z nas, im); Pisanie — формы Cię/Ciebie в письмах",
+  "depends_on": "biernik, dopelniacz, celownik, narzednik, miejscownik, przyimki, mianownik-lm"
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf), Zał. 1, Część II",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020 — таблицы «Zaimki osobowe»: s. 40 (dopełniacz), 56 (celownik), 74 (biernik), 94 (narzędnik), 110 (miejscownik)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6 s. 120 (biernik zaimków + «Uwaga!» о кратких формах и формах после предлогов), ćw. III s. 121, klucz s. 198; lekcja 8 s. 159 (narzędnik zaimków); lekcja 9 s. 175 (miejscownik zaimków), ćw. II s. 176",
+  "PWN1": "M. Bańko, «mnie czy mi? tobie czy ci?», Poradnia Językowa PWN, 21.06.2004: https://sjp.pwn.pl/poradnia/haslo/mnie-czy-mi-tobie-czy-ci;5375.html",
+  "PWN2": "M. Bańko, «mnie czy mi?», Poradnia Językowa PWN, 4.10.2010: https://sjp.pwn.pl/poradnia/haslo/mnie-czy-mi;11443.html",
+  "ZPE": "ZPE, A. Grabarczyk, «Przemiany w deklinacji polskiej. Zaimek» (формы akcentowane/nieakcentowane, формы с n- после предлога): https://zpe.gov.pl/pdf/Pa0c6dTYP",
+  "EGZ": "Egzamin B1, luty 2024, Poprawność gramatyczna, zad. I (odmiana rzeczowników, przymiotników i zaimków): «z (nam, nas, nami)», «podoba się (ich, im, nim) obydwu»; zad. VIII: «Proszę cię», «za tobą», «z nim», «od ciebie»",
+  "MORF": "Morfeusz 2 (SGJP) — падеж, число, ударная/безударная форма (akc/nakc) и форма после предлога (praep/npraep)"
+ },
+ "facts": [
+  {
+   "id": "Z1",
+   "claim": "ja / ty по падежам: mnie; mi/mnie; mnie; mną; mnie — ciebie/cię; tobie/ci; ciebie/cię; tobą; tobie.",
+   "refs": [
+    "PP s. 40, 56, 74, 94, 110 (таблицы «Zaimki osobowe»)",
+    "JPBG9 s. 120 (biernik: mnie; cię, ciebie), s. 159 (mną, tobą), s. 175 (mnie, tobie)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z2",
+   "claim": "on / ono: jego/go/niego; jemu/mu/niemu; on — jego/go/niego, ono — je/nie; nim; nim.",
+   "refs": [
+    "PP s. 40, 56, 74, 94, 110",
+    "JPBG9 s. 120 (go, jego, niego; je, nie), s. 159 (nim), s. 175 (nim)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z3",
+   "claim": "ona: jej/niej; jej/niej; ją/nią; nią; niej.",
+   "refs": [
+    "PP s. 40, 56, 74, 94, 110",
+    "JPBG9 s. 120 (ją, nią), s. 159 (nią), s. 175 (niej)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z4",
+   "claim": "my, wy, oni, one: nas, nam, nas, nami, nas — was, wam, was, wami, was — ich/nich, im/nim, oni: ich/nich, one: je/nie, nimi, nich.",
+   "refs": [
+    "PP s. 40, 56, 74 (oni — ich/nich, one — je/nie), 94, 110",
+    "JPBG9 s. 120 (oni ich, nich; one je, nie), s. 159 (nami, wami, nimi), s. 175 (nas, was, nich)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z5",
+   "claim": "Краткие формы (mi, ci, cię, go, mu) — безударные: стоят после глагола или в середине фразы, не в начале. В начале и при выделении — длинные (mnie, tobie, ciebie, jego, jemu).",
+   "refs": [
+    "JPBG9 s. 120 («Uwaga!»: krótkie formy — zwykle po czasowniku lub w środku zdania, nigdy na początku zdania)",
+    "PWN1 (Mnie to daj — Daj mi to; Tobie wszystko zawdzięczam; Jego nie widzę; Widzę jego, a nie ją)",
+    "PWN2 (Mi się tak wydaje — «wciąż nie najlepsza polszczyzna»)",
+    "ZPE (formy akcentowane mnie, tobie — nieakcentowane mi, ci)",
+    "MORF (akc / nakc)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z6",
+   "claim": "После предлога — длинная форма (mnie, ciebie, tobie) или форма с n- (niego, niemu, nią, niej, nim, nie, nich). Формы niego, niemu, niej, nich, nie и nią (кого? что?) — только после предлога; в творительном nim, nią, nimi — одна форма, с предлогом и без.",
+   "refs": [
+    "JPBG9 s. 120 («Uwaga!»: po przyimkach — forma dłuższa (ciebie) albo forma z n- (niego, nią, nie))",
+    "ZPE (bez przyimka: jego, je, ją, jemu, jej — z przyimkiem: niego, nie, nią, niemu, niej)",
+    "PP s. 74 (Płacę za niego / za nią / za nie; Czekamy na nich / na nie), s. 94 (narzędnik: nim, nią, nimi; ćw. 11: Bardzo się … (on) interesuję)",
+    "JPBG9 s. 159 (ćw. IV: Bawi się … (one) codziennie — klucz s. 201: nimi)",
+    "MORF (praep / npraep)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z7",
+   "claim": "С mną предлоги получают -e: ze mną, przede mną, nade mną, pode mną.",
+   "refs": [
+    "PP s. 94 (ćw. 11: Chcesz ze mną…, Pójdziesz ze mną…)",
+    "JPBG9 s. 159 (ćw. IV: przede mną; klucz s. 201)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "Z8",
+   "claim": "В письме к адресату формы ty пишут с большой буквы: Cię, Ciebie, Ci, Tobie, Tobą.",
+   "refs": [
+    "STD B1 s. 78 (Kochana Mamo! Pozdrawiam Cię bardzo serdecznie z Poznania.)",
+    "PP s. 75 (ćw. 10: Pozdrawiam … (Ty), Całuję … (Ty))"
+   ],
+   "status": "ok"
+  }
+ ],
+ "forms": [
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mi",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "mną",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "ciebie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "cię",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "tobie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "ci",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "ciebie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "cię",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "tobą",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "tobie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "jego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "go",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "niego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "jemu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "niemu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "jego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "go",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "niego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "je",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nie",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "jej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "jej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "ją",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nią",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nią",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nam",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "nami",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "nas",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "wam",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "wami",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "was",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "ich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "im",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "ich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "je",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "nie",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "nimi",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "pl"
+  }
+ ],
+ "checked": "28.10.2026"
+}

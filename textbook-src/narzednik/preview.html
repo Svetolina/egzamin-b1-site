@@ -1,0 +1,221 @@
+<title>Narzędnik · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "narzednik", "level": "B1", "group": "Падежи", "title_pl": "Narzędnik", "title_ru": "Творительный падеж", "lead": "Kim? Czym? Jestem lekarzem, jadę autobusem, interesuję się muzyką.", "facts_file": "extract.json", "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-5, k1-6, k1-8), blok 3 (k3-1)", "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. e, s. 78"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["N1"], "blocks": [{"type": "p", "text": "Творительный отвечает на [[(z) kim? (z) czym?]] Чаще всего он нужен в четырёх случаях:"}, {"type": "table", "head": ["когда", "пример"], "rows": [["кем является", "[[Jestem lekarzem.]]"], ["чем, на чём", "[[Jadę autobusem.]]"], ["глагол", "[[Interesuję się sportem.]]"], ["предлог", "[[z bratem, przed domem]]"]], "pl_cols": []}, {"type": "table", "head": ["род", "окончание", "пример"], "rows": [["мужской, средний", "-em / -iem", "[[domem, oknem, Polakiem]]"], ["женский, муж. на -a", "-ą", "[[kawą, nocą, kolegą]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "Почти как русское «-ом / -ой»: «братом — [[bratem]]», «мамой — [[mamą]]»."}]}, {"id": "t2", "title": "Мужской и средний: -em", "facts": ["N2", "N3"], "blocks": [{"type": "p", "text": "Добавляем [[-em]]. После [[k, g]] пишем [[-iem]]. Средние на [[-e]] получают только [[-m]]."}, {"type": "table", "head": ["именительный", "творительный"], "rows": [["dom", "domem"], ["brat", "bratem"], ["Polak", "Polakiem"], ["pociąg", "pociągiem"], ["okno", "oknem"], ["śniadanie", "śniadaniem"]], "pl_cols": [0, 1]}, {"type": "p", "text": "Мягкая основа сохраняет [[i]] перед окончанием, беглое [[e]] выпадает:"}, {"type": "table", "head": ["именительный", "творительный"], "rows": [["koń", "koniem"], ["gość", "gościem"], ["pies", "psem"], ["koniec", "końcem"], ["chłopiec", "chłopcem"]], "pl_cols": [0, 1]}]}, {"id": "t3", "title": "Женский род и мужские на -a: -ą", "facts": ["N4"], "blocks": [{"type": "table", "head": ["именительный", "творительный"], "rows": [["kawa", "kawą"], ["mama", "mamą"], ["noc", "nocą"], ["pani", "panią"], ["kolega", "kolegą"], ["mężczyzna", "mężczyzną"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "У всех женских слов одно окончание — [[-ą]], даже у [[noc]] и [[pani]]."}, {"type": "fix", "items": [{"bad": "z kolegiem", "good": "z kolegą"}]}]}, {"id": "t4", "title": "Прилагательные, ten, mój", "facts": ["N5"], "blocks": [{"type": "table", "head": ["род", "окончание", "пример"], "rows": [["мужской, средний", "-ym / -im", "[[dobrym lekarzem, wysokim domem]]"], ["женский", "-ą", "[[dobrą lekarką]]"]], "pl_cols": []}, {"type": "table", "head": ["именительный", "творительный (м., ср.)", "творительный (ж.)"], "rows": [["ten / ta", "tym", "tą"], ["mój / moja", "moim", "moją"]], "pl_cols": [0, 1, 2]}, {"type": "note", "kind": "tip", "text": "[[Tą]] — правильная форма творительного: [[interesuję się tą książką]]. (В винительном пишем [[tę]].)"}]}, {"id": "t5", "title": "Местоимения", "facts": ["N6"], "blocks": [{"type": "table", "head": ["кто?", "творительный"], "rows": [["ja", "mną"], ["ty", "tobą"], ["on, ono", "nim"], ["ona", "nią"], ["my", "nami"], ["wy", "wami"], ["oni, one", "nimi"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "С [[mną]] предлог [[z]] превращается в [[ze]]: [[Pójdziesz ze mną?]]"}]}, {"id": "t6", "title": "Kim jesteś? — być + творительный", "facts": ["N7", "N8"], "blocks": [{"type": "p", "text": "После [[być]] и [[zostać]] профессия, роль, национальность — в творительном, как в русском «был врачом»:"}, {"type": "ex", "items": [{"pl": "Jestem nauczycielką.", "ru": "Я учительница."}, {"pl": "Mój brat jest Polakiem.", "ru": "Мой брат — поляк."}, {"pl": "Chcę zostać lekarzem.", "ru": "Хочу стать врачом."}]}, {"type": "p", "text": "Но с [[to]] — именительный:"}, {"type": "table", "head": ["с to — именительный", "с jest — творительный"], "rows": [["To jest mój brat.", "Mój brat jest lekarzem."], ["To Anna.", "Anna jest studentką."]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "Jestem lekarz.", "good": "Jestem lekarzem."}, {"bad": "To jest moim bratem.", "good": "To jest mój brat."}]}]}, {"id": "t7", "title": "Чем? На чём?", "facts": ["N9"], "blocks": [{"type": "p", "text": "Инструмент и транспорт — творительный без предлога. По-русски тоже: «пишу ручкой»; но «еду на автобусе» — по-польски без [[na]]:"}, {"type": "ex", "items": [{"pl": "Do pracy jeżdżę tramwajem.", "ru": "На работу езжу на трамвае."}, {"pl": "Płacę kartą.", "ru": "Плачу картой."}, {"pl": "Piszę długopisem.", "ru": "Пишу ручкой."}]}, {"type": "fix", "items": [{"bad": "jadę na autobusie", "good": "jadę autobusem"}]}]}, {"id": "t8", "title": "Глаголы с творительным", "facts": ["N10"], "blocks": [{"type": "chips", "items": ["interesować się", "zajmować się", "opiekować się", "cieszyć się", "kierować", "rządzić", "zostać"]}, {"type": "ex", "items": [{"pl": "Interesuję się muzyką.", "ru": "Интересуюсь музыкой."}, {"pl": "Opiekuję się babcią.", "ru": "Забочусь о бабушке."}, {"pl": "Mama kieruje firmą.", "ru": "Мама руководит фирмой."}]}, {"type": "fix", "items": [{"bad": "interesuję się na muzykę", "good": "interesuję się muzyką"}]}]}, {"id": "t9", "title": "Когда? — wieczorem, latem", "facts": ["N11"], "blocks": [{"type": "chips", "items": ["wieczorem", "nocą", "wiosną", "latem", "jesienią", "zimą"]}, {"type": "ex", "items": [{"pl": "Latem jeździmy nad morze.", "ru": "Летом ездим на море."}]}]}, {"id": "t10", "title": "Предлоги", "facts": ["N12"], "blocks": [{"type": "p", "text": "[[Z]] (вместе с) и [[nad, pod, przed, za, między]] на вопрос «где?» — творительный."}, {"type": "ex", "items": [{"pl": "Mieszkam nad morzem.", "ru": "Живу у моря."}, {"pl": "Czekam przed kinem.", "ru": "Жду перед кинотеатром."}, {"pl": "Idę z bratem.", "ru": "Иду с братом."}]}]}, {"id": "t11", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В сборнике 2017 творительный — в каждом втором тексте: [[cieszył się rowerem]], [[jeździł rowerem]], [[z kolegami]], [[nad jeziorem mazurskim]], [[najważniejszą atrakcją]]."}, {"type": "steps", "items": ["После [[być, zostać]] (без [[to]]) — творительный.", "Инструмент, транспорт, [[interesować się, zajmować się]] — творительный.", "Мужской и средний: [[-em / -iem]]; женский и на [[-a]]: [[-ą]].", "Прилагательное: [[-ym / -im]] или [[-ą]]."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "Mój tata jest ___.", "a": ["lekarzem"], "expl": "Być + творительный.", "t": "t6", "opts": ["lekarz", "lekarzem", "lekarza"]}, {"q": "Do pracy jeżdżę ___.", "a": ["tramwajem"], "expl": "Транспорт — творительный.", "t": "t7", "opts": ["tramwaj", "tramwajem", "tramwaju"]}, {"q": "Interesuję się ___.", "a": ["historią"], "expl": "Interesować się + творительный.", "t": "t8", "opts": ["historię", "historią", "historii"]}, {"q": "Idę do kina z ___.", "a": ["koleżanką"], "expl": "Z «вместе с» — творительный.", "t": "t3", "opts": ["koleżanką", "koleżankę", "koleżanki"]}, {"q": "To jest mój ___.", "a": ["brat"], "expl": "После to — именительный.", "t": "t6", "opts": ["brat", "bratem", "brata"]}, {"q": "Pójdziesz ze ___ na spacer?", "a": ["mną"], "expl": "Ja → mną.", "t": "t5", "opts": ["mnie", "mną", "mi"]}, {"q": "Spotkamy się przed ___.", "a": ["dworcem"], "expl": "Przed «где?» — творительный.", "t": "t10", "opts": ["dworzec", "dworca", "dworcem"]}, {"q": "Ona chce zostać ___.", "a": ["aktorką"], "expl": "Zostać + творительный.", "t": "t6", "opts": ["aktorka", "aktorką", "aktorkę"]}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "Mój brat jest **student**.", "a": ["studentem"], "expl": "Być + творительный.", "t": "t6"}, {"q": "Jadę do Gdańska **na pociągu**.", "a": ["pociągiem"], "expl": "Транспорт — творительный без предлога.", "t": "t7"}, {"q": "Rozmawiam z **kolegiem**.", "a": ["kolegą"], "expl": "Kolega → kolegą.", "t": "t3"}, {"q": "Opiekuję się **mojego** dziadkiem.", "a": ["moim"], "expl": "Мужской: moim.", "t": "t4"}, {"q": "Interesujesz się **muzykę**?", "a": ["muzyką"], "expl": "Interesować się + творительный.", "t": "t8"}, {"q": "To jest **moją siostrą**.", "a": ["moja siostra"], "expl": "После to — именительный.", "t": "t6"}, {"q": "Czekam na ciebie przed **domu**.", "a": ["domem"], "expl": "Przed (где?) + творительный.", "t": "t10"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Существительные", "instr": "Поставьте слово в творительный падеж.", "items": [{"q": "Kroję chleb ___. (nóż)", "a": ["nożem"], "expl": "Инструмент: -em.", "t": "t2"}, {"q": "Lecimy do Londynu ___. (samolot)", "a": ["samolotem"], "expl": "Транспорт: -em.", "t": "t7"}, {"q": "Mieszkam z ___. (siostra)", "a": ["siostrą"], "expl": "Женский: -ą.", "t": "t3"}, {"q": "Piję herbatę z ___. (cukier)", "a": ["cukrem"], "expl": "Беглое e: cukier → cukrem.", "t": "t2"}, {"q": "Spaceruję z ___. (pies)", "a": ["psem"], "expl": "Беглое e: pies → psem.", "t": "t2"}, {"q": "Mój dziadek był ___. (rolnik)", "a": ["rolnikiem"], "expl": "После k — -iem.", "t": "t2"}, {"q": "Kawa z ___, proszę. (mleko)", "a": ["mlekiem"], "expl": "После k — -iem.", "t": "t2"}, {"q": "Rozmawiałam z ___ z biura. (pani)", "a": ["panią"], "expl": "Pani → panią.", "t": "t3"}, {"q": "Przed ___ myję ręce. (jedzenie)", "a": ["jedzeniem"], "expl": "Средний на -e: +m.", "t": "t2"}, {"q": "Byłem tam z ___. (kolega)", "a": ["kolegą"], "expl": "Мужской на -a: -ą.", "t": "t3"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "Прилагательное + существительное", "instr": "Поставьте обе части в творительный падеж.", "items": [{"q": "Ona jest ___. (dobra nauczycielka)", "a": ["dobrą nauczycielką"], "expl": "-ą + -ą.", "t": "t4"}, {"q": "Interesuję się ___. (polska kuchnia)", "a": ["polską kuchnią"], "expl": "-ą + -ą.", "t": "t4"}, {"q": "Mój syn chce zostać ___. (znany piłkarz)", "a": ["znanym piłkarzem"], "expl": "-ym + -em.", "t": "t4"}, {"q": "Jedziemy ___. (nocny pociąg)", "a": ["nocnym pociągiem"], "expl": "-ym + -iem.", "t": "t4"}, {"q": "Spotkałam się z ___. (stary przyjaciel)", "a": ["starym przyjacielem"], "expl": "-ym + -em.", "t": "t4"}, {"q": "Zajmuję się ___. (mój młodszy brat)", "a": ["moim młodszym bratem"], "expl": "-ym + -em.", "t": "t4"}, {"q": "Mieszkamy nad ___. (duże jezioro)", "a": ["dużym jeziorem"], "expl": "Средний: -ym + -em.", "t": "t4"}, {"q": "Piszę ___. (czerwony długopis)", "a": ["czerwonym długopisem"], "expl": "-ym + -em.", "t": "t4"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "Местоимения", "instr": "Впишите местоимение в творительном падеже.", "items": [{"q": "Chodź ze ___ do sklepu! (ja)", "a": ["mną"], "expl": "Ja → mną.", "t": "t5"}, {"q": "Często rozmawiam z ___ o pracy. (ona)", "a": ["nią"], "expl": "Ona → nią.", "t": "t5"}, {"q": "Tęsknię za ___. (ty)", "a": ["tobą"], "expl": "Ty → tobą.", "t": "t5"}, {"q": "Pojedziesz z ___ nad morze? (my)", "a": ["nami"], "expl": "My → nami.", "t": "t5"}, {"q": "Nie chcę z ___ rozmawiać. (on)", "a": ["nim"], "expl": "On → nim.", "t": "t5"}, {"q": "Opiekuję się ___ w weekendy. (one)", "a": ["nimi"], "expl": "One → nimi.", "t": "t5"}]}, {"id": "e6", "level": 2, "kind": "type", "title": "To или jest?", "instr": "Впишите слово в нужном падеже: после to — именительный, после jest — творительный.", "items": [{"q": "To jest mój ___. (sąsiad)", "a": ["sąsiad"], "expl": "После to — именительный.", "t": "t6"}, {"q": "Mój sąsiad jest ___. (kierowca)", "a": ["kierowcą"], "expl": "Jest + творительный.", "t": "t6"}, {"q": "Kto to jest? To ___. (Anna)", "a": ["Anna"], "expl": "После to — именительный.", "t": "t6"}, {"q": "Anna jest ___. (pielęgniarka)", "a": ["pielęgniarką"], "expl": "Jest + творительный.", "t": "t6"}, {"q": "Marek był kiedyś ___. (nauczyciel)", "a": ["nauczycielem"], "expl": "Był + творительный.", "t": "t6"}, {"q": "Ten pan to nasz nowy ___. (dyrektor)", "a": ["dyrektor"], "expl": "После to — именительный.", "t": "t6"}]}, {"id": "e7", "level": 2, "kind": "type", "title": "Глаголы, транспорт, время", "instr": "Поставьте слово в творительный падеж.", "items": [{"q": "Zimą jeździmy na narty, a ___ nad morze. (lato)", "a": ["latem"], "expl": "Время года — творительный.", "t": "t9"}, {"q": "Moja mama zajmuje się ___. (ogród)", "a": ["ogrodem"], "expl": "Zajmować się + творительный.", "t": "t8"}, {"q": "Płacisz gotówką czy ___? (karta)", "a": ["kartą"], "expl": "Чем? — творительный.", "t": "t7"}, {"q": "___ lubię czytać książki. (wieczór)", "a": ["Wieczorem"], "expl": "Время суток — wieczorem.", "t": "t9"}, {"q": "Dziadek opiekuje się ___. (wnuczka)", "a": ["wnuczką"], "expl": "Opiekować się + творительный.", "t": "t8"}, {"q": "Do Krakowa pojedziemy ___. (autobus)", "a": ["autobusem"], "expl": "Транспорт — творительный.", "t": "t7"}, {"q": "Bardzo się cieszę ___. (prezent)", "a": ["prezentem"], "expl": "Cieszyć się + творительный.", "t": "t8"}, {"q": "Jego ojciec kieruje dużą ___. (firma)", "a": ["firmą"], "expl": "Kierować + творительный.", "t": "t8"}]}, {"id": "e8", "level": 3, "kind": "text", "format": "exam", "title": "Mój brat", "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.", "passage": "Mój starszy brat jest {1}. Pracuje w szpitalu i często wraca do domu późnym {2}. Do pracy jeździ {3}, bo nie lubi korków. W wolnym czasie interesuje się {4} i gra na gitarze ze swoim {5}. Jego żona jest {6}. W weekendy opiekują się {7}, bo nasza mama jest chora. Latem jeżdżą z {8} nad morze, a {9} — w góry. Lubię spędzać czas z {10}.", "items": [{"q": "lekarz", "a": ["lekarzem"], "expl": "Jest + творительный.", "t": "t6"}, {"q": "wieczór", "a": ["wieczorem"], "expl": "Время суток.", "t": "t9"}, {"q": "rower", "a": ["rowerem"], "expl": "Транспорт.", "t": "t7"}, {"q": "muzyka", "a": ["muzyką"], "expl": "Interesować się + творительный.", "t": "t8"}, {"q": "przyjaciel", "a": ["przyjacielem"], "expl": "Ze swoim — творительный: -em.", "t": "t4"}, {"q": "Ukrainka", "a": ["Ukrainką"], "expl": "Jest + творительный.", "t": "t6"}, {"q": "nasza mama", "a": ["naszą mamą"], "expl": "Opiekować się: -ą + -ą.", "t": "t4"}, {"q": "córka", "a": ["córką"], "expl": "Z «вместе с» — творительный.", "t": "t10"}, {"q": "zima", "a": ["zimą"], "expl": "Время года.", "t": "t9"}, {"q": "on", "a": ["nim"], "expl": "Z + nim.", "t": "t5"}]}, {"id": "e9", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.", "items": [{"q": "Pracuję jako nauczycielka. → Jestem ___.", "a": ["nauczycielką"], "expl": "Być + творительный.", "t": "t6"}, {"q": "Moje hobby to fotografia. → Interesuję się ___.", "a": ["fotografią"], "expl": "Interesować się + творительный.", "t": "t8"}, {"q": "Do pracy jeżdżę zawsze tramwajem, nie autobusem. → Codziennie jeżdżę do pracy ___.", "a": ["tramwajem"], "expl": "Транспорт.", "t": "t7"}, {"q": "Wieczór to dla mnie czas na książkę. → ___ czytam książki.", "a": ["Wieczorem"], "expl": "Время суток.", "t": "t9"}, {"q": "Mieszkam razem z mamą. → Mieszkam z ___.", "a": ["mamą"], "expl": "Z + творительный.", "t": "t3"}, {"q": "Studiuje medycynę. → Za kilka lat zostanie ___. (lekarz)", "a": ["lekarzem"], "expl": "Zostać + творительный.", "t": "t6"}]}, {"id": "e10", "level": 4, "kind": "write", "title": "Kim jestem i czym się interesuję", "instr": "Представьтесь новой группе на курсе: кто вы по профессии, чем интересуетесь, как добираетесь на занятия, с кем живёте.", "words": [40, 50], "need": "Не меньше 8 форм творительного: jestem + профессия, interesuję się…, транспорт, z + кто-то, хотя бы одно «прилагательное + существительное».", "model": "Cześć! Mam na imię Olga i jestem księgową. Pracuję w małej firmie. Mieszkam z mężem i córką w Szczecinie. Na kurs przyjeżdżam tramwajem albo rowerem. Interesuję się polską literaturą i dobrym kinem. Wieczorem często spaceruję z psem. Chcę zostać tłumaczką. Miło mi was poznać!", "model_future": ["księgową", "mężem", "córką", "tramwajem", "rowerem", "polską literaturą", "dobrym kinem", "wieczorem", "psem", "tłumaczką"], "checklist": ["Есть приветствие", "Jestem + профессия в творительном", "Interesuję się + творительный", "Транспорт в творительном", "Z + человек в творительном", "Хотя бы одно «прилагательное + существительное»", "После to — именительный", "40–50 слов"], "t": "t1"}]}, "facts": {"N1": {"refs": ["PP s. 87 («Narzędnika używamy: a) gdy mówimy, czym się posługujemy… b) czym się poruszamy… c) którędy… d) relacje czasowe… e) po czasownikach… f) po przyimkach»)", "JPBG9 s. 157 (таблица «Narzędnik (z) kim? (z) czym?», глаголы и предлоги + NARZĘDNIK)", "STD B1 2.2.3 pkt 1 lit. e, s. 78 (Piotr jest przystojnym mężczyzną; kawy z mlekiem; kierował biurem; zajmowała się dziećmi; za tamtym rogiem; przed kolacją)"], "status": "ok"}, "N2": {"refs": ["PP s. 87 (таблица: «rodzaj męski i nijaki -em, -iem (po -k, -g)»: aktorem, prawnikiem)", "JPBG9 s. 157 (domem, zdaniem, oknem, zwierzęciem, imieniem; Polakiem, rolnikiem, Norwegiem)", "MOWIC (-em, после g, k -iem; средний на -e — только -m)", "ZPE (N. uczniem, oknem)", "MORF"], "status": "ok"}, "N3": {"refs": ["PP s. 87 («e ruchome! koniec – przed końcem, taniec – tańcem, orzeł – orłem»)", "MOWIC (chłopcem, gościem)", "MORF"], "status": "ok"}, "N4": {"refs": ["PP s. 87 (таблица: «rodzaj żeński i słowa rodzaju męskiego zakończone na -a: -ą»: aktorką, nocą, artystą)", "JPBG9 s. 157 (książką, panią, miłością, rzeczą, nocą; Uwaga: kolegą, mężczyzną, artystą)", "ZPE (N. żoną)", "MORF"], "status": "ok"}, "N5": {"refs": ["PP s. 87 (rodzaj męski i nijaki -ym, -im; rodzaj żeński -ą: świetnym tłumaczem, świetną tłumaczką, językiem polskim, literaturą polską)", "JPBG9 s. 157 (Przymiotnik: dużym, zdolnym, wysokim; dużą, zdolną)", "ZPE (N. dobrym, dobrą, dobrym)", "KEY k1-8 (nad jeziorem mazurskim; najważniejszą atrakcją)", "MORF"], "status": "ok"}, "N6": {"refs": ["PP s. 94 (таблица: mną, tobą, nim, nią, nami, wami, nimi; «Chcesz ze … (ja) iść»)", "JPBG9 s. 159 (таблица zaimków w narzędniku)", "KEY k3-1 (tęskni za tobą)", "MORF"], "status": "ok"}, "N7": {"refs": ["PP s. 85 (Mikołaj Kopernik był astronomem…), s. 87 (chcę być aktorem; e: stać się, zostać)", "STD B1 s. 78 (narzędnik jako orzecznik: Piotr jest przystojnym mężczyzną.)", "MOWIC (być + narzędnik: Julian jest moim bratem.)"], "status": "ok"}, "N8": {"refs": ["STD B1 s. 77 (mianownik jako orzecznik: «Ci pracowici studenci to Niemcy.»), s. 78 (narzędnik: «Piotr jest przystojnym mężczyzną.»)", "MOWIC («to» + mianownik: Auto to drogi prezent.)"], "status": "ok"}, "N9": {"refs": ["PP s. 87 (a: nożem, widelcem, długopisem; b: autobusem, pociągiem, samolotem, taksówką)", "JPBG9 s. 157 (jechać, lecieć, płynąć, posługiwać się + NARZĘDNIK)", "STD A2 s. 68 (Do Wieliczki pojedziemy autobusem.)", "KEY k1-6 (będzie tam jeździł rowerem)"], "status": "ok"}, "N10": {"refs": ["PP s. 87 (e: interesować się, zajmować się, opiekować się, rządzić, stać się, zostać), s. 86 (Ona się interesuje kinem…)", "JPBG9 s. 157 (interesować się, zajmować się, zachwycać się, cieszyć się, opiekować się…)", "STD B1 s. 78 (kierował biurem; zajmowała się dziećmi)", "KEY k1-5 (najbardziej cieszył się rowerem), k1-3 (cieszyć się widokiem)"], "status": "ok"}, "N11": {"refs": ["PP s. 87 (d: dniem i nocą, wieczorem, wiosną, latem, jesienią, zimą)", "MOWIC (wieczorem, nocą)"], "status": "ok"}, "N12": {"refs": ["PP s. 87 (f: z, ponad, nad, pod, przed, za, między)", "JPBG9 s. 157 (z / za / przed / nad / pod / między + NARZĘDNIK)", "STD B1 s. 78 (za tamtym rogiem; przed kolacją; między siódmą a ósmą)", "KEY k1-1 (nad morzem), k1-5 (z kolegami)"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Narzędnik liczby pojedynczej», s. 85–94 (s. 87 — окончания и употребление, s. 94 — местоимения)", "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 8, s. 157 (таблица narzędnika, глаголы и предлоги), s. 159 (местоимения)", "MOWIC": "Mówić po polsku, «Polish Cases: The Instrumental»: https://mowicpopolsku.com/polish-grammar/cases/instrumental", "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-1, k1-3, k1-5, k1-6, k1-8), blok 3 (k3-1)", "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

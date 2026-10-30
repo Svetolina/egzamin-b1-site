@@ -1,0 +1,413 @@
+{
+ "topic": "przypadki-lm",
+ "title": "Винительный, дательный, творительный и предложный мн. числа",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. a–b (odmiana rzeczowników i przymiotników — liczba pojedyncza i mnoga), s. 75–76; 2.2.3 pkt 1 (funkcje przypadków), s. 77.",
+  "level": "B1 — окончания -om / -ami (-mi) / -ach одинаковы для всех родов; винительный мн. — по мужско-личности; прилагательные -ym, -ymi, -ych.",
+  "katalog_b": [
+   "7.2 Dom, mieszkanie, otoczenie (w pokojach, z sąsiadami) (s. 84)",
+   "7.4 Czas wolny, rozrywka (z przyjaciółmi) (s. 84)",
+   "7.5 Podróże (o wakacjach, we Włoszech) (s. 85)"
+  ],
+  "katalog_a": [
+   "6.1 pkt 1 lit. e, g składanie życzeń, dziękowanie (komu? — celownik l. mn.) (s. 82)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka: k1-1 (znajomym, wspomnieniom, o naszych przygodach), k1-3 (na ścianach), k1-5 (z kolegami), k1-8 (państwa Kowalskich, starym znajomym), k11-6 (na czatach, o skutkach).",
+  "depends_on": [
+   "mianownik-lm",
+   "dopelniacz-lm",
+   "narzednik",
+   "miejscownik",
+   "celownik"
+  ],
+  "feeds": [
+   "zaimki",
+   "test-blok-4"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: «Celownik liczby mnogiej», s. 62; «Biernik liczby mnogiej», s. 78–79; «Narzędnik liczby mnogiej», s. 96–97; «Miejscownik liczby mnogiej», s. 111–113",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6, s. 126 (biernik l. mn.); lekcja 8, s. 157 (narzędnik, B. Liczba mnoga); lekcja 9, s. 175 (miejscownik l. mn., -ech)",
+  "COLA": "Colanguage, «Accusative plural»: https://app.colanguage.com/polish/grammar/biernik-w-liczbie-mnogiej",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-1, k1-3, k1-5, k1-8), blok 11 (k11-6)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "P1",
+   "ru": "Винительный мн.: у не мужско-личных = именительный мн. (widzę domy, kobiety, dzieci); у мужско-личных = родительный мн. (widzę studentów, tych panów, nowych kolegów).",
+   "pl": [
+    "Znam tych studentów. Lubię te piosenki."
+   ],
+   "refs": [
+    "PP s. 78 (męskoosobowy jak dopełniacz l. mn.; męski nieosobowy, żeński i nijaki jak mianownik l. mn.)",
+    "JPBG9 s. 126 (biernik l. mn.: męskoosobowy = Dopełniacz l. mn.; niemęskoosobowy = Mianownik l. mn.)",
+    "COLA (Znam tych Polaków; Rezerwuję te noclegi)",
+    "KEY k1-8 (odwiedzać państwa Kowalskich)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P2",
+   "ru": "Дательный мн.: -om во всех родах (panom, paniom, dzieciom, studentom); прилагательные и местоимения — -ym / -im (dobrym, polskim, tym, moim).",
+   "pl": [
+    "Pomagam nowym studentom. Dziękuję moim rodzicom."
+   ],
+   "refs": [
+    "PP s. 62 (Celownik liczby mnogiej — rzeczownik: rodzaj męski, żeński i nijaki -om: panom, paniom, dzieciom; przymiotnik -ym / -im: dobrym, mądrym, wielkim, drogim)",
+    "ZPE (C. l. mn. uczniom, żonom, oknom; dobrym)",
+    "KEY k1-1 (wspomnieniom), k1-8 (starym znajomym)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P3",
+   "ru": "Творительный мн.: -ami во всех родах (domami, kobietami, zdjęciami); -mi у немногих: ludźmi, dziećmi, przyjaciółmi, braćmi, gośćmi, pieniędzmi, końmi; прилагательные: -ymi / -imi (starymi, polskimi).",
+   "pl": [
+    "Rozmawiam z kolegami. Spotykam się z przyjaciółmi."
+   ],
+   "refs": [
+    "PP s. 97 (Narzędnik liczby mnogiej: -ami; -mi (wyjątki do zapamiętania): ludźmi, braćmi, gośćmi, dziećmi, przyjaciółmi, księżmi, końmi, kośćmi, dłońmi, nićmi, pieniędzmi; przymiotnik -ymi / -imi)",
+    "JPBG9 s. 157 (B. Liczba mnoga: -ami — domami, Polakami, zdaniami; -mi — ludźmi, pieniędzmi, końmi, dziećmi; przymiotnik -ymi / -imi)",
+    "ZPE (N. l. mn. uczniami, żonami, oknami; dobrymi)",
+    "KEY k1-5 (z kolegami)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P4",
+   "ru": "Предложный мн.: -ach во всех родах (sklepach, ulicach, miastach); исключения: w Niemczech, we Włoszech, na Węgrzech; прилагательные: -ych / -ich (как в родительном).",
+   "pl": [
+    "Myślę o następnych wakacjach. Byłam we Włoszech."
+   ],
+   "refs": [
+    "PP s. 113 (Miejscownik liczby mnogiej: -ach; przymiotnik -ych / -ich: Myślę o następnych wakacjach. Marzę o dalekich podróżach. Uwaga na wyjątki: w Niemczech, we Włoszech, na Węgrzech)",
+    "JPBG9 s. 175 (rzeczownik -ach: sklepach, ulicach, miastach; przymiotnik -ych / -ich = Dopełniacz; -ech: we Włoszech, w Niemczech, na Węgrzech)",
+    "ZPE (Ms. l. mn. uczniach, żonach, oknach; dobrych)",
+    "KEY k1-1 (o naszych przygodach), k1-3 (na ścianach), k11-6 (na czatach, o skutkach)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P5",
+   "ru": "Перед окончаниями -om, -ami, -ach основа — как в именительном мн. не мужско-личном / в родительном ед.: беглое e выпадает (Niemiec → Niemcami, taniec → tańcami), dziecko → dzieciom, dzieciach.",
+   "pl": [
+    "Rozmawiam z Niemcami. Opowiadam o tańcach."
+   ],
+   "refs": [
+    "PP s. 97 (e ruchome! Ukrainiec – Ukraińcami, Niemiec – Niemcami, taniec – tańcami)",
+    "JPBG9 s. 157 (zwierzętami, imionami, muzeami)",
+    "MORF"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "Три окончания -om / -ami / -ach не зависят от рода — это самая лёгкая часть мн. числа; трудности: -mi (ludźmi, dziećmi…) и -ech (w Niemczech…).",
+  "Винительный мн. уже был в теме «mianownik-lm» (факт L9) — здесь повторяем как часть сводной таблицы."
+ ],
+ "forms": [
+  {
+   "form": "studentów",
+   "kind": "przyp",
+   "lemma": "student",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "panów",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "kolegów",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "domy",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "kobiety",
+   "kind": "przyp",
+   "lemma": "kobieta",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "piosenki",
+   "kind": "przyp",
+   "lemma": "piosenka",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "panom",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "paniom",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "dzieciom",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "studentom",
+   "kind": "przyp",
+   "lemma": "student",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "rodzicom",
+   "kind": "przyp",
+   "lemma": "rodzic",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "wspomnieniom",
+   "kind": "przyp",
+   "lemma": "wspomnienie",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "dobrym",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "polskim",
+   "kind": "przyp",
+   "lemma": "polski",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "tym",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "moim",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "domami",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "kobietami",
+   "kind": "przyp",
+   "lemma": "kobieta",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "zdjęciami",
+   "kind": "przyp",
+   "lemma": "zdjęcie",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "kolegami",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "ludźmi",
+   "kind": "przyp",
+   "lemma": "człowiek",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "dziećmi",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "przyjaciółmi",
+   "kind": "przyp",
+   "lemma": "przyjaciel",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "braćmi",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "gośćmi",
+   "kind": "przyp",
+   "lemma": "gość",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "pieniędzmi",
+   "kind": "przyp",
+   "lemma": "pieniądz",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "końmi",
+   "kind": "przyp",
+   "lemma": "koń",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "Niemcami",
+   "kind": "przyp",
+   "lemma": "Niemiec",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "tańcami",
+   "kind": "przyp",
+   "lemma": "taniec",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "starymi",
+   "kind": "przyp",
+   "lemma": "stary",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "polskimi",
+   "kind": "przyp",
+   "lemma": "polski",
+   "case": "inst",
+   "n": "pl"
+  },
+  {
+   "form": "sklepach",
+   "kind": "przyp",
+   "lemma": "sklep",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "ulicach",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "miastach",
+   "kind": "przyp",
+   "lemma": "miasto",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "wakacjach",
+   "kind": "przyp",
+   "lemma": "wakacje",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "podróżach",
+   "kind": "przyp",
+   "lemma": "podróż",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "ścianach",
+   "kind": "przyp",
+   "lemma": "ściana",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "Niemczech",
+   "kind": "przyp",
+   "lemma": "Niemcy",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "Włoszech",
+   "kind": "przyp",
+   "lemma": "Włochy",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "Węgrzech",
+   "kind": "przyp",
+   "lemma": "Węgry",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "następnych",
+   "kind": "przyp",
+   "lemma": "następny",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "dalekich",
+   "kind": "przyp",
+   "lemma": "daleki",
+   "case": "loc",
+   "n": "pl"
+  }
+ ]
+}

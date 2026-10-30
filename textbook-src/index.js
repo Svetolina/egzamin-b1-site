@@ -532,6 +532,1140 @@ window.B1_TEXTBOOK=[
   ]
  },
  {
+  "id": "dopelniacz",
+  "title_pl": "Dopełniacz",
+  "title_ru": "Родительный падеж",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Женский род: -y или -i"
+   },
+   {
+    "id": "t3",
+    "title": "Особые женские: -ii, -cji, pani"
+   },
+   {
+    "id": "t4",
+    "title": "Мужской род: люди, животные и слова на -a"
+   },
+   {
+    "id": "t5",
+    "title": "Мужской неодушевлённый: -u"
+   },
+   {
+    "id": "t6",
+    "title": "Мужской неодушевлённый: -a"
+   },
+   {
+    "id": "t7",
+    "title": "Беглое e"
+   },
+   {
+    "id": "t8",
+    "title": "Средний род"
+   },
+   {
+    "id": "t9",
+    "title": "Прилагательные, ten, mój"
+   },
+   {
+    "id": "t10",
+    "title": "Местоимения"
+   },
+   {
+    "id": "t11",
+    "title": "Глаголы с родительным"
+   },
+   {
+    "id": "t12",
+    "title": "Предлоги с родительным"
+   },
+   {
+    "id": "t13",
+    "title": "Сколько, чей, какого числа"
+   },
+   {
+    "id": "t14",
+    "title": "Нет и не"
+   },
+   {
+    "id": "t15",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Женский и средний род",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "Мужской род: -a или -u",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e5",
+    "title": "Прилагательное + существительное",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e6",
+    "title": "Местоимения",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e7",
+    "title": "После глаголов и предлогов",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e8",
+    "title": "Zakupy na urodziny",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e9",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e10",
+    "title": "Lista zakupów i życzenia",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "przyimki",
+  "title_pl": "Przyimki",
+  "title_ru": "Предлоги и падежи",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Предлоги одного падежа"
+   },
+   {
+    "id": "t3",
+    "title": "Где? и куда? — w или do"
+   },
+   {
+    "id": "t4",
+    "title": "Когда na, а когда w"
+   },
+   {
+    "id": "t5",
+    "title": "Горы, море, заграница"
+   },
+   {
+    "id": "t6",
+    "title": "Откуда? — z"
+   },
+   {
+    "id": "t7",
+    "title": "К кому, у кого, от кого"
+   },
+   {
+    "id": "t8",
+    "title": "O и po: два падежа"
+   },
+   {
+    "id": "t9",
+    "title": "Nad, pod, przed, za, między"
+   },
+   {
+    "id": "t10",
+    "title": "Z: откуда или с кем"
+   },
+   {
+    "id": "t11",
+    "title": "Предлоги времени"
+   },
+   {
+    "id": "t12",
+    "title": "Местоимения после предлогов"
+   },
+   {
+    "id": "t13",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Где → куда",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "Откуда?",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e5",
+    "title": "Где или куда: nad, pod, przed, za",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e6",
+    "title": "O и po",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e7",
+    "title": "Время",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e8",
+    "title": "Местоимения",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e9",
+    "title": "Weekend nad jeziorem",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e10",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e11",
+    "title": "Mój plan na sobotę",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "narzednik",
+  "title_pl": "Narzędnik",
+  "title_ru": "Творительный падеж",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Мужской и средний: -em"
+   },
+   {
+    "id": "t3",
+    "title": "Женский род и мужские на -a: -ą"
+   },
+   {
+    "id": "t4",
+    "title": "Прилагательные, ten, mój"
+   },
+   {
+    "id": "t5",
+    "title": "Местоимения"
+   },
+   {
+    "id": "t6",
+    "title": "Kim jesteś? — być + творительный"
+   },
+   {
+    "id": "t7",
+    "title": "Чем? На чём?"
+   },
+   {
+    "id": "t8",
+    "title": "Глаголы с творительным"
+   },
+   {
+    "id": "t9",
+    "title": "Когда? — wieczorem, latem"
+   },
+   {
+    "id": "t10",
+    "title": "Предлоги"
+   },
+   {
+    "id": "t11",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Существительные",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "Прилагательное + существительное",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e5",
+    "title": "Местоимения",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e6",
+    "title": "To или jest?",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e7",
+    "title": "Глаголы, транспорт, время",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e8",
+    "title": "Mój brat",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e9",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e10",
+    "title": "Kim jestem i czym się interesuję",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "miejscownik",
+  "title_pl": "Miejscownik",
+  "title_ru": "Предложный падеж",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Мужской и средний: -e"
+   },
+   {
+    "id": "t3",
+    "title": "Мужской и средний: -u"
+   },
+   {
+    "id": "t4",
+    "title": "Женский род: -e со сменой согласной"
+   },
+   {
+    "id": "t5",
+    "title": "Женский род: -i и -y"
+   },
+   {
+    "id": "t6",
+    "title": "Прилагательные, ten, mój"
+   },
+   {
+    "id": "t7",
+    "title": "Местоимения"
+   },
+   {
+    "id": "t8",
+    "title": "Время"
+   },
+   {
+    "id": "t9",
+    "title": "Глаголы с предложным"
+   },
+   {
+    "id": "t10",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Мужской и средний род",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "Женский род",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e5",
+    "title": "Прилагательное + существительное",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e6",
+    "title": "Местоимения и время",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e7",
+    "title": "Глаголы с предложным",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e8",
+    "title": "Moje miasto",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e9",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e10",
+    "title": "Gdzie mieszkam",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "celownik",
+  "title_pl": "Celownik",
+  "title_ru": "Дательный падеж",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Мужской род: -owi"
+   },
+   {
+    "id": "t3",
+    "title": "Мужской род: -u (запомнить)"
+   },
+   {
+    "id": "t4",
+    "title": "Женский род и мужские на -a"
+   },
+   {
+    "id": "t5",
+    "title": "Средний род: -u"
+   },
+   {
+    "id": "t6",
+    "title": "Прилагательные, ten, mój"
+   },
+   {
+    "id": "t7",
+    "title": "Местоимения: mi или mnie?"
+   },
+   {
+    "id": "t8",
+    "title": "Podoba mi się"
+   },
+   {
+    "id": "t9",
+    "title": "Dzięki"
+   },
+   {
+    "id": "t10",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Существительные",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "Прилагательное + существительное",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e5",
+    "title": "Местоимения",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e6",
+    "title": "Podoba się, dzięki",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e7",
+    "title": "Prezenty na święta",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e8",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e9",
+    "title": "Podziękowanie",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "wolacz",
+  "title_pl": "Wołacz",
+  "title_ru": "Звательный падеж",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Женские и мужские на -a: -o"
+   },
+   {
+    "id": "t3",
+    "title": "Ласковые формы: -u"
+   },
+   {
+    "id": "t4",
+    "title": "Мужской род"
+   },
+   {
+    "id": "t5",
+    "title": "Прилагательные и средний род"
+   },
+   {
+    "id": "t6",
+    "title": "Официально и в письме"
+   },
+   {
+    "id": "t7",
+    "title": "В разговоре"
+   },
+   {
+    "id": "t8",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 6
+   },
+   {
+    "id": "e2",
+    "title": "Обращения",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e2b",
+    "title": "Имена",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e3",
+    "title": "Исправьте ошибку",
+    "level": 2,
+    "kind": "type",
+    "n": 4
+   },
+   {
+    "id": "e4",
+    "title": "Początek listu",
+    "level": 3,
+    "kind": "text",
+    "n": 5
+   },
+   {
+    "id": "e5",
+    "title": "Dwa listy",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "mianownik-lm",
+  "title_pl": "Liczba mnoga",
+  "title_ru": "Множественное число: именительный, мужско-личные формы",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Женщины, вещи, животные: -y, -i, -e, -a"
+   },
+   {
+    "id": "t3",
+    "title": "Особые формы"
+   },
+   {
+    "id": "t4",
+    "title": "Мужчины: -owie"
+   },
+   {
+    "id": "t5",
+    "title": "Мужчины: -i и -y со сменой согласной"
+   },
+   {
+    "id": "t6",
+    "title": "Мужчины: -e"
+   },
+   {
+    "id": "t7",
+    "title": "Прилагательные"
+   },
+   {
+    "id": "t8",
+    "title": "Ci или te, moi или moje"
+   },
+   {
+    "id": "t9",
+    "title": "Винительный мн. числа — коротко"
+   },
+   {
+    "id": "t10",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Не мужско-личные",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e4",
+    "title": "Мужско-личные",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e5",
+    "title": "Прилагательное + существительное",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e6",
+    "title": "Moja grupa na kursie",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e7",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e8",
+    "title": "Moi znajomi",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "dopelniacz-lm",
+  "title_pl": "Dopełniacz l. mn.",
+  "title_ru": "Родительный падеж мн. числа",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Мужской род: -ów, -i, -y"
+   },
+   {
+    "id": "t3",
+    "title": "Женский и средний: нулевое окончание и беглое e"
+   },
+   {
+    "id": "t4",
+    "title": "Женский: -i / -y"
+   },
+   {
+    "id": "t5",
+    "title": "Средний на -e, -um"
+   },
+   {
+    "id": "t6",
+    "title": "Особые формы"
+   },
+   {
+    "id": "t7",
+    "title": "Прилагательные, ten, mój"
+   },
+   {
+    "id": "t8",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Мужской род",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e4",
+    "title": "Женский и средний род",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e5",
+    "title": "С прилагательным",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e6",
+    "title": "Urodziny Kasi",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e7",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e8",
+    "title": "Lista zakupów na imprezę",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "przypadki-lm",
+  "title_pl": "Pozostałe przypadki l. mn.",
+  "title_ru": "Винительный, дательный, творительный и предложный мн. числа",
+  "group": "Падежи",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Винительный мн."
+   },
+   {
+    "id": "t3",
+    "title": "Дательный мн.: -om"
+   },
+   {
+    "id": "t4",
+    "title": "Творительный мн.: -ami и -mi"
+   },
+   {
+    "id": "t5",
+    "title": "Предложный мн.: -ach и -ech"
+   },
+   {
+    "id": "t6",
+    "title": "Прилагательные и местоимения"
+   },
+   {
+    "id": "t7",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Дательный мн.",
+    "level": 2,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e4",
+    "title": "Творительный мн.",
+    "level": 2,
+    "kind": "type",
+    "n": 8
+   },
+   {
+    "id": "e5",
+    "title": "Предложный мн.",
+    "level": 2,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e6",
+    "title": "Spotkanie po latach",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e7",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 6
+   },
+   {
+    "id": "e8",
+    "title": "Mój weekend z bliskimi",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "id": "zaimki-osobowe",
+  "title_pl": "Zaimki osobowe",
+  "title_ru": "Личные местоимения",
+  "group": "Местоимения",
+  "level": "B1",
+  "theory": [
+   {
+    "id": "t1",
+    "title": "Главное за полминуты"
+   },
+   {
+    "id": "t2",
+    "title": "Ja и ty по падежам"
+   },
+   {
+    "id": "t3",
+    "title": "On и ono"
+   },
+   {
+    "id": "t4",
+    "title": "Ona"
+   },
+   {
+    "id": "t5",
+    "title": "My, wy, oni, one"
+   },
+   {
+    "id": "t6",
+    "title": "Короткая или длинная?"
+   },
+   {
+    "id": "t7",
+    "title": "После предлога"
+   },
+   {
+    "id": "t8",
+    "title": "Ze mną, przede mną"
+   },
+   {
+    "id": "t9",
+    "title": "В письме"
+   },
+   {
+    "id": "t10",
+    "title": "На экзамене"
+   }
+  ],
+  "exercises": [
+   {
+    "id": "e1",
+    "title": "Выберите форму",
+    "level": 1,
+    "kind": "choice",
+    "n": 8
+   },
+   {
+    "id": "e2",
+    "title": "Исправьте ошибку",
+    "level": 1,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e3",
+    "title": "Ja и ty",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e4",
+    "title": "On, ona, ono",
+    "level": 2,
+    "kind": "type",
+    "n": 10
+   },
+   {
+    "id": "e5",
+    "title": "My, wy, oni, one",
+    "level": 2,
+    "kind": "type",
+    "n": 9
+   },
+   {
+    "id": "e6",
+    "title": "List od Oli",
+    "level": 3,
+    "kind": "text",
+    "n": 10
+   },
+   {
+    "id": "e7",
+    "title": "Перефразирование",
+    "level": 3,
+    "kind": "type",
+    "n": 7
+   },
+   {
+    "id": "e8",
+    "title": "Zaproszenie",
+    "level": 4,
+    "kind": "write",
+    "n": 1
+   }
+  ]
+ },
+ {
   "id": "tryb-rozkazujacy",
   "title_pl": "Tryb rozkazujący",
   "title_ru": "Повелительное наклонение",

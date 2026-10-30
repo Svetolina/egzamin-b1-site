@@ -1,0 +1,287 @@
+{
+ "topic": "wolacz",
+ "title": "Wołacz — звательный падеж",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.3 Składnia, pkt 1 lit. g «wołacz: jako wyraz poza zdaniem, kierujący wypowiedź do konkretnej osoby (Szanowni Państwo! Dzisiejszy wykład zacznę od…), jako wyraz poza tekstem, kierujący wypowiedź do konkretnej osoby (Kochana Mamo! Pozdrawiam Cię bardzo serdecznie z Poznania.)», s. 78.",
+  "level": "B1 — обращение в письме и в разговоре: окончания ед. числа, pan / pani + должность, прилагательные в обращении.",
+  "katalog_b": [
+   "7.1 Człowiek, pkt 10 utrzymywanie kontaktu (korespondowanie, spotkania) (s. 84)"
+  ],
+  "katalog_a": [
+   "6.1 pkt 3 kontakty towarzyskie — zwracanie się do kogoś, rozpoczynanie i kończenie rozmowy (s. 83)"
+  ],
+  "exam": "В грамматике экзамена отдельного задания на звательный нет; он нужен в каждом письме (Pisanie): обращение в начале — Droga Ewo!, Szanowny Panie Dyrektorze!, Kochana Babciu!",
+  "depends_on": [
+   "miejscownik (мужской звательный = предложный)"
+  ],
+  "feeds": [
+   "все формы письма (list, zaproszenie, podziękowanie)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Wołacz liczby pojedynczej», s. 114–118 (s. 117 — окончания, s. 118 — прилагательные и употребление)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 0, s. 14 (wołacz (o!))",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "W1",
+   "ru": "Звательный (wołacz) — форма обращения: к кому-то лично и в письмах (Szanowny Panie!, Kochana Mamo!). После обращения ставим ! или запятую.",
+   "pl": [
+    "Dzień dobry, panie Adamie! Kochana Mamo!"
+   ],
+   "refs": [
+    "PP s. 118 («Wołacza używamy: a) gdy zwracamy się do kogoś… b) w listach (i e-mailach): Szanowny Panie Dyrektorze!, Kochana Babciu!… Po wołaczach stawiamy wykrzyknik albo… przecinek»)",
+    "STD B1 2.2.3 pkt 1 lit. g, s. 78 («Szanowni Państwo! Dzisiejszy wykład zacznę od…»; «Kochana Mamo! Pozdrawiam Cię bardzo serdecznie z Poznania.»)",
+    "JPBG9 s. 14 (wołacz (o!): «O wołacz nie pytamy… O, Barbaro!»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W2",
+   "ru": "Женские слова на -a (и мужские на -a): -o: mama → mamo, Anna → Anno, pani → pani (без изменений), Polska → Polsko; kolega → kolego, poeta → poeto.",
+   "pl": [
+    "Mamo, chodź tu! Anno, dziękuję!"
+   ],
+   "refs": [
+    "PP s. 117 (rodzaj żeński: -o — rzeczowniki zakończone na -a: Polsko, Olgo, Anno; ** «Dotyczy to również rzeczowników rodzaju męskiego zakończonych na -a: mężczyzno, kolego, poeto»)",
+    "ZPE (W. żono)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W3",
+   "ru": "Ласковые формы на -sia, -nia, -cia, -zia (и babcia, ciocia): -u: Basia → Basiu, Ania → Aniu, babcia → babciu, ciocia → ciociu.",
+   "pl": [
+    "Babciu, wszystkiego najlepszego!"
+   ],
+   "refs": [
+    "PP s. 117 (-u: zdrobnienia zakończone na -cia, -dzia, -nia, -sia, -zia: córciu, Madziu, Aniu, Basiu, Zuziu), s. 118 (Wszystkiego najlepszego, droga babciu!)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W4",
+   "ru": "Мужской род: как предложный, -e со смягчением (pan → panie, Adam → Adamie, Robert → Robercie, Michał → Michale, profesor → profesorze); после k, g, ch и мягких — -u (Jacek → Jacku, dziadek → dziadku, Tomasz → Tomaszu, Polak → Polaku). Особые: ojciec → ojcze, chłopiec → chłopcze, Bóg → Boże, syn → synu.",
+   "pl": [
+    "Panie profesorze! Dziadku, pomóż mi!"
+   ],
+   "refs": [
+    "PP s. 117 (rodzaj męski: -e po spółgłoskach twardych (z wyjątkiem -k, -g, -ch) — panie; -u po -k, -g, -ch i po miękkich — Polaku, Tomaszu, dziadku; сноска *: Adamie, Robercie, Michale; Uwaga: syn – synu, ojciec – ojcze, chłopiec – chłopcze, Bóg – Boże; e ruchome: Jacek – Jacku)",
+    "ZPE (W. uczniu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W5",
+   "ru": "Средний род и прилагательные — как именительный: Drogie Dziecko!, Szanowny Panie!, Kochana Babciu!, Szanowni Państwo!",
+   "pl": [
+    "Szanowny Panie! Drogie Dziecko!"
+   ],
+   "refs": [
+    "PP s. 117 (rodzaj nijaki — wołacz jak mianownik), s. 118 (Przymiotnik: wołacz jak mianownik — Szanowny Kliencie!, Szanowna Klientko!, Drogie Dziecko!)",
+    "STD B1 s. 78 (Szanowni Państwo!, Kochana Mamo!)",
+    "ZPE (W. okno)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W6",
+   "ru": "Официальное обращение: pan / pani + должность или фамилия: Panie Dyrektorze! — но Pani Dyrektor! (женские названия должностей часто не склоняются). В письме обращение пишут с большой буквы.",
+   "pl": [
+    "Szanowna Pani Dyrektor! Szanowny Panie Dyrektorze!"
+   ],
+   "refs": [
+    "PP s. 118 (Szanowny Panie Dyrektorze!, Szanowna Pani Dyrektor!; «Żeńskie formy nazw zawodów i tytułów… bywają nieodmienne (panie doktorze!, ale: pani doktor!)»; «zwroty do adresata piszemy tu wielką literą»)",
+    "STD B1 s. 78 (Szanowni Państwo!; Kochana Mamo! Pozdrawiam Cię…)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "W7",
+   "ru": "В разговоре по имени часто обращаются в именительном: Cześć, Jarek! Cześć, Ewa! В письме и официально — звательный.",
+   "pl": [
+    "Cześć, Ewa! / Droga Ewo!"
+   ],
+   "refs": [
+    "PP s. 118 («W mowie potocznej (gdy używamy samych imion) wołacz często zastępujemy mianownikiem, np.: Cześć, Jarek!, Cześć, Ewa!»)"
+   ],
+   "status": "marked",
+   "decision": "Правило из одного учебника (PP) — даём одной строкой с пометкой, как решено для czas przyszły (22.10)."
+  }
+ ],
+ "noticed": [
+  "Мужской звательный почти всегда совпадает с предложным (PP s. 117, сноска *: «tak jak w miejscowniku»); исключения — syn (synu = в предложном тоже synu), ojciec → ojcze, chłopiec → chłopcze, Bóg → Boże.",
+  "W7 (разговорный именительный при имени) — только PP; статус marked."
+ ],
+ "forms": [
+  {
+   "form": "mamo",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Anno",
+   "kind": "przyp",
+   "lemma": "Anna",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Polsko",
+   "kind": "przyp",
+   "lemma": "Polska",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "kolego",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "poeto",
+   "kind": "przyp",
+   "lemma": "poeta",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Basiu",
+   "kind": "przyp",
+   "lemma": "Basia",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Aniu",
+   "kind": "przyp",
+   "lemma": "Ania",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "babciu",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "ciociu",
+   "kind": "przyp",
+   "lemma": "ciocia",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "panie",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Adamie",
+   "kind": "przyp",
+   "lemma": "Adam",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Robercie",
+   "kind": "przyp",
+   "lemma": "Robert",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Michale",
+   "kind": "przyp",
+   "lemma": "Michał",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "profesorze",
+   "kind": "przyp",
+   "lemma": "profesor",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Jacku",
+   "kind": "przyp",
+   "lemma": "Jacek",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "dziadku",
+   "kind": "przyp",
+   "lemma": "dziadek",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Tomaszu",
+   "kind": "przyp",
+   "lemma": "Tomasz",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Polaku",
+   "kind": "przyp",
+   "lemma": "Polak",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "ojcze",
+   "kind": "przyp",
+   "lemma": "ojciec",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "chłopcze",
+   "kind": "przyp",
+   "lemma": "chłopiec",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "synu",
+   "kind": "przyp",
+   "lemma": "syn",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "dyrektorze",
+   "kind": "przyp",
+   "lemma": "dyrektor",
+   "case": "voc",
+   "n": "sg"
+  },
+  {
+   "form": "Ewo",
+   "kind": "przyp",
+   "lemma": "Ewa",
+   "case": "voc",
+   "n": "sg"
+  }
+ ]
+}

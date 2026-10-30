@@ -1,0 +1,936 @@
+{
+ "topic": "przypadki-lm",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Pozostałe przypadki l. mn.",
+ "title_ru": "Винительный, дательный, творительный и предложный мн. числа",
+ "lead": "Studentom, ze studentami, o studentach: -om, -ami, -ach для всех родов; исключения ludźmi, dziećmi, w Niemczech.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-5, k1-8), blok 11 (k11-6)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. a–b, s. 75–76; 2.2.3 pkt 1, s. 77"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Во множественном числе у дательного, творительного и предложного — одно окончание на все рода. Учить нужно только исключения."
+    },
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "существительное",
+      "прилагательное",
+      "пример"
+     ],
+     "rows": [
+      [
+       "дательный (komu?)",
+       "-om",
+       "-ym / -im",
+       "[[nowym studentom]]"
+      ],
+      [
+       "творительный (z kim?)",
+       "-ami (-mi)",
+       "-ymi / -imi",
+       "[[z nowymi studentami]]"
+      ],
+      [
+       "предложный (o kim?)",
+       "-ach",
+       "-ych / -ich",
+       "[[o nowych studentach]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Как в русском: «студентам — студентами — о студентах». Польские окончания почти такие же: [[-om, -ami, -ach]]."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Винительный мн.",
+   "facts": [
+    "P1"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кого? что?",
+      "форма",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужско-личные (oni)",
+       "= родительный мн.",
+       "[[Znam tych nowych studentów.]]"
+      ],
+      [
+       "все остальные (one)",
+       "= именительный мн.",
+       "[[Lubię te nowe piosenki. Widzę duże domy.]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Znam tych nowych studenci.",
+       "good": "Znam tych nowych studentów."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Дательный мн.: -om",
+   "facts": [
+    "P2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. мн.",
+      "дат. мн."
+     ],
+     "rows": [
+      [
+       "panowie",
+       "panom"
+      ],
+      [
+       "panie",
+       "paniom"
+      ],
+      [
+       "dzieci",
+       "dzieciom"
+      ],
+      [
+       "rodzice",
+       "rodzicom"
+      ],
+      [
+       "studenci",
+       "studentom"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Pomagam nowym studentom.",
+       "ru": "Помогаю новым студентам."
+      },
+      {
+       "pl": "Dziękuję moim rodzicom.",
+       "ru": "Благодарю моих родителей."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Творительный мн.: -ami и -mi",
+   "facts": [
+    "P3",
+    "P5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. мн.",
+      "твор. мн."
+     ],
+     "rows": [
+      [
+       "domy",
+       "domami"
+      ],
+      [
+       "kobiety",
+       "kobietami"
+      ],
+      [
+       "zdjęcia",
+       "zdjęciami"
+      ],
+      [
+       "koledzy",
+       "kolegami"
+      ],
+      [
+       "Niemcy",
+       "Niemcami"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "chips",
+     "items": [
+      "ludźmi",
+      "dziećmi",
+      "przyjaciółmi",
+      "braćmi",
+      "gośćmi",
+      "pieniędzmi",
+      "końmi"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Эти семь форм на [[-mi]] нужно просто запомнить."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "z dzieciami",
+       "good": "z dziećmi"
+      },
+      {
+       "bad": "z przyjacielami",
+       "good": "z przyjaciółmi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Предложный мн.: -ach и -ech",
+   "facts": [
+    "P4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. мн.",
+      "предл. мн."
+     ],
+     "rows": [
+      [
+       "sklepy",
+       "w sklepach"
+      ],
+      [
+       "ulice",
+       "na ulicach"
+      ],
+      [
+       "miasta",
+       "w miastach"
+      ],
+      [
+       "wakacje",
+       "na wakacjach"
+      ],
+      [
+       "podróże",
+       "o podróżach"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "страна",
+      "где?"
+     ],
+     "rows": [
+      [
+       "Niemcy",
+       "w Niemczech"
+      ],
+      [
+       "Włochy",
+       "we Włoszech"
+      ],
+      [
+       "Węgry",
+       "na Węgrzech"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "w Niemcach",
+       "good": "w Niemczech"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Прилагательные и местоимения",
+   "facts": [
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "ten",
+      "mój",
+      "nowy",
+      "polski"
+     ],
+     "rows": [
+      [
+       "дательный",
+       "tym",
+       "moim",
+       "nowym",
+       "polskim"
+      ],
+      [
+       "творительный",
+       "tymi",
+       "moimi",
+       "nowymi",
+       "polskimi"
+      ],
+      [
+       "предложный",
+       "tych",
+       "moich",
+       "nowych",
+       "polskich"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Предложный мн. прилагательного совпадает с родительным: [[o nowych domach]] — [[nie ma nowych domów]]."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике 2017: [[opowiadać znajomym]], [[o naszych przygodach]], [[na ścianach]], [[z kolegami]], [[pomagać starym znajomym]], [[o skutkach]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Определите падеж по глаголу или предлогу: [[pomagać, dziękować]] → дательный; [[z, przed, nad]] → творительный; [[o, w, na, przy, po]] + место/тема → предложный.",
+      "Существительное: [[-om / -ami / -ach]]; проверьте исключения ([[ludźmi, dziećmi, w Niemczech]]).",
+      "Прилагательное: [[-ym / -ymi / -ych]].",
+      "Винительный мн.: мужчины → как родительный, остальные → как именительный."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Pomagam ___.",
+     "a": [
+      "dzieciom"
+     ],
+     "expl": "Дательный: -om.",
+     "t": "t3",
+     "opts": [
+      "dzieciom",
+      "dziećmi",
+      "dzieciach"
+     ]
+    },
+    {
+     "q": "Rozmawiam z ___.",
+     "a": [
+      "kolegami"
+     ],
+     "expl": "Творительный: -ami.",
+     "t": "t4",
+     "opts": [
+      "kolegom",
+      "kolegami",
+      "kolegach"
+     ]
+    },
+    {
+     "q": "Myślę o ___.",
+     "a": [
+      "wakacjach"
+     ],
+     "expl": "Предложный: -ach.",
+     "t": "t5",
+     "opts": [
+      "wakacjom",
+      "wakacjami",
+      "wakacjach"
+     ]
+    },
+    {
+     "q": "Spotykam się z ___.",
+     "a": [
+      "przyjaciółmi"
+     ],
+     "expl": "Творительный: -mi (исключение).",
+     "t": "t4",
+     "opts": [
+      "przyjacielami",
+      "przyjaciółmi",
+      "przyjaciołami"
+     ]
+    },
+    {
+     "q": "Mieszkałem dwa lata w ___.",
+     "a": [
+      "Niemczech"
+     ],
+     "expl": "Предложный: исключение -ech.",
+     "t": "t5",
+     "opts": [
+      "Niemcach",
+      "Niemczech",
+      "Niemcami"
+     ]
+    },
+    {
+     "q": "Znam tych ___.",
+     "a": [
+      "studentów"
+     ],
+     "expl": "Винительный мужско-личный = родительный.",
+     "t": "t2",
+     "opts": [
+      "studenci",
+      "studentów",
+      "studentach"
+     ]
+    },
+    {
+     "q": "Lubię te ___.",
+     "a": [
+      "piosenki"
+     ],
+     "expl": "Винительный не мужско-личный = именительный.",
+     "t": "t2",
+     "opts": [
+      "piosenki",
+      "piosenek",
+      "piosenkach"
+     ]
+    },
+    {
+     "q": "Dziękuję ___ rodzicom.",
+     "a": [
+      "moim"
+     ],
+     "expl": "Дательный мн.: -im.",
+     "t": "t6",
+     "opts": [
+      "moim",
+      "moimi",
+      "moich"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Bawię się z **dzieciami**.",
+     "a": [
+      "dziećmi"
+     ],
+     "expl": "Творительный: исключение -mi.",
+     "t": "t4"
+    },
+    {
+     "q": "Byliśmy na wakacjach we **Włochach**.",
+     "a": [
+      "Włoszech"
+     ],
+     "expl": "Предложный: исключение -ech.",
+     "t": "t5"
+    },
+    {
+     "q": "Pomagam **studentami** z Ukrainy.",
+     "a": [
+      "studentom"
+     ],
+     "expl": "Дательный: -om.",
+     "t": "t3"
+    },
+    {
+     "q": "Rozmawiamy o **nowymi** filmach.",
+     "a": [
+      "nowych"
+     ],
+     "expl": "Предложный: -ych.",
+     "t": "t6"
+    },
+    {
+     "q": "W niedzielę odwiedzam moich **dziadkowie**.",
+     "a": [
+      "dziadków"
+     ],
+     "expl": "Винительный мужско-личный = родительный мн.",
+     "t": "t2"
+    },
+    {
+     "q": "Interesuję się **polskich** filmami.",
+     "a": [
+      "polskimi"
+     ],
+     "expl": "Творительный: -imi.",
+     "t": "t6"
+    },
+    {
+     "q": "Byłam z **ludziami** z pracy w kinie.",
+     "a": [
+      "ludźmi"
+     ],
+     "expl": "Творительный: исключение -mi.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Дательный мн.",
+   "instr": "Поставьте слово в дательный мн.",
+   "items": [
+    {
+     "q": "Opowiadam ___ o Polsce. (znajomi)",
+     "a": [
+      "znajomym"
+     ],
+     "expl": "Знакомые — как прилагательное: -ym.",
+     "t": "t6"
+    },
+    {
+     "q": "Kupiłam prezenty ___. (dzieci)",
+     "a": [
+      "dzieciom"
+     ],
+     "expl": "-om.",
+     "t": "t3"
+    },
+    {
+     "q": "Nauczyciel pomaga ___. (uczniowie)",
+     "a": [
+      "uczniom"
+     ],
+     "expl": "-om.",
+     "t": "t3"
+    },
+    {
+     "q": "Dziękuję ___ za pomoc. (sąsiedzi)",
+     "a": [
+      "sąsiadom"
+     ],
+     "expl": "-om.",
+     "t": "t3"
+    },
+    {
+     "q": "Życzę ___ zdrowia. (wszystkie koleżanki)",
+     "a": [
+      "wszystkim koleżankom"
+     ],
+     "expl": "-im + -om.",
+     "t": "t6"
+    },
+    {
+     "q": "Przyglądam się ___. (stare zdjęcia)",
+     "a": [
+      "starym zdjęciom"
+     ],
+     "expl": "-ym + -om.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Творительный мн.",
+   "instr": "Поставьте в творительный мн.",
+   "items": [
+    {
+     "q": "Interesuję się ___. (stare samochody)",
+     "a": [
+      "starymi samochodami"
+     ],
+     "expl": "-ymi + -ami.",
+     "t": "t6"
+    },
+    {
+     "q": "Mieszkam z ___. (moi bracia)",
+     "a": [
+      "moimi braćmi"
+     ],
+     "expl": "Исключение: braćmi.",
+     "t": "t4"
+    },
+    {
+     "q": "Kawa z ___. (ciastka)",
+     "a": [
+      "ciastkami"
+     ],
+     "expl": "-ami.",
+     "t": "t4"
+    },
+    {
+     "q": "Rozmawiałam z ___. (Niemcy — люди)",
+     "a": [
+      "Niemcami"
+     ],
+     "expl": "Беглое e: Niemiec → Niemcami.",
+     "t": "t4"
+    },
+    {
+     "q": "Zajmuję się ___. (pieniądze)",
+     "a": [
+      "pieniędzmi"
+     ],
+     "expl": "Исключение: pieniędzmi.",
+     "t": "t4"
+    },
+    {
+     "q": "Spaceruję z ___. (psy)",
+     "a": [
+      "psami"
+     ],
+     "expl": "-ami.",
+     "t": "t4"
+    },
+    {
+     "q": "Byłem na obiedzie z ___. (goście)",
+     "a": [
+      "gośćmi"
+     ],
+     "expl": "Исключение: gośćmi.",
+     "t": "t4"
+    },
+    {
+     "q": "Przed ___ jest park. (nasze domy)",
+     "a": [
+      "naszymi domami"
+     ],
+     "expl": "-ymi + -ami.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Предложный мн.",
+   "instr": "Поставьте в предложный мн.",
+   "items": [
+    {
+     "q": "Lubię robić zakupy w małych ___. (sklepy)",
+     "a": [
+      "sklepach"
+     ],
+     "expl": "-ach.",
+     "t": "t5"
+    },
+    {
+     "q": "Spędziłam miesiąc na ___. (Węgry)",
+     "a": [
+      "Węgrzech"
+     ],
+     "expl": "Исключение: na Węgrzech.",
+     "t": "t5"
+    },
+    {
+     "q": "Na ___ wiszą obrazy. (ściany)",
+     "a": [
+      "ścianach"
+     ],
+     "expl": "-ach.",
+     "t": "t5"
+    },
+    {
+     "q": "Często rozmawiamy o ___. (nasze dzieci)",
+     "a": [
+      "naszych dzieciach"
+     ],
+     "expl": "-ych + -ach.",
+     "t": "t6"
+    },
+    {
+     "q": "Jeździmy zimą na ___. (narty)",
+     "a": [
+      "nartach"
+     ],
+     "expl": "-ach.",
+     "t": "t5"
+    },
+    {
+     "q": "Marzę o ___. (dalekie podróże)",
+     "a": [
+      "dalekich podróżach"
+     ],
+     "expl": "-ich + -ach.",
+     "t": "t6"
+    },
+    {
+     "q": "W ___ jest dużo turystów. (polskie miasta)",
+     "a": [
+      "polskich miastach"
+     ],
+     "expl": "-ich + -ach.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Spotkanie po latach",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "W sobotę spotkałam się z {1} ze studiów. Rozmawialiśmy o {2} i o {3}. Ania opowiadała nam o {4}, w których pracowała we {5}. Tomek pokazywał zdjęcia ze swoimi {6}. Wszyscy dziękowaliśmy {7} za świetną organizację. Później poszliśmy do kawiarni z {8} ciastami. Obiecaliśmy sobie, że będziemy częściej pisać do siebie na {9} i odwiedzać {10}.",
+   "items": [
+    {
+     "q": "dawni koledzy",
+     "a": [
+      "dawnymi kolegami"
+     ],
+     "expl": "Z + творительный мн.",
+     "t": "t6"
+    },
+    {
+     "q": "nasze dzieci",
+     "a": [
+      "naszych dzieciach"
+     ],
+     "expl": "O + предложный мн.",
+     "t": "t6"
+    },
+    {
+     "q": "plany",
+     "a": [
+      "planach"
+     ],
+     "expl": "O + предложный мн.",
+     "t": "t5"
+    },
+    {
+     "q": "hotele",
+     "a": [
+      "hotelach"
+     ],
+     "expl": "W + предложный мн.",
+     "t": "t5"
+    },
+    {
+     "q": "Włochy",
+     "a": [
+      "Włoszech"
+     ],
+     "expl": "Исключение: we Włoszech.",
+     "t": "t5"
+    },
+    {
+     "q": "córki",
+     "a": [
+      "córkami"
+     ],
+     "expl": "Ze swoimi + творительный мн.",
+     "t": "t4"
+    },
+    {
+     "q": "organizatorzy",
+     "a": [
+      "organizatorom"
+     ],
+     "expl": "Dziękować + дательный мн.",
+     "t": "t3"
+    },
+    {
+     "q": "pyszne",
+     "a": [
+      "pysznymi"
+     ],
+     "expl": "Z + творительный мн.",
+     "t": "t6"
+    },
+    {
+     "q": "czaty",
+     "a": [
+      "czatach"
+     ],
+     "expl": "Na + предложный мн.",
+     "t": "t5"
+    },
+    {
+     "q": "nasi przyjaciele",
+     "a": [
+      "naszych przyjaciół"
+     ],
+     "expl": "Odwiedzać + винительный; мужско-личный = родительный.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите недостающие слова.",
+   "items": [
+    {
+     "q": "Moi przyjaciele i ja często chodzimy do kina. → Często chodzę do kina z ___.",
+     "a": [
+      "moimi przyjaciółmi"
+     ],
+     "expl": "Z + творительный мн.",
+     "t": "t4"
+    },
+    {
+     "q": "Zrobiłam prezenty dla moich sióstr. → Zrobiłam prezenty ___.",
+     "a": [
+      "moim siostrom"
+     ],
+     "expl": "Дательный мн. вместо dla + родительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Nasza rozmowa dotyczyła nowych projektów. → Rozmawialiśmy o ___.",
+     "a": [
+      "nowych projektach"
+     ],
+     "expl": "O + предложный мн.",
+     "t": "t6"
+    },
+    {
+     "q": "Moje dzieci dostały ode mnie książki. → Dałam książki ___.",
+     "a": [
+      "moim dzieciom"
+     ],
+     "expl": "Дательный мн.",
+     "t": "t6"
+    },
+    {
+     "q": "Znamy nowych sąsiadów — przedstawili się wczoraj. → Wczoraj poznaliśmy ___.",
+     "a": [
+      "nowych sąsiadów"
+     ],
+     "expl": "Винительный мужско-личный = родительный.",
+     "t": "t2"
+    },
+    {
+     "q": "Wakacje spędziłam w Niemczech i we Włoszech. → Byłam na wakacjach w ___ i we Włoszech.",
+     "a": [
+      "Niemczech"
+     ],
+     "expl": "Исключение -ech.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 4,
+   "kind": "write",
+   "title": "Mój weekend z bliskimi",
+   "instr": "Напишите, как вы провели выходные: с кем, кому помогали, о чём говорили, где были.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Хотя бы по одной форме дательного, творительного и предложного мн.; хотя бы одна форма на -mi (ludźmi, dziećmi, przyjaciółmi) и одна с прилагательным.",
+   "model": "W ten weekend byłam z dziećmi u rodziców. W sobotę pomagałam moim rodzicom w ogrodzie, a potem spacerowaliśmy z psami po lesie. Wieczorem spotkałam się z przyjaciółmi. Rozmawialiśmy o pracy i o letnich wakacjach. W niedzielę dzieci dały dziadkom piękne rysunki.",
+   "model_future": [
+    "dziećmi",
+    "moim rodzicom",
+    "psami",
+    "przyjaciółmi",
+    "letnich wakacjach",
+    "dziadkom"
+   ],
+   "checklist": [
+    "Дательный мн. -om (pomagam rodzicom)",
+    "Творительный мн. -ami (z psami)",
+    "Форма на -mi (z dziećmi, z przyjaciółmi)",
+    "Предложный мн. -ach (o wakacjach)",
+    "Прилагательное -ym / -ymi / -ych",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

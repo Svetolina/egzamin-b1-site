@@ -1,0 +1,1076 @@
+{
+ "topic": "mianownik-lm",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Liczba mnoga",
+ "title_ru": "Множественное число: именительный, мужско-личные формы",
+ "lead": "Studenci или studentki? Ci или te? Два рода во множественном числе и смена согласных: Polak → Polacy.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-3 — mieszkańcy, k1-4 — widzowie, k1-6 — synowie)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. a–b, s. 75–76; 2.2.3 pkt 1 lit. a, s. 77"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "L1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Во множественном числе польский различает не три рода, а два: мужчины (и смешанные группы, где есть хотя бы один мужчина) — и все остальные."
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "кто",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужско-личный (oni)",
+       "мужчины, смешанные группы",
+       "[[studenci, panowie, Polacy]]"
+      ],
+      [
+       "не мужско-личный (one)",
+       "женщины, животные, вещи",
+       "[[studentki, koty, stoły, okna]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Студенты и студентки вместе — уже [[studenci]] и [[oni]]."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Женщины, вещи, животные: -y, -i, -e, -a",
+   "facts": [
+    "L2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "основа",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "твёрдая",
+       "-y",
+       "[[kot → koty, torba → torby]]"
+      ],
+      [
+       "k, g",
+       "-i",
+       "[[książka → książki, ptak → ptaki]]"
+      ],
+      [
+       "мягкая, l, j, c, cz, sz, rz, ż",
+       "-e",
+       "[[hotel → hotele, ulica → ulice, noc → noce, pani → panie]]"
+      ],
+      [
+       "средний род",
+       "-a",
+       "[[okno → okna, zdjęcie → zdjęcia, muzeum → muzea]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "trzy książky",
+       "good": "trzy książki"
+      },
+      {
+       "bad": "dwa okno",
+       "good": "dwa okna"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Особые формы",
+   "facts": [
+    "L3"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "ед. число",
+      "мн. число"
+     ],
+     "rows": [
+      [
+       "dziecko",
+       "dzieci"
+      ],
+      [
+       "człowiek",
+       "ludzie"
+      ],
+      [
+       "brat",
+       "bracia"
+      ],
+      [
+       "rok",
+       "lata"
+      ],
+      [
+       "tydzień",
+       "tygodnie"
+      ],
+      [
+       "oko",
+       "oczy"
+      ],
+      [
+       "ręka",
+       "ręce"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Мужчины: -owie",
+   "facts": [
+    "L4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[-owie]] получают родственники, титулы, часть национальностей и фамилии:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "ед. число",
+      "мн. число"
+     ],
+     "rows": [
+      [
+       "syn",
+       "synowie"
+      ],
+      [
+       "ojciec",
+       "ojcowie"
+      ],
+      [
+       "pan",
+       "panowie"
+      ],
+      [
+       "dziadek",
+       "dziadkowie"
+      ],
+      [
+       "Serb",
+       "Serbowie"
+      ],
+      [
+       "Nowak",
+       "Nowakowie"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Мужчины: -i и -y со сменой согласной",
+   "facts": [
+    "L5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Большинство мужчин-людей меняет последнюю согласную, как в русском «друг — друзья»:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "замена",
+      "пример"
+     ],
+     "rows": [
+      [
+       "t → ci",
+       "[[student → studenci]]"
+      ],
+      [
+       "d → dzi",
+       "[[sąsiad → sąsiedzi]]"
+      ],
+      [
+       "ch → si",
+       "[[Włoch → Włosi]]"
+      ],
+      [
+       "k → cy",
+       "[[Polak → Polacy]]"
+      ],
+      [
+       "g → dzy",
+       "[[kolega → koledzy]]"
+      ],
+      [
+       "r → rzy",
+       "[[aktor → aktorzy]]"
+      ],
+      [
+       "-ec, -ca → -cy",
+       "[[Niemiec → Niemcy, kierowca → kierowcy]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "studenty",
+       "good": "studenci"
+      },
+      {
+       "bad": "Polaki",
+       "good": "Polacy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Мужчины: -e",
+   "facts": [
+    "L6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "ед. число",
+      "мн. число"
+     ],
+     "rows": [
+      [
+       "gość",
+       "goście"
+      ],
+      [
+       "przyjaciel",
+       "przyjaciele"
+      ],
+      [
+       "lekarz",
+       "lekarze"
+      ],
+      [
+       "nauczyciel",
+       "nauczyciele"
+      ],
+      [
+       "Amerykanin",
+       "Amerykanie"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Слова на [[-anin]] теряют [[-in]]: [[Amerykanin → Amerykanie]], [[Rosjanin → Rosjanie]]."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Прилагательные",
+   "facts": [
+    "L7"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "не мужско-личный",
+       "-e / -ie",
+       "[[nowe domy, polskie książki]]"
+      ],
+      [
+       "мужско-личный",
+       "-i / -y + смена",
+       "[[nowi koledzy, dobrzy lekarze, wysocy panowie]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "ед. число",
+      "мужско-личное мн."
+     ],
+     "rows": [
+      [
+       "nowy",
+       "nowi"
+      ],
+      [
+       "dobry",
+       "dobrzy"
+      ],
+      [
+       "młody",
+       "młodzi"
+      ],
+      [
+       "wysoki",
+       "wysocy"
+      ],
+      [
+       "zadowolony",
+       "zadowoleni"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "nowe koledzy",
+       "good": "nowi koledzy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Ci или te, moi или moje",
+   "facts": [
+    "L8"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "ед. число",
+      "мужско-личное",
+      "не мужско-личное"
+     ],
+     "rows": [
+      [
+       "ten",
+       "ci",
+       "te"
+      ],
+      [
+       "mój",
+       "moi",
+       "moje"
+      ],
+      [
+       "nasz",
+       "nasi",
+       "nasze"
+      ],
+      [
+       "który",
+       "którzy",
+       "które"
+      ],
+      [
+       "jaki",
+       "jacy",
+       "jakie"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Ci panowie i te panie to moi znajomi.",
+       "ru": "Эти господа и эти дамы — мои знакомые."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Винительный мн. числа — коротко",
+   "facts": [
+    "L9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Не мужско-личные: винительный = именительный ([[Mam koty. Lubię te książki.]]). Мужско-личные: винительный = родительный ([[Znam tych studentów.]])."
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Подробно — в темах «Родительный мн. числа» и «Падежи во мн. числе»."
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике 2017: [[mieszkańcy]], [[widzowie]], [[synowie]]. В письме чаще всего ошибаются в [[moi koledzy, nasi sąsiedzi, ci ludzie]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Есть ли в группе мужчина? — мужско-личный род.",
+      "Мужчины: [[-owie]] (родня, титулы), иначе [[-i / -y]] со сменой ([[t → ci, k → cy, r → rzy]]) или [[-e]].",
+      "Остальные: [[-y / -i / -e]], средний — [[-a]].",
+      "Прилагательное и [[ten, mój]] — по тому же роду: [[ci nowi]] / [[te nowe]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "To są moi ___.",
+     "a": [
+      "koledzy"
+     ],
+     "expl": "Kolega → koledzy.",
+     "t": "t5",
+     "opts": [
+      "kolegi",
+      "koledzy",
+      "kolegowie"
+     ]
+    },
+    {
+     "q": "W klasie są nowe ___.",
+     "a": [
+      "studentki"
+     ],
+     "expl": "Женщины: -i после k.",
+     "t": "t2",
+     "opts": [
+      "studentki",
+      "studentky",
+      "studentkowie"
+     ]
+    },
+    {
+     "q": "___ są dzisiaj mili.",
+     "a": [
+      "Ci panowie"
+     ],
+     "expl": "Мужчины: ci + panowie.",
+     "t": "t8",
+     "opts": [
+      "Te panowie",
+      "Ci panowie",
+      "Ci pany"
+     ]
+    },
+    {
+     "q": "Na stole leżą ___.",
+     "a": [
+      "książki"
+     ],
+     "expl": "K → -i.",
+     "t": "t2",
+     "opts": [
+      "książky",
+      "książki",
+      "książek"
+     ]
+    },
+    {
+     "q": "Moi ___ mieszkają w Gdańsku. (lekarz)",
+     "a": [
+      "lekarze"
+     ],
+     "expl": "Rz → -e.",
+     "t": "t6",
+     "opts": [
+      "lekarzy",
+      "lekarze",
+      "lekarzowie"
+     ]
+    },
+    {
+     "q": "To są ___ studenci.",
+     "a": [
+      "dobrzy"
+     ],
+     "expl": "Мужско-личное: dobry → dobrzy.",
+     "t": "t7",
+     "opts": [
+      "dobre",
+      "dobrzy",
+      "dobri"
+     ]
+    },
+    {
+     "q": "W parku bawią się ___.",
+     "a": [
+      "dzieci"
+     ],
+     "expl": "Dziecko → dzieci.",
+     "t": "t3",
+     "opts": [
+      "dziecka",
+      "dzieci",
+      "dziecki"
+     ]
+    },
+    {
+     "q": "Moi ___ to Polacy.",
+     "a": [
+      "sąsiedzi"
+     ],
+     "expl": "D → dzi.",
+     "t": "t5",
+     "opts": [
+      "sąsiady",
+      "sąsiedzi",
+      "sąsiadzi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Ci **studenty** są z Ukrainy.",
+     "a": [
+      "studenci"
+     ],
+     "expl": "T → ci.",
+     "t": "t5"
+    },
+    {
+     "q": "**Te** panowie czekają na autobus.",
+     "a": [
+      "Ci"
+     ],
+     "expl": "Мужчины — ci.",
+     "t": "t8"
+    },
+    {
+     "q": "Moi **brati** mieszkają w Polsce.",
+     "a": [
+      "bracia"
+     ],
+     "expl": "Brat → bracia.",
+     "t": "t3"
+    },
+    {
+     "q": "To są **nowe** lekarze.",
+     "a": [
+      "nowi"
+     ],
+     "expl": "Мужско-личное: nowi.",
+     "t": "t7"
+    },
+    {
+     "q": "**Polaki** lubią pierogi.",
+     "a": [
+      "Polacy"
+     ],
+     "expl": "K → cy.",
+     "t": "t5"
+    },
+    {
+     "q": "To są bardzo mili **człowieki**.",
+     "a": [
+      "ludzie"
+     ],
+     "expl": "Człowiek → ludzie.",
+     "t": "t3"
+    },
+    {
+     "q": "Moje **koledze** są wysocy.",
+     "a": [
+      "koledzy"
+     ],
+     "expl": "G → dzy.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Не мужско-личные",
+   "instr": "Поставьте слово во множественное число.",
+   "items": [
+    {
+     "q": "Mam dwie ___. (siostra)",
+     "a": [
+      "siostry"
+     ],
+     "expl": "Твёрдая → -y.",
+     "t": "t2"
+    },
+    {
+     "q": "W pokoju są trzy ___. (okno)",
+     "a": [
+      "okna"
+     ],
+     "expl": "Средний → -a.",
+     "t": "t2"
+    },
+    {
+     "q": "W tym mieście są ładne ___. (ulica)",
+     "a": [
+      "ulice"
+     ],
+     "expl": "C → -e.",
+     "t": "t2"
+    },
+    {
+     "q": "Te ___ są drogie. (hotel)",
+     "a": [
+      "hotele"
+     ],
+     "expl": "L → -e.",
+     "t": "t2"
+    },
+    {
+     "q": "Moje ___ są małe. (dziecko)",
+     "a": [
+      "dzieci"
+     ],
+     "expl": "Особая форма.",
+     "t": "t3"
+    },
+    {
+     "q": "Gdzie są moje ___? (klucz)",
+     "a": [
+      "klucze"
+     ],
+     "expl": "Cz → -e.",
+     "t": "t2"
+    },
+    {
+     "q": "Na stole stoją ___. (kubek)",
+     "a": [
+      "kubki"
+     ],
+     "expl": "K → -i; беглое e.",
+     "t": "t2"
+    },
+    {
+     "q": "To były piękne ___. (rok → мн.)",
+     "a": [
+      "lata"
+     ],
+     "expl": "Rok → lata.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Мужско-личные",
+   "instr": "Поставьте слово во множественное число.",
+   "items": [
+    {
+     "q": "Ci ___ są z Polski. (turysta)",
+     "a": [
+      "turyści"
+     ],
+     "expl": "St → ści.",
+     "t": "t5"
+    },
+    {
+     "q": "Moi ___ są lekarzami. (syn)",
+     "a": [
+      "synowie"
+     ],
+     "expl": "Родство: -owie.",
+     "t": "t4"
+    },
+    {
+     "q": "___ grają w piłkę. (chłopiec)",
+     "a": [
+      "Chłopcy"
+     ],
+     "expl": "-ec → -cy.",
+     "t": "t5"
+    },
+    {
+     "q": "Nasi ___ przyjechali wczoraj. (gość)",
+     "a": [
+      "goście"
+     ],
+     "expl": "Мягкая → -e.",
+     "t": "t6"
+    },
+    {
+     "q": "Ci ___ są bardzo znani. (aktor)",
+     "a": [
+      "aktorzy"
+     ],
+     "expl": "R → rzy.",
+     "t": "t5"
+    },
+    {
+     "q": "Wszyscy ___ są dziś w szkole. (nauczyciel)",
+     "a": [
+      "nauczyciele"
+     ],
+     "expl": "L → -e.",
+     "t": "t6"
+    },
+    {
+     "q": "Moi ___ mieszkają na wsi. (dziadek)",
+     "a": [
+      "dziadkowie"
+     ],
+     "expl": "Родство: -owie.",
+     "t": "t4"
+    },
+    {
+     "q": "___ i Czesi to sąsiedzi. (Słowak)",
+     "a": [
+      "Słowacy"
+     ],
+     "expl": "K → cy.",
+     "t": "t5"
+    },
+    {
+     "q": "W naszym biurze pracują ___. (Francuz)",
+     "a": [
+      "Francuzi"
+     ],
+     "expl": "Z → zi.",
+     "t": "t5"
+    },
+    {
+     "q": "Ci ___ jeżdżą bardzo szybko. (kierowca)",
+     "a": [
+      "kierowcy"
+     ],
+     "expl": "-ca → -cy.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте во множественное число обе части.",
+   "items": [
+    {
+     "q": "To są ___. (mój dobry kolega)",
+     "a": [
+      "moi dobrzy koledzy"
+     ],
+     "expl": "Мужско-личное: moi + dobrzy + koledzy.",
+     "t": "t7"
+    },
+    {
+     "q": "To są ___. (moja dobra koleżanka)",
+     "a": [
+      "moje dobre koleżanki"
+     ],
+     "expl": "Не мужско-личное: -e.",
+     "t": "t7"
+    },
+    {
+     "q": "___ mieszkają obok. (ten miły sąsiad)",
+     "a": [
+      "Ci mili sąsiedzi"
+     ],
+     "expl": "Ci + mili + sąsiedzi.",
+     "t": "t7"
+    },
+    {
+     "q": "___ leżą na stole. (ten nowy telefon)",
+     "a": [
+      "Te nowe telefony"
+     ],
+     "expl": "Вещи: te + nowe.",
+     "t": "t7"
+    },
+    {
+     "q": "___ są w kinie. (nasz młody student)",
+     "a": [
+      "Nasi młodzi studenci"
+     ],
+     "expl": "Nasi + młodzi + studenci.",
+     "t": "t7"
+    },
+    {
+     "q": "To byli ___. (bardzo zadowolony klient)",
+     "a": [
+      "bardzo zadowoleni klienci"
+     ],
+     "expl": "-ony → -eni.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Moja grupa na kursie",
+   "instr": "Как на экзамене: поставьте слова в скобках во множественное число.",
+   "passage": "W mojej grupie są {1} z różnych krajów. Są dwie {2} z Ukrainy, trzej {3} i jeden Turek. {4} są bardzo pracowici. Nasi {5} są wymagający, ale {6}. Na lekcjach czytamy {7} i oglądamy polskie {8}. Po zajęciach często idziemy na kawę, bo {9} na kursie to też moi {10}.",
+   "items": [
+    {
+     "q": "student",
+     "a": [
+      "studenci"
+     ],
+     "expl": "Мужско-личное (группа смешанная): studenci.",
+     "t": "t5"
+    },
+    {
+     "q": "dziewczyna",
+     "a": [
+      "dziewczyny"
+     ],
+     "expl": "Женщины: -y.",
+     "t": "t2"
+    },
+    {
+     "q": "Włoch",
+     "a": [
+      "Włosi"
+     ],
+     "expl": "Ch → si.",
+     "t": "t5"
+    },
+    {
+     "q": "Mój kolega",
+     "a": [
+      "Moi koledzy"
+     ],
+     "expl": "Moi + koledzy (g → dzy).",
+     "t": "t8"
+    },
+    {
+     "q": "nauczyciel",
+     "a": [
+      "nauczyciele"
+     ],
+     "expl": "L → -e.",
+     "t": "t6"
+    },
+    {
+     "q": "miły",
+     "a": [
+      "mili"
+     ],
+     "expl": "Мужско-личное прилагательное.",
+     "t": "t7"
+    },
+    {
+     "q": "gazeta",
+     "a": [
+      "gazety"
+     ],
+     "expl": "Твёрдая → -y.",
+     "t": "t2"
+    },
+    {
+     "q": "film",
+     "a": [
+      "filmy"
+     ],
+     "expl": "Неличное → -y.",
+     "t": "t2"
+    },
+    {
+     "q": "człowiek",
+     "a": [
+      "ludzie"
+     ],
+     "expl": "Особая форма.",
+     "t": "t3"
+    },
+    {
+     "q": "przyjaciel",
+     "a": [
+      "przyjaciele"
+     ],
+     "expl": "L → -e.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Перепишите во множественном числе — впишите одно слово.",
+   "items": [
+    {
+     "q": "Ten pan jest zmęczony. → Ci panowie są ___.",
+     "a": [
+      "zmęczeni"
+     ],
+     "expl": "-ony → -eni.",
+     "t": "t7"
+    },
+    {
+     "q": "Mój brat jest wysoki. → Moi bracia są ___.",
+     "a": [
+      "wysocy"
+     ],
+     "expl": "K → cy.",
+     "t": "t7"
+    },
+    {
+     "q": "Ta pani jest miła. → Te panie są ___.",
+     "a": [
+      "miłe"
+     ],
+     "expl": "Не мужско-личное: -e.",
+     "t": "t7"
+    },
+    {
+     "q": "Mój kolega jest Niemcem. → Moi koledzy to ___.",
+     "a": [
+      "Niemcy"
+     ],
+     "expl": "Niemiec → Niemcy (после to — именительный).",
+     "t": "t5"
+    },
+    {
+     "q": "Ten student jest dobry. → Ci studenci są ___.",
+     "a": [
+      "dobrzy"
+     ],
+     "expl": "R → rzy.",
+     "t": "t7"
+    },
+    {
+     "q": "To jest mój syn. → To są moi ___.",
+     "a": [
+      "synowie"
+     ],
+     "expl": "-owie.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 4,
+   "kind": "write",
+   "title": "Moi znajomi",
+   "instr": "Опишите свою компанию друзей или коллег: кто они, откуда, какие они.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм мн. числа: хотя бы 4 мужско-личные (moi koledzy, studenci…), 2 не мужско-личные, прилагательные в обоих родах.",
+   "model": "Moi najlepsi przyjaciele to Polacy i Ukraińcy. Marek i Tomek są informatykami, a ich żony to nauczycielki. Wszyscy są bardzo mili i zabawni. Nasze dzieci chodzą do jednej szkoły. W weekendy razem gotujemy, a nasi mężowie robią grilla. Moje koleżanki z pracy też są wesołe.",
+   "model_future": [
+    "najlepsi przyjaciele",
+    "Polacy",
+    "Ukraińcy",
+    "nauczycielki",
+    "mili",
+    "zabawni",
+    "dzieci",
+    "nasi mężowie",
+    "koleżanki",
+    "wesołe"
+   ],
+   "checklist": [
+    "Мужско-личные существительные (przyjaciele, Polacy…)",
+    "Мужско-личные прилагательные (mili, najlepsi…)",
+    "Moi / nasi / ci — для мужчин",
+    "Не мужско-личные (nauczycielki, koleżanki, dzieci)",
+    "Прилагательные на -e для не мужско-личных",
+    "Особые формы (dzieci, ludzie, bracia)",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

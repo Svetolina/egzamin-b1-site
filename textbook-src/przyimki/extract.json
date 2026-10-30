@@ -1,0 +1,587 @@
+{
+ "topic": "przyimki",
+ "title": "Przyimki — предлоги и падежи",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.3 Składnia, pkt 1 «funkcje przypadków» — dopełniacz z przyimkiem (Dostał koszulę z bawełny… Wracają z Krakowa do Warszawy. Apteka jest obok szpitala. Jestem bez pracy.), s. 77; biernik z przyimkiem (pyta o cenę… czeka na samolot; Zapraszam was na siódmą na kolację na Stare Miasto… Rodzice przyjadą do nas na miesiąc.), narzędnik z przyimkiem (Sklep znajduje się za tamtym rogiem. Napisali to oficjalne pismo przed kolacją. Przyjdziemy między siódmą a ósmą.), miejscownik z przyimkiem (Przemek mieszka w Warszawie przy ulicy Pięknej na pierwszym piętrze. Spotkajmy się na placu Litewskim przy pomniku. Teraz oni spacerują po lesie.), s. 78. На A2 (Część II, D, s. 67–68) — те же предлоги с более простыми примерами (Byłyśmy nad morzem. Parking jest za sklepem. Mieszkam w Polsce. O której godzinie będzie obiad? Spotkajmy się około piątej.).",
+  "level": "B1 — сводная тема блока 2: какой падеж после какого предлога, предлоги с двумя падежами (w, na, o, po, nad, pod, przed, za, między, z), «где? — куда? — откуда?», предлоги времени.",
+  "katalog_b": [
+   "7.2 Dom, mieszkanie, otoczenie, pkt 2 położenie mieszkania / domu (s. 84)",
+   "7.5 Podróże (s. 85)",
+   "7.3 Życie codzienne, pkt 3 określenia czasu (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2 Pojęcia ogólne, pkt 3 wyrażanie relacji w przestrzeni (miejsce i kierunek) (s. 84)",
+   "6.2 pkt 4 wyrażanie relacji czasowych (s. 84)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka, блок 1 k1-1 — почти весь текст на предлоги с двумя падежами: podróżujemy po Europie, czekamy na wakacje, wyjechać za granicę, jeździmy nad morze — jesteśmy nad morzem, wybieramy się w góry, podziwiać ze szczytów; блок 2 k2-1 — местоимения после предлогов (o niej, na nią, z nią); блок 1 k1-5 — z roweru / rowerem, w czerwcu. В письме — почти каждое предложение с предлогом места или времени.",
+  "depends_on": [
+   "biernik",
+   "dopelniacz"
+  ],
+  "feeds": [
+   "блок 3: narzędnik и miejscownik (окончания)",
+   "czasowniki-ruchu (iść do / na, wrócić z)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: s. 40 (dopełniacz — po przyimkach), s. 69 («Biernika używamy… b) po przyimkach: o, w, przez, na, po, nad, ponad, pod, przed, za, między»), s. 87 («Narzędnika używamy… f) po przyimkach: z, ponad, nad, pod, przed, za, między»), s. 104 («Miejscownika używamy: a) po przyimkach: o, w, na, po, przy; b) po czasownikach…»), s. 105 (таблица «Dokąd? — Gdzie?»: do + dopełniacz ↔ w + miejscownik; na + biernik ↔ na + miejscownik), s. 39 (od poniedziałku do piątku)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 4, s. 81 (po 13.04. – po trzynastym kwietnia); lekcja 6, s. 114 (idę na pocztę; dorobić klucze u ślusarza; idę do zegarmistrza), s. 120 (после предлогов — формы ciebie, niego…), s. 121 (рамка: o / w / po / na + BIERNIK или MIEJSCOWNIK; przez + BIERNIK; między / nad / pod / ponad / poza / przed / za + BIERNIK или NARZĘDNIK); lekcja 8, s. 157 (z / za / przed / nad / pod / między + NARZĘDNIK); lekcja 9, s. 174 («Miejscownik zawsze występuje z przyimkiem»: na, w, przy, po, o), s. 175 (być w (na), podróżować po, myśleć o, siedzieć przy)",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Przy imieniu stoi, nikogo się nie boi» (przyimek): «Przyimek się nie odmienia. Rządzi przypadkiem rzeczownika» — https://zpe.gov.pl/a/Dh60ybRaW",
+  "COLA": "Colanguage, «Przyimki miejsca z biernikiem i dopełniaczem» (Idę do domu / Wracam z domu; Idę na pocztę / Wracam z poczty; Jedziemy w góry / Wracamy z gór): https://app.colanguage.com/polish/grammar/przyimki-miejsca-z-biernikiem-i-dopelniaczem",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka: blok 1 (k1-1, k1-5), blok 2 (k2-1) — ключ внесён в tests/b1-sbornik.js сайта",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "P1",
+   "ru": "Предлог не изменяется и требует определённого падежа. Часть предлогов употребляется с двумя падежами — и тогда падеж меняет смысл (где? / куда?, о чём? / о что-то просить).",
+   "pl": [
+    "Jestem w sklepie. Idę na pocztę. Czekam przed domem."
+   ],
+   "refs": [
+    "ZPE («Przyimek się nie odmienia. Rządzi przypadkiem rzeczownika»)",
+    "JPBG9 s. 121 (рамка: одни предлоги + BIERNIK или MIEJSCOWNIK, другие + BIERNIK или NARZĘDNIK)",
+    "PP s. 40, 69, 87, 104 (списки предлогов при каждом падеже)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P2",
+   "ru": "Только родительный: do, od, z (откуда, из чего), bez, dla, u, obok, koło, około, podczas, według, zamiast, oprócz.",
+   "pl": [
+    "Idę do pracy bez parasola."
+   ],
+   "refs": [
+    "PP s. 40 (h: do, od, dla, u, z, bez, obok, koło, dookoła, wokół, według, podczas, oprócz, zamiast…)",
+    "STD B1 s. 77 (z Krakowa do Warszawy; obok szpitala; bez pracy; dla kariery)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P3",
+   "ru": "Только предложный (miejscownik): przy — «у, возле, при»: przy stole, przy ulicy Długiej. Предложный вообще бывает только с предлогом: w, na, o, po, przy.",
+   "pl": [
+    "Mieszkam przy ulicy Długiej. Siedzimy przy stole."
+   ],
+   "refs": [
+    "PP s. 104 («Miejscownika używamy: a) po przyimkach: o, w, na, po, przy»)",
+    "JPBG9 s. 174 («Miejscownik zawsze występuje z przyimkiem»: na, w, przy, po, o), s. 175 (siedzieć przy)",
+    "STD B1 s. 78 (przy ulicy Pięknej; przy pomniku)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P4",
+   "ru": "Только винительный: przez — «через» (przez ulicę, przez park) и «по» о средстве связи (przez telefon, przez internet).",
+   "pl": [
+    "Idź przez park. Rozmawiamy przez telefon."
+   ],
+   "refs": [
+    "PP s. 69 (b: przez; mówić przez sen)",
+    "JPBG9 s. 121 (рамка: przez + BIERNIK)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P5",
+   "ru": "Где? — w / na + предложный. Куда? — если «где» с w, то «куда» с do + родительный (w sklepie → do sklepu, w Krakowie → do Krakowa); если «где» с na, то «куда» с na + винительный (na poczcie → na pocztę, na koncercie → na koncert, na dworcu → na dworzec).",
+   "pl": [
+    "Jestem w sklepie. Idę do sklepu.",
+    "Jestem na poczcie. Idę na pocztę."
+   ],
+   "refs": [
+    "PP s. 105 (таблица: «Jadę do + dopełniacz — Jestem w + miejscownik»; «Idę na + biernik — Jestem na + miejscownik»)",
+    "COLA (Idę do domu; Idę na pocztę)",
+    "JPBG9 s. 114 (Gdy chcę wysłać paczkę, idę na pocztę.)",
+    "STD B1 s. 78 (mieszka w Warszawie… na pierwszym piętrze; na placu Litewskim; zapraszam was na kolację na Stare Miasto)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P6",
+   "ru": "С na обычно открытые места, события и некоторые учреждения: na rynek, na plażę, na stadion, na dworzec, na pocztę, na uniwersytet; на мероприятия: na koncert, na mecz, na spacer, na kawę. С w / do — здания, города, страны: do kina, do szkoły, do Polski.",
+   "pl": [
+    "Idę do kina na film. Jadę na dworzec."
+   ],
+   "refs": [
+    "PP s. 105 (группы «budynek, park, las» → do / w; «otwarty teren» и «akcja» → na; сноска: uniwersytet, dworzec, poczta — na)",
+    "COLA (Idę na pocztę; Idę do domu)",
+    "JPBG9 s. 114 (idę na pocztę)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P7",
+   "ru": "Особые «куда?»: в горы — w góry (в горах — w górach); на море, к реке, к озеру — nad morze, nad jezioro (у моря — nad morzem); за границу — za granicę (за границей — za granicą).",
+   "pl": [
+    "W lipcu jedziemy nad morze, a w sierpniu w góry."
+   ],
+   "refs": [
+    "PP s. 69 (jechać nad rzekę, jechać za miasto)",
+    "COLA (Jedziemy w góry / Wracamy z gór)",
+    "KEY k1-1 (wyjechać za granicę; jeździmy nad morze; jesteśmy nad morzem; wybieramy się w góry)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P8",
+   "ru": "Откуда? — z + родительный и для мест с w, и для мест с na: z pracy, ze sklepu, z Krakowa, z poczty, z koncertu, z gór.",
+   "pl": [
+    "Wracam z pracy. Wracam z poczty."
+   ],
+   "refs": [
+    "COLA (Wracam z domu; Wracam z poczty; Wracamy z gór)",
+    "STD B1 s. 77 (Wracają z Krakowa do Warszawy.)",
+    "PP s. 40 (h: z + dopełniacz)",
+    "KEY k1-1 (podziwiać ze szczytów)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P9",
+   "ru": "Люди: к кому — do + родительный (do lekarza), у кого — u + родительный (u lekarza, u babci), от кого — od + родительный (od lekarza, od mamy).",
+   "pl": [
+    "Idę do fryzjera. Byłam u fryzjera. Mam list od mamy."
+   ],
+   "refs": [
+    "PP s. 40 (h: do, od, u + dopełniacz)",
+    "JPBG9 s. 114 (Muszę je dorobić u ślusarza; idę do zegarmistrza; skróciłam u krawcowej)",
+    "STD A2 s. 68 (Piotr mieszka u mnie.)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P10",
+   "ru": "O: «о чём / о ком» — предложный (mówić o filmie, myśleć o wakacjach); после prosić, pytać, martwić się, dbać — винительный (prosić o rachunek, pytać o drogę, martwić się o syna).",
+   "pl": [
+    "Rozmawiamy o pracy. Proszę o rachunek."
+   ],
+   "refs": [
+    "PP s. 104 (b: myśleć, mówić, rozmawiać, marzyć o czymś — miejscownik), s. 69 (b: pytać o drogę, prosić o bilet, dbać o wygląd, martwić się o zdrowie — biernik)",
+    "JPBG9 s. 121 (o + BIERNIK или MIEJSCOWNIK)",
+    "STD B1 s. 78 (pyta o cenę; poprosiła o szklankę wody — biernik; rozmawiali długo o tym wykładzie — miejscownik)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P11",
+   "ru": "Po: «по чему» и «после чего» — предложный (spacerować po parku, po lekcji); «сходить за чем-то» — винительный (iść po chleb, przyjechać po dziecko).",
+   "pl": [
+    "Spacerujemy po parku. Po pracy idę po chleb."
+   ],
+   "refs": [
+    "PP s. 104 (b: podróżować po czymś), s. 69 (b: iść po chleb)",
+    "JPBG9 s. 121 (po + BIERNIK или MIEJSCOWNIK), s. 81 (po 13.04. – po trzynastym kwietnia)",
+    "STD B1 s. 78 (spacerują po lesie; Po studiach kierował biurem)",
+    "KEY k1-1 (podróżujemy po Europie)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P12",
+   "ru": "Nad, pod, przed, za, między: где? — творительный (nad morzem, pod stołem, przed domem, za rogiem); куда? — винительный (nad morze, pod stół, przed dom).",
+   "pl": [
+    "Kot jest pod stołem. Kot wszedł pod stół."
+   ],
+   "refs": [
+    "PP s. 87 (f: po przyimkach nad, pod, przed, za, między — narzędnik), s. 69 (b: jechać nad rzekę, jechać za miasto, wyjść przed dom, wjechać między drzewa — biernik)",
+    "JPBG9 s. 121 (między / nad / pod / ponad / poza / przed / za + BIERNIK или NARZĘDNIK), s. 157 (z / za / przed / nad / pod / między + NARZĘDNIK)",
+    "STD B1 s. 78 (za tamtym rogiem); A2 (Byłyśmy nad morzem. Parking jest za sklepem.)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P13",
+   "ru": "Z: «откуда, из чего» — родительный (z pracy, sok z jabłek); «вместе с, с чем» — творительный (z bratem, kawa z mlekiem).",
+   "pl": [
+    "Wracam z pracy z koleżanką."
+   ],
+   "refs": [
+    "STD B1 s. 77 (z Krakowa, koszulę z bawełny — dopełniacz), s. 78 (dwie kawy z mlekiem — narzędnik)",
+    "PP s. 40 (h: z + dopełniacz), s. 87 (f: z + narzędnik)",
+    "JPBG9 s. 157 (z + NARZĘDNIK)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P14",
+   "ru": "Время: w + винительный — день недели (w sobotę); za + винительный — «через» (za godzinę); na + винительный — «на какой срок» (na miesiąc); przed + творительный — «перед, до» (przed kolacją); po + предложный — «после» (po lekcji); od… do… + родительный (od poniedziałku do piątku); o + предложный — час (o piątej); między + творительный (między siódmą a ósmą).",
+   "pl": [
+    "Wrócę za godzinę. Przyjdź przed kolacją. Po lekcji idę do domu."
+   ],
+   "refs": [
+    "PP s. 69 (b: w sobotę; wrócić za godzinę), s. 39 (od poniedziałku do piątku)",
+    "STD B1 s. 78 (przed kolacją; między siódmą a ósmą; przyjadą do nas na miesiąc); A2 s. 67–68 (O której godzinie będzie obiad? Zrobimy to przed lekcjami. Spotkajmy się około piątej.)",
+    "JPBG9 s. 81 (po 13.04. – po trzynastym kwietnia)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "P15",
+   "ru": "После предлога у местоимений он, она, оно, они — форма с n-: do niego, z nim, o niej, na nią, dla nich; у ja, ty — длинная форма: do mnie, dla ciebie, o tobie.",
+   "pl": [
+    "Myślę o niej. Idę z nim do kina."
+   ],
+   "refs": [
+    "JPBG9 s. 120 («Po przyimkach zawsze używa się formy dłuższej (ciebie) albo formy z n- (niego, nią, nie)»)",
+    "PP s. 40 (таблица: niego, niej, nich)",
+    "KEY k2-1 (myśli o niej, czeka na nią, rozmawia z nią)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "Правило «ze / we» (ze szkoły, we wtorek, ze mną) в учебниках проекта явно не сформулировано, найденные внешние страницы (UW Poradnik, ZPE) правила не дают — в теорию не включено; в упражнениях ответы с ze/we не требуются.",
+  "Дательный с предлогами (dzięki, wbrew, przeciw) по стандарту — B2 (Część II, F) — в тему не включён.",
+  "Сборник k1-1 — лучший образец «двухпадежных» предлогов в формате экзамена (po Europie, na wakacje, za granicę, nad morze / nad morzem, w góry).",
+  "Окончания творительного и предложного падежей подробно будут в блоке 3; здесь — только выбор падежа и частые слова."
+ ],
+ "forms": [
+  {
+   "form": "sklepu",
+   "kind": "przyp",
+   "lemma": "sklep",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "Krakowa",
+   "kind": "przyp",
+   "lemma": "Kraków",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "pocztę",
+   "kind": "przyp",
+   "lemma": "poczta",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "koncert",
+   "kind": "przyp",
+   "lemma": "koncert",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "dworzec",
+   "kind": "przyp",
+   "lemma": "dworzec",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "poczcie",
+   "kind": "przyp",
+   "lemma": "poczta",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "sklepie",
+   "kind": "przyp",
+   "lemma": "sklep",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "Krakowie",
+   "kind": "przyp",
+   "lemma": "Kraków",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "koncercie",
+   "kind": "przyp",
+   "lemma": "koncert",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "dworcu",
+   "kind": "przyp",
+   "lemma": "dworzec",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "stole",
+   "kind": "przyp",
+   "lemma": "stół",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "ulicy",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "ulicę",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "góry",
+   "kind": "przyp",
+   "lemma": "góra",
+   "case": "acc",
+   "n": "pl"
+  },
+  {
+   "form": "górach",
+   "kind": "przyp",
+   "lemma": "góra",
+   "case": "loc",
+   "n": "pl"
+  },
+  {
+   "form": "gór",
+   "kind": "przyp",
+   "lemma": "góra",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "morze",
+   "kind": "przyp",
+   "lemma": "morze",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "morzem",
+   "kind": "przyp",
+   "lemma": "morze",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "granicę",
+   "kind": "przyp",
+   "lemma": "granica",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "granicą",
+   "kind": "przyp",
+   "lemma": "granica",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "pracy",
+   "kind": "przyp",
+   "lemma": "praca",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "poczty",
+   "kind": "przyp",
+   "lemma": "poczta",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "lekarza",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "babci",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "mamy",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "filmie",
+   "kind": "przyp",
+   "lemma": "film",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "rachunek",
+   "kind": "przyp",
+   "lemma": "rachunek",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "drogę",
+   "kind": "przyp",
+   "lemma": "droga",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "parku",
+   "kind": "przyp",
+   "lemma": "park",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "lekcji",
+   "kind": "przyp",
+   "lemma": "lekcja",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "chleb",
+   "kind": "przyp",
+   "lemma": "chleb",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "stołem",
+   "kind": "przyp",
+   "lemma": "stół",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "stół",
+   "kind": "przyp",
+   "lemma": "stół",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "domem",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "dom",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "rogiem",
+   "kind": "przyp",
+   "lemma": "róg",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "bratem",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "mlekiem",
+   "kind": "przyp",
+   "lemma": "mleko",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "sobotę",
+   "kind": "przyp",
+   "lemma": "sobota",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "godzinę",
+   "kind": "przyp",
+   "lemma": "godzina",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "miesiąc",
+   "kind": "przyp",
+   "lemma": "miesiąc",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "kolacją",
+   "kind": "przyp",
+   "lemma": "kolacja",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "niego",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "inst",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "loc",
+   "n": "sg"
+  },
+  {
+   "form": "nią",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "acc",
+   "n": "sg"
+  },
+  {
+   "form": "nich",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "gen",
+   "n": "sg"
+  },
+  {
+   "form": "tobie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "loc",
+   "n": "sg"
+  }
+ ]
+}

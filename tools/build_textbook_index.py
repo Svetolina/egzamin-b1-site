@@ -15,7 +15,8 @@ root = os.path.join(here, "..", "textbook-src")
 # порядок тем в разделе «Грамматика»; новые папки, которых тут нет, встают в конец
 ORDER = [
     "czas-przyszly", "czas-terazniejszy", "czas-przeszly", "aspekt",
-    "biernik",
+    "biernik", "dopelniacz", "przyimki",
+    "narzednik", "miejscownik", "celownik", "wolacz", "mianownik-lm", "dopelniacz-lm", "przypadki-lm", "zaimki-osobowe",
     "tryb-rozkazujacy", "tryb-przypuszczajacy", "czasowniki-ruchu",
     "dopelniacz-po-negacji", "liczebniki-z-rzeczownikami",
     "zdania-ktory", "zeby-aby", "spojniki-przyczyna-przyzwolenie",

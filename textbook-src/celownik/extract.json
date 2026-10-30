@@ -1,0 +1,514 @@
+{
+ "topic": "celownik",
+ "title": "Celownik — дательный падеж (ед. число)",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 «deklinacja» (s. 75–76); 2.2.3 Składnia, pkt 1 lit. c «celownik: jako określenie czasownika (Ten film o Polsce podobał mi się bardzo. Dał matce kwiaty i drobny upominek.)», s. 78. На A2 (s. 68) — то же (Film podoba mi się bardzo. Czy jest ci zimno? Dziękuję państwu.). Дательный с предлогами (wbrew, przeciw) — B2 (Część II, F), кроме частого dzięki (есть в сборнике B1).",
+  "level": "B1 — окончания ед. числа (-owi / -u у мужских, -e / -i / -y у женских, -u у средних), прилагательные, местоимения (короткие и длинные), podoba mi się, dzięki. Мн. число (-om) — блок 4.",
+  "katalog_b": [
+   "7.1 Człowiek, pkt 7–9 rodzina, relacje (s. 84)",
+   "7.10 Zakupy — prezenty (s. 85)"
+  ],
+  "katalog_a": [
+   "6.1 pkt 6 wyrażanie uczuć: lit. a sympatia i antypatia (podoba mi się), lit. c wyrażanie życzenia (s. 83)",
+   "6.1 pkt 7 lit. f oferowanie zrobienia czegoś (pomogę ci) (s. 83)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka: k1-6 (pomagać bratu), k1-7 (życzyć Markowi, siostrze), k1-4 (dzięki filmowi), k1-5 (dzięki sportowi), k11-6 (dzięki komputerowi), k3-1 (być jej wdzięczna), k2-1 (przynosi jej róże). В письме — podziękowanie, życzenia, list do przyjaciela.",
+  "depends_on": [
+   "miejscownik (женские формы совпадают)",
+   "biernik"
+  ],
+  "feeds": [
+   "блок 4: дательный мн. число",
+   "podziękowanie, życzenia (письмо)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020, «Celownik liczby pojedynczej», s. 52–57 (s. 54 — окончания и исключения на -u, s. 56 — прилагательные, местоимения, употребление)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6, s. 120 (короткие и длинные формы местоимений)",
+  "NCK": "Narodowe Centrum Kultury, «Ojczysty — dodaj do ulubionych», ciekawostki językowe: «Celownik»: https://nck.pl/projekty-kulturalne/projekty/ojczysty-dodaj-do-ulubionych/ciekawostki-jezykowe/celownik.ajax",
+  "MOWIC": "Mówić po polsku, «Polish Cases: The Dative (celownik)»: https://mowicpopolsku.com/polish-grammar/cases/dative",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-4, k1-5, k1-6, k1-7), blok 2 (k2-1), blok 3 (k3-1), blok 11 (k11-6)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "C1",
+   "ru": "Дательный (celownik, komu? czemu?) — кому что-то дают, говорят, показывают, помогают: dać, kupić, pokazać, powiedzieć, pożyczyć, pomagać, dziękować, wierzyć, ufać, gratulować, życzyć.",
+   "pl": [
+    "Daję mamie kwiaty. Pomagam bratu. Dziękuję pani."
+   ],
+   "refs": [
+    "PP s. 56 («Celownika używamy: a) po czasownikach: odpowiadać, podobać się, smakować, przyglądać się, służyć, wierzyć, ufać, dziękować, przeszkadzać, pomagać, dawać, kupować, mówić, opowiadać… gratulować, życzyć»)",
+    "MOWIC (dawać / dać, pożyczyć, odpowiadać, opowiadać, gratulować, dziękować, pomagać, podobać się, smakować, wierzyć)",
+    "STD B1 2.2.3 pkt 1 lit. c, s. 78 («Dał matce kwiaty i drobny upominek.»)",
+    "KEY k1-6 (muszę więcej pomagać bratu), k1-7 (życzyć Markowi, siostrze)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C2",
+   "ru": "Мужской род на согласную: обычно -owi: student → studentowi, lekarz → lekarzowi, komputer → komputerowi, Marek → Markowi.",
+   "pl": [
+    "Pomagam sąsiadowi. Dziękuję lekarzowi."
+   ],
+   "refs": [
+    "PP s. 54 (таблица: -owi — formy regularne: studentowi, profesorowi, gościowi, uczniowi)",
+    "NCK («Rzeczowniki męskie zakończone na spółgłoskę niemal zawsze mają w celowniku końcówkę -owi»)",
+    "MOWIC (lekarzowi)",
+    "ZPE (C. uczniowi)",
+    "KEY k11-6 (komputerowi), k1-7 (Markowi), k1-5 (sportowi)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C3",
+   "ru": "Небольшая группа мужских слов на -u — их надо запомнить: pan → panu, brat → bratu, ojciec → ojcu, chłopiec → chłopcu, kot → kotu, pies → psu, Bóg → Bogu, ksiądz → księdzu, świat → światu.",
+   "pl": [
+    "Kupiłam bratu książkę. Daj psu wody."
+   ],
+   "refs": [
+    "PP s. 54 («-u — wyjątki do zapamiętania: Bóg, ksiądz, pan, brat, kot, świat, ojciec, chłopiec, diabeł, pies, lew»)",
+    "NCK (panu, Bogu, bratu, chłopcu, diabłu, kotu i psu, lwu)",
+    "MOWIC (bratu, panu, księdzu, psu)",
+    "KEY k1-6 (pomagać bratu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C4",
+   "ru": "Женский род и мужские на -a — те же формы, что в предложном: -e со сменой согласной (mama → mamie, Polska → Polsce, koleżanka → koleżance, siostra → siostrze, tata → tacie, kolega → koledze), -i (babcia → babci, pani → pani, Ola → Oli), -y (praca → pracy).",
+   "pl": [
+    "Kupiłem mamie kwiaty. Powiedz babci prawdę."
+   ],
+   "refs": [
+    "PP s. 54 (rodzaj żeński (i słowa rodzaju męskiego zakończone na -a): -e po twardych (osobie, mamie, Polsce), -y po stwardniałych (młodzieży, pracy), -i po miękkich i -l (Eli, cioci, babci, miłości))",
+    "MOWIC (koleżance, szkole, drodze; pracy, nocy, myśli)",
+    "ZPE (C. żonie = Ms. żonie)",
+    "KEY k1-7 (siostrze)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C5",
+   "ru": "Средний род: -u: dziecko → dziecku, okno → oknu, miasto → miastu; imię → imieniu.",
+   "pl": [
+    "Daj dziecku jabłko."
+   ],
+   "refs": [
+    "PP s. 54 (rodzaj nijaki -u: dziecku, oku, uchu, oknu, miastu, państwu)",
+    "MOWIC (sercu, oknu; imię → imieniu)",
+    "ZPE (C. oknu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C6",
+   "ru": "Прилагательные и определения: муж. и ср. -emu, жен. -ej: dobremu przyjacielowi, małemu dziecku, dobrej koleżance; ten → temu, ta → tej; mój → mojemu, moja → mojej.",
+   "pl": [
+    "Kupiłam mojemu bratu nowy telefon."
+   ],
+   "refs": [
+    "PP s. 56 (rodzaj męski i nijaki -emu, rodzaj żeński -ej: dobremu przyjacielowi, małemu dziecku, dobrej koleżance)",
+    "MOWIC (mojemu młodszemu synowi; swojej najlepszej przyjaciółce)",
+    "ZPE (C. dobremu, dobrej, dobremu)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C7",
+   "ru": "Личные местоимения: mi / mnie, ci / tobie, mu / jemu / niemu, jej / niej, nam, wam, im / nim. Короткие mi, ci, mu — после глагола без ударения; длинные mnie, tobie, jemu — в начале фразы и под ударением; после предлога — niemu, niej, nim.",
+   "pl": [
+    "Daj mi to. Tobie to powiem, jemu nie."
+   ],
+   "refs": [
+    "PP s. 56 (таблица: mi / mnie, ci / tobie, mu / jemu / niemu, jej / niej, nam, wam, im / nim)",
+    "JPBG9 s. 120 («Krótkie formy zaimków (np. cię, go) stosuje się zwykle po czasowniku lub w środku zdania. Nigdy nie występują one na początku zdania. Po przyimkach… forma z n-»)",
+    "KEY k3-1 (Postaraj się być jej za to wdzięczna), k2-1 (przynosi jej róże)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C8",
+   "ru": "Безличные конструкции «мне нравится, мне вкусно, мне холодно»: Podoba mi się ten film. Smakuje mi zupa. Jest mi zimno. Тот, кому нравится, — в дательном.",
+   "pl": [
+    "Podoba mi się ta sukienka. Jest mi zimno."
+   ],
+   "refs": [
+    "PP s. 56 (a: podobać się, smakować)",
+    "STD B1 s. 78 («Ten film o Polsce podobał mi się bardzo.»); A2 s. 68 («Film podoba mi się bardzo. Czy jest ci zimno?»)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "C9",
+   "ru": "Предлог dzięki («благодаря») — с дательным: dzięki mamie, dzięki temu filmowi.",
+   "pl": [
+    "Zdałam egzamin dzięki nauczycielce."
+   ],
+   "refs": [
+    "PP s. 56 (b: po przyimkach: ku, dzięki, przeciw, przeciwko, na przekór, wbrew)",
+    "KEY k1-4 (dzięki filmowi), k1-5 (dzięki sportowi)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "PP s. 55 приводит текст Я. Мёдека о том, что -u у мужских — старая форма, а -owi стала основной; это объясняет, почему список исключений короткий.",
+  "Женские формы дательного совпадают с предложным (PP s. 54 и s. 103 дают одинаковые сноски о смене согласной; ZPE: C. żonie = Ms. żonie)."
+ ],
+ "forms": [
+  {
+   "form": "mamie",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "bratu",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "pani",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "studentowi",
+   "kind": "przyp",
+   "lemma": "student",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "lekarzowi",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "komputerowi",
+   "kind": "przyp",
+   "lemma": "komputer",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "Markowi",
+   "kind": "przyp",
+   "lemma": "Marek",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "sąsiadowi",
+   "kind": "przyp",
+   "lemma": "sąsiad",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "panu",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "ojcu",
+   "kind": "przyp",
+   "lemma": "ojciec",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "chłopcu",
+   "kind": "przyp",
+   "lemma": "chłopiec",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "kotu",
+   "kind": "przyp",
+   "lemma": "kot",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "psu",
+   "kind": "przyp",
+   "lemma": "pies",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "Bogu",
+   "kind": "przyp",
+   "lemma": "bóg",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "księdzu",
+   "kind": "przyp",
+   "lemma": "ksiądz",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "światu",
+   "kind": "przyp",
+   "lemma": "świat",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "Polsce",
+   "kind": "przyp",
+   "lemma": "Polska",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "koleżance",
+   "kind": "przyp",
+   "lemma": "koleżanka",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "siostrze",
+   "kind": "przyp",
+   "lemma": "siostra",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "tacie",
+   "kind": "przyp",
+   "lemma": "tata",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "koledze",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "babci",
+   "kind": "przyp",
+   "lemma": "babcia",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "Oli",
+   "kind": "przyp",
+   "lemma": "Ola",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "pracy",
+   "kind": "przyp",
+   "lemma": "praca",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "dziecku",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "oknu",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "miastu",
+   "kind": "przyp",
+   "lemma": "miasto",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "imieniu",
+   "kind": "przyp",
+   "lemma": "imię",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "dobremu",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "małemu",
+   "kind": "przyp",
+   "lemma": "mały",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "dobrej",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "temu",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "tej",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mojemu",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mojej",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mi",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mnie",
+   "kind": "przyp",
+   "lemma": "ja",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "ci",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "tobie",
+   "kind": "przyp",
+   "lemma": "ty",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "mu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "jemu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "niemu",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "jej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "niej",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "sg"
+  },
+  {
+   "form": "nam",
+   "kind": "przyp",
+   "lemma": "my",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "wam",
+   "kind": "przyp",
+   "lemma": "wy",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "im",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "nim",
+   "kind": "przyp",
+   "lemma": "on",
+   "case": "dat",
+   "n": "pl"
+  },
+  {
+   "form": "nauczycielce",
+   "kind": "przyp",
+   "lemma": "nauczycielka",
+   "case": "dat",
+   "n": "sg"
+  }
+ ]
+}

@@ -1,0 +1,1149 @@
+{
+ "topic": "celownik",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Celownik",
+ "title_ru": "Дательный падеж",
+ "lead": "Komu? Czemu? Dziękuję ci, pomagam mamie, podoba mi się.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-4, k1-5, k1-6, k1-7), blok 2 (k2-1), blok 3 (k3-1), blok 11 (k11-6)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. c, s. 78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "C1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Дательный отвечает на [[komu? czemu?]] — «кому?». Это тот, кому что-то дают, говорят, показывают или помогают:"
+    },
+    {
+     "type": "chips",
+     "items": [
+      "dać",
+      "kupić",
+      "pokazać",
+      "powiedzieć",
+      "pożyczyć",
+      "pomagać",
+      "dziękować",
+      "wierzyć",
+      "ufać",
+      "gratulować",
+      "życzyć"
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской",
+       "-owi (иногда -u)",
+       "[[sąsiadowi, bratu]]"
+      ],
+      [
+       "женский, муж. на -a",
+       "как предложный: -e / -i / -y",
+       "[[mamie, babci, pracy]]"
+      ],
+      [
+       "средний",
+       "-u",
+       "[[dziecku]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Не путайте с русским: «благодарю тебя», но [[dziękuję ci]]; «помогаю маме» — [[pomagam mamie]]."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Мужской род: -owi",
+   "facts": [
+    "C2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "дательный"
+     ],
+     "rows": [
+      [
+       "student",
+       "studentowi"
+      ],
+      [
+       "lekarz",
+       "lekarzowi"
+      ],
+      [
+       "sąsiad",
+       "sąsiadowi"
+      ],
+      [
+       "Marek",
+       "Markowi"
+      ],
+      [
+       "komputer",
+       "komputerowi"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Беглое [[e]] выпадает: [[Marek → Markowi]]."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Мужской род: -u (запомнить)",
+   "facts": [
+    "C3"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "дательный"
+     ],
+     "rows": [
+      [
+       "pan",
+       "panu"
+      ],
+      [
+       "brat",
+       "bratu"
+      ],
+      [
+       "ojciec",
+       "ojcu"
+      ],
+      [
+       "chłopiec",
+       "chłopcu"
+      ],
+      [
+       "kot",
+       "kotu"
+      ],
+      [
+       "pies",
+       "psu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Ещё: [[Bogu, księdzu, światu]]. Всё остальное — [[-owi]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "dałem bratowi",
+       "good": "dałem bratu"
+      },
+      {
+       "bad": "dziękuję panowi",
+       "good": "dziękuję panu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Женский род и мужские на -a",
+   "facts": [
+    "C4"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Формы те же, что в предложном падеже: [[o mamie — mamie]], [[w Polsce — Polsce]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "дательный"
+     ],
+     "rows": [
+      [
+       "mama",
+       "mamie"
+      ],
+      [
+       "siostra",
+       "siostrze"
+      ],
+      [
+       "koleżanka",
+       "koleżance"
+      ],
+      [
+       "babcia",
+       "babci"
+      ],
+      [
+       "pani",
+       "pani"
+      ],
+      [
+       "tata",
+       "tacie"
+      ],
+      [
+       "kolega",
+       "koledze"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "daję mamę prezent",
+       "good": "daję mamie prezent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Средний род: -u",
+   "facts": [
+    "C5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "дательный"
+     ],
+     "rows": [
+      [
+       "dziecko",
+       "dziecku"
+      ],
+      [
+       "okno",
+       "oknu"
+      ],
+      [
+       "miasto",
+       "miastu"
+      ],
+      [
+       "imię",
+       "imieniu"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Прилагательные, ten, mój",
+   "facts": [
+    "C6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской, средний",
+       "-emu",
+       "[[dobremu sąsiadowi, małemu dziecku]]"
+      ],
+      [
+       "женский",
+       "-ej",
+       "[[dobrej koleżance]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "дательный (м., ср.)",
+      "дательный (ж.)"
+     ],
+     "rows": [
+      [
+       "ten / ta",
+       "temu",
+       "tej"
+      ],
+      [
+       "mój / moja",
+       "mojemu",
+       "mojej"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Местоимения: mi или mnie?",
+   "facts": [
+    "C7"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кто?",
+      "коротко",
+      "с ударением",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "ja",
+       "mi",
+       "mnie",
+       "—"
+      ],
+      [
+       "ty",
+       "ci",
+       "tobie",
+       "—"
+      ],
+      [
+       "on, ono",
+       "mu",
+       "jemu",
+       "niemu"
+      ],
+      [
+       "ona",
+       "jej",
+       "jej",
+       "niej"
+      ],
+      [
+       "my",
+       "nam",
+       "nam",
+       "nam"
+      ],
+      [
+       "wy",
+       "wam",
+       "wam",
+       "wam"
+      ],
+      [
+       "oni, one",
+       "im",
+       "im",
+       "nim"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Daj mi to.",
+       "ru": "Дай мне это."
+      },
+      {
+       "pl": "Tobie to powiem, jemu nie.",
+       "ru": "Тебе скажу, ему — нет."
+      },
+      {
+       "pl": "Dzięki niemu zdałam egzamin.",
+       "ru": "Благодаря ему я сдала экзамен."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Mi się to podoba.",
+       "good": "Mnie się to podoba. / Podoba mi się to."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Podoba mi się",
+   "facts": [
+    "C8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Как в русском «мне нравится»: тот, кому нравится, — в дательном, а то, что нравится, — в именительном."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Podoba mi się ta sukienka.",
+       "ru": "Мне нравится это платье."
+      },
+      {
+       "pl": "Smakuje ci zupa?",
+       "ru": "Тебе вкусен суп?"
+      },
+      {
+       "pl": "Jest mi zimno.",
+       "ru": "Мне холодно."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Dzięki",
+   "facts": [
+    "C9"
+   ],
+   "blocks": [
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Zdałam egzamin dzięki nauczycielce.",
+       "ru": "Я сдала экзамен благодаря учительнице."
+      },
+      {
+       "pl": "Dzięki temu filmowi poznałam Polskę.",
+       "ru": "Благодаря этому фильму я узнала Польшу."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике 2017: [[pomagać bratu]], [[życzyć Markowi, siostrze]], [[dzięki filmowi]], [[dzięki sportowi]], [[być jej wdzięczna]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Кому? (dać, pomagać, dziękować, życzyć, podobać się, dzięki) — дательный.",
+      "Мужской: [[-owi]], но [[panu, bratu, ojcu, psu, kotu]].",
+      "Женский: как предложный ([[mamie, siostrze, babci]]).",
+      "Прилагательное: [[-emu]] / [[-ej]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Kupiłam ___ nowy telefon.",
+     "a": [
+      "bratu"
+     ],
+     "expl": "Brat → bratu (исключение).",
+     "t": "t3",
+     "opts": [
+      "brata",
+      "bratu",
+      "bratowi"
+     ]
+    },
+    {
+     "q": "Dziękuję ___ za pomoc.",
+     "a": [
+      "ci"
+     ],
+     "expl": "Dziękować + дательный.",
+     "t": "t7",
+     "opts": [
+      "cię",
+      "ci",
+      "tobą"
+     ]
+    },
+    {
+     "q": "Daj ___ wody.",
+     "a": [
+      "psu"
+     ],
+     "expl": "Pies → psu.",
+     "t": "t3",
+     "opts": [
+      "psa",
+      "psu",
+      "psowi"
+     ]
+    },
+    {
+     "q": "Pomagam ___ w kuchni.",
+     "a": [
+      "mamie"
+     ],
+     "expl": "Женский: как предложный.",
+     "t": "t4",
+     "opts": [
+      "mamę",
+      "mamy",
+      "mamie"
+     ]
+    },
+    {
+     "q": "Podoba ___ się ten film.",
+     "a": [
+      "mi"
+     ],
+     "expl": "Podoba mi się.",
+     "t": "t8",
+     "opts": [
+      "mnie",
+      "mi",
+      "mną"
+     ]
+    },
+    {
+     "q": "Pożyczyłem książkę ___.",
+     "a": [
+      "koledze"
+     ],
+     "expl": "Kolega → koledze.",
+     "t": "t4",
+     "opts": [
+      "kolegi",
+      "koledze",
+      "kolegowi"
+     ]
+    },
+    {
+     "q": "Pokaż to ___!",
+     "a": [
+      "lekarzowi"
+     ],
+     "expl": "Мужской: -owi.",
+     "t": "t2",
+     "opts": [
+      "lekarza",
+      "lekarzu",
+      "lekarzowi"
+     ]
+    },
+    {
+     "q": "Daj ___ zabawkę.",
+     "a": [
+      "dziecku"
+     ],
+     "expl": "Средний: -u.",
+     "t": "t5",
+     "opts": [
+      "dziecko",
+      "dziecka",
+      "dziecku"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Dziękuję **panowi** za wszystko.",
+     "a": [
+      "panu"
+     ],
+     "expl": "Исключение: panu.",
+     "t": "t3"
+    },
+    {
+     "q": "Kupiłam **mamę** kwiaty.",
+     "a": [
+      "mamie"
+     ],
+     "expl": "Кому? — mamie.",
+     "t": "t4"
+    },
+    {
+     "q": "Muszę pomóc **bratowi**.",
+     "a": [
+      "bratu"
+     ],
+     "expl": "Исключение: bratu.",
+     "t": "t3"
+    },
+    {
+     "q": "**Mi** to się nie podoba.",
+     "a": [
+      "Mnie"
+     ],
+     "expl": "В начале фразы — mnie.",
+     "t": "t7"
+    },
+    {
+     "q": "Życzę **ciebie** zdrowia.",
+     "a": [
+      "ci"
+     ],
+     "expl": "Życzyć + дательный: ci.",
+     "t": "t7"
+    },
+    {
+     "q": "Opowiedz to **siostrę**.",
+     "a": [
+      "siostrze"
+     ],
+     "expl": "Кому? — siostrze.",
+     "t": "t4"
+    },
+    {
+     "q": "Dzięki **twój brat** wszystko się udało.",
+     "a": [
+      "twojemu bratu"
+     ],
+     "expl": "Dzięki + дательный: twojemu bratu.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Существительные",
+   "instr": "Поставьте слово в дательный падеж.",
+   "items": [
+    {
+     "q": "Odpowiedz ___ na pytanie. (nauczyciel)",
+     "a": [
+      "nauczycielowi"
+     ],
+     "expl": "Мужской: -owi.",
+     "t": "t2"
+    },
+    {
+     "q": "Kupiłam prezent ___. (ojciec)",
+     "a": [
+      "ojcu"
+     ],
+     "expl": "Исключение: ojcu.",
+     "t": "t3"
+    },
+    {
+     "q": "Wysłałam zdjęcia ___. (babcia)",
+     "a": [
+      "babci"
+     ],
+     "expl": "Мягкая → -i.",
+     "t": "t4"
+    },
+    {
+     "q": "Pomagam ___ w pracy. (Ewa)",
+     "a": [
+      "Ewie"
+     ],
+     "expl": "W → wi.",
+     "t": "t4"
+    },
+    {
+     "q": "Ufam ___. (przyjaciel)",
+     "a": [
+      "przyjacielowi"
+     ],
+     "expl": "Мужской: -owi.",
+     "t": "t2"
+    },
+    {
+     "q": "Daj ___ mleko. (kot)",
+     "a": [
+      "kotu"
+     ],
+     "expl": "Исключение: kotu.",
+     "t": "t3"
+    },
+    {
+     "q": "Gratuluję ___! (córka)",
+     "a": [
+      "córce"
+     ],
+     "expl": "K → c.",
+     "t": "t4"
+    },
+    {
+     "q": "Opowiadam bajkę ___. (dziecko)",
+     "a": [
+      "dziecku"
+     ],
+     "expl": "Средний: -u.",
+     "t": "t5"
+    },
+    {
+     "q": "Dziękuję ___ za kolację. (pani)",
+     "a": [
+      "pani"
+     ],
+     "expl": "Pani не меняется.",
+     "t": "t4"
+    },
+    {
+     "q": "Wierzę ___. (Tomek)",
+     "a": [
+      "Tomkowi"
+     ],
+     "expl": "Беглое e: Tomek → Tomkowi.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте обе части в дательный падеж.",
+   "items": [
+    {
+     "q": "Kupiłam to ___. (mój młodszy brat)",
+     "a": [
+      "mojemu młodszemu bratu"
+     ],
+     "expl": "-emu + bratu.",
+     "t": "t6"
+    },
+    {
+     "q": "Pomagam ___. (starsza sąsiadka)",
+     "a": [
+      "starszej sąsiadce"
+     ],
+     "expl": "-ej + -ce.",
+     "t": "t6"
+    },
+    {
+     "q": "Dziękuję ___. (nasz nowy lekarz)",
+     "a": [
+      "naszemu nowemu lekarzowi"
+     ],
+     "expl": "-emu + -owi.",
+     "t": "t6"
+    },
+    {
+     "q": "Daj to ___. (to małe dziecko)",
+     "a": [
+      "temu małemu dziecku"
+     ],
+     "expl": "-emu + -u.",
+     "t": "t6"
+    },
+    {
+     "q": "Życzę ___ szczęścia. (moja najlepsza przyjaciółka)",
+     "a": [
+      "mojej najlepszej przyjaciółce"
+     ],
+     "expl": "-ej + -ce.",
+     "t": "t6"
+    },
+    {
+     "q": "Podoba się to ___. (każdy turysta)",
+     "a": [
+      "każdemu turyście"
+     ],
+     "expl": "-emu; turysta → turyście (как в предложном).",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения",
+   "instr": "Впишите местоимение в дательном падеже.",
+   "items": [
+    {
+     "q": "Pomóż ___! (ja)",
+     "a": [
+      "mi"
+     ],
+     "expl": "Без ударения — mi.",
+     "t": "t7"
+    },
+    {
+     "q": "Kupię ___ kawę. (ty)",
+     "a": [
+      "ci"
+     ],
+     "expl": "Без ударения — ci.",
+     "t": "t7"
+    },
+    {
+     "q": "Powiedz ___ prawdę. (on)",
+     "a": [
+      "mu"
+     ],
+     "expl": "Без ударения — mu.",
+     "t": "t7"
+    },
+    {
+     "q": "Dam ___ ten prezent jutro. (ona)",
+     "a": [
+      "jej"
+     ],
+     "expl": "Ona → jej.",
+     "t": "t7"
+    },
+    {
+     "q": "Ta zupa bardzo ___ smakuje. (my)",
+     "a": [
+      "nam"
+     ],
+     "expl": "My → nam.",
+     "t": "t8"
+    },
+    {
+     "q": "___ to powiem, a tobie nie. (on, с ударением)",
+     "a": [
+      "Jemu"
+     ],
+     "expl": "С ударением — jemu.",
+     "t": "t7"
+    },
+    {
+     "q": "Dzięki ___ zdałam egzamin. (ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "После предлога — niej.",
+     "t": "t7"
+    },
+    {
+     "q": "Pokażę ___ zdjęcia z wakacji. (wy)",
+     "a": [
+      "wam"
+     ],
+     "expl": "Wy → wam.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 2,
+   "kind": "type",
+   "title": "Podoba się, dzięki",
+   "instr": "Поставьте слово в нужную форму.",
+   "items": [
+    {
+     "q": "Czy ___ podoba się Kraków? (pan)",
+     "a": [
+      "panu"
+     ],
+     "expl": "Podobać się + дательный: panu.",
+     "t": "t8"
+    },
+    {
+     "q": "Mojej ___ nie smakuje ryba. (mama)",
+     "a": [
+      "mamie"
+     ],
+     "expl": "Smakować + дательный.",
+     "t": "t8"
+    },
+    {
+     "q": "Dzięki ___ mam pracę. (kolega)",
+     "a": [
+      "koledze"
+     ],
+     "expl": "Dzięki + дательный.",
+     "t": "t9"
+    },
+    {
+     "q": "Jest ___ zimno? (ty)",
+     "a": [
+      "ci"
+     ],
+     "expl": "Jest ci zimno.",
+     "t": "t8"
+    },
+    {
+     "q": "Dzięki ___ wszystko się udało. (ten pomysł)",
+     "a": [
+      "temu pomysłowi"
+     ],
+     "expl": "Dzięki + дательный: -emu + -owi.",
+     "t": "t9"
+    },
+    {
+     "q": "Czy ___ podobała się wycieczka? (oni)",
+     "a": [
+      "im"
+     ],
+     "expl": "Oni / one → im.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Prezenty na święta",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "W tym roku kupiłam prezenty całej rodzinie. {1} dałam ciepły szalik, a {2} — nowy krawat. Mojej {3} kupiłam książkę o Polsce, bo bardzo jej się podoba nasz kraj. Mojemu {4} bratu dałam grę komputerową. Nawet {5} kupiłam zabawkę! Dzięki {6} wszyscy byli zadowoleni. Najbardziej podobał {7} się prezent od babci. Na koniec podziękowałam {8} za pomoc w kuchni, a {9} — za piękną choinkę. Życzę {10} wesołych świąt!",
+   "items": [
+    {
+     "q": "mama",
+     "a": [
+      "Mamie"
+     ],
+     "expl": "Кому? — mamie.",
+     "t": "t4"
+    },
+    {
+     "q": "tata",
+     "a": [
+      "tacie"
+     ],
+     "expl": "T → ci: tacie.",
+     "t": "t4"
+    },
+    {
+     "q": "siostra",
+     "a": [
+      "siostrze"
+     ],
+     "expl": "R → rz: siostrze.",
+     "t": "t4"
+    },
+    {
+     "q": "młodszy",
+     "a": [
+      "młodszemu"
+     ],
+     "expl": "Прилагательное: -emu.",
+     "t": "t6"
+    },
+    {
+     "q": "pies",
+     "a": [
+      "psu"
+     ],
+     "expl": "Исключение: psu.",
+     "t": "t3"
+    },
+    {
+     "q": "one",
+     "a": [
+      "nim"
+     ],
+     "expl": "Dzięki + nim (после предлога).",
+     "t": "t7"
+    },
+    {
+     "q": "ja",
+     "a": [
+      "mi"
+     ],
+     "expl": "Podobał mi się.",
+     "t": "t8"
+    },
+    {
+     "q": "babcia",
+     "a": [
+      "babci"
+     ],
+     "expl": "Мягкая: babci.",
+     "t": "t4"
+    },
+    {
+     "q": "dziadek",
+     "a": [
+      "dziadkowi"
+     ],
+     "expl": "Беглое e: dziadkowi.",
+     "t": "t2"
+    },
+    {
+     "q": "wy",
+     "a": [
+      "wam"
+     ],
+     "expl": "Wy → wam.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "Lubię ten film. → Ten film podoba ___ się.",
+     "a": [
+      "mi"
+     ],
+     "expl": "Podoba mi się.",
+     "t": "t8"
+    },
+    {
+     "q": "Ewa dostała ode mnie kwiaty. → Dałam kwiaty ___.",
+     "a": [
+      "Ewie"
+     ],
+     "expl": "Кому? — Ewie.",
+     "t": "t4"
+    },
+    {
+     "q": "Brat otrzymał ode mnie pomoc. → Pomogłam ___.",
+     "a": [
+      "bratu"
+     ],
+     "expl": "Pomóc + дательный: bratu.",
+     "t": "t3"
+    },
+    {
+     "q": "Moja córka lubi zupę pomidorową. → Zupa pomidorowa smakuje mojej ___.",
+     "a": [
+      "córce"
+     ],
+     "expl": "Smakować + дательный.",
+     "t": "t8"
+    },
+    {
+     "q": "Ten list jest dla pana Nowaka. → Proszę dać ten list ___ Nowakowi.",
+     "a": [
+      "panu"
+     ],
+     "expl": "Pan → panu.",
+     "t": "t3"
+    },
+    {
+     "q": "Zdałem egzamin, bo pomógł mi nauczyciel. → Zdałem egzamin dzięki ___.",
+     "a": [
+      "nauczycielowi"
+     ],
+     "expl": "Dzięki + дательный.",
+     "t": "t9"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 4,
+   "kind": "write",
+   "title": "Podziękowanie",
+   "instr": "Напишите короткое письмо-благодарность соседке, которая помогала вам во время болезни: что она для вас сделала, кому вы ещё благодарны, что вы хотите ей подарить.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм дательного: dziękuję + кому, помощь кому, подарок кому, podoba mi się, хотя бы одно «прилагательное + существительное», dzięki + кто-то.",
+   "model": "Droga Pani Haniu! Bardzo dziękuję Pani za pomoc. Dzięki Pani mój syn miał co jeść, a mojemu psu nie było smutno. Dziękuję też Pani mężowi za zakupy. Kupiłam Pani kwiaty, mam nadzieję, że się Pani spodobają. Mnie się bardzo podobają! Ściskam, Ania",
+   "model_future": [
+    "Pani",
+    "mojemu psu",
+    "mężowi",
+    "Mnie"
+   ],
+   "checklist": [
+    "Есть обращение и подпись",
+    "Dziękuję + дательный",
+    "Хотя бы одно «прилагательное + существительное» в дательном",
+    "Dzięki + дательный",
+    "Подарок: kupiłam + кому",
+    "Podoba mi się / spodoba się",
+    "Pan, brat, pies → panu, bratu, psu",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

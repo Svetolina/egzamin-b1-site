@@ -1,0 +1,221 @@
+<title>Liczba mnoga · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "mianownik-lm", "level": "B1", "group": "Падежи", "title_pl": "Liczba mnoga", "title_ru": "Множественное число: именительный, мужско-личные формы", "lead": "Studenci или studentki? Ci или te? Два рода во множественном числе и смена согласных: Polak → Polacy.", "facts_file": "extract.json", "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-3 — mieszkańcy, k1-4 — widzowie, k1-6 — synowie)", "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. a–b, s. 75–76; 2.2.3 pkt 1 lit. a, s. 77"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["L1"], "blocks": [{"type": "p", "text": "Во множественном числе польский различает не три рода, а два: мужчины (и смешанные группы, где есть хотя бы один мужчина) — и все остальные."}, {"type": "table", "head": ["род", "кто", "пример"], "rows": [["мужско-личный (oni)", "мужчины, смешанные группы", "[[studenci, panowie, Polacy]]"], ["не мужско-личный (one)", "женщины, животные, вещи", "[[studentki, koty, stoły, okna]]"]], "pl_cols": []}, {"type": "note", "kind": "tip", "text": "Студенты и студентки вместе — уже [[studenci]] и [[oni]]."}]}, {"id": "t2", "title": "Женщины, вещи, животные: -y, -i, -e, -a", "facts": ["L2"], "blocks": [{"type": "table", "head": ["основа", "окончание", "пример"], "rows": [["твёрдая", "-y", "[[kot → koty, torba → torby]]"], ["k, g", "-i", "[[książka → książki, ptak → ptaki]]"], ["мягкая, l, j, c, cz, sz, rz, ż", "-e", "[[hotel → hotele, ulica → ulice, noc → noce, pani → panie]]"], ["средний род", "-a", "[[okno → okna, zdjęcie → zdjęcia, muzeum → muzea]]"]], "pl_cols": []}, {"type": "fix", "items": [{"bad": "trzy książky", "good": "trzy książki"}, {"bad": "dwa okno", "good": "dwa okna"}]}]}, {"id": "t3", "title": "Особые формы", "facts": ["L3"], "blocks": [{"type": "table", "head": ["ед. число", "мн. число"], "rows": [["dziecko", "dzieci"], ["człowiek", "ludzie"], ["brat", "bracia"], ["rok", "lata"], ["tydzień", "tygodnie"], ["oko", "oczy"], ["ręka", "ręce"]], "pl_cols": [0, 1]}]}, {"id": "t4", "title": "Мужчины: -owie", "facts": ["L4"], "blocks": [{"type": "p", "text": "[[-owie]] получают родственники, титулы, часть национальностей и фамилии:"}, {"type": "table", "head": ["ед. число", "мн. число"], "rows": [["syn", "synowie"], ["ojciec", "ojcowie"], ["pan", "panowie"], ["dziadek", "dziadkowie"], ["Serb", "Serbowie"], ["Nowak", "Nowakowie"]], "pl_cols": [0, 1]}]}, {"id": "t5", "title": "Мужчины: -i и -y со сменой согласной", "facts": ["L5"], "blocks": [{"type": "p", "text": "Большинство мужчин-людей меняет последнюю согласную, как в русском «друг — друзья»:"}, {"type": "table", "head": ["замена", "пример"], "rows": [["t → ci", "[[student → studenci]]"], ["d → dzi", "[[sąsiad → sąsiedzi]]"], ["ch → si", "[[Włoch → Włosi]]"], ["k → cy", "[[Polak → Polacy]]"], ["g → dzy", "[[kolega → koledzy]]"], ["r → rzy", "[[aktor → aktorzy]]"], ["-ec, -ca → -cy", "[[Niemiec → Niemcy, kierowca → kierowcy]]"]], "pl_cols": []}, {"type": "fix", "items": [{"bad": "studenty", "good": "studenci"}, {"bad": "Polaki", "good": "Polacy"}]}]}, {"id": "t6", "title": "Мужчины: -e", "facts": ["L6"], "blocks": [{"type": "table", "head": ["ед. число", "мн. число"], "rows": [["gość", "goście"], ["przyjaciel", "przyjaciele"], ["lekarz", "lekarze"], ["nauczyciel", "nauczyciele"], ["Amerykanin", "Amerykanie"]], "pl_cols": [0, 1]}, {"type": "note", "kind": "tip", "text": "Слова на [[-anin]] теряют [[-in]]: [[Amerykanin → Amerykanie]], [[Rosjanin → Rosjanie]]."}]}, {"id": "t7", "title": "Прилагательные", "facts": ["L7"], "blocks": [{"type": "table", "head": ["род", "окончание", "пример"], "rows": [["не мужско-личный", "-e / -ie", "[[nowe domy, polskie książki]]"], ["мужско-личный", "-i / -y + смена", "[[nowi koledzy, dobrzy lekarze, wysocy panowie]]"]], "pl_cols": []}, {"type": "table", "head": ["ед. число", "мужско-личное мн."], "rows": [["nowy", "nowi"], ["dobry", "dobrzy"], ["młody", "młodzi"], ["wysoki", "wysocy"], ["zadowolony", "zadowoleni"]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "nowe koledzy", "good": "nowi koledzy"}]}]}, {"id": "t8", "title": "Ci или te, moi или moje", "facts": ["L8"], "blocks": [{"type": "table", "head": ["ед. число", "мужско-личное", "не мужско-личное"], "rows": [["ten", "ci", "te"], ["mój", "moi", "moje"], ["nasz", "nasi", "nasze"], ["który", "którzy", "które"], ["jaki", "jacy", "jakie"]], "pl_cols": [0, 1, 2]}, {"type": "ex", "items": [{"pl": "Ci panowie i te panie to moi znajomi.", "ru": "Эти господа и эти дамы — мои знакомые."}]}]}, {"id": "t9", "title": "Винительный мн. числа — коротко", "facts": ["L9"], "blocks": [{"type": "p", "text": "Не мужско-личные: винительный = именительный ([[Mam koty. Lubię te książki.]]). Мужско-личные: винительный = родительный ([[Znam tych studentów.]])."}, {"type": "note", "kind": "tip", "text": "Подробно — в темах «Родительный мн. числа» и «Падежи во мн. числе»."}]}, {"id": "t10", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В сборнике 2017: [[mieszkańcy]], [[widzowie]], [[synowie]]. В письме чаще всего ошибаются в [[moi koledzy, nasi sąsiedzi, ci ludzie]]."}, {"type": "steps", "items": ["Есть ли в группе мужчина? — мужско-личный род.", "Мужчины: [[-owie]] (родня, титулы), иначе [[-i / -y]] со сменой ([[t → ci, k → cy, r → rzy]]) или [[-e]].", "Остальные: [[-y / -i / -e]], средний — [[-a]].", "Прилагательное и [[ten, mój]] — по тому же роду: [[ci nowi]] / [[te nowe]]."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "To są moi ___.", "a": ["koledzy"], "expl": "Kolega → koledzy.", "t": "t5", "opts": ["kolegi", "koledzy", "kolegowie"]}, {"q": "W klasie są nowe ___.", "a": ["studentki"], "expl": "Женщины: -i после k.", "t": "t2", "opts": ["studentki", "studentky", "studentkowie"]}, {"q": "___ są dzisiaj mili.", "a": ["Ci panowie"], "expl": "Мужчины: ci + panowie.", "t": "t8", "opts": ["Te panowie", "Ci panowie", "Ci pany"]}, {"q": "Na stole leżą ___.", "a": ["książki"], "expl": "K → -i.", "t": "t2", "opts": ["książky", "książki", "książek"]}, {"q": "Moi ___ mieszkają w Gdańsku. (lekarz)", "a": ["lekarze"], "expl": "Rz → -e.", "t": "t6", "opts": ["lekarzy", "lekarze", "lekarzowie"]}, {"q": "To są ___ studenci.", "a": ["dobrzy"], "expl": "Мужско-личное: dobry → dobrzy.", "t": "t7", "opts": ["dobre", "dobrzy", "dobri"]}, {"q": "W parku bawią się ___.", "a": ["dzieci"], "expl": "Dziecko → dzieci.", "t": "t3", "opts": ["dziecka", "dzieci", "dziecki"]}, {"q": "Moi ___ to Polacy.", "a": ["sąsiedzi"], "expl": "D → dzi.", "t": "t5", "opts": ["sąsiady", "sąsiedzi", "sąsiadzi"]}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "Ci **studenty** są z Ukrainy.", "a": ["studenci"], "expl": "T → ci.", "t": "t5"}, {"q": "**Te** panowie czekają na autobus.", "a": ["Ci"], "expl": "Мужчины — ci.", "t": "t8"}, {"q": "Moi **brati** mieszkają w Polsce.", "a": ["bracia"], "expl": "Brat → bracia.", "t": "t3"}, {"q": "To są **nowe** lekarze.", "a": ["nowi"], "expl": "Мужско-личное: nowi.", "t": "t7"}, {"q": "**Polaki** lubią pierogi.", "a": ["Polacy"], "expl": "K → cy.", "t": "t5"}, {"q": "To są bardzo mili **człowieki**.", "a": ["ludzie"], "expl": "Człowiek → ludzie.", "t": "t3"}, {"q": "Moje **koledze** są wysocy.", "a": ["koledzy"], "expl": "G → dzy.", "t": "t5"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Не мужско-личные", "instr": "Поставьте слово во множественное число.", "items": [{"q": "Mam dwie ___. (siostra)", "a": ["siostry"], "expl": "Твёрдая → -y.", "t": "t2"}, {"q": "W pokoju są trzy ___. (okno)", "a": ["okna"], "expl": "Средний → -a.", "t": "t2"}, {"q": "W tym mieście są ładne ___. (ulica)", "a": ["ulice"], "expl": "C → -e.", "t": "t2"}, {"q": "Te ___ są drogie. (hotel)", "a": ["hotele"], "expl": "L → -e.", "t": "t2"}, {"q": "Moje ___ są małe. (dziecko)", "a": ["dzieci"], "expl": "Особая форма.", "t": "t3"}, {"q": "Gdzie są moje ___? (klucz)", "a": ["klucze"], "expl": "Cz → -e.", "t": "t2"}, {"q": "Na stole stoją ___. (kubek)", "a": ["kubki"], "expl": "K → -i; беглое e.", "t": "t2"}, {"q": "To były piękne ___. (rok → мн.)", "a": ["lata"], "expl": "Rok → lata.", "t": "t3"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "Мужско-личные", "instr": "Поставьте слово во множественное число.", "items": [{"q": "Ci ___ są z Polski. (turysta)", "a": ["turyści"], "expl": "St → ści.", "t": "t5"}, {"q": "Moi ___ są lekarzami. (syn)", "a": ["synowie"], "expl": "Родство: -owie.", "t": "t4"}, {"q": "___ grają w piłkę. (chłopiec)", "a": ["Chłopcy"], "expl": "-ec → -cy.", "t": "t5"}, {"q": "Nasi ___ przyjechali wczoraj. (gość)", "a": ["goście"], "expl": "Мягкая → -e.", "t": "t6"}, {"q": "Ci ___ są bardzo znani. (aktor)", "a": ["aktorzy"], "expl": "R → rzy.", "t": "t5"}, {"q": "Wszyscy ___ są dziś w szkole. (nauczyciel)", "a": ["nauczyciele"], "expl": "L → -e.", "t": "t6"}, {"q": "Moi ___ mieszkają na wsi. (dziadek)", "a": ["dziadkowie"], "expl": "Родство: -owie.", "t": "t4"}, {"q": "___ i Czesi to sąsiedzi. (Słowak)", "a": ["Słowacy"], "expl": "K → cy.", "t": "t5"}, {"q": "W naszym biurze pracują ___. (Francuz)", "a": ["Francuzi"], "expl": "Z → zi.", "t": "t5"}, {"q": "Ci ___ jeżdżą bardzo szybko. (kierowca)", "a": ["kierowcy"], "expl": "-ca → -cy.", "t": "t5"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "Прилагательное + существительное", "instr": "Поставьте во множественное число обе части.", "items": [{"q": "To są ___. (mój dobry kolega)", "a": ["moi dobrzy koledzy"], "expl": "Мужско-личное: moi + dobrzy + koledzy.", "t": "t7"}, {"q": "To są ___. (moja dobra koleżanka)", "a": ["moje dobre koleżanki"], "expl": "Не мужско-личное: -e.", "t": "t7"}, {"q": "___ mieszkają obok. (ten miły sąsiad)", "a": ["Ci mili sąsiedzi"], "expl": "Ci + mili + sąsiedzi.", "t": "t7"}, {"q": "___ leżą na stole. (ten nowy telefon)", "a": ["Te nowe telefony"], "expl": "Вещи: te + nowe.", "t": "t7"}, {"q": "___ są w kinie. (nasz młody student)", "a": ["Nasi młodzi studenci"], "expl": "Nasi + młodzi + studenci.", "t": "t7"}, {"q": "To byli ___. (bardzo zadowolony klient)", "a": ["bardzo zadowoleni klienci"], "expl": "-ony → -eni.", "t": "t7"}]}, {"id": "e6", "level": 3, "kind": "text", "format": "exam", "title": "Moja grupa na kursie", "instr": "Как на экзамене: поставьте слова в скобках во множественное число.", "passage": "W mojej grupie są {1} z różnych krajów. Są dwie {2} z Ukrainy, trzej {3} i jeden Turek. {4} są bardzo pracowici. Nasi {5} są wymagający, ale {6}. Na lekcjach czytamy {7} i oglądamy polskie {8}. Po zajęciach często idziemy na kawę, bo {9} na kursie to też moi {10}.", "items": [{"q": "student", "a": ["studenci"], "expl": "Мужско-личное (группа смешанная): studenci.", "t": "t5"}, {"q": "dziewczyna", "a": ["dziewczyny"], "expl": "Женщины: -y.", "t": "t2"}, {"q": "Włoch", "a": ["Włosi"], "expl": "Ch → si.", "t": "t5"}, {"q": "Mój kolega", "a": ["Moi koledzy"], "expl": "Moi + koledzy (g → dzy).", "t": "t8"}, {"q": "nauczyciel", "a": ["nauczyciele"], "expl": "L → -e.", "t": "t6"}, {"q": "miły", "a": ["mili"], "expl": "Мужско-личное прилагательное.", "t": "t7"}, {"q": "gazeta", "a": ["gazety"], "expl": "Твёрдая → -y.", "t": "t2"}, {"q": "film", "a": ["filmy"], "expl": "Неличное → -y.", "t": "t2"}, {"q": "człowiek", "a": ["ludzie"], "expl": "Особая форма.", "t": "t3"}, {"q": "przyjaciel", "a": ["przyjaciele"], "expl": "L → -e.", "t": "t6"}]}, {"id": "e7", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Перепишите во множественном числе — впишите одно слово.", "items": [{"q": "Ten pan jest zmęczony. → Ci panowie są ___.", "a": ["zmęczeni"], "expl": "-ony → -eni.", "t": "t7"}, {"q": "Mój brat jest wysoki. → Moi bracia są ___.", "a": ["wysocy"], "expl": "K → cy.", "t": "t7"}, {"q": "Ta pani jest miła. → Te panie są ___.", "a": ["miłe"], "expl": "Не мужско-личное: -e.", "t": "t7"}, {"q": "Mój kolega jest Niemcem. → Moi koledzy to ___.", "a": ["Niemcy"], "expl": "Niemiec → Niemcy (после to — именительный).", "t": "t5"}, {"q": "Ten student jest dobry. → Ci studenci są ___.", "a": ["dobrzy"], "expl": "R → rzy.", "t": "t7"}, {"q": "To jest mój syn. → To są moi ___.", "a": ["synowie"], "expl": "-owie.", "t": "t4"}]}, {"id": "e8", "level": 4, "kind": "write", "title": "Moi znajomi", "instr": "Опишите свою компанию друзей или коллег: кто они, откуда, какие они.", "words": [40, 50], "need": "Не меньше 8 форм мн. числа: хотя бы 4 мужско-личные (moi koledzy, studenci…), 2 не мужско-личные, прилагательные в обоих родах.", "model": "Moi najlepsi przyjaciele to Polacy i Ukraińcy. Marek i Tomek są informatykami, a ich żony to nauczycielki. Wszyscy są bardzo mili i zabawni. Nasze dzieci chodzą do jednej szkoły. W weekendy razem gotujemy, a nasi mężowie robią grilla. Moje koleżanki z pracy też są wesołe.", "model_future": ["najlepsi przyjaciele", "Polacy", "Ukraińcy", "nauczycielki", "mili", "zabawni", "dzieci", "nasi mężowie", "koleżanki", "wesołe"], "checklist": ["Мужско-личные существительные (przyjaciele, Polacy…)", "Мужско-личные прилагательные (mili, najlepsi…)", "Moi / nasi / ci — для мужчин", "Не мужско-личные (nauczycielki, koleżanki, dzieci)", "Прилагательные на -e для не мужско-личных", "Особые формы (dzieci, ludzie, bracia)", "40–50 слов"], "t": "t1"}]}, "facts": {"L1": {"refs": ["STD B1 2.2.1 pkt 1 lit. a, s. 75 («odmiana rzeczowników rodzaju męskiego: męskoosobowych i niemęskoosobowych (np.: panowie, studenci ≠ stoły, studentki…)»)", "JPBG9 s. 24 («Mianownik — rzeczownik l. mnogiej, r. niemęskoosobowy»), s. 40 («r. męskoosobowy»)", "PP s. 23 («rodzaj niemęskoosobowy (one)»), s. 26 («rodzaj męskoosobowy (oni)»)", "ELON (masculine-personal: male humans or mixed groups)"], "status": "ok"}, "L2": {"refs": ["JPBG9 s. 24 (таблица: -y — zeszyty, torby; -i — kotki, książki; -e — hotele, kraje, kuchnie, ulice, panie; -a — drzewa, zdania, muzea)", "PP s. 24 (rodzaj męski i żeński -y, -i, -e; rodzaj nijaki -a)", "ELON (-y / -i / -e; neuter always -a)", "ZPE (M. l. mn. żony, okna)", "MORF"], "status": "ok"}, "L3": {"refs": ["JPBG9 s. 24 (Uwaga: dziecko – dzieci; -um: liceum – licea), s. 40 (wyjątki: brat – bracia, ksiądz – księża)", "PP s. 28 (* człowiek – ludzie, brat – bracia, ksiądz – księża)", "MORF"], "status": "ok"}, "L4": {"refs": ["JPBG9 s. 40 (-owie: syn – synowie, mąż – mężowie, poseł – posłowie, pan – panowie, uczeń – uczniowie, Fin – Finowie, Arab – Arabowie)", "PP s. 28 (-owie: niektóre nazwy stopni pokrewieństwa, tytuły, narodowości, nazwiska; ojcowie, królowie, Serbowie, Nowakowie, dziadkowie)", "KEY k1-4 (widz → widzowie), k1-6 (syn → synowie)", "MORF"], "status": "ok"}, "L5": {"refs": ["JPBG9 s. 40 (-y: Polak – Polacy, aktor – aktorzy, chirurg – chirurdzy, kolega – koledzy, Ukrainiec – Ukraińcy, kierowca – kierowcy; -i: student – studenci, sąsiad – sąsiedzi, Włoch – Włosi, turysta – turyści)", "PP s. 28 (Polacy, sąsiedzi, Norwedzy, Chorwaci, Ukraińcy, Czesi; e ruchome: Niemiec – Niemcy)", "ELON (student → studenci, Polak → Polacy, Szwed → Szwedzi)", "KEY k1-3 (mieszkaniec → mieszkańcy)", "MORF"], "status": "ok"}, "L6": {"refs": ["JPBG9 s. 40 (-e: gość – goście, przyjaciel – przyjaciele, lekarz – lekarze, kibic – kibice, Amerykanin – Amerykanie)", "PP s. 28 (-e po spółgłoskach miękkich i stwardniałych, -anin; goście)", "ELON (nauczyciel → nauczyciele)", "MORF"], "status": "ok"}, "L7": {"refs": ["JPBG9 s. 25 (niemęskoosobowy -e, -ie: stare samochody, polskie studentki), s. 42 (męskoosobowy -i / -y: bogaci, młodzi, mili, dobrzy, wysocy, dłudzy; -ony → -eni: zadowoleni, zmęczeni)", "PP s. 24 (przymiotnik r. niemęskoosobowy -e, -ie: duże kubki, polskie…), s. 31 (mądrzy, różni, weseli, zmęczeni…)", "ZPE (M. l. mn. dobrzy / dobre)", "MORF"], "status": "ok"}, "L8": {"refs": ["JPBG9 s. 43 (таблица: ci — te, tamci — tamte, moi — moje, twoi — twoje, nasi — nasze, którzy — które, jacy — jakie, tacy — takie)", "PP s. 26–31 (oni / one в заголовках; moi, ci в упражнениях)", "MORF"], "status": "ok"}, "L9": {"refs": ["JPBG9 s. 25 (rzeczowniki i przymiotniki l. mn. r. niemęskoosobowego mają takie same formy w mianowniku, bierniku i wołaczu), s. 126 (biernik l. mn.: męskoosobowy = Dopełniacz l. mn.; niemęskoosobowy = Mianownik l. mn.)", "PP s. 78 (męskoosobowy jak dopełniacz l. mn.; męski nieosobowy, żeński i nijaki jak mianownik l. mn.)", "COLA (Znam tych Polaków; Rezerwuję te noclegi)", "KEY k1-8 (odwiedzać państwa Kowalskich)"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)", "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 1, s. 24–25 (мн. число не мужско-личное), lekcja 2, s. 40–43 (мужско-личное: существительные, прилагательные, местоимения), lekcja 6, s. 126 (винительный мн.)", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: «Mianownik liczby mnogiej», s. 23–31; «Biernik liczby mnogiej», s. 78–79", "ELON": "elon.io, «Forming the Plural»: https://elon.io/grammar/polish/nouns/plurals/formation-overview", "COLA": "Colanguage, «Accusative plural»: https://app.colanguage.com/polish/grammar/biernik-w-liczbie-mnogiej", "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf", "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-3, k1-4, k1-6, k1-8)", "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>

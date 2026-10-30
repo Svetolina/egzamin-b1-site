@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Zaimki osobowe · теория</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: одна колонка карточек, как экран «Грамматика» в макетах для телефона; на широком экране — та же колонка по центру */
+:root{
+  --bg:#F4F5F2; --card:#FFFFFF; --line:#DDE0DA; --line2:#E4E6E0; --soft:#EEF0EA;
+  --ink:#1B2430; --ink2:#2F3A48; --muted:#5B6572;
+  --accent:#B3243B; --accent-bg:#F6E3E6; --accent-ink:#8E1B2F;
+  --ok-bg:#E1F0E8; --ok-ink:#14513A; --mark-bg:#F9EEDA; --mark-ink:#6B4A0E; --mark-line:#E6CF9F;
+  --f-ui:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-pl:'Source Serif 4',Georgia,'Times New Roman',serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14181D; --card:#1C2128; --line:#2C333C; --line2:#262C34; --soft:#232931;
+  --ink:#E8EBEE; --ink2:#CDD3DA; --muted:#98A2AE;
+  --accent:#F07186; --accent-bg:#3A1F25; --accent-ink:#F7A9B6;
+  --ok-bg:#16302A; --ok-ink:#8FD3B4; --mark-bg:#33291A; --mark-ink:#EBCB8E; --mark-line:#5A4825;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.pl{font-family:var(--f-pl)}
+.top{display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.crumb{font-size:13px;color:var(--muted);font-weight:600}
+.badge{font-size:13px;font-weight:700;padding:5px 12px;border-radius:14px;background:var(--accent-bg);color:var(--accent-ink)}
+h1{font-family:var(--f-pl);font-size:38px;font-weight:600;line-height:1.1;margin:2px 0 0;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:2px}
+.lead{color:var(--ink2);margin:8px 0 0;max-width:62ch}
+.draft{font-size:13px;color:var(--mark-ink);background:var(--mark-bg);border:1px solid var(--mark-line);border-radius:12px;padding:10px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card h2{font-size:17px;font-weight:700;margin:0;text-wrap:balance;line-height:1.3}
+.card p{margin:0;color:var(--ink2)}
+.tw{overflow-x:auto;margin:0 -4px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:4px 6px 6px;vertical-align:bottom}
+td{padding:9px 6px;border-top:1px solid var(--line2);vertical-align:top}
+td.pl{font-size:17px}
+td.lab{color:var(--muted);font-weight:600;font-size:14px;white-space:nowrap}
+.ex{display:flex;flex-direction:column}
+.ex>div{padding:9px 0;border-top:1px solid var(--line2)}
+.ex>div:first-child{border-top:0;padding-top:0}
+.ex .pl{font-size:19px;line-height:1.35}
+.ex .ru{font-size:14px;color:var(--muted);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-pl);font-size:17px;padding:5px 12px;border-radius:14px;background:var(--soft);border:1px solid var(--line)}
+.note{font-size:15px;border-radius:12px;padding:10px 12px;line-height:1.45}
+.note.tip{background:var(--soft);color:var(--ink2)}
+.note.mark{background:var(--mark-bg);color:var(--mark-ink);border:1px solid var(--mark-line)}
+.note.mark b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+.fix{display:grid;grid-template-columns:1fr auto 1fr;gap:8px 10px;align-items:baseline}
+.bad{font-family:var(--f-pl);font-size:18px;color:var(--accent-ink);text-decoration:line-through;text-decoration-thickness:1.5px}
+.good{font-family:var(--f-pl);font-size:18px;color:var(--ok-ink);font-weight:600}
+.arr{color:var(--muted)}
+ol.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px;color:var(--ink2)}
+ol.steps li::marker{color:var(--accent);font-weight:700}
+.hl{color:var(--accent);font-weight:700}
+details{border-top:1px solid var(--line2);margin:0 -16px -14px;padding:0 16px}
+summary{min-height:44px;display:flex;align-items:center;font-size:13px;color:var(--muted);font-weight:600;cursor:pointer}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+details ul{margin:0 0 12px;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:4px}
+details a{color:inherit;overflow-wrap:anywhere}
+.foot{font-size:12.5px;color:var(--muted);text-align:center}
+.exh{font-family:var(--f-pl);font-size:28px;font-weight:600;margin:12px 0 0}
+.lvl{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.it{border-top:1px solid var(--line2);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.it:first-of-type{border-top:0;padding-top:0}
+.q{font-family:var(--f-pl);font-size:19px;line-height:1.4}
+.q .bold{color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{flex:1 1 180px;min-width:0;height:46px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;padding:0 12px}
+.row input:focus-visible,.btn:focus-visible,.opt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{height:46px;padding:0 16px;border-radius:12px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font:700 15px var(--f-ui);cursor:pointer}
+.opt{min-height:46px;padding:0 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font-family:var(--f-pl);font-size:18px;cursor:pointer}
+.opt.ok,.row input.ok{border-color:var(--ok-ink);background:var(--ok-bg);color:var(--ok-ink)}
+.opt.no,.row input.no{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-ink)}
+.fb{font-size:14.5px;border-radius:10px;padding:9px 12px;line-height:1.45}
+.fb.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.fb.no{background:var(--accent-bg);color:var(--accent-ink)}
+.fb.dia{background:var(--mark-bg);color:var(--mark-ink)}
+.fb a{color:inherit;font-weight:700}
+.score{font-size:14px;color:var(--muted);font-weight:600}
+.passage{font-size:18px;line-height:1.7;background:var(--soft);border-radius:12px;padding:12px 14px}
+.gap{color:var(--accent);font-weight:600;white-space:nowrap}
+.need{font-size:15px}
+textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:18px/1.45 var(--f-pl);padding:10px 12px;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink);align-self:flex-start}
+.model{font-size:18px;line-height:1.5;border-left:3px solid var(--accent);padding:4px 0 4px 12px;margin-bottom:8px}
+ul.check{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:15px;color:var(--ink2)}
+ul.check label{display:flex;gap:10px;align-items:flex-start;min-height:32px;cursor:pointer}
+ul.check input{flex:none;width:20px;height:20px;margin-top:2px;accent-color:var(--accent)}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script id="data" type="application/json">{"topic": {"topic": "zaimki-osobowe", "level": "B1", "group": "Местоимения", "title_pl": "Zaimki osobowe", "title_ru": "Личные местоимения", "lead": "Mi или mnie? Go или niego? Как склоняются ja, ty, on, ona, my, wy, oni и когда нужна короткая форма.", "facts_file": "extract.json", "stage": "теория и упражнения — ждёт проверки", "markup": "[[…]] — польский текст", "exam_ref": {"id": "EXAM", "refs": ["Egzamin B1, luty 2024, Poprawność gramatyczna, zad. I — odmiana rzeczowników, przymiotników i zaimków (z nas; podoba się im)", "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. c, s. 76"]}, "forms": [], "theory": [{"id": "t1", "title": "Главное за полминуты", "facts": ["Z5", "Z6"], "blocks": [{"type": "p", "text": "У многих местоимений по две-три формы одного падежа. Выбор зависит от двух вопросов: **есть ли предлог** и **падает ли на слово ударение**."}, {"type": "steps", "items": ["После предлога — длинная форма или форма с n-: [[do mnie, dla ciebie, z nim, o niej]].", "Без предлога, в середине фразы — короткая: [[Daj mi. Widzę go. Kocham cię.]]", "В начале фразы или когда выделяем — длинная: [[Mnie to daj. Jego nie widzę.]]"]}]}, {"id": "t2", "title": "Ja и ty по падежам", "facts": ["Z1"], "blocks": [{"type": "table", "head": ["падеж", "ja", "ty"], "rows": [["кого? чего?", "mnie", "ciebie / cię"], ["кому?", "mi / mnie", "ci / tobie"], ["кого? что?", "mnie", "ciebie / cię"], ["кем? чем?", "mną", "tobą"], ["о ком?", "mnie", "tobie"]], "pl_cols": [1, 2]}, {"type": "note", "kind": "tip", "text": "Через косую черту: сначала короткая (безударная) форма, потом длинная. У [[ja]] короткая есть только в дательном: [[mi]]."}]}, {"id": "t3", "title": "On и ono", "facts": ["Z2"], "blocks": [{"type": "table", "head": ["падеж", "без предлога", "после предлога"], "rows": [["кого? чего?", "go / jego", "niego"], ["кому?", "mu / jemu", "niemu"], ["кого? что? (on)", "go / jego", "niego"], ["что? (ono)", "je", "nie"], ["кем? чем?", "nim", "nim"], ["о ком?", "—", "nim"]], "pl_cols": [1, 2]}, {"type": "ex", "items": [{"pl": "To jest Marek. Znam go od dziecka.", "ru": "Это Марек. Я знаю его с детства."}, {"pl": "Mam dla niego prezent.", "ru": "У меня для него подарок."}, {"pl": "To okno jest brudne. Umyję je.", "ru": "Это окно грязное. Я его вымою."}]}]}, {"id": "t4", "title": "Ona", "facts": ["Z3"], "blocks": [{"type": "table", "head": ["падеж", "без предлога", "после предлога"], "rows": [["кого? чего?", "jej", "niej"], ["кому?", "jej", "niej"], ["кого? что?", "ją", "nią"], ["кем? чем?", "nią", "nią"], ["о ком?", "—", "niej"]], "pl_cols": [1, 2]}, {"type": "ex", "items": [{"pl": "Kupię jej kwiaty.", "ru": "Я куплю ей цветы."}, {"pl": "Byłam u niej wczoraj.", "ru": "Я была у неё вчера."}, {"pl": "Lubię ją. Często z nią rozmawiam.", "ru": "Я её люблю. Часто с ней разговариваю."}]}, {"type": "note", "kind": "tip", "text": "Не путайте [[ją]] (кого? что?) и [[nią]] (кем? — и после предлога): [[Widzę ją]], но [[Idę z nią]], [[Czekam na nią]]."}]}, {"id": "t5", "title": "My, wy, oni, one", "facts": ["Z4"], "blocks": [{"type": "table", "head": ["падеж", "my", "wy", "oni / one"], "rows": [["кого? чего?", "nas", "was", "ich / nich"], ["кому?", "nam", "wam", "im / nim"], ["кого? что?", "nas", "was", "oni: ich / nich · one: je / nie"], ["кем? чем?", "nami", "wami", "nimi"], ["о ком?", "nas", "was", "nich"]], "pl_cols": [1, 2, 3]}, {"type": "p", "text": "В винительном различаем **мужчин (oni)** и **всех остальных (one)**: [[Zapraszam braci — zapraszam ich]], но [[Zapraszam siostry — zapraszam je]]."}, {"type": "ex", "items": [{"pl": "Odwiedźcie nas w sobotę!", "ru": "Приходите к нам в субботу!"}, {"pl": "Rozmawiałam z nimi wczoraj.", "ru": "Я разговаривала с ними вчера."}, {"pl": "Te książki są nowe. Czytam je.", "ru": "Эти книги новые. Я их читаю."}]}]}, {"id": "t6", "title": "Короткая или длинная?", "facts": ["Z5"], "blocks": [{"type": "p", "text": "Короткие формы [[mi, ci, cię, go, mu]] безударные — они «прилипают» к глаголу. Поэтому **в начале фразы их не ставят**. Там и при противопоставлении нужна длинная форма."}, {"type": "table", "head": ["обычно", "с выделением"], "rows": [["Daj mi to.", "Mnie to daj, nie jemu."], ["Dużo ci zawdzięczam.", "Tobie wszystko zawdzięczam."], ["Nie widzę go.", "Jego nie widzę, ale widzę ją."]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "Mi się to nie podoba.", "good": "Mnie się to nie podoba."}]}, {"type": "note", "kind": "tip", "text": "В разговоре [[Mi się wydaje…]] слышно часто, но по норме в начале фразы — [[Mnie]]. На экзамене пишите [[Mnie się podoba]]."}]}, {"id": "t7", "title": "После предлога", "facts": ["Z6"], "blocks": [{"type": "p", "text": "После предлога короткие формы не бывают. Берём длинную форму или форму с **n-**. Формы [[niego, niemu, niej, nich, nie]] и [[nią]] (кого? что?) бывают **только** после предлога."}, {"type": "table", "head": ["без предлога", "после предлога"], "rows": [["Znam go.", "Czekam na niego."], ["Pomagam mu.", "Dzięki niemu zdałam egzamin."], ["Lubię ją.", "Idę z nią do kina."], ["Kupię jej kwiaty.", "Mam coś dla niej."], ["Zapraszam ich.", "Idę do nich."], ["Widzę cię.", "To dla ciebie."]], "pl_cols": [0, 1]}, {"type": "table", "head": ["без предлога", "после предлога"], "rows": [["Znam go.", "Czekam na niego."], ["Dam mu.", "Idę ku niemu? — редко; обычно: Dzięki niemu."], ["Lubię ją.", "Myślę o niej. Idę z nią."], ["Pomagam jej.", "Mam coś dla niej."], ["Zapraszam ich.", "Idę do nich."], ["Widzisz cię? — нет: Widzę cię.", "To dla ciebie."]], "pl_cols": [0, 1]}, {"type": "fix", "items": [{"bad": "Czekam na go.", "good": "Czekam na niego."}, {"bad": "Rozmawiałam z ją.", "good": "Rozmawiałam z nią."}, {"bad": "To list do jej.", "good": "To list do niej."}]}]}, {"id": "t8", "title": "Ze mną, przede mną", "facts": ["Z7"], "blocks": [{"type": "p", "text": "Перед [[mną]] предлоги получают -e:"}, {"type": "chips", "items": ["ze mną", "przede mną", "nade mną", "pode mną"]}, {"type": "ex", "items": [{"pl": "Chodź ze mną do kina!", "ru": "Пойдём со мной в кино!"}, {"pl": "Przede mną stał wysoki pan.", "ru": "Передо мной стоял высокий мужчина."}]}]}, {"id": "t9", "title": "В письме", "facts": ["Z8"], "blocks": [{"type": "p", "text": "Когда пишем письмо человеку, формы [[ty]] обычно пишут с большой буквы — из вежливости:"}, {"type": "ex", "items": [{"pl": "Pozdrawiam Cię serdecznie!", "ru": "Сердечно тебя приветствую!"}, {"pl": "Dziękuję Ci za pomoc.", "ru": "Спасибо тебе за помощь."}, {"pl": "Mam dla Ciebie niespodziankę.", "ru": "У меня для тебя сюрприз."}]}]}, {"id": "t10", "title": "На экзамене", "facts": ["EXAM"], "blocks": [{"type": "p", "text": "В части «Poprawność gramatyczna» есть задание на выбор формы, где среди вариантов — местоимения (в феврале 2024: [[z nas]], [[podoba się im]]). А в письме формы [[Cię, Ci, Ciebie]] нужны почти всегда."}, {"type": "steps", "items": ["Есть предлог? → длинная или с n-: [[dla niego, z nią, o nich]].", "Начало фразы или выделение? → длинная: [[Mnie, Tobie, Jego]].", "Иначе → короткая: [[mi, ci, cię, go, mu]].", "Мужчины → [[ich / nich]], все остальные → [[je / nie]] (кого? что?)."]}]}], "exercises": [{"id": "e1", "level": 1, "kind": "choice", "title": "Выберите форму", "items": [{"q": "Idziesz ze ___ do kina?", "a": ["mną"], "expl": "С кем? — творительный: mną.", "t": "t8", "opts": ["mną", "mnie", "mi"]}, {"q": "___ się ten film nie podobał, a tobie?", "a": ["Mnie"], "expl": "Начало фразы и противопоставление — длинная форма.", "t": "t6", "opts": ["Mnie", "Mi", "Mną"]}, {"q": "To prezent dla ___.", "a": ["ciebie"], "expl": "После предлога — длинная форма.", "t": "t7", "opts": ["ciebie", "cię", "ci"]}, {"q": "Znasz Marka? Często o ___ myślę.", "a": ["nim"], "expl": "O kim? — предложный: nim.", "t": "t3", "opts": ["nim", "niego", "jego"]}, {"q": "Gdzie jest Ania? Czekam na ___ od rana.", "a": ["nią"], "expl": "Czekać na kogo? — винительный после предлога: nią.", "t": "t4", "opts": ["nią", "ją", "niej"]}, {"q": "Lubisz te piosenki? Słucham ___ codziennie.", "a": ["ich"], "expl": "Słuchać кого? чего? — родительный, без предлога: ich.", "t": "t5", "opts": ["ich", "je", "nich"]}, {"q": "Kupiłam nowe buty i chodzę w ___ cały dzień.", "a": ["nich"], "expl": "W czym? — предложный: nich.", "t": "t5", "opts": ["nich", "ich", "nie"]}, {"q": "Gdzie są dzieci? Widzę ___ w ogrodzie.", "a": ["je"], "expl": "Dzieci — не мужчины: в винительном je.", "t": "t5", "opts": ["je", "ich", "nie"]}]}, {"id": "e2", "level": 1, "kind": "type", "title": "Исправьте ошибку", "instr": "Выделенная форма неверна. Впишите правильную.", "items": [{"q": "Czekam na **go** od godziny.", "a": ["niego"], "expl": "После предлога — форма с n-.", "t": "t7"}, {"q": "**Mi** się to wcale nie podoba.", "a": ["Mnie"], "expl": "В начале фразы — длинная форма.", "t": "t6"}, {"q": "Rozmawiałam wczoraj z **ją**.", "a": ["nią"], "expl": "После предлога z — nią.", "t": "t7"}, {"q": "To jest list do **jej**.", "a": ["niej"], "expl": "После предлога — форма с n-.", "t": "t7"}, {"q": "Często myślę o **ciebie**.", "a": ["tobie"], "expl": "O kim? — предложный: tobie.", "t": "t2"}, {"q": "**Cię** szukam, a nie Marka.", "a": ["Ciebie"], "expl": "Начало фразы и противопоставление — длинная форма.", "t": "t6"}, {"q": "Nie mogę bez **cię** żyć.", "a": ["ciebie"], "expl": "После предлога — длинная форма.", "t": "t7"}]}, {"id": "e3", "level": 2, "kind": "type", "title": "Ja и ty", "instr": "Поставьте местоимение в скобках в нужную форму.", "items": [{"q": "Zadzwoń do ___ wieczorem! (ja)", "a": ["mnie"], "expl": "Do kogo? — родительный: mnie.", "t": "t2"}, {"q": "Zjesz ze ___ obiad? (ja)", "a": ["mną"], "expl": "Z kim? — mną.", "t": "t8"}, {"q": "Bardzo tęsknię za ___. (ty)", "a": ["tobą"], "expl": "Tęsknić za kim? — творительный: tobą.", "t": "t2"}, {"q": "Kocham ___! (ty)", "a": ["cię", "ciebie"], "expl": "Обычно cię; ciebie — если выделяем.", "t": "t6"}, {"q": "Myślę o ___ cały dzień. (ty)", "a": ["tobie"], "expl": "O kim? — предложный: tobie.", "t": "t2"}, {"q": "Czy ten prezent jest dla ___? (ja)", "a": ["mnie"], "expl": "Dla kogo? — родительный: mnie.", "t": "t2"}, {"q": "Pokażę ___ moje zdjęcia z wakacji. (ty)", "a": ["ci", "tobie"], "expl": "Кому? Обычно ci; tobie — если выделяем.", "t": "t6"}, {"q": "Nie było ___ wczoraj na lekcji. (ja)", "a": ["mnie"], "expl": "Kogo nie było? — родительный: mnie.", "t": "t2"}, {"q": "Bez ___ nie pojadę na wycieczkę. (ty)", "a": ["ciebie"], "expl": "Bez kogo? — после предлога длинная: ciebie.", "t": "t7"}, {"q": "W kinie siedziałaś obok ___. (ja)", "a": ["mnie"], "expl": "Obok kogo? — родительный: mnie.", "t": "t2"}]}, {"id": "e4", "level": 2, "kind": "type", "title": "On, ona, ono", "instr": "Поставьте местоимение в скобках в нужную форму.", "items": [{"q": "To jest Marek. Znam ___ od dziecka. (on)", "a": ["go"], "expl": "Kogo? без предлога, без выделения — go.", "t": "t3"}, {"q": "To jest Ewa. Bardzo ___ lubię. (ona)", "a": ["ją"], "expl": "Kogo? — винительный: ją.", "t": "t4"}, {"q": "Ewa ma jutro urodziny. Mam dla ___ prezent. (ona)", "a": ["niej"], "expl": "Dla kogo? — после предлога: niej.", "t": "t4"}, {"q": "Kup ___ kwiaty na urodziny! (ona)", "a": ["jej"], "expl": "Komu? без предлога — jej.", "t": "t4"}, {"q": "Dziadek jest chory. Często ___ pomagam. (on)", "a": ["mu"], "expl": "Komu? без выделения — mu.", "t": "t3"}, {"q": "Idę do Tomka. Muszę z ___ porozmawiać. (on)", "a": ["nim"], "expl": "Z kim? — nim.", "t": "t3"}, {"q": "Lubię to miasto. Mieszkam w ___ od roku. (ono)", "a": ["nim"], "expl": "W czym? — предложный: nim.", "t": "t3"}, {"q": "Gdzie jest dziecko? Szukam ___ wszędzie. (ono)", "a": ["go"], "expl": "Szukać kogo? — родительный: go.", "t": "t3"}, {"q": "To moja przyjaciółka Ola. Byłam u ___ wczoraj. (ona)", "a": ["niej"], "expl": "U kogo? — после предлога: niej.", "t": "t4"}, {"q": "To jest Adam. Kupiłam dla ___ książkę. (on)", "a": ["niego"], "expl": "Dla kogo? — после предлога: niego.", "t": "t3"}]}, {"id": "e5", "level": 2, "kind": "type", "title": "My, wy, oni, one", "instr": "Поставьте местоимение в скобках в нужную форму.", "items": [{"q": "Odwiedźcie ___ w sobotę! (my)", "a": ["nas"], "expl": "Kogo? — nas.", "t": "t5"}, {"q": "Dam ___ znać jutro. (wy)", "a": ["wam"], "expl": "Komu? — wam.", "t": "t5"}, {"q": "Rodzice? Rozmawiałam z ___ wczoraj. (oni)", "a": ["nimi"], "expl": "Z kim? — nimi.", "t": "t5"}, {"q": "Koledzy są w kawiarni. Idę do ___. (oni)", "a": ["nich"], "expl": "Do kogo? — после предлога: nich.", "t": "t5"}, {"q": "Znasz moje siostry? Zaprosiłam ___ na imprezę. (one)", "a": ["je"], "expl": "Kogo? siostry — не мужчины: je.", "t": "t5"}, {"q": "Moi bracia mieszkają daleko. Rzadko ___ widzę. (oni)", "a": ["ich"], "expl": "Kogo? bracia — мужчины: ich.", "t": "t5"}, {"q": "Sąsiedzi mają problem. Muszę ___ pomóc. (oni)", "a": ["im"], "expl": "Komu? без предлога — im.", "t": "t5"}, {"q": "To dla ___, kochani! (wy)", "a": ["was"], "expl": "Dla kogo? — was.", "t": "t5"}, {"q": "Wakacje już niedługo. Czekam na ___ cały rok. (one)", "a": ["nie"], "expl": "Na co? wakacje — не мужчины, после предлога: nie.", "t": "t5"}]}, {"id": "e6", "level": 3, "kind": "text", "format": "exam", "title": "List od Oli", "instr": "Как на экзамене: поставьте местоимения в скобках в нужную форму. В письме формы ty можно писать с большой буквы.", "passage": "Droga Kasiu! Dziękuję {1} za długi list. Tak się cieszę, że w sobotę przyjedziesz do {2}! Mój brat Paweł bardzo chce {3} poznać, bo dużo {4} o Tobie opowiadałam. W sobotę wieczorem pójdziemy do moich przyjaciół – Ani i Tomka. Byłam u {5} wczoraj i pytali o {6}. Ania ma dla {7} mały prezent, a Tomek chce {8} pokazać swoje zdjęcia z Japonii. Mama prosi, żebyś zadzwoniła do {9} przed przyjazdem. Czekam na {10}! Ściskam Cię, Ola", "items": [{"q": "(Ty)", "a": ["Ci", "ci", "Tobie", "tobie"], "expl": "Komu? после глагола — Ci.", "t": "t9"}, {"q": "(my)", "a": ["nas"], "expl": "Do kogo? — nas.", "t": "t5"}, {"q": "(Ty)", "a": ["Cię", "cię"], "expl": "Kogo? без предлога — Cię.", "t": "t9"}, {"q": "(on)", "a": ["mu"], "expl": "Komu? без выделения — mu.", "t": "t3"}, {"q": "(oni)", "a": ["nich"], "expl": "U kogo? — после предлога: nich.", "t": "t5"}, {"q": "(Ty)", "a": ["Ciebie", "ciebie"], "expl": "O kogo? — после предлога длинная: Ciebie.", "t": "t7"}, {"q": "(Ty)", "a": ["Ciebie", "ciebie"], "expl": "Dla kogo? — Ciebie.", "t": "t7"}, {"q": "(Ty)", "a": ["Ci", "ci"], "expl": "Komu? после глагола — Ci.", "t": "t9"}, {"q": "(ona)", "a": ["niej"], "expl": "Do kogo? — после предлога: niej.", "t": "t4"}, {"q": "(Ty)", "a": ["Ciebie", "ciebie"], "expl": "Na kogo? — после предлога: Ciebie.", "t": "t7"}]}, {"id": "e7", "level": 3, "kind": "type", "format": "exam", "title": "Перефразирование", "instr": "Перепишите по образцу: впишите одно слово.", "items": [{"q": "Daj mi to. → ___ to daj, nie jemu.", "a": ["Mnie"], "expl": "Начало фразы и противопоставление — длинная.", "t": "t6"}, {"q": "Nie widzę go. → ___ nie widzę, ale widzę ją.", "a": ["Jego"], "expl": "Начало фразы — длинная форма.", "t": "t6"}, {"q": "Czekam na Marka. → Czekam na ___.", "a": ["niego"], "expl": "После предлога — niego.", "t": "t7"}, {"q": "Rozmawiam z Anną. → Rozmawiam z ___.", "a": ["nią"], "expl": "Z kim? — nią.", "t": "t4"}, {"q": "Myślę o rodzicach. → Myślę o ___.", "a": ["nich"], "expl": "O kim? — nich.", "t": "t5"}, {"q": "Pomagam babci. → Pomagam ___.", "a": ["jej"], "expl": "Komu? без предлога — jej.", "t": "t4"}, {"q": "Znam twoje siostry. → Znam ___.", "a": ["je"], "expl": "Siostry — не мужчины: je.", "t": "t5"}]}, {"id": "e8", "level": 4, "kind": "write", "title": "Zaproszenie", "instr": "Пригласите подругу Магду на день рождения: кто ещё придёт, что вы для неё приготовите, когда она должна позвонить.", "words": [40, 50], "need": "Минимум 6 форм личных местоимений, из них 2 — после предлога; формы ty — с большой буквы.", "model": "Droga Magdo! W sobotę mam urodziny i bardzo chcę Cię zaprosić. Przyjdą też Marek i Ola – na pewno ich pamiętasz. Rozmawiałam z nimi wczoraj. Marek przyniesie gitarę, a ja upiekę dla Ciebie sernik. Zadzwoń do mnie jutro! Pozdrawiam Cię serdecznie, Kasia", "model_future": ["Cię", "ich", "nimi", "Ciebie", "mnie"], "checklist": ["Обращение в звательном (Droga Magdo!)", "Cię / Ciebie с большой буквы", "После предлога — длинная форма или с n- (z nimi, dla Ciebie)", "Без предлога — короткая (Cię, ich)", "Не начинаю фразу с mi / ci / go", "Есть подпись"], "t": "t9"}]}, "facts": {"Z1": {"refs": ["PP s. 40, 56, 74, 94, 110 (таблицы «Zaimki osobowe»)", "JPBG9 s. 120 (biernik: mnie; cię, ciebie), s. 159 (mną, tobą), s. 175 (mnie, tobie)", "MORF"], "status": "ok"}, "Z2": {"refs": ["PP s. 40, 56, 74, 94, 110", "JPBG9 s. 120 (go, jego, niego; je, nie), s. 159 (nim), s. 175 (nim)", "MORF"], "status": "ok"}, "Z3": {"refs": ["PP s. 40, 56, 74, 94, 110", "JPBG9 s. 120 (ją, nią), s. 159 (nią), s. 175 (niej)", "MORF"], "status": "ok"}, "Z4": {"refs": ["PP s. 40, 56, 74 (oni — ich/nich, one — je/nie), 94, 110", "JPBG9 s. 120 (oni ich, nich; one je, nie), s. 159 (nami, wami, nimi), s. 175 (nas, was, nich)", "MORF"], "status": "ok"}, "Z5": {"refs": ["JPBG9 s. 120 («Uwaga!»: krótkie formy — zwykle po czasowniku lub w środku zdania, nigdy na początku zdania)", "PWN1 (Mnie to daj — Daj mi to; Tobie wszystko zawdzięczam; Jego nie widzę; Widzę jego, a nie ją)", "PWN2 (Mi się tak wydaje — «wciąż nie najlepsza polszczyzna»)", "ZPE (formy akcentowane mnie, tobie — nieakcentowane mi, ci)", "MORF (akc / nakc)"], "status": "ok"}, "Z6": {"refs": ["JPBG9 s. 120 («Uwaga!»: po przyimkach — forma dłuższa (ciebie) albo forma z n- (niego, nią, nie))", "ZPE (bez przyimka: jego, je, ją, jemu, jej — z przyimkiem: niego, nie, nią, niemu, niej)", "PP s. 74 (Płacę za niego / za nią / za nie; Czekamy na nich / na nie), s. 94 (narzędnik: nim, nią, nimi; ćw. 11: Bardzo się … (on) interesuję)", "JPBG9 s. 159 (ćw. IV: Bawi się … (one) codziennie — klucz s. 201: nimi)", "MORF (praep / npraep)"], "status": "ok"}, "Z7": {"refs": ["PP s. 94 (ćw. 11: Chcesz ze mną…, Pójdziesz ze mną…)", "JPBG9 s. 159 (ćw. IV: przede mną; klucz s. 201)"], "status": "ok"}, "Z8": {"refs": ["STD B1 s. 78 (Kochana Mamo! Pozdrawiam Cię bardzo serdecznie z Poznania.)", "PP s. 75 (ćw. 10: Pozdrawiam … (Ty), Całuję … (Ty))"], "status": "ok"}}, "sources": {"STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf), Zał. 1, Część II", "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020 — таблицы «Zaimki osobowe»: s. 40 (dopełniacz), 56 (celownik), 74 (biernik), 94 (narzędnik), 110 (miejscownik)", "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 6 s. 120 (biernik zaimków + «Uwaga!» о кратких формах и формах после предлогов), ćw. III s. 121, klucz s. 198; lekcja 8 s. 159 (narzędnik zaimków); lekcja 9 s. 175 (miejscownik zaimków), ćw. II s. 176", "PWN1": "M. Bańko, «mnie czy mi? tobie czy ci?», Poradnia Językowa PWN, 21.06.2004: https://sjp.pwn.pl/poradnia/haslo/mnie-czy-mi-tobie-czy-ci;5375.html", "PWN2": "M. Bańko, «mnie czy mi?», Poradnia Językowa PWN, 4.10.2010: https://sjp.pwn.pl/poradnia/haslo/mnie-czy-mi;11443.html", "ZPE": "ZPE, A. Grabarczyk, «Przemiany w deklinacji polskiej. Zaimek» (формы akcentowane/nieakcentowane, формы с n- после предлога): https://zpe.gov.pl/pdf/Pa0c6dTYP", "EGZ": "Egzamin B1, luty 2024, Poprawność gramatyczna, zad. I (odmiana rzeczowników, przymiotników i zaimków): «z (nam, nas, nami)», «podoba się (ich, im, nim) obydwu»; zad. VIII: «Proszę cię», «za tobą», «z nim», «od ciebie»", "MORF": "Morfeusz 2 (SGJP) — падеж, число, ударная/безударная форма (akc/nakc) и форма после предлога (praep/npraep)"}, "checked": "28.10.2026"}</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const T = D.topic, F = D.facts, SRC = D.sources;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  // [[…]] — польский текст, **…** — выделение
+  const rich = s => esc(s).replace(/\[\[(.+?)\]\]/g,'<span class="pl">$1</span>').replace(/\*\*(.+?)\*\*/g,'<span class="hl">$1</span>');
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s;)]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // раскрыть сокращения источников (PO, JPBG…) один раз на раздел
+  const abbr = Object.keys(SRC);
+  function refsFor(ids){
+    const out = [], used = new Set();
+    ids.forEach(id => {
+      const refs = id === 'EXAM' ? T.exam_ref.refs : (F[id] ? F[id].refs : []);
+      refs.forEach(r => { out.push(r); abbr.forEach(a => { if (new RegExp('(^|[^A-ZŁ])'+a+'([^A-ZŁ]|$)').test(r)) used.add(a); }); });
+    });
+    const legend = [...used].map(a => '<b>'+a+'</b> — '+SRC[a]);
+    return {out, legend};
+  }
+  const block = b => {
+    switch(b.type){
+      case 'p': return '<p>'+rich(b.text)+'</p>';
+      case 'note': return b.kind === 'mark'
+        ? '<div class="note mark"><b>С пометкой</b>'+rich(b.text)+'</div>'
+        : '<div class="note tip">'+rich(b.text)+'</div>';
+      case 'chips': return '<div class="chips">'+b.items.map(i=>'<span>'+esc(i)+'</span>').join('')+'</div>';
+      case 'ex': return '<div class="ex">'+b.items.map(i=>'<div><div class="pl">'+esc(i.pl)+'</div><div class="ru">'+esc(i.ru)+'</div></div>').join('')+'</div>';
+      case 'fix': return '<div class="fix">'+b.items.map(i=>'<span class="bad">'+esc(i.bad)+'</span><span class="arr" aria-hidden="true">→</span><span class="good">'+esc(i.good)+'</span>').join('')+'</div>';
+      case 'steps': return '<ol class="steps">'+b.items.map(i=>'<li>'+rich(i)+'</li>').join('')+'</ol>';
+      case 'table': {
+        const pc = new Set(b.pl_cols || []);
+        const head = b.head.some(h=>h) ? '<thead><tr>'+b.head.map(h=>'<th>'+rich(h)+'</th>').join('')+'</tr></thead>' : '';
+        const rows = b.rows.map(r=>'<tr>'+r.map((c,i)=>{
+          const lab = i===0 && b.head[0]==='' ;
+          const cls = lab ? 'lab'+(pc.has(i)?' pl':'') : (pc.has(i)?'pl':'');
+          return '<td'+(cls?' class="'+cls+'"':'')+'>'+(pc.has(i)?esc(c.replace(/\[\[|\]\]/g,'')):rich(c))+'</td>';
+        }).join('')+'</tr>').join('');
+        return '<div class="tw"><table>'+head+'<tbody>'+rows+'</tbody></table></div>';
+      }
+    }
+    return '';
+  };
+  let h = '<div class="top"><span class="crumb">Грамматика · '+esc(T.group)+'</span><span class="badge">'+esc(T.level)+'</span></div>'+
+    '<header><h1>'+esc(T.title_pl)+'</h1><div class="sub">'+esc(T.title_ru)+'</div><p class="lead">'+esc(T.lead)+'</p></header>'+
+    '<div class="draft">Черновик: '+esc(T.stage)+'. Источники — под каждым разделом теории.</div>';
+  T.theory.forEach(sec => {
+    const r = refsFor(sec.facts);
+    h += '<section class="card" id="'+sec.id+'"><h2>'+rich(sec.title)+'</h2>'+sec.blocks.map(block).join('')+
+      '<details><summary>Источники · '+r.out.length+'</summary><ul>'+r.out.map(x=>'<li>'+linkify(x)+'</li>').join('')+
+      (r.legend.length?'<li style="list-style:none;margin-left:-18px;margin-top:4px">'+r.legend.map(linkify).join('<br>')+'</li>':'')+'</ul></details></section>';
+  });
+  const EX = T.exercises || [];
+  if (EX.length){
+    const LV = {1:'Узнать',2:'Образовать',3:'Применить',4:'Свой текст'};
+    h += '<h2 class="exh" id="ex">Упражнения</h2>';
+    EX.forEach(e => {
+      h += '<section class="card" id="'+e.id+'"><div class="lvl">Ступень '+e.level+' · '+LV[e.level]+(e.format==='exam'?' · формат экзамена':'')+'</div><h2>'+(e.kind==='text'||e.kind==='write'?'<span class="pl">'+esc(e.title)+'</span>':esc(e.title))+'</h2>'+
+        (e.instr?'<p>'+esc(e.instr)+'</p>':'');
+      if (e.kind==='write'){
+        h += '<p class="need">'+esc(e.need)+' Объём: '+e.words[0]+'–'+e.words[1]+' слов.</p>'+
+          '<textarea id="w-'+e.id+'" lang="pl" spellcheck="false" rows="6" aria-label="Ваш текст"></textarea>'+
+          '<div class="score" id="wc-'+e.id+'">0 слов</div>'+
+          '<button type="button" class="btn ghost" data-show="'+e.id+'">Показать образец и чек-лист</button>'+
+          '<div id="m-'+e.id+'" hidden><div class="model pl">'+esc(e.model)+'</div>'+
+          '<p class="score">Нужные формы в образце: <span class="pl">'+e.model_future.map(esc).join(', ')+'</span></p>'+
+          '<ul class="check">'+e.checklist.map((c,i)=>'<li><label><input type="checkbox" id="c-'+e.id+'-'+i+'"> '+esc(c)+'</label></li>').join('')+'</ul></div></section>';
+        return;
+      }
+      if (e.kind==='text') h += '<div class="passage pl">'+esc(e.passage).replace(/\{(\d+)\}/g,'<span class="gap">($1)&nbsp;____</span>')+'</div>';
+      h += e.items.map((it,i)=>{
+          const key=e.id+'-'+i;
+          const q=e.kind==='text' ? '('+esc(it.q)+')' : esc(it.q).replace(/\*\*(.+?)\*\*/g,'<span class="bold">$1</span>');
+          const body = e.kind==='choice'
+            ? '<div class="row">'+it.opts.map(o=>'<button type="button" class="opt" data-k="'+key+'" data-v="'+esc(o)+'">'+esc(o)+'</button>').join('')+'</div>'
+            : '<form class="row" data-k="'+key+'"><input id="in-'+key+'" autocomplete="off" autocapitalize="off" spellcheck="false" lang="pl" aria-label="Ответ"><button class="btn">Проверить</button></form>';
+          return '<div class="it"><div class="q">'+(i+1)+'. '+q+'</div>'+body+'<div class="fb" id="fb-'+key+'" hidden></div></div>';
+        }).join('')+'<div class="score" id="sc-'+e.id+'"></div></section>';
+    });
+  }
+  h += '<p class="foot">Все польские формы проверены Morfeusz 2 · '+esc(D.checked)+'</p>';
+  document.getElementById('app').innerHTML = h;
+  const items = {}; EX.forEach(e=>(e.items||[]).forEach((it,i)=>items[e.id+'-'+i]={e,it}));
+  const norm = v => v.trim().toLowerCase().replace(/\s+/g,' ');
+  const plain = v => norm(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l');
+  const done = {};
+  function show(key, ok, dia){
+    const {e,it} = items[key], fb = document.getElementById('fb-'+key);
+    const more = it.a.length>1 ? ' Подходят: '+it.a.map(esc).join(', ')+'.' : '';
+    fb.className = 'fb '+(ok?'ok':(dia?'dia':'no'));
+    fb.innerHTML = ok ? 'Верно. '+esc(it.expl)+more
+      : dia ? 'Почти: проверьте диакритику (ą, ę, ł, ś, ź, ż…).'
+      : 'Нет. Правильно: <span class="pl">'+esc(it.a[0])+'</span>. '+esc(it.expl)+more+' <a href="#'+it.t+'">К правилу</a>';
+    fb.hidden = false;
+    if (!dia){ done[key]=ok; const n=e.items.length, k=Object.keys(done).filter(x=>x.startsWith(e.id+'-')), r=k.filter(x=>done[x]).length;
+      document.getElementById('sc-'+e.id).textContent = 'Отвечено '+k.length+' из '+n+', верно '+r+'.'; }
+  }
+  document.getElementById('app').addEventListener('input', ev => {
+    const t = ev.target; if (t.tagName!=='TEXTAREA') return;
+    const id = t.id.slice(2), n = (t.value.match(/[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]+/g)||[]).length, e = EX.find(x=>x.id===id);
+    document.getElementById('wc-'+id).textContent = n+' слов'+(n<e.words[0]?' · мало':n>e.words[1]?' · много':' · в норме');
+  });
+  document.getElementById('app').addEventListener('click', ev => {
+    const sh = ev.target.closest('[data-show]');
+    if (sh){ const m=document.getElementById('m-'+sh.dataset.show); m.hidden=!m.hidden; sh.textContent=m.hidden?'Показать образец и чек-лист':'Скрыть образец'; return; }
+    const b = ev.target.closest('.opt'); if (!b) return;
+    const key=b.dataset.k, {it}=items[key], ok=it.a.includes(b.dataset.v);
+    document.querySelectorAll('.opt[data-k="'+key+'"]').forEach(x=>x.classList.remove('ok','no'));
+    b.classList.add(ok?'ok':'no'); show(key, ok, false);
+  });
+  document.getElementById('app').addEventListener('submit', ev => {
+    ev.preventDefault(); const f=ev.target, key=f.dataset.k, inp=f.querySelector('input'), {it}=items[key];
+    const v=norm(inp.value); if(!v) return;
+    const ok = it.a.some(a=>norm(a)===v), dia = !ok && it.a.some(a=>plain(a)===plain(v));
+    inp.classList.remove('ok','no'); inp.classList.add(ok?'ok':'no'); show(key, ok, dia);
+  });
+
+})();
+</script>
+
+</body></html>

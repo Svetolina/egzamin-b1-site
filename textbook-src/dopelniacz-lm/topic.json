@@ -1,0 +1,988 @@
+{
+ "topic": "dopelniacz-lm",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Dopełniacz l. mn.",
+ "title_ru": "Родительный падеж мн. числа",
+ "lead": "Pięć książek, dużo ludzi, nie ma biletów: -ów, -i, -y и нулевое окончание с беглым e.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-4, k1-5, k1-6, k1-7, k1-8)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. a–b, s. 75–76; 2.2.3 pkt 1 lit. b, s. 77"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "G1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Родительный мн. нужен очень часто: [[pięć, kilka, dużo, mało]] + существительное, [[nie ma]], предлоги [[do, z, bez, dla]], а у мужчин — ещё и вместо винительного."
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской (твёрдая)",
+       "-ów",
+       "[[domów, studentów]]"
+      ],
+      [
+       "мужской (мягкая, cz, sz, rz)",
+       "-i / -y",
+       "[[nauczycieli, lekarzy]]"
+      ],
+      [
+       "женский, средний (твёрдая)",
+       "нулевое (+ e)",
+       "[[kobiet, miast, książek, okien]]"
+      ],
+      [
+       "женский (мягкая, -cja)",
+       "-i / -y",
+       "[[lekcji, nocy]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Нулевое окончание — как в русском: «много книг, окон, женщин» → [[dużo książek, okien, kobiet]]."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Мужской род: -ów, -i, -y",
+   "facts": [
+    "G2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. мн.",
+      "род. мн."
+     ],
+     "rows": [
+      [
+       "domy",
+       "domów"
+      ],
+      [
+       "studenci",
+       "studentów"
+      ],
+      [
+       "panowie",
+       "panów"
+      ],
+      [
+       "nauczyciele",
+       "nauczycieli"
+      ],
+      [
+       "goście",
+       "gości"
+      ],
+      [
+       "lekarze",
+       "lekarzy"
+      ],
+      [
+       "klucze",
+       "kluczy"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "dużo nauczycielów",
+       "good": "dużo nauczycieli"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Женский и средний: нулевое окончание и беглое e",
+   "facts": [
+    "G3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Отбрасываем [[-a / -o]]. Если в конце неудобное скопление согласных — вставляем [[e]]. Часто [[o]] меняется на [[ó]]: [[szkoła → szkół]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "им. ед.",
+      "род. мн."
+     ],
+     "rows": [
+      [
+       "kobieta",
+       "kobiet"
+      ],
+      [
+       "miasto",
+       "miast"
+      ],
+      [
+       "szkoła",
+       "szkół"
+      ],
+      [
+       "książka",
+       "książek"
+      ],
+      [
+       "okno",
+       "okien"
+      ],
+      [
+       "jabłko",
+       "jabłek"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "pięć książków",
+       "good": "pięć książek"
+      },
+      {
+       "bad": "dużo kobietów",
+       "good": "dużo kobiet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Женский: -i / -y",
+   "facts": [
+    "G4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. ед.",
+      "род. мн."
+     ],
+     "rows": [
+      [
+       "lekcja",
+       "lekcji"
+      ],
+      [
+       "kuchnia",
+       "kuchni"
+      ],
+      [
+       "noc",
+       "nocy"
+      ],
+      [
+       "rzecz",
+       "rzeczy"
+      ],
+      [
+       "miłość",
+       "miłości"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Но [[ulica → ulic]] — нулевое окончание."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Средний на -e, -um",
+   "facts": [
+    "G5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. ед.",
+      "род. мн."
+     ],
+     "rows": [
+      [
+       "zdjęcie",
+       "zdjęć"
+      ],
+      [
+       "mieszkanie",
+       "mieszkań"
+      ],
+      [
+       "zajęcie",
+       "zajęć"
+      ],
+      [
+       "muzeum",
+       "muzeów"
+      ],
+      [
+       "morze",
+       "mórz"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Особые формы",
+   "facts": [
+    "G6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "им. мн.",
+      "род. мн."
+     ],
+     "rows": [
+      [
+       "ludzie",
+       "ludzi"
+      ],
+      [
+       "dzieci",
+       "dzieci"
+      ],
+      [
+       "pieniądze",
+       "pieniędzy"
+      ],
+      [
+       "przyjaciele",
+       "przyjaciół"
+      ],
+      [
+       "tygodnie",
+       "tygodni"
+      ],
+      [
+       "miesiące",
+       "miesięcy"
+      ],
+      [
+       "lata",
+       "lat"
+      ],
+      [
+       "urodziny",
+       "urodzin"
+      ],
+      [
+       "wakacje",
+       "wakacji"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "pięć roków",
+       "good": "pięć lat"
+      },
+      {
+       "bad": "dużo człowieków",
+       "good": "dużo ludzi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Прилагательные, ten, mój",
+   "facts": [
+    "G7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Одно окончание на все рода: [[-ych]], после [[k, g]] — [[-ich]]."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Szukam tanich biletów.",
+       "ru": "Ищу дешёвые билеты."
+      },
+      {
+       "pl": "Nie znam tych ludzi.",
+       "ru": "Я не знаю этих людей."
+      },
+      {
+       "pl": "Kilka moich koleżanek mieszka w Gdańsku.",
+       "ru": "Несколько моих подруг живут в Гданьске."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В блоке 1 сборника 2017 родительный мн. — самая частая форма: [[kolejki do kas]], [[nie ma wolnych miejsc]], [[wiele nagród]], [[dużo zdjęć]], [[wielu dobrych przyjaciół]], [[brak pieniędzy]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Перед словом [[pięć, kilka, dużo, mało, wiele]], [[nie ma]] или предлог с родительным?",
+      "Мужской: [[-ów]], после мягких и [[l]] — [[-i]], после [[cz, sz, rz]] — [[-y]].",
+      "Женский и средний: отбросить [[-a / -o]], при скоплении — [[e]] ([[książek, okien]]).",
+      "Прилагательное: [[-ych / -ich]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Mam pięć ___.",
+     "a": [
+      "książek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3",
+     "opts": [
+      "książki",
+      "książek",
+      "książków"
+     ]
+    },
+    {
+     "q": "W sklepie nie ma ___.",
+     "a": [
+      "jabłek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3",
+     "opts": [
+      "jabłka",
+      "jabłek",
+      "jabłków"
+     ]
+    },
+    {
+     "q": "Na kursie jest dużo ___.",
+     "a": [
+      "studentów"
+     ],
+     "expl": "Мужской: -ów.",
+     "t": "t2",
+     "opts": [
+      "studentów",
+      "studenci",
+      "studenty"
+     ]
+    },
+    {
+     "q": "W pokoju jest kilka ___.",
+     "a": [
+      "okien"
+     ],
+     "expl": "Okno → okien.",
+     "t": "t3",
+     "opts": [
+      "okna",
+      "okien",
+      "oknów"
+     ]
+    },
+    {
+     "q": "Mieszkam tu od pięciu ___.",
+     "a": [
+      "lat"
+     ],
+     "expl": "Rok → lat.",
+     "t": "t6",
+     "opts": [
+      "roków",
+      "lat",
+      "lata"
+     ]
+    },
+    {
+     "q": "Nie mam ___.",
+     "a": [
+      "pieniędzy"
+     ],
+     "expl": "Pieniądze → pieniędzy.",
+     "t": "t6",
+     "opts": [
+      "pieniądze",
+      "pieniędzy",
+      "pieniądzów"
+     ]
+    },
+    {
+     "q": "Znam wielu ___.",
+     "a": [
+      "nauczycieli"
+     ],
+     "expl": "После l — -i.",
+     "t": "t2",
+     "opts": [
+      "nauczycielów",
+      "nauczycieli",
+      "nauczyciele"
+     ]
+    },
+    {
+     "q": "Mam dziś sześć ___.",
+     "a": [
+      "lekcji"
+     ],
+     "expl": "-cja → -cji.",
+     "t": "t4",
+     "opts": [
+      "lekcje",
+      "lekcji",
+      "lekcjów"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "W tej firmie pracuje dużo **kobietów**.",
+     "a": [
+      "kobiet"
+     ],
+     "expl": "Нулевое окончание.",
+     "t": "t3"
+    },
+    {
+     "q": "Na ulicy było mało **człowieków**.",
+     "a": [
+      "ludzi"
+     ],
+     "expl": "Особая форма.",
+     "t": "t6"
+    },
+    {
+     "q": "Mam troje **dziecków**.",
+     "a": [
+      "dzieci"
+     ],
+     "expl": "Dzieci → dzieci.",
+     "t": "t6"
+    },
+    {
+     "q": "Kupiłam dziesięć **jajków**.",
+     "a": [
+      "jajek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3"
+    },
+    {
+     "q": "Zrobiłam dużo **zdjęciów**.",
+     "a": [
+      "zdjęć"
+     ],
+     "expl": "Средний на -e → нулевое.",
+     "t": "t5"
+    },
+    {
+     "q": "Szukam **tanych** mieszkań.",
+     "a": [
+      "tanich"
+     ],
+     "expl": "Прилагательное: -ich.",
+     "t": "t7"
+    },
+    {
+     "q": "Nie mam **przyjacieli** w tym mieście.",
+     "a": [
+      "przyjaciół"
+     ],
+     "expl": "Особая форма.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Мужской род",
+   "instr": "Поставьте слово в родительный мн.",
+   "items": [
+    {
+     "q": "W bibliotece jest dużo ___. (słownik)",
+     "a": [
+      "słowników"
+     ],
+     "expl": "Твёрдая → -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "Na parkingu nie ma wolnych ___. (garaż)",
+     "a": [
+      "garaży",
+      "garażów"
+     ],
+     "expl": "После ż — -y (вариант -ów).",
+     "t": "t2"
+    },
+    {
+     "q": "Mam pięciu ___. (kuzyn)",
+     "a": [
+      "kuzynów"
+     ],
+     "expl": "Мужской: -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "Na koncercie było tysiąc ___. (widz)",
+     "a": [
+      "widzów"
+     ],
+     "expl": "-owie → -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "Szukam ___ do mieszkania. (klucz)",
+     "a": [
+      "kluczy"
+     ],
+     "expl": "После cz — -y.",
+     "t": "t2"
+    },
+    {
+     "q": "Czekam na kilku ___. (gość)",
+     "a": [
+      "gości"
+     ],
+     "expl": "Мягкая → -i.",
+     "t": "t2"
+    },
+    {
+     "q": "W szpitalu brakuje ___. (lekarz)",
+     "a": [
+      "lekarzy"
+     ],
+     "expl": "После rz — -y.",
+     "t": "t2"
+    },
+    {
+     "q": "Kupiłem kilo ___. (pomidor)",
+     "a": [
+      "pomidorów"
+     ],
+     "expl": "Твёрдая → -ów.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Женский и средний род",
+   "instr": "Поставьте слово в родительный мн.",
+   "items": [
+    {
+     "q": "W mieście jest pięć ___. (szkoła)",
+     "a": [
+      "szkół"
+     ],
+     "expl": "O → ó: szkół.",
+     "t": "t3"
+    },
+    {
+     "q": "Kupiłam kilo ___. (truskawka)",
+     "a": [
+      "truskawek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3"
+    },
+    {
+     "q": "W tym kraju jest dużo pięknych ___. (miasto)",
+     "a": [
+      "miast"
+     ],
+     "expl": "Нулевое.",
+     "t": "t3"
+    },
+    {
+     "q": "Nie lubię długich ___. (rozmowa)",
+     "a": [
+      "rozmów"
+     ],
+     "expl": "O → ó: rozmów.",
+     "t": "t3"
+    },
+    {
+     "q": "W tej dzielnicy jest dużo ___. (restauracja)",
+     "a": [
+      "restauracji"
+     ],
+     "expl": "-cja → -cji.",
+     "t": "t4"
+    },
+    {
+     "q": "Mam w domu kilka ___. (roślina)",
+     "a": [
+      "roślin"
+     ],
+     "expl": "Нулевое.",
+     "t": "t3"
+    },
+    {
+     "q": "Na kursie było mało ___. (zajęcie)",
+     "a": [
+      "zajęć"
+     ],
+     "expl": "Средний на -e → нулевое.",
+     "t": "t5"
+    },
+    {
+     "q": "W Krakowie jest wiele ___. (muzeum)",
+     "a": [
+      "muzeów"
+     ],
+     "expl": "-um → -ów.",
+     "t": "t5"
+    },
+    {
+     "q": "Na tej ulicy nie ma ___. (sklep)",
+     "a": [
+      "sklepów"
+     ],
+     "expl": "Мужской: -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "Ile masz ___? (siostra)",
+     "a": [
+      "sióstr"
+     ],
+     "expl": "Siostra → sióstr.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "С прилагательным",
+   "instr": "Поставьте в родительный мн. обе части.",
+   "items": [
+    {
+     "q": "Szukam ___. (tani bilet)",
+     "a": [
+      "tanich biletów"
+     ],
+     "expl": "-ich + -ów.",
+     "t": "t7"
+    },
+    {
+     "q": "Mam dużo ___. (dobra koleżanka)",
+     "a": [
+      "dobrych koleżanek"
+     ],
+     "expl": "-ych + нулевое (e).",
+     "t": "t7"
+    },
+    {
+     "q": "Nie znam ___. (ten nowy sąsiad)",
+     "a": [
+      "tych nowych sąsiadów"
+     ],
+     "expl": "Tych + -ych + -ów.",
+     "t": "t7"
+    },
+    {
+     "q": "W sklepie jest wiele ___. (świeże jabłko)",
+     "a": [
+      "świeżych jabłek"
+     ],
+     "expl": "-ych + jabłek.",
+     "t": "t7"
+    },
+    {
+     "q": "Kupiłam kilka ___. (polska książka)",
+     "a": [
+      "polskich książek"
+     ],
+     "expl": "-ich + książek.",
+     "t": "t7"
+    },
+    {
+     "q": "Brakuje mi ___. (moi przyjaciele)",
+     "a": [
+      "moich przyjaciół"
+     ],
+     "expl": "Moich + przyjaciół.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Urodziny Kasi",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "Na urodziny Kasi przyszło dużo {1}. Było dwadzieścia {2} i pięciu {3} z jej pracy. Na stole stało kilka {4} i talerze pełne {5}. Kasia dostała mnóstwo {6}, ale nie było wśród nich {7}. Wszyscy zrobili wiele {8}. Impreza trwała do drugiej, bo nikt nie chciał iść do {9}. Kasia mówi, że nie pamięta tak udanych {10}.",
+   "items": [
+    {
+     "q": "gość",
+     "a": [
+      "gości"
+     ],
+     "expl": "Dużo + gości.",
+     "t": "t2"
+    },
+    {
+     "q": "osoba",
+     "a": [
+      "osób"
+     ],
+     "expl": "Нулевое: o → ó.",
+     "t": "t3"
+    },
+    {
+     "q": "kolega",
+     "a": [
+      "kolegów"
+     ],
+     "expl": "Pięciu + kolegów.",
+     "t": "t2"
+    },
+    {
+     "q": "butelka",
+     "a": [
+      "butelek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3"
+    },
+    {
+     "q": "kanapka",
+     "a": [
+      "kanapek"
+     ],
+     "expl": "Нулевое + e.",
+     "t": "t3"
+    },
+    {
+     "q": "prezent",
+     "a": [
+      "prezentów"
+     ],
+     "expl": "Mnóstwo + -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "kwiaty",
+     "a": [
+      "kwiatów"
+     ],
+     "expl": "Nie było + родительный.",
+     "t": "t2"
+    },
+    {
+     "q": "zdjęcie",
+     "a": [
+      "zdjęć"
+     ],
+     "expl": "Wiele + zdjęć.",
+     "t": "t5"
+    },
+    {
+     "q": "dom (l. mn.)",
+     "a": [
+      "domów"
+     ],
+     "expl": "Do + родительный мн.",
+     "t": "t2"
+    },
+    {
+     "q": "urodziny",
+     "a": [
+      "urodzin"
+     ],
+     "expl": "Особая форма.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "W sklepie są tylko dwie książki. → W sklepie jest mało ___.",
+     "a": [
+      "książek"
+     ],
+     "expl": "Mało + родительный мн.",
+     "t": "t3"
+    },
+    {
+     "q": "Na kursie jest piętnaście osób. → Na kursie jest piętnaście ___.",
+     "a": [
+      "osób"
+     ],
+     "expl": "15 + родительный мн.",
+     "t": "t3"
+    },
+    {
+     "q": "W kinie wszystkie miejsca były zajęte. → W kinie nie było wolnych ___.",
+     "a": [
+      "miejsc"
+     ],
+     "expl": "Nie było + родительный мн.",
+     "t": "t3"
+    },
+    {
+     "q": "Znam tych studentów od roku. → Znam ich od dwunastu ___. (miesiąc)",
+     "a": [
+      "miesięcy"
+     ],
+     "expl": "Miesiąc → miesięcy (особая форма, как в «лет»).",
+     "t": "t6"
+    },
+    {
+     "q": "Na parkingu stoi tylko jeden samochód. → Na parkingu jest mało ___.",
+     "a": [
+      "samochodów"
+     ],
+     "expl": "Mało + -ów.",
+     "t": "t2"
+    },
+    {
+     "q": "Moi rodzice mają pięcioro dzieci. → W naszej rodzinie jest pięcioro ___.",
+     "a": [
+      "dzieci"
+     ],
+     "expl": "Dzieci → dzieci (особая форма).",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 4,
+   "kind": "write",
+   "title": "Lista zakupów na imprezę",
+   "instr": "Напишите другу, что нужно купить к вечеринке и сколько, и кого вы пригласили.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм родительного мн.: количество (kilo, kilka, dużo, pięć…), хотя бы одно «прилагательное + существительное», хотя бы одна особая форма (ludzi, przyjaciół, dzieci).",
+   "model": "Cześć Tomek! W sobotę przyjdzie dziesięć osób: kilku kolegów z pracy i dużo moich przyjaciół. Kup proszę dwa kilo pomidorów, kilka butelek soku i pięć paczek chipsów. Nie mamy już też talerzy ani serwetek. Ja kupię dużo świeżych owoców. Dzięki!",
+   "model_future": [
+    "osób",
+    "kolegów",
+    "moich przyjaciół",
+    "pomidorów",
+    "butelek",
+    "paczek",
+    "chipsów",
+    "talerzy",
+    "serwetek",
+    "świeżych owoców"
+   ],
+   "checklist": [
+    "Есть обращение",
+    "Количество + родительный мн. (kilo pomidorów…)",
+    "Kilka / dużo / pięć + родительный мн.",
+    "Nie ma / nie mamy + родительный мн.",
+    "Прилагательное -ych / -ich",
+    "Особая форма (przyjaciół, ludzi, dzieci)",
+    "Мужчины: kolegów; женщины и вещи: нулевое (osób, butelek)",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

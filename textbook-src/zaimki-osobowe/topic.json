@@ -1,0 +1,1189 @@
+{
+ "topic": "zaimki-osobowe",
+ "level": "B1",
+ "group": "Местоимения",
+ "title_pl": "Zaimki osobowe",
+ "title_ru": "Личные местоимения",
+ "lead": "Mi или mnie? Go или niego? Как склоняются ja, ty, on, ona, my, wy, oni и когда нужна короткая форма.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Egzamin B1, luty 2024, Poprawność gramatyczna, zad. I — odmiana rzeczowników, przymiotników i zaimków (z nas; podoba się im)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.1 pkt 1 lit. c, s. 76"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "Z5",
+    "Z6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "У многих местоимений по две-три формы одного падежа. Выбор зависит от двух вопросов: **есть ли предлог** и **падает ли на слово ударение**."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "После предлога — длинная форма или форма с n-: [[do mnie, dla ciebie, z nim, o niej]].",
+      "Без предлога, в середине фразы — короткая: [[Daj mi. Widzę go. Kocham cię.]]",
+      "В начале фразы или когда выделяем — длинная: [[Mnie to daj. Jego nie widzę.]]"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Ja и ty по падежам",
+   "facts": [
+    "Z1"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "ja",
+      "ty"
+     ],
+     "rows": [
+      [
+       "кого? чего?",
+       "mnie",
+       "ciebie / cię"
+      ],
+      [
+       "кому?",
+       "mi / mnie",
+       "ci / tobie"
+      ],
+      [
+       "кого? что?",
+       "mnie",
+       "ciebie / cię"
+      ],
+      [
+       "кем? чем?",
+       "mną",
+       "tobą"
+      ],
+      [
+       "о ком?",
+       "mnie",
+       "tobie"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Через косую черту: сначала короткая (безударная) форма, потом длинная. У [[ja]] короткая есть только в дательном: [[mi]]."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "On и ono",
+   "facts": [
+    "Z2"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "без предлога",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "кого? чего?",
+       "go / jego",
+       "niego"
+      ],
+      [
+       "кому?",
+       "mu / jemu",
+       "niemu"
+      ],
+      [
+       "кого? что? (on)",
+       "go / jego",
+       "niego"
+      ],
+      [
+       "что? (ono)",
+       "je",
+       "nie"
+      ],
+      [
+       "кем? чем?",
+       "nim",
+       "nim"
+      ],
+      [
+       "о ком?",
+       "—",
+       "nim"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "To jest Marek. Znam go od dziecka.",
+       "ru": "Это Марек. Я знаю его с детства."
+      },
+      {
+       "pl": "Mam dla niego prezent.",
+       "ru": "У меня для него подарок."
+      },
+      {
+       "pl": "To okno jest brudne. Umyję je.",
+       "ru": "Это окно грязное. Я его вымою."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Ona",
+   "facts": [
+    "Z3"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "без предлога",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "кого? чего?",
+       "jej",
+       "niej"
+      ],
+      [
+       "кому?",
+       "jej",
+       "niej"
+      ],
+      [
+       "кого? что?",
+       "ją",
+       "nią"
+      ],
+      [
+       "кем? чем?",
+       "nią",
+       "nią"
+      ],
+      [
+       "о ком?",
+       "—",
+       "niej"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Kupię jej kwiaty.",
+       "ru": "Я куплю ей цветы."
+      },
+      {
+       "pl": "Byłam u niej wczoraj.",
+       "ru": "Я была у неё вчера."
+      },
+      {
+       "pl": "Lubię ją. Często z nią rozmawiam.",
+       "ru": "Я её люблю. Часто с ней разговариваю."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Не путайте [[ją]] (кого? что?) и [[nią]] (кем? — и после предлога): [[Widzę ją]], но [[Idę z nią]], [[Czekam na nią]]."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "My, wy, oni, one",
+   "facts": [
+    "Z4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "падеж",
+      "my",
+      "wy",
+      "oni / one"
+     ],
+     "rows": [
+      [
+       "кого? чего?",
+       "nas",
+       "was",
+       "ich / nich"
+      ],
+      [
+       "кому?",
+       "nam",
+       "wam",
+       "im / nim"
+      ],
+      [
+       "кого? что?",
+       "nas",
+       "was",
+       "oni: ich / nich · one: je / nie"
+      ],
+      [
+       "кем? чем?",
+       "nami",
+       "wami",
+       "nimi"
+      ],
+      [
+       "о ком?",
+       "nas",
+       "was",
+       "nich"
+      ]
+     ],
+     "pl_cols": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "type": "p",
+     "text": "В винительном различаем **мужчин (oni)** и **всех остальных (one)**: [[Zapraszam braci — zapraszam ich]], но [[Zapraszam siostry — zapraszam je]]."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Odwiedźcie nas w sobotę!",
+       "ru": "Приходите к нам в субботу!"
+      },
+      {
+       "pl": "Rozmawiałam z nimi wczoraj.",
+       "ru": "Я разговаривала с ними вчера."
+      },
+      {
+       "pl": "Te książki są nowe. Czytam je.",
+       "ru": "Эти книги новые. Я их читаю."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Короткая или длинная?",
+   "facts": [
+    "Z5"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Короткие формы [[mi, ci, cię, go, mu]] безударные — они «прилипают» к глаголу. Поэтому **в начале фразы их не ставят**. Там и при противопоставлении нужна длинная форма."
+    },
+    {
+     "type": "table",
+     "head": [
+      "обычно",
+      "с выделением"
+     ],
+     "rows": [
+      [
+       "Daj mi to.",
+       "Mnie to daj, nie jemu."
+      ],
+      [
+       "Dużo ci zawdzięczam.",
+       "Tobie wszystko zawdzięczam."
+      ],
+      [
+       "Nie widzę go.",
+       "Jego nie widzę, ale widzę ją."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Mi się to nie podoba.",
+       "good": "Mnie się to nie podoba."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "В разговоре [[Mi się wydaje…]] слышно часто, но по норме в начале фразы — [[Mnie]]. На экзамене пишите [[Mnie się podoba]]."
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "После предлога",
+   "facts": [
+    "Z6"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После предлога короткие формы не бывают. Берём длинную форму или форму с **n-**. Формы [[niego, niemu, niej, nich, nie]] и [[nią]] (кого? что?) бывают **только** после предлога."
+    },
+    {
+     "type": "table",
+     "head": [
+      "без предлога",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "Znam go.",
+       "Czekam na niego."
+      ],
+      [
+       "Pomagam mu.",
+       "Dzięki niemu zdałam egzamin."
+      ],
+      [
+       "Lubię ją.",
+       "Idę z nią do kina."
+      ],
+      [
+       "Kupię jej kwiaty.",
+       "Mam coś dla niej."
+      ],
+      [
+       "Zapraszam ich.",
+       "Idę do nich."
+      ],
+      [
+       "Widzę cię.",
+       "To dla ciebie."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      "без предлога",
+      "после предлога"
+     ],
+     "rows": [
+      [
+       "Znam go.",
+       "Czekam na niego."
+      ],
+      [
+       "Dam mu.",
+       "Idę ku niemu? — редко; обычно: Dzięki niemu."
+      ],
+      [
+       "Lubię ją.",
+       "Myślę o niej. Idę z nią."
+      ],
+      [
+       "Pomagam jej.",
+       "Mam coś dla niej."
+      ],
+      [
+       "Zapraszam ich.",
+       "Idę do nich."
+      ],
+      [
+       "Widzisz cię? — нет: Widzę cię.",
+       "To dla ciebie."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Czekam na go.",
+       "good": "Czekam na niego."
+      },
+      {
+       "bad": "Rozmawiałam z ją.",
+       "good": "Rozmawiałam z nią."
+      },
+      {
+       "bad": "To list do jej.",
+       "good": "To list do niej."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Ze mną, przede mną",
+   "facts": [
+    "Z7"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Перед [[mną]] предлоги получают -e:"
+    },
+    {
+     "type": "chips",
+     "items": [
+      "ze mną",
+      "przede mną",
+      "nade mną",
+      "pode mną"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Chodź ze mną do kina!",
+       "ru": "Пойдём со мной в кино!"
+      },
+      {
+       "pl": "Przede mną stał wysoki pan.",
+       "ru": "Передо мной стоял высокий мужчина."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "В письме",
+   "facts": [
+    "Z8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Когда пишем письмо человеку, формы [[ty]] обычно пишут с большой буквы — из вежливости:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Pozdrawiam Cię serdecznie!",
+       "ru": "Сердечно тебя приветствую!"
+      },
+      {
+       "pl": "Dziękuję Ci za pomoc.",
+       "ru": "Спасибо тебе за помощь."
+      },
+      {
+       "pl": "Mam dla Ciebie niespodziankę.",
+       "ru": "У меня для тебя сюрприз."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В части «Poprawność gramatyczna» есть задание на выбор формы, где среди вариантов — местоимения (в феврале 2024: [[z nas]], [[podoba się im]]). А в письме формы [[Cię, Ci, Ciebie]] нужны почти всегда."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "Есть предлог? → длинная или с n-: [[dla niego, z nią, o nich]].",
+      "Начало фразы или выделение? → длинная: [[Mnie, Tobie, Jego]].",
+      "Иначе → короткая: [[mi, ci, cię, go, mu]].",
+      "Мужчины → [[ich / nich]], все остальные → [[je / nie]] (кого? что?)."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Idziesz ze ___ do kina?",
+     "a": [
+      "mną"
+     ],
+     "expl": "С кем? — творительный: mną.",
+     "t": "t8",
+     "opts": [
+      "mną",
+      "mnie",
+      "mi"
+     ]
+    },
+    {
+     "q": "___ się ten film nie podobał, a tobie?",
+     "a": [
+      "Mnie"
+     ],
+     "expl": "Начало фразы и противопоставление — длинная форма.",
+     "t": "t6",
+     "opts": [
+      "Mnie",
+      "Mi",
+      "Mną"
+     ]
+    },
+    {
+     "q": "To prezent dla ___.",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — длинная форма.",
+     "t": "t7",
+     "opts": [
+      "ciebie",
+      "cię",
+      "ci"
+     ]
+    },
+    {
+     "q": "Znasz Marka? Często o ___ myślę.",
+     "a": [
+      "nim"
+     ],
+     "expl": "O kim? — предложный: nim.",
+     "t": "t3",
+     "opts": [
+      "nim",
+      "niego",
+      "jego"
+     ]
+    },
+    {
+     "q": "Gdzie jest Ania? Czekam na ___ od rana.",
+     "a": [
+      "nią"
+     ],
+     "expl": "Czekać na kogo? — винительный после предлога: nią.",
+     "t": "t4",
+     "opts": [
+      "nią",
+      "ją",
+      "niej"
+     ]
+    },
+    {
+     "q": "Lubisz te piosenki? Słucham ___ codziennie.",
+     "a": [
+      "ich"
+     ],
+     "expl": "Słuchać кого? чего? — родительный, без предлога: ich.",
+     "t": "t5",
+     "opts": [
+      "ich",
+      "je",
+      "nich"
+     ]
+    },
+    {
+     "q": "Kupiłam nowe buty i chodzę w ___ cały dzień.",
+     "a": [
+      "nich"
+     ],
+     "expl": "W czym? — предложный: nich.",
+     "t": "t5",
+     "opts": [
+      "nich",
+      "ich",
+      "nie"
+     ]
+    },
+    {
+     "q": "Gdzie są dzieci? Widzę ___ w ogrodzie.",
+     "a": [
+      "je"
+     ],
+     "expl": "Dzieci — не мужчины: в винительном je.",
+     "t": "t5",
+     "opts": [
+      "je",
+      "ich",
+      "nie"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Czekam na **go** od godziny.",
+     "a": [
+      "niego"
+     ],
+     "expl": "После предлога — форма с n-.",
+     "t": "t7"
+    },
+    {
+     "q": "**Mi** się to wcale nie podoba.",
+     "a": [
+      "Mnie"
+     ],
+     "expl": "В начале фразы — длинная форма.",
+     "t": "t6"
+    },
+    {
+     "q": "Rozmawiałam wczoraj z **ją**.",
+     "a": [
+      "nią"
+     ],
+     "expl": "После предлога z — nią.",
+     "t": "t7"
+    },
+    {
+     "q": "To jest list do **jej**.",
+     "a": [
+      "niej"
+     ],
+     "expl": "После предлога — форма с n-.",
+     "t": "t7"
+    },
+    {
+     "q": "Często myślę o **ciebie**.",
+     "a": [
+      "tobie"
+     ],
+     "expl": "O kim? — предложный: tobie.",
+     "t": "t2"
+    },
+    {
+     "q": "**Cię** szukam, a nie Marka.",
+     "a": [
+      "Ciebie"
+     ],
+     "expl": "Начало фразы и противопоставление — длинная форма.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie mogę bez **cię** żyć.",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "После предлога — длинная форма.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Ja и ty",
+   "instr": "Поставьте местоимение в скобках в нужную форму.",
+   "items": [
+    {
+     "q": "Zadzwoń do ___ wieczorem! (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Do kogo? — родительный: mnie.",
+     "t": "t2"
+    },
+    {
+     "q": "Zjesz ze ___ obiad? (ja)",
+     "a": [
+      "mną"
+     ],
+     "expl": "Z kim? — mną.",
+     "t": "t8"
+    },
+    {
+     "q": "Bardzo tęsknię za ___. (ty)",
+     "a": [
+      "tobą"
+     ],
+     "expl": "Tęsknić za kim? — творительный: tobą.",
+     "t": "t2"
+    },
+    {
+     "q": "Kocham ___! (ty)",
+     "a": [
+      "cię",
+      "ciebie"
+     ],
+     "expl": "Обычно cię; ciebie — если выделяем.",
+     "t": "t6"
+    },
+    {
+     "q": "Myślę o ___ cały dzień. (ty)",
+     "a": [
+      "tobie"
+     ],
+     "expl": "O kim? — предложный: tobie.",
+     "t": "t2"
+    },
+    {
+     "q": "Czy ten prezent jest dla ___? (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Dla kogo? — родительный: mnie.",
+     "t": "t2"
+    },
+    {
+     "q": "Pokażę ___ moje zdjęcia z wakacji. (ty)",
+     "a": [
+      "ci",
+      "tobie"
+     ],
+     "expl": "Кому? Обычно ci; tobie — если выделяем.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie było ___ wczoraj na lekcji. (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Kogo nie było? — родительный: mnie.",
+     "t": "t2"
+    },
+    {
+     "q": "Bez ___ nie pojadę na wycieczkę. (ty)",
+     "a": [
+      "ciebie"
+     ],
+     "expl": "Bez kogo? — после предлога длинная: ciebie.",
+     "t": "t7"
+    },
+    {
+     "q": "W kinie siedziałaś obok ___. (ja)",
+     "a": [
+      "mnie"
+     ],
+     "expl": "Obok kogo? — родительный: mnie.",
+     "t": "t2"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "On, ona, ono",
+   "instr": "Поставьте местоимение в скобках в нужную форму.",
+   "items": [
+    {
+     "q": "To jest Marek. Znam ___ od dziecka. (on)",
+     "a": [
+      "go"
+     ],
+     "expl": "Kogo? без предлога, без выделения — go.",
+     "t": "t3"
+    },
+    {
+     "q": "To jest Ewa. Bardzo ___ lubię. (ona)",
+     "a": [
+      "ją"
+     ],
+     "expl": "Kogo? — винительный: ją.",
+     "t": "t4"
+    },
+    {
+     "q": "Ewa ma jutro urodziny. Mam dla ___ prezent. (ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "Dla kogo? — после предлога: niej.",
+     "t": "t4"
+    },
+    {
+     "q": "Kup ___ kwiaty na urodziny! (ona)",
+     "a": [
+      "jej"
+     ],
+     "expl": "Komu? без предлога — jej.",
+     "t": "t4"
+    },
+    {
+     "q": "Dziadek jest chory. Często ___ pomagam. (on)",
+     "a": [
+      "mu"
+     ],
+     "expl": "Komu? без выделения — mu.",
+     "t": "t3"
+    },
+    {
+     "q": "Idę do Tomka. Muszę z ___ porozmawiać. (on)",
+     "a": [
+      "nim"
+     ],
+     "expl": "Z kim? — nim.",
+     "t": "t3"
+    },
+    {
+     "q": "Lubię to miasto. Mieszkam w ___ od roku. (ono)",
+     "a": [
+      "nim"
+     ],
+     "expl": "W czym? — предложный: nim.",
+     "t": "t3"
+    },
+    {
+     "q": "Gdzie jest dziecko? Szukam ___ wszędzie. (ono)",
+     "a": [
+      "go"
+     ],
+     "expl": "Szukać kogo? — родительный: go.",
+     "t": "t3"
+    },
+    {
+     "q": "To moja przyjaciółka Ola. Byłam u ___ wczoraj. (ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "U kogo? — после предлога: niej.",
+     "t": "t4"
+    },
+    {
+     "q": "To jest Adam. Kupiłam dla ___ książkę. (on)",
+     "a": [
+      "niego"
+     ],
+     "expl": "Dla kogo? — после предлога: niego.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "My, wy, oni, one",
+   "instr": "Поставьте местоимение в скобках в нужную форму.",
+   "items": [
+    {
+     "q": "Odwiedźcie ___ w sobotę! (my)",
+     "a": [
+      "nas"
+     ],
+     "expl": "Kogo? — nas.",
+     "t": "t5"
+    },
+    {
+     "q": "Dam ___ znać jutro. (wy)",
+     "a": [
+      "wam"
+     ],
+     "expl": "Komu? — wam.",
+     "t": "t5"
+    },
+    {
+     "q": "Rodzice? Rozmawiałam z ___ wczoraj. (oni)",
+     "a": [
+      "nimi"
+     ],
+     "expl": "Z kim? — nimi.",
+     "t": "t5"
+    },
+    {
+     "q": "Koledzy są w kawiarni. Idę do ___. (oni)",
+     "a": [
+      "nich"
+     ],
+     "expl": "Do kogo? — после предлога: nich.",
+     "t": "t5"
+    },
+    {
+     "q": "Znasz moje siostry? Zaprosiłam ___ na imprezę. (one)",
+     "a": [
+      "je"
+     ],
+     "expl": "Kogo? siostry — не мужчины: je.",
+     "t": "t5"
+    },
+    {
+     "q": "Moi bracia mieszkają daleko. Rzadko ___ widzę. (oni)",
+     "a": [
+      "ich"
+     ],
+     "expl": "Kogo? bracia — мужчины: ich.",
+     "t": "t5"
+    },
+    {
+     "q": "Sąsiedzi mają problem. Muszę ___ pomóc. (oni)",
+     "a": [
+      "im"
+     ],
+     "expl": "Komu? без предлога — im.",
+     "t": "t5"
+    },
+    {
+     "q": "To dla ___, kochani! (wy)",
+     "a": [
+      "was"
+     ],
+     "expl": "Dla kogo? — was.",
+     "t": "t5"
+    },
+    {
+     "q": "Wakacje już niedługo. Czekam na ___ cały rok. (one)",
+     "a": [
+      "nie"
+     ],
+     "expl": "Na co? wakacje — не мужчины, после предлога: nie.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "List od Oli",
+   "instr": "Как на экзамене: поставьте местоимения в скобках в нужную форму. В письме формы ty можно писать с большой буквы.",
+   "passage": "Droga Kasiu! Dziękuję {1} za długi list. Tak się cieszę, że w sobotę przyjedziesz do {2}! Mój brat Paweł bardzo chce {3} poznać, bo dużo {4} o Tobie opowiadałam. W sobotę wieczorem pójdziemy do moich przyjaciół – Ani i Tomka. Byłam u {5} wczoraj i pytali o {6}. Ania ma dla {7} mały prezent, a Tomek chce {8} pokazać swoje zdjęcia z Japonii. Mama prosi, żebyś zadzwoniła do {9} przed przyjazdem. Czekam na {10}! Ściskam Cię, Ola",
+   "items": [
+    {
+     "q": "(Ty)",
+     "a": [
+      "Ci",
+      "ci",
+      "Tobie",
+      "tobie"
+     ],
+     "expl": "Komu? после глагола — Ci.",
+     "t": "t9"
+    },
+    {
+     "q": "(my)",
+     "a": [
+      "nas"
+     ],
+     "expl": "Do kogo? — nas.",
+     "t": "t5"
+    },
+    {
+     "q": "(Ty)",
+     "a": [
+      "Cię",
+      "cię"
+     ],
+     "expl": "Kogo? без предлога — Cię.",
+     "t": "t9"
+    },
+    {
+     "q": "(on)",
+     "a": [
+      "mu"
+     ],
+     "expl": "Komu? без выделения — mu.",
+     "t": "t3"
+    },
+    {
+     "q": "(oni)",
+     "a": [
+      "nich"
+     ],
+     "expl": "U kogo? — после предлога: nich.",
+     "t": "t5"
+    },
+    {
+     "q": "(Ty)",
+     "a": [
+      "Ciebie",
+      "ciebie"
+     ],
+     "expl": "O kogo? — после предлога длинная: Ciebie.",
+     "t": "t7"
+    },
+    {
+     "q": "(Ty)",
+     "a": [
+      "Ciebie",
+      "ciebie"
+     ],
+     "expl": "Dla kogo? — Ciebie.",
+     "t": "t7"
+    },
+    {
+     "q": "(Ty)",
+     "a": [
+      "Ci",
+      "ci"
+     ],
+     "expl": "Komu? после глагола — Ci.",
+     "t": "t9"
+    },
+    {
+     "q": "(ona)",
+     "a": [
+      "niej"
+     ],
+     "expl": "Do kogo? — после предлога: niej.",
+     "t": "t4"
+    },
+    {
+     "q": "(Ty)",
+     "a": [
+      "Ciebie",
+      "ciebie"
+     ],
+     "expl": "Na kogo? — после предлога: Ciebie.",
+     "t": "t7"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Перепишите по образцу: впишите одно слово.",
+   "items": [
+    {
+     "q": "Daj mi to. → ___ to daj, nie jemu.",
+     "a": [
+      "Mnie"
+     ],
+     "expl": "Начало фразы и противопоставление — длинная.",
+     "t": "t6"
+    },
+    {
+     "q": "Nie widzę go. → ___ nie widzę, ale widzę ją.",
+     "a": [
+      "Jego"
+     ],
+     "expl": "Начало фразы — длинная форма.",
+     "t": "t6"
+    },
+    {
+     "q": "Czekam na Marka. → Czekam na ___.",
+     "a": [
+      "niego"
+     ],
+     "expl": "После предлога — niego.",
+     "t": "t7"
+    },
+    {
+     "q": "Rozmawiam z Anną. → Rozmawiam z ___.",
+     "a": [
+      "nią"
+     ],
+     "expl": "Z kim? — nią.",
+     "t": "t4"
+    },
+    {
+     "q": "Myślę o rodzicach. → Myślę o ___.",
+     "a": [
+      "nich"
+     ],
+     "expl": "O kim? — nich.",
+     "t": "t5"
+    },
+    {
+     "q": "Pomagam babci. → Pomagam ___.",
+     "a": [
+      "jej"
+     ],
+     "expl": "Komu? без предлога — jej.",
+     "t": "t4"
+    },
+    {
+     "q": "Znam twoje siostry. → Znam ___.",
+     "a": [
+      "je"
+     ],
+     "expl": "Siostry — не мужчины: je.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 4,
+   "kind": "write",
+   "title": "Zaproszenie",
+   "instr": "Пригласите подругу Магду на день рождения: кто ещё придёт, что вы для неё приготовите, когда она должна позвонить.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Минимум 6 форм личных местоимений, из них 2 — после предлога; формы ty — с большой буквы.",
+   "model": "Droga Magdo! W sobotę mam urodziny i bardzo chcę Cię zaprosić. Przyjdą też Marek i Ola – na pewno ich pamiętasz. Rozmawiałam z nimi wczoraj. Marek przyniesie gitarę, a ja upiekę dla Ciebie sernik. Zadzwoń do mnie jutro! Pozdrawiam Cię serdecznie, Kasia",
+   "model_future": [
+    "Cię",
+    "ich",
+    "nimi",
+    "Ciebie",
+    "mnie"
+   ],
+   "checklist": [
+    "Обращение в звательном (Droga Magdo!)",
+    "Cię / Ciebie с большой буквы",
+    "После предлога — длинная форма или с n- (z nimi, dla Ciebie)",
+    "Без предлога — короткая (Cię, ich)",
+    "Не начинаю фразу с mi / ci / go",
+    "Есть подпись"
+   ],
+   "t": "t9"
+  }
+ ]
+}

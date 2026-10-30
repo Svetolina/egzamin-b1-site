@@ -1,0 +1,1298 @@
+{
+ "topic": "narzednik",
+ "level": "B1",
+ "group": "Падежи",
+ "title_pl": "Narzędnik",
+ "title_ru": "Творительный падеж",
+ "lead": "Kim? Czym? Jestem lekarzem, jadę autobusem, interesuję się muzyką.",
+ "facts_file": "extract.json",
+ "stage": "теория и упражнения всех четырёх ступеней — ждёт проверки",
+ "markup": "[[…]] — польский текст",
+ "exam_ref": {
+  "id": "EXAM",
+  "refs": [
+   "Zbiór zadań B1 (2017), Gramatyka: blok 1 (k1-1, k1-3, k1-5, k1-6, k1-8), blok 3 (k3-1)",
+   "Dz.U. 2025 poz. 217, B1, 2.2.3 pkt 1 lit. e, s. 78"
+  ]
+ },
+ "forms": [],
+ "theory": [
+  {
+   "id": "t1",
+   "title": "Главное за полминуты",
+   "facts": [
+    "N1"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Творительный отвечает на [[(z) kim? (z) czym?]] Чаще всего он нужен в четырёх случаях:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "когда",
+      "пример"
+     ],
+     "rows": [
+      [
+       "кем является",
+       "[[Jestem lekarzem.]]"
+      ],
+      [
+       "чем, на чём",
+       "[[Jadę autobusem.]]"
+      ],
+      [
+       "глагол",
+       "[[Interesuję się sportem.]]"
+      ],
+      [
+       "предлог",
+       "[[z bratem, przed domem]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской, средний",
+       "-em / -iem",
+       "[[domem, oknem, Polakiem]]"
+      ],
+      [
+       "женский, муж. на -a",
+       "-ą",
+       "[[kawą, nocą, kolegą]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "Почти как русское «-ом / -ой»: «братом — [[bratem]]», «мамой — [[mamą]]»."
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Мужской и средний: -em",
+   "facts": [
+    "N2",
+    "N3"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Добавляем [[-em]]. После [[k, g]] пишем [[-iem]]. Средние на [[-e]] получают только [[-m]]."
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "творительный"
+     ],
+     "rows": [
+      [
+       "dom",
+       "domem"
+      ],
+      [
+       "brat",
+       "bratem"
+      ],
+      [
+       "Polak",
+       "Polakiem"
+      ],
+      [
+       "pociąg",
+       "pociągiem"
+      ],
+      [
+       "okno",
+       "oknem"
+      ],
+      [
+       "śniadanie",
+       "śniadaniem"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Мягкая основа сохраняет [[i]] перед окончанием, беглое [[e]] выпадает:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "творительный"
+     ],
+     "rows": [
+      [
+       "koń",
+       "koniem"
+      ],
+      [
+       "gość",
+       "gościem"
+      ],
+      [
+       "pies",
+       "psem"
+      ],
+      [
+       "koniec",
+       "końcem"
+      ],
+      [
+       "chłopiec",
+       "chłopcem"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "title": "Женский род и мужские на -a: -ą",
+   "facts": [
+    "N4"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "творительный"
+     ],
+     "rows": [
+      [
+       "kawa",
+       "kawą"
+      ],
+      [
+       "mama",
+       "mamą"
+      ],
+      [
+       "noc",
+       "nocą"
+      ],
+      [
+       "pani",
+       "panią"
+      ],
+      [
+       "kolega",
+       "kolegą"
+      ],
+      [
+       "mężczyzna",
+       "mężczyzną"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "У всех женских слов одно окончание — [[-ą]], даже у [[noc]] и [[pani]]."
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "z kolegiem",
+       "good": "z kolegą"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Прилагательные, ten, mój",
+   "facts": [
+    "N5"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "род",
+      "окончание",
+      "пример"
+     ],
+     "rows": [
+      [
+       "мужской, средний",
+       "-ym / -im",
+       "[[dobrym lekarzem, wysokim domem]]"
+      ],
+      [
+       "женский",
+       "-ą",
+       "[[dobrą lekarką]]"
+      ]
+     ],
+     "pl_cols": []
+    },
+    {
+     "type": "table",
+     "head": [
+      "именительный",
+      "творительный (м., ср.)",
+      "творительный (ж.)"
+     ],
+     "rows": [
+      [
+       "ten / ta",
+       "tym",
+       "tą"
+      ],
+      [
+       "mój / moja",
+       "moim",
+       "moją"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "[[Tą]] — правильная форма творительного: [[interesuję się tą książką]]. (В винительном пишем [[tę]].)"
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Местоимения",
+   "facts": [
+    "N6"
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "кто?",
+      "творительный"
+     ],
+     "rows": [
+      [
+       "ja",
+       "mną"
+      ],
+      [
+       "ty",
+       "tobą"
+      ],
+      [
+       "on, ono",
+       "nim"
+      ],
+      [
+       "ona",
+       "nią"
+      ],
+      [
+       "my",
+       "nami"
+      ],
+      [
+       "wy",
+       "wami"
+      ],
+      [
+       "oni, one",
+       "nimi"
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": "С [[mną]] предлог [[z]] превращается в [[ze]]: [[Pójdziesz ze mną?]]"
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Kim jesteś? — być + творительный",
+   "facts": [
+    "N7",
+    "N8"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "После [[być]] и [[zostać]] профессия, роль, национальность — в творительном, как в русском «был врачом»:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Jestem nauczycielką.",
+       "ru": "Я учительница."
+      },
+      {
+       "pl": "Mój brat jest Polakiem.",
+       "ru": "Мой брат — поляк."
+      },
+      {
+       "pl": "Chcę zostać lekarzem.",
+       "ru": "Хочу стать врачом."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Но с [[to]] — именительный:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "с to — именительный",
+      "с jest — творительный"
+     ],
+     "rows": [
+      [
+       "To jest mój brat.",
+       "Mój brat jest lekarzem."
+      ],
+      [
+       "To Anna.",
+       "Anna jest studentką."
+      ]
+     ],
+     "pl_cols": [
+      0,
+      1
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "Jestem lekarz.",
+       "good": "Jestem lekarzem."
+      },
+      {
+       "bad": "To jest moim bratem.",
+       "good": "To jest mój brat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "title": "Чем? На чём?",
+   "facts": [
+    "N9"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Инструмент и транспорт — творительный без предлога. По-русски тоже: «пишу ручкой»; но «еду на автобусе» — по-польски без [[na]]:"
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Do pracy jeżdżę tramwajem.",
+       "ru": "На работу езжу на трамвае."
+      },
+      {
+       "pl": "Płacę kartą.",
+       "ru": "Плачу картой."
+      },
+      {
+       "pl": "Piszę długopisem.",
+       "ru": "Пишу ручкой."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "jadę na autobusie",
+       "good": "jadę autobusem"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "title": "Глаголы с творительным",
+   "facts": [
+    "N10"
+   ],
+   "blocks": [
+    {
+     "type": "chips",
+     "items": [
+      "interesować się",
+      "zajmować się",
+      "opiekować się",
+      "cieszyć się",
+      "kierować",
+      "rządzić",
+      "zostać"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Interesuję się muzyką.",
+       "ru": "Интересуюсь музыкой."
+      },
+      {
+       "pl": "Opiekuję się babcią.",
+       "ru": "Забочусь о бабушке."
+      },
+      {
+       "pl": "Mama kieruje firmą.",
+       "ru": "Мама руководит фирмой."
+      }
+     ]
+    },
+    {
+     "type": "fix",
+     "items": [
+      {
+       "bad": "interesuję się na muzykę",
+       "good": "interesuję się muzyką"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "title": "Когда? — wieczorem, latem",
+   "facts": [
+    "N11"
+   ],
+   "blocks": [
+    {
+     "type": "chips",
+     "items": [
+      "wieczorem",
+      "nocą",
+      "wiosną",
+      "latem",
+      "jesienią",
+      "zimą"
+     ]
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Latem jeździmy nad morze.",
+       "ru": "Летом ездим на море."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "title": "Предлоги",
+   "facts": [
+    "N12"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "[[Z]] (вместе с) и [[nad, pod, przed, za, między]] на вопрос «где?» — творительный."
+    },
+    {
+     "type": "ex",
+     "items": [
+      {
+       "pl": "Mieszkam nad morzem.",
+       "ru": "Живу у моря."
+      },
+      {
+       "pl": "Czekam przed kinem.",
+       "ru": "Жду перед кинотеатром."
+      },
+      {
+       "pl": "Idę z bratem.",
+       "ru": "Иду с братом."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "title": "На экзамене",
+   "facts": [
+    "EXAM"
+   ],
+   "blocks": [
+    {
+     "type": "p",
+     "text": "В сборнике 2017 творительный — в каждом втором тексте: [[cieszył się rowerem]], [[jeździł rowerem]], [[z kolegami]], [[nad jeziorem mazurskim]], [[najważniejszą atrakcją]]."
+    },
+    {
+     "type": "steps",
+     "items": [
+      "После [[być, zostać]] (без [[to]]) — творительный.",
+      "Инструмент, транспорт, [[interesować się, zajmować się]] — творительный.",
+      "Мужской и средний: [[-em / -iem]]; женский и на [[-a]]: [[-ą]].",
+      "Прилагательное: [[-ym / -im]] или [[-ą]]."
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "level": 1,
+   "kind": "choice",
+   "title": "Выберите форму",
+   "items": [
+    {
+     "q": "Mój tata jest ___.",
+     "a": [
+      "lekarzem"
+     ],
+     "expl": "Być + творительный.",
+     "t": "t6",
+     "opts": [
+      "lekarz",
+      "lekarzem",
+      "lekarza"
+     ]
+    },
+    {
+     "q": "Do pracy jeżdżę ___.",
+     "a": [
+      "tramwajem"
+     ],
+     "expl": "Транспорт — творительный.",
+     "t": "t7",
+     "opts": [
+      "tramwaj",
+      "tramwajem",
+      "tramwaju"
+     ]
+    },
+    {
+     "q": "Interesuję się ___.",
+     "a": [
+      "historią"
+     ],
+     "expl": "Interesować się + творительный.",
+     "t": "t8",
+     "opts": [
+      "historię",
+      "historią",
+      "historii"
+     ]
+    },
+    {
+     "q": "Idę do kina z ___.",
+     "a": [
+      "koleżanką"
+     ],
+     "expl": "Z «вместе с» — творительный.",
+     "t": "t3",
+     "opts": [
+      "koleżanką",
+      "koleżankę",
+      "koleżanki"
+     ]
+    },
+    {
+     "q": "To jest mój ___.",
+     "a": [
+      "brat"
+     ],
+     "expl": "После to — именительный.",
+     "t": "t6",
+     "opts": [
+      "brat",
+      "bratem",
+      "brata"
+     ]
+    },
+    {
+     "q": "Pójdziesz ze ___ na spacer?",
+     "a": [
+      "mną"
+     ],
+     "expl": "Ja → mną.",
+     "t": "t5",
+     "opts": [
+      "mnie",
+      "mną",
+      "mi"
+     ]
+    },
+    {
+     "q": "Spotkamy się przed ___.",
+     "a": [
+      "dworcem"
+     ],
+     "expl": "Przed «где?» — творительный.",
+     "t": "t10",
+     "opts": [
+      "dworzec",
+      "dworca",
+      "dworcem"
+     ]
+    },
+    {
+     "q": "Ona chce zostać ___.",
+     "a": [
+      "aktorką"
+     ],
+     "expl": "Zostać + творительный.",
+     "t": "t6",
+     "opts": [
+      "aktorka",
+      "aktorką",
+      "aktorkę"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "level": 1,
+   "kind": "type",
+   "title": "Исправьте ошибку",
+   "instr": "Выделенная форма неверна. Впишите правильную.",
+   "items": [
+    {
+     "q": "Mój brat jest **student**.",
+     "a": [
+      "studentem"
+     ],
+     "expl": "Być + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Jadę do Gdańska **na pociągu**.",
+     "a": [
+      "pociągiem"
+     ],
+     "expl": "Транспорт — творительный без предлога.",
+     "t": "t7"
+    },
+    {
+     "q": "Rozmawiam z **kolegiem**.",
+     "a": [
+      "kolegą"
+     ],
+     "expl": "Kolega → kolegą.",
+     "t": "t3"
+    },
+    {
+     "q": "Opiekuję się **mojego** dziadkiem.",
+     "a": [
+      "moim"
+     ],
+     "expl": "Мужской: moim.",
+     "t": "t4"
+    },
+    {
+     "q": "Interesujesz się **muzykę**?",
+     "a": [
+      "muzyką"
+     ],
+     "expl": "Interesować się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "To jest **moją siostrą**.",
+     "a": [
+      "moja siostra"
+     ],
+     "expl": "После to — именительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Czekam na ciebie przed **domu**.",
+     "a": [
+      "domem"
+     ],
+     "expl": "Przed (где?) + творительный.",
+     "t": "t10"
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "level": 2,
+   "kind": "type",
+   "title": "Существительные",
+   "instr": "Поставьте слово в творительный падеж.",
+   "items": [
+    {
+     "q": "Kroję chleb ___. (nóż)",
+     "a": [
+      "nożem"
+     ],
+     "expl": "Инструмент: -em.",
+     "t": "t2"
+    },
+    {
+     "q": "Lecimy do Londynu ___. (samolot)",
+     "a": [
+      "samolotem"
+     ],
+     "expl": "Транспорт: -em.",
+     "t": "t7"
+    },
+    {
+     "q": "Mieszkam z ___. (siostra)",
+     "a": [
+      "siostrą"
+     ],
+     "expl": "Женский: -ą.",
+     "t": "t3"
+    },
+    {
+     "q": "Piję herbatę z ___. (cukier)",
+     "a": [
+      "cukrem"
+     ],
+     "expl": "Беглое e: cukier → cukrem.",
+     "t": "t2"
+    },
+    {
+     "q": "Spaceruję z ___. (pies)",
+     "a": [
+      "psem"
+     ],
+     "expl": "Беглое e: pies → psem.",
+     "t": "t2"
+    },
+    {
+     "q": "Mój dziadek był ___. (rolnik)",
+     "a": [
+      "rolnikiem"
+     ],
+     "expl": "После k — -iem.",
+     "t": "t2"
+    },
+    {
+     "q": "Kawa z ___, proszę. (mleko)",
+     "a": [
+      "mlekiem"
+     ],
+     "expl": "После k — -iem.",
+     "t": "t2"
+    },
+    {
+     "q": "Rozmawiałam z ___ z biura. (pani)",
+     "a": [
+      "panią"
+     ],
+     "expl": "Pani → panią.",
+     "t": "t3"
+    },
+    {
+     "q": "Przed ___ myję ręce. (jedzenie)",
+     "a": [
+      "jedzeniem"
+     ],
+     "expl": "Средний на -e: +m.",
+     "t": "t2"
+    },
+    {
+     "q": "Byłem tam z ___. (kolega)",
+     "a": [
+      "kolegą"
+     ],
+     "expl": "Мужской на -a: -ą.",
+     "t": "t3"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "level": 2,
+   "kind": "type",
+   "title": "Прилагательное + существительное",
+   "instr": "Поставьте обе части в творительный падеж.",
+   "items": [
+    {
+     "q": "Ona jest ___. (dobra nauczycielka)",
+     "a": [
+      "dobrą nauczycielką"
+     ],
+     "expl": "-ą + -ą.",
+     "t": "t4"
+    },
+    {
+     "q": "Interesuję się ___. (polska kuchnia)",
+     "a": [
+      "polską kuchnią"
+     ],
+     "expl": "-ą + -ą.",
+     "t": "t4"
+    },
+    {
+     "q": "Mój syn chce zostać ___. (znany piłkarz)",
+     "a": [
+      "znanym piłkarzem"
+     ],
+     "expl": "-ym + -em.",
+     "t": "t4"
+    },
+    {
+     "q": "Jedziemy ___. (nocny pociąg)",
+     "a": [
+      "nocnym pociągiem"
+     ],
+     "expl": "-ym + -iem.",
+     "t": "t4"
+    },
+    {
+     "q": "Spotkałam się z ___. (stary przyjaciel)",
+     "a": [
+      "starym przyjacielem"
+     ],
+     "expl": "-ym + -em.",
+     "t": "t4"
+    },
+    {
+     "q": "Zajmuję się ___. (mój młodszy brat)",
+     "a": [
+      "moim młodszym bratem"
+     ],
+     "expl": "-ym + -em.",
+     "t": "t4"
+    },
+    {
+     "q": "Mieszkamy nad ___. (duże jezioro)",
+     "a": [
+      "dużym jeziorem"
+     ],
+     "expl": "Средний: -ym + -em.",
+     "t": "t4"
+    },
+    {
+     "q": "Piszę ___. (czerwony długopis)",
+     "a": [
+      "czerwonym długopisem"
+     ],
+     "expl": "-ym + -em.",
+     "t": "t4"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "level": 2,
+   "kind": "type",
+   "title": "Местоимения",
+   "instr": "Впишите местоимение в творительном падеже.",
+   "items": [
+    {
+     "q": "Chodź ze ___ do sklepu! (ja)",
+     "a": [
+      "mną"
+     ],
+     "expl": "Ja → mną.",
+     "t": "t5"
+    },
+    {
+     "q": "Często rozmawiam z ___ o pracy. (ona)",
+     "a": [
+      "nią"
+     ],
+     "expl": "Ona → nią.",
+     "t": "t5"
+    },
+    {
+     "q": "Tęsknię za ___. (ty)",
+     "a": [
+      "tobą"
+     ],
+     "expl": "Ty → tobą.",
+     "t": "t5"
+    },
+    {
+     "q": "Pojedziesz z ___ nad morze? (my)",
+     "a": [
+      "nami"
+     ],
+     "expl": "My → nami.",
+     "t": "t5"
+    },
+    {
+     "q": "Nie chcę z ___ rozmawiać. (on)",
+     "a": [
+      "nim"
+     ],
+     "expl": "On → nim.",
+     "t": "t5"
+    },
+    {
+     "q": "Opiekuję się ___ w weekendy. (one)",
+     "a": [
+      "nimi"
+     ],
+     "expl": "One → nimi.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "level": 2,
+   "kind": "type",
+   "title": "To или jest?",
+   "instr": "Впишите слово в нужном падеже: после to — именительный, после jest — творительный.",
+   "items": [
+    {
+     "q": "To jest mój ___. (sąsiad)",
+     "a": [
+      "sąsiad"
+     ],
+     "expl": "После to — именительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Mój sąsiad jest ___. (kierowca)",
+     "a": [
+      "kierowcą"
+     ],
+     "expl": "Jest + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Kto to jest? To ___. (Anna)",
+     "a": [
+      "Anna"
+     ],
+     "expl": "После to — именительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Anna jest ___. (pielęgniarka)",
+     "a": [
+      "pielęgniarką"
+     ],
+     "expl": "Jest + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Marek był kiedyś ___. (nauczyciel)",
+     "a": [
+      "nauczycielem"
+     ],
+     "expl": "Był + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Ten pan to nasz nowy ___. (dyrektor)",
+     "a": [
+      "dyrektor"
+     ],
+     "expl": "После to — именительный.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "level": 2,
+   "kind": "type",
+   "title": "Глаголы, транспорт, время",
+   "instr": "Поставьте слово в творительный падеж.",
+   "items": [
+    {
+     "q": "Zimą jeździmy na narty, a ___ nad morze. (lato)",
+     "a": [
+      "latem"
+     ],
+     "expl": "Время года — творительный.",
+     "t": "t9"
+    },
+    {
+     "q": "Moja mama zajmuje się ___. (ogród)",
+     "a": [
+      "ogrodem"
+     ],
+     "expl": "Zajmować się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Płacisz gotówką czy ___? (karta)",
+     "a": [
+      "kartą"
+     ],
+     "expl": "Чем? — творительный.",
+     "t": "t7"
+    },
+    {
+     "q": "___ lubię czytać książki. (wieczór)",
+     "a": [
+      "Wieczorem"
+     ],
+     "expl": "Время суток — wieczorem.",
+     "t": "t9"
+    },
+    {
+     "q": "Dziadek opiekuje się ___. (wnuczka)",
+     "a": [
+      "wnuczką"
+     ],
+     "expl": "Opiekować się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Do Krakowa pojedziemy ___. (autobus)",
+     "a": [
+      "autobusem"
+     ],
+     "expl": "Транспорт — творительный.",
+     "t": "t7"
+    },
+    {
+     "q": "Bardzo się cieszę ___. (prezent)",
+     "a": [
+      "prezentem"
+     ],
+     "expl": "Cieszyć się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Jego ojciec kieruje dużą ___. (firma)",
+     "a": [
+      "firmą"
+     ],
+     "expl": "Kierować + творительный.",
+     "t": "t8"
+    }
+   ]
+  },
+  {
+   "id": "e8",
+   "level": 3,
+   "kind": "text",
+   "format": "exam",
+   "title": "Mój brat",
+   "instr": "Как на экзамене: поставьте слова в скобках в нужную форму.",
+   "passage": "Mój starszy brat jest {1}. Pracuje w szpitalu i często wraca do domu późnym {2}. Do pracy jeździ {3}, bo nie lubi korków. W wolnym czasie interesuje się {4} i gra na gitarze ze swoim {5}. Jego żona jest {6}. W weekendy opiekują się {7}, bo nasza mama jest chora. Latem jeżdżą z {8} nad morze, a {9} — w góry. Lubię spędzać czas z {10}.",
+   "items": [
+    {
+     "q": "lekarz",
+     "a": [
+      "lekarzem"
+     ],
+     "expl": "Jest + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "wieczór",
+     "a": [
+      "wieczorem"
+     ],
+     "expl": "Время суток.",
+     "t": "t9"
+    },
+    {
+     "q": "rower",
+     "a": [
+      "rowerem"
+     ],
+     "expl": "Транспорт.",
+     "t": "t7"
+    },
+    {
+     "q": "muzyka",
+     "a": [
+      "muzyką"
+     ],
+     "expl": "Interesować się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "przyjaciel",
+     "a": [
+      "przyjacielem"
+     ],
+     "expl": "Ze swoim — творительный: -em.",
+     "t": "t4"
+    },
+    {
+     "q": "Ukrainka",
+     "a": [
+      "Ukrainką"
+     ],
+     "expl": "Jest + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "nasza mama",
+     "a": [
+      "naszą mamą"
+     ],
+     "expl": "Opiekować się: -ą + -ą.",
+     "t": "t4"
+    },
+    {
+     "q": "córka",
+     "a": [
+      "córką"
+     ],
+     "expl": "Z «вместе с» — творительный.",
+     "t": "t10"
+    },
+    {
+     "q": "zima",
+     "a": [
+      "zimą"
+     ],
+     "expl": "Время года.",
+     "t": "t9"
+    },
+    {
+     "q": "on",
+     "a": [
+      "nim"
+     ],
+     "expl": "Z + nim.",
+     "t": "t5"
+    }
+   ]
+  },
+  {
+   "id": "e9",
+   "level": 3,
+   "kind": "type",
+   "format": "exam",
+   "title": "Перефразирование",
+   "instr": "Закончите второе предложение так, чтобы смысл не изменился. Впишите одно слово.",
+   "items": [
+    {
+     "q": "Pracuję jako nauczycielka. → Jestem ___.",
+     "a": [
+      "nauczycielką"
+     ],
+     "expl": "Być + творительный.",
+     "t": "t6"
+    },
+    {
+     "q": "Moje hobby to fotografia. → Interesuję się ___.",
+     "a": [
+      "fotografią"
+     ],
+     "expl": "Interesować się + творительный.",
+     "t": "t8"
+    },
+    {
+     "q": "Do pracy jeżdżę zawsze tramwajem, nie autobusem. → Codziennie jeżdżę do pracy ___.",
+     "a": [
+      "tramwajem"
+     ],
+     "expl": "Транспорт.",
+     "t": "t7"
+    },
+    {
+     "q": "Wieczór to dla mnie czas na książkę. → ___ czytam książki.",
+     "a": [
+      "Wieczorem"
+     ],
+     "expl": "Время суток.",
+     "t": "t9"
+    },
+    {
+     "q": "Mieszkam razem z mamą. → Mieszkam z ___.",
+     "a": [
+      "mamą"
+     ],
+     "expl": "Z + творительный.",
+     "t": "t3"
+    },
+    {
+     "q": "Studiuje medycynę. → Za kilka lat zostanie ___. (lekarz)",
+     "a": [
+      "lekarzem"
+     ],
+     "expl": "Zostać + творительный.",
+     "t": "t6"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "level": 4,
+   "kind": "write",
+   "title": "Kim jestem i czym się interesuję",
+   "instr": "Представьтесь новой группе на курсе: кто вы по профессии, чем интересуетесь, как добираетесь на занятия, с кем живёте.",
+   "words": [
+    40,
+    50
+   ],
+   "need": "Не меньше 8 форм творительного: jestem + профессия, interesuję się…, транспорт, z + кто-то, хотя бы одно «прилагательное + существительное».",
+   "model": "Cześć! Mam na imię Olga i jestem księgową. Pracuję w małej firmie. Mieszkam z mężem i córką w Szczecinie. Na kurs przyjeżdżam tramwajem albo rowerem. Interesuję się polską literaturą i dobrym kinem. Wieczorem często spaceruję z psem. Chcę zostać tłumaczką. Miło mi was poznać!",
+   "model_future": [
+    "księgową",
+    "mężem",
+    "córką",
+    "tramwajem",
+    "rowerem",
+    "polską literaturą",
+    "dobrym kinem",
+    "wieczorem",
+    "psem",
+    "tłumaczką"
+   ],
+   "checklist": [
+    "Есть приветствие",
+    "Jestem + профессия в творительном",
+    "Interesuję się + творительный",
+    "Транспорт в творительном",
+    "Z + человек в творительном",
+    "Хотя бы одно «прилагательное + существительное»",
+    "После to — именительный",
+    "40–50 слов"
+   ],
+   "t": "t1"
+  }
+ ]
+}

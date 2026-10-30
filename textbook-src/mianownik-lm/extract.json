@@ -1,0 +1,534 @@
+{
+ "topic": "mianownik-lm",
+ "title": "Liczba mnoga — именительный мн. числа, мужско-личные формы",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. a «odmiana rzeczowników rodzaju męskiego: męskoosobowych i niemęskoosobowych (np.: panowie, studenci ≠ stoły, studentki; czterech panów, czterej studenci ≠ cztery stoły, cztery studentki)», s. 75; lit. b «odmiana przymiotników (liczba pojedyncza i mnoga)», s. 76; 2.2.3 pkt 1 lit. a «mianownik… jako podmiot (Poeci dyskutują o poezji.), jako orzecznik (Ci pracowici studenci to Niemcy.)», s. 77.",
+  "level": "B1 — повторение A2 и мужско-личный род: -owie / -i / -y / -e со сменой согласной, прилагательные -i / -y, местоимения ci / moi / nasi, особые формы (ludzie, dzieci, bracia). Числительные с мужско-личными — тема «Liczebniki».",
+  "katalog_b": [
+   "7.1 Człowiek, pkt 2 przynależność narodowa (Polacy, Niemcy) (s. 84)",
+   "7.1 pkt 7 rodzina (synowie, bracia) (s. 84)"
+  ],
+  "katalog_a": [
+   "6.2 Pojęcia ogólne, pkt 1 wyrażanie cechy, właściwości (s. 84)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka: k1-3 (mieszkańcy), k1-4 (widzowie), k1-6 (synowie). Мужско-личные формы — частая ловушка в заданиях «впишите слово в правильной форме» и в письме (moi koledzy, nasi sąsiedzi).",
+  "depends_on": [
+   "род существительных (A1–A2)"
+  ],
+  "feeds": [
+   "dopelniacz-lm",
+   "przypadki-lm",
+   "liczebniki-z-rzeczownikami (dwaj, trzej, pięciu)"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "JPBG9": "Język polski bez granic, kl. IX (B1, cz. 1), Wspólnota Polska 2020: lekcja 1, s. 24–25 (мн. число не мужско-личное), lekcja 2, s. 40–43 (мужско-личное: существительные, прилагательные, местоимения), lekcja 6, s. 126 (винительный мн.)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: «Mianownik liczby mnogiej», s. 23–31; «Biernik liczby mnogiej», s. 78–79",
+  "ELON": "elon.io, «Forming the Plural»: https://elon.io/grammar/polish/nouns/plurals/formation-overview",
+  "COLA": "Colanguage, «Accusative plural»: https://app.colanguage.com/polish/grammar/biernik-w-liczbie-mnogiej",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-3, k1-4, k1-6, k1-8)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "L1",
+   "ru": "Во множественном числе два рода: мужско-личный (męskoosobowy, «oni») — мужчины и смешанные группы с мужчинами; не мужско-личный (niemęskoosobowy, «one») — всё остальное: женщины, животные, предметы.",
+   "pl": [
+    "To są studenci. To są studentki. To są stoły."
+   ],
+   "refs": [
+    "STD B1 2.2.1 pkt 1 lit. a, s. 75 («odmiana rzeczowników rodzaju męskiego: męskoosobowych i niemęskoosobowych (np.: panowie, studenci ≠ stoły, studentki…)»)",
+    "JPBG9 s. 24 («Mianownik — rzeczownik l. mnogiej, r. niemęskoosobowy»), s. 40 («r. męskoosobowy»)",
+    "PP s. 23 («rodzaj niemęskoosobowy (one)»), s. 26 («rodzaj męskoosobowy (oni)»)",
+    "ELON (masculine-personal: male humans or mixed groups)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L2",
+   "ru": "Не мужско-личные: женские и мужские неличные — -y после твёрдой (kot → koty, torba → torby), -i после k, g (książka → książki, ptak → ptaki), -e после мягких, l, j и c, cz, sz, rz, ż (hotel → hotele, ulica → ulice, noc → noce, pani → panie); средний род — всегда -a (okno → okna, zdjęcie → zdjęcia, muzeum → muzea).",
+   "pl": [
+    "Mam dwa koty i trzy książki. Okna są otwarte."
+   ],
+   "refs": [
+    "JPBG9 s. 24 (таблица: -y — zeszyty, torby; -i — kotki, książki; -e — hotele, kraje, kuchnie, ulice, panie; -a — drzewa, zdania, muzea)",
+    "PP s. 24 (rodzaj męski i żeński -y, -i, -e; rodzaj nijaki -a)",
+    "ELON (-y / -i / -e; neuter always -a)",
+    "ZPE (M. l. mn. żony, okna)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L3",
+   "ru": "Особые формы: dziecko → dzieci, człowiek → ludzie, brat → bracia, ksiądz → księża, rok → lata, tydzień → tygodnie, oko → oczy, ucho → uszy, ręka → ręce.",
+   "pl": [
+    "Moje dzieci są małe. Ci ludzie są mili."
+   ],
+   "refs": [
+    "JPBG9 s. 24 (Uwaga: dziecko – dzieci; -um: liceum – licea), s. 40 (wyjątki: brat – bracia, ksiądz – księża)",
+    "PP s. 28 (* człowiek – ludzie, brat – bracia, ksiądz – księża)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L4",
+   "ru": "Мужско-личные на -owie: родство, титулы, часть национальностей и фамилии: syn → synowie, ojciec → ojcowie, pan → panowie, dziadek → dziadkowie, Serb → Serbowie, Nowak → Nowakowie.",
+   "pl": [
+    "Panowie, proszę! Państwo Nowakowie już są."
+   ],
+   "refs": [
+    "JPBG9 s. 40 (-owie: syn – synowie, mąż – mężowie, poseł – posłowie, pan – panowie, uczeń – uczniowie, Fin – Finowie, Arab – Arabowie)",
+    "PP s. 28 (-owie: niektóre nazwy stopni pokrewieństwa, tytuły, narodowości, nazwiska; ojcowie, królowie, Serbowie, Nowakowie, dziadkowie)",
+    "KEY k1-4 (widz → widzowie), k1-6 (syn → synowie)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L5",
+   "ru": "Мужско-личные на -i и -y со сменой согласной: t → ci (student → studenci), d → dzi (sąsiad → sąsiedzi), ch → si (Włoch → Włosi), ł → li; k → cy (Polak → Polacy), g → dzy (kolega → koledzy), r → rzy (aktor → aktorzy); -ec → -cy (Niemiec → Niemcy, kierowca → kierowcy).",
+   "pl": [
+    "Polacy i Niemcy to sąsiedzi. Moi koledzy są studentami."
+   ],
+   "refs": [
+    "JPBG9 s. 40 (-y: Polak – Polacy, aktor – aktorzy, chirurg – chirurdzy, kolega – koledzy, Ukrainiec – Ukraińcy, kierowca – kierowcy; -i: student – studenci, sąsiad – sąsiedzi, Włoch – Włosi, turysta – turyści)",
+    "PP s. 28 (Polacy, sąsiedzi, Norwedzy, Chorwaci, Ukraińcy, Czesi; e ruchome: Niemiec – Niemcy)",
+    "ELON (student → studenci, Polak → Polacy, Szwed → Szwedzi)",
+    "KEY k1-3 (mieszkaniec → mieszkańcy)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L6",
+   "ru": "Мужско-личные на -e: после мягких и «отвердевших» и у слов на -anin: gość → goście, przyjaciel → przyjaciele, lekarz → lekarze, nauczyciel → nauczyciele, Amerykanin → Amerykanie.",
+   "pl": [
+    "Lekarze i nauczyciele mają dziś wolne."
+   ],
+   "refs": [
+    "JPBG9 s. 40 (-e: gość – goście, przyjaciel – przyjaciele, lekarz – lekarze, kibic – kibice, Amerykanin – Amerykanie)",
+    "PP s. 28 (-e po spółgłoskach miękkich i stwardniałych, -anin; goście)",
+    "ELON (nauczyciel → nauczyciele)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L7",
+   "ru": "Прилагательные: не мужско-личные — -e (-ie после k, g): nowe domy, duże okna, polskie książki; мужско-личные — -i / -y со сменой согласной: nowy → nowi, dobry → dobrzy, wysoki → wysocy, młody → młodzi, zadowolony → zadowoleni.",
+   "pl": [
+    "To są nowe koleżanki. To są nowi koledzy."
+   ],
+   "refs": [
+    "JPBG9 s. 25 (niemęskoosobowy -e, -ie: stare samochody, polskie studentki), s. 42 (męskoosobowy -i / -y: bogaci, młodzi, mili, dobrzy, wysocy, dłudzy; -ony → -eni: zadowoleni, zmęczeni)",
+    "PP s. 24 (przymiotnik r. niemęskoosobowy -e, -ie: duże kubki, polskie…), s. 31 (mądrzy, różni, weseli, zmęczeni…)",
+    "ZPE (M. l. mn. dobrzy / dobre)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L8",
+   "ru": "Местоимения-определения: ten → ci / te, mój → moi / moje, nasz → nasi / nasze, który → którzy / które, jaki → jacy / jakie; личное: oni / one.",
+   "pl": [
+    "Ci panowie i te panie to moi znajomi."
+   ],
+   "refs": [
+    "JPBG9 s. 43 (таблица: ci — te, tamci — tamte, moi — moje, twoi — twoje, nasi — nasze, którzy — które, jacy — jakie, tacy — takie)",
+    "PP s. 26–31 (oni / one в заголовках; moi, ci в упражнениях)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "L9",
+   "ru": "Винительный мн. числа: у не мужско-личных = именительный (Mam koty, książki, okna), у мужско-личных = родительный мн. (Znam tych studentów, Polaków, nauczycieli). Подробно — в теме «Падежи во мн. числе».",
+   "pl": [
+    "Lubię te książki. Znam tych studentów."
+   ],
+   "refs": [
+    "JPBG9 s. 25 (rzeczowniki i przymiotniki l. mn. r. niemęskoosobowego mają takie same formy w mianowniku, bierniku i wołaczu), s. 126 (biernik l. mn.: męskoosobowy = Dopełniacz l. mn.; niemęskoosobowy = Mianownik l. mn.)",
+    "PP s. 78 (męskoosobowy jak dopełniacz l. mn.; męski nieosobowy, żeński i nijaki jak mianownik l. mn.)",
+    "COLA (Znam tych Polaków; Rezerwuję te noclegi)",
+    "KEY k1-8 (odwiedzać państwa Kowalskich)"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "PP s. 28 — таблица мужско-личных в текстовой версии PDF перемешана; правила взяты из JPBG IX s. 40, где та же таблица читается чисто, а PP — подтверждение примерами и сноской об исключениях.",
+  "ELON о мужско-личных не упоминает -owie — для -owie источники PP и JPBG."
+ ],
+ "forms": [
+  {
+   "form": "koty",
+   "kind": "przyp",
+   "lemma": "kot",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "torby",
+   "kind": "przyp",
+   "lemma": "torba",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "książki",
+   "kind": "przyp",
+   "lemma": "książka",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ptaki",
+   "kind": "przyp",
+   "lemma": "ptak",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "hotele",
+   "kind": "przyp",
+   "lemma": "hotel",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ulice",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "noce",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "panie",
+   "kind": "przyp",
+   "lemma": "pani",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "okna",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "zdjęcia",
+   "kind": "przyp",
+   "lemma": "zdjęcie",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "muzea",
+   "kind": "przyp",
+   "lemma": "muzeum",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "dzieci",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ludzie",
+   "kind": "przyp",
+   "lemma": "człowiek",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "bracia",
+   "kind": "przyp",
+   "lemma": "brat",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "księża",
+   "kind": "przyp",
+   "lemma": "ksiądz",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "lata",
+   "kind": "przyp",
+   "lemma": "rok",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "tygodnie",
+   "kind": "przyp",
+   "lemma": "tydzień",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "oczy",
+   "kind": "przyp",
+   "lemma": "oko",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "uszy",
+   "kind": "przyp",
+   "lemma": "ucho",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ręce",
+   "kind": "przyp",
+   "lemma": "ręka",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "synowie",
+   "kind": "przyp",
+   "lemma": "syn",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ojcowie",
+   "kind": "przyp",
+   "lemma": "ojciec",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "panowie",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "dziadkowie",
+   "kind": "przyp",
+   "lemma": "dziadek",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "Serbowie",
+   "kind": "przyp",
+   "lemma": "Serb",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "studenci",
+   "kind": "przyp",
+   "lemma": "student",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "sąsiedzi",
+   "kind": "przyp",
+   "lemma": "sąsiad",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "Włosi",
+   "kind": "przyp",
+   "lemma": "Włoch",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "Polacy",
+   "kind": "przyp",
+   "lemma": "Polak",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "koledzy",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "aktorzy",
+   "kind": "przyp",
+   "lemma": "aktor",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "Niemcy",
+   "kind": "przyp",
+   "lemma": "Niemiec",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "kierowcy",
+   "kind": "przyp",
+   "lemma": "kierowca",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "goście",
+   "kind": "przyp",
+   "lemma": "gość",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "przyjaciele",
+   "kind": "przyp",
+   "lemma": "przyjaciel",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "lekarze",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "nauczyciele",
+   "kind": "przyp",
+   "lemma": "nauczyciel",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "Amerykanie",
+   "kind": "przyp",
+   "lemma": "Amerykanin",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "nowe",
+   "kind": "przyp",
+   "lemma": "nowy",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "polskie",
+   "kind": "przyp",
+   "lemma": "polski",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "nowi",
+   "kind": "przyp",
+   "lemma": "nowy",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "dobrzy",
+   "kind": "przyp",
+   "lemma": "dobry",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "wysocy",
+   "kind": "przyp",
+   "lemma": "wysoki",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "młodzi",
+   "kind": "przyp",
+   "lemma": "młody",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "zadowoleni",
+   "kind": "przyp",
+   "lemma": "zadowolony",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "ci",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "te",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "moi",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "moje",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "nasi",
+   "kind": "przyp",
+   "lemma": "nasz",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "którzy",
+   "kind": "przyp",
+   "lemma": "który",
+   "case": "nom",
+   "n": "pl"
+  },
+  {
+   "form": "jacy",
+   "kind": "przyp",
+   "lemma": "jaki",
+   "case": "nom",
+   "n": "pl"
+  }
+ ]
+}

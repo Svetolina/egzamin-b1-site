@@ -1,0 +1,487 @@
+{
+ "topic": "dopelniacz-lm",
+ "title": "Dopełniacz liczby mnogiej — родительный мн. числа",
+ "stage": "шаги 1–3 готовы",
+ "updated": "2026-10-28",
+ "passport": {
+  "standard": "Dz.U. 2025 poz. 217, Zał. 1, Część II, E (B1): 2.2.1 Fleksja, pkt 1 lit. a–b (odmiana rzeczowników i przymiotników — liczba pojedyncza i mnoga), s. 75–76; 2.2.3 pkt 1 lit. b dopełniacz (Kibice obserwują czwórkę sportowców. Studentki nie przeczytały tych artykułów. Potrzebują nowych butów. Studentów nie było na tym spotkaniu.), s. 77.",
+  "level": "B1 — окончания родительного мн. (-ów / -i / -y / нулевое с беглым e), особые формы (ludzi, pieniędzy, przyjaciół), прилагательные -ych / -ich. Количество — также тема «Liczebniki».",
+  "katalog_b": [
+   "7.10 Zakupy (kilo jabłek, dużo rzeczy) (s. 85)",
+   "7.11 Żywność i napoje (s. 86)"
+  ],
+  "katalog_a": [
+   "6.2 pkt 1 wyrażanie cechy… ilości (s. 84)"
+  ],
+  "exam": "Сборник комиссии 2017, Gramatyka, блок 1: k1-4 (kas, biletów, miejsc, zajęć, wrażeń, nagród), k1-1 (szczytów, zdjęć), k1-3 (zajęć, pociągów), k1-5 (urodzin, prezentów), k1-6 (pieniędzy, mieszkań), k1-7 (sukcesów, wakacji), k1-8 (dobrych przyjaciół, ostatnich prac) — родительный мн. встречается почти в каждом тексте.",
+  "depends_on": [
+   "dopelniacz",
+   "mianownik-lm"
+  ],
+  "feeds": [
+   "liczebniki-z-rzeczownikami",
+   "przypadki-lm"
+  ]
+ },
+ "sources": {
+  "STD": "Dz.U. 2025 poz. 217 (файл проекта D20250217.pdf)",
+  "PP": "Gramatyka z kulturą. Przez przypadki (B. Maliszewski), UMCS 2020: «Dopełniacz liczby mnogiej», s. 46–51 (s. 48 — окончания и сноски, s. 49 — прилагательные); s. 40 — употребление родительного",
+  "JPBG11": "Język polski bez granic, kl. XI (B1, cz. 2), Wspólnota Polska: lekcja 5, s. 100 («Wyrazy określające ilość» + dopełniacz l. mn.)",
+  "ELON": "elon.io, «The Genitive Plural»: https://elon.io/grammar/polish/nouns/plurals/genitive-plural",
+  "ZPE": "Zintegrowana Platforma Edukacyjna, lekcja «Odmiana rzeczownika i przymiotnika» (таблицы uczeń / żona / okno и dobry по всем падежам): https://zpe.gov.pl/a/odmiana-rzeczownika-i-przymiotnika/DYAl4NsEf",
+  "KEY": "Официальный сборник комиссии B1 (2017), Gramatyka — ключ внесён в tests/b1-sbornik.js сайта: blok 1 (k1-1, k1-3, k1-4, k1-5, k1-6, k1-7, k1-8)",
+  "MORF": "Morfeusz 2 (SGJP) — проверка падежа и числа скриптом tools/morfeusz_check.py (kind «przyp»)"
+ },
+ "facts": [
+  {
+   "id": "G1",
+   "ru": "Родительный мн. числа нужен там же, где родительный ед.: после nie ma, после 5, 6… и kilka, dużo, mało, wiele, после предлогов do, z, bez, dla, u и глаголов szukać, potrzebować; а также в винительном мужско-личных (znam tych studentów).",
+   "pl": [
+    "Mam pięć książek. Nie ma biletów. Znam tych studentów."
+   ],
+   "refs": [
+    "PP s. 48 (таблица «Dopełniacz liczby mnogiej — Rzeczownik (kogo? czego?)»), s. 40 (употребление родительного: ile czegoś jest, nie ma, przyimki, czasowniki)",
+    "JPBG11 s. 100 («Wyrazy te zawsze łączą się z rzeczownikiem w dopełniaczu l. mnogiej…: Na parkingu stało kilkanaście samochodów. Tu jest dużo ludzi. Przeczytał mnóstwo książek.»)",
+    "ELON (pięć kotów, dużo ludzi, nie mam pieniędzy)",
+    "KEY k1-4 (kolejki do kas, nie ma wolnych miejsc), k1-1 (dużo zdjęć)"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G2",
+   "ru": "Мужской род: -ów после твёрдой согласной и после -j, -c (dom → domów, student → studentów, pokój → pokojów); -i после мягких и l (nauczyciel → nauczycieli, gość → gości); -y после cz, sz, rz, ż (lekarz → lekarzy, klucz → kluczy, garaż → garaży). Все мужско-личные на -owie → -ów (panów, synów).",
+   "pl": [
+    "Mam wielu kolegów. Szukam kluczy."
+   ],
+   "refs": [
+    "PP s. 48 (rodzaj męski: -ów po spółgłoskach twardych oraz po -j, -c; -i po miękkich; -y po stwardniałych; * mężczyźni na -owie → -ów; pokojów – pokoi)",
+    "ELON (kot → kotów, dom → domów; nauczyciel → nauczycieli, talerz → talerzy)",
+    "ZPE (D. l. mn. uczniów)",
+    "KEY k1-4 (biletów), k1-5 (prezentów), k1-7 (sukcesów), k1-3 (pociągów), k1-1 (szczytów)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G3",
+   "ru": "Женский и средний род (твёрдая основа): нулевое окончание — отбрасываем -a / -o: kobieta → kobiet, mama → mam, miasto → miast, szkoła → szkół, słowo → słów. Если в конце скопление согласных — вставляем e: książka → książek, okno → okien, jabłko → jabłek, matka → matek.",
+   "pl": [
+    "Nie ma tu kobiet. Mam dziesięć jabłek."
+   ],
+   "refs": [
+    "PP s. 48 (rodzaj żeński ø; rodzaj nijaki ø; *** e ruchome: frytki – frytek, bułka – bułek, jabłka – jabłek, jajka – jajek)",
+    "ELON (zero ending; szkoła → szkół, słowo → słów; fleeting -e-: książka → książek, okno → okien, jabłko → jabłek)",
+    "ZPE (D. l. mn. żon, okien)",
+    "KEY k1-4 (kas, miejsc, nagród, wrażeń), k1-8 (ostatnich prac)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G4",
+   "ru": "Женский род на мягкую, l, -ja, -ia и на согласную: -i / -y: lekcja → lekcji, kuchnia → kuchni, noc → nocy, rzecz → rzeczy, miłość → miłości. Но ulica → ulic (нулевое).",
+   "pl": [
+    "Mam dziś pięć lekcji. Mam dużo rzeczy."
+   ],
+   "refs": [
+    "PP s. 48 (rodzaj żeński: -i czasem po spółgłoskach miękkich, -y czasem po stwardniałych: wiśni, nocy, groszy)",
+    "ELON (noc → nocy, kość → kości, restauracja → restauracji; ulica → ulic)",
+    "KEY k1-7 (wakacji)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G5",
+   "ru": "Средний род на -e / -ie: обычно нулевое окончание: zdjęcie → zdjęć, mieszkanie → mieszkań, zajęcie → zajęć, wrażenie → wrażeń; на -um — -ów: muzeum → muzeów; morze → mórz, pole → pól.",
+   "pl": [
+    "Zrobiłam dużo zdjęć. W mieście jest pięć muzeów."
+   ],
+   "refs": [
+    "PP s. 48 (rodzaj nijaki ø; -ów w rzeczownikach na -um: muzeów)",
+    "ELON (morze → mórz, pole → pól)",
+    "KEY k1-1 (dużo zdjęć), k1-3 (do swoich zajęć), k1-4 (wrażeń), k1-6 (mieszkań)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G6",
+   "ru": "Особые формы: ludzie → ludzi, dzieci → dzieci, pieniądze → pieniędzy, przyjaciele → przyjaciół, tygodnie → tygodni, miesiące → miesięcy, lata → lat, urodziny → urodzin, wakacje → wakacji.",
+   "pl": [
+    "Mam dwoje dzieci i dużo przyjaciół. Nie mam pieniędzy."
+   ],
+   "refs": [
+    "ELON (dużo ludzi, nie mam pieniędzy, kobiet i dzieci, bez moich przyjaciół — przyjaciół как исключение)",
+    "KEY k1-6 (brak pieniędzy), k1-8 (wielu dobrych przyjaciół), k1-5 (z okazji urodzin), k1-7 (wakacji)",
+    "JPBG11 s. 100 (Tu jest dużo ludzi.); JPBG11, lekcja 1 (kilka miesięcy później)",
+    "Zbiór zadań 2017, Gramatyka (kilka miesięcy pomieszkać)",
+    "MORF"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "G7",
+   "ru": "Прилагательные и определения: -ych / -ich (после k, g) во всех родах: nowych domów, polskich książek; ten → tych, mój → moich, nasz → naszych.",
+   "pl": [
+    "Szukam tanich biletów. Nie znam tych ludzi."
+   ],
+   "refs": [
+    "PP s. 49 (rodzaj męski, żeński i nijaki -ych / -ich: kilka dużych talerzy, kosz polskich jabłek)",
+    "ZPE (D. l. mn. dobrych)",
+    "KEY k1-8 (wielu dobrych przyjaciół; kilku ostatnich prac)",
+    "MORF"
+   ],
+   "status": "ok"
+  }
+ ],
+ "noticed": [
+  "В сборнике 2017 родительный мн. — самая частая форма в блоке 1 (около 20 пропусков).",
+  "PP s. 48: у слов на -j обе формы (pokojów / pokoi), у слов на -cz, -sz, -rz, -ż тоже (garaży / garażów, koszy / koszów), но популярнее -y. В ключах принимаем оба, если Morfeusz знает вариант (kluczów Morfeusz знает только как фамилию — не принимаем)."
+ ],
+ "forms": [
+  {
+   "form": "domów",
+   "kind": "przyp",
+   "lemma": "dom",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "studentów",
+   "kind": "przyp",
+   "lemma": "student",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "pokojów",
+   "kind": "przyp",
+   "lemma": "pokój",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nauczycieli",
+   "kind": "przyp",
+   "lemma": "nauczyciel",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "gości",
+   "kind": "przyp",
+   "lemma": "gość",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "lekarzy",
+   "kind": "przyp",
+   "lemma": "lekarz",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "kluczy",
+   "kind": "przyp",
+   "lemma": "klucz",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "garaży",
+   "kind": "przyp",
+   "lemma": "garaż",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "panów",
+   "kind": "przyp",
+   "lemma": "pan",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "synów",
+   "kind": "przyp",
+   "lemma": "syn",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "kolegów",
+   "kind": "przyp",
+   "lemma": "kolega",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "kobiet",
+   "kind": "przyp",
+   "lemma": "kobieta",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "mam",
+   "kind": "przyp",
+   "lemma": "mama",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "miast",
+   "kind": "przyp",
+   "lemma": "miasto",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "szkół",
+   "kind": "przyp",
+   "lemma": "szkoła",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "słów",
+   "kind": "przyp",
+   "lemma": "słowo",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "książek",
+   "kind": "przyp",
+   "lemma": "książka",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "okien",
+   "kind": "przyp",
+   "lemma": "okno",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "jabłek",
+   "kind": "przyp",
+   "lemma": "jabłko",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "matek",
+   "kind": "przyp",
+   "lemma": "matka",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "lekcji",
+   "kind": "przyp",
+   "lemma": "lekcja",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "kuchni",
+   "kind": "przyp",
+   "lemma": "kuchnia",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nocy",
+   "kind": "przyp",
+   "lemma": "noc",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "rzeczy",
+   "kind": "przyp",
+   "lemma": "rzecz",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "miłości",
+   "kind": "przyp",
+   "lemma": "miłość",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "ulic",
+   "kind": "przyp",
+   "lemma": "ulica",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "zdjęć",
+   "kind": "przyp",
+   "lemma": "zdjęcie",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "mieszkań",
+   "kind": "przyp",
+   "lemma": "mieszkanie",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "zajęć",
+   "kind": "przyp",
+   "lemma": "zajęcie",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "wrażeń",
+   "kind": "przyp",
+   "lemma": "wrażenie",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "muzeów",
+   "kind": "przyp",
+   "lemma": "muzeum",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "mórz",
+   "kind": "przyp",
+   "lemma": "morze",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "pól",
+   "kind": "przyp",
+   "lemma": "pole",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "ludzi",
+   "kind": "przyp",
+   "lemma": "człowiek",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "dzieci",
+   "kind": "przyp",
+   "lemma": "dziecko",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "pieniędzy",
+   "kind": "przyp",
+   "lemma": "pieniądz",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "przyjaciół",
+   "kind": "przyp",
+   "lemma": "przyjaciel",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "tygodni",
+   "kind": "przyp",
+   "lemma": "tydzień",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "miesięcy",
+   "kind": "przyp",
+   "lemma": "miesiąc",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "lat",
+   "kind": "przyp",
+   "lemma": "rok",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "urodzin",
+   "kind": "przyp",
+   "lemma": "urodziny",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "wakacji",
+   "kind": "przyp",
+   "lemma": "wakacje",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "nowych",
+   "kind": "przyp",
+   "lemma": "nowy",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "polskich",
+   "kind": "przyp",
+   "lemma": "polski",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "tych",
+   "kind": "przyp",
+   "lemma": "ten",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "moich",
+   "kind": "przyp",
+   "lemma": "mój",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "naszych",
+   "kind": "przyp",
+   "lemma": "nasz",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "tanich",
+   "kind": "przyp",
+   "lemma": "tani",
+   "case": "gen",
+   "n": "pl"
+  },
+  {
+   "form": "biletów",
+   "kind": "przyp",
+   "lemma": "bilet",
+   "case": "gen",
+   "n": "pl"
+  }
+ ]
+}
